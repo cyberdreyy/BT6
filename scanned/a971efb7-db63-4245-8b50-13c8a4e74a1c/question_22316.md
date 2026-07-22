@@ -1,0 +1,13 @@
+Q22316: delegation cleanup failure in Chainlink report ingestion when multiple reports for the same feed arrive in different orders within one transaction or block
+
+Question
+Can an unprivileged attacker enter through `smart-contracts-poc/contracts/oracles/providers/ChainlinkOracle.sol::{updateReport,updateReports}` with permissionless Chainlink Data Streams report submission while multiple reports for the same feed arrive in different orders within one transaction or block, so that removing or revoking a pusher leaves stale write authority that can still affect future updates along `public report submission -> verifierProxy.verify -> report decode -> timestamp/freshness gate -> oracleData write`, corrupting feed id, normalized mid price, spread, timestamp, and ordering across single and batched report submissions? Submission is permissionless because DON verification is the trust anchor, so decode, version dispatch, and timestamp ordering have to stay exact. Publicly revoke or remove delegation, then continue pushing data and see whether writes still land in the old namespace.
+
+Target
+- File/function: smart-contracts-poc/contracts/oracles/providers/ChainlinkOracle.sol::{updateReport,updateReports}
+- Entrypoint: smart-contracts-poc/contracts/oracles/providers/ChainlinkOracle.sol::{updateReport,updateReports}
+- Attacker controls: permissionless Chainlink Data Streams report submission
+- Exploit idea: Reach `public report submission -> verifierProxy.verify -> report decode -> timestamp/freshness gate -> oracleData write` in a live public flow and show that publicly revoke or remove delegation, then continue pushing data and see whether writes still land in the old namespace. The exact value at risk is feed id, normalized mid price, spread, timestamp, and ordering across single and batched report submissions.
+- Invariant to test: Delegation cleanup must fully remove the authority that later fallback or signed updates would otherwise reuse. The concrete assertion should cover feed id, normalized mid price, spread, timestamp, and ordering across single and batched report submissions.
+- Expected Immunefi impact: High if stale update authority can continue writing production feed data.
+- Fast validation: Submit mixed schema reports, repeated feed updates, and batch orders and assert the stored feed state is monotonic and correctly normalized every time.
