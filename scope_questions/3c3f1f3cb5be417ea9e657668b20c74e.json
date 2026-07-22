@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/callbacks/IMetricOmmModifyLiquidityCallback.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_e8eeb96f-66c6-4ea3-9476-08f9b5bd297f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/callbacks/IMetricOmmSwapCallback.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_f918bd25-3636-4bf1-a3b1-61c2e9822228?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/extensions/IMetricOmmExtensions.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_8a0cab5e-029b-4cc6-9711-8ac2fcae4269?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IExtsload.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_9a0e284e-f143-48f3-9da4-9064796f9726?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPoolFactory/IMetricOmmPoolFactoryOwner.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_77d275d4-3de9-4915-b148-22a32dd863cd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPoolFactory/IMetricOmmPoolFactoryPoolAdmin.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_a56063ab-edaf-4ca0-9452-482ee9c0a5c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPoolFactory/IMetricOmmPoolFactory.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_b42afdf1-418f-45f7-b688-563048c70bd4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPoolActions.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_e41c43dd-135f-4bb1-8a5f-14348300359c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPoolCollectFees.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_e778ef6d-2d00-4f2b-8dcc-345f80dc811e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPoolFactoryActions.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_1a1bdb35-8cb8-4782-b129-fe66e84f0560?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPool.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_1bc3d220-bbd1-4cfc-bed4-916aeee785c6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IPriceProvider/IPriceProvider.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_9d7afd1e-50e4-46b3-a04d-ec95f180e0aa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/BinDataLibrary.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_f97fc15a-3677-489b-b193-4a84c3588ac4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/CallExtension.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_1c8b9d4c-e018-435a-8ee2-41ac77b005e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/LiquidityLib.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_b9f7cf93-aa32-4e91-92da-b65518f70af8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/PoolActions.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_aeb25b55-2b02-407c-a156-fcdd5fc3ff1c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/PoolStateLibrary.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_94a53351-b9c5-47a3-a238-f99d7512ca25?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/SignedMath.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_0c20ec4b-a2da-4c67-92fc-dba62225f325?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/Slot0Library.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_5d0a17ba-b378-4d19-9832-e765ff058710?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/SwapMath.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_0a40e1ef-52f1-4258-8aa2-3ca134c6145e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/ValidateExtensionsConfig.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_379b80b4-2e3a-485b-bd35-02952ba654fc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/MetricOmmPoolDeployer.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_6ebdefad-3060-4e85-ad9f-f8175bbde7eb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/MetricOmmPoolFactory.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_3e7d3a21-4301-40e4-9a29-f73655f693a9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/MetricOmmPool.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_25b5038c-c460-433b-b2b0-21aefb11fc27?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/FactoryOperation.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_a7156efd-e32a-4637-8eec-3f3c2aac382d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/FactoryStorage.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_ab1b2c3b-f84e-4fef-8e5a-ef828fe58ec8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/PoolExtensionsConfig.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_2d049e68-09b3-4c7f-a0ea-8b7c8bf8a75a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/PoolOperation.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_285ec562-3b0f-4bc2-9462-9a2af3574e6b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/PoolStorage.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_4dd710f4-f0f6-4465-b2dc-9470c6301fb7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/Slot0.sol -> Scope: Critical. Compressed encoding, codebook, U64x32, timestamp, or sentinel handling decodes stale/zero/wrong price or spread as valid and reaches bad-price swaps.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_e019ef45-d963-449d-995b-56fd9dcbe1d3?mode=deep",
+    "questions_generated": false
+  }
+]
