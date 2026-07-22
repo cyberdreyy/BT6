@@ -1,0 +1,97 @@
+[
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/AnchoredProviderFactory.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_ec710dee-f400-44bf-8023-dd724d0f24b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/interfaces/IAnchoredProviderFactory.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_08a58c59-34f3-4c69-87ac-79fc8ca739a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/interfaces/IAnchorSource.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_4372b36f-7084-41f2-a737-4c15738e89b7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/interfaces/ICompressedOracleV1.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_b6f0a7e4-8c55-438a-b069-e926d941129b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/compressed/CompressedOracle.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_7dbfa245-ff6b-4ab7-9dd4-d50ee912858b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/compressed/OracleBase.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_fb172dde-5439-4fef-8440-86ca0c698541?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/providers/ChainlinkOracle.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_72767cc4-f979-4ce5-987c-1b8025142a2e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/providers/docs/en/abuse-protection-integration.md -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_158892eb-d455-493a-afe3-3abcb453b568?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/providers/docs/ru/abuse-protection-integration.md -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_8fc2b498-d4d1-4a50-b976-8a11912e142a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/providers/OracleBase.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_790f6016-86fc-4fe2-9122-8d16fdcd66a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/providers/PythOracle.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_d1adb6f6-c5cd-444c-82e6-71c23ae15de5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/utils/Codebook256.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_1b13044b-f6fd-4fab-9cf9-65db9d44f009?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/utils/LazerConsumer.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_7e89db1e-3ac1-4c66-b7b3-6050aba914ed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/utils/TimeMs.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_ea31cbef-7835-4b8a-86a4-8755b9139c0e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/oracles/utils/U64x32.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_e46ede4c-119b-46d5-a097-ef8e43d88966?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/PriceProviderFactory.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_c07f507d-ccb9-434a-8ed9-17d4b1eef4e9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/PriceProvider.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_b1baf8fd-9d1c-409c-a6e6-b2a7a6add3b9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/ProtectedPriceProviderL2.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_b2e66c55-d6d8-461c-b1fd-3e0ebf737045?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/ProtectedPriceProvider.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_535d9f0e-0ef3-489a-87f8-f5280566b360?mode=deep",
+    "questions_generated": false
+  }
+]
