@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: metric-core/contracts/utils/MetricReentrancyGuardTransient.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_7af24019-6a9b-4ab9-9c55-378a968b231c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/base/MetricOmmSwapRouterBase.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_9497b7a4-a37f-4763-a0c7-1e8bca3d0c26?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/base/PeripheryPayments.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_8cc1d8d0-919e-4461-9305-421ca799f98b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/base/SelfPermit.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_7a96ec32-b934-4267-ae98-ff9beea5e196?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/common/MetricOmmPoolStateView.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_52287eab-d733-441c-80fb-7dfbb3e60ea6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/extensions/base/BaseMetricExtension.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_df4ab3bf-2450-4ae2-a353-d22c9e05bbac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/extensions/DepositAllowlistExtension.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_3804befa-8996-4b17-baa5-4aa4438ffc8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/extensions/OracleValueStopLossExtension.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_aa0cb3e9-0cc2-4b5c-9ed1-9f495bdd569c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/extensions/PriceVelocityGuardExtension.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_415bbdfe-228e-4fb6-8ef8-396abe2cc21f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/extensions/SwapAllowlistExtension.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_71475092-4d66-4a13-91d6-dc687e465956?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/extensions/IDepositAllowlistExtension.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_59b696ff-a452-471d-be59-e443051c07f8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/extensions/IOracleValueStopLossExtension.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_f588b37f-526f-4895-a036-d5220a172fb6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/extensions/IPriceVelocityGuardExtension.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_3fc714ea-9234-47b0-bbbe-f1f0025a7879?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/extensions/ISwapAllowlistExtension.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_86ad70bf-caab-4e47-b6c4-3ae3a58ff30f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/external/IERC20PermitAllowed.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_4b6c7846-e605-4778-a687-aaea8611902e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/IMetricOmmPoolLiquidityAdder.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_9f7f0852-e698-485e-9d81-d0d7834cb5bc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/IMetricOmmSimpleRouter.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_49b19cff-c54e-4163-9fd1-49f5eae96d73?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/IMetricOmmSwapQuoter.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_22406d43-8387-4276-b52c-4a76fe768743?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/IMulticall.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_14ec84e9-027e-483b-ad29-2cced9862eaf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/IPeripheryPayments.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_d92b7fba-735b-473e-bfe6-f873f6309edd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/ISelfPermit.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_c457480b-9f46-4d36-9361-5ef55e909a26?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/interfaces/IWETH9.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_8cc65516-51c8-4b55-a986-4f703e8dc840?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/libraries/MetricOmmSwapInputs.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_31b5ea43-f8dd-4d5f-a55e-faed0f49d473?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/libraries/MetricOmmSwapPath.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_519546a6-dfc7-4cde-900b-bc1b563a2871?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/libraries/MetricOmmSwapQuoteDecode.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_f1765c26-75cc-45e4-8ded-71e836a714b9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/libraries/MetricOmmSwapResults.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_f89d8319-f39c-470e-89e7-e154c94830da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/libraries/TransientCallbackPool.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_4df60681-2d49-42f5-9e70-dad0bd2591cc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/MetricOmmPoolLiquidityAdder.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_f62f55f2-6aeb-4ce5-8c63-d28aca0e265e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-periphery/contracts/MetricOmmSimpleRouter.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_300398bc-2a39-453e-b2f5-6ac43c15a22e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: smart-contracts-poc/contracts/AnchoredPriceProvider.sol -> Scope: Medium. Oracle utility math or time conversion creates asymmetric rounding or staleness windows that permit fund-impacting bad quotes.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_da033bd5-5259-4bbc-9a01-dadd3dcf126b?mode=deep",
+    "questions_generated": false
+  }
+]
