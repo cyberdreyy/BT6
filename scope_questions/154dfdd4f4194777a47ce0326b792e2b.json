@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/callbacks/IMetricOmmModifyLiquidityCallback.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_e42e77ff-8798-401e-a56c-f52826cf59a7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/callbacks/IMetricOmmSwapCallback.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_1f67d1e8-a3e5-4e5a-b22e-00cd16693747?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/extensions/IMetricOmmExtensions.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_1779cd33-6d30-49e1-904e-53db14bb1082?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IExtsload.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_2446963b-4f30-407f-b886-c775732e7c8a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPoolFactory/IMetricOmmPoolFactoryOwner.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_b981a5ba-103d-4abb-9fae-b87c2e8db426?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPoolFactory/IMetricOmmPoolFactoryPoolAdmin.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_412900c9-1d7d-4fe5-9079-5fbe4271b397?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPoolFactory/IMetricOmmPoolFactory.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_98391313-e942-407d-835e-6d072af5b1e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPoolActions.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_ec808d8d-1227-4c03-953d-f2b0bbb64771?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPoolCollectFees.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_a636c7c0-81d1-4dc0-a7fc-d4b76655014b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPoolFactoryActions.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_c90b923e-8e0a-4c61-af5d-67d2b1a8ae7c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IMetricOmmPool/IMetricOmmPool.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_3e29bb17-aa00-46d9-9dfc-9302fbe2b95c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/interfaces/IPriceProvider/IPriceProvider.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_03fbac32-19d9-408d-82e4-16dac4a57c4c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/BinDataLibrary.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_e98ab2f6-383f-47fd-9785-31c7f0f225bb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/CallExtension.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_66600458-fc22-4d8b-86f0-d99837801b4e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/LiquidityLib.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_d4fbab3a-6416-407c-81aa-c1513021c7a7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/PoolActions.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_2338db47-1064-4808-a7ce-74dc477fbf60?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/PoolStateLibrary.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_65a2f611-63ca-4242-9780-c703ca2cbcd7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/SignedMath.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_bc5aff60-dd41-4d03-8115-d8b469712b04?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/Slot0Library.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_dac46322-a3ef-4c71-8ce0-5afdb9c0668c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/SwapMath.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_0729931a-2d88-4b05-be88-f552a5b534a7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/libraries/ValidateExtensionsConfig.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_17fb0fef-4e3d-44e0-8930-20b83f10c004?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/MetricOmmPoolDeployer.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_d49aac33-6aae-4cc9-8d71-8811d07799eb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/MetricOmmPoolFactory.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_402e99c3-81af-4d5f-8e5c-6992bfb7a7ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/MetricOmmPool.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_4a5a33a1-ceaf-45b5-857d-2c5603f005fe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/FactoryOperation.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_5b643b67-f461-4dbe-8026-3c7a8f24e9fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/FactoryStorage.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_64b2b16f-877e-4e4e-8bf1-b5e33a14b0e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/PoolExtensionsConfig.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_1d3d023f-b53f-4b37-a0c5-d577bfa52ac6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/PoolOperation.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_c599dc15-22f8-452b-81bf-c91df8e40019?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/PoolStorage.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_ad96cb02-c040-4475-a283-3c27158cbbb9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: metric-core/contracts/types/Slot0.sol -> Scope: Critical. FeedId, namespace remapping, pusher authorization, or signature replay bug lets an unprivileged actor overwrite or hijack oracle data used by pools.'",
+    "url": "https://deepwiki.com/search/-generate-oracle-data-integrit_98803ec0-06ab-4a6c-9c61-624942de8642?mode=deep",
+    "questions_generated": false
+  }
+]
