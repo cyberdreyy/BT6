@@ -1,1 +1,0 @@
-I need to carefully trace all signed-data paths in `CompressedOracleV1` to check whether any value that affects price output is omitted from the signed payload — the direct analog of the `tokenGasPriceFactor` omission.

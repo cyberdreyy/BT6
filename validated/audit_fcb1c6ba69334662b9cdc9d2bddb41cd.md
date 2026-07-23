@@ -1,1 +1,0 @@
-Let me look at the Pyth oracle fallback function, which was specifically called out in the audit pivots as a potential issue with feed-list length and offset boundaries.

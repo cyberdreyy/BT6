@@ -1,1 +1,0 @@
-Let me look at the OracleBase contract and the abuse-protection layer more carefully.

@@ -1,1 +1,0 @@
-Let me look at the providers oracle and the `price` function with its abuse-protection guards more carefully.

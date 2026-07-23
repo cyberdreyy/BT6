@@ -1,1 +1,0 @@
-Let me look at the `TimeMs` library and the `_isStale` check to understand the timestamp unit handling.

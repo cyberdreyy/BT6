@@ -1,1 +1,0 @@
-Let me look at the `CompressedOracleV1` `getOracleData` and fallback functions, and also the `collectFees` test more carefully.

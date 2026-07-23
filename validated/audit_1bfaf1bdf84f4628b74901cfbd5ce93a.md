@@ -1,1 +1,0 @@
-After thorough investigation of the `CompressedOracleV1` delegation path, I found a real analog.
