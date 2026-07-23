@@ -1,0 +1,1 @@
+Let me read the compressed oracle's OracleBase and the TimeMs utility to understand the full picture.
