@@ -1,0 +1,13 @@
+# Q15468: unpack_enum_variant_ref type or layout confusion
+
+## Question
+Can a crafted package publish or transaction reach `unpack_enum_variant_ref` with attacker-controlled offset, enum_def_idx, variant_tag, variant_def and make the system interpret the same bytes as two incompatible types, objects, or ownership states, leading to unauthorized transfer, destruction, or custody escape?
+
+## Target
+- File/function: external-crates/move/crates/move-bytecode-verifier/src/reference_safety/abstract_state.rs::unpack_enum_variant_ref
+- Entrypoint: Package publish or package upgrade transaction with crafted Move bytecode, metadata, or dependency state
+- Attacker controls: offset, enum_def_idx, variant_tag, variant_def
+- Exploit idea: Search for deserialized layout assumptions that are weaker than runtime type or ownership expectations.
+- Invariant to test: A serialized object, value, or type layout must have exactly one valid interpretation throughout verification and execution.
+- Expected Immunefi impact: Critical — state corruption or loss of funds through type confusion in package verification or runtime loading.
+- Fast validation: Construct mutated layouts or generic instantiations locally and check whether verification and runtime disagree on the same value.

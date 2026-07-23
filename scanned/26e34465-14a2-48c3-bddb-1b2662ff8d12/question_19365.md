@@ -1,0 +1,13 @@
+# Q19365: upgrade package-triggered crash or invariant failure
+
+## Question
+Can an unprivileged attacker reach `upgrade` with crafted modules, dep_ids, current_package_id, upgrade_ticket_policy during package publish, upgrade, or execution and trigger a panic, fatal assertion, or validator invariant-violation path on unmodified software?
+
+## Target
+- File/function: sui-execution/latest/sui-adapter/src/static_programmable_transactions/execution/context.rs::upgrade
+- Entrypoint: Package publish or package upgrade transaction with crafted Move bytecode, metadata, or dependency state
+- Attacker controls: modules, dep_ids, current_package_id, upgrade_ticket_policy
+- Exploit idea: Look for malformed-but-accepted package state that later violates internal assumptions during verification or execution.
+- Invariant to test: Adversarial package bytes and metadata must be rejected or safely handled without killing validator or fullnode processes.
+- Expected Immunefi impact: Low or Medium — transaction-triggered validator invariant violation or wider liveness impact if the crash is persistent.
+- Fast validation: Generate boundary-case local packages, submit them repeatedly, and record whether execution aborts cleanly or kills the process.

@@ -1,0 +1,13 @@
+# Q18541: native_destroy_empty balance or supply accounting mismatch
+
+## Question
+Can an unprivileged attacker reach `native_destroy_empty` with crafted gas_params, context, ty_args, args and make two accounting views disagree about coin balance, gas, fees, bridge backing, staking value, or total supply, enabling theft, over-credit, or under-collateralized state?
+
+## Target
+- File/function: external-crates/move/crates/move-vm-runtime/src/natives/move_stdlib/vector.rs::native_destroy_empty
+- Entrypoint: Programmable transaction or Move call from an unprivileged account that reaches this code path
+- Attacker controls: gas_params, context, ty_args, args
+- Exploit idea: Stress split/join, burn/mint, fee/refund, reward, or accumulator boundaries until one ledger view updates without the other.
+- Invariant to test: Every balance-affecting path must conserve value and keep all corresponding accounting structures in sync.
+- Expected Immunefi impact: Critical if user or protocol funds can be extracted; otherwise Medium for harmful smart-contract behavior or unintended permanent burn.
+- Fast validation: Run boundary-value transactions locally and compare object state, emitted effects, accumulator values, and visible balances after each step.

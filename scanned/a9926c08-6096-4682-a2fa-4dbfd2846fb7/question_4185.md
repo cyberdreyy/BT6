@@ -1,0 +1,13 @@
+# Q4185: settle_funds settlement accounting gap
+
+## Question
+Can an unprivileged attacker reach `settle_funds` with crafted settled, next_version and make one settlement layer apply a debit, credit, reservation, or refund without the corresponding counter-update, leaving exploitable residual value or stuck liabilities?
+
+## Target
+- File/function: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/address_funds/eager_scheduler/account_state.rs::settle_funds
+- Entrypoint: Programmable transaction or Move call from an unprivileged account that reaches this code path
+- Attacker controls: settled, next_version
+- Exploit idea: Look for multi-step state transitions where a late abort or retry can desynchronize reservations, balances, or effect accounting.
+- Invariant to test: Every debit, reservation, release, and refund must have an exactly paired state transition, even across retries and partial failure.
+- Expected Immunefi impact: Critical if extractable, otherwise Medium for harmful contract behavior or locked value.
+- Fast validation: Run local partial-failure sequences and compare reservation, balance, and effect tables before and after retry.
