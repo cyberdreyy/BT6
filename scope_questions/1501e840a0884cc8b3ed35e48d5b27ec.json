@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/sui-core/src/safe_client.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_99d96028-d5b7-4fc2-9f55-73a526770652?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/signature_verifier.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_7be1d70b-feac-4333-b924-ca553313d837?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/stake_aggregator.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_17932502-9ce9-4076-bd38-c228c0f3a18c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/status_aggregator.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_6dc4ed2c-3c10-48f0-b67c-8372b2e1dc1a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/storage.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_8f12513c-1ad5-495d-9d78-2874c27c39d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/streamer.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_459954f9-2c50-4025-a979-142254006578?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/subscription_handler.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_cbd84f76-ff2b-4377-98fb-f7426e03dc94?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/traffic_controller/mod.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_808f7956-78e0-4ff0-a086-cc8c2c334443?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/traffic_controller/nodefw_client.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_5cdd8b0b-f7c1-4a41-b62a-7e3c6d2192f8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/traffic_controller/policies.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_0fd57aec-b269-4c75-8a18-9a24b0b531d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_deny_config_manager.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_5304ed78-811c-49d0-b674-879ba56e0d7a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/effects_certifier.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_03334c70-b6ed-41bf-b984-31ccf6e65508?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/error.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_5d0d95a9-8349-4cae-9a64-b37f5fdacef3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/mod.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_b42fb95c-287e-49ed-9e46-69e959b08be8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/reconfig_observer.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_06e89b47-3baa-402d-be0d-d70cfc44f228?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/request_retrier.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_22e2e2e7-a67a-4e90-bbdb-558abf9ddd06?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/transaction_submitter.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_fd219833-209e-4591-9e2f-5932cdf580f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_input_loader.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_f65330f4-afa5-46e5-84a2-40ad19d20bf1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_orchestrator.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_d29efa9c-42d8-440a-ba5d-983c012999a0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_outputs.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_5f185cc1-1e1d-4347-9972-b127d02efd69?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_signing_filter.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_4748a4c1-2fa0-4bb3-b4d2-8731025b0be6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/validator_client_monitor/mod.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_444a68bf-69e5-424e-9384-d3a3f20568b8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/validator_client_monitor/monitor.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_2dd70167-0c48-408b-9200-1ef8ba2458ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/validator_client_monitor/stats.rs -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_cbf2ca79-3ce0-4c93-8623-a691e3879190?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/bridge.move -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_dfa70ab7-3a41-471d-9d16-9c7d06f4492f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/chain_ids.move -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_5fe7f75a-aa16-4a6e-b1c8-56f6ea876adb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/committee.move -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_679bd876-186e-46e9-84a0-c7fc7d100c99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/crypto.move -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_4dd0553b-f2de-4b49-94de-1873a4451195?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/limiter.move -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_ed7a9c1c-cfba-49c2-a0ac-1979c627bb39?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/message.move -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_6f0de0fd-9efa-43de-9487-1c03071b1be6?mode=deep",
+    "questions_generated": false
+  }
+]
