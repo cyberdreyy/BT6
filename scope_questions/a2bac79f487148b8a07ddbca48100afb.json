@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/sui-bridge/src/sui_bridge_watchdog/total_supplies.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_afeb5bb8-e54e-4980-ad22-adc60da3980a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/sui_client.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_4f42a86f-ecee-4ee0-9497-6d7cb9f154d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/sui_syncer.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_28f6ce94-c137-4393-b668-1d94b2fc2a29?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/sui_transaction_builder.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_562a72f7-db6e-4d9a-8655-336570fc3f55?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/types.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_9e85e74b-f15a-4018-bac8-b394fe9f62a7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/utils.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_6e597ed0-6691-4e64-bfcb-2ae1234d17e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/balances.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_1dddc7cb-b911-419d-9d6e-7a039283525d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/coin_reservations.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_f3889713-d90a-4b10-bd84-4eb3ded9d49b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/funds_read.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_61f28b14-6155-4e14-b8f6-0c2a75ef2e9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/mod.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_79220e48-af54-412c-a5e2-17d2e41733ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/object_funds_checker/mod.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_69a6e3cc-c678-486a-b6a3-ff6b6c5e40e8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/transaction_rewriting.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_b6224225-1f3d-4177-a7fc-18bac67e55f0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/admission_queue.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_d8ccbe43-1121-4366-aad0-dcd033098406?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_7b1636be-3564-434f-bea4-61ec56796832?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_per_epoch_store.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_34863bc0-61f7-4d9d-a8d3-1d9230b43b25?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_per_epoch_store_pruner.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_de4660bc-08f1-4f2d-85f5-835ebddc89f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_store.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_b57053b9-919e-4e46-a52c-b1d137561c6f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_store_pruner.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_4ff06d6d-5213-4371-b4a2-477526cf28ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_store_tables.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_6f7ded6c-730b-47d7-a47e-99f912a2bc5c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_store_types.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_d8ff7a31-96a0-4eb6-8294-0861cfe785a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/backpressure.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_331e864a-692e-44d5-b364-022a91f670d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/congestion_log.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_d95110d1-470d-4565-b7a2-5f93d52f48b0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/consensus_quarantine.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_85f043c0-5c19-423f-a9e7-498097842ca2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/consensus_tx_status_cache.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_3d6252fa-0c6b-458d-accd-14dd73787699?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/epoch_marker_key.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_7d7f9f68-441e-45d0-8e79-f8c01d067de3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/epoch_start_configuration.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_784a3594-edd6-4ebc-b6f4-91a8209465e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/execution_time_estimator.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_0942fe9e-bac0-4f50-aad8-88d71f05c872?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/finalized_transactions_cache.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_39d03854-1d6b-4e25-92d3-0f37edf0ac09?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/shared_object_congestion_tracker.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_82ea3d6a-d84b-4a13-b696-2082d38e8994?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/shared_object_version_manager.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_d9601439-6eda-4a1d-9053-fe9d57a7fd6a?mode=deep",
+    "questions_generated": false
+  }
+]
