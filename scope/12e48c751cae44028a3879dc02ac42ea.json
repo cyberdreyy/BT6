@@ -1,0 +1,4 @@
+[
+  "'File Name: sui-execution/latest/sui-verifier/src/tx_context_restrictions_verifier.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+  "'File Name: sui-execution/latest/sui-verifier/src/verifier.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'"
+]
