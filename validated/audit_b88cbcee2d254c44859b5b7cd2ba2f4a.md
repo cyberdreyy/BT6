@@ -1,0 +1,1 @@
+Let me explore the compressed oracle and pusher delegation code, which are the key areas mentioned in the task.
