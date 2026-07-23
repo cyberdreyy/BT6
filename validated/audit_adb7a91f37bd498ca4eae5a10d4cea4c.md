@@ -1,0 +1,1 @@
+Let me read the full `AnchoredPriceProvider.sol` and the `Codebook256` contract to complete my analysis.
