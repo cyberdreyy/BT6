@@ -1,0 +1,1 @@
+Let me look at the LazerConsumer decimal normalization and the OracleBase price path more carefully.
