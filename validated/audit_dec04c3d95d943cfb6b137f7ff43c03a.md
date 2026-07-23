@@ -1,0 +1,1 @@
+Let me read the full `allowPushers` and related functions to confirm the exact vulnerability path.
