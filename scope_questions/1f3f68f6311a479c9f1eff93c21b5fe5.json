@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: external-crates/move/crates/move-bytecode-verifier/src/regex_reference_safety/mod.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_06f05122-ca56-4227-8aa1-c70ada50e85a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-bytecode-verifier/src/regex_reference_safety/serializable_state.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_510babe6-53af-4bc1-83bf-01d36bdab2fd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-bytecode-verifier/src/script_signature.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_0c5ca2de-9756-4d8a-8c25-2de259766e24?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-bytecode-verifier/src/signature.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_b6d5e70e-3499-4ed5-a8e9-be5d829c616e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-bytecode-verifier/src/stack_usage_verifier.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_755fc17c-0e7c-4dde-afba-244098e7826d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-bytecode-verifier/src/type_safety.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_bb305960-baf8-47f8-9c87-020906d44e84?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-bytecode-verifier/src/verifier.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_f65f02e1-0714-4eb3-b056-8cc981dabe80?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/account_address.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_f586c2d2-7919-46dc-a4c5-94539da63035?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/annotated_extractor.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_cc423759-1223-469e-97ff-413e62bb23ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/annotated_value.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_212774a7-e796-4b87-a966-54b4b721f3ea?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/annotated_visitor.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_2906af48-e923-440c-b794-dba2084bd4b7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/compressed/annotated/layout.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_a7b3e5a5-87ad-4711-ad19-3ee24830dbf3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/compressed/annotated/mod.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_a6066f92-399c-4ef7-8ec8-a5f7876a43e0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/compressed/annotated/serde_impl.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_ab72807b-9de2-40b2-bbe6-e34d8c92bdb6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/compressed/mod.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_ff85a444-10a4-4cae-bdf5-476f3ef9672d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/compressed/runtime/layout.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_50ae1edf-3502-46d6-8d73-98a35b7e2922?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/compressed/runtime/mod.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_432d000f-0886-474d-8999-4b3500fd92af?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/compressed/runtime/serde_impl.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_b5f7ff17-8815-4f05-8864-a9d90d3803a7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/gas_algebra.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_53be25af-9866-49e4-b9f2-b28667134072?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/identifier.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_d02f3396-f569-428e-91ae-821bacc287b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/language_storage.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_607fb62c-539a-4f64-8dea-03192001b10b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/lib.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_c31bf020-2db7-4cea-971b-d44c028b5335?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/metadata.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_7a394614-3ce1-4f6c-b0cd-dca33044318f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/parsing/address.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_757ec768-3802-41b7-919c-b1c14b3ad039?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/parsing/mod.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_8a955100-aae3-4fd7-bbf2-2377ca06961b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/parsing/parser.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_83bc2dc1-fecc-412a-8c73-30043b889332?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/parsing/types.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_1bb00132-30bb-4916-ae90-a277e1dc7e9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/parsing/values.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_bab06c61-ce00-4e7c-a7e3-e0fd70eaaa33?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/resolver.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_69f4dd68-d0c2-411d-8333-76f145b936dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: external-crates/move/crates/move-core-types/src/runtime_value.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_dc000e41-df94-4984-a161-0794ea895f00?mode=deep",
+    "questions_generated": false
+  }
+]
