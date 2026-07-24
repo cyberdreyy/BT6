@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/sui-bridge/src/sui_bridge_watchdog/total_supplies.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_e180d8ef-88e5-4528-aca2-e1c17c06e0d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/sui_client.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_e910ec93-e4bf-4ec3-b19b-721ca3cf21eb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/sui_syncer.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_7c32eb6c-c5e0-488b-b020-d6303f60b403?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/sui_transaction_builder.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_e67355b0-f58f-4134-a775-84a331a51454?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/types.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_ee37ff4e-8799-4062-a944-b6dd1d302e15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/utils.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_29bbe12e-e02e-419c-9f34-eeb7d03ae2c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/balances.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_d0af9464-e5de-4202-a5ab-4bc7eb3dde71?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/coin_reservations.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_3e92aecd-3f83-4250-9a4f-25a7a859c5c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/funds_read.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_b4b534d6-2614-47f2-8d5a-05de6f514a5d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/mod.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_ff4d0e77-1f67-45c1-a870-7aff8fa2729c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/object_funds_checker/mod.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_9fdd0828-8743-40fa-a80d-f3aa630df7e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/transaction_rewriting.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_55ce3b4d-e994-4304-9022-35c7ddb4f768?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/admission_queue.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_3cbf1bca-11cb-446a-ac70-9c154d6a6361?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_0d193abf-b59f-4693-9ca3-a4caa19d2760?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_per_epoch_store.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_c924d36a-5c3c-4409-934a-e11cca51c812?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_per_epoch_store_pruner.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_9340f619-6b66-4c99-b552-aa3527c4a475?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_store.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_00c21d67-da91-4354-9bd0-fe3caf8eb9d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_store_pruner.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_88ce48a3-d43d-460e-890f-2a0f6ae54d97?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_store_tables.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_af002935-37d8-434f-92d1-62b88d592242?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_store_types.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_0bc918a1-85a2-4686-a46d-c3eaf8d55273?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/backpressure.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_2165c7ed-2a94-419a-a16e-ef1e5f8d63ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/congestion_log.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_1b917ea3-e54c-41a0-8d38-cb4f5576c309?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/consensus_quarantine.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_b72ef408-dcbc-4989-80f8-941dc1a4d24d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/consensus_tx_status_cache.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_9f90aaa2-05d6-4857-bb08-256e1e594801?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/epoch_marker_key.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_73c9a62e-528f-45a1-bf6f-ed47f22f3557?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/epoch_start_configuration.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_73f9e991-87fd-4017-bb22-e3f70d967874?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/execution_time_estimator.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_07892bce-52cc-4ceb-a663-43b69379d34a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/finalized_transactions_cache.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_af7c986c-8cb6-4ccb-ab7c-d85481591e83?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/shared_object_congestion_tracker.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_c2ccdc89-573a-40da-8e8d-998cedac7f4c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/shared_object_version_manager.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_0e69a57a-44c7-484d-a767-949ae8001b22?mode=deep",
+    "questions_generated": false
+  }
+]
