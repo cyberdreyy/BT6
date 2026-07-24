@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/sui-core/src/execution_cache/cache_types.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_17c580bc-1c22-4e7e-bb00-2387f9a4932d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_cache/object_locks.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_5e8eeb52-ae14-45e7-ba1c-270bbf28cb7a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_cache/writeback_cache.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_0ad8300d-d702-45bb-aebb-e2c5683c92c0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_driver.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_a9cc427e-3af5-4f09-9d6b-53a78bceb222?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/execution_scheduler_impl.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_bd1da3ca-08f5-449f-9d57-44465f596587?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/address_funds/eager_scheduler/account_state.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_f07bbb88-24aa-4e94-84fa-05e419f57d12?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/address_funds/eager_scheduler/mod.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_5a9355c4-5ac7-4db3-a452-8d6afdf4a0c5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/address_funds/eager_scheduler/pending_withdraw.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_bd3327dd-5f29-45bf-934d-1d26c23eb041?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/address_funds/mod.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_a946a6b7-7cb9-4ebd-ab33-65da9352bc9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/address_funds/naive_scheduler.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_90d31d2a-bf64-4057-9726-ed6c9acd82db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/address_funds/scheduler.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_46f9b1a7-4a62-46bc-b271-83487b22fa88?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/mod.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_f7b26360-e1cf-4d1f-b214-b411cc04f09f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/mod.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_bc4f6d7c-a4e4-44d9-831e-f8ed811cd58e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/overload_tracker.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_0a16e2e0-ffdf-4c12-b87d-173feedd0d52?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/settlement_scheduler.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_b0b3bde8-6187-451e-85cc-1d352e01562f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/fallback_fetch.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_8b5db88a-6f56-4577-8d65-c8d09787047f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/gasless_rate_limiter.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_826960c4-7a21-4b4d-94c7-40fbde188757?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/global_state_hasher.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_eddb260c-675c-4a25-a8d9-a9053ab0ea11?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/jsonrpc_index.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_aed8e574-bfbf-4ddd-afc4-7870674237c2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/lib.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_a40d25b8-4f0d-4b59-9b1d-f02fad3c9e7c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/module_cache_metrics.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_d6b57cf9-b48e-4211-b864-044b0dcd6078?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/mysticeti_adapter.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_b230e04f-f00b-458b-b82d-1761ddadaf29?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/overload_monitor.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_a96f8ad8-12b9-4e45-8e44-5bf2c15d1eaa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/post_consensus_tx_reorder.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_f2e2dd4f-b344-4b00-a998-b3c790cb9fd3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/randomness_round_receiver.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_6e6ef1e7-027d-44c2-8efb-24b9ffd8de6d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/rpc_store_embed.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_04fedae0-37a9-4948-a1f8-7d38abc30e52?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/rpc_store_ingestion_client.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_47344bf0-6f65-4e4a-9d28-75d1946db352?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/rpc_store_restore_source.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_191dcaaf-f543-489f-828b-bba4954d7390?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/rpc_store_streaming_client.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_9a8f5791-6421-4739-8ee9-a8bd26d9580e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/runtime.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_bc907831-892b-4d99-b890-9d5518c2973d?mode=deep",
+    "questions_generated": false
+  }
+]
