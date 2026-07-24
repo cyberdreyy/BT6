@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/sui-core/src/execution_cache/cache_types.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_26d3a422-6538-4357-92da-e7b0ca9f0fbb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_cache/object_locks.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_512e14d4-fb7d-47e5-9aa6-5b0da0fd761c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_cache/writeback_cache.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_fe0a02dd-7458-447a-83b6-a126f7fd4c51?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_driver.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_838807b3-8963-4772-8f3b-da4ecb4ab2fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/execution_scheduler_impl.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_00397844-1669-4551-9148-490e3901f112?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/address_funds/eager_scheduler/account_state.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_b1d4c480-8f16-4156-a442-3579c86cf088?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/address_funds/eager_scheduler/mod.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_df66cb3d-4109-4bfc-867d-f80393da1126?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/address_funds/eager_scheduler/pending_withdraw.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_37f4aaac-e046-42eb-8791-36377afc23ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/address_funds/mod.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_7674043f-d4cd-42ab-8dbe-8accbf15d2b0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/address_funds/naive_scheduler.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_72adc67e-269a-48ce-afb4-967d56003128?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/address_funds/scheduler.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_fc4c2d38-fa15-4a69-8cca-c88269fca664?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/funds_withdraw_scheduler/mod.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_3c8bbcb1-5e3a-4018-9b78-d9d6882ed20b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/mod.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_99221528-6e41-4345-a78b-816b6c8ee337?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/overload_tracker.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_8b7c3a8c-0cac-49f1-9c80-bcbf79df4651?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/execution_scheduler/settlement_scheduler.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_e994673d-ad8f-47ee-891f-1592c1a7f581?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/fallback_fetch.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_6c88b9fa-fc90-4b12-b9bb-950bd7b957b1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/gasless_rate_limiter.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_89074aac-b2fd-4a85-894c-7486b771ccc8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/global_state_hasher.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_2952a1f9-b67a-45a6-abaf-22a22d094678?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/jsonrpc_index.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_56cbe197-7431-4447-8ba7-75b7bb8baa82?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/lib.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_1049507d-61df-4942-a0ef-709622a7a89f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/module_cache_metrics.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_0ee2219b-962b-461d-a06d-238e3755d225?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/mysticeti_adapter.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_5c2b4342-0255-42e8-b9a2-9510897428d5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/overload_monitor.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_cd2bc20e-6e57-428b-b40e-8ff4ba5e7736?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/post_consensus_tx_reorder.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_40e85c1d-e6bc-451a-8384-54b436f7abda?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/randomness_round_receiver.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_e54fbad5-2f2d-4043-a81a-e487bcd1b434?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/rpc_store_embed.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_cea8e23e-0b37-4d84-83c5-b66c6c1fbf48?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/rpc_store_ingestion_client.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_60f65cc1-fa38-408c-b333-a5722135d243?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/rpc_store_restore_source.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_ce0c3505-62fd-4664-abdd-0acae709f5ee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/rpc_store_streaming_client.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_9a069f4b-6b45-43d5-848d-9b93894f6b62?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/runtime.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_7381831f-1731-4dbf-8965-8cb06f4e7824?mode=deep",
+    "questions_generated": false
+  }
+]
