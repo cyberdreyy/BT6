@@ -1,0 +1,1 @@
+[File: 'crates/sui-framework/packages/sui-framework/sources/hex.move -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'] [Symbol: decode] Can an attacker-controlled empty hex string (b\

@@ -1,0 +1,1 @@
+[File: 'crates/sui-core/src/consensus_commit_summary.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'] [Symbol: build_consensus_commit_summary / format!(\

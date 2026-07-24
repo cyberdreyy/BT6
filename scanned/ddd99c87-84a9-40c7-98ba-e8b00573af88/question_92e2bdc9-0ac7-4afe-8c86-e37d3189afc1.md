@@ -1,0 +1,1 @@
+[File: 'crates/sui-core/src/checkpoints/checkpoint_executor/utils.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'] [Symbol: PipelineHandle::begin] Can PipelineHandle::begin assert_eq!(self.cur_stage, PipelineStage::first(), \
