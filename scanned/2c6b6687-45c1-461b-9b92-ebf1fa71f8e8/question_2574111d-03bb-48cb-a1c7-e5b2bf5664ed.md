@@ -1,0 +1,4 @@
+[File: 'crates/sui-framework/packages/sui-framework/sources/borrow.move -> Scope: Critical. Unauthorized creation, duplication, transfer, release, withdrawal, destruction bypass, or custody escape of SUI, bridged assets, objects, or package-controlled value through verifier, runtime, bridge, ownership, or settlement failure'] [Symbol: sui::borrow::put_back, option::fill] Can put_back() be called on a Referent<T> that was never borrowed (Referent.value is already Some), under the state where an attacker obtains a Borrow from a different Referent_A and calls put_back on an un-borrowed Referent_B with a matching value, via the PTB path borrow(referent_A) -> put_back(referent_B_full, value_A, borrow_A), violating the invariant that option::fill() aborts with EOPTION_IS_SET when called on a non-None Option, corrupting the exact Referent_B.value (potential double-fill if fill does not abort) with scoped impact of object
+
+```python
+questions = [

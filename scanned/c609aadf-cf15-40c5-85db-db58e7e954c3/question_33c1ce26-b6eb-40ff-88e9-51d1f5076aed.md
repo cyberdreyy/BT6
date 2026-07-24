@@ -1,0 +1,1 @@
+[File: 'crates/sui-framework/packages/sui-framework/sources/hex.move -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'] [Symbol: sui::hex::encode (HEX table: bytes 0x0a-0x0f produce b\
