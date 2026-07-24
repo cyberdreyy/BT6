@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/sui-core/src/safe_client.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_2cf91de0-c429-4200-b4e5-b7dda47fec48?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/signature_verifier.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_7ca66cc3-dc39-4feb-9b60-c8860160310c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/stake_aggregator.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_956eed92-173d-42e4-abe8-11899580b04d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/status_aggregator.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_3f29807c-fa6e-4e03-8c63-7954b2080bfc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/storage.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_7618f2f3-f178-467b-8d2b-9d6f96a61aef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/streamer.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_44d89dc3-3ef1-4a88-9672-b259a2f14418?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/subscription_handler.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_2fd5cf1e-dd04-4f32-98a9-227695cf1273?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/traffic_controller/mod.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_be6f55e1-71c6-4fe2-a43f-d837c116485d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/traffic_controller/nodefw_client.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_28e07d19-bc91-41dc-a52f-b10f50d70631?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/traffic_controller/policies.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_b00d93b6-c54e-43d6-a4c5-d4520b58683f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_deny_config_manager.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_efb9bf87-3aa3-479f-b644-eaeb1b7291b3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/effects_certifier.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_1e09d78f-5b89-4cab-8c5f-2fa455c63176?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/error.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_83fdab86-1ac8-4cc9-816e-41d9c38f4ed1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/mod.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_65e8b791-68ff-46a3-afe4-7cbc2e427343?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/reconfig_observer.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_65b9c918-f5ec-49ae-938c-b8be3e8d00f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/request_retrier.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_3ca2ea3f-58dd-4117-bf6a-8fe105eeb91b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/transaction_submitter.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_819eaded-9b3f-436a-b206-c58a31e2b684?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_input_loader.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_6a82b7f1-ed70-4083-b23d-5634b575748e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_orchestrator.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_5372e285-511d-4f82-b5db-c57daaa6c4bb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_outputs.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_fa365e8c-e7f5-4d72-9615-21e6b1876c32?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_signing_filter.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_87f906fe-49e9-4bdc-a9b0-e4ec354a599d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/validator_client_monitor/mod.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_2d8c5746-2780-4c08-a58e-7c881ef61853?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/validator_client_monitor/monitor.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_913a76c8-2540-4083-9ba9-4338533fcc15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/validator_client_monitor/stats.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_84b05b80-7ff7-4414-9302-4418e9c12f74?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/bridge.move -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_4f1f7de4-67c1-44b8-ad4d-0a45d47a4417?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/chain_ids.move -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_1c0150e3-5a11-4b7e-a932-d63cab97bd00?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/committee.move -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_c1dd20a9-52f7-420e-bb20-289dd5ea8327?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/crypto.move -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_34b2cd3e-1469-48dd-b476-87d9ef8262fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/limiter.move -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_297d91dc-e5da-45d6-9ff5-7628b84d9c41?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/message.move -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_6bedbde7-0397-4f5a-8b74-b05d509131be?mode=deep",
+    "questions_generated": false
+  }
+]
