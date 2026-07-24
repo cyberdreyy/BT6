@@ -1,0 +1,1 @@
+[File: 'external-crates/move/crates/move-core-types/src/runtime_value.rs -> Scope: High. Transaction or contract execution flow manipulation that lets an unprivileged actor bypass deny-list, authenticator, dynamic-field, derived-object, capability, or transfer invariants with concrete asset or state impact'] [Symbol: serialize_values / expect(\

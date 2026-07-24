@@ -1,0 +1,1 @@
+[File: 'crates/sui-core/src/authority/authority_per_epoch_store_pruner.rs -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'] [Symbol: prune_old_directories / safe_drop_db(path.join(\

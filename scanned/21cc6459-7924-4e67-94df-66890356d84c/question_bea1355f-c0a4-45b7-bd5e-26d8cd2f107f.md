@@ -1,0 +1,1 @@
+[File: 'crates/sui-framework/packages/sui-framework/sources/url.move -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'] [Symbol: update] Can attacker-controlled ascii::String containing a URL with scheme-relative format (e.g., \
