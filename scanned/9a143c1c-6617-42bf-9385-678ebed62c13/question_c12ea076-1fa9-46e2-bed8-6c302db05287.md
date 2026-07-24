@@ -1,1 +1,0 @@
-[File: 'crates/sui-framework/packages/move-stdlib/sources/bool.move -> Scope: Critical. Unauthorized package upgrade, dynamic loading, privilege escalation, or protected-state mutation by an unprivileged actor that breaks object ownership, transfer, type, or execution authority guarantees'] [Symbol: type_name::is_primitive / string comparison bytes == b\
