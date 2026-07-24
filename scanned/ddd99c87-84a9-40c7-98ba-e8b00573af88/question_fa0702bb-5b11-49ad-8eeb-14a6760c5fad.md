@@ -1,1 +1,0 @@
-[File: 'crates/sui-core/src/checkpoints/checkpoint_executor/utils.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'] [Symbol: stream_synced_checkpoints / run_epoch fold] Can the fold assertion assert!(!state, \
