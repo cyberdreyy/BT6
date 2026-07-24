@@ -1,1 +1,0 @@
-[File: 'crates/sui-framework/packages/sui-framework/sources/crypto/hmac.move -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'] [Symbol: sui::hmac::hmac_sha3_256] Can an attacker supply an empty key (b\
