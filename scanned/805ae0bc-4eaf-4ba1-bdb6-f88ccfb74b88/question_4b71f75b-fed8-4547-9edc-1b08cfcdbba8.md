@@ -1,0 +1,1 @@
+[File: 'crates/sui-types/src/move_package.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'] [Symbol: TypeOrigin.serde alias (struct_name / datatype_name)] TypeOrigin uses #[serde(alias = \
