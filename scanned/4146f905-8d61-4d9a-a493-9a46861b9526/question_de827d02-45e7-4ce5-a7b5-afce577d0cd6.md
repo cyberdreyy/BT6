@@ -1,1 +1,0 @@
-[File: 'crates/sui-types/src/storage/error.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'] [Symbol: RocksDbStore::multi_get_checkpoint_by_sequence_number / .expect(\
