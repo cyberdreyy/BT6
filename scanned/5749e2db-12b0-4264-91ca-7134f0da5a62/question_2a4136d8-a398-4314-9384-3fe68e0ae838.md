@@ -1,1 +1,0 @@
-[File: 'crates/sui-core/src/checkpoints/mod.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'] [Symbol: CheckpointStore::get_epoch_state_commitments / expect(\
