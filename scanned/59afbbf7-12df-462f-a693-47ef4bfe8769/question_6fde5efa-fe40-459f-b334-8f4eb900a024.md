@@ -1,0 +1,1 @@
+[File: 'external-crates/move/crates/move-core-types/src/parsing/values.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'] [Symbol: ValueToken::next_token / Utf8String branch / s[1..].find('\
