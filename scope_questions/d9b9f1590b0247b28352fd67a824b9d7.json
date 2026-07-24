@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/sui-bridge/src/sui_bridge_watchdog/total_supplies.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_8ae89c1d-aa7c-4bd5-a58f-9a79ce11516e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/sui_client.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_1d6d727c-456d-4712-9050-14d207cdfe65?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/sui_syncer.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_e750b3d6-d0a1-49a1-ba87-e57b5feb4ea7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/sui_transaction_builder.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_4ed1b5dd-1a95-4e29-9fec-ad8be149a216?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/types.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_750c3e74-ba8e-4965-9ace-f1e192db0dd2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-bridge/src/utils.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_ffaff25a-2dc3-4729-8243-322eb071607b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/balances.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_aa3dfc86-85b7-498a-9d69-fd0616f0af2c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/coin_reservations.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_db67c462-60b0-4126-abcc-b22ed8f4f309?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/funds_read.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_e6cc0d88-7458-46a4-bde6-5e3a36cdcb81?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/mod.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_a8f751bf-2b5d-4d7a-9d42-badda590968a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/object_funds_checker/mod.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_62de3b68-1e73-4626-b398-5597164b67ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/accumulators/transaction_rewriting.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_445e3ad4-8302-4f5b-9ed1-9ecec7e2b619?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/admission_queue.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_207daf53-2f0b-481e-a0e8-970aaa8ae539?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_e7a8fb41-eda0-4b7a-bcb6-c8a73220648e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_per_epoch_store.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_76385f5d-9b65-4b21-aafc-e6a82cf210c2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_per_epoch_store_pruner.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_f6c5043f-1eca-43fe-9d09-7b011486e614?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_store.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_5df19a7b-3a52-48a3-b1a7-5770f94db406?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_store_pruner.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_af0bb872-69c0-4e40-b341-32cddb7c572f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_store_tables.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_e0191fd8-5fdf-4f00-897a-56bbcb6a39b7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/authority_store_types.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_907547b8-5313-4432-be30-a041e0b5acdc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/backpressure.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_ecb3b039-3c39-4cc2-847d-d857973498a8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/congestion_log.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_dd40d4d0-ad0c-4530-bf8e-e2b1d884c71c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/consensus_quarantine.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_3f841b56-d02a-4e52-b88f-cce864d4f1a8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/consensus_tx_status_cache.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_1e7d16dc-3278-4669-9f8d-c4a93c4e24eb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/epoch_marker_key.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_5b88a56c-d081-4aa5-a7e4-2f18d1e0b161?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/epoch_start_configuration.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_072da799-0bdf-4369-9668-d4e867c91278?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/execution_time_estimator.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_86012bc2-84e0-42d5-b019-2a3fee46ed3a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/finalized_transactions_cache.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_1774b4ea-e5f1-47d2-b807-36f1c7e6e201?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/shared_object_congestion_tracker.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_596ca1a9-50c2-4439-b68b-4916f6a859ac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/authority/shared_object_version_manager.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_33a6e346-c614-4795-bda8-61f46d7bbb4c?mode=deep",
+    "questions_generated": false
+  }
+]
