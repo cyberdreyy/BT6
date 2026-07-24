@@ -1,1 +1,0 @@
-[File: 'crates/sui-node/src/lib.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'] [Symbol: try_recover_forks / build_version string comparison (line 2499)] Can the `build_version` string being set to `\
