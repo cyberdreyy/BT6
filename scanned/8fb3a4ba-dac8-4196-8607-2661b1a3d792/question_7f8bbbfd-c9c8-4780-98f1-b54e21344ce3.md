@@ -1,0 +1,1 @@
+[File: 'external-crates/move/crates/move-core-types/src/parsing/parser.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'] [Symbol: parse_value / HexString hex::decode unwrap] Can attacker-controlled hex string value 'x\

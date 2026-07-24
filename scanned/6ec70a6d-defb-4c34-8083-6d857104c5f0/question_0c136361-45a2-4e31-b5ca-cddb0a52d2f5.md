@@ -1,0 +1,1 @@
+[File: 'crates/sui-core/src/epoch/epoch_metrics.rs -> Scope: Critical'] [Symbol: EpochMetrics::checkpoint_builder_advance_epoch_is_safe_mode / record_checkpoint_builder_is_safe_mode_metric (fail_point)] Can the fail_point!(\
