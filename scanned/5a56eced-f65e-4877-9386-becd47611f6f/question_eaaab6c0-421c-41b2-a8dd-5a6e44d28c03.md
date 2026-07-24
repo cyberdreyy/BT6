@@ -1,1 +1,0 @@
-[File: 'crates/sui-framework/packages/sui-framework/sources/crypto/hmac.move -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'] [Symbol: hmac_sha3_256] Can an attacker-controlled empty key vector (b\
