@@ -1,1 +1,0 @@
-[File: 'external-crates/move/crates/move-core-types/src/parsing/values.rs -> Scope: High'] [Symbol: ValueToken::next_token / ByteString / escape character check] Can an attacker-controlled byte string 'b\
