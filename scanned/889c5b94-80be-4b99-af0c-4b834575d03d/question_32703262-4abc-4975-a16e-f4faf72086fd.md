@@ -1,1 +1,0 @@
-[File: 'crates/sui-types/src/id.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'] [Symbol: ID / #[serde(transparent)] / UID::to_bcs_bytes] Can an attacker-controlled RPC caller supplying a JSON-encoded ID value as {\
