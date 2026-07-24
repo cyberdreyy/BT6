@@ -1,0 +1,1 @@
+[File: 'crates/sui-types/src/governance.rs -> Scope: High. Acceptance of forged, stale, malformed, differently encoded, or insufficiently bound signatures, authenticators, proofs, bytecode, packages, bridge approvals, or verifier inputs that bypass execution gates'] [Symbol: WITHDRAW_STAKE_FUN_NAME constant] Can an attacker observe that the WITHDRAW_STAKE_FUN_NAME constant (\
