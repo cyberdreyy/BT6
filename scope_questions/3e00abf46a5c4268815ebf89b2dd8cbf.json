@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/sui-core/src/safe_client.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_cf679368-588d-4dad-82ed-d2380c1936b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/signature_verifier.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_941b3d73-29ad-4111-9c61-2da4189fa4f8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/stake_aggregator.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_283daf0c-87db-4f89-a249-dc20b8525c07?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/status_aggregator.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_ab8fea4e-8dad-41aa-96f9-03231495b698?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/storage.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_03e1ce2b-8b55-431e-935b-6172c68f6d2a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/streamer.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_a63e917b-4114-4a0f-ac99-da884adb6916?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/subscription_handler.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_848df2dc-7aec-479f-b517-2a55ee26dafe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/traffic_controller/mod.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_9aafda58-0024-4d5c-8c62-f4de7843f57a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/traffic_controller/nodefw_client.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_3cfed9aa-d767-415b-8706-dc16d5fb12e7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/traffic_controller/policies.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_8f74b960-4f94-4861-9815-66c7a598f961?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_deny_config_manager.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_f36fa340-71ce-4b1a-9015-cfbd584ec096?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/effects_certifier.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_f8ed1d5b-02ad-4a6d-b831-fadbb9d18f9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/error.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_34d90285-a4e0-498c-8918-384a40f39d11?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/mod.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_c996b55c-32ae-4efa-b6f4-d9cdd7a8ed11?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/reconfig_observer.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_f968e492-d66c-4d42-8691-aaa98e0493c6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/request_retrier.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_c033f482-149c-4177-a6fa-c755f56af537?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_driver/transaction_submitter.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_f8cb07fc-85cf-48f2-8fe9-5319e83a7ae4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_input_loader.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_41f5c67d-5237-4da1-a7a7-968b48798f12?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_orchestrator.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_f8dc7abc-3a78-40ff-9e9d-5ce1c7a47f0b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_outputs.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_68999430-1f0e-4734-ad31-b9c45367ab78?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/transaction_signing_filter.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_e36ead71-e584-49ef-9ac5-de500bad6f53?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/validator_client_monitor/mod.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_561507c1-ca6d-41c0-94be-cfd43c8226d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/validator_client_monitor/monitor.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_c211e579-1524-4612-803e-723f13d36150?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-core/src/validator_client_monitor/stats.rs -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_8ca53c3d-67af-4305-9fc3-4be1e830fdc6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/bridge.move -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_0e05d975-b57f-439f-b185-cd658fff9ac8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/chain_ids.move -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_0405266d-536a-4705-9ae1-568f3da0ef5c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/committee.move -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_d58124db-f6d0-4bcf-829c-f0028a80ffc6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/crypto.move -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_d6b839de-b9b7-4f03-b886-29dd0a9ff13e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/limiter.move -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_80128ea8-5bac-4f44-b237-3551187e1c39?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/sui-framework/packages/bridge/sources/message.move -> Scope: High. Replayable, non-unique, duplicated, stale-finalized, or cross-domain transaction, checkpoint, bridge message, nonce, proof, or settlement handling that causes double execution, double credit, or unbacked supply'",
+    "url": "https://deepwiki.com/search/-generate-sui-protocol-securit_c58e7520-6190-45e1-a4f7-eb3dbde3af04?mode=deep",
+    "questions_generated": false
+  }
+]
