@@ -1,0 +1,1 @@
+[File: 'crates/sui-types/src/event.rs -> Scope: High'] [Symbol: Event::is_system_epoch_info_event] Can an attacker-controlled package publish a Move struct with type_params non-empty but address==SUI_SYSTEM_ADDRESS, module==\
