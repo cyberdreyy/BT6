@@ -1,0 +1,1 @@
+[File: 'crates/sui-types/src/coin_registry.rs -> Scope: Medium. Cryptographic domain-separation, hashing, signature-verification, or message-authenticity flaw that misbinds transaction, package, bridge, or protocol intent without requiring privileged keys'] [Symbol: Currency::is_currency] Can an attacker-controlled StructTag with address==SUI_FRAMEWORK_ADDRESS, module==\
