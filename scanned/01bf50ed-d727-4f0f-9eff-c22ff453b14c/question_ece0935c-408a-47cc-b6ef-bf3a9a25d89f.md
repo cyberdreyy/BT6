@@ -1,1 +1,0 @@
-[File: 'crates/sui-core/src/consensus_commit_summary.rs -> Scope: Medium. Consensus, mempool, RPC, or peer-to-peer handling flaw reachable from unprivileged external input that deterministically causes validator shutdown, fullnode crash, or network instability on unmodified software'] [Symbol: build_consensus_commit_summary / format!(\
