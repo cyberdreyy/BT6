@@ -1,4 +1,0 @@
-[File: 'external-crates/move/crates/move-bytecode-verifier/src/regex_reference_safety/abstract_state.rs -> Scope: Critical. Irreversible fund lock, frozen withdrawal or redemption path, permanently unclaimable object or coin state, or unrecoverable bridged value in transaction, bridge, staking, accumulator, or settlement flows'] [Symbol: AbstractState::join_ / changed detection false negative] Can a package publisher craft a loop where `join_` (line 699) returns `Ok(false)` (unchanged) even though the borrow graph actually changed, causing the abstract interpreter to terminate fixpoint iteration early with an unsound abstract state that under-approximates the set of active borrows, allowing a `write_ref` on a Coin balance ref that is actually borrowed on some loop iteration to pass
-
-```python
-questions = [
