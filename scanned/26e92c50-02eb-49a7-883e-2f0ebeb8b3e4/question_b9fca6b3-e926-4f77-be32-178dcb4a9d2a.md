@@ -1,1 +1,0 @@
-[File: 'crates/sui-framework/packages/sui-framework/sources/hex.move -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'] [Symbol: sui::hex::decode] Can attacker-controlled hex string of length 2 encoding byte 0x80 (b\
