@@ -1,1 +1,0 @@
-[File: 'crates/sui-types/src/execution_params.rs -> Scope: Medium. Unintended permanent chain split, inconsistent finalization, or hard-fork-requiring state divergence caused by public input without assuming malicious validators, peers, or operators'] [Symbol: get_early_execution_error / FundsWithdrawStatus::Insufficient + assert_reachable!] Can the assert_reachable!(\
