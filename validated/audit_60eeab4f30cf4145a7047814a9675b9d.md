@@ -1,0 +1,1 @@
+I'll analyze the external bug's root cause (unprivileged user manipulates a balance/state check to DoS a critical function) and search for a native analog in the Sui repository.
