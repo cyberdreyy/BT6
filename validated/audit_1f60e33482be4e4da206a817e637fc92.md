@@ -1,0 +1,1 @@
+Let me analyze the bug class from the report: a burn/mint accounting counter that only grows (never decremented on mints), allowing the effective mint cap to be bypassed. I'll search for analogous patterns in the Sui repository.
