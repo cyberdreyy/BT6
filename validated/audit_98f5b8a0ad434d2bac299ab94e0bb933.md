@@ -1,0 +1,1 @@
+Let me analyze the bug class from the external report and search for analogs in the Sui repository. The core issue is a two-phase operation (request/execute) where the request phase lacks slippage/bounds validation, and the execute phase has bounds checking that can be manipulated without limits.

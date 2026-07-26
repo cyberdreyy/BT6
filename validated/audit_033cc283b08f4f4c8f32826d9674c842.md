@@ -1,0 +1,1 @@
+Based on my research, I need to look at the `token.move` module more carefully for the rule/config pattern, and also examine the `config.move` `remove_for_next_epoch` behavior more closely.
