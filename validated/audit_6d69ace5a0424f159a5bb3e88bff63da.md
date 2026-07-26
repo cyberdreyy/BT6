@@ -1,0 +1,1 @@
+I found a direct analog. Let me trace the exact code path.
