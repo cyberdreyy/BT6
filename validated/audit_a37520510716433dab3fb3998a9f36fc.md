@@ -1,0 +1,1 @@
+Let me look at the `ValidatorSet::new()` function to check if initial validators are added to `staking_pool_mappings`.
