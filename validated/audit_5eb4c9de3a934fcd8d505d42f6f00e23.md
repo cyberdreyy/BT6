@@ -1,1 +1,0 @@
-Looking at the actual code to verify each step of this claim.

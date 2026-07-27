@@ -1,1 +1,0 @@
-Looking at the actual code, I need to trace the exact behavior of both checkers for the `StLoc` scenario described.

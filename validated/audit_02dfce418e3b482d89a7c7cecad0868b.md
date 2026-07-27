@@ -1,1 +1,0 @@
-Looking at the actual code and the full enforcement chain to evaluate this claim.

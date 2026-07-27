@@ -1,1 +1,0 @@
-Looking at the actual code to trace the amplification_factor computation and cast.
