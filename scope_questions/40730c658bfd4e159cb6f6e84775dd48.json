@@ -1,0 +1,117 @@
+[
+  {
+    "question": "'File Name: contracts/BaseEscrow.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_166f0d1e-170e-4504-80f1-61c5d75ad3e1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/BaseEscrowFactory.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_09420b6c-bcb8-4736-af9e-d45393dcde83?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/Escrow.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_4b26e3d2-540c-4abb-a4ac-f77205905233?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/EscrowDst.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_27e2c03f-bb4a-4950-bf82-8310b470bf23?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/EscrowFactory.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_6f5a5914-c25e-4ff1-bb9d-d072ce6c4ff8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/EscrowFactoryContext.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_2d88bb7f-d706-4e72-b9b5-26294e18797d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/EscrowSrc.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_3fcc3ff5-469e-450b-a169-634498e61861?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/MerkleStorageInvalidator.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_e26a3347-c1dd-436c-bc0b-17be2c24e956?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/interfaces/IBaseEscrow.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_d9a9d62e-abe1-42e7-ab5f-a4907e1fc169?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/interfaces/IEscrow.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_7c9b336f-6875-4e18-a599-5ebb79248a52?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/interfaces/IEscrowDst.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_04879be9-408a-4371-99ac-335eadc9761e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/interfaces/IEscrowFactory.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_ec4a3b82-e976-4186-9215-f90db28e36dd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/interfaces/IEscrowSrc.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_9b342a18-9382-49b3-9cd9-fee6770f036d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/interfaces/IMerkleStorageInvalidator.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_caae2095-65f3-4688-a070-69ada60e2515?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/libraries/ImmutablesLib.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_6b2042a8-55f6-41a9-b7f0-f626df018d12?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/libraries/ProxyHashLib.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_5b01d4f9-0ec4-4a2c-82c7-5f7cd820a898?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/libraries/TimelocksLib.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_5aa4e45c-9c68-470f-ab1c-c7341b079d6f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/zkSync/EscrowDstZkSync.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_b5fd7da5-ee4e-4354-b2a6-67cbe391dc40?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/zkSync/EscrowFactoryZkSync.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_fe650438-7179-4803-abcc-040a661e9ede?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/zkSync/EscrowSrcZkSync.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_c65cde9e-6f4a-4594-a415-d5b6406bae7c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/zkSync/EscrowZkSync.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_99074078-03ed-4352-b01e-4e031d53206d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/zkSync/MinimalProxyZkSync.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_535fd7ff-d297-4136-ba95-a2c90c877899?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: contracts/zkSync/ZkSyncLib.sol -> Scope: High. Replay, double-withdraw, double-cancel, stale-secret reuse, stale-proof reuse, or partial-fill accounting failure that causes duplicated execution or wrong payout'",
+    "url": "https://deepwiki.com/search/-generate-1inch-crosschain-swa_792c89a1-21d4-40eb-87bd-d8436e08be7d?mode=deep",
+    "questions_generated": false
+  }
+]
