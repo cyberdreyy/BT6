@@ -1,0 +1,1 @@
+[File: contracts/libraries/ProxyHashLib.sol -> Scope: High] [Symbol: EscrowSrc.withdraw / BaseEscrow.onlyValidImmutables] Can an unprivileged taker call withdraw(secret, immutables) with an Immutables struct whose `parameters` field was tampered with (since factory sets parameters:
