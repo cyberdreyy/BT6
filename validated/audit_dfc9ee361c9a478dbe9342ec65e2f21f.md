@@ -1,0 +1,1 @@
+functions.grep_search:21{"pattern": "remainingMakingAmount", "repo_name": "Thankgod67Ikhide/cross-chain-swap--003", "include": "*.sol"}
