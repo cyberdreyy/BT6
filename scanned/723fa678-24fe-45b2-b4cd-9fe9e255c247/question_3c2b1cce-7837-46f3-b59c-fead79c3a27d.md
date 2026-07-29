@@ -1,1 +1,0 @@
-[File: ... Scope: Medium ...] [Symbol: hashMem] Can the fixed `patchLocation := sub(add(immutables, IMMUTABLES_SIZE), 0x20)` arithmetic in `hashMem` write outside the actual `Immutables` memory region when `immutables.parameters` is empty (as used for `EscrowSrc` where `parameters:
