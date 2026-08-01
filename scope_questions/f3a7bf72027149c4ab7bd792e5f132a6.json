@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/pruner_worker.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_65a44d92-d5fd-4ce5-9a05-0ccbdfd3fe11?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/generics.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_fa0113a7-d717-46c8-b6e4-b1ef011aa18a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/state_kv_metadata_pruner.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_872d891f-6ab2-446a-bb3d-ed12a5740e24?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/state_kv_pruner_manager.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_a0792287-c879-4e23-aaaa-cb956ea5d362?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/state_kv_shard_pruner.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_220ea7d2-0d61-4301-9d51-5629bde82eb9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/generics.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_d496e846-f41c-4440-b489-d1fbc0c819aa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/leaked_stale_node_cleaner.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_2c30c739-b4be-422e-85cc-c92b0627f02c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_metadata_pruner.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_aadf3a7f-e4ea-47a3-82aa-25dd92629249?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_pruner_manager.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_b02beb64-0a82-490b-808a-b6cf06a1af2e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_shard_pruner.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_fcd346a4-a623-47dc-adda-e1e94cbd8d02?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/rocksdb_property_reporter.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_5d998325-e243-4db7-9fb1-85265c304bfe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/sharded_jmt_merkle_db.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_6363704e-98ac-4a6a-914b-f056984bd84b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/sharded_kv_db.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_e389f709-e374-4dc8-a802-3353d729fcce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_kv_db.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_560477c3-e8c2-4390-a338-0f4d0d119f39?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_merkle_db.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_706ac999-7efe-4267-a551-2cbf2dd2f418?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/buffered_state.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_cf449ef5-2a70-4b93-8d49-3aa5602e0b45?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/hot_state.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_158a99a5-f5d4-482a-837e-2c37b285a41b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/persisted_state.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_7543d7d7-502e-485e-82f8-9d466db113ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/state_merkle_batch_committer.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_2f56b0fa-ee5a-4062-9234-161b40d9f714?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/state_snapshot_committer.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_884b4447-5d12-4cf8-a165-fe8bbc9298f9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_value_chunk.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_ef944ae2-f564-4bda-b1d7-3da72196b8bc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/trading_native.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_b75e9fcc-276a-4370-9dee-20066bcbdcf7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/utils/iterators.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_60e0368e-6111-41c8-9a20-a21779ef5bc7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/utils/truncation_helper.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_e814f4af-23eb-4189-8412-70b50af67d2b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/versioned_node_cache.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_4e06a995-3496-4c9a-80f4-822954f65a3c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/schemadb/src/batch.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_71c9cb37-8462-4f90-8a4e-615781aea939?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/schemadb/src/iterator.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_a48ff5cf-bf2c-4062-8f22-455e47d8bc0b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/schemadb/src/schema.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_dc22d02a-0926-44e9-84f6-7bc611ab30fd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/scratchpad/src/sparse_merkle/dropper.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_cf45e56e-9915-44f9-b0c8-0a2c02bceb5b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/scratchpad/src/sparse_merkle/node.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_9e59bc64-b863-4b6b-9614-f3dc214e0a4d?mode=deep",
+    "questions_generated": false
+  }
+]
