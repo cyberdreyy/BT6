@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/aptos-crypto/src/arkworks/serialization.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_f89e3c6c-8a50-4b52-919f-4cb10f466b42?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/arkworks/shamir.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_17cf1c23-88b0-4168-8fc1-b8202834ebee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/arkworks/srs.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_8f6dc661-e667-49ca-b331-565a3db41aeb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/arkworks/vanishing_poly.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_0e53c260-40b0-4510-9f45-2f8e710e06be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/arkworks/weighted_sum.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_0f693b83-370c-4887-bc9e-941ef3f3febb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/asymmetric_encryption/elgamal_curve25519_aes256_gcm.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_3a3026af-8e08-46f2-ae53-47f89791b1a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/bls12381/bls12381_keys.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_63e32bec-cde6-48c5-93ec-dff7d40f15f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/bls12381/bls12381_pop.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_e516d893-1946-41f6-8005-81b83160c750?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/bls12381/bls12381_sigs.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_a58e3ef6-068a-47c4-94fc-d654cf527b3b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/bls12381/bls12381_validatable.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_2f6cc927-5ac9-4ba3-8ac6-cfca3cb6d4ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/blstrs/evaluation_domain.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_e46db20b-9137-4ce5-a689-662fad830a72?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/blstrs/fft.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_44b844e1-a28d-4a3f-97ca-6d35e2b80825?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/blstrs/lagrange.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_30eb223f-8a24-4c77-a94b-b7397c9607d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/blstrs/polynomials.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_cdb97fe3-1f31-4678-aa60-d09b097a58a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/blstrs/random.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_d8d15b4d-9443-40a1-a4e6-fb48ba2bc5e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/blstrs/scalar_secret_key.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_318a288f-8545-46eb-91d2-6d458646bb4e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/blstrs/threshold_config.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_48d0ed4f-d411-434f-bf0d-08ad3adeef54?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/compat.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_41a75ea1-68ab-433d-a3bd-fc3c7b1d5f9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/constant_time/blstrs_scalar_mul.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_20a0007b-b5b6-49d6-b352-50fcbdaa8ff4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/constant_time/zkcrypto_scalar_mul.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_3b84e3dc-1412-4ff6-a688-31c9060b0f5b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/ed25519/ed25519_keys.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_97abfdad-b1b5-49e0-9e64-9d09440a5f01?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/ed25519/ed25519_sigs.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_982b7d46-9893-46ab-81bc-52619d50b9f1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/elgamal/curve25519.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_45ad31d0-b69e-4719-9a18-08212ee546e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/encoding_type.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_ee496ba6-dc7a-443c-9eb8-3f3a56b9b14f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/hash.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_30ca2cfe-bf14-4aef-923b-0ae487169cb3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/hkdf.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_70e40dc4-fdf5-47eb-899a-135237093d82?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/input_secret.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_484230d6-1793-4c83-ac56-0ebdfa5c8563?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/multi_ed25519.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_40bb1067-b62f-4bf8-8a6d-e5269c7e6349?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/noise.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_66b22175-a559-4a42-aa73-23082f68bafc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/aptos-crypto/src/player.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_8c0f4fd1-cfef-46e9-b11c-1009882df67d?mode=deep",
+    "questions_generated": false
+  }
+]
