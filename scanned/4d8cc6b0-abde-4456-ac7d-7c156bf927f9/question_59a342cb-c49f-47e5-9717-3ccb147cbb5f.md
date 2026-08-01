@@ -1,1 +1,0 @@
-[File: same as above] [Symbol: vesting::set_beneficiary] Can any unprivileged account call set_beneficiary on a VestingContract they do not own or administer, redirecting future vesting distributions for a shareholder to an attacker address? Proof idea: Move test where non-admin account calls set_beneficiary and asserts abort with permission-denied error code.

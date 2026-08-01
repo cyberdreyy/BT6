@@ -1,1 +1,0 @@
-[File: same as above] [Symbol: delegation_pool::set_delegated_voter] Can an unprivileged delegator (not the pool creator/owner) call set_delegated_voter to hijack voter role on a delegation pool without holding owner capability, corrupting the voter/operator role invariant? Proof idea: test asserting only the pool's owner capability holder can change the delegated voter.
