@@ -1,1 +1,0 @@
-[File: 'File Name: execution/executor-types/src/transactions_with_output.rs -> Scope: High.'] [Symbol: TransactionsWithOutput::iter/last] Can a malformed or attacker-supplied TransactionOutput at the last position of a chunk (via apply_chunk with a proof for an output list) omit auxiliary info in a way that TransactionsWithOutput::last()'s .expect(\
