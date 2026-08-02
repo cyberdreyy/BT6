@@ -952,12 +952,8 @@ target_scopes = [
 ]
 
 APTOS_ALLOWED_IMPACT_SCOPE = """## Stake And Lockup Gate
-Accept only mainnet-relevant stake, delegation, vesting, and lockup impacts:
-- Theft, redirect, unlock, reactivate, or withdrawal of stake, delegation, or vesting balances not owned by the attacker.
-- Permanent lock or non-recoverable loss of claim rights in stake, delegation, commission, beneficiary, or vesting flows.
-- Operator commission, beneficiary payout, or share-accounting corruption that credits the wrong account or traps value.
-- Wrong-role control over owner, operator, voter, or beneficiary state without already holding that role.
-Never count: malicious peer or node behavior, generic network DoS, Consensus Observer-only impact, `consensus/src/dag`, `experimental`, `keyless/pepper`, AIP-103 Permissioned Signer, AIP-104 Account Abstraction, leaked keys, privileged governance or admin assumptions, social engineering, third-party oracle errors, tests, mocks, fixtures, benches, examples, docs, readmes, generated or build files, `.toml`, event-only mismatches, minor rounding or style, and dependency-only claims without a repo root cause."""
+Accept only mainnet-relevant stake, delegation, vesting, and lockup impacts
+Never count: malicious peer or node behavior """
 
 APTOS_AUDIT_PIVOTS = """## Stake And Lockup Pivots
 - Stake, staking_contract, staking_proxy, delegation_pool, and vesting flows must preserve ownership and claim rights across epoch transitions.
@@ -998,7 +994,7 @@ def question_generator(target_file: str) -> str:
     Return Python only.
 
     questions = [
-    "[File: {target_file}] [Symbol: symbol_or_module] Can attacker-controlled INPUT under REQUIRED_STATE reach LOCKUP_OR_REWARD_PATH and break MAINNET_STAKE_OR_VESTING_INVARIANT, corrupting EXACT_VALUE with scoped impact SCOPE_IMPACT? Proof idea: write a focused repo test that drives the epoch or payout path and asserts EXPECTED_OWNERSHIP_OR_WITHDRAWAL_PROPERTY.",
+    "[File: {target_file}] Can attacker-controlled INPUT under REQUIRED_STATE reach LOCKUP_OR_REWARD_PATH and break MAINNET_STAKE_OR_VESTING_INVARIANT, corrupting EXACT_VALUE with scoped impact SCOPE_IMPACT? Proof idea: write a focused repo test that drives the epoch or payout path and asserts EXPECTED_OWNERSHIP_OR_WITHDRAWAL_PROPERTY.",
     ]
     """
     return prompt
