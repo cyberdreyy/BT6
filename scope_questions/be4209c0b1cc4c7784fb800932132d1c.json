@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/pruner_worker.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_70822b74-8e4e-41e0-908f-d68d7b16a9a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/generics.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_c06d42cd-1937-4340-ba6a-83a9c1fc1669?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/state_kv_metadata_pruner.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_187ec8a0-d2ca-4e03-b6a4-8dfe11b7aefc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/state_kv_pruner_manager.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_4aaa7675-a7ec-480a-8185-514e847b192e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/state_kv_shard_pruner.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_f5e7b140-6ee6-4182-935c-fe58cc0e627e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/generics.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_2411554b-20f7-42db-ac27-79f81aa465b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/leaked_stale_node_cleaner.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_fd0e99f6-69ee-4f3f-99a7-04c4cb7482cc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_metadata_pruner.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_a7eb7113-3b61-4fdd-b66d-ce05f01f903b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_pruner_manager.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_2b13bea1-b08b-40d3-81b7-3d7f24d0f06f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_shard_pruner.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_fdfc2758-6d73-4c19-9057-092f38f0c397?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/rocksdb_property_reporter.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_f7117d53-cabd-4685-bbec-2e58d71b1476?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/sharded_jmt_merkle_db.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_203f5342-167b-4b69-a783-5c19709e774d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/sharded_kv_db.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_e67ae41f-989f-421c-8cf7-91247b6ff7a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_kv_db.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_7432d0e4-e7dd-453d-a1ec-360a4c4f4f16?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_merkle_db.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_3b4f0184-7844-47bf-98ad-1cfb1c566404?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/buffered_state.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_32def200-585c-43d7-93da-77335c3651ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/hot_state.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_85e6e327-0cd2-4934-823e-44313dc78bba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/persisted_state.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_1e6d39ab-88b5-4248-b5e4-85ca7a518e05?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/state_merkle_batch_committer.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_11493052-5060-47db-9c45-1112ccbb4094?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/state_snapshot_committer.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_00af27d0-5a98-4fb0-b607-f244b9d7f170?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_value_chunk.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_48052f67-699c-4a67-8888-ccb21053851c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/trading_native.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_09b1d90b-c6e3-4dcc-843f-2c4f93b66e85?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/utils/iterators.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_ce182859-bf6e-48fa-932b-13228d82218e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/utils/truncation_helper.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_435c864f-b1d9-41fb-a49e-dc57813efdf6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/versioned_node_cache.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_fa1f98d8-c7ed-47ab-b0ff-5ba5fee39ae1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/schemadb/src/batch.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_6b351ede-8ab2-48dc-bb5d-56658a4862a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/schemadb/src/iterator.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_56e930f6-44cd-483c-8c39-2d94b2444a1c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/schemadb/src/schema.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_338e79ad-af56-4fe1-82ca-de79b1c82d61?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/scratchpad/src/sparse_merkle/dropper.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_6846ed90-264f-4a9e-88fb-87afc9c355c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/scratchpad/src/sparse_merkle/node.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_317bad50-9c50-4b15-8286-c232d7282c88?mode=deep",
+    "questions_generated": false
+  }
+]
