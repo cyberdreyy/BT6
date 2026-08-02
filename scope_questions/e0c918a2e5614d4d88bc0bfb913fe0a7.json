@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/pruner_worker.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_282f3842-e59f-4acd-bb76-e7e1e9b98a73?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/generics.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_053c59ef-0b0c-4537-907a-f8786493427a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/state_kv_metadata_pruner.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_1e7c7aba-d291-4c9e-a6d6-098f0a78c800?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/state_kv_pruner_manager.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_504f0ebb-5a62-4614-a607-49f85e9ebcda?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/state_kv_shard_pruner.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_902a7a2c-644a-43eb-8714-02724524c9e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/generics.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_d7e8b1de-26e3-413f-a7f4-153c05cabbc1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/leaked_stale_node_cleaner.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_26d5854a-7d4b-4e43-841a-6b851fed143a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_metadata_pruner.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_ca264ef4-f95d-4b10-a610-75874d5ee14a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_pruner_manager.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_73512818-0b5c-4b3e-9517-5d54eb8d36e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_shard_pruner.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_877c0d4c-f527-4c25-9ca0-d560ff3c976f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/rocksdb_property_reporter.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_d7b580aa-a130-4817-9ba8-1680b5d05784?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/sharded_jmt_merkle_db.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_e4fef15a-e3ce-4272-9349-bddf06918ec0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/sharded_kv_db.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_03fb5dab-6687-49ca-b08d-1c73f5e50563?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_kv_db.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_d8cc0429-26f6-4e73-abd7-7a7d51560497?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_merkle_db.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_ee06fab9-939d-4812-8df2-bd4e358bbd2a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/buffered_state.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_15f84dfe-8e9d-47bd-9b3a-7afa8bd50bf7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/hot_state.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_f23bc084-912f-4301-9c34-efe8e2c9220d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/persisted_state.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_07804c3f-0888-4ef7-95fd-ea11a8b5ae63?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/state_merkle_batch_committer.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_7d64d8c2-e1b1-4354-9571-6719bb0a72bc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/state_snapshot_committer.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_9fb5ef6d-2bd5-4a6e-bf92-b4ad8f4e0a6b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_value_chunk.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_800a4ebc-d20b-4daa-83a5-5daefb907d7f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/trading_native.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_7f8204e2-ed3f-40ed-a421-6a18e3a0d100?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/utils/iterators.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_efc31ba8-cdc8-4472-aa82-b30dc1c5fdf5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/utils/truncation_helper.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_abbfb874-20e4-4df6-a09c-4b47c4a6062d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/versioned_node_cache.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_984ed3d3-32d9-4b38-88f8-1a28d66fa489?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/schemadb/src/batch.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_b0c5021a-9a57-4165-9bfe-e77f1d083290?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/schemadb/src/iterator.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_22691a01-7f4f-4e22-bc02-240448ae25a0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/schemadb/src/schema.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_3c70c517-bce5-4f2c-92d7-ac1fc4722122?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/scratchpad/src/sparse_merkle/dropper.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_9c4f3af8-4fba-4d65-a96b-a6684e8be069?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/scratchpad/src/sparse_merkle/node.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_b818f3fd-66a8-4044-8d7b-008f5ea9a72e?mode=deep",
+    "questions_generated": false
+  }
+]
