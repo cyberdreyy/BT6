@@ -1,0 +1,15 @@
+[1](#0-0)
+
+### Citations
+
+**File:** aptos-move/framework/aptos-framework/sources/vesting.move (L73-80)
+```text
+    /// The signer is not the admin of the vesting contract.
+    const ENOT_ADMIN: u64 = 7;
+    /// Vesting contract needs to be in active state.
+    const EVESTING_CONTRACT_NOT_ACTIVE: u64 = 8;
+    /// Admin can only withdraw from an inactive (paused or terminated) vesting contract.
+    const EVESTING_CONTRACT_STILL_ACTIVE: u64 = 9;
+    /// No vesting contract found at provided address.
+    const EVESTING_CONTRACT_NOT_FOUND: u64 = 10;
+```
