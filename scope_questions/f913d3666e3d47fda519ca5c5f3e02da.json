@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/pruner_worker.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_8e45a7fe-ee64-4857-b292-12c539873a4c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/generics.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_67b984cd-bea7-44dd-bfef-0dba98f08370?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/state_kv_metadata_pruner.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_a691ef60-3a9b-42ac-b430-8cff15067e51?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/state_kv_pruner_manager.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_34b831f4-d29c-4c6e-becd-023a06915176?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_kv_pruner/state_kv_shard_pruner.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_dff8d1db-3a49-4688-81d2-9e123883ae1f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/generics.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_f0c9fa58-3831-4e7a-ba2e-2a48d2dfb9e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/leaked_stale_node_cleaner.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_1b5de525-6c79-483e-9f03-7408c6eef4aa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_metadata_pruner.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_13e2cc8d-69bc-40aa-87c8-8d11088a91ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_pruner_manager.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_e28ae523-5c82-40e8-a06b-fe62a14798b8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_shard_pruner.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_5a1090ce-888d-4aa3-bfab-507d6469f810?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/rocksdb_property_reporter.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_839289e6-68cf-4eda-919f-e8b2dbbd81d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/sharded_jmt_merkle_db.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_eb713fd0-1da0-4d65-b122-f17b14badf7b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/sharded_kv_db.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_2ae9966e-accf-4b55-964d-807a19903c23?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_kv_db.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_e295cf95-4611-4d08-9399-07a7160f383e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_merkle_db.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_6b37f356-e67d-43be-8b1d-356435d9b367?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/buffered_state.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_b4af61a0-5556-4ac1-86fa-752b428fd0d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/hot_state.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_0fe0eebf-68a7-42f5-8ac7-68850d34caa5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/persisted_state.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_af03bc98-919e-409a-a58a-daa26187b02e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/state_merkle_batch_committer.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_0e14c827-13f7-49a8-9589-c6107f43d36c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_store/state_snapshot_committer.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_a616c16a-43e6-4a14-b4a5-c39cefb25ccf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/state_value_chunk.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_7597a1ea-1680-450b-886e-eff3888dee90?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/trading_native.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_73b7f51c-78b9-4503-a6f8-075f70a9edbe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/utils/iterators.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_bbf56156-9961-452a-889f-5f017ea1bb9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/utils/truncation_helper.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_48d268b7-0a4c-4997-b093-0d3ccde83e45?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/aptosdb/src/versioned_node_cache.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_fb2748ee-8b5f-4b7d-bc46-2d57d8c9dbeb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/schemadb/src/batch.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_fd5d0a35-fe45-4622-95fe-e105c8b809f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/schemadb/src/iterator.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_567f23d7-941e-4080-862d-5e8d06a770d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/schemadb/src/schema.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_1dea74c7-c8e8-4db1-bdb9-1580ea9ed599?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/scratchpad/src/sparse_merkle/dropper.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_35cd0066-603e-47cb-a951-ac499090f29b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/scratchpad/src/sparse_merkle/node.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'",
+    "url": "https://deepwiki.com/search/-produce-18-to-24-aptos-stakea_9bde861c-7517-4c82-b073-3ffc3dfff579?mode=deep",
+    "questions_generated": false
+  }
+]
