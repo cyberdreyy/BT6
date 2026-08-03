@@ -1,1 +1,0 @@
-[File: 'File Name: ...derived_string_snapshot.rs -> Scope: Critical...'] Can `string_to_bytes`'s `unpack()->pop()` logic (which assumes the *last* unpacked field is the byte vector) be tricked by an attacker-supplied struct with reordered fields into returning the wrong field as \
