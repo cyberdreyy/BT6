@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: helpers/vault/auth_methods/jwt/auth.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_932797b8-2ef8-4b04-b7bd-a8a9a260bade?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/secret_engines/operations.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3a6f84e9-a486-4195-8dd2-acc5cc88bf46?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/secret_engines/registry.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c8b86370-f46a-4ffd-a026-2d2c0d7fffce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/secret_engines/generic/engine.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_561999c4-0d3a-45b0-82be-90c07a89cb84?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/secret_engines/kv_v2/engine.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8d17ba3c-f07d-466a-85c4-55060a0320f2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/internal/registry/registry.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d3472b52-18d3-4263-8adf-0d552f4ff62d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/service/vault.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80576ea6-5628-424b-a4e7-91bacd9aabff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/certificate/certificate.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b3ed096-62eb-4f43-bfeb-6bcbcc605c59?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/certificate/x509.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_395d907d-45c8-4b37-9312-d2197a872872?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/tls/consts.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cf455eb6-f444-4788-a44d-380196d2abb7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/tls/ca_chain/builder.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8dcae507-e236-42e8-a3b7-f656be86dfd5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/tls/ca_chain/helpers.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cf1a36de-6917-4147-a1a3-fdf9be56edc8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/tls/ca_chain/resolver.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d6512420-b360-4f4e-82e7-b0570a3f8257?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/tls/ca_chain/resolver_chain.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b209b6b4-b2f8-4435-8d8e-587dfe28ea2f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/tls/ca_chain/resolver_url.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_13092378-9d0f-4972-a3ff-195cb2875bf6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/tls/ca_chain/resolver_verify.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e218e15a-a89d-4f10-af61-01c0e7d24c4a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/container/helperimage/info.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0fe029d6-ecc4-47c7-9400-4833281e27c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/container/helperimage/linux_info.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6037643-d1e9-480d-af3e-ed99e629369d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/container/helperimage/windows_info.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a58e414f-7950-4fd5-b11e-2db8a0633837?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/container/services/services.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ce7c5514-d92c-410f-9c72-332883dbbb59?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/path.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ff25dbf-35ee-4779-938d-323586332a1f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/path/unix_path.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ea8d0c1-30a9-453b-b485-954dd2b468fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/path/windows_path.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_48de74d9-66fd-41d0-8309-1ba0e50e642a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/url/gitauth.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8e52347c-2960-4ab5-a01b-4a5b221cd9d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/url/clean_url.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_49fc0e8c-8dca-499b-a5ee-caf1281abbc8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/transfer/content_range.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_da5ac0c0-99c8-4e30-81a8-a5891f49a2e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/transfer/parallel_download.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b129429a-7a73-4a9a-949f-2184369574ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/pull_policies/pull_policies.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_11f938e2-c9b7-4ff5-8d3f-3056131736cb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/shell_escape.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_866d3ce9-5778-4f9b-b8d2-eec6eb0c7558?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/shorten_token.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a42a9899-3d34-442d-8a6e-ff073064fb2a?mode=deep",
+    "questions_generated": false
+  }
+]
