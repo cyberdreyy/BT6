@@ -1,0 +1,1 @@
+[File: ...] Can an attacker call vesting::reset_beneficiary on a contract where they are neither admin nor the registered beneficiary_resetter, clearing or overwriting the beneficiary address and stranding vested rewards? Proof idea: test invoking reset_beneficiary from unauthorized account and assert beneficiaries table entry for the target shareholder is unaffected.

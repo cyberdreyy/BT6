@@ -1,0 +1,1 @@
+[File: ...] Can an attacker call staking_contract::reset_lockup on a pool they do not own to force an unwanted lockup extension, locking the legitimate owner's inactive/withdrawable stake for an additional cycle against their will? Proof idea: test invoking reset_lockup from a non-owner account and assert the stake pool's locked_until_secs is unchanged.

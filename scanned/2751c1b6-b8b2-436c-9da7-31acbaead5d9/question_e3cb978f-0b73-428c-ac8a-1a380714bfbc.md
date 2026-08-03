@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/natives/src/type_info.rs -> Scope: Critical. An unprivileged attacker can force ownership loss, unrecoverable lockup, or wrong-role control in stake, staking_contract, delegation_pool, or vesting flows without operator or governance powers.'] Can an unprivileged delegator exploit type_of_internal's expect(\
