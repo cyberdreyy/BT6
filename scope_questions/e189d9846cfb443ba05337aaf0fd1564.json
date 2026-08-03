@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: commands/steps/recovery.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1823f600-e0fe-4ca1-9f60-5353256c6052?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: commands/tracing.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_439e7f73-b6dc-4319-aaca-6fad9825d8da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: commands/helpers/proxy_exec.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d79069f0-21a0-4c27-bd05-f1e646c17375?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/concrete.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6b3d4ccc-1bd0-41f1-ae12-d66606a6a26d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/runner.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c81ae99b-6908-4fd4-ab74-9b88990461e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/run_steps.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_23cd318a-8748-4c18-a8b7-84178420f221?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/env/env.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2cc72a7a-d295-43db-b525-ca27cc7836d9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/get_sources.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_29d707aa-af63-43f6-a507-aed0fd194c34?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/artifact_download.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fb5d8c2b-ac06-42aa-a038-734bf37738d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/artifact_upload.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6fe8b1f5-4a34-4c44-9a9e-6f9a7b35df62?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/cache_extract.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4185ce42-f8d8-46e9-a7b5-1d9eab5c0969?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/cache_archive.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8007a32a-1455-4e07-a60b-21b7f4dfc9d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/cleanup.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b779dc4-0690-48b5-81b0-d4f57ed8daca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/step.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a6462808-1866-4333-af94-2822dc229f75?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/internal/retry/retry.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_30a2620b-04b9-42c8-9031-43decd920526?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/internal/scriptwriter/scriptwriter.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f15ce696-9dc6-406a-b556-0a5ee8032403?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/builder/builder.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_02d84c26-df93-4d66-9b10-73d06031a860?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/builder/options.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dd898074-7ced-4029-aaa3-d331a338b550?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/builder/variables/variables.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5d165310-a04c-4d1b-9851-efbf3c01c303?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/script_generator.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8f0a1fa1-5c87-4a02-84a3-d157359ca9f2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/escape.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1a5b3d46-8d4e-4cc4-a980-c2f5968fb483?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/shell.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ac02797-e653-48fd-b2bc-314482c22a6a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/script_header.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7884d3a3-b9dd-44c4-a9d3-4e2f0e802b7b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/normalize_exit_error.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c77bb5a6-8901-4856-871c-73798ebb79ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/command_processor.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c63929d-c94b-440a-b667-c16baaa4e604?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/executor.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b62869c6-b6e6-4164-b236-2746dd062cdc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/trace_section.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1d6779bd-acdc-44c9-a9f9-6988f0c568a7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/command_formatter.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d8aa67c3-7572-4091-b638-d6829f55dae1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/script_legacy.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_64287b4a-3a16-4646-8705-136425cbdfb6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: steps/execute.go -> Scope: Critical. An unprivileged CI job bypasses runner-enforced restrictions on images, services, pull policies, users, service accounts, namespaces, volumes, or pod/container settings and gains stronger permissions or identity than configured'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a0b21aa4-138b-49b8-9006-5ee5755b4779?mode=deep",
+    "questions_generated": false
+  }
+]
