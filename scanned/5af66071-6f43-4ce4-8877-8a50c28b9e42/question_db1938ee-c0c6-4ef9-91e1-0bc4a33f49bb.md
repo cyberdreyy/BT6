@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/on_chain_config/chunky_dkg_config.rs -> Scope: High. Unprivileged input can break share, pending_active, pending_inactive, inactive, or reward-synchronization accounting across epochs.'] Can the `bail!(\
