@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: executors/docker/internal/volumes/parser/parser.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6764d9b0-0137-4d71-a276-b2b2a51c791f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/docker/internal/volumes/parser/volume.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d833ea5a-86d3-46da-907d-3a4c5852dfa0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/docker/internal/volumes/parser/linux_parser.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_242ec660-5d09-40d6-8774-551c18940c0f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/docker/internal/volumes/parser/windows_parser.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_90ee3fd9-adc3-4d92-b217-c91949bc0e0f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/docker/internal/volumes/parser/windows_path.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_82ad3821-4a9e-406e-a13b-7958761eac33?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/docker/internal/volumes/parser/windows_path_windows.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_046dd965-c385-4449-81ce-f78a57741afb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/kubernetes.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3279202d-7399-4895-9005-2299d41ed5e7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/exec.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_53a89148-618e-4a64-a2f9-29226c8df9c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/overwrites.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7fe8c927-baef-4349-ba73-d3a137752546?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/steps.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_47b7f3ee-ce8f-4cc5-9d10-6d2be0fe74e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/steps_pod.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_40738c9b-8e3b-4529-859d-09b218d7e9bb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/util.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d73c2961-31f7-429a-8919-9207f5b9d7b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/service_proxy.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_04f6c1fe-950e-4578-ae6a-f9706294986b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/container_entrypoint_forwarder.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cc3d0a04-47c9-472c-846e-35d2e023bcc8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/host_aliases.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5febc678-903c-405f-aaed-27aebaa8ee74?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/log_processor.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_227c8346-a3ea-412f-8575-f62f11689183?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/provider.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9069c539-af15-4866-aac7-1365bd521468?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/terminal.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fb5fb23e-6b78-4f49-8421-37507e70f022?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/feature.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_090f598a-1332-4e53-9a3b-f3e41d9e3b6f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/internal/pull/manager.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0b19a0a2-3f0e-4ce7-b363-a98cc8a16914?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/internal/pull/errors.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_18649dde-6fcf-4f07-b8d4-00ab2e85f7db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/internal/watchers/informer_factory.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f0a2ac26-36a0-4a11-b235-45842ad662f8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/internal/watchers/pod.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_19260a19-b557-412c-94cc-edf1c95ab78f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/shell/shell.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_408820c0-d116-4274-833a-129b1ecb95d9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/shell/steps.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bcf636cb-a270-4542-8a56-1a8d6fd2da8d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/shell/shell_terminal.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6237af75-0fa2-414b-b46b-1fb95da59288?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/ssh/ssh.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_470277de-9bf3-47d2-ba25-e379736b4422?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/instance/instance.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_26da17cd-537b-4c81-9a25-037f9b34a2da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/instance/steps.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eb132fa5-2810-4881-b2e1-7f47b5f88508?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/custom.go -> Scope: High. Script generation, variable expansion, quoting, or helper execution causes runner-side command execution or unintended commands outside the authored job payload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2bb507e6-e3dc-4bc8-ae51-8e0682c6f50a?mode=deep",
+    "questions_generated": false
+  }
+]
