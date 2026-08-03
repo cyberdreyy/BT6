@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: executors/docker/internal/volumes/parser/parser.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c508c97-fbb3-469c-a299-508e0bacb34b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/docker/internal/volumes/parser/volume.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b7d0e7d0-bd82-4092-86cb-9e5533cdf5e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/docker/internal/volumes/parser/linux_parser.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e40bc9b3-89ea-4cbb-ad6c-384cad326cb2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/docker/internal/volumes/parser/windows_parser.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b64ad87-a22d-48a6-91ea-330ba108b275?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/docker/internal/volumes/parser/windows_path.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_821bf118-c94f-4ed8-bdaa-7e63fcf71765?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/docker/internal/volumes/parser/windows_path_windows.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b5b4961d-cb4f-42d5-84d9-c7a775401f30?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/kubernetes.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e1564ddd-8d53-4d31-9f53-eef7d6d90ad2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/exec.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c27d8625-7bca-4ab8-b085-38bfabfe60ea?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/overwrites.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5744632b-f7fc-43ca-91b3-7b66ff8bf12b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/steps.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b36d3815-b7ca-480f-876c-02aaa90aecb7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/steps_pod.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ea6ca44d-30a2-49c7-8517-d28fc185c4f9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/util.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cbbd12b5-16d2-4ef4-93ab-0e417365a3e9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/service_proxy.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9beac40c-d316-40e8-ab38-ae3374c12d35?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/container_entrypoint_forwarder.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_97ceaa13-231b-4048-b784-47924eab915c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/host_aliases.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_967e48db-d4f5-4b37-aac7-3b202d6981e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/log_processor.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cbf1481d-b37f-4ded-aaa2-f52aa6807bab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/provider.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_48884668-79ba-4690-be65-3a99985b4aca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/terminal.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6761f309-e520-4758-bad3-08cfdc2aac99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/feature.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e26a1071-a434-4455-9aa7-0e06bd556af7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/internal/pull/manager.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_59590ffe-5bff-4f86-8ea1-854001a438da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/internal/pull/errors.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_30a51762-0682-489a-946f-642529cad125?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/internal/watchers/informer_factory.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_61cc346f-713e-4c69-a1c9-6acb30efafaf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/kubernetes/internal/watchers/pod.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_90f88fd0-c8ae-4907-89c4-9bae82c211f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/shell/shell.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0ffeef8f-a4e8-4559-a7be-33d5b4efc08e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/shell/steps.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c63abbe2-00d6-4173-9e45-308f899b1d0b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/shell/shell_terminal.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bb10ecc8-9729-4374-961d-924c2ec9d783?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/ssh/ssh.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_11da2fc0-abdc-41e2-8b25-065394ff4277?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/instance/instance.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e0b23e5f-34ca-4753-bd61-508196ac764d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/instance/steps.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3d795e91-2118-4b6a-b63f-d5155f350aaf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/custom.go -> Scope: High. Runner-to-GitLab or runner-to-backend auth logic lets a normal project user impersonate another job, alter job state, or access unauthorized project resources'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2589623f-b660-4166-a8dc-178681ccb6a2?mode=deep",
+    "questions_generated": false
+  }
+]
