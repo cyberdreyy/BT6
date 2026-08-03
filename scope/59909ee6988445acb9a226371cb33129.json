@@ -1,3 +1,0 @@
-[
-  "'File Name: apps/gitlab-runner-helper/main.go -> Scope: Medium. A single normal job can cause persistent multi-tenant runner disruption that survives job cancellation or affects other projects; exclude generic one-job DoS and admin-chosen insecure setups'"
-]
