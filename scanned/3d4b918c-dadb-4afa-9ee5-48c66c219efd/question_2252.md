@@ -1,0 +1,13 @@
+# Q2252: prepareContainerLabels workload reuse crosses project or protected boundaries
+
+## Question
+Can an unprivileged GitLab user or pipeline author enter through Docker executor build/service/helper orchestration driven by attacker-controlled image, service, job output, and workspace state and make `prepareContainerLabels` reuse state from an unprotected or unrelated job across a project, ref, or protected boundary?
+
+## Target
+- File/function: executors/docker/docker.go: prepareContainerLabels
+- Entrypoint: Docker executor build/service/helper orchestration driven by attacker-controlled image, service, job output, and workspace state
+- Attacker controls: image names, service definitions, job output, artifact/cache residue, container timing, and repeated jobs on one runner, repeated jobs across refs or projects
+- Exploit idea: carry workload state over a trust boundary through reuse or caching
+- Invariant to test: workload state must remain bound to the current project, ref, and protection boundary
+- Expected Immunefi impact: protected-job escalation or cross-project state tampering
+- Fast validation: seed unprotected state and verify protected or unrelated jobs never consume it
