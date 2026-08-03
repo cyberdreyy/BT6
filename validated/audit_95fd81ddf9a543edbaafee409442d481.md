@@ -1,0 +1,1 @@
+Let me check the `update_beneficiary` function's permission checks to confirm privilege requirements.
