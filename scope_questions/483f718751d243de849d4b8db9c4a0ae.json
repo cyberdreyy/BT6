@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: helpers/process/commander.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_55842b71-e5e6-4b83-b715-b253833e65bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/process/job_unix.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b9919365-e2ba-4fa9-8ce4-b4164b8bd187?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/process/job_windows.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2340be3a-d69a-4b89-b04e-dfa3569aafc5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/process/killer.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_82a8b2fc-5f12-490f-95d9-cb592e9761cd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/process/killer_unix.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5710d808-6585-4cde-bcc1-1296957f1aa1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/process/killer_windows.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3f288eb2-9756-4f94-b636-bb7cc164ce0f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/wrapper.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c9caae26-93d3-47bd-8276-4c1949d4a57c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/wrapper_unix.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_181acd6d-8333-4b94-8e4e-5f1f35a3b5be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/wrapper_windows.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_350e1f6c-bc24-45ac-9fc1-ba635df915a2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/commander.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3534516b-ed17-4aaf-89a0-16bd5da74c57?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/commander_unix.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_459482de-78c0-4c8e-ae59-dc3126ede566?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/commander_windows.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c6d76fd6-d8c4-4072-b472-2c6bd132e9a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/api/init_graceful_shutdown_request.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_33cf2185-16c9-4aaf-97b3-c9f0e803a762?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/api/errors.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8523a995-302d-40ec-8947-c1c06381aa0a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/api/server/server.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8dc1df11-0cc1-4daf-a6ff-54311f408650?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/api/shutdown_callback.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6411ef1-c806-49fe-9b1d-907a95439c89?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/api/status.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_58ad49b5-04c3-4ebe-bcec-6a7daf35ea47?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/api/client/options.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1aa76579-f324-43fc-965c-b86010bccd86?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/api/client/backoff.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_98adb1a5-67f0-4eb7-8bc6-fc88ee413662?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/api/client/client.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d012985e-123d-4298-895a-631db0ceeb6b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/runner_wrapper/api/client/target.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b09b099f-a6db-4e3d-abf6-87f319f1a8e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: session/server.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_20d4671d-7c26-459d-adc4-77be05050101?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: session/session.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_78287fc7-543d-4f53-a306-495663d1e0e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: session/proxy/proxy.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_febb5895-dba4-4468-8942-250ca3d66e31?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: session/terminal/terminal.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c5b31877-75e8-4926-a963-9db8b9be640f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: router/token_creds.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1a78184f-fdcc-44ef-9315-d64e3b7d1858?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: router/client.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dc70e2ed-e7a9-43cf-a896-a13027013c4c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: router/client_conn_factory.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cd181b93-18c1-4ece-bf0a-9f94686a7617?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: router/internal/wstunnel/client.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bb8ba06e-4061-4e94-afb6-7b35a48d671d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: router/internal/wstunnel/netconn.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5481d853-e4cb-463b-86c4-14ce88a0faf6?mode=deep",
+    "questions_generated": false
+  }
+]
