@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/contract_event.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'] Can `ContractEvent::new_v2_with_type_tag_str` (types/src/contract_event.rs:169-174), gated only by `cfg(test, feature =

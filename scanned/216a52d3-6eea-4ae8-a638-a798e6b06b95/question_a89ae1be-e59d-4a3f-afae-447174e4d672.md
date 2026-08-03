@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/block_executor/value.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'] Can an unprivileged attacker trigger the `panic!(\
