@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: executors/custom/config.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ac19b764-c6f5-4039-ad6b-9d5042b5fc53?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/consts.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7a5df116-611f-4bd9-8499-df4e771c84aa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/terminal.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_299f0b05-cc46-4ad7-903e-447b74111cda?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/api/config.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b26e0990-733d-4c58-8eb5-fa971ef6a903?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/api/const.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_43a09a25-6381-4dff-abd4-7874d8a705d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/command/command.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_922c15bd-4d48-46a7-ae81-89b77df87465?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/command/errors.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e89f9efb-d3e3-4eea-af08-437a10d56a58?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/docker/credentials.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c9129130-a0c5-43c0-aa8a-1df416a427e0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/docker/options.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bf58b653-8db0-4941-8827-059f286ac103?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/docker/auth/auth.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_68b8e6d4-cd96-459e-87ee-db20d7840c0a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/docker/client.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5945f84d-7dc9-48f3-945e-cbc36d1052c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/docker/errors/errors.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_174874d8-3074-4754-8360-eacb4bfdddd0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/docker/official_docker_client.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bde104a9-e068-4784-b3a0-a0999c4cad48?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/secrets/errors.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c6f1b82b-db3b-4956-9f52-04bd7d1d5475?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/secrets/resolvers/gitlab_secrets_manager/resolver.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8689cc3a-beaf-4514-b912-98600270f6a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/secrets/resolvers/gcp_secret_manager/resolver.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_95e14104-5e80-4f46-80e6-ba930b9fba77?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/secrets/resolvers/azure_key_vault/azure_key_vault_resolver.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6590bc39-f71a-4542-b93b-be517e4c164f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/secrets/resolvers/aws/aws_secrets_manager_resolver.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3cbccca5-3efb-4908-96c9-22042cbc5ea8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/secrets/resolvers/vault/resolver.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a53cfcd5-3f53-4ef1-9d62-d12f7d752470?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/gitlab_secrets_manager/service/gitlab_secrets_manager.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_00b50dac-d357-4a32-a062-50d96b4c2b85?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/gcp_secret_manager/service/gcp_secret_manager.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e2fe0579-37df-4713-b79b-5b7d74fff4f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/azure_key_vault/service/azure_key_vault.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b42ec011-add7-440e-a69a-54a418806029?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/aws/service/aws_service.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7a603467-c317-48ee-8a87-cfdfa8d4ab0b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/auth.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c4b3a0c-951e-415b-9ab7-8137269dc794?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/client.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1878e8aa-343a-4e3a-9080-c36a99fee3a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/result.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_23d90f84-7f73-409c-8b9e-32e5e784a5a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/secret_engine.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d76856d9-8b7a-4320-a29b-36aec34765ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/utils.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6f8cbad6-96f7-4df0-80ca-e907b0d79196?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/auth_methods/data.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2144f91b-bdaf-4c42-8739-91614b002783?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/auth_methods/registry.go -> Scope: Critical. An unprivileged CI job reads, reuses, or exfiltrates another project or job's CI_JOB_TOKEN, masked/protected variables, resolved secrets, registry credentials, or cache credentials'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_261cd949-6ebc-44c2-9797-3f58cabdf35b?mode=deep",
+    "questions_generated": false
+  }
+]
