@@ -1,1 +1,0 @@
-[File: 'File Name: storage/aptosdb/src/state_store/persisted_state.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'] Can an unprivileged caller invoke `vesting::terminate_vesting_contract` indirectly via a role holder for `role = utf8(b\
