@@ -1,0 +1,1 @@
+[File: 'File Name: crates/aptos-crypto/src/ed25519/ed25519_sigs.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'] If `Ed25519Signature::verify_arbitrary_msg`'s error path (`.map_err(|e| anyhow!(\
