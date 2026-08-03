@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: commands/steps/recovery.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_18cb4fd3-4dc4-4631-8001-c7a07da8a0d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: commands/tracing.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6a15e179-ca1c-44e5-9335-269930acaf80?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: commands/helpers/proxy_exec.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7990040b-f9e3-405c-bbcb-c0b6a32da61c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/concrete.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fba83ba1-d23e-49b2-b874-79d11d08ec33?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/runner.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_386e290b-cdf4-4bc9-bf54-b2631f02a72e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/run_steps.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9bd8b2fe-52a9-4007-95d5-0bdb2a1b3162?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/env/env.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e6d71242-0151-49b3-b424-b483c9f6913d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/get_sources.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_576e0a14-9a5f-46c3-9d90-d6f590bbd78e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/artifact_download.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3f1a6c6c-06a2-495a-8d3c-dc121d26c7d1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/artifact_upload.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ef3ad36c-8cf4-4120-99f6-e84fa9b0b369?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/cache_extract.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f8f72688-09d9-4891-9b87-b12884fdf1c5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/cache_archive.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_34bd8a45-73b7-4e7e-8def-3a7e51fb659d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/cleanup.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_40177ff0-0fe6-4bb0-8971-1fffce664b9a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/step.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9971cdd6-7162-4e38-8c44-2e5c8903e8c0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/internal/retry/retry.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_58b05458-acd0-49e0-a821-ae562d64fcf4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/run/stages/internal/scriptwriter/scriptwriter.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7791e5f0-b90a-459c-8531-0b722cf20ace?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/builder/builder.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9ec24d42-7113-48bc-ac71-d10240ad5c56?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/builder/options.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_49be459f-fe7b-4f15-ba5f-93d3356528aa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/concrete/builder/variables/variables.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5e7ecacc-7c2f-4931-9d45-db4ec4e5f518?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/script_generator.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_396c81ac-164e-43a2-92b9-9de7f4b10898?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/escape.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_986d6c01-9ab5-4f7d-9e05-b38cebab6590?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/shell.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e72ab892-9114-4d62-8502-b3a72886f1f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/script_header.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_387162b8-254e-4bf1-b9e8-7bb8b6b865bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/normalize_exit_error.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5999aae8-0115-4c30-b54d-e11921520417?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/command_processor.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_433cc434-628e-48df-8735-82d9296eae51?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/executor.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_76f76b0a-4a43-4b46-ae3c-33d0a4e3ebfe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/trace_section.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_169e3054-38b0-449f-88c2-d96828348e84?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/internal/command_formatter.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80134c62-5463-42a7-b0a6-d96cfc6a41a2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: functions/script_legacy/script_legacy.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6709b343-1f27-4062-b3bf-af8e854df5b0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: steps/execute.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fe81b07f-5b69-4d6c-b7b0-390e103393f6?mode=deep",
+    "questions_generated": false
+  }
+]
