@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/aptos-vm/src/block_executor/vm_wrapper.rs -> Scope: Critical. An unprivileged attacker can steal or permanently lock vested balances or beneficiary claims through vesting or staking-contract state confusion.'] Can an unprivileged account exploit the `fail_point!(\
