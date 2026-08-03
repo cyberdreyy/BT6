@@ -1,1 +1,0 @@
-[File: 'File Name: aptos-move/framework/aptos-framework/sources/reconfiguration_state.move -> Scope: Critical.'] Does the `StateActive`/`StateInactive` `copyable_any` variant-name string comparison (`b\
