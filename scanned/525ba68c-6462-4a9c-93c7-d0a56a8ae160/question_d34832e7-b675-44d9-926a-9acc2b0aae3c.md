@@ -1,0 +1,1 @@
+[File: 'File Name: third_party/move/move-core/types/src/parser.rs -> Scope: Critical. An unprivileged attacker can withdraw, unlock, reactivate, or redirect stake or delegation balances they do not own.'] Can an attacker exploit the `b\
