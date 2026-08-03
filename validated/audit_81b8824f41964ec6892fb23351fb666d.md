@@ -1,1 +1,0 @@
-Now let's check `get_role_holder` and `verify_admin` implementations to verify the claim.
