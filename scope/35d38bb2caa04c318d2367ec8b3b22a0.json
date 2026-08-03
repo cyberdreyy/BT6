@@ -1,0 +1,3 @@
+[
+  "'File Name: apps/gitlab-runner-helper/main.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'"
+]
