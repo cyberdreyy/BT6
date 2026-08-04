@@ -1,1 +1,0 @@
-[File: 'commands/helpers/artifacts_downloader.go'] [Function: ArtifactsDownloaderCommand.download / logrus.Fatalln paths] Can an attacker cause the GitLab API response body (error JSON/XML for 403/404/etc., or artifact content itself) to contain trace-masked secrets or another project's token fragments that get echoed via `logrus.Fatalln(err)`/`log.WithField(\
