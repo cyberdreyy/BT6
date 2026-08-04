@@ -1,1 +1,0 @@
-[File: executors/docker/services.go] [Function: createConfigForServiceHealthCheckContainer / addServiceHealthCheckEnvironment] Can an attacker-controlled service.Name (derived via SplitNameAndVersion from job input) that is embedded into containerName := service.Name + \
