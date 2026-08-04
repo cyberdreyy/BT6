@@ -1,1 +1,0 @@
-[File: 'helpers/container/helperimage/windows_info.go'] [Function: windowsInfo.Create Tag/Prebuilt string construction] Can the unsanitized `revision` parameter (if ever influenced indirectly by build metadata reachable through job configuration) combined with `version` and `arch` in fmt.Sprintf(\
