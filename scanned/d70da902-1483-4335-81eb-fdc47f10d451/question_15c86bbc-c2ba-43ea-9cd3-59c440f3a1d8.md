@@ -1,1 +1,0 @@
-[File: 'File Name: helpers/container/services/services.go -> Scope: Critical'] [Function: SplitNameAndVersion Aliases generation] Can an attacker submit a service image name whose registry/namespace segments, after 'strings.ReplaceAll(service.Service, \

@@ -1,1 +1,0 @@
-[File: 'helpers/container/helperimage/windows_info.go' vs helpers/container/windows package] [Function: windows.Version integration] Cross-module invariant: does windows.Version(cfg.KernelVersion) sanitize its input before windowsInfo.Create embeds the returned `version` string directly into Info.Tag via fmt.Sprintf(\
