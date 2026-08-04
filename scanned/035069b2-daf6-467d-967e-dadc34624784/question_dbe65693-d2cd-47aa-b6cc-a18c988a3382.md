@@ -1,1 +1,0 @@
-[File: 'File Name: shells/powershell.go -> Scope: Critical.'] [Function: PsWriter.DotEnvVariables / helpers.DotEnvEscape interplay] Can a job produce a dotenv artifact (report:dotenv) whose key/value content is engineered so that helpers.DotEnvEscape's output, when embedded in the here-string `@\
