@@ -1,1 +1,0 @@
-[File: helpers/tls/ca_chain/builder.go -> Scope: High] [Function: BuildChainFromTLSConnectionState logging (chain-leaf field)] Can an attacker who controls a certificate's Subject/Issuer/SAN fields (self-signed cert served from a job-triggered HTTPS endpoint) inject trace/log control characters (ANSI escapes, newlines mimicking log lines) via fmt.Sprintf(\
