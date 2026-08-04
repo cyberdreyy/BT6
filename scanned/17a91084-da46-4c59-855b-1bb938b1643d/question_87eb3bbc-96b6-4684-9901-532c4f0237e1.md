@@ -1,1 +1,0 @@
-[File: 'File Name: common/spec/spec.go -> Scope: Critical.'] [Function: spec.Secrets.ExpandVariables / spec.VaultAuth.expandVariables] Can an attacker controlling a CI variable expanded into VaultAuth.Data (spec.go VaultAuthData map[string]interface{}, expanded via fmt.Sprintf(\
