@@ -1,1 +1,0 @@
-[File: cache_extract.go -> Scope: High.] [Function: CacheExtract.extract path re: RunnerCommand binary resolution] Can an unprivileged attacker who controls PATH-adjacent build directory contents (job workspace) cause env.Env.getRunnerBinaryPath()'s exec.LookPath(\

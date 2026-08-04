@@ -1,1 +1,0 @@
-[File: 'File Name: functions/concrete/run/stages/cache_archive.go -> Scope: High.'] [Function: CacheArchive.Run, desc.Headers loop] Can an attacker who controls a project's cache backend configuration (e.g. via a compromised/attacker-influenced runner config resolved per-project, or via `Descriptor.Headers` echoed from a prior stage) cause `fmt.Sprintf(\

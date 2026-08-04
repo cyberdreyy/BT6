@@ -1,1 +1,0 @@
-[File: 'File Name: functions/concrete/run/stages/cache_archive.go -> Scope: High.'] [Function: CacheArchive.Run -> e.Warningf/e.Noticef] Can the error returned from `e.RunnerCommand` (wrapping stderr of the `cache-archiver` subprocess) leak the resolved presigned `desc.URL` or `desc.HeadURL` (which may embed AWS SigV4/Azure SAS tokens) into `fmt.Errorf(
