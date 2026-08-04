@@ -1,1 +1,0 @@
-[File: 'functions/script_legacy/internal/script_header.go -> Scope: Medium'] [Function: trapTerm constant] Does the unquoted literal 'trap exit 1 TERM' (as opposed to the quoted 'trap \\'exit 1\\' TERM' used in functions/concrete/run/stages/internal/scriptwriter/scriptwriter.go buildBashScript) get parsed by bash as action=\
