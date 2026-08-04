@@ -1,1 +1,0 @@
-[File: 'commands/helpers/cache_extractor.go -> Scope: Critical.'] [Function: CacheExtractorCommand.getCache / retryOnServerError interacting with cross-job cache reuse] Can two concurrently scheduled jobs from different projects that happen to share a colliding `c.File` temp path (due to predictable naming from `os.CreateTemp(filepath.Dir(c.File), \

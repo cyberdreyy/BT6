@@ -1,1 +1,0 @@
-[File: 'commands/helpers/cache_archiver.go -> Scope: Critical restriction bypass'] [Function: fileArchiver.findRelativePathInProject called from createZipFile via enumerate()] Can a job supplying a glob pattern in `cache.paths` (e.g. `../../etc/*` combined with doublestar wildcards) evade the `strings.HasPrefix(rel, \
