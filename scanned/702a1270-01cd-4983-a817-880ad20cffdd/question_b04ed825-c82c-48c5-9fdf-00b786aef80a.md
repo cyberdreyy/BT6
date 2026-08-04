@@ -1,1 +1,0 @@
-[File: 'cache/azure/adapter.go'] [Function: azureAdapter.getSigner + credentialsResolver.Resolve/Signer] Does credentialsResolver.Resolve()/Signer() cache or memoize signer state across concurrent cache operations from different jobs sharing one runner process, such that a job triggering an error during Resolve() (returning nil signer, then generateSASToken silently returning \
