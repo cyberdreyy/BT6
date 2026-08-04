@@ -1,1 +1,0 @@
-[File: 'helpers/vault/service/vault.go'] [Function: defaultVault.GetField] Can an unprivileged pipeline author craft a Vault secret spec (spec.VaultSecret.Field with a name that matches a Vault response key containing nested structured data, e.g. a JSON object) such that GetField returns an interface{} whose fmt.Sprintf(\
