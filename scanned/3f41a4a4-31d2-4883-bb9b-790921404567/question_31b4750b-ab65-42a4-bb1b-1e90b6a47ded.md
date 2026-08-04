@@ -1,1 +1,0 @@
-[File: 'commands/helpers/cache_extractor.go'] [Function: resolveGoCloudSource / openAlternateGoCloudBucket] Can a job whose CACHE_FALLBACK_KEY or cache Key contains crafted path segments cause resolveGoCloudSource/openAlternateGoCloudBucket to open a bucket object path belonging to another project's protected cache object (since objectName = strings.TrimLeft(u.Path, \
