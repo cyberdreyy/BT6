@@ -1,1 +1,0 @@
-[File: 'executors/custom/command/command.go'] [Function: (c *command) parseBuildFailure] Can an unprivileged job's `run_exec` build_script (running inside the job workspace under e.tempDir, see executors/custom/custom.go Prepare) write or symlink the deterministic path `filepath.Join(e.tempDir, \
