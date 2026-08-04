@@ -1,1 +1,0 @@
-[File: 'helpers/vault/auth_methods/jwt/auth.go -> Scope: High'] [Cross-module: common/spec/spec.go VaultAuth.expandVariables -> jwt.NewMethod] Since VaultAuth.expandVariables performs vars.ExpandValue on every a.Data[field] using fmt.Sprintf(\
