@@ -1,1 +1,0 @@
-[File: executors/docker/internal/volumes/parser/linux_parser.go] [Function: specExp regex, linuxDestination] Can an attacker embed regex-ambiguous characters (e.g. a destination string with embedded null bytes, `\\n`, or trailing `/../`) that pass `linuxDir` character-class validation (`[^\\\\/:*?\
