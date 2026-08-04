@@ -1,1 +1,0 @@
-[File: 'executors/docker/pull.go'] [Function: manager.pullDockerImage / ref construction] Can a job supply an image name containing both ':' and '@' or a digest reference crafted to bypass the `if !strings.ContainsAny(ref, \
