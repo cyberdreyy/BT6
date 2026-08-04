@@ -1,1 +1,0 @@
-[File: 'File Name: shells/bash.go -> Scope: Critical.'] [Function: BashWriter.Absolute / isTmpFile / cleanPath] Can an unprivileged attacker supply a variable.Value or TmpFile-derived name beginning with the literal substring matching `b.TemporaryPath` prefix but that is not actually inside that directory (e.g. `TemporaryPath + \

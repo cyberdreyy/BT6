@@ -1,1 +1,0 @@
-[File: 'File Name: shells/bash.go -> Scope: Critical.'] [Function: BashWriter.SetupGitCredHelper] Can an unprivileged attacker influence `section` or `user` (derived from job-controlled remote URL / CI_JOB_TOKEN-adjacent config reaching SetupGitCredHelper) so that `b.escape(section + \
