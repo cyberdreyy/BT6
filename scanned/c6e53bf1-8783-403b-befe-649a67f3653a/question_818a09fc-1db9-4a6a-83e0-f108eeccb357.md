@@ -1,1 +1,0 @@
-[File: 'common/spec/spec.go'] [Function: VaultAuth.expandVariables] Can a job define a CI variable whose expanded value for `VaultAuth.Data[field]` (e.g. jwt or role) itself contains another `${CI_VAULT_*}` reference, causing recursive/nested expansion (`vars.ExpandValue(fmt.Sprintf(\
