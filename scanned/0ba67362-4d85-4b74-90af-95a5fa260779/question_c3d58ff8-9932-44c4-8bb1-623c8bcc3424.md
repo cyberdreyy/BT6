@@ -1,1 +1,0 @@
-[File: 'executors/docker/volume.go'] [Function: createVolumesManager, config.Protected, e.Build.IsProtected()] Can an unprivileged job on an unprotected branch craft a cache key with the '-protected' suffix (per the documented work-item 494478 logic: `strings.HasSuffix(c.Key, \
