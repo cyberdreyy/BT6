@@ -1,1 +1,0 @@
-[File: 'helpers/container/helperimage/info.go'] [Function: linuxInfo.Create / cfg.DisableUmask via FF_DISABLE_UMASK_FOR_KUBERNETES_EXECUTOR] Can a pipeline author set the disable-umask feature flag as a job variable to force cmd = []string{\
