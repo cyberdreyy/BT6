@@ -1,1 +1,0 @@
-[File: 'File Name: executors/docker/terminal.go -> Scope: Critical. ...'] [Function: session.Session.withAuthorization / Session.Token] Can an attacker who knows only the random session Endpoint (not the Token) brute-force or timing-attack the `s.Token != r.Header.Get(\
