@@ -1,1 +1,0 @@
-[File: 'File Name: cache/s3v2/s3.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'] [Function: AWS_PROFILE override in creds map] `FetchCredentialsForRole` sets `\
