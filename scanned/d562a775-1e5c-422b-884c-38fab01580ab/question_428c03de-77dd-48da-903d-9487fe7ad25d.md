@@ -1,1 +1,0 @@
-[File: 'cache/s3/credentials_adapter.go -> Scope: fuzz for config type confusion / nil dereference'] [Function: NewS3CredentialsAdapter] Can a job-triggerable code path pass a `*cacheconfig.Config` with `Type == \
