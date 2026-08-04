@@ -1,0 +1,1 @@
+[File: 'File Name: executors/kubernetes/provider.go -> Scope: Critical...'] [Function: executorProvider.Acquire + executorData reuse] Since `executorProvider.Acquire` returns a fresh `&executorData{PodName: \

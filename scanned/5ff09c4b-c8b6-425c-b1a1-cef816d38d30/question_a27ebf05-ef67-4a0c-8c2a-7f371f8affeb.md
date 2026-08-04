@@ -1,0 +1,1 @@
+[File: 'File Name: helpers/container/helperimage/info.go -> Scope: High'] [Function: linuxInfo.Create Flavor concrete-image branch] Can a job select FF_USE_CONCRETE (featureflags.UseConcrete) causing cfg.Flavor to be forcibly overridden to \

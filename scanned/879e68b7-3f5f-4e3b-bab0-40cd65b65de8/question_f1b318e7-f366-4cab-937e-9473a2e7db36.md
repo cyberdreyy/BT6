@@ -1,0 +1,1 @@
+[File: 'File Name: common/spec/inputs.go -> Scope: Critical. A session, terminal, proxy, or router bug lets one unprivileged job attach to, hijack, or execute commands in another job'] [Function: Inputs.Expand, ExpandInputs, spec.go fields tagged `inputs:\

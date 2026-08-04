@@ -1,0 +1,1 @@
+[File: 'File Name: cache/cachekey/cachekey.go -> Scope: Medium.'] [Function: cachekey.Sanitize] Does Sanitize's segment-trimming loop (`for n > 0 { ... }` at cachekey.go:42-48) correctly stop decrementing `n` once the invariant 'rightmost non-empty segment found' holds, or can an all-whitespace multi-segment key (e.g. `

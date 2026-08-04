@@ -1,0 +1,1 @@
+[File: cache/azure/adapter.go -> Scope: Medium] [Function: azureAdapter.getEnv] Does getEnv() ever return an env map containing a stale/previous job's AZURE_STORAGE_SAS_TOKEN when generateSASToken returns an error (token == \

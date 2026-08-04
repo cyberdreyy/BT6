@@ -1,0 +1,1 @@
+[File: 'File Name: common/executor.go -> Scope: High.'] [Function: executors/docker/docker_command.go commandExecutor.getHelperImageCmd / requestHelperContainer] Can a job-controlled feature flag or variable (e.g. FF_DISABLE_UMASK-related toggles reaching s.isUmaskDisabled()) cause requestHelperContainer to substitute `[]string{\

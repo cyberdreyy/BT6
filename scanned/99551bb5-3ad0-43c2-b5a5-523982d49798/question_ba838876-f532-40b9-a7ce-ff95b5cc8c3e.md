@@ -1,0 +1,1 @@
+[File: 'File Name: executors/kubernetes/provider.go -> Scope: Critical. A session, terminal, proxy, or router bug lets one unprivileged job attach to, hijack, or execute commands in another job'] [Function: session.Session.withAuthorization] Can an unprivileged attacker who observes only the non-constant-time `s.Token != r.Header.Get(\

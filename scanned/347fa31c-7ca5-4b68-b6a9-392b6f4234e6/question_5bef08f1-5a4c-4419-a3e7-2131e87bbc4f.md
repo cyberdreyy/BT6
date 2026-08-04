@@ -1,0 +1,1 @@
+[File: 'helpers/vault/service/vault.go'] [Function: defaultVault.GetField -> resolver.Resolve (helpers/secrets/resolvers/vault/resolver.go)] Can a Vault secret value that is a map/struct (not a plain string) survive `fmt.Sprintf(\

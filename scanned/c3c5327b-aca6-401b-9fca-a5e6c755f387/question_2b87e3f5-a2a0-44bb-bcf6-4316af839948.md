@@ -1,0 +1,1 @@
+[File: 'executors/kubernetes/internal/watchers/pod.go' -> Scope: Critical] [Function: resourceHandler.DeleteFunc] Can a crafted/adversarial pod deletion event where the tombstone object cannot be asserted to `*v1.Pod` (returns nil from `asPod`) cause `DeleteFunc` to dereference `pod.GetNamespace()+\

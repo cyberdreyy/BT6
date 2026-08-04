@@ -1,0 +1,1 @@
+[File: 'File Name: helpers/container/helperimage/info.go -> Scope: High'] [Function: linuxInfo.architecture / windowsInfo.Create arch normalization] Can a job-influenced Architecture string (via Kubernetes NodeSelector override of api.LabelArchStable) that is neither a recognized platform token nor empty (`if arch != \

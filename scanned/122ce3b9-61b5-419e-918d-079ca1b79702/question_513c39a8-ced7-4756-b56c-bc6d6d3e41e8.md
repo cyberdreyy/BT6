@@ -1,0 +1,1 @@
+[File: 'functions/script_legacy/script_legacy.go -> Scope: Medium'] [Function: Executor.Execute temp script file creation, functions/script_legacy/internal/executor.go:41-57] Can a job race the temp script file created via `os.CreateTemp(\

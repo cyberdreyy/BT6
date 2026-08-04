@@ -1,0 +1,1 @@
+[File: 'File Name: common/build_step_dispatch.go -> Scope: Critical.'] [Function: session.Session.proxyHandler / parseProxyParams] Can an unprivileged attacker craft a proxy URI path segment (serviceName/port/requestedURI) that, after strings.TrimPrefix(r.URL.Path, s.Endpoint+\

@@ -1,0 +1,1 @@
+[File: 'session/session.go -> Session.withAuthorization'] Can an attacker with a non-matching but crafted Authorization header (e.g. differing only in case, whitespace, or Unicode normalization) bypass the exact string comparison `s.Token != r.Header.Get(\

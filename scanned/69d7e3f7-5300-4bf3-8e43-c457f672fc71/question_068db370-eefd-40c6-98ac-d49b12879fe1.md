@@ -1,0 +1,1 @@
+[File: commands/helpers/archive/fastzip/zip_fastzip_archiver.go -> Scope: cross-job/cross-project auth impersonation] [Function: archiver.Archive] Can an unprivileged pipeline author who controls the CI_JOB variables set ARCHIVER_STAGING_DIR to a fixed, predictable, shared path so that concurrent jobs on the same runner host both call os.MkdirTemp(os.Getenv(archiverStagingDir), \

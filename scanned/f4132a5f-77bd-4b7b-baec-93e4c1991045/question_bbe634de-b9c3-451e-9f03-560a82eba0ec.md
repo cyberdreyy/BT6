@@ -1,0 +1,1 @@
+[File: 'executors/kubernetes/exec.go -> Scope: Critical.'] [Function: DefaultRemoteExecutor.Execute] Can an unprivileged attacker supply a crafted Command slice (via job script content saved by s.saveScriptOnEmptyDir) that is joined via strings.Join(p.Command, \

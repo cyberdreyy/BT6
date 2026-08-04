@@ -1,0 +1,1 @@
+[File: 'File Name: executors/docker/environment_key_fields.go -> Scope: Medium'] [Function: envKeyFields.toValues / parseEnvKeyFields round-trip] Is there an encoding asymmetry between toValues (which always emits build-container-id and helper-id even if empty) and parseEnvKeyFields (which treats fields.Get(...) == \

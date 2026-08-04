@@ -1,0 +1,1 @@
+[File: 'executors/kubernetes/terminal.go'] [Function: getTerminalWebSocketURL] Can attacker-controlled job configuration (e.g. custom container name via `services`/`image` overrides reaching s.pod, s.pod.Namespace) cause the hardcoded Container: \

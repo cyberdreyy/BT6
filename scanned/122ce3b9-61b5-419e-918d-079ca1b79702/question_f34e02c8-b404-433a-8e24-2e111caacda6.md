@@ -1,0 +1,1 @@
+[File: 'functions/script_legacy/script_legacy.go -> Scope: Medium'] [Function: ScriptGenerator.GenerateScript GITLAB_ENV sourcing loop, script_generator.go:50-56] Given the sourcing loop uses `export \

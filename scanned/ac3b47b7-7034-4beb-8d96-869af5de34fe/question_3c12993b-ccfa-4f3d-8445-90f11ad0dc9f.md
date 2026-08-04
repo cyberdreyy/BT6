@@ -1,0 +1,1 @@
+[File: 'File Name: executors/docker/environment_key_fields.go -> Scope: Medium'] [Function: parseEnvKeyFields] Can an attacker-influenced service-ids field containing a comma-embedded value (e.g. an ID string that itself decodes to 'svc-a,svc-b') cause strings.Split(raw, \

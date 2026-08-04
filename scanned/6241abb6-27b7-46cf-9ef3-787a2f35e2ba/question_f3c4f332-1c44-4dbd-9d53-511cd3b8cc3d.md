@@ -1,0 +1,1 @@
+[File: 'File Name: functions/concrete/run/stages/get_sources.go -> Scope: session/terminal hijack'] [Function: GetSources.SetupJobGitConfig / TeardownJobGitConfig gating] Both functions no-op identically when `!s.UseCredentialHelper || s.RemoteHost == \

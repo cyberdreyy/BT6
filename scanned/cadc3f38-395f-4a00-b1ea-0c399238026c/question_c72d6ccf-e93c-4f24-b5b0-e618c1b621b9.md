@@ -1,0 +1,1 @@
+[File: 'File Name: executors/kubernetes/steps.go -> Scope: Critical...'] [Function: stepsServiceContainer/verifyAllowedImages] Can an unprivileged job declare a `services:` entry whose name collides with `buildContainerName` or the bootstrap init container name (stepsBootstrapInitContainerName), causing verifyAllowedImages in stepsServiceContainer to select optionName=\

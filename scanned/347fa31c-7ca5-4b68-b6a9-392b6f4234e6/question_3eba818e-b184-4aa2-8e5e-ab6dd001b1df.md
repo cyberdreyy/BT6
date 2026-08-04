@@ -1,0 +1,1 @@
+[File: helpers/gitlab_secrets_manager/service/gitlab_secrets_manager.go -> Scope: quoting on downstream shell writer] [Function: GetSecret value fed into shell_test/build variable export] Can a GetSecret-returned value containing PowerShell-specific injection sequences (e.g. '\

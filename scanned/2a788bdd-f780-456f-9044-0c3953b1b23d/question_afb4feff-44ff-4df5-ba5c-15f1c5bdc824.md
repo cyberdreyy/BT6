@@ -1,0 +1,1 @@
+[File: 'File Name: executors/environment.go -> Scope: Critical.'] [Function: connectDocker / environmentDialContext dial-stdio branch] Can an attacker-influenced host string (passed into fmt.Sprintf(\

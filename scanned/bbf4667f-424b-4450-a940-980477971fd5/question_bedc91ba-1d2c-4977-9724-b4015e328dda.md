@@ -1,0 +1,1 @@
+[File: 'functions/concrete/run/run_steps.go'] [Function: (*Runner).buildRunRequest, socketPath(), runUserSteps] Can an unprivileged attacker control r.config.ID (job ID forwarded from GitLab as Config.ID) or otherwise influence client.RunRequest.Id (`strconv.FormatInt(r.config.ID,10)+\

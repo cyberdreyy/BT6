@@ -1,0 +1,1 @@
+[File: 'File Name: functions/concrete/run/stages/cache_archive.go -> Scope: High.'] [Function: CacheArchive.archiverArgs] Can an attacker supply a `cache.paths` entry beginning with `--` (e.g. `--url`, `--gocloud-url`, `--header`) that is appended as `args = append(args,

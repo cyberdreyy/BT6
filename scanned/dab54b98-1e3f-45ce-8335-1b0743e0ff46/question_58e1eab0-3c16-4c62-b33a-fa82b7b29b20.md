@@ -1,0 +1,1 @@
+[File: 'functions/script_legacy/internal/script_generator.go' -> Scope: High] [Function: GenerateScript + Executor.Execute round trip via env) Can an attacker set a job variable whose value contains a literal newline plus a forged 'export GITLAB_ENV=...' or 'while read -r line' line, injected into env via 'fmt.Sprintf(\

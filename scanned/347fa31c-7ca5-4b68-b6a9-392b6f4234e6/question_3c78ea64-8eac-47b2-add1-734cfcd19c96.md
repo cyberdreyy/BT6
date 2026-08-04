@@ -1,0 +1,1 @@
+[File: 'helpers/vault/auth_methods/jwt/auth.go'] [Function: method.Authenticate] Can an attacker-controlled `path` field (from CI_VAULT_AUTH_PATH, expanded via VaultAuth.expandVariables) inject additional path segments into `authPath := path.Join(\

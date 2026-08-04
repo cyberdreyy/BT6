@@ -1,0 +1,1 @@
+[File: 'helpers/container/helperimage/info.go' -> Scope: Critical] [Function: Version(version string)] Can an unprivileged job supplying a crafted `CI_RUNNER_REVISION`/`CI_RUNNER_VERSION`-like string through `helper_image` template expansion (as shown in kubernetes_test.go 'expands variables for helper image', `HelperImage: \

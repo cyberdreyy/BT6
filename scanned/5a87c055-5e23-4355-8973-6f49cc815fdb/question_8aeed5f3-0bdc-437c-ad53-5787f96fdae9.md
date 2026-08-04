@@ -1,0 +1,1 @@
+[File: 'commands/helpers/internal/store/store.go' + 'store_unix.go'] [Function: Open, openFile, deriveEncryptionKey] Can an unprivileged attacker who can write to the directory passed to store.Open(dir) predict the deterministic keyPath := filepath.Join(dir, \

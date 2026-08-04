@@ -1,0 +1,1 @@
+[File: 'File Name: common/network.go -> Scope: Critical.'] [Function: kubernetes.service_proxy.proxyHTTPRequest / handleProxyHTTPErr] Can an attacker use the k8s services/proxy subresource path (`serviceEndpointRequest` -> `.Resource(\

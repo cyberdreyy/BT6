@@ -1,0 +1,1 @@
+[File: cache/azure/adapter.go -> Scope: Medium] [Function: azureAdapter.getEnv/GetGoCloudURL] Can an unprivileged pipeline author who controls the CI 'key:' field of the cache config, causing objectName (built in New() via strings.TrimLeft(objectName, \

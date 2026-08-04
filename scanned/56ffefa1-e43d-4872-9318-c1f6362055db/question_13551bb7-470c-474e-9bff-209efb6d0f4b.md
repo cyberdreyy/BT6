@@ -1,0 +1,1 @@
+[File: 'File Name: helpers/archives/zip_create.go -> Scope: Medium.'] [Function: createZipEntry -> createZipDirectoryEntry] Can an attacker name a file/directory entry such that fh.Name (job-controlled, taken directly from the fileNames slice with only '+= \

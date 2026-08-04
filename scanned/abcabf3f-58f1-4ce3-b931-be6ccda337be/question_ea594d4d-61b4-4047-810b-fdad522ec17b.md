@@ -1,0 +1,1 @@
+[File: 'File Name: helpers/shell_escape.go -> Scope: Critical.'] [Function: ShellEscape vs PosixShellEscape] Can a job trigger inconsistent escaping between BashWriter.escape's two code paths (ShellEscape ANSI-C $'...' vs PosixShellEscape \

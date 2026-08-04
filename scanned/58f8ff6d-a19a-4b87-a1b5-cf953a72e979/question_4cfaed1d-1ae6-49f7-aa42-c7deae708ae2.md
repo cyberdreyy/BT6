@@ -1,0 +1,1 @@
+[File: 'session/session.go:withAuthorization,proxyHandler'] Can an unprivileged job whose pipeline embeds a maliciously crafted requestedURI path guess or brute-force another job's session.Token (32-byte helpers.GenerateRandomUUID) via timing differences in the constant-time-unsafe comparison 's.Token != r.Header.Get(\

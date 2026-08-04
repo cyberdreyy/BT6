@@ -1,0 +1,1 @@
+[File: 'helpers/container/services/services.go'] [Function: SplitNameAndVersion + common.getExpandedServices] Can a job variable marked Masked be interpolated into DockerConfig.Services[i].Name via vars.ExpandValue before SplitNameAndVersion runs, then reach executor.createService's serviceName := fmt.Sprintf(\

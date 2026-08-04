@@ -1,0 +1,1 @@
+[File: 'File Name: functions/concrete/run/stages/get_sources.go -> Scope: terminal/router hijack'] [Function: session.Session.proxyHandler + parseProxyParams] Since proxyHandler resolves `serviceProxy := s.proxyPool[serviceName]` purely from the URL path segment after `s.Endpoint+\

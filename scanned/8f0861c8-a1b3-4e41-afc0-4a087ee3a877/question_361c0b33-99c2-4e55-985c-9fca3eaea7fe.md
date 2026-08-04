@@ -1,0 +1,1 @@
+[File: executors/kubernetes/steps_pod.go -> Scope: Critical] [Function: stepsWaitForServices -> portArgs construction] Can a job set HEALTHCHECK_TCP_PORT on a service.Variables to a value containing shell metacharacters that get concatenated unescaped into portArgs (fmt.Sprintf(\

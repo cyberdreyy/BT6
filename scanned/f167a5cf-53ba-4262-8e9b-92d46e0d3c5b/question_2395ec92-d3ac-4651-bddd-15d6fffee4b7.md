@@ -1,0 +1,1 @@
+[File: 'helpers/secrets/resolvers/gcp_secret_manager/resolver.go -> Scope: High'] [Function: shells.BashWriter.Variable / PsWriter.Variable consuming resolver output] Given a GCP-resolved secret value returned by `resolver.Resolve()` contains shell metacharacters (backtick, `$(`, `\
