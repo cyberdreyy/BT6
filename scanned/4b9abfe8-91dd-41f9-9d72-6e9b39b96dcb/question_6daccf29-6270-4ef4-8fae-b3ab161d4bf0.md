@@ -1,1 +1,0 @@
-[File: windows_path.go -> Scope: bypass of root-path protection exposing shared credentials] [Function: (*windowsPath).IsRoot] Can a job choose a UNC destination whose component count via strings.Count(p.convert(path,false), \
