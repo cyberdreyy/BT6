@@ -1,1 +1,0 @@
-[File: 'commands/helpers/file_archiver.go' -> Scope: Critical: Windows path-separator normalization mismatch enabling traversal filter bypass] [Function: fileArchiver.process] Does the check `!strings.HasPrefix(relative,
