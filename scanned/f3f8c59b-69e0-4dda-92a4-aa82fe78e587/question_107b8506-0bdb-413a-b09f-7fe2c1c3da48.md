@@ -1,1 +1,0 @@
-[File: 'executors/docker/internal/volumes/manager.go' -> Scope: High] [Function: manager.createCacheVolume / labels.Labeler.Labels] Does the `destination` path (job-controlled, from `.gitlab-ci.yml` cache paths) get written verbatim into the Docker volume's `destination` label via `m.labeler.Labels(map[string]string{\

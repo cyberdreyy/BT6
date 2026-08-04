@@ -1,1 +1,0 @@
-[File: 'executors/docker/internal/prebuilt/prebuilt.go' -> Scope: High] [Function: imageImport, options.Changes ENTRYPOINT injection] Since the ENTRYPOINT override `options.Changes = []string{`ENTRYPOINT [\

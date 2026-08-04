@@ -1,1 +1,0 @@
-[File: 'executors/docker/internal/prebuilt/prebuilt.go' -> Scope: High] [Function: load, x86_64/amd64 fallback branch] Can an attacker manipulate `info.Prebuilt` (via Config.Architecture reported through Docker daemon info or node selector labels in Kubernetes) to include the substring \
