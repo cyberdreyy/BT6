@@ -1,1 +1,0 @@
-[File: command_formatter.go] [Function: FormatLogLine bash-mode $'...'  wrapping] Can a crafted command make getDisplayCommand return text containing an unescaped single quote sequence that, combined with EscapeForAnsiC's escaping of only the literal quote character '\\'' (not sequences like already-escaped backslash-quote pairs from prior processing), causes fmt.Sprintf(\
