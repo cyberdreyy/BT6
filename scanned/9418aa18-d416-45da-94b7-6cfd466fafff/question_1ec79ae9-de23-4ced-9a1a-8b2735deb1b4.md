@@ -1,1 +1,0 @@
-[File: 'executors/kubernetes/overwrites.go -> Scope: High'] [Function: evaluateOverwrite, overwriteRegexCheck] Can a pipeline author craft KUBERNETES_SERVICE_ACCOUNT_OVERWRITE or KUBERNETES_NAMESPACE_OVERWRITE values that satisfy an admin-configured but overly permissive regex (e.g. \

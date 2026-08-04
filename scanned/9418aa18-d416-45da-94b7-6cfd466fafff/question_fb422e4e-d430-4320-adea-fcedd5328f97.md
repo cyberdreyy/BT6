@@ -1,1 +1,0 @@
-[File: 'executors/kubernetes/exec.go' & 'executors/kubernetes/terminal.go' getTerminalWebSocketURL] Can an unprivileged pipeline author who triggers a web terminal session cause the hardcoded Command []string{\
