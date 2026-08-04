@@ -1,1 +1,0 @@
-[File: 'commands/helpers/internal/store/store_unix.go -> Scope: Critical cross-tenant cache/artifact/state poisoning'] [Function: openFile] Can an unprivileged CI job that controls RUNNER_TEMP_PROJECT_DIR (consumed in proxy_exec.go's ProxyExecCommand.Execute, dst := os.Getenv(\
