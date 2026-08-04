@@ -1,1 +1,0 @@
-[File: session/session.go] [Function: Session.proxyHandler + parseProxyParams] Can an unprivileged job control the `requestedURI` segment of a proxy path (e.g. `.../proxy/<serviceName>/<port>/../../<other-path>`) such that parseProxyParams's naive `strings.SplitN(path, \
