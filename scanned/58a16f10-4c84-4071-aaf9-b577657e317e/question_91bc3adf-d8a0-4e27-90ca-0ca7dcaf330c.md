@@ -1,1 +1,0 @@
-[File: 'windows_parser.go'] [Function: windowsHostDir regex constant, used in windowsSource] Can an attacker submit a crafted volume spec string with many repeated near-matching path segments (e.g. `c:\\aaaaaaaaaa...` with terminal non-matching char) to trigger catastrophic backtracking in the nested quantifier `(?:[^\\\\/:*?\
