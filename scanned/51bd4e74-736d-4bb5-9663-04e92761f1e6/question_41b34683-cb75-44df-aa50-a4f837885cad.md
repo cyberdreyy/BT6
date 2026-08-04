@@ -1,1 +1,0 @@
-[File: 'File Name: helpers/vault/service/vault.go -> Scope: Critical.'] [Function: defaultVault.GetField return type contract (interface{})] Because GetField returns `interface{}` and the vault resolver formats it with fmt.Sprintf(\
