@@ -1,1 +1,0 @@
-[File: 'executors/docker/pull.go -> Scope: Critical. Protected or masked values must never leak through traces/logs'] [Function: pull.manager.GetDockerImage logging path] Can a job set an `image:` name or `Platform` string containing masked/protected variable content (interpolated by the job) that then gets embedded verbatim into `m.logger.Println(\
