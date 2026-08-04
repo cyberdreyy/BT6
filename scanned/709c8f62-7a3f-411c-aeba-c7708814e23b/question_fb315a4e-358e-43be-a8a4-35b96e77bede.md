@@ -1,1 +1,0 @@
-[File: 'commands/helpers/file_archiver.go' -> Scope: High] [Function: fileArchiver.process error branch] Does the error-hiding logic `if os.IsNotExist(err) { return false }` (silently swallowing not-exist errors) combined with the fallback `logrus.Warningf(\
