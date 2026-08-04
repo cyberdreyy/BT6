@@ -1,1 +1,0 @@
-[File: cache/credentials_adapter.go] [Function: CredentialsFactoriesMap.Find error message] Can an unprivileged user trigger `Find` with an invalid/attacker-influenced `typeName` (via malformed `cacheconfig.Config.Type` echoed from job-controlled cache config) causing the error string `\
