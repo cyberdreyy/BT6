@@ -1,1 +1,0 @@
-[File: executors/docker/internal/volumes/parser/linux_parser.go -> Scope: Critical] [Function: specExp (linuxSource/linuxDestination regex)] Can an attacker exploit ReDoS or catastrophic ambiguity in the compiled `specExp` regex (nested `(?:[^\\\\/:*?\
