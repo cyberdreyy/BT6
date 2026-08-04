@@ -1,1 +1,0 @@
-[File: 'shells/bash.go'] [Function: BashWriter.SourceEnv] Can an attacker who controls the dotenv artifact content parsed via `DotEnvEscape` (helpers/shell_escape.go) craft a value containing a literal newline or `export`-breaking sequence that survives `escapeDotEnvValue` and is later read line-by-line by the generated `while read -r line; do export \
