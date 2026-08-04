@@ -1,1 +1,0 @@
-[File: 'cache/s3/minio.go' -> Scope: Critical] [Function: cache.GetAdapter -> s3.New -> minioClient.PresignHeader end-to-end] Given cache.GetAdapter's path-traversal guard (`strings.HasPrefix(fullPath, basePath+\
