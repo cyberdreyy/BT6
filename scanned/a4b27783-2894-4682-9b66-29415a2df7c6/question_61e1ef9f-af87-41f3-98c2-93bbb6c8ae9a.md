@@ -1,1 +1,0 @@
-[File: 'executors/docker/docker_command.go'] [Function: commandExecutor.executeChown / executeChownOnDir] Can a job set `s.Build.FullProjectDir()`/`TmpProjectDir()` indirectly (via CI_PROJECT_DIR-style path manipulation or symlink pre-staging in the workspace) such that the chown command `fmt.Sprintf(\
