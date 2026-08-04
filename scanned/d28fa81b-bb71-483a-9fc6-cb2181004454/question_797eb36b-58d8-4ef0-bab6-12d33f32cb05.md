@@ -1,1 +1,0 @@
-[File: 'File Name: executors/docker/internal/volumes/parser/windows_path.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'] [Function: manager.Create -> parser.ParseVolume error path -> fmt.Errorf(\
