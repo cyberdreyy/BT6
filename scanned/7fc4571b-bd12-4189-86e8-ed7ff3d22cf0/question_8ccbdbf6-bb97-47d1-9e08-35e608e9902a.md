@@ -1,1 +1,0 @@
-[File: 'helpers/runner_wrapper/api/server/server.go' -> Scope: High.] [Function: Server.New / logrus.FieldLogger sink] Since `Server` is constructed with a shared `logrus.FieldLogger` (`grpcLog := log.WithField(\
