@@ -1,1 +1,0 @@
-[File: 'cache/s3v2/s3.go -> Scope: Critical'] [Function: s3Adapter.objectName / s3Client.PresignURL cross-module with cachekey.Sanitize] Given that cachekey.Sanitize resolves '..' traversal only against a virtual root and adapter.New only does `strings.TrimLeft(objectName, \
