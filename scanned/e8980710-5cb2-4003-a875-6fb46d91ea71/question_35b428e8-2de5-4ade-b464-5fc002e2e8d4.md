@@ -1,1 +1,0 @@
-[File: 'helpers/url/clean_url.go -> Scope: High'] [Function: CleanURL] Can Go's `net/url.Parse` leniency toward malformed percent-encoding (e.g. `%zz` or incomplete `%2`) cause `CleanURL` to either error out (returning `\
