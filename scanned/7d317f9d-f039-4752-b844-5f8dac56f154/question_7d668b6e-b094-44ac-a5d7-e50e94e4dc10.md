@@ -1,1 +1,0 @@
-[File: 'cache/s3v2/adapter.go -> Scope: High.'] [Function: s3Adapter.WithMetadata / s3Adapter.GetUploadURL] Can an unprivileged pipeline author who controls a `cache:key` value (propagated as `cacheConfig.HumanKey` into `metadata[\
