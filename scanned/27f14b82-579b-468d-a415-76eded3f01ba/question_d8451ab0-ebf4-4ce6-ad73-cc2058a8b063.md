@@ -1,1 +1,0 @@
-[File: 'File Name: network/gitlab.go -> Scope: Critical.'] [Function: session.proxy.Pool / ConnectionHandler.ProxyRequest, Session.setMux] Can an unprivileged attacker exploit the fact that `s.mux.Handle(s.Endpoint+\

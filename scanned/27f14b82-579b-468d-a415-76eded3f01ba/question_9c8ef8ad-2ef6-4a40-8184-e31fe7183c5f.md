@@ -1,1 +1,0 @@
-[File: 'File Name: network/gitlab.go -> Scope: Critical.'] [Function: GitLabClient.getClient key derivation] Can an unprivileged attacker who controls only job-scoped variables cause two distinct RunnerConfig/JobCredentials to hash to the same `key := fmt.Sprintf(\
