@@ -1,1 +1,0 @@
-[File: shells/trap_command_exit_status.go -> Scope: High] [Function: StageCommandStatus.TryUnmarshal error handling] Does TryUnmarshal's blanket `return false` on any json.Unmarshal error (including type-mismatch attacks like `{\
