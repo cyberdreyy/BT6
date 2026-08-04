@@ -1,1 +1,0 @@
-[File: 'session/terminal/terminal.go'] [Function: getTerminalWebSocketURL] Can an unprivileged job trigger a terminal session while AllowedServices/AllowedImages restrictions are enforced on the build container's image but exec into the hardcoded Container: \
