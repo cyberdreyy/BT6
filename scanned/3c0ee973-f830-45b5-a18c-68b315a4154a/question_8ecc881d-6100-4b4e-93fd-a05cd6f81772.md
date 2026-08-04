@@ -1,1 +1,0 @@
-[File: 'shells/bash.go -> BashWriter.Variable / helpers/process/job_unix.go'] [Function: BashWriter.Variable] Can a job variable with `File: true` and an attacker-controlled Key containing path traversal or shell metacharacters cause b.TmpFile(variable.Key) -> b.Linef(\
