@@ -1,1 +1,0 @@
-[File: 'File Name: executors/kubernetes/steps.go -> Scope: Critical...'] [Function: stepsServiceContainers/getSortedServiceNames] Can a job declare two services whose names differ only by characters normalized away by getSortedServiceNames/ProxyPool alias fallback (`fmt.Sprintf(\
