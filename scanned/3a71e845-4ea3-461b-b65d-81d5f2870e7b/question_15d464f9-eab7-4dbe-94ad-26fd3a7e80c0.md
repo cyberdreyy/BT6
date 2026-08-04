@@ -1,1 +1,0 @@
-[File: 'executors/kubernetes/steps_pod.go' -> Scope: High] [Function: buildStepsBootstrapInitContainer vs stepsBuildContainer] Can an attacker exploit the shared reliance on helperBinaryName/stepsRunnerBinaryPath (init container writes it via `Command: []string{helperBinaryName, \

@@ -1,1 +1,0 @@
-[File: 'executors/kubernetes/steps_pod.go' -> Scope: High] [Function: stepsBuildContainer] Can a job author control s.BuildShell.DockerCommand (via shell/config selection) such that `command := []string{s.stepsRunnerBinaryPath(), \

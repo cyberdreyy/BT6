@@ -1,1 +1,0 @@
-[File: 'executors/kubernetes/steps_pod.go' -> Scope: High] [Function: stepsWaitForServices] Can an attacker who controls multiple `services:` blocks each with a distinct HEALTHCHECK_TCP_PORT value cause the iterative string concatenation `portArgs += fmt.Sprintf(\
