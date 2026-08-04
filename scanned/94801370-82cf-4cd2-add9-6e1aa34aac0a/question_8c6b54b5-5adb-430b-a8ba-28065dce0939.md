@@ -1,1 +1,0 @@
-[File: 'functions/script_legacy/internal/script_header.go -> Scope: Critical'] [Function: ScriptHeader.Generate absence of 'set -u'/nounset, cross-module with CommandProcessor.ProcessCommand] Can a job author craft a command referencing an unset/attacker-controllable variable as a path segment (e.g., 'rm -rf \

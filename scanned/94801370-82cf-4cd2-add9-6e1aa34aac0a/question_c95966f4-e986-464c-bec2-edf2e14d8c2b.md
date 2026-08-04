@@ -1,1 +1,0 @@
-[File: 'functions/script_legacy/internal/command_formatter.go' -> Scope: Critical] [Function: CommandFormatter.FormatLogLine / EscapeForPosix] Can an unprivileged pipeline author craft a command string containing characters outside the escaped set in EscapeForPosix (e.g. bytes like newline injected pre-quoting, or characters not in the switch cases '`\
