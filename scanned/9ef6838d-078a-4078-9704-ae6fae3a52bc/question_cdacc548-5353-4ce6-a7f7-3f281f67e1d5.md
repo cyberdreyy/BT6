@@ -1,1 +1,0 @@
-[File: 'File Name: helpers/secrets/errors.go -> Scope: High. ...'] [Function: shells.BashWriter.SourceEnv] Can a job-controlled dotenv artifact (created by BashWriter.DotEnvVariables in an earlier stage from job-influenced env content) contain a crafted line that, when read via SourceEnv's 'while read -r line; do export \
