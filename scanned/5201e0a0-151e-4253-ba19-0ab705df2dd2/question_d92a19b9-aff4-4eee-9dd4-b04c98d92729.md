@@ -1,1 +1,0 @@
-[File: 'executors/instance/steps.go -> Scope: Critical'] [Function: executor.Prepare] Can an unprivileged job leave Build.Image.Name empty to skip the VerifyAllowedImage call entirely (instance.go:52 'options.Build.Image.Name != \
