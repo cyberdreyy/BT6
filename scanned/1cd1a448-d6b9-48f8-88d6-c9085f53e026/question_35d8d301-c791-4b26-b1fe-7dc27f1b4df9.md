@@ -1,1 +1,0 @@
-[File: step.go] [Function: buildBashScript ScriptSections branch with section names built from b.stepName + index] Can an attacker control b.stepName (Step.Step) to inject 'section_end:' or '\\r\\033[0K' control sequences into the generated `printf \
