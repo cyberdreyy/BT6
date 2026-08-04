@@ -1,1 +1,0 @@
-[File: 'File Name: helpers/runner_wrapper/api/errors.go -> Scope: Critical. A session, terminal, proxy, or router bug lets one unprivileged job attach to, hijack, or execute commands in another job'] [Function: Session.newTerminalConn / execHandler in session/session.go] When execHandler receives a connectionInUseError from newTerminalConn (session.go:175-180), it logs \
