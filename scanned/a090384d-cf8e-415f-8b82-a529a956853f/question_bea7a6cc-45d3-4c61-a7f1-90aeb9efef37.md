@@ -1,1 +1,0 @@
-[File: helpers/secrets/resolvers/gitlab_secrets_manager/resolver.go -> Scope: Critical] [Function: resolver.Resolve, loginPath construction] Can an unprivileged job set gsmSecret.Server.InlineAuth.AuthMount to a value containing path traversal segments (e.g. '../../sys') so that path.Join(\
