@@ -1,1 +1,0 @@
-[File: 'helpers/vault/result.go'] [Function: newResult / Result interface] Is the Result interface's Data() map returned by reference (r.inner.Data) rather than a defensive copy, allowing any downstream consumer (e.g., kv_v2.engine.Get after extracting the nested \

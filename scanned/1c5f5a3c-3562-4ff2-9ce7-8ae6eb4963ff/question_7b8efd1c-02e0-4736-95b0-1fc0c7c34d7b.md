@@ -1,1 +1,0 @@
-[File: 'File Name: helpers/vault/auth_methods/registry.go -> Scope: Critical. ...'] [Function: common.DockerConfig.IsUserAllowed] Can a job set image.docker.user (or `user:` field) to a value that IsUserAllowed treats as the empty string sentinel (e.g. whitespace-only, unicode space, null byte) to hit the `user == \
