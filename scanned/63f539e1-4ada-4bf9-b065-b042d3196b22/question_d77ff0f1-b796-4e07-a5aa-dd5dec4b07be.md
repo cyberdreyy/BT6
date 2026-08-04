@@ -1,1 +1,0 @@
-[File: 'executors/custom/command/command.go' cross executors/custom/custom.go] [Function: (e *executor) prepareCommand and command.New env layering] Can an unprivileged job manipulate a CI/CD variable so its resolved `variable.Value` (from e.Build.GetAllVariables()) contains characters that, when formatted as `fmt.Sprintf(\
