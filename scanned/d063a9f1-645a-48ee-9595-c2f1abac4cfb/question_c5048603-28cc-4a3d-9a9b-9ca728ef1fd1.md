@@ -1,1 +1,0 @@
-[File: container_entrypoint_forwarder.go -> commandStatus] [Function: commandStatus] Given the timestamp check only validates `p[len(containerLoggerTimeStampFormat)] == ' '` and successfully parses via time.Parse, can a job craft output where a legitimate log line coincidentally matches the RFC3339Nano-like prefix format (28 chars + space) followed by valid JSON `{\
