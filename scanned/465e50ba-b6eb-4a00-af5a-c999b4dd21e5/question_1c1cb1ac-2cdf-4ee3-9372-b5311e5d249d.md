@@ -1,1 +1,0 @@
-[File: 'File Name: cache/cacheconfig/cacheconfig.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'] [Function: CacheS3Config.EncryptionType] Can an operator-set or environment-derived ServerSideEncryption value that fails to match known types cause logrus.Warnf(\
