@@ -1,1 +1,0 @@
-[File: 'cache/azure/adapter.go -> Scope: Critical...'] [Function: cache.GetAdapter path-traversal guard + azureAdapter.New(objectName)] Can an attacker submit a cache key containing backslashes, NFC/NFD unicode slash look-alikes, or percent-encoded '../' sequences that pass Go's `path.Join`+`strings.HasPrefix(fullPath, basePath+\

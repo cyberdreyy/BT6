@@ -1,1 +1,0 @@
-[File: cache/azure/azure.go -> Scope: Critical executor escape/code exec] [Function: New (cache/azure/adapter.go) + objectName handling] Can a job supply a cache key containing Azure Blob-reserved characters or NUL bytes (e.g. '\\x00') that passes strings.TrimLeft(objectName, \
