@@ -1,1 +1,0 @@
-[File: 'shells/abstract.go' -> Scope: same] [Function: writeGitCleanupAllConfigs] Can a job control build.GetSubmodulePaths()/.gitmodules entries such that writeGitCleanupAllConfigs's `sw.RmFilesRecursive(modulesDir, \

@@ -1,1 +1,0 @@
-[File: 'shells/abstract.go' -> Scope: same] [Function: changeFilesOwnership] Can a job control info.Build.CacheDir/RootDir contents (via job-writable cache Paths or artifact restore) to place a crafted BuildUidGidFile (.gitlab-build-uid-gid) whose stat output is attacker-influenced, so that the `chown -R \
