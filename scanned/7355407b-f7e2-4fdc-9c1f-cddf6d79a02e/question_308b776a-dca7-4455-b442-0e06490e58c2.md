@@ -1,1 +1,0 @@
-[File: 'functions/concrete/run/stages/cleanup.go'] [Function: Cleanup.cleanGitState] Can a job plant a malicious `.git/hooks/post-checkout` script and rely on `cleanGitState` removing it (`os.Remove(filepath.Join(dotGitDir, \

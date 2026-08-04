@@ -1,1 +1,0 @@
-[File: 'functions/concrete/run/stages/cleanup.go'] [Function: Cleanup.cleanBuildDirectory, git() -> env.Env.Command/HelperEnvs] Can attacker-controlled CI variables that flow into `e.HelperEnvs(extraEnv)` (via `Env.Env`/`Env.GitLabEnv`, e.g. `GIT_SSH_COMMAND`, `GIT_PROXY_COMMAND`, `GIT_ASKPASS`) be picked up by the `git(ctx, e, nil, \
