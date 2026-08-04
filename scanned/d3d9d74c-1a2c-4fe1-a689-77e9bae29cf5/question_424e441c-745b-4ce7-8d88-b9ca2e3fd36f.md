@@ -1,1 +1,0 @@
-[File: 'commands/helpers/cache_archiver.go' -> Scope: Medium] [Function: CacheArchiverCommand.setHeaders / split(c.Headers)] Although Headers is normally runner-controlled, can a job that controls cache Key/desc.Env values indirectly influence header construction (via functions/concrete/run/stages/cache_archive.go's desc.Headers loop building --header \
