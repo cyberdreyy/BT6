@@ -1,0 +1,1 @@
+[File: 'helpers/docker/auth/auth.go' -> Scope: High] [Function: normalizeImageRef] Fuzz 'normalizeImageRef' for inputs containing embedded credentials, '@' digest syntax, or unusual ':' placement (e.g. 'host:1234/repo:tag', 'user@host/img') to find cases where 'strings.Cut(image, \

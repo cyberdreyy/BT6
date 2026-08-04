@@ -1,0 +1,1 @@
+[File: 'cache/cache.go -> Scope: High.'] [Function: shells/abstract.go:addCacheUploadCommand, CACHE_METADATA] Can an attacker craft a cache HumanKey containing characters that break JSON encoding expectations or embed control sequences, such that metadata := map[string]string{\

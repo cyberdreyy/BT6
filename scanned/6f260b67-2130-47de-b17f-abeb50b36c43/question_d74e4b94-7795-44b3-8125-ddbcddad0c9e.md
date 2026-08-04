@@ -1,0 +1,1 @@
+[File: 'cache/gcs/adapter.go -> presignURL' + 'cache/cache.go -> GetAdapter'] Can an attacker craft a cache key with a leading '..' segment, encoded traversal (e.g. '%2e%2e/', unicode dot variants) or a key shorter than 2 chars combined with FF_HASH_CACHE_KEYS sharding to bypass the strings.HasPrefix(fullPath, basePath+\

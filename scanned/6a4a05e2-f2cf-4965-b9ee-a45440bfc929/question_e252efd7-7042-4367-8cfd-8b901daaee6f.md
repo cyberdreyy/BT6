@@ -1,0 +1,1 @@
+[File: 'executors/custom/custom.go'] [Function: executor.Cleanup] Since Cleanup calls os.RemoveAll(e.tempDir) unconditionally after re-running prepareConfig, can a job influence e.tempDir (set once via os.MkdirTemp(\

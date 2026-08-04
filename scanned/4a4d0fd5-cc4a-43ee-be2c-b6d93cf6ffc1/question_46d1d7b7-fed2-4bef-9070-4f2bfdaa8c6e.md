@@ -1,0 +1,1 @@
+[File: 'cache/azure/adapter.go'] [Function: azureAdapter.getEnv, generateSASToken] Can a project provide a cache key/config combination where getSigner() (via credentialsResolver.Resolve/Signer) fails but generateSASToken still returns a non-empty token from a previous adapter instance/state reuse (race or caching bug), causing env[\

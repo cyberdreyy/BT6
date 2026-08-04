@@ -1,0 +1,1 @@
+[File: 'shells/abstract.go'] [Function: AbstractShell.writeExports -> w.SourceEnv(gitlabEnvFile)] Can a job script write attacker-controlled 'export'-style lines into the GITLAB_ENV file consumed by SourceEnv (which does 'while read -r line; do export \

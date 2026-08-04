@@ -1,0 +1,1 @@
+[File: 'executors/custom/api/const.go'] [Function: executor.prepareCommand -> CUSTOM_ENV_ variable injection] Can an unprivileged job define a CI/CD variable whose Key, when formatted via fmt.Sprintf(\

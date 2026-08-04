@@ -1,0 +1,1 @@
+[File: 'helpers/archives/zip_create.go'] [Function: errorIfGitDirectory / isPathAGitDirectory] Can an attacker bypass the .git directory warning/skip logic by supplying a path such as './.git/hooks/pre-commit' or a path using OS-specific separators/case variants (e.g. '.GIT' on Windows) so that isPathAGitDirectory's strict `parts[0] == \

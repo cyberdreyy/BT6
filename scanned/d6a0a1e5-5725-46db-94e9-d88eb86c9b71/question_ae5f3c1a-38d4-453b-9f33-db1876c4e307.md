@@ -1,0 +1,1 @@
+[File: cache/cacheconfig/cacheconfig.go -> Scope: High] [Function: extractCacheOrFallbackCachesWrapper.blockProtectedFallback] Can an attacker bypass the `-protected` suffix block on `CACHE_FALLBACK_KEY` (shells/abstract.go blockProtectedFallback) using trailing whitespace/dot variations beyond what `strings.TrimRight(key, \

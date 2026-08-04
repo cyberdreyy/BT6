@@ -1,0 +1,1 @@
+[File: executors/docker/internal/volumes/parser/volume.go -> Scope: Critical] [Function: Volume.Definition, Volume.Mode] Can an attacker set `Mode` to a value containing extra colon-separated Docker mount options (e.g. `rw:Z:shared,exec`) that, when concatenated via `strings.Join(options, \

@@ -1,0 +1,1 @@
+[File: 'cache/azure/adapter.go' -> Scope: High] [Function: azureAdapter.credentialsResolver.Signer / getSigner] If credentialsResolver.Resolve()/Signer() fail (returning nil signer), generateSASToken returns \

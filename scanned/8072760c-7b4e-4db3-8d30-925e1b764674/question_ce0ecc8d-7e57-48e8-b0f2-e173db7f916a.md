@@ -1,0 +1,1 @@
+[File: 'File Name: cache/azure/adapter.go -> Scope: High'] [Function: azureAdapter.objectName / New] Can a job with a maliciously crafted CI_PROJECT_PATH-like cache key or objectName containing another project's cache path segments (e.g. '../otherproject/key' after strings.TrimLeft(objectName, \

@@ -1,0 +1,1 @@
+[File: 'helpers/secrets/resolvers/gitlab_secrets_manager/resolver.go'] [Function: resolver.Resolve] Can an attacker who controls `gsmSecret.Server.InlineAuth.AuthMount` (legacy field) inject path-traversal or extra path segments (e.g. `../victim-project`) that get joined via `path.Join(\

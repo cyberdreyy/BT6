@@ -1,0 +1,1 @@
+[File: helpers/archives/path_check_helper.go errorIfGitDirectory + os_windows.go lchmod] [Function: errorIfGitDirectory, isPathAGitDirectory] Does the .git-directory check only inspect the first path segment (parts[0]==\

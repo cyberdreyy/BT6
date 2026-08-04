@@ -1,0 +1,1 @@
+[File: 'cache/cache.go -> Scope: High.'] [Function: shells/abstract.go:extractCacheOrFallbackCachesWrapper, blockProtectedFallback] Can an attacker set the CACHE_FALLBACK_KEY variable to a value ending in a crafted whitespace/period sequence (e.g. 'foo-protected. ' or 'foo-protected\\t') to bypass the strings.TrimRight(key, \

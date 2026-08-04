@@ -1,0 +1,1 @@
+[File: 'common/spec/spec.go' -> Scope: Critical cross-tenant cache/artifact/checkout/helper poisoning] [Function: Cache.Key, ArtifactPaths, Variables.ExpandValue] Can an unprivileged attacker set a CI variable used inside `Cache.Key` (tagged `inputs:\

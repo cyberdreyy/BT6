@@ -1,0 +1,1 @@
+[File: executors/docker/internal/volumes/parser/windows_path.go] [Function: windowsPath.IsAbs] Can an attacker supply a destination path starting with a single backslash-prefixed drive-relative form (e.g. `\\foo`) that IsAbs incorrectly classifies as absolute due to the `strings.HasPrefix(path, \

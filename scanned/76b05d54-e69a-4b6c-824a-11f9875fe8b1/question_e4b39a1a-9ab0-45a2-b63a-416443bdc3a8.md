@@ -1,0 +1,1 @@
+[File: 'executors/kubernetes/internal/watchers/pod.go' -> Scope: Critical] [Function: asPod] Can a job indirectly cause a non-pod object (e.g. a shared informer cache entry corrupted by a type migration or a DeletedFinalStateUnknown wrapper) to be passed to asPod, returning a nil *v1.Pod that DeleteFunc then dereferences via pod.GetNamespace()+\

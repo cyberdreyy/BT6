@@ -1,0 +1,1 @@
+[File: helpers/container/helperimage/linux_info.go -> Scope: High] [Cross-module: DisableUmask / FF_DISABLE_UMASK_FOR_KUBERNETES_EXECUTOR] Can a job trigger a state where cfg.DisableUmask=true is set (skipping `gitlab-runner-build` injection, `cmd = []string{\

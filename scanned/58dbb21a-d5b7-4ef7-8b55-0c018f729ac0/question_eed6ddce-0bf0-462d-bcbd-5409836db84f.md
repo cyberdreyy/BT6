@@ -1,0 +1,1 @@
+[File: 'executors/kubernetes/util.go -> Scope: Critical'] [Function: sanitizeLabel] Can an unprivileged attacker control a value (e.g. project name, ref name, or job-controlled metadata) that flows into sanitizeLabel such that the strings.Map + strings.Trim(value, \

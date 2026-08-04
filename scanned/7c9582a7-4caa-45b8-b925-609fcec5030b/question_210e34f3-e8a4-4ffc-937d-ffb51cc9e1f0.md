@@ -1,0 +1,1 @@
+[File: 'File Name: cache/azure/adapter.go -> Scope: High'] [Function: shells/abstract.go addExtractCacheCommand / writeCacheExports] Can a job-controlled cache key that is placed into the ArchiveFile path (see newCacheConfig's getArchivePath using path.Join(build.CacheDir, key, \

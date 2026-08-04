@@ -1,0 +1,1 @@
+[File: 'executors/custom/custom.go -> Scope: Critical'] [Function: executor.prepareCommand] Can an attacker-controlled CI/CD variable Key or Value containing control characters (NUL, embedded '=', or extremely long values) cause the fmt.Sprintf(\

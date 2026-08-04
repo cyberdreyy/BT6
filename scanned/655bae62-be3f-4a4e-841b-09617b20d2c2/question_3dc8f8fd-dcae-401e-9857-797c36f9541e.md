@@ -1,0 +1,1 @@
+[File: 'apps/gitlab-runner-helper/main.go -> Scope: Critical'] [Function: CacheExtractorCommand.Execute + archive.NewExtractor in commands/helpers/cache_extractor.go] Given `c.File` and `wd` are derived from `os.Getwd()` and CLI args with no additional sandboxing (see `TestCacheExtractorForNotExistingFile` using `File: \

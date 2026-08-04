@@ -1,0 +1,1 @@
+[File: 'network/gitlab.go' -> Scope: Critical] [Function: GitLabClient.createArtifactsContentProvider] Can an unprivileged attacker control the baseName parameter (from ArtifactsOptions.BaseName, itself derived from job-provided artifact paths) such that mpw.CreateFormFile(\

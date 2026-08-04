@@ -1,0 +1,1 @@
+[File: 'commands/multi.go -> Scope: Critical'] [Function: buildsHelper.findSessionByURL] Can an unprivileged job that knows or brute-forces a debug-session URL path hit findSessionByURL (commands/builds_helper.go) and, because it only checks strings.HasPrefix(url, build.Session.Endpoint+\

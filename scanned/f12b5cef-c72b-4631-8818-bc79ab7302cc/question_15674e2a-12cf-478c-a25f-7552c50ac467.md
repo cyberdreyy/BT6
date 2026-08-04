@@ -1,0 +1,1 @@
+[File: executors/kubernetes/steps.go -> Scope: Critical] [Function: execStepsProxy] Can an unprivileged job control the emitted socketPath string to include extra whitespace-separated tokens (since `readyMarker` matching only strips a trailing `\\n`, not internal spaces) such that `Command: []string{binaryPath, \

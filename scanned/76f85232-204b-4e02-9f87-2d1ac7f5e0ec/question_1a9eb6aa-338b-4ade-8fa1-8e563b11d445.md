@@ -1,0 +1,1 @@
+[File: 'common/secrets.go' + 'cache/cache.go'] [Function: cache.GetAdapter, cacheDownloadDescriptor] Can an attacker set build.JobInfo.ProjectID or manipulate the cache key (spec Cache.Key) with path-traversal sequences (`../`) so that fullPath escapes basePath (`project/<projectId>/...`) despite the `strings.HasPrefix(fullPath, basePath+\

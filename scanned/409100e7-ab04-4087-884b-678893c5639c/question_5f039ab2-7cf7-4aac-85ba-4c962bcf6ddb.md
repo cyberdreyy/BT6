@@ -1,0 +1,1 @@
+[File: 'executors/kubernetes/exec.go'] [Function: DefaultRemoteExecutor.Execute panic/error handlers in init()] Can an attacker trigger a K8S stream panic (e.g. malformed SPDY frame via a crafted long-running script that exhausts container resources) whose recovered panic value, logged via `logrus.Errorf(\

@@ -1,0 +1,1 @@
+[File: functions/script_legacy/internal/command_processor.go -> Scope: Critical] [Function: TraceSectionWriter.writeSectionStart timestampCommand] Can an attacker-controlled command string interact with the unescaped `timestampCommand = \

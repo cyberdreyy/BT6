@@ -1,0 +1,1 @@
+[File: 'helpers/secrets/resolvers/gitlab_secrets_manager/resolver.go' -> Scope: Medium persistent multi-tenant disruption] [Function: resolver.Resolve, vault.NewClient] Can an unprivileged attacker who controls the CI job's 'secrets:gitlab_secrets_manager' block (Server.URL, InlineAuth.Path/AuthMount/JWT/Role) craft a value for loginPath (via path.Join(\

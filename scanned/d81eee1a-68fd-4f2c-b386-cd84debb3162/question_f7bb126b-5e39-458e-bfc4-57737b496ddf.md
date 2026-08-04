@@ -1,0 +1,1 @@
+[File: 'File Name: helpers/vault/auth_methods/registry.go -> Scope: High.'] [Function: GetFactory -> jwt.method.Authenticate] Can an attacker who controls the `path` argument passed into Factory(path, data) (sourced from job's vault secret engine configuration) inject a value that, when joined via path.Join(\

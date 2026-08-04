@@ -1,0 +1,1 @@
+[File: 'cache/cache.go -> Scope: High.'] [Function: shells/abstract.go:cacheAlternateKey / newCacheConfig getArchivePath] Can an attacker choose a cache key whose sha256 hash (hashedKey) or whose sanitized humanKey, when joined via path.Join(build.CacheDir, key, \

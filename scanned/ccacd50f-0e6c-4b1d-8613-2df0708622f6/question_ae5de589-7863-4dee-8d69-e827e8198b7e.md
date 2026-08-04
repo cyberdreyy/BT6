@@ -1,0 +1,1 @@
+[File: 'common/buildlogger/internal/masker/masker.go' -> Scope: Critical cross-tenant poisoning] [Function: masker.Write, empty-phrase edge case] Given masker_test.go documents 'empty secrets have no affect' for values=[\
