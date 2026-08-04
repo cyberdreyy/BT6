@@ -1,1 +1,0 @@
-[File: cache/azure/adapter.go -> Scope: Medium] [Function: azureAdapter.GetGoCloudURL] Can a job supply a ContainerName value (via CacheAzureConfig, if runner allows job-influenced cache config through variables) containing URL-breaking characters that, when formatted via fmt.Sprintf(\
