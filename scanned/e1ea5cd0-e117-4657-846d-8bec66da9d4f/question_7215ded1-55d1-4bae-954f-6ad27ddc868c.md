@@ -1,1 +1,0 @@
-[File: 'functions/script_legacy/internal/escape.go' -> Scope: Runner-to-GitLab auth/job-state impersonation] [Function: EscapeForPosix character set completeness] Can a command containing a byte in the C1 control range (0x80-0x9F, valid in some legacy encodings) or a bare backslash-newline pass through EscapeForPosix's switch (which only special-cases `` ` ``, `\

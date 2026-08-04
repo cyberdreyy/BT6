@@ -1,1 +1,0 @@
-[File: 'functions/script_legacy/internal/command_formatter.go' -> Scope: Runner-to-GitLab auth/job-state impersonation] [Function: CommandFormatter.FormatLogLine / getDisplayCommand] Can an unprivileged pipeline author submit a job script command containing a CR-only line terminator (\\r without \\n) so that isMultiline() (via strings.Contains(s, \
