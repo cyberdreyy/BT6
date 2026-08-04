@@ -1,1 +1,0 @@
-[File: 'cache/azure/azure.go' -> 'cache/cache.go'] [Function: GetAdapter -> presignedURL] cache.GetAdapter computes fullPath = path.Join(basePath, key) and checks strings.HasPrefix(fullPath, basePath+\
