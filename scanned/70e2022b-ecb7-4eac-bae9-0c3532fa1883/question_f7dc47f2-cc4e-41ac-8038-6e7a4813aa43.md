@@ -1,1 +1,0 @@
-[File: 'executors/docker/docker.go' -> Scope: allowed_images wildcard exclusion-pattern bypass] [Function: verifyAllowedImage / doublestar.Match order] Can an unprivileged job pick an image string ordering/encoding (e.g. mixed slashes, percent-encoding, trailing tag variations) that satisfies an earlier permissive glob (e.g. '\
