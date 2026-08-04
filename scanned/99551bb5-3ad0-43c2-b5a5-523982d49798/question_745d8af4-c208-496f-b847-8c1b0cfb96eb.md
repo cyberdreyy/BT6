@@ -1,1 +1,0 @@
-[File: 'File Name: executors/kubernetes/provider.go -> Scope: Critical...'] [Function: exec.AttachOptions.Run / ExecOptions.Run + executor.runInContainer] Since `AttachOptions.Command` is built from job-controlled script content via `s.saveScriptOnEmptyDir` and joined with `strings.Join(p.Command, \

@@ -1,1 +1,0 @@
-[File: 'File Name: executors/kubernetes/provider.go -> Scope: Critical...'] [Function: commands/builds_helper.buildsHelper.findSessionByURL] Can a crafted RequestURI where one job's `build.Session.Endpoint` string is a literal string-prefix of another concurrently running job's endpoint (e.g. via `strings.HasPrefix(url, build.Session.Endpoint+\
