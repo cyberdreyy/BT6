@@ -1,0 +1,1 @@
+[File: 'helpers/url/gitauth.go' -> Scope: Critical] [Function: GitAuthHelper.GetRemoteURL path.Join with ProjectPath] Can an attacker supply a ProjectPath value containing a trailing '.git/../../other-project' or URL-encoded traversal so that path.Join(u.Path, ProjectPath+\

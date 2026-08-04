@@ -1,0 +1,1 @@
+[File: 'executors/default_executor_provider.go'] [Function: DefaultExecutorProvider.Creator (docker_command.go newDockerCreator)] Can a job that sets a service/image name or entrypoint variable reach BashShell.GetEntrypointCommand -> bashDetectScript without being escaped, given preconditions that probeFile/script string concatenation in GetEntrypointCommand uses fmt.Sprintf(\

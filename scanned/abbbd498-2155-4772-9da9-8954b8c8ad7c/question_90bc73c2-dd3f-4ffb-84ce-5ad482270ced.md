@@ -1,0 +1,1 @@
+[File: common/spec/inputs.go -> Scope: Medium] [Function: expandStringField / field.SetString] Can an attacker supply an interpolation result whose expanded string length or byte content, when written back via reflect's field.SetString into `inputs:\

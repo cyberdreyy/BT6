@@ -1,0 +1,1 @@
+[File: shells/trap_command_exit_status.go -> Scope: Medium persistent multi-tenant disruption] [Function: StageCommandStatus.TryUnmarshal / stageCommandExitStatusImpl.tryUnmarshal] Can an unprivileged attacker who controls script output or environment variables printed to the job log craft a line that json.Unmarshal accepts as a valid `{\

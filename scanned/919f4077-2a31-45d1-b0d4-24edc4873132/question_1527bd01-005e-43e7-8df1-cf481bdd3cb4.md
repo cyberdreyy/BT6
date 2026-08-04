@@ -1,0 +1,1 @@
+[File: 'functions/concrete/run/stages/get_sources.go -> Scope: Critical restriction bypass'] [Function: GetSources.cleanupGitState -> walkRemove] Can an attacker craft deeply nested or symlinked .git/modules directory trees (via a prior job's submodule checkout) so that walkRemove(modulesDir, \

@@ -1,0 +1,1 @@
+[File: 'File Name: router/client_conn_factory.go -> Scope: Critical...'] [Function: ClientConnFactory.maybeSetCertificates] Can an attacker supply a DialTarget.URL whose host contains characters accepted by net/url.Parse but disallowed by typical DNS names (e.g. '/', '\\\\', or encoded traversal sequences) such that host+\

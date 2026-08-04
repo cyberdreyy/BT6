@@ -1,0 +1,1 @@
+[File: 'File Name: helpers/process/killer_unix.go -> Scope: High'] [Function: unixKiller.Terminate/ForceKill and GracefulTimeout/ForceKillTimeout constants] Can a job intentionally install a signal handler ignoring SIGTERM (default bash does not, but a custom executor binary or `sh -c 'trap

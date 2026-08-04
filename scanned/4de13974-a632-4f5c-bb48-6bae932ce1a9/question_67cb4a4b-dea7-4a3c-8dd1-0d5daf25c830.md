@@ -1,0 +1,1 @@
+[File: 'executors/shell/shell_terminal.go -> Scope: High'] [Function: session.generateToken / session.Session.withAuthorization] Can an unprivileged GitLab user who can trigger two low-cost pipelines observe timing differences in the non-constant-time comparison `s.Token != r.Header.Get(\

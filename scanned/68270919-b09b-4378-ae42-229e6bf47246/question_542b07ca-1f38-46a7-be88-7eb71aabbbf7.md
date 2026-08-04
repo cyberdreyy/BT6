@@ -1,0 +1,1 @@
+[File: 'executors/docker/internal/volumes/manager.go' -> Scope: Critical] [Function: manager.createCacheVolume] Can an attacker control m.config.TemporaryName or destination such that the computed volumeName (fmt.Sprintf(\

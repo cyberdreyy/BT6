@@ -1,0 +1,1 @@
+[File: functions/script_legacy/internal/script_generator.go -> Scope: High] [Function: ScriptGenerator.GenerateScript] Can an unprivileged job author set the job variable RUNNER_TEMP_PROJECT_DIR to a value containing shell metacharacters such as '$(id>&2)' or a backtick command substitution, causing GenerateScript's `fmt.Fprintf(&buf, \

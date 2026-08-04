@@ -1,0 +1,1 @@
+[File: 'File Name: cache/cachekey/cachekey.go -> Scope: Critical.'] [Function: Sanitize] Can an unprivileged attacker who controls the CI 'cache: key' or 'cache: paths' value in .gitlab-ci.yml craft a rawKey such that path.Clean(\

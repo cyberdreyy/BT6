@@ -1,0 +1,1 @@
+[File: helpers/process/commander.go -> Scope: shell script temp dir traversal] [Function: executors/shell/shell.go shellScriptArgs, commander.go NewOSCmd] Can a job control `s.BuildShell.Extension` to cause `scriptFile := filepath.Join(scriptDir, \

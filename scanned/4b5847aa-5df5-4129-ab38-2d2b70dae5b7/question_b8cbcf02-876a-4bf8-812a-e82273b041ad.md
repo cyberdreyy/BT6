@@ -1,0 +1,1 @@
+[File: 'session/proxy/proxy.go' -> Scope: Critical] [Function: Port.Scheme] Can an unprivileged job declare a service port with Protocol set to an unexpected but truthy-like string (case variants like \

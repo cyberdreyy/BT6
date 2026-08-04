@@ -1,0 +1,1 @@
+[File: 'File Name: cache/cache.go -> Scope: Critical.'] [Function: GetAdapter <-> shells/abstract.go blockProtectedFallback] The 'CACHE_FALLBACK_KEY' guard rejects keys ending in '-protected' after 'strings.TrimRight(key, \

@@ -1,0 +1,1 @@
+[File: shells/trap_command_exit_status.go] [Function: StageCommandStatus.BuildStage path-splitting] Can a job control the `Script` absolute path (bash shell case, per code comment 'script contains the script absolute path') via job-controlled variables or working directory names containing '/' segments crafted to make `strings.Split(*c.Script, \

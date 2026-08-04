@@ -1,0 +1,1 @@
+[File: 'common/build_settings.go' -> Scope: Medium persistent multi-tenant disruption] [Function: populateFeatureFlags test-mode branch reading RUNNER_TEST_FEATURE_FLAGS from os.Getenv] Can an unprivileged job variable named RUNNER_TEST_FEATURE_FLAGS influence feature flag resolution in a production runner binary if flag.Lookup(\

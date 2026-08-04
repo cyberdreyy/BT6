@@ -1,0 +1,1 @@
+[File: 'cache/gcs/adapter.go -> Scope: Critical'] [Function: gcsAdapter.presignURL error path] Can an unprivileged job trigger a GCS signing failure (e.g. malformed `PrivateKey` PEM reachable via mocked/misconfigured resolver, or `generateSignedURL` returning an error) under PRECONDITIONS that `logrus.Errorf(\

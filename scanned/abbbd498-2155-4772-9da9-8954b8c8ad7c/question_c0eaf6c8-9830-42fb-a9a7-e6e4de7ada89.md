@@ -1,0 +1,1 @@
+[File: common/spec/inputs.go -> Scope: Medium] [Function: expandSlice / expandStructSlice recursive struct expansion] Can an attacker define deeply nested Steps/Services structs (spec types tagged `inputs:\

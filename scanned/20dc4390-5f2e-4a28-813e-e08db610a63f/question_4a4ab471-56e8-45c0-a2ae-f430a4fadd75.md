@@ -1,0 +1,1 @@
+[File: executors/docker/internal/volumes/permission/linux_set.go -> Scope: High] [Function: dockerLinuxSetter.createContainer] Can an unprivileged attacker who controls a job's `cache: paths:` entry (or `volumes` config reaching manager.createCacheVolume) inject Docker Bind syntax via volumeName built as fmt.Sprintf(\

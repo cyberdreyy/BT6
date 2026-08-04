@@ -1,0 +1,1 @@
+[File: 'File Name: functions/script_legacy/internal/shell.go -> Scope: High. ...'] [Function: ScriptGenerator.GenerateScript / GITLAB_ENV sourcing] Can a job author, controlling script content in one script_legacy stage, write a crafted line such as X=$(malicious_command) into the file at gitLabEnvFile so that the next stage's generated preamble 'while read -r line; do export \

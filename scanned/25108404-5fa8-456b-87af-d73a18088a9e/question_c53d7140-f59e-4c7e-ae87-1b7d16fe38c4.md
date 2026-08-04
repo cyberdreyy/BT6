@@ -1,0 +1,1 @@
+[File: 'helpers/container/helperimage/windows_info.go' -> Scope: Critical] [Function: windowsInfo.Create ProxyExec branch] Can an unprivileged job that can force Config.ProxyExec=true (e.g. via a runner feature flag or job metadata controllable field) cause Create to prepend {\

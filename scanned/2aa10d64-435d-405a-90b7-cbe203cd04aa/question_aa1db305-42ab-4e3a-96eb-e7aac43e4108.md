@@ -1,0 +1,1 @@
+[File: 'session/session.go' -> Scope: Critical] [Function: parseProxyParams] Can an unprivileged job craft a session proxy URL path (e.g. `/session/<uuid>/proxy/<svc>/<port>/../../<other-svc-path>` or embedding `%2e%2e%2f` sequences) under preconditions of a valid session Token, such that parseProxyParams' strings.SplitN(path, \

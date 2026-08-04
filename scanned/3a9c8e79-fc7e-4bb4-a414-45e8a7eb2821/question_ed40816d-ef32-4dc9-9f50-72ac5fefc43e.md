@@ -1,0 +1,1 @@
+[File: 'functions/concrete/builder/options.go' -> Scope: High.] [Function: BashWriter.Variable file-mode path] Can an attacker set a job variable with `variable.File = true` and a Key/Value containing path traversal or shell metacharacters such that b.Linef(\

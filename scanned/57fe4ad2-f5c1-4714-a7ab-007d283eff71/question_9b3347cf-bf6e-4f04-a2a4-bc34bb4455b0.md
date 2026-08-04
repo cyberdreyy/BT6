@@ -1,0 +1,1 @@
+[File: 'File Name: executors/docker/internal/user/user.go -> Scope: High'] [Function: retrieveLastLine] Can a job-controlled container image whose 'id -u' output contains embedded CRLF/ANSI escape sequences or extremely long multi-line stdout (attacker sets PATH so 'id' is a wrapper script) make retrieveLastLine('strings.Split(strings.TrimSpace(s), \

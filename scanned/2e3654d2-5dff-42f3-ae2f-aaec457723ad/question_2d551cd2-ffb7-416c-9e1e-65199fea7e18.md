@@ -1,0 +1,1 @@
+[File: functions/script_legacy/internal/script_generator.go + command_processor.go -> Scope: High] [Function: ScriptGenerator.GenerateScript GITLAB_ENV preamble] Can a prior pipeline stage that writes a dotenv artifact (GITLAB_ENV) control a KEY=VALUE line such as 'X=$(malicious-command)', so that the generated preamble 'while read -r line; do export \
