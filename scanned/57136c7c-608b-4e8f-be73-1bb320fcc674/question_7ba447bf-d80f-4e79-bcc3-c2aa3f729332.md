@@ -1,1 +1,0 @@
-[File: 'File Name: shells/abstract.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'] [Function: writeGitSSLConfig] Can a job author set `CI_SERVER_TLS_CA_FILE`/CERT/KEY-backed variables to values that are also registered as masked secrets, and then trigger a `w.CommandArgExpand(\
