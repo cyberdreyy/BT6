@@ -1,1 +1,0 @@
-[File: 'executors/shell/steps.go' calling steps/localserver/localserver.go] [Function: executor.Connect / stepRunnerServer.ensureStarted] Since Connect returns a dialer function whose returned io.ReadWriteCloser is a plain unauthenticated net.Dial(\
