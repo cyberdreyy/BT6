@@ -1,0 +1,1 @@
+[File: helpers/runner_wrapper/api/status.go -> Scope: High] [Function: api.NewShutdownCallback / Wrapper.InitiateGracefulShutdown] Can a caller of Server.InitGracefulShutdown (helpers/runner_wrapper/api/server/server.go) supply a ShutdownCallback with Headers containing an Authorization/PRIVATE-TOKEN value, and does Wrapper.InitiateGracefulShutdown's debug log (WithField(\

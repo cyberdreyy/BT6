@@ -1,0 +1,1 @@
+[File: 'File Name: common/executor.go -> Scope: Critical'] [Function: helpers/archives.errorIfGitDirectory / isPathAGitDirectory in helpers/archives/path_check_helper.go] Can an unprivileged attacker bypass isPathAGitDirectory's check (which only inspects parts[0]==\

@@ -1,0 +1,1 @@
+[File: 'functions/concrete/run/stages/step.go'] [Function: shell (pre_clone_script/post_clone_script branch)] Can an attacker who controls the `pre_clone_script`/`post_clone_script` step name matching (stepName switch in shell()) craft a step named exactly \

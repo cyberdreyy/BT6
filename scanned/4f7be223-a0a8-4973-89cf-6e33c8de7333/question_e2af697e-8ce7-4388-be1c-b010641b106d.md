@@ -1,0 +1,1 @@
+[File: 'File Name: shells/bash.go -> Scope: Critical.'] [Function: BashWriter.SourceEnv] Can an unprivileged attacker supply a job-controlled pathname (e.g. via a build stage argument reaching SourceEnv, or a dotenv artifact path) containing shell metacharacters that survive the `%q` quoting in `b.Linef(

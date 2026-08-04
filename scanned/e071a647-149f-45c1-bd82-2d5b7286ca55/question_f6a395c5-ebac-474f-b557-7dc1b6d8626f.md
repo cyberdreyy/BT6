@@ -1,0 +1,1 @@
+[File: 'File Name: shells/abstract.go -> Scope: Critical.'] [Function: changeFilesOwnership] Can an unprivileged attacker control the contents of the `.gitlab-build-uid-gid` file (BuildUidGidFile) inside RootDir — e.g. by writing to it from a prior build stage or via a crafted checkout — to inject a malicious uid:gid or shell metacharacters into the generated `chown -R \

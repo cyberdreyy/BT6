@@ -1,0 +1,1 @@
+[File: 'File Name: executors/docker/terminal.go -> Scope: High.'] [Function: Session.withAuthorization in session/session.go, consumed by executors/docker/terminal.go's terminalConn] Can an attacker exploit the non-constant-time `s.Token != r.Header.Get(\

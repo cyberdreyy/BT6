@@ -1,0 +1,1 @@
+[File: 'File Name: common/spec/spec.go -> Scope: Critical.'] [Function: spec.CacheFallbackKeys / shells/abstract.go extractCacheOrFallbackCachesWrapper] Can an unprivileged attacker supply Cache.FallbackKeys (spec.go `FallbackKeys CacheFallbackKeys json:\

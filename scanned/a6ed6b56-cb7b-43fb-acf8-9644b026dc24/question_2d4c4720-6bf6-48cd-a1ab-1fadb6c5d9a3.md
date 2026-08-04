@@ -1,0 +1,1 @@
+[File: 'File Name: commands/helpers/archive/fastzip/zip_fastzip_archiver.go -> Scope: Critical'] [Function: archiver.Archive tmpDir handling] Can concurrent jobs on the same shared host executor (docker/shell) race on os.MkdirTemp(os.Getenv(archiverStagingDir), \

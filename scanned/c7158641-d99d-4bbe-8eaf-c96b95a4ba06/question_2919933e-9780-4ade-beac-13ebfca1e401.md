@@ -1,0 +1,1 @@
+[File: 'helpers/vault/auth_methods/jwt/auth.go -> Scope: High'] [Function: method.Authenticate, path.Join] Can an unprivileged pipeline author who controls CI_VAULT_AUTH_PATH (consumed via spec.VaultAuth.Path and expanded in common/spec/spec.go VaultAuth.expandVariables) inject a value like '../other-role/login' or an absolute-looking segment so that path.Join(\

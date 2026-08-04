@@ -1,0 +1,1 @@
+[File: 'commands/helpers/file_archiver.go' -> raw_archiver.go] [Function: fileArchiver.findRelativePathInProject] Can supplying a `--path` value containing NUL bytes, Windows UNC prefixes (`\\\\?\\`), or Unicode-normalized `..` variants bypass the `strings.HasPrefix(rel, \

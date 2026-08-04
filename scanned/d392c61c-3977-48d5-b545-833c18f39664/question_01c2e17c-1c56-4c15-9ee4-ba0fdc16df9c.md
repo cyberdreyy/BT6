@@ -1,0 +1,1 @@
+[File: 'functions/concrete/run/stages/cleanup.go'] [Function: Cleanup.cleanGitState] Can an attacker control `Cleanup.CleanGitConfig=true` combined with a crafted `e.WorkingDir` (derived from job/project path variables) to make `tmpDir := e.WorkingDir + \

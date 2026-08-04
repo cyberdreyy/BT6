@@ -1,0 +1,1 @@
+[File: 'File Name: common/spec/spec.go -> Scope: Critical.'] [Function: spec.ExpandInputs / processStruct reflect-based traversal over Artifacts/Cache/Steps] Can a job define nested Inputs (job.Inputs) whose expansion output, when applied via ExpandInputs to Job.Artifacts[i].Paths / Job.Cache[i].Paths / Job.Steps[i].Script (all tagged `inputs:\

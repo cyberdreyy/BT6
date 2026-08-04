@@ -1,0 +1,1 @@
+[File: 'functions/script_legacy/internal/shell.go' -> Scope: Critical] [Function: ScriptGenerator.GenerateScript sourcing preamble] Fuzz test: feed GenerateScript a GitLabEnvFile value containing embedded double-quote characters ('\

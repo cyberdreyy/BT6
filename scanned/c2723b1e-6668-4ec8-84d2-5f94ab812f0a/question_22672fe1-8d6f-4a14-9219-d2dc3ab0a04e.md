@@ -1,0 +1,1 @@
+[File: 'functions/script_legacy/internal/shell.go' -> Scope: Critical] [Function: DetectShell] Can an unprivileged job set a PATH-like job variable (consumed later via builtinCtx.GetJobVars()/GetEnvList()) to influence which binary DetectShell's exec.LookPath(\

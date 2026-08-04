@@ -1,0 +1,1 @@
+[File: 'File Name: common/spec/spec.go -> Scope: Critical.'] [Function: spec.ArtifactPaths / commands/helpers/file_archiver.go:findRelativePathInProject] Can an unprivileged job supply Artifact.Paths or Cache.Paths (spec.go, `Paths ArtifactPaths json:\

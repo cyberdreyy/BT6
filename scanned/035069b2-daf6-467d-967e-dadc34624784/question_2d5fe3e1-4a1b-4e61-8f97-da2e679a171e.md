@@ -1,0 +1,1 @@
+[File: 'File Name: shells/powershell.go -> Scope: Critical.'] [Function: PsWriter.buildCommand with psDoubleQuote quoter in CommandArgExpand] Since CommandArgExpand is used for expanding job-supplied glob/variable arguments (`& \

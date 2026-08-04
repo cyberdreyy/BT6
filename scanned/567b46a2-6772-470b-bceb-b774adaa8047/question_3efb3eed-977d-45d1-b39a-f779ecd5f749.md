@@ -1,0 +1,1 @@
+[File: 'File Name: helpers/process/job_unix.go -> Scope: High'] [Function: CommandOptions.Env construction in executors/custom/custom.go prepareCommand] Can a pipeline author supply a variable `Key` or `Value` containing an embedded newline or `=` such that the resulting `fmt.Sprintf(\

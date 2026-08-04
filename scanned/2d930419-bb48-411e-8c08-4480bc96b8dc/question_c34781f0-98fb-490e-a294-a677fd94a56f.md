@@ -1,0 +1,1 @@
+[File: 'cache/s3/bucket_location_tripper.go' -> Scope: Critical] [Function: RoundTrip vs actual minio-go GetBucketLocation semantics for us-east-1] Because RoundTrip always echoes the literal configured `bucketLocation` string (even when empty, representing us-east-1) without normalising it the way real AWS S3 does, can a runner configured with BucketLocation=\

@@ -1,0 +1,1 @@
+[File: 'File Name: helpers/gitlab_secrets_manager/service/gitlab_secrets_manager.go -> Scope: Critical.'] [Function: GitLabSecretsManagerServerInlineAuth.AuthMount / helpers/secrets/resolvers/gitlab_secrets_manager/resolver.go Resolve] Can a pipeline author cause the fallback `loginPath := path.Join(\

@@ -1,0 +1,1 @@
+[File: 'cache/gcsv2/adapter.go' -> Scope: Critical cross-tenant cache poisoning/exfiltration] [Function: cache.GetAdapter + gcsAdapter.presignURL] Can an unprivileged pipeline author under a job-controlled `cache:key` value bypass the `strings.HasPrefix(fullPath, basePath+\

@@ -1,0 +1,1 @@
+[File: 'common/build_step_dispatch.go' -> Scope: High] [Function: cacheDownloadDescriptor/cacheUploadDescriptor] Can an unprivileged attacker who controls the CI cache key or job variables cause cacheKey to resolve, via cache.GetAdapter(build.Runner.Cache, ..., fmt.Sprintf(\

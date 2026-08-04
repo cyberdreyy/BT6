@@ -1,0 +1,1 @@
+[File: 'File Name: shells/shell_writer.go -> Scope: High.'] [Function: BashWriter.isTmpFile / cleanPath] Can a job supply a variable.Value that is crafted to match the string prefix check `strings.HasPrefix(variable.Value, b.TemporaryPath)` (isTmpFile) without actually being a path under TemporaryPath (e.g. a sibling directory sharing the prefix string, like TemporaryPath+\

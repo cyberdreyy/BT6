@@ -1,0 +1,1 @@
+[File: 'functions/concrete/run/stages/cleanup.go'] [Function: Cleanup.cleanBuildDirectory, gitStrategyFetch branch] Can a job with `GitStrategy=fetch` and attacker-controlled submodule URLs (set up in an earlier `GetSources` stage) cause `git(ctx, e, nil, append(foreachArgs, \

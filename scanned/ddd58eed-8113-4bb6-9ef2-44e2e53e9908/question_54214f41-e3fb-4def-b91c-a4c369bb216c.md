@@ -1,0 +1,1 @@
+[File: 'File Name: common/allowed_images.go -> Scope: Critical.'] [Function: executors/instance/instance.go Prepare] The image allow-list check in the instance executor is gated by `options.Config.Autoscaler.VMIsolation.Enabled && options.Build.Image.Name != \

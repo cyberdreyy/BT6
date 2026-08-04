@@ -1,0 +1,1 @@
+[File: functions/script_legacy/internal/command_processor.go -> Scope: Critical] [Function: internal.ScriptGenerator.GenerateScript GitLabEnvFile preamble] Does the generated 'if [ -f %q ]; then while read -r line; do export \

@@ -1,0 +1,1 @@
+[File: cache/credentials_adapter.go] [Function: cache.GetAdapter shortToken parameter] Can an unprivileged job obtain or forge a `shortToken` value (e.g., via a compromised or reused runner registration token, or by exploiting shortToken derivation logic) such that `namespace := path.Join(\

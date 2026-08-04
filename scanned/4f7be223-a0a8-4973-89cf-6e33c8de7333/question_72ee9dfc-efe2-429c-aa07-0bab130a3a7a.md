@@ -1,0 +1,1 @@
+[File: 'commands/single.go'] [Function: shells/abstract.go newCacheConfig -> getArchivePath] Can a job with attacker-controlled cache key (`cacheOptions.Key`, expanded via `ExpandValue`) craft a key value such as `../../../outside/cache` that, when joined via `path.Join(build.CacheDir, key, \

@@ -1,0 +1,1 @@
+[File: 'File Name: helpers/process/job_unix.go -> Scope: High'] [Function: osCmd.Start / CommandOptions.Dir] Can a pipeline author control `CommandOptions.Dir` (e.g. via `e.tempDir`/`scriptDir` construction in `executors/custom/custom.go` `Run`, built from `filepath.Join(e.tempDir, \

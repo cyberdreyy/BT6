@@ -1,0 +1,1 @@
+[File: 'helpers/archives/path_check_helper.go' + helpers/archives/path_error_tracker.go] [Function: pathErrorTracker.actionable] Since `pathErrorTracker.actionable` dedups purely on `PathError.Op` string, and `errorIfGitDirectory` always returns the fixed Op `\

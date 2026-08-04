@@ -1,0 +1,1 @@
+[File: 'File Name: shells/shell_writer.go -> Scope: Critical.'] [Function: PsWriter.CommandWithStdin temp-file block vs BashWriter.CommandWithStdin] Given the PowerShell implementation writes stdin content to a `Get-Item ([System.IO.Path]::GetTempFilename())` path with `psSingleQuote(stdin+\

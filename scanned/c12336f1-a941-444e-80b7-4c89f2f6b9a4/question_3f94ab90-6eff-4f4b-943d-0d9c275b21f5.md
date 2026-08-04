@@ -1,0 +1,1 @@
+[File: 'commands/helpers/file_archiver.go' -> Scope: High] [Function: fileArchiver.exclude / sortedFiles] Can an attacker abuse map iteration/logging of `c.excluded` (keyed by exclude rule string, itself possibly derived from an expanded protected variable per normalizeArgs) via `logrus.Infof(\

@@ -1,0 +1,1 @@
+[File: 'functions/script_legacy/internal/shell.go' -> Scope: Critical] [Function: DetectShell + os.TempDir() usage in Executor.Execute] Can an unprivileged job set a TMPDIR-style job variable (added to env only for the child process via cmd.Env) and expect it to redirect os.CreateTemp(\

@@ -1,0 +1,1 @@
+[File: escape.go] [Function: EscapeForAnsiC vs EscapeForPosix divergence] Do the two escape functions treat the same dangerous character set differently (EscapeForAnsiC escapes control/non-ASCII bytes but not shell metacharacters like `$`, `` ` ``, unescaped in default branch since they're printable ASCII 0x20-0x7E; EscapeForPosix escapes `` ` ``, `\

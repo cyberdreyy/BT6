@@ -1,0 +1,1 @@
+[File: 'File Name: shells/bash.go -> Scope: Critical.'] [Function: BashWriter.SectionStart / SectionEnd] Can an unprivileged attacker control the `id` or `command` (job stage name / section label reaching SectionStart) such that unescaped concatenation `\

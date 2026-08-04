@@ -1,0 +1,1 @@
+[File: 'common/executor.go -> Scope: High'] [Function: session.Session.withAuthorization cross-module with SessionInfo from RequestJob] Given session/session.go's withAuthorization uses `s.Token != r.Header.Get(\
