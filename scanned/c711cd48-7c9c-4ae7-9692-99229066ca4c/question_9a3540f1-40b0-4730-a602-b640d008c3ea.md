@@ -1,1 +1,0 @@
-[File: functions/script_legacy/internal/command_processor.go -> Scope: Critical] [Function: internal.CommandProcessor.shouldUseTraceSection + isMultiline] Can an attacker craft a single-line-looking command (using '\\r' instead of '\\n', which isMultiline's strings.Contains(s, \

@@ -1,1 +1,0 @@
-[File: 'functions/script_legacy/internal/script_generator.go' + 'executor.go' -> Scope: Critical] [Function: GenerateScript + Execute end-to-end] Can a pipeline exploit the GITLAB_ENV sourcing preamble ('while read -r line; do export \
