@@ -1,1 +1,0 @@
-[File: common/config.go] [Function: parseID / allowListContainsID / KubernetesConfig.isUserOrGroupAllowed] Can a job-controlled numeric UID/GID string with leading zeros or alternate numeric encodings (e.g. \

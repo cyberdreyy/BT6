@@ -1,1 +1,0 @@
-[File: common/config.go] [Function: DockerConfig.IsUserAllowed] Can an attacker who only controls the CI job's `image:`/`user` override (fed into the helper container invocation as an expanded variable) exploit the early-return `if user == \

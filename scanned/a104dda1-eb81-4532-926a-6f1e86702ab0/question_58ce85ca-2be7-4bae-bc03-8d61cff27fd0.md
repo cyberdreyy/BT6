@@ -1,1 +1,0 @@
-[File: common/config.go] [Function: KubernetesConfig.IsUserAllowed / IsGroupAllowed wrapping isUserOrGroupAllowed] Can an attacker submit a pod/container securityContext override whose RunAsUser is empty string while RunAsNonRoot expectations are separately enforced elsewhere, exploiting the `if idStr == \
