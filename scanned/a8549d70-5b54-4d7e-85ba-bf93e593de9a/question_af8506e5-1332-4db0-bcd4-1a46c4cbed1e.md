@@ -1,0 +1,1 @@
+[File: 'shells/trap_command_exit_status.go' cross-module with executors/kubernetes/container_entrypoint_forwarder.go] [Function: entrypointLogForwarder.writeLine/commandStatus] Can an unprivileged job print a line to its own stdout that fakes the exact 30-char RFC3339Nano-like timestamp prefix plus a crafted JSON body (`{\

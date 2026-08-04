@@ -1,0 +1,1 @@
+[File: 'executors/shell/steps.go'] [Function: provider.Shutdown / stepRunnerServer.shutdown] Can a malicious job's step deliberately hang past its own cancellation (ignoring `c.Cancel`'s graceful signal) so that when `provider.Shutdown` calls `stepRunnerServer.shutdown(ctx)` and hits the bounded `select { case <-srv.Done(): ... case <-ctx.Done(): m.logger.Warn(\

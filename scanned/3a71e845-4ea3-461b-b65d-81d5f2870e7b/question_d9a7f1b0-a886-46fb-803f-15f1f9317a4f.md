@@ -1,0 +1,1 @@
+[File: 'executors/kubernetes/steps_pod.go' -> Scope: High] [Function: stepsWaitForServices] Can an unprivileged pipeline author who sets a service's HEALTHCHECK_TCP_PORT variable to a value containing a single quote (e.g. `1234' ; id ; echo '`) under preconditions where the job declares at least one `services:` entry, cause the call sequence stepsWaitForServices -> fmt.Sprintf(\

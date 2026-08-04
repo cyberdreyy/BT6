@@ -1,0 +1,1 @@
+[File: 'executors/kubernetes/internal/pull/errors.go -> Scope: Medium persistent multi-tenant disruption'] [Function: executor.preparePullManager's dockerPullPoliciesPerContainer population from s.options.Services, keyed by attacker-controlled service container name] Can an unprivileged job author supply a service name colliding with `stepsBootstrapInitContainerName` (\

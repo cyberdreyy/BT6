@@ -1,0 +1,1 @@
+[File: windows_path.go -> Scope: cross-project secret/registry/cache credential leakage] [Function: (*windowsPath).IsRoot] Can an unprivileged job pick a UNC-style destination (e.g. '\\\\server\\share') whose component count via strings.Count(p.convert(path,false), \

@@ -1,0 +1,1 @@
+[File: 'File Name: helpers/vault/service/vault.go -> Scope: Critical.'] [Function: helpers/secrets/resolvers/vault/resolver.go:Resolve] Given resolver.Resolve() formats the returned secret value with fmt.Sprintf(\

@@ -1,0 +1,1 @@
+[File: session/session.go] [Function: (*Session).withAuthorization] Can an attacker forge or replay the Authorization header value across GET vs WebSocket-upgrade requests, or exploit the equality check `s.Token != r.Header.Get(\

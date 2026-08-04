@@ -1,0 +1,1 @@
+[File: 'executors/kubernetes/steps_pod.go'] [Function: stepsWaitForServices] Can an attacker configure a service's HEALTHCHECK_TCP_PORT variable value to be attacker-influenced (e.g., containing shell metacharacters) so that the command string built via fmt.Sprintf(\

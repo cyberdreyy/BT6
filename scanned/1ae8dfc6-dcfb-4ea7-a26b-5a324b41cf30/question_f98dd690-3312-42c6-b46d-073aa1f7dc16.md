@@ -1,0 +1,1 @@
+[File: 'commands/helpers/internal/store/store_windows.go'] [Function: openFile invoked via store.Open(dir)] Can an unprivileged job whose executor allows setting TempDir/RUNNER_TEMP_PROJECT_DIR to a UNC path or path containing '..' components cause filepath.Join(dir, \

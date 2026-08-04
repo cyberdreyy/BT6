@@ -1,0 +1,1 @@
+[File: 'common/build_step_dispatch.go -> Scope: Critical'] [Function: stepDispatch, 'release' step branch] Can an unprivileged pipeline author name an arbitrary user-defined step 'release' (matching `if step.Name == \

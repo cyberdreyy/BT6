@@ -1,0 +1,1 @@
+[File: 'executors/kubernetes/steps_pod.go' -> Scope: High] [Function: stepsWaitForServices] Can an attacker set HEALTHCHECK_TCP_PORT to a non-numeric, oversized, or format-string payload (e.g. `%s%s%s%n`) to test whether fmt.Sprintf(\

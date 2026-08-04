@@ -1,0 +1,1 @@
+[File: shells/trap_command_exit_status.go -> Scope: High] [Function: kubernetesLogProcessor.parseLogLine + StageCommandStatus.TryUnmarshal] Since parseLogLine strips a numeric byte-offset prefix before line content is handed to TryUnmarshal, can an attacker craft stdout content beginning with digits followed by a space (e.g. `\

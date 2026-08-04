@@ -1,0 +1,1 @@
+[File: 'shells/abstract.go'] [Function: newCacheConfig / cacheAlternateKey] Can a pipeline author supply a CACHE key (cacheOptions.Key or CACHE_FALLBACK_KEY) containing '../' or path-traversal sequences that survive `build.GetAllVariables().ExpandValue(userKey)` and `cachekey.Sanitize`, then get joined via `path.Join(build.CacheDir, key, \

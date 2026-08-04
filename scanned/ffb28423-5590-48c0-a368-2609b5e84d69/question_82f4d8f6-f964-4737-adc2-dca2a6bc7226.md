@@ -1,0 +1,1 @@
+[File: 'File Name: common/spec/spec.go -> Scope: Critical.'] [Function: spec.GitLabSecretsManagerServerInlineAuth.JWT / spec.VaultServer.Auth.Data] Can a job supply crafted `Inputs`/CI variables that get expanded via `inputs:\

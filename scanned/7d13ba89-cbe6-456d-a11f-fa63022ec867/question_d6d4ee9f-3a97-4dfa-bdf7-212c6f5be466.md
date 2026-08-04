@@ -1,0 +1,1 @@
+[File: 'cache/azure/adapter.go -> Scope: Critical...'] [Function: azureAdapter.getSigner -> credentialsResolver.Resolve/Signer error swallowing] getSigner() logs and returns nil signer on any Resolve()/Signer() error, causing generateSASToken to return (\

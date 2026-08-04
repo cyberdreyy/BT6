@@ -1,0 +1,1 @@
+[File: 'File Name: shells/bash.go -> Scope: Critical.'] [Function: BashWriter.Absolute] Can a build variable such as `CI_PROJECT_DIR`/`GIT_CLONE_PATH` set by the job to a value beginning with `$PWD` but containing a trailing traversal (e.g. `$PWD/../../etc`) bypass the `path.IsAbs(dir) || strings.HasPrefix(dir, \

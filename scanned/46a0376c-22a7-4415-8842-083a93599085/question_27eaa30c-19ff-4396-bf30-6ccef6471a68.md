@@ -1,0 +1,1 @@
+[File: 'shells/powershell.go' -> Scope: Critical stdin/file quoting to path escape] [Function: PsWriter.CommandWithStdin] Can a job-controlled 'stdin' argument (e.g. from a custom git credential helper input or command wrapper reusing CommandWithStdin) that contains PowerShell single-quote sequences (e.g. \

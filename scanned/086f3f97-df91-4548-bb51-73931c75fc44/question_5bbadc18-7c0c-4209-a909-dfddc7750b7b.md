@@ -1,0 +1,1 @@
+[File: 'commands/helpers/cache_metadata.go' -> Scope: High] [Function: extractCacheMetadataKey] Can an attacker-controlled remote cache backend (or a job pointing --url/--gocloud-url at an attacker-supplied pre-signed URL) return crafted response headers like 'X-Aaa-Meta-../../evil' that, after extractCacheMetadataKey's naive strings.Split(headerKey, \

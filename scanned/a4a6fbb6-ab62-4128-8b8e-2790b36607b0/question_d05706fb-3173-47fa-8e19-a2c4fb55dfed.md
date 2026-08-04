@@ -1,0 +1,1 @@
+[File: 'File Name: common/build.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'] [Function: shells.ProxyExecShell / proxy_exec add-mask] Given the proxy-exec flow lets a script call `echo \

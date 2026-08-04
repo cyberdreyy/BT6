@@ -1,0 +1,1 @@
+[File: 'cache/cacheconfig/cacheconfig.go -> Scope: Critical'] [Function: cache.GetAdapter + cacheconfig.Config.GetPath/GetShared] Can an unprivileged pipeline author set a `cache: key:` value (with '../' sequences) that, after builder.cacheKey/newCacheConfig sanitization (cachekey.Sanitize) and FF_HASH_CACHE_KEYS toggling, still causes `path.Join(config.GetPath(), namespace, \

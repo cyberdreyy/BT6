@@ -1,0 +1,1 @@
+[File: 'cache/s3v2/s3.go -> Scope: Critical'] [Function: assumeRoleCacheKey + s3Client.FetchCredentialsForRole] Can an unprivileged attacker craft a cache key containing a literal NUL byte (`\\x00`) or the delimiter sequence used by assumeRoleCacheKey (roleARN+\

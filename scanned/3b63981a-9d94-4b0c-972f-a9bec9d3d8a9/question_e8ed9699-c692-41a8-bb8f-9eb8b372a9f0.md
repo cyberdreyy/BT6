@@ -1,0 +1,1 @@
+[File: 'cache/azure/adapter.go -> Scope: Critical...'] [Function: azureAdapter.GetGoCloudURL / fmt.Sprintf raw URL build] Can an unprivileged attacker who controls a job's cache key (via .gitlab-ci.yml `cache:key` or `CACHE_FALLBACK_KEY`) craft an objectName containing URL-meaningful characters (`#`, `?`, `%2e%2e`, raw space, `@`) such that `raw := fmt.Sprintf(\

@@ -1,0 +1,1 @@
+[File: 'executors/instance/steps.go'] [Function: verifyRunnerBinary] Can a job that runs before the steps-serve phase (on a shared, CapacityPerInstance > 1 instance) drop or replace the `gitlab-runner` binary resolvable via PATH such that a later, unrelated job's verifyRunnerBinary probe (`shellQuote(runnerCommand) + \

@@ -1,0 +1,1 @@
+[File: 'executors/kubernetes/kubernetes.go' -> Scope: High.] [Function: buildPermissionsInitContainer (Windows branch)] Can an attacker-controlled s.logsDir()/s.Build.RootDir value break out of the PowerShell 'icacls $ExecutionContext...' command template (chmod format string) via injected characters, given commands are joined with \

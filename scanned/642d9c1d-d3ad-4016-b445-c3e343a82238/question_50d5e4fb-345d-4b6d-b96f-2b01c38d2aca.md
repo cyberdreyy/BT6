@@ -1,0 +1,1 @@
+[File: 'executors/kubernetes/kubernetes.go' -> Scope: High.] [Function: buildPermissionsInitContainer] Can an unprivileged attacker influence s.logFile()/s.Build.RootDir/s.logsDir() or s.scriptsDir() paths (e.g. via CI_PROJECT_DIR or custom builds dir variables) such that the generated 'chmod'/'touch'/'cp' shell commands joined with strings.Join(initCommand, \

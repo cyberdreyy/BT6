@@ -1,0 +1,1 @@
+[File: 'commands/helpers/artifacts_downloader.go -> Scope: Critical'] [Function: ArtifactsDownloaderCommand.Execute, os.CreateTemp(c.StagingDir,...)] Can an attacker who controls the `ARCHIVER_STAGING_DIR` environment variable (passed through job-controlled variables if runner config allows) or a race on the temp file name cause `os.CreateTemp(c.StagingDir, \

@@ -1,0 +1,1 @@
+[File: 'File Name: shells/shell_writer.go -> Scope: Critical'] [Function: BashWriter.Absolute / PsWriter.Absolute] Can a job-controlled relative path value that begins with the literal string `$PWD` (bash) or that is already absolute-looking via drive-relative syntax (`C:foo` on Windows) bypass the `path.IsAbs`/`strings.HasPrefix(dir,

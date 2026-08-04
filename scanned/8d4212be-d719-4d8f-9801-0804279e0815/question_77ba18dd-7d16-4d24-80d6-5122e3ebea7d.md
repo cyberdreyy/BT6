@@ -1,0 +1,1 @@
+[File: 'executors/docker/internal/volumes/parser/linux_parser.go'] [Function: linuxDestination regex / manager.absolutePath] Can a crafted destination containing traversal sequences (e.g. '../../other-project/cache') pass the `linuxDir` regex (which only excludes `\\/:*?\

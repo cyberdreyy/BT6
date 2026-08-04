@@ -1,0 +1,1 @@
+[File: 'executors/shell/steps.go' + steps/execute.go] [Function: stdioDialer.Dial / extended.New] Because `executor.Connect`'s returned dialer performs no per-job authentication token or request-id binding at the transport level (`net.Dial(\

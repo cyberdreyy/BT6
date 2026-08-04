@@ -1,0 +1,1 @@
+[File: 'File Name: helpers/container/services/services.go' -> session/session.go withAuthorization] [Function: Session.withAuthorization] Can an unprivileged attacker who can send many HTTP requests to the exposed `/session/<uuid>/proxy/` or `/exec` endpoints exploit the non-constant-time `s.Token != r.Header.Get(\

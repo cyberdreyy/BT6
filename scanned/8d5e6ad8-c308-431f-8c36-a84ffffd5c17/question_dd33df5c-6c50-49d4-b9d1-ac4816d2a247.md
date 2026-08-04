@@ -1,0 +1,1 @@
+[File: 'executors/kubernetes/steps_pod.go' -> Scope: Medium persistent multi-tenant disruption] [Function: stepsWaitForServices, runInContainerWithExec] Can a job specify a service with a crafted HEALTHCHECK_TCP_PORT value that causes stepsWaitForServices' command string (`s.stepsRunnerBinaryPath() + \
