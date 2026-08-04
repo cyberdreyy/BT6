@@ -1,1 +1,0 @@
-[File: 'helpers/vault/auth_methods/data.go' -> 'helpers/vault/auth_methods/jwt/auth.go'] Can a pipeline author control 'secrets.VAULT.server.auth.path' (VaultAuth.Path, expanded via vars.ExpandValue) such that path.Join(\
