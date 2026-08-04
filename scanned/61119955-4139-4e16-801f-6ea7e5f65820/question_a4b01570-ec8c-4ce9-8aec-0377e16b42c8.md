@@ -1,1 +1,0 @@
-[File: 'executors/kubernetes/exec.go -> Scope: Critical.'] [Function: executors/kubernetes/terminal.go getTerminalWebSocketURL] Can an unprivileged attacker who obtains their own job's terminal WebSocket URL (embedding s.pod.Name/Namespace and hardcoded Command []string{\
