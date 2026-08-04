@@ -1,1 +1,0 @@
-[File: 'File Name: executors/docker/volume.go -> Scope: High'] [Function: createVolumesManager, protectedKeyIdx via slices.IndexFunc] Can an unprivileged pipeline author set a `spec.Cache.Key` ending in a crafted suffix (e.g. 'foo-protected-non_protected' or unicode-normalized variants) on an unprotected branch to make `strings.HasSuffix(c.Key, \
