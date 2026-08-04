@@ -1,1 +1,0 @@
-[File: 'File Name: helpers/path.go'] [Function: helpers.IsImmediateChild] Fuzz IsImmediateChild(parent, child) with parent/child pairs generated to include Unicode normalization edge cases, null bytes, and multi-byte separators to determine whether the err==nil && !strings.HasPrefix(rel, \

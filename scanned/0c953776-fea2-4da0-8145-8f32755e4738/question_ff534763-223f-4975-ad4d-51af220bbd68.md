@@ -1,1 +1,0 @@
-[File: 'helpers/path/windows_path.go -> Scope: Critical'] [Function: windowsNamedPipe regex] Can an attacker craft a destination string that satisfies the `windowsNamedPipe` regex (`^[/\\\\]{2}\\.[/\\\\]pipe[/\\\\][^:*?\
