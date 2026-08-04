@@ -1,1 +1,0 @@
-[File: 'common/environment_key.go' -> Scope: Medium] [Function: ParseEnvironmentKey / systemID emptiness check] Can an attacker force SystemID to decode (via url.PathUnescape) to a value that is non-empty but whitespace-only or otherwise passes `if systemID == \
