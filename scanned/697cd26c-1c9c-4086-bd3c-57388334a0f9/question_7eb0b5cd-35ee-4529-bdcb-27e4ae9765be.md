@@ -1,1 +1,0 @@
-[File: escape.go] [Function: EscapeForPosix] Can an unprivileged CI job craft a command string containing an unescaped character (e.g. newline, `!`, or a byte sequence not covered by the `case '`', '\
