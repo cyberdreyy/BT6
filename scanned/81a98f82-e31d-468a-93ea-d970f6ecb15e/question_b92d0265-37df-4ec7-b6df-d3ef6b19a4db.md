@@ -1,1 +1,0 @@
-[File: 'helpers/archives/zip_create.go:createZipEntry' invoked via ziplegacy.archiver.Archive] Does `errorIfGitDirectory(fileName)` and the subsequent `pathErrorTracker.actionable` suppression logic ever cause a *first-seen* `.git` path (potentially containing embedded credentials in `.git/config`, e.g. an authenticated remote URL) to be logged once via `printGitArchiveWarning(\
