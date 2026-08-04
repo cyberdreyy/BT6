@@ -1,1 +1,0 @@
-[File: 'cache/cacheconfig/cacheconfig.go' -> Scope: Medium, cross-job/multi-tenant persistence] [Function: cache.GetAdapter + cacheconfig.Config.GetShared/GetPath] Can an unprivileged job set a `cache:key` (or artifact cache key) whose bytes, when joined via path.Join(config.GetPath(), namespace, \
