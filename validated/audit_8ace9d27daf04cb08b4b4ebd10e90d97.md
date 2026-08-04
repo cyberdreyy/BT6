@@ -1,0 +1,1 @@
+Now let's examine how `LogResponseDetails` and the artifact uploader use this trace output path.
