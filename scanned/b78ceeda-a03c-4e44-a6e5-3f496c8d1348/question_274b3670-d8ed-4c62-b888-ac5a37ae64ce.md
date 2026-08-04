@@ -1,1 +1,0 @@
-[File: helpers/path/windows_path.go] [Function: windowsNamedPipe regex, windowsPath.IsAbs] Is the windowsNamedPipe regex vulnerable to catastrophic backtracking or excessive CPU use (ReDoS) on adversarial input lengths, given the character class '[^:*?\
