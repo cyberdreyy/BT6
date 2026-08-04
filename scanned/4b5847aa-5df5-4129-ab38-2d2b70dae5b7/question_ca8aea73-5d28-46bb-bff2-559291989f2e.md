@@ -1,1 +1,0 @@
-[File: router/client.go] [Function: parseJobResponse] Does unmarshaling an empty-but-non-nil `job.JobResponse` (e.g. `{}`) yield a zero-value `spec.Job` that, when passed to build/cache setup, causes default/empty cache key or artifact path handling in `cache.GetAdapter` (`key == \
