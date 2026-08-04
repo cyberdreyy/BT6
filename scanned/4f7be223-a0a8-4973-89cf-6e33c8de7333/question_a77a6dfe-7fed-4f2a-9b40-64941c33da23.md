@@ -1,1 +1,0 @@
-[File: 'File Name: shells/bash.go -> Scope: Critical.'] [Function: BashShell.GetConfiguration / su invocation] Can an unprivileged attacker control `info.User` (via a job-configurable image/service user setting reaching ShellScriptInfo) such that the `script.Arguments = []string{\
