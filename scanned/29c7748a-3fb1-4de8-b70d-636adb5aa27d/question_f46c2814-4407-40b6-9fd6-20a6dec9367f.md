@@ -1,1 +1,0 @@
-[File: 'functions/script_legacy/internal/shell.go' -> Scope: Critical] [Function: ScriptGenerator.GenerateScript, script_generator.go lines 46-57] Can an unprivileged job craft a RUNNER_TEMP_PROJECT_DIR value containing shell command-substitution syntax like '$(rm -rf /path/outside/root)' so that fmt.Fprintf(\
