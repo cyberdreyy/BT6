@@ -1,1 +1,0 @@
-[File: 'executors/docker/services.go'] [Function: createFromServiceDefinition] Can an attacker supply a crafted `service.Alias`/`Aliases()` value containing shell metacharacters or path traversal sequences (e.g. `../`, `$(id)`) that is later used unescaped as a Docker container hostname/link entry in `e.links = append(e.links, linkName+\
