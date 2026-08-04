@@ -1,1 +1,0 @@
-[File: 'File Name: network/client.go -> Scope: High.'] [Function: PatchTrace uri construction (network/gitlab.go) feeding client.do] Can a job that controls 'debugTraceEnabled'/query construction indirectly (via feature flag or job-supplied config affecting 'patchTraceQuery') cause the resulting 'uri := fmt.Sprintf(\
