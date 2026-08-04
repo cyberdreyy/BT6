@@ -1,1 +1,0 @@
-[File: 'helpers/container/services/services.go'] [Function: SplitNameAndVersion] Can an unprivileged pipeline author set a service image name equal to a masked/protected CI variable value containing '/' characters (e.g. Build.Services[i].Name derived from a masked token) so that SplitNameAndVersion's strings.ReplaceAll(service.Service, \
