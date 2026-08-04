@@ -1,1 +1,0 @@
-[File: 'executors/custom/custom.go -> Scope: Critical'] [Function: executor.Run] Can a job's cmd.Script (attacker-controlled .gitlab-ci.yml script content) contain path traversal sequences that, combined with os.MkdirTemp(e.tempDir, \
