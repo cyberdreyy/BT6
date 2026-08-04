@@ -1,1 +1,0 @@
-[File: cache/cacheconfig/cacheconfig.go -> Scope: High] [Function: getCacheUploadURLAndEnv header injection] Can a job-influenced value (via metadata such as `cachekey`, sourced from user-controlled HumanKey) end up in `uploadArgs = append(uploadArgs, \

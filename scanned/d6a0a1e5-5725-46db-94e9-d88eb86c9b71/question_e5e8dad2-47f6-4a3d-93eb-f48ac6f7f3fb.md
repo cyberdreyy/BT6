@@ -1,1 +1,0 @@
-[File: cache/cacheconfig/cacheconfig.go -> Scope: High] [Function: cache.GetAdapter path-traversal guard] Can a project with an unprivileged CI job set a cache key value using unicode/normalization tricks or `..%2f`-style encoded sequences that pass `strings.HasPrefix(fullPath, basePath+\
