@@ -1,0 +1,1 @@
+[File: cache/credentials_adapter.go] [Function: cachekey.Sanitize trailing-whitespace trimming loop] Can an attacker craft a cache key whose segments become empty only after `strings.TrimRightFunc` (e.g. `\

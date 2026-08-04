@@ -1,0 +1,1 @@
+[File: 'File Name: common/spec/spec.go -> Scope: Critical.'] [Function: Job.ValidateStepsJobRequest] Can an unprivileged attacker set the `STEPS` variable directly (bypassing the `run:` keyword) alongside a non-empty `j.Run`, such that the check `j.Variables.Get(\

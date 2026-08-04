@@ -1,0 +1,1 @@
+[File: 'shells/powershell.go -> Scope: Critical'] [Function: PsWriter.generateSaveScript] Can an attacker control `scriptPath` (used unescaped and unquoted for path resolution purposes in `[System.IO.StreamWriter]::new(\

@@ -1,0 +1,1 @@
+[File: 'commands/helpers/file_archiver.go' cross 'commands/helpers/cache_archiver.go'] [Function: CacheArchiverCommand.enumerate -> fileArchiver.processPaths] Can a job set `CACHE_METADATA`/cache key or `--path` values that, combined with `newCacheConfig`'s `path.Join(build.CacheDir, key, \

@@ -1,0 +1,1 @@
+[File: 'File Name: shells/abstract.go -> Scope: Critical.'] [Function: writeGitCleanupAllConfigs] Can an unprivileged attacker rely on `build.Runner.CleanGitConfig` defaulting to false for `executor == \

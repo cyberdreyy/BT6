@@ -1,0 +1,1 @@
+[File: 'functions/concrete/run/stages/internal/scriptwriter/scriptwriter.go'] [Function: buildBashScript ScriptSections sectionName] Can an attacker control 'i' (script line index) or stepName such that fmt.Sprintf(\

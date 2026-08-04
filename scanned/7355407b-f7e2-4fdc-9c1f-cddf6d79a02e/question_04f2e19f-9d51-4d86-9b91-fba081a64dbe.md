@@ -1,0 +1,1 @@
+[File: 'functions/concrete/run/stages/cleanup.go'] [Function: Cleanup.cleanBuildDirectory, git()] Can an attacker who controls `Cleanup.GitCleanFlags` (sourced from job/pipeline config, e.g. `GIT_CLEAN_FLAGS`) inject additional `git clean` arguments such as `-e`, `--`, or flag-like strings that get appended via `append([]string{\

@@ -1,0 +1,1 @@
+[File: 'functions/concrete/builder/builder.go'] [Function: (b *builder).cacheKey] Can an unprivileged job set spec.Job.JobInfo.Name or GitInfo.Ref (or a job-controlled cache.key referencing '../') to a value containing '../' or absolute-path segments so that path.Join(\

@@ -1,0 +1,1 @@
+[File: 'gzip_legacy_archiver.go' -> archives.CreateGzipArchive] Can a job supply a symlink or non-regular file (FIFO/device) at a path pattern matching `artifacts:paths` whose target path itself embeds a runner-side secret (e.g. `CI_JOB_TOKEN`), so that `logrus.Warningln(\

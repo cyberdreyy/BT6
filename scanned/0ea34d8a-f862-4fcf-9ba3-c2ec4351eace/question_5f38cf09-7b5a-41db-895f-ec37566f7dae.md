@@ -1,0 +1,1 @@
+[File: 'File Name: shells/shell_writer.go -> Scope: Critical'] [Function: BashWriter.RmFilesRecursive / RmDirsRecursive] Can a job-controlled `name` parameter (basename filter) containing `find` predicate syntax or shell-breaking quote sequences (since name is inserted via `%q` inside a compound `find ... -exec ... \

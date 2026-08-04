@@ -1,0 +1,1 @@
+[File: 'File Name: common/spec/spec.go -> Scope: High...'] [Function: Secret.ExpandVariables (GitLabSecretsManager branch)] Given the code comment stating GitLab Secrets Manager secrets deliberately skip `expandVariables` because

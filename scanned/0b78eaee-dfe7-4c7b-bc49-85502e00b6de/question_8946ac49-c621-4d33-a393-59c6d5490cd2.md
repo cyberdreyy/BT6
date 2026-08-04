@@ -1,0 +1,1 @@
+[File: 'helpers/vault/auth_methods/registry.go' -> Scope: Critical] [Function: GetFactory error wrapping] When `auth_methods.GetFactory` returns `*registry.FactoryNotRegisteredError` and it is wrapped via `fmt.Errorf(\

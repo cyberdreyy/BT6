@@ -1,0 +1,1 @@
+[File: 'commands/steps/steps.go -> di.NewContainer -> script_legacy.New/concrete.New'] [Function: StepRunnerService dispatch] Can an unprivileged job author craft a step name/builtin identifier in the CI Functions request that resolves to di.WithBuiltinFunc(\

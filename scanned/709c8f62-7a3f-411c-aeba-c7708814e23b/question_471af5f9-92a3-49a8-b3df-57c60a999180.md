@@ -1,0 +1,1 @@
+[File: 'commands/helpers/file_archiver.go' -> Scope: High] [Function: fileArchiver.findRelativePathInProject] Can fuzzing --path values containing NUL bytes, embedded newlines, or doublestar meta-characters ('*?[{') interleaved with '../' sequences bypass the `strings.HasPrefix(rel, \

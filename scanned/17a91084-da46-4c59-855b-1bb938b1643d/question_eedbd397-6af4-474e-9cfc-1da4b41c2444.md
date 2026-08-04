@@ -1,0 +1,1 @@
+[File: 'common/spec/inputs.go' -> Scope: Critical] [Function: processStruct/expandSlice generic field-tag walker] Can an attacker who controls the shape of the `Job` struct indirectly (e.g., via a step-runner schema field newly tagged `inputs:\

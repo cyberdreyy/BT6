@@ -1,0 +1,1 @@
+[File: escape.go] [Function: EscapeForPosix empty-string branch] Can a command that trims to empty spaces-only content via `strings.TrimSpace` in ProcessCommand bypass FormatLogLine's escaping path entirely (since ProcessCommand emits a literal `echo\\n` early-return for command==\

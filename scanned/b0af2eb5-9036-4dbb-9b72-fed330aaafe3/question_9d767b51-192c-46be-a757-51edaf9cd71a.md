@@ -1,0 +1,1 @@
+[File: 'File Name: common/allowed_images.go'] [Function: VerifyAllowedImage OptionName/logging path] Can a job deliberately submit a very large number of near-miss image names (each triggering the `logger.Errorln`/`logger.Println(\

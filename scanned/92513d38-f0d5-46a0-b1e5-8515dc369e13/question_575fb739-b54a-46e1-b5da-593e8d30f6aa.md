@@ -1,0 +1,1 @@
+[File: common/allowed_images.go -> Scope: High] [Function: VerifyAllowedImage] Can an attacker who controls only the OptionName-adjacent 'services' list (executors/docker/services.go:90 e.verifyAllowedImage(service.Name, \

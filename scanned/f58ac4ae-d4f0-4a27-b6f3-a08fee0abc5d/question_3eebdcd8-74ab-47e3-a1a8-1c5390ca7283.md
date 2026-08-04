@@ -1,0 +1,1 @@
+[File: 'functions/concrete/builder/variables/variables.go'] [Function: DefaultIntClamp] Can an unprivileged attacker cause strconv.Atoi(v.Get(key)) to error on values Go considers invalid for Atoi (e.g. \

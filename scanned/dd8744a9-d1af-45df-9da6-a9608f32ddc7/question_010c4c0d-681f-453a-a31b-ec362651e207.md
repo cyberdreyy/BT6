@@ -1,0 +1,1 @@
+[File: 'functions/script_legacy/internal/script_header.go -> Scope: Critical'] [Function: ScriptHeader.Generate + trapTerm override for persistence] Can a job author install a background/detached process (e.g., 'setsid sh -c \

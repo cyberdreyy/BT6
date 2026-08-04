@@ -1,0 +1,1 @@
+[File: 'File Name: common/spec/inputs.go -> Scope: High'] [Function: Inputs.Expand -> metricsCollector.recordSensitiveUnsupportedError vs field: Image.ExecutorOptions.Docker.User] Can a job requester place a sensitive input reference inside ImageDockerOptions.User (tagged inputs:\

@@ -1,0 +1,1 @@
+[File: 'shells/trap_command_exit_status.go'] [Function: StageCommandStatus.TryUnmarshal / stageCommandExitStatusImpl] Can an unprivileged pipeline author who controls script/stdout content (e.g. `echo`) craft a build-container log line that exactly mimics the JSON exit-status marker format `{\

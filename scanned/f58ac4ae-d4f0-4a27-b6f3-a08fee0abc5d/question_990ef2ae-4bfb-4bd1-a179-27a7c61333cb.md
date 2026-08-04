@@ -1,0 +1,1 @@
+[File: 'functions/concrete/builder/variables/variables.go'] [Function: DefaultIntClamp] Can an unprivileged attacker supply a GIT_SUBMODULE_DEPTH, CACHE_REQUEST_TIMEOUT, FASTZIP_EXTRACTOR_CONCURRENCY, or *_ATTEMPTS value that strconv.Atoi parses as a valid but extreme int (e.g. \

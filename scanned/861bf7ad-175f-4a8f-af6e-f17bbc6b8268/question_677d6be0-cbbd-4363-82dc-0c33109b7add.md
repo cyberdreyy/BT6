@@ -1,0 +1,1 @@
+[File: 'File Name: helpers/docker/auth/auth.go -> Scope: Critical...'] [Function: ConfigForImage, parentPath] Can an unprivileged attacker choose an `imageName` containing crafted path-traversal-like sequences (e.g. repeated '../', encoded slashes, or Unicode look-alike separators) so that the parentPath(p) walk in ConfigForImage's loop `for p := path; p !=

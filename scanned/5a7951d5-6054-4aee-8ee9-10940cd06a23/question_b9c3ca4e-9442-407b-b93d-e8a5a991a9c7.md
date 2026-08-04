@@ -1,0 +1,1 @@
+[File: executors/docker/internal/prebuilt/prebuilt.go -> Scope: Runner-to-GitLab/backend auth logic lets a normal project user impersonate another job or access unauthorized resources] [Function: imageLoad] Can an unprivileged attacker running two concurrent jobs from different projects on the same shared docker-executor host race client.ImageTag(ctx, imageID, ref+\

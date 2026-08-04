@@ -1,0 +1,1 @@
+[File: executors/docker/internal/prebuilt/prebuilt.go -> Scope: restriction bypass via entrypoint reapplication] [Function: imageImport] Fuzz the tag parameter across boundary values ('concrete', 'Concrete', 'concrete-x', '', unicode-prefixed strings) passed into imageImport to verify strings.HasPrefix(tag, \

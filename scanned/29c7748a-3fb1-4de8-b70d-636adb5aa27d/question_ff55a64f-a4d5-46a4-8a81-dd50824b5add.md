@@ -1,0 +1,1 @@
+[File: 'functions/script_legacy/internal/shell.go' -> Scope: Critical] [Function: script_legacy.builtinFunc.Run RUNNER_TEMP_PROJECT_DIR lookup, lines 141-146] Can an unprivileged job simply omit RUNNER_TEMP_PROJECT_DIR or set it to an empty string / whitespace so that gitLabEnvFile remains \

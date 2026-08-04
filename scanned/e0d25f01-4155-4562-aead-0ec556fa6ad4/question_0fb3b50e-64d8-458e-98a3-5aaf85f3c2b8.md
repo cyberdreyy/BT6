@@ -1,0 +1,1 @@
+[File: 'File Name: shells/abstract.go -> Scope: High. Secret masking, trace handling, or log sanitization exposes protected values to users or projects that should not receive them'] [Function: addCacheUploadCommand] Can a job author whose `cache:key` expands to a masked secret cause `metadata := map[string]string{\

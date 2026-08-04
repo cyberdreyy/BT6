@@ -1,0 +1,1 @@
+[File: 'functions/concrete/builder/variables/variables.go' + 'functions/concrete/builder/builder.go'] [Function: buildCacheExtract/buildCacheArchive vs variables.Default] Can an unprivileged attacker set cache.Policy to an expression like \
