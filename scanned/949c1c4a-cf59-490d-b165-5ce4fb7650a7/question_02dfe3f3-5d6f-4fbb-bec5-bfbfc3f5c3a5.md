@@ -1,1 +1,0 @@
-[File: 'File Name: common/allowed_images.go -> Scope: High'] [Function: VerifyAllowedImage] Can an unprivileged job author bypass image restrictions entirely by supplying an `Image` value equal to empty string or whitespace-only, exploiting how `doublestar.Match(allowedImage, \
