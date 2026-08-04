@@ -1,1 +1,0 @@
-[File: 'executors/custom/consts.go' -> Scope: Critical, job response file exposure] [Function: executor.createJobResponseFile] Given createJobResponseFile writes e.Build.Job (which may include CI/CD variables and masked secrets) to responseFile=filepath.Join(e.tempDir,\
