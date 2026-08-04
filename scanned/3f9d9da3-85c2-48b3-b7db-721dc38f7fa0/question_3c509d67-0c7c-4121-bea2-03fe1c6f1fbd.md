@@ -1,1 +1,0 @@
-[File: functions/concrete/run/run_steps.go -> Scope: High] [Function: (r *Runner).section used inside runAfterScriptSteps and prepare, contrasted with runUserSteps] Does the trace-section marker written directly via fmt.Fprintf(r.env.Stdout, \
