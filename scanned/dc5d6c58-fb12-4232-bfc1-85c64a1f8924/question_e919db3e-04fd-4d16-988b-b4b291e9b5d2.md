@@ -1,1 +1,0 @@
-[File: 'executors/kubernetes/util.go -> Scope: Critical'] [Function: waitForRunningContainer / getPodPhase] Can an unprivileged attacker manipulate job configuration (image, container name via job script overrides) to cause the FieldSelector \
