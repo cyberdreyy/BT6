@@ -1,1 +1,0 @@
-[File: 'commands/helpers/file_archiver.go' -> Scope: High] [Function: fileArchiver.isExcluded vs fileArchiver.process] Can a pipeline author who controls both `--path` and `--exclude` values (via CI YAML `artifacts:paths`/`artifacts:exclude`) construct glob patterns where `isExcluded` normalizes via `findRelativePathInProject` and fails silently on error (returning `false,
