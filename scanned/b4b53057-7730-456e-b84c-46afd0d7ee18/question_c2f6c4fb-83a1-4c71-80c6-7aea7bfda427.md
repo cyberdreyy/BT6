@@ -1,1 +1,0 @@
-[File: 'File Name: common/spec/spec.go -> Scope: High...'] [Function: VaultAuth.expandVariables] Can an attacker who controls job CI/CD variables (expanded via `vars.ExpandValue`) inject values into `VaultAuthData` fields (map[string]interface{} formatted with `fmt.Sprintf(\
