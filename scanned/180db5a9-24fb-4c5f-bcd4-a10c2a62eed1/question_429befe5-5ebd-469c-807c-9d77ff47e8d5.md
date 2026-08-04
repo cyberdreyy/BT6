@@ -1,1 +1,0 @@
-[File: helpers/archives/path_error_tracker.go -> Scope: High] [Function: pathErrorTracker.actionable / errorIfGitDirectory] Given actionable() treats any error whose type is not *os.PathError as always-actionable but treats every *os.PathError sharing an Op as noise after the first occurrence, can an attacker interleave a wrapped error (fmt.Errorf(\
