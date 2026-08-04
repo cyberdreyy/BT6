@@ -1,1 +1,0 @@
-[File: 'cache/cache.go -> Scope: High.'] [Function: functions/concrete/builder/builder.go:cacheKey] Can an attacker set JobInfo.Name or GitInfo.Ref (indirectly, e.g. via branch name containing '../' or absolute path) combined with an empty cache.key so that rawKey = path.Join(\
