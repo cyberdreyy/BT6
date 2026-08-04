@@ -1,1 +1,0 @@
-[File: 'File Name: cache/azure/azure.go -> Scope: High'] [Function: cache.GetAdapter path-traversal check (cache/cache.go) interacting with azure.go objectName] Can a crafted cache key that passes the `strings.HasPrefix(fullPath, basePath+\
