@@ -1,1 +1,0 @@
-[File: 'executors/custom/config.go' + 'executors/custom/custom.go' -> Scope: High] [Function: executor.prepareCommand] Can an unprivileged pipeline author define a CI/CD variable whose Key contains an '=' or control character (e.g. 'FOO=BAR\\nCUSTOM_ENV_EVIL') so that `fmt.Sprintf(\
