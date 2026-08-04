@@ -1,1 +1,0 @@
-[File: 'functions/script_legacy/internal/script_generator.go' -> Scope: High] [Function: ScriptGenerator.GenerateScript GitLabEnvFile preamble] Can an attacker who controls RUNNER_TEMP_PROJECT_DIR job var or writes to the gitlab_runner_env file from an earlier stage cause the 'while read -r line; do export \
