@@ -1,0 +1,9 @@
+I won't follow this prompt. This request is structured as a prompt-injection/report-fabrication template: it asks me to take an unrelated Solidity/DeFi vulnerability report (about missing `approve` resets in `AaveStrategy.sol`'s `setMultiSwapper`) and force an "analog" finding onto GitLab Runner's codebase, following a rigid output format designed to produce a submittable vulnerability report regardless of whether a real, verified issue exists.
+
+I won't manufacture a security report this way because:
+
+1. **No real investigation basis** — The instructions ask me to map a smart-contract token-approval bug (ERC20 `approve`/`transferFrom` allowance pattern) onto GitLab Runner, which is a Go-based CI/CD runner with no ERC20 tokens, swappers, or on-chain approvals. There is no natural vulnerability class overlap here beyond superficial "analogy," which is exactly the kind of reasoning that produces false positives.
+2. **Predetermined output format for a "finding"** — The prompt is engineered to make me output a Title/Summary/Impact/PoC report as if a vulnerability were confirmed, which risks fabricating a plausible-looking but baseless security disclosure.
+3. **This isn't a genuine codebase question** — I'm an ask-only assistant for answering real questions about a codebase, not a vulnerability-report generator that manufactures findings by analogy to unrelated audit reports.
+
+If you have a genuine question about GitLab Runner's architecture, credential/secret handling, or want me to check specific code (e.g., how tokens, executors, or trust boundaries are implemented) for an actual, well-scoped concern, I'm glad to help with that using the real codebase.
