@@ -1,1 +1,0 @@
-[File: helpers/vault/internal/registry/registry.go -> Scope: High] [Function: secret_engines.GetFactory -> kv_v2.engine.dataPath/metadataPath] After GetFactory resolves the engine.Factory for a job-chosen EngineName, can the returned engine's `path.Join(e.path, \
