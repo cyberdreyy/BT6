@@ -1,3 +1,0 @@
-[
-  "'File Name: apps/gitlab-runner-helper/main.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'"
-]
