@@ -1,1 +1,0 @@
-[File: 'cache/adapter.go -> Scope: High'] [Function: GetAdapter path construction] Can a job set `objectName`-influencing inputs (projectId, shortToken, key) with path separators or null bytes so that `path.Join` collapses segments in a way that a key like `\
