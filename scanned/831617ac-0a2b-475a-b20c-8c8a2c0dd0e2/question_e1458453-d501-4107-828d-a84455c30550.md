@@ -1,1 +1,0 @@
-[File: commands/helpers/archive/ziplegacy/zip_legacy_extractor.go:extractor.Extract -> helpers/archives/zip_extract.go:ExtractZipArchive] Can a malicious zip archive (uploaded as a cache/artifact from a prior job stage the attacker controls) contain a `zip.File.Name` value equal to a well-known masked secret pattern so that on extraction failure `logrus.Warningf(\
