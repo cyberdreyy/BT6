@@ -1,1 +1,0 @@
-[File: functions/script_legacy/internal/script_generator.go -> Scope: High] [Function: ScriptGenerator.GenerateScript, GitLabEnvFile sourcing] Given that GenerateScript unconditionally emits `while read -r line; do export \

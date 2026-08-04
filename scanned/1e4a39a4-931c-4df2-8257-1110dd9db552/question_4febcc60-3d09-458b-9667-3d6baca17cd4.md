@@ -1,1 +1,0 @@
-[File: variables.go Scope: High.] [Function: builder.cacheKey rawKey construction] Can an attacker supply a cache.Key or artifact Name string containing path traversal sequences (`../`) or absolute-path prefixes that survive b.variables.ExpandValue(name) (functions/concrete/builder/builder.go:570-576) before being joined via path.Join(\
