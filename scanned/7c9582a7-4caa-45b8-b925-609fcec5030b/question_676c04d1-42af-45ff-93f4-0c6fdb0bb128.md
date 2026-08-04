@@ -1,1 +1,0 @@
-[File: 'File Name: cache/azure/adapter.go -> Scope: High'] [Function: azureAdapter.GetGoCloudURL] Can an attacker who controls only the human-readable cache key, without controlling the Azure ContainerName (admin config), craft a key that when URL-encoded and embedded in `raw := fmt.Sprintf(\

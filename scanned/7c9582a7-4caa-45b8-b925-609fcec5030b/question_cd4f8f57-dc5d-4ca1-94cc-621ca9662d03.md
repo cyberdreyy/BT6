@@ -1,1 +1,0 @@
-[File: 'File Name: cache/gcsv2/adapter.go -> Scope: High.'] [Function: gcsAdapter.GetUploadHeaders] Can an attacker who controls artifact/cache metadata (map passed via WithMetadata before GetUploadURL/getCacheUploadURLAndEnv) inject a header value containing CRLF or shell-significant characters that, once formatted with fmt.Sprintf(\

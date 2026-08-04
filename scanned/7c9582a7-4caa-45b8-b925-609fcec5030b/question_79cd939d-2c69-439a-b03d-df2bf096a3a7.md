@@ -1,1 +1,0 @@
-[File: 'File Name: cache/gcsv2/adapter.go -> Scope: High.'] [Function: cache.GetAdapter path-traversal check + gcsAdapter.objectName] Can an attacker construct a cache key such as '../<projectID>-outside' or a key that, after ExpandValue variable expansion, resolves to a path escaping `project/<id>/` while still passing the `strings.HasPrefix(fullPath, basePath+\
