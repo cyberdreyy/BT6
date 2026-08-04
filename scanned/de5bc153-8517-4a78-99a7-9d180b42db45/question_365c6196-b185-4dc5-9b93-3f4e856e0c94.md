@@ -1,1 +1,0 @@
-[File: 'File Name: shells/shell_writer.go -> Scope: Critical.'] [Function: BashWriter.SourceEnv / DotEnvVariables] Can an attacker-controlled cache/artifact env file (produced by helpers.DotEnvEscape and later read via `while read -r line; do export \
