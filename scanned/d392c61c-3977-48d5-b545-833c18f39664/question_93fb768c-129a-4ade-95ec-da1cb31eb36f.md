@@ -1,1 +1,0 @@
-[File: 'functions/concrete/run/stages/cleanup.go'] [Function: Cleanup.cleanGitState, CleanGitConfig] Can an attacker exploit the order of removal in `for _, dir := range []string{filepath.Join(tmpDir, templateDirName), dotGitDir} { os.Remove(...\
