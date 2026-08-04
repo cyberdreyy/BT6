@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: commands/helpers/archive/ziplegacy/zip_legacy_extractor.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c656c7d1-ad7e-4670-b59a-2291fc106613?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: commands/helpers/archive/raw/raw_archiver.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_498762a2-2a81-4e73-90af-947baddf0ae2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/archives/path_check_helper.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a6cc0f4e-43c1-4e92-883e-011cf9af02cc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/archives/path_error_tracker.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ef6553d9-301e-4c61-bb26-049e82d39259?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/archives/gzip_create.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fc8162cf-6c71-44dc-b25b-89f99309df28?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/archives/zip_create.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_08a8b328-ebc1-4d03-a1f8-0862c820ecbb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/archives/zip_extract.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5f27827d-f489-4bd9-998b-a5bcc56e727f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/archives/zip_extra.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a20ca91b-de29-44a9-b6a6-696e159e8abc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/archives/zip_extra_unix.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_44a48dea-d4d2-4005-9106-27990753294c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/archives/zip_extra_windows.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_169cbb04-e139-4353-846e-622fd68776c2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/archives/os_unix.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b2c8e106-223b-464a-bbe7-8f885eb43ef5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/archives/os_windows.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7dcef1af-9f03-4afe-b611-2f63a7a29d29?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/cache.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b4bc517-efbb-4acf-b194-0e4bb46c7a9d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/adapter.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6381239f-7934-4364-bf2d-d51ce743c997?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/cachekey/cachekey.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7b9c16d3-4ec1-4467-aaa9-aab44607c9a9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/cacheconfig/cacheconfig.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2e7d0e15-90d7-4278-a172-9518d413e204?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/credentials_adapter.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8b78b844-8673-47d7-b286-8fdcfa0bb8cd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/s3/adapter.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8d28be27-5866-4486-a97b-205283efb998?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/s3/minio.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_15a4b505-4f59-44d2-a9ab-7c653c3710ed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/s3/bucket_location_tripper.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_465cc401-943d-44a7-9cef-78a641137a8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/s3/credentials_adapter.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_86d59271-1256-4dd1-90e8-887f239ad8a8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/s3v2/adapter.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c74ae409-df75-49d2-8f56-6cc767ba9c20?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/s3v2/s3.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_05e1d931-b45b-481e-a91d-258daa23e6c2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/gcs/adapter.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_94488d1b-07fb-4a30-84f4-e6d369645fe6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/gcs/credentials_resolver.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fb138699-c21b-46e3-93ca-ce2c30f62f02?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/gcsv2/adapter.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1d2bc3f9-8760-4a76-942c-d099dc70de00?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/azure/adapter.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a1432a51-aca4-456e-93d4-de05a477142e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/azure/azure.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4d31d59a-7609-4f2d-9892-49d6661b9dc1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cache/azure/credentials_resolver.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d4a56e4f-fb67-47cb-bcbd-6cbd82e6f367?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/abstract.go -> Scope: Critical. An unprivileged CI job reads, writes, or deletes files outside its intended build, cache, or artifact roots via path traversal, archive extraction, symlink, cleanup, or volume logic'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9164fa8d-58fd-4d19-9d7f-773f4b706ab6?mode=deep",
+    "questions_generated": false
+  }
+]
