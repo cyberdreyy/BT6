@@ -1,1 +1,0 @@
-[File: executors/docker/internal/networks/manager.go -> Scope: Critical] [Function: manager.Create] Can an unprivileged job set a custom Docker network_mode via build variables/config (networkMode string param passed into Create) such that the early return `if networkMode != \
