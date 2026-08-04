@@ -1,1 +1,0 @@
-[File: 'File Name: commands/helpers/file_archiver.go -> Scope: Critical.'] [Function: fileArchiver.isExcluded + findRelativePathInProject] Can an unprivileged attacker supply an `--exclude` pattern that itself resolves (via `findRelativePathInProject`) to an error or unexpected relative path (e.g., pattern is outside `c.wd`), causing `isExcluded` to silently `return false, \
