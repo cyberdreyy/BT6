@@ -1,1 +1,0 @@
-[File: 'session/session.go -> Scope: Critical.'] [Function: Session.proxyHandler / parseProxyParams] Can an unprivileged attacker who controls the CI job's declared services (proxyPool keys) craft a `requestedURI` or `serviceName` via `parseProxyParams(strings.TrimPrefix(r.URL.Path, s.Endpoint+\
