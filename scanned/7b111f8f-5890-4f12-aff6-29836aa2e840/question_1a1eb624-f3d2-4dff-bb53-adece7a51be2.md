@@ -1,1 +1,0 @@
-[File: executors/docker/environment_key_fields.go -> Scope: High] [Function: parseEnvKeyFields (service-ids split)] Can an attacker inject a crafted `service-ids` field value such as `id1,,id3` or a trailing comma into the EnvironmentKey Fields, causing `strings.Split(raw, \

@@ -1,1 +1,0 @@
-[File: common/environment_key.go -> Scope: High] [Function: EnvironmentKey.String / ParseEnvironmentKey] Can an unprivileged attacker whose job triggers an environment suspend/resume cycle (a job with `environment: {action: start/stop}`) supply a crafted SystemID containing an encoded '/' or '&' such that ParseEnvironmentKey's `strings.SplitN(s, \
