@@ -1,1 +1,0 @@
-[File: 'functions/concrete/builder/variables/variables.go'] [Function: Default with allowedValues] Can an unprivileged attacker bypass the exact-string equality allowlist check in Default(v, key, defaultValue, allowedValues...) by supplying a GIT_STRATEGY or GIT_SUBMODULE_STRATEGY value that differs by case, leading/trailing whitespace, or embedded control characters (e.g. \
