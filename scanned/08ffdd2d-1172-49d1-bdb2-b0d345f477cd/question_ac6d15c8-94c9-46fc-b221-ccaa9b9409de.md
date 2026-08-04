@@ -1,1 +1,0 @@
-[File: 'helpers/container/helperimage/info.go' -> Scope: Critical] [Function: linuxInfo.Create — Prebuilt field] Can a job that indirectly influences `cfg.Flavor` or `cfg.Architecture` (through `helper_image_flavor` inherited via allowed overwrite paths, or node-selector-derived architecture in kubernetes) cause `prebuilt := fmt.Sprintf(\

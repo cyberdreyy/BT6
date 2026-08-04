@@ -1,1 +1,0 @@
-[File: 'helpers/container/helperimage/windows_info.go'] [Function: windowsInfo.Create ProxyExec branch] Can an attacker trigger Config.ProxyExec=true through job/runner configuration reachable from an unprivileged pipeline and cause cmd = append([]string{\
