@@ -148,5 +148,155 @@
     "question": "'File Name: commands/steps/steps.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
     "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aafd8c7c-602f-48ca-b721-0e950bc9b724?mode=deep",
     "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/build.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_18801451-6a64-4056-b1c1-1d6e7ce9284e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/build_settings.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e577e55c-8c9f-43c7-b69e-427909e83d89?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/build_step_dispatch.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c969708d-ee62-4370-8cd3-6cb217adce51?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/config.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dd6a064a-fa6f-4c97-bf79-a810b0b42563?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/network.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2e2621b0-a7a8-470f-8ada-425592e8673e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/secrets.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8790c63b-0ba8-4a35-ab76-48b60fa280da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/allowed_images.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_25b4068b-b7d0-4734-adfc-8b78f7fee0f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/shell.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_012a3ca2-f336-47d8-bf78-4bc88f3a5e0a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/executor.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d9e7426c-96c6-4ec2-b616-0ab47834b670?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/trace.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_25311c20-5181-4847-bd72-94da9a88b31d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/environment_key.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_657239c0-c995-4545-a678-c034664bc33a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/spec/spec.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_95ea4cb8-5bee-42d9-b5de-c2fe22b06b05?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/spec/inputs.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_be8ea83f-6c80-4b0e-9b96-dfea7219a980?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/spec/variables.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c5494848-2f2a-4023-b70d-c7331a4c8e58?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/buildlogger/build_logger.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_21b83116-afae-4175-96da-605bfba970d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/buildlogger/innerstream/innerstream.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1b716a2e-4852-41cf-822f-fc684f42d648?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/buildlogger/internal/masker/masker.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_03259964-ac73-4008-a4c2-01c631c089d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/buildlogger/internal/tokensanitizer/token_masker.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dfe0c28a-2619-443d-a7af-96b12e6249f8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/buildlogger/internal/urlsanitizer/urlsanitizer.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4b26d7ce-6322-43e2-94a7-93d42c5e003c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: network/client.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8ae4df46-3507-4dcb-9bf7-107b4961014e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: network/gitlab.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ba6c1e4d-8724-4eab-b770-6f9e355f9bb4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: network/requester.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c123448-3ebc-4a20-8810-7fd1c7ee1857?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: network/retry_requester.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e45bdf07-c8ef-4c1e-8176-893bb8158a75?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: network/trace.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8a2455a1-0212-4be4-91e4-0604d975277a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: network/patch_response.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1303d077-9d3b-4a0b-a76e-5055604a8308?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: network/retry_tracker.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_266e7e49-f9ad-44bf-8bb3-6a7012422ea2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: commands/multi.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_647f20d1-385c-4825-8827-85ffa85a2b86?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: commands/single.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bc592284-385a-499b-b6a7-0bd24c2f5f7a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: commands/wrapper.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2d45b01c-7efa-45ff-b2bb-6dd9f5cf6110?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: commands/steps/steps.go -> Scope: Critical. An unprivileged CI job poisons or exfiltrates another project or job's cache, artifacts, checkout state, or helper state across tenant boundaries'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_78adf5b8-bf80-4703-88ce-182585958247?mode=deep",
+    "questions_generated": false
   }
 ]
