@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: executors/custom/config.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4646ce47-839a-4b07-acf4-3f5419489dc8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/consts.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_732dd4a7-6fdb-47a5-b971-d1408ed69cc7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/terminal.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_74bba1fe-1939-4d11-bb3e-a047957be12f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/api/config.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7995461b-ab20-4911-b539-923539c01c14?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/api/const.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8eddfa5d-ca6e-4da8-a74d-e0b1bece2438?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/command/command.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d27cdaab-3502-4381-b2b3-0281c8b6f0a0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: executors/custom/command/errors.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7bf373b6-8226-43e2-ab54-fa5e897978d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/docker/credentials.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1aeede9f-6bb5-47f2-ba83-848a5af5fedf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/docker/options.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5a1d76b8-aa4e-4e16-a404-60bb477353b3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/docker/auth/auth.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f8aeb40-8878-41a0-bc35-4d2072904c75?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/docker/client.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_de358a94-602d-4cd9-9973-8a2581eb4e2b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/docker/errors/errors.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5988c3c3-1139-4dfb-9e5b-968b183a8a22?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/docker/official_docker_client.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dbbb1a8a-bac8-4620-8470-ec72d52b6439?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/secrets/errors.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_da5cf323-a311-4208-a8db-b5f9a4d1e286?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/secrets/resolvers/gitlab_secrets_manager/resolver.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_20575ca7-de07-4cd0-9b93-5383d1828199?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/secrets/resolvers/gcp_secret_manager/resolver.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_183ade7d-04fe-4a97-b8c4-da2d3923ed1d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/secrets/resolvers/azure_key_vault/azure_key_vault_resolver.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_06f8b5d3-190e-4441-a166-d53a95a001ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/secrets/resolvers/aws/aws_secrets_manager_resolver.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fdb5e2b4-632b-46b5-b6ae-0f42bd42ad5d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/secrets/resolvers/vault/resolver.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0e922c79-9a46-4d24-9699-03ccec8e0f38?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/gitlab_secrets_manager/service/gitlab_secrets_manager.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_878ebcd9-c167-4540-bef4-4088496208eb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/gcp_secret_manager/service/gcp_secret_manager.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7cfcb567-3510-4399-8330-427528ed2264?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/azure_key_vault/service/azure_key_vault.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_13857fd2-605a-475e-be98-2fb2de5e7f73?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/aws/service/aws_service.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_75ee836a-d3e2-4f59-86b5-66681dbe9320?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/auth.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_09ad0608-cee9-446b-ac95-096bc7bbeddc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/client.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c1dae37b-fe74-4b57-a313-af735058bbd7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/result.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1fbae67f-57ac-41ef-b13b-5300559818a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/secret_engine.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e3df53c7-be94-45e4-b347-49d0b6ae7bb5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/utils.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a65026c6-8e61-4a76-ad4a-9fe9ff6dac50?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/auth_methods/data.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_668df419-aae4-4b3d-8a2d-a05f9db22120?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: helpers/vault/auth_methods/registry.go -> Scope: Critical. An unprivileged CI job escapes non-privileged executor isolation and gains code execution on the runner host, helper, or another tenant workload'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bab78999-e8fc-4d8d-aed4-dc74da8705f5?mode=deep",
+    "questions_generated": false
+  }
+]
