@@ -1,1 +1,0 @@
-[File: executors/docker/internal/prebuilt/prebuilt.go -> Scope: alter job state via helper image entrypoint substitution] [Function: imageImport] Can an attacker-influenced tag value (from helperimage.Info.Tag, e.g. via a crafted helper_image override or flavor string) fail the strings.HasPrefix(tag, \
