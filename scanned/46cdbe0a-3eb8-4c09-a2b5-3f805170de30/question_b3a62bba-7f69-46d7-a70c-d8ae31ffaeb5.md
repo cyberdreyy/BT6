@@ -1,1 +1,0 @@
-[File: 'executors/docker/pull.go -> Scope: High'] [Function: manager.GetDockerImage / m.logger.Println at manager.go:135] Can an attacker who names their image or configures effective pull policy cause `fmt.Sprintf(\
