@@ -1,1 +1,0 @@
-[File: executors/docker/internal/prebuilt/prebuilt.go -> Scope: High] [Function: load] Can a crafted `helperimage.Info.Prebuilt` value containing the literal substring `x86_64` (reachable through `linuxInfo.Create`'s flavor/arch interpolation when `cfg.Architecture` or `cfg.Flavor` is influenced) trigger the `strings.ReplaceAll(info.Prebuilt, \
