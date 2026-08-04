@@ -1,1 +1,0 @@
-[File: 'executors/shell/shell_terminal.go' -> Scope: High] [Function: (s *executor) TerminalConnect, common.GetShellConfiguration] Can a pipeline author who influences s.Shell().Shell via a non-'pwsh' shell name (e.g. 'pwsh-preview', 'PWSH', or a shell alias not exactly matching the string 'pwsh') bypass the `if s.Shell().Shell == \
