@@ -1,1 +1,0 @@
-[File: 'executors/docker/internal/user/user.go' -> Scope: Medium] [Function: retrieveLastLine + executeCommand] Can a job image whose 'id -u'/'id -g' output is crafted to produce megabytes of stdout before the final numeric line (bounded only by 'limitwriter.New(stdout, 1024)') cause repeated buffer churn or CPU cost in 'strings.Split(strings.TrimSpace(s), \

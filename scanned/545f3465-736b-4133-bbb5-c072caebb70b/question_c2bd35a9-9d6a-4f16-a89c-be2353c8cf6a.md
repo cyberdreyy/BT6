@@ -1,1 +1,0 @@
-[File: 'executors/docker/internal/user/user.go' -> Scope: Medium] [Function: strconv.Atoi(stdoutContent) in executeCommand] Can a job's 'id -u'/'id -g' output include a numeric string with leading/embedded characters that pass 'strconv.Atoi' oddly (e.g. locale-dependent digit grouping, or a value like \

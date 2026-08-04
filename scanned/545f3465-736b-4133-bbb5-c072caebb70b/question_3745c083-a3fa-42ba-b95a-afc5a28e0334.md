@@ -1,1 +1,0 @@
-[File: 'executors/docker/internal/user/user.go' -> Scope: Medium] [Function: defaultInspect.IsRoot] Can a job supply/build an image whose 'Config.User' field is a non-empty but semantically root-equivalent value (e.g. \
