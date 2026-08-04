@@ -1,1 +1,0 @@
-[File: 'File Name: functions/concrete/run/runner.go -> Scope: High'] [Function: Runner.setupGitlabEnv / Runner.loadGitlabEnv] Given PRECONDITIONS 'r.env.WorkingDir is derived from job-controlled path fragments (e.g. project path or ref-derived directory names)', can an attacker cause CALL_SEQUENCE setupGitlabEnv computing tmpDir=WorkingDir+\
