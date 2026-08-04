@@ -1,1 +1,0 @@
-[File: 'executors/kubernetes/util.go -> Scope: Critical...'] [Function: buildVariables, '$' -> '$$' escaping] Can an attacker inject a crafted secret-adjacent variable value containing sequences like '$$(SECRET_VAR)' or repeated '$' characters such that Kubernetes' $(VAR_NAME) substitution still triggers after strings.ReplaceAll(b.Value, \

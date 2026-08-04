@@ -1,1 +1,0 @@
-[File: steps_pod.go] [Function: executor.stepsBuildContainer command construction] Can a job-controlled s.BuildShell.DockerCommand (derived from job/pipeline shell configuration) be crafted to append arguments after `s.stepsRunnerBinaryPath(), \
