@@ -1,1 +1,0 @@
-[File: cache/azure/adapter.go -> Scope: Critical cross-tenant cache poisoning/exfiltration] [Function: azureAdapter.GetGoCloudURL / generateBlobSignatureValues] Can an unprivileged attacker who controls a CI job's cache:key (per .gitlab-ci.yml) craft a key such that the fmt.Sprintf(\
