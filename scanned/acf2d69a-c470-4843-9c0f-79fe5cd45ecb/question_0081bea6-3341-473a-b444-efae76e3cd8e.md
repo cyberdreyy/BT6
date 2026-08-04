@@ -1,1 +1,0 @@
-[File: 'executors/docker/internal/pull/manager.go -> Scope: Critical'] [Function: auth.getBuildConfiguration / manager.ManagerConfig.Credentials] Can an unprivileged pipeline author inject additional `spec.Credentials{Type: \
