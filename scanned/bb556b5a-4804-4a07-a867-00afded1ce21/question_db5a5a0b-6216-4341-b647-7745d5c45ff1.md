@@ -1,1 +1,0 @@
-[File: 'File Name: functions/concrete/run/stages/get_sources.go -> Scope: Medium'] [Function: GetSources.getSourcesOnce] Can an unprivileged attacker whose job triggers a failure inside setupExternalGitConfig (e.g. malformed RepoURL via url.Parse or a failing 'git config -f' write for a crafted InsteadOfs entry) cause the early 'return fmt.Errorf(\
