@@ -1,1 +1,0 @@
-[File: 'File Name: cache/cache.go -> Scope: High'] [Function: GetAdapter] Can an unprivileged attacker who controls a CI job's cache 'key' field craft a value that, after path.Join in GetAdapter, resolves to another project's basePath while still passing the strings.HasPrefix(fullPath, basePath+\
