@@ -1,1 +1,0 @@
-[File: session/server.go -> Scope: Medium] [Function: Server.handleSessionRequest] Can the `r.RequestURI` value, which is fully attacker-controlled from the raw HTTP request line (not from Session.Endpoint), be crafted with unusual encodings/path traversal segments so that sessionFinder's prefix match (`strings.HasPrefix(url, build.Session.Endpoint+\
