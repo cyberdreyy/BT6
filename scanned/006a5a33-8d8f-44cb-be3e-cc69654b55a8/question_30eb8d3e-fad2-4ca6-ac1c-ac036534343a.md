@@ -1,1 +1,0 @@
-[File: 'functions/concrete/builder/variables/variables.go' -> Scope: High] [Function: variables.Provider.Get / builder.Build] Can an unprivileged pipeline author who controls a job variable named CI_SERVER_URL override the value read by `vars.Get(\
