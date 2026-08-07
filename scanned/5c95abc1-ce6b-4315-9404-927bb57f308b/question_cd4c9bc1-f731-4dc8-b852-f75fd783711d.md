@@ -1,1 +1,0 @@
-[File: 'builtins-default-costs/src/lib.rs'] [Function: BuiltinProgramsFilter::get_program_kind / ComputeBudgetProgramIdFilter::is_compute_budget_program] Can an unprivileged client submit a single 'simulateTransaction' with a maximally-sized account list (up to 256 static account keys, program_id_index == 255 == u8::MAX) to trigger `.get_mut(index).expect(\
