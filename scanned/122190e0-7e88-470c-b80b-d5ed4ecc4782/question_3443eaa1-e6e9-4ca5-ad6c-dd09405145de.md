@@ -1,0 +1,1 @@
+[File: storage-proto/src/lib.rs] [Function: impl From<StoredTransactionError> for TransactionError] Can an attacker-controlled malformed byte sequence stored as a legacy StoredTransactionError (via generated::TransactionError.err, convert.rs:313-318) cause wincode::deserialize(&bytes).expect(\

@@ -1,0 +1,1 @@
+[File: 'rpc/src/rpc.rs -> get_token_account_balance'] [Function: get_token_account_balance] Can an attacker exploit `Pubkey::from_str(&token_account.base.mint.to_string())` (round-tripping a Pubkey through string parsing) combined with a crafted mint field that, while representing 32 valid bytes, causes the `.expect(\

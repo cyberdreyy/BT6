@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/accounts_db.rs' -> Scope: Critical, calculate_capitalization_at_startup_from_index] [Function: calculate_capitalization_at_startup_from_index] Although this path is normally startup-only, can any RPC-reachable code that shares its `stored_lamports`/`.unwrap()` pattern (\

@@ -1,0 +1,1 @@
+[File: runtime-transaction/src/transaction_with_meta.rs -> Scope: High] [Function: RuntimeTransaction<SanitizedTransaction>::serialized_size (runtime-transaction/src/runtime_transaction/sdk_transactions.rs:148-151)] Can an attacker craft a `VersionedTransaction` whose `to_versioned_transaction()` output, when re-serialized with `wincode::serialized_size`, triggers the `.expect(\

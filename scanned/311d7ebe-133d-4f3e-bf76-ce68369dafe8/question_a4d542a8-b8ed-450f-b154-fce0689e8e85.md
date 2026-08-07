@@ -1,0 +1,1 @@
+[File: 'installed_scheduler_pool.rs' -> Scope: High] [Function: BankWithSchedulerInner::retrieve_error_after_schedule_failure] Can an attacker craft a transaction that deterministically triggers `SchedulerAborted` inside `schedule_execution`, hitting the `unreachable!(\

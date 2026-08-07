@@ -1,0 +1,1 @@
+[File: 'rpc-client-api/src/custom_error.rs' -> Scope: Critical] [Function: RpcCustomError::KeyExcludedFromSecondaryIndex { index_key }] Can an attacker request getProgramAccounts/getTokenAccountsByOwner with a base58-encoded pubkey string index_key that is syntactically valid but abnormally long (bypassing typical 32-byte pubkey assumptions upstream), so that format!(\

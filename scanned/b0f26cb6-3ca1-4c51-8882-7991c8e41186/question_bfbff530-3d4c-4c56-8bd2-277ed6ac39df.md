@@ -1,0 +1,1 @@
+[File: 'core/src/replay_stage/dead_slots.rs'] [Function: mark_hard_dead_slot_notifications, notify_slot_update] Can an attacker submit a transaction whose resulting BlockstoreProcessorError Debug representation embeds unbounded attacker-controlled account/log data (via `format!(\

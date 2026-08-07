@@ -1,0 +1,1 @@
+[File: 'bucket_map/src/bucket_stats.rs' -> Scope: High] [Function: IndexEntryPlaceInBucket::read_value] Can a race between a background `handle_delayed_grows`/`apply_grow_data` swap and a concurrent single RPC-triggered `read_value` call cause `data_bucket.is_free(loc)` assertion or the `panic!(\
