@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: runtime/src/serde_snapshot/types.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d05d0cbe-726a-4e83-bfc6-67cc006bbb66?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/serde_snapshot.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1cc0e924-7f47-4914-8534-19d7f650cb68?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/slot_params.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9e1180f0-cbf1-43d4-9336-00d83f4c990f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/snapshot_bank_utils.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7b9cb259-30e7-46f4-87c9-32bdaf88f6b5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/snapshot_controller.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_241960ea-7975-4487-b69f-1d7be46daa21?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/snapshot_minimizer.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d631a06e-5dda-478e-a1d7-75c956c6b20e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/snapshot_package/compare.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f4d48fd6-fe5d-47a4-a64a-1c423b0d3556?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/snapshot_package.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1c407781-1197-46ea-959c-0cff01c956d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/snapshot_utils/snapshot_storage_rebuilder.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_644a67d2-68b0-4f21-8fb6-2259bbd10e8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/snapshot_utils.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5843587e-6614-40e1-9364-73f4cecabb0a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_account.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f292569-0713-4d53-a175-d9da5957a9de?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_delegation.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c066e4dc-b0ad-4830-90cb-d149f05c79c3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_history.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0833956e-c9ef-4b61-a1ee-5d1161237d99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_utils.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1e56e3c9-af16-4f30-b044-af8c3bb94bc4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_weighted_timestamp.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a627f30d-a7c8-4801-b867-ecad2b7221a8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stakes/serde_stakes.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_da39075f-b7d7-4e24-91cf-b72ce79ca775?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stakes.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f9d44bb7-b5bf-4e8e-9829-d87f3d4115e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/static_ids.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3141130a-3ef1-4f7c-a3ae-4abc664c4a9b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/status_cache.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_552d9ff3-4131-4c95-97b0-4db539571bcf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/sysvar_account.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6d3911df-1af4-47b9-a964-187492a3c46d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_balances.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_52a1fa3a-1167-42b3-8ef7-b0497c364ac3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_batch.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ff659007-c598-4304-b6a4-86bd95b10232?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_execution.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_478c444f-f0b0-4f9a-b873-acb106e028e5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/vote_sender_types.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ecb873c0-d479-4c17-b26e-86cabcfcf6ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/admin_rpc_service.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4933daa6-5ff6-4a3e-b434-44720933d2ce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/bootstrap.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f4249fd9-e789-41dd-81c8-ccda1c96de43?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/cli/thread_args.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0dadf139-37d4-440a-81f4-a02e35c427d5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/cli.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1741e288-b97a-4fe1-b798-eed75c0e54e0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/commands/authorized_voter/mod.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cde2ec5e-9ac7-49e3-8c2e-95a1b74d8fd4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/commands/blockstore/mod.rs -> Scope: High. An unprivileged client can receive balances, transaction status, or account data attributed to the wrong account, slot, fork, or commitment level, so wallets and exchanges credit or release value on state that is not final.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_feb72778-1af0-418d-ae5d-686adc54b006?mode=deep",
+    "questions_generated": false
+  }
+]
