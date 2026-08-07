@@ -1,1 +1,0 @@
-[File: 'File Name: runtime/src/transaction_balances.rs -> Scope: High.'] [Function: rpc getConfirmedTransaction/getTransaction reading StoredTransactionStatusMeta] Can an attacker exploit the `#[serde(deserialize_with = \
