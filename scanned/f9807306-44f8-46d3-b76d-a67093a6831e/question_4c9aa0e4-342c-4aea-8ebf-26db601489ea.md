@@ -1,1 +1,0 @@
-[File: 'transaction-status/src/parse_vote.rs -> parse_vote'] Can an attacker craft a VoteInstruction::CompactUpdateVoteState payload whose `lockouts: Vec<Lockout>` field decodes to millions of entries (bounded only by instruction data size via a compact/varint length encoding) so that json!({
