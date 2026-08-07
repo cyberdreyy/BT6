@@ -1,1 +1,0 @@
-[File: 'account-decoder/src/parse_token_extension.rs' Scope: High] [Function: convert_confidential_transfer_account / convert_confidential_transfer_fee_amount] Can adversarial byte patterns for ElGamal ciphertext-typed fields (pending_balance_lo, pending_balance_hi, available_balance, decryptable_available_balance, elgamal_pubkey) cause the format!(\
