@@ -1,0 +1,1 @@
+[File: svm/src/transaction_account_state_info.rs] [Function: TransactionAccountStateInfo::new_post_exec] Can an attacker craft a transaction that succeeds pre-execution (marks an account writable) but whose post-execution TransactionContext no longer holds that index as writable/present, tripping `debug_assert!(pre_exec_state_info.info.is_some(), \

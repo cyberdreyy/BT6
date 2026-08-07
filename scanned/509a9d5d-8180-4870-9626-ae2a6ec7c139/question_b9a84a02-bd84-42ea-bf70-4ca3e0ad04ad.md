@@ -1,0 +1,1 @@
+[File: core/src/repair/malicious_repair_handler.rs -> Scope: Critical] [Function: MaliciousRepairHandler::repair_response_packet] Can attacker-authored on-chain data previously written into a slot's shreds, later fetched via Blockstore::get_data_shred and re-serialized through Shred::new_from_serialized_shred, cause repair_response_packet to panic on the '.expect(\

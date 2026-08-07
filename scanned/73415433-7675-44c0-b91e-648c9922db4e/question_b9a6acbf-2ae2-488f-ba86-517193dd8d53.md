@@ -1,0 +1,1 @@
+[File: 'transaction-status/src/parse_system.rs -> parse_system (CreateAccountAllowPrefund)'] Can an attacker craft a SystemInstruction::CreateAccountAllowPrefund with lamports=0 and space set to u64::MAX, and does the resulting json!({\

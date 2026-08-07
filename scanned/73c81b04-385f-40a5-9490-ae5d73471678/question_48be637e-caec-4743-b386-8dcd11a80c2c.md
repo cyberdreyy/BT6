@@ -1,0 +1,1 @@
+[File: 'rpc/src/rpc_service.rs -> Scope: Critical'] [Function: RpcRequestMiddleware::find_snapshot_file] Can a maliciously chosen snapshot filename string, when it matches `full_snapshot_archive_path_regex` but resolves via `Path::new(

@@ -1,0 +1,1 @@
+[File: 'File Name: core/src/banking_stage/consume_worker.rs -> Scope: Critical.'] [Function: external::ExternalWorker::execute_batch] Can a single unprivileged transaction, submitted once via sendTransaction and later packaged by the external scheduler with EXECUTE flag, encounter a working_bank() race identical to ConsumeWorker::consume (line ~392-394 `.expect(\
