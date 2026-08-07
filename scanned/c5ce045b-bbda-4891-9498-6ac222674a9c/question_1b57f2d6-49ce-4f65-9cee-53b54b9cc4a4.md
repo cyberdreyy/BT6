@@ -1,1 +1,0 @@
-[File: 'compute-budget-instruction/src/builtin_programs_filter.rs'] [Function: BuiltinProgramsFilter::get_program_kind / ComputeBudgetProgramIdFilter::is_compute_budget_program] Can a maliciously constructed SanitizedTransaction (bypassing normal construction helpers) supply an SVMInstruction with program_id_index >= FILTER_SIZE (256), triggering the `.expect(\
