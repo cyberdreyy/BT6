@@ -1,1 +1,0 @@
-[File: 'account-decoder/src/parse_config.rs' -> Scope: High] [Function: parse_config] Can an attacker publish a config account where `key_list.keys[0].0 == validator_info::id()` and the config-data payload decodes (via bincode) to a syntactically valid `String` that itself contains deeply nested JSON (e.g. `\
