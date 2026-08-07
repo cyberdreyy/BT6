@@ -1,1 +1,0 @@
-[File: pubsub-client/src/nonblocking/pubsub_client.rs -> Scope: Critical] [Function: PubsubClient::run_ws, 'Unknown request id' branch] Can a malicious server send a JSON-RPC style response with an `id` field that does not match any of `other_requests`, `requests_unsubscribe`, or `requests_subscribe` (e.g., replaying an old id after the state was cleared), causing the `error!(
