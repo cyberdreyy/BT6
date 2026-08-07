@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/src/completed_data_sets_service.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_410ee8d3-d43b-4ad3-9ec0-2f3aa3a75603?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/consensus/fork_choice.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_97f9fa87-22d0-4309-bcc1-500273fc9f4e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/consensus/heaviest_subtree_fork_choice.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3b5998a3-02c3-4103-855e-0f2ddbffa79b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/consensus/latest_validator_votes_for_frozen_banks.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_29f613dc-c840-4c87-ad15-752a1988657d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/consensus/progress_map.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f213aa45-7541-46de-93ee-608be295bb56?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/consensus/tower1_14_11.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a1d81867-4790-491d-a593-9d125535864d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/consensus/tower1_7_14.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_11d8fe7f-13dc-476d-8d8c-a3c3dc50ac9d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/consensus/tower_storage.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_97266db6-af19-4921-9712-9ea763e252be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/consensus/tower_vote_state.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3db727c4-e7a4-45d7-bea4-1ab53a06d7d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/consensus/tree_diff.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0e4ad10b-4b21-4b5e-ab22-0ca73cf7bab8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/consensus/vote_stake_tracker.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7d35c652-47ff-4b9e-8c3d-19adc80206f8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/consensus.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_741aca6e-90d7-43ce-a21a-73e324162933?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/cost_update_service.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_49d97da5-43fa-4d18-9b91-12b0323f96d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/drop_bank_service.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c81e1861-5d1f-4e8d-886d-c5c2c7813149?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/epoch_specs.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_57856216-2945-4b0a-b6d9-584df5b2c9cf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/fetch_stage.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f253f764-3a18-495e-8b21-3174ce2d1e00?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/forwarding_stage/packet_container.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_397b35c4-4e42-4fa3-923a-c7a37b317635?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/forwarding_stage.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c71585b6-56e4-4446-9387-503447ca72b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/gen_keys.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e800b670-eff6-4d5c-bfde-2d380b68c1be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/lib.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d460ab91-18b0-4dda-b616-f2da2f5e01b3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/next_leader.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_50ccc0ff-3c9d-4c3f-ad66-1fa9ed111c0f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/optimistic_confirmation_verifier.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4afbb5ef-bdcf-4987-91cc-f861a0618dcc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/ancestor_hashes_service.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa8f3ce0-d97a-460a-a8ea-5812afb294a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/block_id_repair_service/stats.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_33ac7d72-ffe4-4c2c-8479-fedc92cf1bca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/block_id_repair_service.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a9108d13-d50a-47ca-9220-5c232395ed03?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/cluster_slot_state_verifier.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2dbb18e6-e91e-4bc9-831c-d72c75bea123?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/duplicate_repair_status.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6517a4f1-6e48-42f4-8359-fda256aa745c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/malicious_repair_handler.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_936d1a8d-0028-4873-b19d-e9712f0f7edb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/mod.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_06adb818-0bf9-43c4-80b1-b210241333d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/outstanding_requests.rs -> Scope: Critical. An unprivileged RPC or pubsub request can mutate bank, blockstore, cache, or fork-choice state that consensus later depends on, or make the node treat an unrooted slot as rooted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_30835014-bcb9-4da3-8d92-efbca230cd6a?mode=deep",
+    "questions_generated": false
+  }
+]
