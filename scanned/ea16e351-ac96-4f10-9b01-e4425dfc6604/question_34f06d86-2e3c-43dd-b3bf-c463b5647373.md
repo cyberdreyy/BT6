@@ -1,1 +1,0 @@
-[File: 'File Name: entry/src/entry.rs -> Scope: High.'] [Function: ledger/src/blockstore.rs get_slot_data_in_block maybe_panic closure] Can an attacker-authored transaction whose resulting entries/shreds create a `completed_ranges` gap (e.g., via unusual entry batching sizes chosen through transaction sizing) reach the `panic!(\
