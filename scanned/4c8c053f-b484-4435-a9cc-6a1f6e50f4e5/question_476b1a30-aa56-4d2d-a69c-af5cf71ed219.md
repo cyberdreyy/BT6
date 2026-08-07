@@ -1,1 +1,0 @@
-[File: version/src/client_ids.rs] [Function: TryFrom<ClientId> for u16 vs gossip/src/contact_info_notifier.rs (unwrap_or) vs gossip/src/protocol.rs:376 (expect)] Do the two call sites handling ClientId::Unknown(0..=13) diverge such that one path silently maps to u16::MAX while the other panics via .expect(\
