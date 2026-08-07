@@ -1,1 +1,0 @@
-[File: accounts-db/src/accounts_db.rs -> Scope: High] [Function: LoadedAccountAccessor::check_and_get_loaded_account_shared_data] Can an unprivileged attacker's on-chain account, once removed from the storage map concurrently with an in-flight RPC read (e.g., via clean/shrink racing a getAccountInfo call), cause the '.expect(\
