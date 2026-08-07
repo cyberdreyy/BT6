@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: accounts-db/src/account_info.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2e61650a-5e64-487e-9504-9571d0317881?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/account_locks.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d02aa43b-bfda-4f65-8248-e910c7864fe6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/account_storage/stored_account_info.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c02b2aa-6c7d-4406-afa5-7ba2df5c9e37?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/account_storage.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e2c2c908-3925-4fa4-adb4-2afa7b54bc34?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/account_storage_entry.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ebad8ce3-ca17-4c98-8522-3c4facf988d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/account_storage_reader.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6f48a4f0-6e41-4940-afa1-864172ffd03b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32b6ad9e-2cba-4244-80a1-fed621196c32?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_cache.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6d96f419-c337-436f-9af8-76d8ed960390?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_db/accounts_db_config.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f05bac0d-c539-40ef-9a0a-34fd26032841?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_db/stats.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f9f798df-edbb-45b3-acfe-a1ff1dc467d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_db.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c33cc0a2-3cbd-49e2-a4a3-b1751fd62bcc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_file.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_97c6a205-7a54-4bf2-8311-7abc3ed543e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_hash.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aae3ca10-2f7d-4b1a-be19-558db19af2a0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index/account_map_entry.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_37031bb8-918c-496f-b8ed-48c2e619404f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index/accounts_index_storage.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fe435110-861c-48ba-9525-229a66babcf0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index/bucket_map_holder.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a5995c75-a1d1-4d60-8e0a-09e01f2da4a8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index/in_mem_accounts_index.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2663b683-2881-4d49-8fa5-3df14c36bb20?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index/iter.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5fbf97de-fbaf-43df-9d12-d9e2425138cf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index/secondary.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_17493bd5-6244-4038-9724-90f19f5c44ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index/stats.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d7ff7f0d-0aa7-4ceb-af42-ba9fcbf5e08e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7cc2871f-0605-4f9d-85aa-ac69d355ed54?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_scan.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_638e0a21-2cd4-4a56-b565-25b4207a2132?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_update_notifier_interface.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_63bc4dd2-be0e-4465-9111-80b5f439f011?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/active_stats.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a128836f-49dc-46a4-a228-2ed8cba4f42c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/ancestors.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6457853f-d8ce-4469-b009-047ad5daa58e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/ancient_append_vecs.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a9517fd8-6a59-4a43-aee1-0a8bc12092f8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/append_vec/meta.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_33ea363f-21b3-4336-961f-60173b52fc42?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/append_vec.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6be267b0-23b6-485c-a382-2dd778cd082c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/blockhash_queue.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a832e8ff-d1e4-49f0-8bac-a19b7494a51b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/contains.rs -> Scope: Critical. A single unprivileged JSON-RPC or pubsub request, issued once by one client, can panic, abort, or deadlock the whole validator process rather than only its RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e6cf3b48-a33e-4e99-ab09-f2cc0726a1a9?mode=deep",
+    "questions_generated": false
+  }
+]
