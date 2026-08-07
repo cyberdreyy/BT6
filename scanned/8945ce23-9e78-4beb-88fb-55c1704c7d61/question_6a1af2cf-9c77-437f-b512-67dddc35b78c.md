@@ -1,1 +1,0 @@
-[File: 'builtins/src/core_bpf_migration.rs' -> Scope: Critical] [Function: rpc::rpc::get_multiple_accounts iterating get_encoded_account per pubkey] Given a single getMultipleAccounts call containing one well-formed and one attacker-crafted malformed bpf_loader_upgradeable(jsonParsed) account, does a panic in decoding the malformed entry propagate through `.expect(\
