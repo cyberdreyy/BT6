@@ -1,1 +1,0 @@
-[File: program-runtime/src/stable_log.rs -> Scope: Critical] [Function: stable_log::program_data + itertools::Itertools::join] Can a single instruction call sol_log_data with a very large number of zero-length fields (maximizing data.len() count while minimizing per-field bytes) so that data.iter().map(|v| BASE64_STANDARD.encode(v)).join(\
