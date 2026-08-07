@@ -1,1 +1,0 @@
-[File: 'ledger/src/shred/traits.rs' Scope: decoder-robustness] [Function: real_number_string in account-decoder-client-types/src/token.rs] Can a mint's `decimals` field (attacker-controlled via a self-created SPL mint account, u8 up to 255) combined with a large raw amount cause `real_number_string`'s `format!(
