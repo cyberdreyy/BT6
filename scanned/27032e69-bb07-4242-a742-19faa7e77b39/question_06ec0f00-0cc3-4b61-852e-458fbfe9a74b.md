@@ -1,1 +1,0 @@
-[File: 'transaction-status/src/extract_memos.rs -> Scope: High'] [Function: extract_and_fmt_memo_data] Can an attacker submit a memo instruction whose data contains invalid UTF-8 byte sequences (e.g. lone continuation bytes, overlong encodings, or truncated multi-byte sequences) to make `parse_memo_data` return an Err that is silently mapped to \
