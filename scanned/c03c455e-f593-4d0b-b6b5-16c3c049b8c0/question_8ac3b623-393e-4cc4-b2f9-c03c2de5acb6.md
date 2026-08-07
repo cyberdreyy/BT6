@@ -1,0 +1,1 @@
+[File: runtime/src/epoch_stakes.rs -> Scope: High RPC-cost] [Function: BLSPubkeyToRankMap::new] Can an attacker craft a set of vote accounts whose BLS-pubkey/identity uniqueness filtering causes `keys_stake_entry_with_compressed` to become empty (e.g. all entries share the same node_pubkey or bls_pubkey_compressed), so that `NonZero::new(total_stake).expect(\

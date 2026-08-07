@@ -1,0 +1,1 @@
+[File: 'runtime/src/reward_info.rs -> Scope: High'] [Function: RpcSolImpl::get_inflation_reward, num_partitions handling (rpc/src/rpc.rs:800-806)] Can a single client, by causing an epoch-boundary block's num_reward_partitions (sourced from KeyedRewardsAndNumPartitions::num_partitions) to be a large u64, drive usize::try_from(num_partitions).expect(\

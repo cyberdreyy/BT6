@@ -1,0 +1,1 @@
+[File: 'runtime/src/serde_snapshot/types.rs' -> Scope: Critical single-RPC-request validator panic/abort/deadlock] [Function: SerdeAccountsLtHash / LtHash::NUM_ELEMENTS deserialization] Given that SerdeAccountsLtHash wraps a fixed [u16; LtHash::NUM_ELEMENTS] array via #[serde_as(as = \

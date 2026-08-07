@@ -1,0 +1,1 @@
+[File: pubsub-client/src/nonblocking/pubsub_client.rs -> Scope: Critical single-request validator crash] [Function: PubsubClient::run_ws] Can a single malformed WebSocket text frame from the RPC/pubsub peer (e.g. `{\

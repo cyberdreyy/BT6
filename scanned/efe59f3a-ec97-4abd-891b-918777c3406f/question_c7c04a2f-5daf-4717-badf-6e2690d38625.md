@@ -1,0 +1,1 @@
+[File: storage-proto/src/convert.rs -> Scope: High] [Function: impl TryFrom<generated::ConfirmedTransaction> for TransactionWithStatusMeta] Can a ConfirmedTransaction record with `meta: None` and a message.versioned == true (V0/V1) reach `transaction.into_legacy_transaction().expect(\
