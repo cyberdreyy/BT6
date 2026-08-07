@@ -1,1 +1,0 @@
-[File: 'File Name: builtins/src/lib.rs -> Scope: High.'] [Function: Bank::apply_new_builtin_program_feature_transitions iterating builtins::BUILTINS] Can two BUILTINS entries sharing the same `name` field but distinct `program_id` (bpf_loader_deprecated vs bpf_loader, both named \
