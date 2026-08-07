@@ -1,0 +1,1 @@
+[File: 'gossip/src/lib.rs -> pub mod contact_info'] [Function: ContactInfo::gossip/tvu/tpu/rpc/rpc_pubsub decode, consumed in get_cluster_nodes] Can a contact-info entry with maximally long or malformed socket/version fields (originating from crds data keyed by a pubkey with no stake) cause unbounded string formatting cost per call, e.g. via `format!(\

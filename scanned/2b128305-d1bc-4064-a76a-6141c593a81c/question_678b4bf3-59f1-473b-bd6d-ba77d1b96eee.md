@@ -1,0 +1,1 @@
+[File: core/src/voting_service.rs -> Scope: High] [Function: ClusterInfo::find_vote_index_to_evict via push_vote] Can an attacker-influenced fork structure (deep minority forks causing many switch/refresh cycles) drive VotingService::handle_vote's call into cluster_info.push_vote to hit the `panic!(\

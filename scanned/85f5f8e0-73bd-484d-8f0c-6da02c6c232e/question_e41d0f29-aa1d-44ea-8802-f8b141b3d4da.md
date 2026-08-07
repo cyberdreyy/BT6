@@ -1,0 +1,1 @@
+[File: 'programs/vote/src/vote_state/handler.rs' -> Scope: High] [Function: VoteStateHandler::double_lockouts] Can an attacker construct a vote sequence hitting the `confirmation_count` overflow-guard expect(\

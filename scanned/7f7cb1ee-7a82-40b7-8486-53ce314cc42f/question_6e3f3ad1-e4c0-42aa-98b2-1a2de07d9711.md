@@ -1,0 +1,1 @@
+[File: 'builtins-default-costs/src/lib.rs' -> Scope: High] [Function: get_migration_feature_id] Can any call path reachable from unprivileged RPC input supply an index to get_migration_feature_id that is not sourced from BuiltinMigrationFeatureIndex::BuiltinWithMigrationFeature(position), causing the internal .expect(\

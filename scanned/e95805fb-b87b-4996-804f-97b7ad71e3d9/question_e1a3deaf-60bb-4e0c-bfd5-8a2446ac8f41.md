@@ -1,0 +1,1 @@
+[File: 'connection-cache/src/client_connection.rs'] [Function: ConnectionPool::borrow_connection, connection-cache/src/connection_cache.rs:452-456] Can a single request cause num_connections() to return 0 concurrently with borrow_connection's rng.random_range(0..self.num_connections()), given borrow_connection calls self.get(n).expect(\

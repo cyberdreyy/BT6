@@ -1,0 +1,1 @@
+[File: 'svm-log-collector/src/lib.rs -> Scope: High'] [Function: LogCollector::log] Can an unprivileged attacker who deploys/invokes an on-chain program that echoes attacker-supplied instruction or account bytes via sol_log_data (stable_log::program_data, which does `ic_logger_msg!(log_collector, \
