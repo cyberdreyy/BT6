@@ -1,1 +1,0 @@
-[File: 'accounts-db/src/accounts_update_notifier_interface.rs' -> Scope: Critical] [Function: AccountsUpdateNotifierInterface::notify_account_update txn parameter] Can an attacker craft a transaction that fails partial execution such that Accounts::_store_accounts' `.expect(\
