@@ -1,1 +1,0 @@
-[File: runtime/src/bank/partitioned_epoch_rewards/distribution.rs -> Scope: Critical] [Function: Bank::store_stake_accounts_in_partition] Can an attacker precompute stake-account layouts so that `partition_rewards.all_stake_rewards.get(*index)` at the `panic!(\
