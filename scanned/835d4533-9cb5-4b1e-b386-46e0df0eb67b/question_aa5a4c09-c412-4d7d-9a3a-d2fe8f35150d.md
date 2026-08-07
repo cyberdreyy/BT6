@@ -1,1 +1,0 @@
-[File: vote/src/vote_account.rs -> Scope: High] [Function: VoteAccounts::do_sub_node_stake] Can a client-observable sequence of vote-program instructions (single vote account changing its node_pubkey via VoteAuthorize/UpdateNode-style instruction across two staked delegations) drive VoteAccounts::sub_stake -> do_sub_node_stake into the `Ordering::Less => panic!(\
