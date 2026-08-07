@@ -1,0 +1,1 @@
+[File: gossip/src/crds_data.rs -> Scope: same] [Function: Vote::new / vote_parser::parse_vote_transaction] Can an attacker submit a vote transaction whose `VoteInstruction::Vote(vote)` has an empty `slots: Vec<Slot>` (passing `vote_parser::parse_vote_transaction` and reaching `last_voted_slot()` as None) such that `transaction-status::parse_vote::parse_vote`'s `json!({

@@ -1,0 +1,1 @@
+[File: bucket_map/src/index_entry.rs -> Scope: Critical] [Function: MultipleSlots::set_storage_offset / storage_offset] Can attacker-influenced account update patterns (large number of updates per pubkey observed through a repeated getAccountInfo poll) cause `storage_offset` to be assigned a value >= 2^56, triggering the `expect(\

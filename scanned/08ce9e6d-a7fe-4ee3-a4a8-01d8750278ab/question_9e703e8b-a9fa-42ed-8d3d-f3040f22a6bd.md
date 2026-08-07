@@ -1,0 +1,1 @@
+[File: ledger/src/rooted_slot_iterator.rs -> Scope: High] [Function: RootedSlotIterator::next panics via .expect on meta()] Can an attacker-triggerable blockstore state (e.g. concurrent compaction removing a SlotMeta entry that RootedSlotIterator::new already validated as rooted) cause self.blockstore.meta(r).expect(\

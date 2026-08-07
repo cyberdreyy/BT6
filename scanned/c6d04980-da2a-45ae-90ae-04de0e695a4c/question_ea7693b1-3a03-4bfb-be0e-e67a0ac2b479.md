@@ -1,0 +1,1 @@
+[File: version/src/v4.rs -> Function: Version::as_semver_version] [Scope: Critical, commitment/fork-correctness excluded but decoder-robustness in scope] Can `semver::Prerelease::new(&self.prerelease.to_string())` at line 258-259 panic via the `.expect(\

@@ -1,0 +1,1 @@
+[File: 'validator/src/commands/run/args/pub_sub_config.rs -> Scope: single-request panic'] [Function: PubSubConfig::notification_threads (NonZeroUsize) / rpc_pubsub_service.rs] If --rpc-pubsub-notification-threads is parsed to 0 without --full-rpc-api (bypassing the .requires(

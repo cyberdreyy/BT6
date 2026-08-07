@@ -1,0 +1,1 @@
+[File: runtime/src/bank/partitioned_epoch_rewards/distribution.rs -> store_stake_accounts_in_partition] Can an attacker cause `partition_rewards.all_stake_rewards.get(*index).unwrap_or_else(|| panic!(...))` or the subsequent `.as_ref().unwrap_or_else(|| panic!(

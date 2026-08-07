@@ -1,0 +1,1 @@
+[File: 'File Name: ledger/src/rooted_slot_iterator.rs -> Scope: High.'] [Function: RootedSlotIterator::next] Can an unprivileged attacker who cannot mutate the ledger directly still trigger the `.expect(\

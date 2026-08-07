@@ -1,0 +1,1 @@
+[File: ledger/src/staking_utils.rs -> Scope: High] [Function: Bank::epoch_authorized_voter / Bank::epoch_vote_accounts_for_node_id] Can a single RPC call path that indirectly reaches these functions (e.g. via a getVoteAccounts-adjacent handler) with self.epoch not present in epoch_stakes trigger the `.expect(\

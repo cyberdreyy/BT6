@@ -1,0 +1,1 @@
+[File: 'account-decoder-client-types/src/token.rs' -> Scope: High] [Function: UiTokenAmount::real_number_string / real_number_string] Can an attacker set a mint's `decimals` field to 255 (u8::MAX) so that every getTokenAccountBalance / getTokenSupply / jsonParsed token account response triggers format!(\

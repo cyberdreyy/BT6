@@ -1,0 +1,1 @@
+[File: core/src/repair/repair_response.rs -> Scope: High.] [Function: repair_response_packet] Can an attacker who has previously caused a corrupted or truncated entry to be written into `data_shred_cf` (e.g., via a race during `insert_shreds` with `is_trusted=false`) trigger the `.expect(\

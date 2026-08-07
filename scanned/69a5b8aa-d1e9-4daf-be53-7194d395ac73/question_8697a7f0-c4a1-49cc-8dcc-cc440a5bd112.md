@@ -1,0 +1,1 @@
+[File: 'program-runtime/src/stable_log.rs' -> Scope: High] [Function: ic_logger_msg! -> LogCollector::log truncation] Can an attacker submit a transaction issuing exactly log_messages_bytes_limit worth of sol_log calls such that the truncation boundary falls in the middle of a program's \

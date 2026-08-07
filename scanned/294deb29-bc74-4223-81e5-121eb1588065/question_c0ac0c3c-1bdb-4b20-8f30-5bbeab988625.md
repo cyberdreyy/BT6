@@ -1,0 +1,1 @@
+[File: 'program-runtime/src/program_cache_entry.rs -> Scope: High'] [Function: ProgramCacheEntryType::get_environment / Debug impl] Can an attacker cause the Debug formatting path (`f.debug_struct(...).field(\

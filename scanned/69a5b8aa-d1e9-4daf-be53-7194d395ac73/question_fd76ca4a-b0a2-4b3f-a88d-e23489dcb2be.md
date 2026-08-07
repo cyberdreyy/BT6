@@ -1,0 +1,1 @@
+[File: 'program-runtime/src/stable_log.rs' -> Scope: High] [Function: program_log via SyscallLog] Can an attacker submit a sol_log message containing non-ASCII/control characters (e.g., carriage returns, ANSI escape sequences, or embedded null-adjacent UTF-8 sequences) that, once wrapped as \

@@ -1,0 +1,1 @@
+[File: 'rpc/src/rpc.rs run_transaction_simulation / simulateTransaction handler'] [Function: JsonRpcRequestProcessor::simulate_transaction path invoked via simulateTransaction RPC] Given the existing test test_rpc_simulate_transaction_panic_on_unfrozen_bank (rpc/src/rpc.rs:6796-6820) documents a `should_panic(expected = \

@@ -1,0 +1,1 @@
+[File: cost-model/src/transaction_cost.rs -> Scope: Critical] [Function: rpc.rs::simulate_transaction replaceRecentBlockhash path] Can an attacker's single `simulateTransaction` call with `replaceRecentBlockhash:true` trigger the `.expect(\
