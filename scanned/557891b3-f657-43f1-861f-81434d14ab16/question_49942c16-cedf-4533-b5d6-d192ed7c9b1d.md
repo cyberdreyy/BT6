@@ -1,1 +1,0 @@
-[File: 'syscalls/src/logging.rs -> Scope: High'] [Function: account-decoder-client-types::token::real_number_string] Can an attacker create an spl-token mint/account with `decimals` at or near `u8::MAX` (255) combined with a `u64::MAX` amount, such that `real_number_string`'s `format!(\
