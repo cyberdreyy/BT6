@@ -1,1 +1,0 @@
-[File: 'turbine/src/sigverify_shreds.rs' -> Scope: Critical process-wide crash] [Function: run_shred_sigverify] Can a single low-rate shred (or, per scope template, a single client request causing an on-chain-data-driven code path) reach the `Err(send_err) => match send_err { TrySendError::Full(v) => ..., _ => unreachable!(\

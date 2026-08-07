@@ -1,1 +1,0 @@
-[File: gossip/src/protocol.rs -> convert_crds_data (CrdsData::ContactInfo arm)] Can an attacker-controlled ContactInfo CrdsValue whose version_client field encodes a value outside u16 range trigger a panic in the `u16::try_from(v.client().clone()).expect(\
