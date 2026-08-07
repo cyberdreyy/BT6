@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: net-utils/src/token_bucket.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_68034807-8ab9-46ee-8338-852dcef9f984?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/data_budget.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_980d8212-47c1-4c76-9fac-ea92d5ad1b3c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/deduper.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fbeff7d4-388e-4b51-8fe3-2ce4a2ca2e3c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/lib.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a6b39d5b-e364-4a71-8550-e8cdfd08edfe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/packet.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6c6afbb5-6437-4267-854b-6b94fc830b83?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/recycled_vec.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_58763639-9cbf-486a-a356-4db03513b18c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/recycler.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_edce22a1-6f35-44a5-82f8-8358cb499584?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/sigverify.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e694b88a-792f-4405-8ee0-bd8b6fd23a51?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/thread.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ef5b188c-e962-47c1-bfbc-9878bfd453c2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: poh/src/lib.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_86ccc440-6baf-46d3-9296-673b927f1b85?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: poh/src/poh_controller.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b8354ef2-2457-48e4-8d63-21be2697c9cb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: poh/src/poh_recorder.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f37814d-a2a4-47d5-ad3e-e0dc31182d67?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: poh/src/poh_service.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0401e0c8-b1c1-492e-835c-193c1dc4a569?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: poh/src/record_channels.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_312bd905-d473-40fe-b99a-78b8d4ad3238?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: poh/src/transaction_recorder.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ae2c557-d8df-4c2f-bc09-8048caf6049b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: quic-client/src/lib.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eeaea76d-4937-48a2-a7e2-c387d2c2a62f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: quic-client/src/nonblocking/mod.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_47158ae4-fe97-4162-a046-3d4426080610?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: quic-client/src/nonblocking/quic_client.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d8ee3e27-dbbe-4670-98f3-439acccc775a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: quic-client/src/quic_client.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7257bf35-c1e4-42b4-8ecd-0388fc106795?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: scheduling-utils/src/error.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e94052c-0208-4d9c-adb5-b170cc8d6cb4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: scheduling-utils/src/lib.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eae5aa09-f2b8-408e-9c9b-21d28fb5adc3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: scheduling-utils/src/pubkeys_ptr.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1f4a274d-a4e0-4b82-a936-76b3e70d9a89?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: scheduling-utils/src/responses_region.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e52d5e6-7783-41d5-9094-e0c15f5c8567?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: scheduling-utils/src/thread_aware_account_locks.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0cd49cd9-8e6f-4527-91ca-dfaa271997b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: scheduling-utils/src/transaction_ptr.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_153d32ea-2ea9-4d8a-b628-e540482b7904?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/evicting_sender.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2a57d39f-4044-4097-a975-061283856856?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/lib.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_406a902c-d68c-40bb-9c18-d91e298194c6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/msghdr.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_13f0835e-90a7-40e7-87a7-a3e7fe6517ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/nonblocking/connection_rate_limiter.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bbb3d771-9a9f-4051-91d4-e8ba567fa71f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/nonblocking/mod.rs -> Scope: High. A single low-rate request or one websocket subscription from one client can consume memory, CPU, or file descriptors that grow with on-chain data instead of with an explicit bound, degrading the node without exceeding one call per CLUSTER_SLOT_TIME_TARGET / 2.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_056f542c-6aca-4d00-a71e-34070ea83b5f?mode=deep",
+    "questions_generated": false
+  }
+]
