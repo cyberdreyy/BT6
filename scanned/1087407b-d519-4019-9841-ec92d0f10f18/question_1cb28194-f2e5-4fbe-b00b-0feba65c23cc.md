@@ -1,1 +1,0 @@
-[File: 'account-decoder-client-types/src/token.rs -> real_number_string / real_number_string_trimmed'] Can an attacker mint a Token-2022 mint account with `decimals = 255` (max u8) so that a subsequent `getTokenSupply`/`getTokenAccountBalance` RPC call formats `format!(\
