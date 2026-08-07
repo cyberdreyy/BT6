@@ -1,1 +1,0 @@
-[File: 'core/src/consensus/progress_map.rs'] [Function: PropagatedStats::add_node_pubkey -> bank.epoch_vote_accounts(bank.epoch()).expect(...)] Can attacker-controlled epoch-boundary account data (e.g. a vote account crafted to make epoch stakes computation for the bank's own epoch return None under an edge-case epoch transition) cause the .expect(\
