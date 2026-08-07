@@ -1,1 +1,0 @@
-[File: version/src/v4.rs -> Function: Version::this_build / compute_commit interaction, Display for Version] [Scope: Critical] Does formatting a Version whose Prerelease is Self::Stable but whose Display separator logic (`let sep = if self.prerelease == Prerelease::Stable {\
