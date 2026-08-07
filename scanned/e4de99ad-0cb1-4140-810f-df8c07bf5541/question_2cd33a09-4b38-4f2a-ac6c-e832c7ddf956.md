@@ -1,0 +1,1 @@
+[File: 'File Name: runtime/src/bank.rs -> Scope: Critical.'] [Function: Bank::get_nanosecond_clock -> wincode::deserialize(acct.data())] Can attacker-controlled on-chain account data at the well-known `NANOSECOND_CLOCK_ACCOUNT` address, retrieved through a read-only RPC path that ultimately calls `Bank::get_nanosecond_clock`, cause `wincode::deserialize` to panic (`.expect(\

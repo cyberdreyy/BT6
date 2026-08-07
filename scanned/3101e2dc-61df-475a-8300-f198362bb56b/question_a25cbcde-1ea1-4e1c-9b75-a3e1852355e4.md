@@ -1,0 +1,1 @@
+[File: random/src/range.rs] [Function: random_u64_range] Can a caller pass `Bound::Excluded(0)` as the end bound (equivalent to requesting `..0`) when downstream code computes the exclusive upper bound from an attacker-supplied zero value (e.g. a zero total-weight/zero-balance entry surfaced through account data), triggering the `panic!(\

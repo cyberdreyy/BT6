@@ -1,0 +1,1 @@
+[File: tpu-client/src/tpu_client.rs -> Scope: Critical] [Function: TpuClient::try_send_transaction_batch] Can one client submit a single batch request containing VersionedTransaction entries that individually fail wincode serialization, causing the rayon parallel-iterator closure's 'wincode::serialize(&tx).expect(\

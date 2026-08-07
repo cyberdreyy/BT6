@@ -1,0 +1,1 @@
+[File: 'ledger/src/rooted_slot_iterator.rs'] [Function: RootedSlotIterator::next, Blockstore::meta] Can a single getConfirmedBlock/getBlock call over a rooted slot whose SlotMeta was concurrently pruned between `blockstore.is_root(x)` and `blockstore.meta(r).expect(...)` (rooted_slot_iterator.rs lines 55-60) trigger the `.expect(\

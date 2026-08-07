@@ -1,0 +1,1 @@
+[File: 'validator/src/commands/blockstore/mod.rs' -> Scope: High] [Function: Blockstore::get_rooted_block / get_complete_block panic path] Can a single getBlock call for a rooted slot whose blockhash lookup fails trigger the `unwrap_or_else(|| panic!(\

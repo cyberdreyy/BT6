@@ -1,0 +1,1 @@
+[File: 'tls-utils/src/tls_certificates.rs' -> Scope: Critical panic] [Function: socket_addr_to_quic_server_name] Given this function is used to derive SNI strings later parsed/validated elsewhere, can an attacker-controlled SocketAddr (e.g. IPv6 with embedded scope id or unusual formatting) produce a string that downstream SNI validation code panics on, given format!(\
