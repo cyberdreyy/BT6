@@ -1,1 +1,0 @@
-[File: 'core/src/repair/repair_response.rs' -> Scope: Critical] [Function: repair_response_packet] Can an unprivileged requester send a repair-style request for an arbitrary (slot, shred_index) pair that has never been inserted into Blockstore, causing blockstore.get_data_shred(slot, shred_index) to return an Err that is unwrapped via .expect(\
