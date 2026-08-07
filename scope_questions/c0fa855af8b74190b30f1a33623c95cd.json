@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/src/repair/packet_threshold.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6031659-ecf9-4e51-9c4b-a64aa23e0f8c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/repair_generic_traversal.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f59e1123-4817-459f-9751-8849959c2108?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/repair_handler.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_af248bcb-ffcc-4d58-a8d9-a6cf90ac0c2e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/repair_response.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cf2b348e-0d1e-449d-a4b4-d92f94316717?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/repair_service.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4c1f63c0-47a2-40cf-9f37-f9740089f9b6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/repair_weight.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_763762b5-5a02-4c6d-9eda-47ceeaa8d8af?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/repair_weighted_traversal.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_03d61ddf-19a5-405e-83e0-ea6049637eb9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/request_response.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32fc4116-f208-44f2-b4c0-4815d31c8941?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/result.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_edde4373-302e-42d6-bcd6-3a4f8ce5b74a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/serve_repair.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1c09abf2-1fec-40e6-81fb-2fd5ac82d7d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/serve_repair_service.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2cd1a7b6-8ca8-404b-b4e8-31a354cb5cfc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/repair/standard_repair_handler.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_86edd8a3-d35a-4e3b-ad60-dc3495c10376?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/replay_stage/dead_slots.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_74ad3ccd-b819-4b6b-a2a9-90e53dcc7469?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/replay_stage/update_parent.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c892a81d-d1b6-4e4e-a44a-3556567c8dcf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/replay_stage.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7ff867c3-15f4-4acc-861f-8079ce9651fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/resource_limits.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1d952a40-2d54-4f1c-803d-3b649874ab1b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/result.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ff029a7d-e299-4d04-bf51-7ef4cf4e03ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/sample_performance_service.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_60a20407-6e3c-4cea-94a7-eff97686c38d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/scheduler_bindings_server.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b65afa07-72cb-44a2-a8d7-a76f7e86c17e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/shred_fetch_stage.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_63d2f8f2-b670-4af1-badd-fbafb5200904?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/sigverify.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_954b6e71-7387-4f73-887e-8f825e073c3f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/sigverify_stage.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6a2d577e-b07a-4833-b2f4-942f5945f54a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/snapshot_packager_service/snapshot_gossip_manager.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_62bbe275-b316-4ad0-8419-3dddc2d4bde0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/snapshot_packager_service.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c648654f-29c8-41aa-9201-55ad9eaf2898?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/staked_nodes_updater_service.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bbedce96-0f94-46ee-9d8a-026c29f2dc29?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/stats_reporter_service.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_54508a0b-e226-436a-aaf6-de9bf37d5902?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/system_monitor_service.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_936eb562-ee86-4e24-8acb-8350cde64477?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/tpu.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3040f004-d491-4855-bd63-97463968c32e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/tpu_entry_notifier.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_464a131c-97f4-49f7-8412-7fe73a69f1d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/transaction_priority.rs -> Scope: High. An unprivileged attacker can author on-chain account or instruction data that makes transaction-status or account decoding panic, loop, or allocate unboundedly for every client that later reads that account or transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_44cb84e2-a242-42e4-a55d-68f9b96a3820?mode=deep",
+    "questions_generated": false
+  }
+]
