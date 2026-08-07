@@ -1,1 +1,0 @@
-[File: core/src/banking_stage/tpu_to_pack.rs -> Scope: High] [Function: copy_packet_and_populate_message] Can an attacker craft or trigger a zero-length packet (packet.data(..) returning Some(&[]) with packet_bytes.len() == 0) so that NonNull::new(packet_bytes.as_ptr().cast_mut()).expect(\
