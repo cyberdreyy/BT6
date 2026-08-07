@@ -1,1 +1,0 @@
-[File: fs/src/io_uring/sequential_file_reader.rs -> Scope: High] [Function: SequentialFileReaderBuilder::build_with_buffer] Can a configuration derived from attacker-influenced sizing (e.g., a very large single on-chain account causing a caller to pick `buf_capacity` not aligned to `read_capacity`) trigger `assert_ne!(buf_capacity, 0,
