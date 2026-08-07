@@ -1,1 +1,0 @@
-[File: account-decoder-client-types/src/token.rs::real_number_string] [Function: real_number_string(amount, decimals)] Can an attacker create a mint with decimals=255 (u8::MAX) so that a single getTokenAccountBalance or getTokenSupply call triggers `format!(\
