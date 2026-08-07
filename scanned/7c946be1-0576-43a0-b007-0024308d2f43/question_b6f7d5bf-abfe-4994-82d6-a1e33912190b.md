@@ -1,1 +1,0 @@
-[File: 'accounts-db/src/accounts_file.rs' -> Scope: Critical] [Function: AppendVec::next_account_offset] Can a corrupted or stale StoredMeta.data_len (read via a race with storage recycling) cause `next_account_offset` (accounts-db/src/append_vec.rs:722-731) to hit `STORE_META_OVERHEAD.checked_add(stored_meta.data_len as usize).expect(\
