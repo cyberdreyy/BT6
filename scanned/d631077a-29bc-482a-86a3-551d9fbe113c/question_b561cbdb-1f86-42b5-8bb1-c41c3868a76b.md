@@ -1,1 +1,0 @@
-[File: ledger/src/slot_stats.rs -> Scope: Critical] [Function: SlotStats::report_location] Given location_stats.num_repaired and num_recovered are plain usize incremented once per shred without any cap, can attacker-driven excessive repair/recovery traffic for a single slot (bounded only by legitimate block limits) cause the `(
