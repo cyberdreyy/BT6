@@ -1,1 +1,0 @@
-[File: transaction-status/src/parse_bpf_loader.rs -> Scope: High.] [Function: parse_bpf_upgradeable_loader] Can an attacker submit UpgradeableLoaderInstruction::Write { offset, bytes } with `offset = u32::MAX` and a `bytes` vector such that downstream consumers (e.g. wallets/explorers) that use
