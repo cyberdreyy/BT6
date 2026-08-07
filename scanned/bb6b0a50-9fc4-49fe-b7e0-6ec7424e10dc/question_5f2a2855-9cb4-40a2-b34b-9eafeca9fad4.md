@@ -1,1 +1,0 @@
-[File: 'runtime/src/bank/serde_snapshot.rs'] [Function: DeserializableBankSnapshot::into_fields, accounts_lt_hash.expect(...)] Can an attacker-influenced upgrade/restart sequence (older extra-fields format lacking `accounts_lt_hash`) cause `.expect(\
