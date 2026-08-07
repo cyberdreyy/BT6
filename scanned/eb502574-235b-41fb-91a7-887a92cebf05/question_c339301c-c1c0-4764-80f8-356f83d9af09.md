@@ -1,0 +1,1 @@
+[File: cost-model/src/shred_limit.rs -> Scope: High] [Function: Blockstore::get_slot_data_in_block::maybe_panic] Can a single getBlock call on a slot whose on-chain-triggered shred count exceeds what the stored SlotMeta expects (e.g., due to a race between shred cleanup and completed_ranges computation) reach 'panic!(\

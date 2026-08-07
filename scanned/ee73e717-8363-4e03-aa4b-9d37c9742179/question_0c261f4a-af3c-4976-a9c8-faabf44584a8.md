@@ -1,0 +1,1 @@
+[File: runtime-transaction/src/runtime_transaction/transaction_view.rs -> Scope: High] [Function: RuntimeTransaction<ResolvedTransactionView<D>>::as_sanitized_transaction] Can a single attacker-crafted transaction, once stored and later fetched via getTransaction, cause SanitizedTransaction::try_new_from_fields(...).expect(\

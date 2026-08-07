@@ -1,0 +1,1 @@
+[File: 'transaction-status/src/parse_token.rs'] [Function: parse_token] Can an attacker submit a `TransferChecked`/`ApproveChecked`/`MintToChecked`/`BurnChecked` instruction with `decimals = 255` so that `SplTokenAdditionalDataV2::with_decimals(255)` flows into `token_amount_to_ui_amount_v3`, exercising `real_number_string_trimmed`'s `format!(\

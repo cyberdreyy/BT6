@@ -1,0 +1,1 @@
+[File: streamer/src/quic_socket.rs -> Scope: Critical] [Function: QuicSocket::local_addr (dev-context-only-utils) reachability in production code paths] Is `QuicSocket::local_addr` ever reachable from a production (non-test) RPC-triggered code path despite being gated behind `#[cfg(feature = \

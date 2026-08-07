@@ -1,0 +1,1 @@
+[File: 'runtime/src/stakes.rs' Stakes::sub_delegated_stake] Can an attacker cause a single-request RPC read to trigger removal of a stake account (zero-lamport rewrite) that is processed twice in one bank fork, hitting `self.delegated_stakes.get_mut(voter_pubkey).expect(\

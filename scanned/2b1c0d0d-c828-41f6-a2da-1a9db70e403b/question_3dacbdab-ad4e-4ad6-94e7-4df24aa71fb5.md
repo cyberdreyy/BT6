@@ -1,0 +1,1 @@
+[File: 'vote/src/vote_account.rs -> Scope: High.'] [Function: VoteAccounts::insert / VoteAccounts::do_sub_node_stake] Can an unprivileged attacker who controls an on-chain vote account cause `VoteAccounts::insert` to panic via `Ordering::Less => panic!(\
