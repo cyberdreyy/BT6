@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/src/banking_stage/decision_maker.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_96a74cad-b243-4d51-a046-3f9b11aa7976?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/latest_validator_vote_packet.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b14c351e-97b6-41f7-b60b-9a5fdccdcd8a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/leader_slot_metrics.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c083e87d-20c2-4cf8-8a8b-bd197f7f17ee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/leader_slot_timing_metrics.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9058fbe1-89bf-4609-b680-8fd6c91a042a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/progress_tracker.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3a7460a6-e182-4d57-b859-549583ab3083?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/scheduler_messages.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0754659e-00c3-45e0-982a-6a20913e067e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/tpu_to_pack.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2c63c0d5-c630-4907-9702-282852772c8f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/batch_id_generator.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d2258c43-7875-4cca-80c6-17846bb419de?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/greedy_scheduler.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_75c68232-48ac-4187-9421-9bc65d601383?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/in_flight_tracker.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1069ae98-f684-4555-b41c-ac85567a3927?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/mod.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e427d740-e20d-4414-b7d9-2bb64e6b7dee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/receive_and_buffer.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_95f64985-a0bf-435b-966d-bdae159c0ecd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/scheduler.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f82de67f-9ae8-42f9-80cf-4a66a1003fd0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/scheduler_common.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1aaefc6b-30d8-4393-b8af-70166e124181?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/scheduler_controller.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_99900885-c6f0-48eb-9da5-8ce5146bdc57?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/scheduler_error.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_10584cf1-c50d-4c6f-baa7-671cb306a539?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/scheduler_metrics.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f814ef2f-e831-4c70-8c9b-f9d9b6ba06ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/transaction_priority_id.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1645f11d-1dc6-4cbd-b38d-ef1aeaa62421?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/transaction_state.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aa468f91-d52a-4f89-afd6-7a7437484328?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/transaction_state_container.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e66117c9-dd08-4203-b9a2-a8f9917facaa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/vote_packet_receiver.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b71d5eb7-d685-44d7-a12b-5f9b166175fc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/vote_storage.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fb919865-4858-44f0-a970-1d9d9c513cb1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/vote_worker.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_067da965-6a7d-4d40-b8b2-bc0361b70c58?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e970c2a4-9105-41d2-9d1c-4b3cc80accc2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_trace.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9214f907-2915-4e0e-898a-2b57aa03b709?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/cluster_info_vote_listener.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4cb33373-7a17-4024-bd06-189b05d227ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/cluster_slots_service/cluster_slots.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fafa73ce-1f05-4a76-b29b-1775263df97c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/cluster_slots_service/slot_supporters.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c811cfca-b3f4-4f2c-af8d-6af2531a9d0c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/cluster_slots_service.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_437164e4-497f-493a-92e0-54da9b284bbc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/commitment_service.rs -> Scope: High. An unprivileged attacker can decode instruction or token data into an incorrect but plausible parsed result, misreporting program, authority, amount, decimals, or token owner to downstream integrators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a1d36b9e-8798-4dfd-97e2-fc227f519d44?mode=deep",
+    "questions_generated": false
+  }
+]
