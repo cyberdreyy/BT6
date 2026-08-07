@@ -1,1 +1,0 @@
-[File: 'storage-proto/src/lib.rs'] [Function: `TryFrom<TransactionStatusMeta> for StoredTransactionStatusMeta`] Can a transaction submitted by the attacker that loads address-lookup-table entries (`loaded_addresses` non-empty) cause `read_transaction_status`/legacy-store conversion code paths that call this `TryFrom` to unexpectedly hit the `ReadError::Custom(\

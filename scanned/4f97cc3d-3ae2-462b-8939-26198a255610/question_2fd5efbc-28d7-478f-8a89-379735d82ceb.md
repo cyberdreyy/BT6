@@ -1,1 +1,0 @@
-[File: 'storage-proto/src/convert.rs' -> Scope: High] [Function: impl From<generated::ConfirmedTransaction> for TransactionWithStatusMeta, line ~254-262] Can a stored generated::ConfirmedTransaction with meta=None but transaction.message.versioned=true cause transaction.into_legacy_transaction().expect(\

@@ -1,1 +1,0 @@
-[File: 'storage-proto/src/lib.rs'] [Function: `From<StoredTransactionError> for TransactionError`] Can a single client that previously landed a transaction whose `TransactionError` was persisted using an old on-disk encoding trigger `wincode::deserialize(&bytes).expect(\
