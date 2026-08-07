@@ -1,1 +1,0 @@
-[File: 'ledger/src/blockstore_meta.rs' -> Scope: Critical single-request crash] [Function: Blockstore::slot_meta_iterator] Can a single unprivileged RPC call that transitively invokes 'slot_meta_iterator' (e.g. 'minimumLedgerSlot' -> 'lowest_slot', or 'getFirstAvailableBlock' -> 'get_first_available_block' -> 'rooted_slot_iterator') hit the explicit 'panic!(\
