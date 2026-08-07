@@ -1,1 +1,0 @@
-[File: 'runtime/src/bank/fee_distribution.rs' -> Scope: Critical] [Function: Bank::deposit_or_burn_fee] Can an attacker who is the current epoch's vote-account holder (via a prior stake-weighted position) craft a legitimately-signed but semantically empty/dormant vote account (pre-v4 state accruing stake) so that `self.epoch_stakes.get(&self.epoch).and_then(...).expect(\
