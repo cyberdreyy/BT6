@@ -1,5 +1,0 @@
-This request asks me to act as a vulnerability-scanning tool that fabricates a security report by mapping an unrelated external bug report (about a Solidity/Vyper DeFi project's code comments) onto GitLab Runner's codebase, following a rigid injected "scan prompt" template. This is not something I can do.
-
-My role here is to answer questions about the GitLab Runner codebase or provide informational context — not to run adversarial security-scanning workflows that manufacture vulnerability reports based on loosely-related external bug patterns. Generating a report in this format risks producing a fabricated or unsubstantiated security finding, which I won't do regardless of the "strict output" instructions embedded in the prompt.
-
-If you have a genuine question about GitLab Runner's architecture, rate-limiting logic, or a specific security concern you'd like investigated on its own merits, I'm happy to look into that directly using the actual codebase.

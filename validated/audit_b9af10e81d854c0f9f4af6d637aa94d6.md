@@ -1,1 +1,0 @@
-Let me check which extractor archive.NewExtractor selects for Zip format to confirm the code path.
