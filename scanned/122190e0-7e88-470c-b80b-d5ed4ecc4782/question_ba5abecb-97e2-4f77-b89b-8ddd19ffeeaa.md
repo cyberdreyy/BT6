@@ -1,1 +1,0 @@
-[File: storage-proto/src/convert.rs] [Function: impl TryFrom<generated::ConfirmedTransaction> for TransactionWithStatusMeta] Can an attacker supply a generated::ConfirmedTransaction with transaction=None to make .expect(\
