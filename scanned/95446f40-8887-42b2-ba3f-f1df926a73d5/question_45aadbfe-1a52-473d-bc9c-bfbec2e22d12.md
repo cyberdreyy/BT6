@@ -1,0 +1,1 @@
+[File: transaction-status/src/parse_vote.rs -> Scope: High] [Function: parse_vote, VoteInstruction::Vote/VoteSwitch] Given `vote.slots: Vec<Slot>` where Slot=u64, can an attacker forge a slots count field claiming millions of u64 entries backed by only a handful of actual bytes, causing parse_vote's returned `json!({

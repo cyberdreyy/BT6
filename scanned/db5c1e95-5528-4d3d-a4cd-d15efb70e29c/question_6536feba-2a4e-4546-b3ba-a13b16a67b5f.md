@@ -1,0 +1,1 @@
+[File: version/src/v4.rs -> Scope: Critical] [Function: PackedMinor derive-based Deserialize/SchemaRead for the newtype wrapping serde_varint/Leb128Int<u16>] Can a malformed LEB128-varint byte sequence for the wrapped u16 in PackedMinor (via `#[wincode(with =

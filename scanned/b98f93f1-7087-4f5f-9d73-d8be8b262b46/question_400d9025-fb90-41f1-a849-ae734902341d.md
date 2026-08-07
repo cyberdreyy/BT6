@@ -1,0 +1,1 @@
+[File: 'ledger/src/blockstore.rs' -> Scope: Critical single-request crash] [Function: Blockstore::slot_meta_iterator] Can a single RPC call that walks rooted/meta iterators (getBlocks, getBlocksWithLimit, getFirstAvailableBlock via lowest_slot_with_genesis) hit the `cf::SlotMeta::deserialize(&slot_meta_bytes).unwrap_or_else(|e| panic!(\

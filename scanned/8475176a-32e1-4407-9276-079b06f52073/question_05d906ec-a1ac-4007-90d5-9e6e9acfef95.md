@@ -1,0 +1,1 @@
+[File: 'File Name: tpu-client-next/src/node_address_service/recent_leader_slots.rs -> Scope: High.'] [Function: RecentLeaderSlots::estimate_current_slot] Can a single subscription delivering only SlotEvent entries whose slots are all strictly greater than the computed `max_reasonable_current_slot` cause the `.rposition(...).expect(\

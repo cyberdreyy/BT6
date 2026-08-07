@@ -1,0 +1,1 @@
+[File: 'transaction-status/src/parse_system.rs -> parse_system / check_num_system_accounts'] Can an attacker craft a legacy System Program instruction with CreateAccountWithSeed where 'seed' is an attacker-chosen string up to the maximum instruction data size, and repeatedly request getTransaction with jsonParsed encoding, causing the json!({...\

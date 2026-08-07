@@ -1,0 +1,1 @@
+[File: 'version/src/v4.rs' SchemaWrite/SchemaRead round trip for Version] Can a single crafted byte buffer decoded once via SchemaRead<'de, C> for Version and then written back via SchemaWrite (to_serialized) trigger WriteError::Custom(\

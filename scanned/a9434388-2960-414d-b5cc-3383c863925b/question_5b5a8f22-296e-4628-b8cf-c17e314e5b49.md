@@ -1,0 +1,1 @@
+[File: 'File Name: validator/src/commands/exit/mod.rs -> Scope: High.'] [Function: account_decoder_client_types::token::real_number_string / real_number_string_trimmed] Can an unprivileged attacker set a mint's `decimals` field to the maximum u8 value (255) combined with a large token amount so that real_number_string's format!(\

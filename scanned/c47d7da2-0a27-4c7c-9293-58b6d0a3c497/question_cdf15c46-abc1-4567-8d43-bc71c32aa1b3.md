@@ -1,0 +1,1 @@
+[File: unified-scheduler-pool/src/lib.rs -> Scope: High] [Function: BankWithSchedulerInner::with_active_scheduler unreachable!() branch] Can an attacker time transaction submission so that a bank's scheduler is observed in SchedulerStatus::Unavailable state (e.g., after uninstalled_from_bank_forks races with normal per-slot install/take flow) causing `unreachable!(\

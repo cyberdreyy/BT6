@@ -1,0 +1,1 @@
+[File: core/src/repair/repair_weight.rs -> Scope: Critical] [Function: RepairWeight::set_root] Can an attacker cause bank_forks root to advance to a new_root whose ancestor tree in slot_to_tree was concurrently removed by the pruned_tree cleanup pass (self.pruned_trees.drain().flat_map(...)) within the same set_root call, producing a stale TreeRoot reference and later expect(\

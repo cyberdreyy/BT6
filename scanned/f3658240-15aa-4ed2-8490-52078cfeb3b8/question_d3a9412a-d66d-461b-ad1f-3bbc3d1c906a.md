@@ -1,0 +1,1 @@
+[File: rpc/src/rpc.rs get_block -> ledger/src/blockstore.rs do_get_complete_block_with_components -> blockstore_metrics perf-wrapped reads] Since get_block invokes blockstore.get_rooted_block inside a perf-sampled Get on a spawn_blocking thread, and do_get_complete_block_with_components contains an internal panic!(\
