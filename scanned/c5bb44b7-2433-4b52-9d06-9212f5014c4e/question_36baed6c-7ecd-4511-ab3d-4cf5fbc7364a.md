@@ -1,1 +1,0 @@
-[File: net-utils/src/ip_echo_client.rs -> Scope: Critical] [Function: verify_all_reachable_udp] If a spawned UDP checker thread panics mid-execution while holding the `reachable_ports.write().unwrap()` lock (e.g., due to a platform-specific `socket.recv` error not otherwise handled), does the subsequent `.into_inner().expect(\
