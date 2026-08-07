@@ -1,1 +1,0 @@
-[File: 'account-decoder-client-types/src/token.rs'] [Function: real_number_string / real_number_string_trimmed] Can an attacker create a mint with decimals=255 (u8 max, fully attacker controlled on-chain field) combined with a large amount, causing real_number_string's format!(\
