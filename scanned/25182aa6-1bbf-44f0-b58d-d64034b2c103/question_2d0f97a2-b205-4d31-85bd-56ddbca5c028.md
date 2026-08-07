@@ -1,1 +1,0 @@
-[File: 'bucket_map/src/index_entry.rs::PackedStorage::set_offset_checked / MultipleSlots::set_storage_offset'] Can an attacker who inflates a single pubkey's slot list (via repeated account writes across many slots) push `storage_offset` past 2^56, causing `set_storage_offset`'s `.expect(\
