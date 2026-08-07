@@ -1,1 +1,0 @@
-[File: 'account-decoder/src/parse_token_extension.rs' -> Scope: Critical] [Function: convert_confidential_transfer_account / convert_confidential_transfer_fee_amount] Can an attacker set ElGamalCiphertext/DecryptableBalance raw pod fields to arbitrary non-curve-point byte patterns so that the Display formatting (format!(\
