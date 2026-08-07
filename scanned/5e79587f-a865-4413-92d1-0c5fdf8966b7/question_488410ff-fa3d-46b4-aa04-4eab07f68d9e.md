@@ -1,0 +1,1 @@
+[File: 'account-decoder/src/parse_token.rs -> parse_token_v3 / token_amount_to_ui_amount_v3'] Can an attacker deploy a mint account with a `decimals` field of 255 (u8 max) so that `10_usize.checked_pow(decimals as u32)` combined with downstream `real_number_string` computes `format!(\

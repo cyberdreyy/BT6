@@ -1,0 +1,1 @@
+[File: 'File Name: quic-client/src/nonblocking/mod.rs -> Scope: High. ...'] [Function: account_decoder::parse_token real_number_string / real_number_string_trimmed] Since `decimals: u8` is read directly from attacker-controlled instruction data (e.g., TransferChecked{amount, decimals}) or attacker-set mint state and fed unchecked into real_number_string's `format!(\

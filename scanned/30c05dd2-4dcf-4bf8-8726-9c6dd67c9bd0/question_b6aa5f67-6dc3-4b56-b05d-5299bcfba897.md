@@ -1,0 +1,1 @@
+[File: 'turbine/src/broadcast_stage/broadcast_duplicates_run.rs' -> Scope: single-request validator crash] [Function: Blockstore::get_duplicate_slot / has_duplicate_shreds_in_slot] Can a getBlock/getBlocks RPC query on a slot whose DuplicateSlots column-family entry was written by the duplicate-run logic (store_duplicate_slot) trigger the .expect(\

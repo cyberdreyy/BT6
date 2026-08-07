@@ -1,0 +1,1 @@
+[File: 'compute_budget_program_id_filter.rs' -> Scope: High] [Function: ComputeBudgetProgramIdFilter::is_compute_budget_program] Can an attacker submit a transaction whose SVMInstruction::program_id_index exceeds FILTER_SIZE (u8::MAX+1) or is otherwise inconsistent with the static account keys, causing the `.get_mut(index).expect(\

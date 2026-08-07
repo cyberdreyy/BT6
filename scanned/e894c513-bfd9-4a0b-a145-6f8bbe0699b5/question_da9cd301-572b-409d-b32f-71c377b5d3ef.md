@@ -1,0 +1,1 @@
+[File: ledger/src/rooted_slot_iterator.rs -> Scope: Critical] [Function: RootedSlotIterator::next unwrap_or_else branch] Can a client's single getBlocks(start_slot, RpcBlocksConfigWrapper) request, issued exactly when prev_root has just been purged by ledger cleanup, drive `self.blockstore.rooted_slot_iterator(self.prev_root).expect(\

@@ -1,0 +1,1 @@
+[File: same] [Function: StateContainer::retry_transaction] Can an attacker-submitted transaction be dropped by a competing capacity eviction between the scheduler's `pop` and the worker's later `retry_transaction` call, so that `get_mut_transaction_state(transaction_id).expect(\

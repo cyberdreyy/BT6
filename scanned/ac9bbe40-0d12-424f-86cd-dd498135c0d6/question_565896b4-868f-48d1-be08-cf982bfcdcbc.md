@@ -1,0 +1,1 @@
+[File: core/src/consensus/tree_diff.rs -> Scope: single-call panic] [Function: TreeDiff::subtree_diff line 22-24] Can a fork tree containing a slot whose children() returns None (i.e. discovered via pending_keys but removed/absent from fork_infos) reach the .expect(\

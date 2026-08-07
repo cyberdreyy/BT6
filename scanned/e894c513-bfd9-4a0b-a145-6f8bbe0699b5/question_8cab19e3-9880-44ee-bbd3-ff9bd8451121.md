@@ -1,0 +1,1 @@
+[File: ledger/src/rooted_slot_iterator.rs -> Scope: Critical] [Function: RootedSlotIterator::next] Can an unprivileged client calling JSON-RPC getBlocks(start_slot) with a start_slot that is rooted but sits at the validator's lowest_cleanup_slot boundary, timed against the background LedgerCleanupService purge, hit the code path where `self.blockstore.meta(r).expect(\

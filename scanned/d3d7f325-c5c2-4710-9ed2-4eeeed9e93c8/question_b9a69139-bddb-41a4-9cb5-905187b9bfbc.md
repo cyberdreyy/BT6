@@ -1,0 +1,1 @@
+[File: 'core/src/consensus/progress_map.rs -> Scope: High.'] [Function: ProgressMap::get_propagated_stats_must_exist] Can a caller reach get_propagated_stats_must_exist(slot) for a slot that was pruned by handle_new_root or never inserted, triggering the panic!(\

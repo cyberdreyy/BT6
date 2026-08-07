@@ -1,0 +1,1 @@
+[File: 'quic-client/src/nonblocking/quic_client.rs' -> Scope: High] [Function: QuicLazyInitializedEndpoint::create_endpoint / OnceCell<Arc<Endpoint>>] Does concurrent single-caller reentry (e.g. two async tasks spawned in response to one RPC-driven send_data call and its internal retry) into get_endpoint() ever race such that create_endpoint's `.expect(\
