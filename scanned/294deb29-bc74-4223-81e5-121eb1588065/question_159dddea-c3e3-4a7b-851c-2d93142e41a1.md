@@ -1,1 +1,0 @@
-[File: 'program-runtime/src/stable_log.rs' -> Scope: High] [Function: program_invoke] Can an attacker construct a maximal-depth CPI chain (up to compute_budget.max_instruction_stack_depth) that fails/unwinds mid-chain (e.g., an inner call errors before its matching program_success/program_failure is logged), producing an unbalanced sequence of \

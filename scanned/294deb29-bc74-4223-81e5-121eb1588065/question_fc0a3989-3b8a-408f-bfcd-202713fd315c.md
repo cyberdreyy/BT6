@@ -1,1 +1,0 @@
-[File: 'program-runtime/src/stable_log.rs' -> Scope: High] [Function: program_failure] Can an attacker-deployed program return a custom InstructionError/Display implementation whose formatted text embeds a fake newline-separated \
