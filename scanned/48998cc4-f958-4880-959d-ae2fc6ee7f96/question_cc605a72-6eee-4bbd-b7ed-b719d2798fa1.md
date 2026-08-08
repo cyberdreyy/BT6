@@ -1,1 +1,0 @@
-[File: 'compute-budget-instruction/src/builtin_programs_filter.rs' -> Scope: High.] [Function: BuiltinProgramsFilter::get_program_kind] Can a single attacker-authored transaction with a legacy message drive SVMInstruction::program_id_index to a value that, after sanitize, still exceeds FILTER_SIZE-1 (255), triggering the `.expect(\
