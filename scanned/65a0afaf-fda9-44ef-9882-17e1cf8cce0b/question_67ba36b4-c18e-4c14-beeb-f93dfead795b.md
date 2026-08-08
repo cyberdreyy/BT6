@@ -1,1 +1,0 @@
-[File: ledger/src/shred/common.rs -> Scope: Critical] [Function: Blockstore::get_slot_entries_in_block wincode::deserialize error branch] Can an attacker craft an on-chain transaction batch whose serialized bytes are valid enough to pass Shredder::deshred but fail wincode::deserialize with an error string embedding attacker-controlled bytes (from `format!(\
