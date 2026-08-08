@@ -1,1 +1,0 @@
-[File: 'transaction-status/src/parse_token/extension/cpi_guard.rs' -> Scope: Critical] [Function: parse_cpi_guard_instruction] Given that check_num_token_accounts(account_indexes, 2) only checks account_indexes.len() >= 2, can an attacker submit account_indexes with far more than 2 entries (up to 255, the u8 index-count maximum) so that parse_signers builds a \
