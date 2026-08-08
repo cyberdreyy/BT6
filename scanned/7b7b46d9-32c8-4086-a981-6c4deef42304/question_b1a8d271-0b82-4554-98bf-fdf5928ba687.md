@@ -1,1 +1,0 @@
-[File: account-decoder/src/parse_sysvar.rs -> Scope: High] [Function: parse_sysvar, SysvarAccountType::SlotHistory] Can a single getAccountInfo(encoding=jsonParsed) call against the SlotHistory sysvar pubkey trigger format!(\

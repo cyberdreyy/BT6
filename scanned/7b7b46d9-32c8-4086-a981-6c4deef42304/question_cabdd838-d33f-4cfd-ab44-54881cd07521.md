@@ -1,1 +1,0 @@
-[File: 'runtime/src/status_cache.rs -> Scope: High.'] [Function: StatusCache::clear_slot_entries] Can a single fork-producing on-chain event (attacker triggers a duplicate/invalid block scenario via crafted transactions causing a dead slot) reach the `else { panic!(\
