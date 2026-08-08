@@ -1,1 +1,0 @@
-[File: 'runtime-transaction/src/runtime_transaction/transaction_view.rs -> to_versioned_transaction (V1 branch)'] [Function: to_versioned_transaction] Can an attacker cause `self.transaction_config().expect(\
