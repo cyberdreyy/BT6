@@ -1,1 +1,0 @@
-[File: 'runtime/src/snapshot_bank_utils.rs' -> Scope: High.] [Function: verify_bank_against_expected_slot_hash] Can a bank capitalization/hash mismatch triggered by ordinary but adversarial account-size/rent-exemption transactions cause `bank.verify_snapshot_bank` to fail after `limit_load_slot_count_from_snapshot` is None, hitting the `panic!(\
