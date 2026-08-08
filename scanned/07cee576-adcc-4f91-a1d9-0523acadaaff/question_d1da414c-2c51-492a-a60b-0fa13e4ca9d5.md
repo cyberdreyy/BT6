@@ -1,1 +1,0 @@
-[File: same target] [Function: rpc::rpc::RpcHandler::get_token_account_balance] Can a single JSON-RPC getTokenAccountBalance call against an attacker-controlled token account whose mint field (account.base.mint) points to a Pubkey with no corresponding on-chain account (never created) cause a panic via the '.expect(\
