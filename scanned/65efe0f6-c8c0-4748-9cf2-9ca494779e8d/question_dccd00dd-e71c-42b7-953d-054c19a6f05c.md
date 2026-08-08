@@ -1,1 +1,0 @@
-[File: bucket_map/src/bucket.rs -> Scope: Critical] [Function: PackedStorage::set_offset_checked via Bucket::try_write] Can sustained attacker-driven account growth eventually push a data bucket's `pos`/storage_offset value (chosen via `rng().random_range(0..cap)` in Bucket::try_write) past the 56-bit (`B56`) field capacity used by PackedStorage, causing `.expect(\
