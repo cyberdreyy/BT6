@@ -1,1 +1,0 @@
-[File: 'ledger/src/shredder.rs' -> Scope: Critical.] [Function: Blockstore::get_slot_data_in_block's maybe_panic closure guarding Shredder::deshred] Can a single getBlock/getConfirmedBlock RPC call for a slot that is concurrently being purged (lowest_cleanup_slot advancing past that slot mid-read) hit the `panic!(\
