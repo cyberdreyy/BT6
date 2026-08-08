@@ -1,1 +1,0 @@
-[File: core/src/banking_stage/transaction_scheduler/transaction_state_container.rs -> Scope: High] [Function: StateContainer::push_ids_into_queue] Can an attacker-influenced sequence of Pending-transaction accumulation cause `id_to_transaction_state.len()` to exceed `priority_queue.len() + capacity` in a way that the eviction loop's `self.priority_queue.pop_first().expect(\
