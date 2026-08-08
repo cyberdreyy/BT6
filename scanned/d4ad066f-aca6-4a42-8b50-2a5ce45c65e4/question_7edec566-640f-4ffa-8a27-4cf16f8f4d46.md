@@ -1,1 +1,0 @@
-[File: ledger/src/block_error.rs -> Scope: High] [Function: Blockstore::do_get_complete_block_with_components, line ~4088-4095] Can an attacker who writes an on-chain block consisting only of BlockComponent::BlockMarker entries (no EntryBatch) cause `slot_components.iter().rev().find_map(...).unwrap_or_else(|| panic!(\
