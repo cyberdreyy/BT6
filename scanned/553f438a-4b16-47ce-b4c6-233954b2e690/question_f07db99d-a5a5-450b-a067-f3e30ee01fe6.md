@@ -1,1 +1,0 @@
-[File: version/src/v4.rs -> Scope: decoders must not panic on attacker-authored bytes] [Function: Version::as_semver_version] Can a decoded Prerelease::Alpha(n)/Beta(n)/ReleaseCandidate(n) value derived from arbitrary attacker-controlled wire bytes produce a Display string that fails semver::Prerelease::new's validation, causing the .expect(\
