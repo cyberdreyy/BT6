@@ -1,1 +1,0 @@
-[File: 'streamer/src/sendmmsg.rs -> Scope: Critical'] [Function: SendPktsError::From<SendPktsError> for TransportError] When batch_send/multi_target_send returns 'SendPktsError::IoError(err, num_failed)' for a single sendTransaction call whose destination is momentarily congested, verify the 'From<SendPktsError> for TransportError' conversion ('format!(\
