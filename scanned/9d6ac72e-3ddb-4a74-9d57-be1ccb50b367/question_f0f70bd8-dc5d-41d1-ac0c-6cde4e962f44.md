@@ -1,1 +1,0 @@
-[File: 'storage-bigtable/src/lib.rs -> Scope: High.'] [Function: StoredConfirmedBlockTransaction::into (line 277) / into_legacy_transaction().expect(...)] Can an attacker cause a bincode-stored transaction with meta=None to also be a V0/versioned transaction (not legacy), so that `transaction.into_legacy_transaction().expect(
