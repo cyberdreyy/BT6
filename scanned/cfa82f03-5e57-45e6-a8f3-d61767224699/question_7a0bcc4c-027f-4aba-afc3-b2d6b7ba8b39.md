@@ -1,1 +1,0 @@
-[File: 'accounts-db/src/append_vec.rs' -> Scope: Critical, next_account_offset overflow] [Function: next_account_offset] Can an attacker-controlled `stored_meta.data_len` (read back from a previously stored `AccountInfo`-referenced account) cause `STORE_META_OVERHEAD.checked_add(stored_meta.data_len as usize).expect(\
