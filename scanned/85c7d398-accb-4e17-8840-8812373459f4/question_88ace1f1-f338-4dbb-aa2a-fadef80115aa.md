@@ -1,1 +1,0 @@
-[File: connection-cache/src/connection_cache.rs -> Scope: shared-state panic reachable via a single request due to trait object misuse] [Function: ConnectionPool::get / borrow_connection] Can a QUIC-specific ConnectionPool implementation's `get(index)` returning ConnectionPoolError::IndexOutOfRange be silently converted into a panic by borrow_connection's `self.get(n).expect(\
