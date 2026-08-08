@@ -1,1 +1,0 @@
-[File: transaction-status/src/parse_token.rs -> Scope: High] Function: parse_token, TokenInstruction::AmountToUiAmount / UiAmountToAmount handling of `ui_amount: f64`. Can an attacker encode a non-finite f64 (NaN, +Inf, -Inf) as the `ui_amount` payload bytes for UiAmountToAmount, which bincode/borsh will happily deserialize as a valid f64 bit pattern, causing `json!({
