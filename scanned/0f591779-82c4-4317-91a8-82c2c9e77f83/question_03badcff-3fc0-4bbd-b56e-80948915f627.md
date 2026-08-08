@@ -1,1 +1,0 @@
-[File: 'banks-client/src/error.rs -> Scope: High'] [Function: BanksClientError::unwrap] Can a single simulateTransaction/sendTransaction call that legitimately returns a BanksClientError::ClientError, ::Io, or ::RpcError variant (e.g. transport failure, invalid blockhash path returning 'invalid blockhash or fee-payer') reach code that calls .unwrap() on it, hitting `panic!(\
