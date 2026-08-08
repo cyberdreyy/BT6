@@ -1,1 +1,0 @@
-[File: runtime/src/runtime_config.rs -> Scope: Critical] [Function: RpcHandler::simulate_transaction 'replace_recent_blockhash' branch: bank.get_blockhash_last_valid_block_height(&recent_blockhash).expect(...)] Can an attacker trigger the .expect(
