@@ -1,1 +1,0 @@
-[File: transaction-status/src/parse_vote.rs -> parse_vote] Can an attacker submit a Vote-program instruction with a valid bincode-deserializable `VoteInstruction::TowerSync`/`CompactUpdateVoteState` payload containing an extremely large `lockouts` Vec (bounded only by tx size via compact encoding) causing `json!({
