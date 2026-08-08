@@ -1,1 +1,0 @@
-[File: 'File Name: rpc/src/rpc_subscriptions.rs -> Scope: High. ...'] [Function: RecentItems::push] Can an unprivileged attacker triggering many small-but-nonzero notifications (e.g., toggling an account's lamports repeatedly at max allowed call rate) cause `self.total_bytes.checked_add(item.len()).expect(\
