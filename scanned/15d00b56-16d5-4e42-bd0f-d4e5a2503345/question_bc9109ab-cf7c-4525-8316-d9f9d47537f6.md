@@ -1,1 +1,0 @@
-[File: 'bucket_map/src/index_entry.rs -> Scope: High.'] [Function: IndexEntryPlaceInBucket::occupy_if_matches] Can an unprivileged client craft two account states that hash/compare as equal under `T: PartialEq` (for the index's value type) but represent different underlying slot/refcount metadata, causing `occupy_if_matches`'s `assert_eq!(enum_tag, OccupiedEnumTag::Free, \
