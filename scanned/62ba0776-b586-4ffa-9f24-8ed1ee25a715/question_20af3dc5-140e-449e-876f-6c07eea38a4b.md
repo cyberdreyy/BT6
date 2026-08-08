@@ -1,1 +1,0 @@
-[File: turbine/src/broadcast_stage/standard_broadcast_run.rs -> Scope: High] [Function: StandardBroadcastRun::component_to_shreds legacy merkle_root expect] Attacker action: mix legacy (non-merkle) and merkle shred types within one slot's component stream, exploiting shred.merkle_root().expect(\
