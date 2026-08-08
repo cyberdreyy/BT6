@@ -1,1 +1,0 @@
-[File: 'transaction-status/src/parse_token/extension/confidential_transfer.rs'] [Function: parse_confidential_transfer_instruction, Deposit/Withdraw amount handling] Can an attacker set `amount` (decoded via PodU64::into()) to u64::MAX in a Deposit or Withdraw instruction, and does `json!({
