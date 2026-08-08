@@ -1,1 +1,0 @@
-[File: core/src/repair/outstanding_requests.rs -> Scope: High] [Function: OutstandingRequests::register_response] Can an attacker who controls responder-side timing craft a repair/block-id response so that the `should_delete` branch's `self.requests.pop(&nonce).expect(\
