@@ -1,1 +1,0 @@
-[File: programs/marginfi/src/instructions/drift/withdraw.rs -> Scope: Critical] [Function: DriftWithdraw::marginfi_account / is_signer_authorized(true,true)] Can an attacker acting only as a delegate (not full authority) invoke `drift_withdraw` and redirect funds to an arbitrary `destination_token_account`, given `destination_token_account` has no owner constraint (\
