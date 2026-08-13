@@ -1,0 +1,67 @@
+[
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/initialize.rs -> Scope: High. An oracle, price-cache, fixed-price, emode, or bank-configuration edge case reachable from an unprivileged path causes exploitable misvaluation, unsafe settlement, or unauthorized state transition.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d4f792d6-853d-40ef-9380-05732c090516?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/mod.rs -> Scope: High. An oracle, price-cache, fixed-price, emode, or bank-configuration edge case reachable from an unprivileged path causes exploitable misvaluation, unsafe settlement, or unauthorized state transition.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_848f50a1-ee8d-4578-b6ca-f61b995fa51e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/on_ramp_transition.rs -> Scope: High. An oracle, price-cache, fixed-price, emode, or bank-configuration edge case reachable from an unprivileged path causes exploitable misvaluation, unsafe settlement, or unauthorized state transition.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9c1d556c-5f20-4117-9f56-90173076c263?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/panic_pause.rs -> Scope: High. An oracle, price-cache, fixed-price, emode, or bank-configuration edge case reachable from an unprivileged path causes exploitable misvaluation, unsafe settlement, or unauthorized state transition.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d0c13995-983b-4d8a-b964-b094ee6ed740?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/panic_unpause.rs -> Scope: High. An oracle, price-cache, fixed-price, emode, or bank-configuration edge case reachable from an unprivileged path causes exploitable misvaluation, unsafe settlement, or unauthorized state transition.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4aeb2804-c579-41e3-8778-395512ca6575?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/propagate_fee_state.rs -> Scope: High. An oracle, price-cache, fixed-price, emode, or bank-configuration edge case reachable from an unprivileged path causes exploitable misvaluation, unsafe settlement, or unauthorized state transition.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8bbe7e24-334a-4fff-b510-7c743119894b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/propagate_staked_settings.rs -> Scope: High. An oracle, price-cache, fixed-price, emode, or bank-configuration edge case reachable from an unprivileged path causes exploitable misvaluation, unsafe settlement, or unauthorized state transition.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_807aee5b-f769-4307-a12e-d01be8c183d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/set_fixed_oracle_price.rs -> Scope: High. An oracle, price-cache, fixed-price, emode, or bank-configuration edge case reachable from an unprivileged path causes exploitable misvaluation, unsafe settlement, or unauthorized state transition.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b2a8ecb0-8852-4778-8add-99f36cd48ff9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/staked_pool_utils.rs -> Scope: High. An oracle, price-cache, fixed-price, emode, or bank-configuration edge case reachable from an unprivileged path causes exploitable misvaluation, unsafe settlement, or unauthorized state transition.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e515b6b6-c189-4585-b38d-caee792461c1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/super_admin_deposit.rs -> Scope: High. An oracle, price-cache, fixed-price, emode, or bank-configuration edge case reachable from an unprivileged path causes exploitable misvaluation, unsafe settlement, or unauthorized state transition.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a947a475-4c2a-4c56-90f0-6809ef6596ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/super_admin_withdraw.rs -> Scope: High. An oracle, price-cache, fixed-price, emode, or bank-configuration edge case reachable from an unprivileged path causes exploitable misvaluation, unsafe settlement, or unauthorized state transition.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_98eb8e53-a88f-4751-b4fe-c27258d12c84?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/update_deleverage_withdrawals.rs -> Scope: High. An oracle, price-cache, fixed-price, emode, or bank-configuration edge case reachable from an unprivileged path causes exploitable misvaluation, unsafe settlement, or unauthorized state transition.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_818cbd3f-1fe6-4378-82b2-c02d2c8f358e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/write_bank_metadata.rs -> Scope: High. An oracle, price-cache, fixed-price, emode, or bank-configuration edge case reachable from an unprivileged path causes exploitable misvaluation, unsafe settlement, or unauthorized state transition.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_12be5395-8a10-4e26-92ca-31f0defc817a?mode=deep",
+    "questions_generated": false
+  }
+]
