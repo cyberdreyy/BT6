@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/kamino/withdraw.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d98b32a1-7553-41e1-b429-f49eab0dc866?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/solend/add_pool.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aa721689-f797-4f88-b8f6-faae93a6419a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/solend/deposit.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_82c1ec2f-8d46-4d4d-aad4-0cce99bd15ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/solend/init_obligation.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_54fe7493-0cce-4318-8c9f-3d899a791f99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/solend/mod.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_78cd250e-6faa-42b4-a9e4-516337db1112?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/solend/withdraw.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_46901cb5-fe80-4866-bdc6-3a4fbe2bbbba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/add_pool.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3514ea29-0540-4fd1-a85c-d8707121d6bc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/add_pool_common.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e20cbb20-b178-41a5-8ac3-f53bcd58627c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/add_pool_permissionless.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed2f6015-1de6-4fa2-ae50-8eda35ea7b7e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/add_pool_with_seed.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_68a7dc5a-15b9-4d50-8bbb-5c58f312fb8f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/backfill_bank_is_t22_flag.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3586068d-9ea1-44f9-8fe9-51e143116cc3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/backfill_staked_bank_validator_vote_account.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5a95ccb6-13b7-40e6-969e-1ccf2fc7fc40?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/clone_bank.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c3537b8-6a30-43f4-8d22-d7fd5faddb71?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/close_bank.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_136c9d3b-2e4d-4adf-b7cc-b06208c9472c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/config_bank_emode.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_357ea7d2-8207-47e8-ac70-0337b91b076a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/config_bank_oracle.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ea347bdb-9440-4f30-827f-18d6c9c81b1f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/config_group_fee.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7cb6a406-78bf-4dc5-a700-16c61dd93b6d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/configure.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_96aa2b33-211c-42f6-9456-7fa83acfb5e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/configure_bank.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9a20fea8-e8fc-4a6e-bd2e-b4acfd89a601?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/configure_bank_lite.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7ee929e3-31be-46a5-8e0f-0cd4c881ea65?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/configure_rate_limits.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_82135374-0333-4cbe-86a2-f693c0cfa1be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/configure_withdrawal_limit.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b90968ce-5b94-4231-bce1-f025fc47828a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/copy_fee_state_to_v2.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_945cf028-fb69-43d5-ae3d-8aad03d8dca6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/edit_global_fee.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa41784d-b224-46a8-a6da-6c9333800fbd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/edit_stake_settings.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91ca2553-8865-42ba-98b3-74da0518e7d5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/emode_clone.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4db00f69-161e-4dcd-9e18-7eb6f786ca19?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/init_bank_metadata.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_26a91048-cdf1-445d-bb5e-1ae0b1b773e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/init_global_fee_state.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4e4b10b2-c393-4c46-b26e-59348a053504?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/init_global_fee_state_v2.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0a1cc2cf-47ee-4338-bf95-5a6a4269b0ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/marginfi/src/instructions/marginfi_group/init_staked_settings.rs -> Scope: High. A PDA, seed, account-derivation, CPI account-selection, or optional-account validation bug lets an unprivileged user swap accounts, target the wrong vault or obligation, or write to the wrong state object.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d832c431-4ace-49e8-8f2c-d7a489422f1f?mode=deep",
+    "questions_generated": false
+  }
+]
