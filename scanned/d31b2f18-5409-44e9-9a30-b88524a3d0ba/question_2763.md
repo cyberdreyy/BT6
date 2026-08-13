@@ -1,0 +1,13 @@
+# Q2763: lending_pool_backfill_bank_is_t22_flag: public helper turns a configuration footgun into a live exploit [duplicate-metas-altering-which-bank] [replay]
+
+## Question
+Can an unprivileged attacker use `lending_pool_backfill_bank_is_t22_flag` with duplicate metas altering which bank is interpreted as target so `lending_pool_backfill_bank_is_t22_flag` transforms otherwise safe stored configuration into an exploitable runtime state, breaking `permissionless T22 backfill must touch only the intended bookkeeping field on the intended bank and never broaden live attack surface` and causing `Medium: unauthorized state mutation or durable operational inconsistency`? Focus specifically on idempotence and replay safety of public backfills and public helper mutations.
+
+## Target
+- File/function: `programs/marginfi/src/instructions/marginfi_group/backfill_bank_is_t22_flag.rs` / `lending_pool_backfill_bank_is_t22_flag`
+- Entrypoint: `lending_pool_backfill_bank_is_t22_flag`
+- Attacker controls: duplicate metas altering which bank is interpreted as target
+- Exploit idea: Look for helpers that materialize derived data or cached fields from existing config and could do so incorrectly under attacker-shaped input ordering. Focus specifically on idempotence and replay safety of public backfills and public helper mutations.
+- Invariant to test: permissionless T22 backfill must touch only the intended bookkeeping field on the intended bank and never broaden live attack surface
+- Expected Immunefi impact: Medium: unauthorized state mutation or durable operational inconsistency
+- Fast validation: Prepare a borderline valid config, run the helper, and assert the derived state remains conservative and correctly bound. Execute the helper repeatedly under unchanged state and assert later invocations are pure no-ops.

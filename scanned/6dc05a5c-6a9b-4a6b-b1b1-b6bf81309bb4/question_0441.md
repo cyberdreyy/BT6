@@ -1,0 +1,13 @@
+# Q441: derive_juplend_supply_position: derivation helper and runtime validator disagree [mixed-reserve-and-supply-position] [seed-domain]
+
+## Question
+Can an unprivileged attacker exploit mixed reserve and supply-position auxiliary accounts so `derive_juplend_supply_position` and its runtime validator disagree on the canonical derived address, violating `Juplend supply-position derivation must be unique to the intended owner, bank, and external market context` and leading to `High: value redirected to the wrong external position or later reward theft`? Focus specifically on missing seed dimensions or insufficient domain separation across nearby economic contexts.
+
+## Target
+- File/function: `type-crate/src/pdas.rs` / `derive_juplend_supply_position`
+- Entrypoint: `juplend_deposit`
+- Attacker controls: mixed reserve and supply-position auxiliary accounts
+- Exploit idea: Compare helper derivations in type/utils code with the constraints enforced by instruction entrypoints. Focus specifically on missing seed dimensions or insufficient domain separation across nearby economic contexts.
+- Invariant to test: Juplend supply-position derivation must be unique to the intended owner, bank, and external market context
+- Expected Immunefi impact: High: value redirected to the wrong external position or later reward theft
+- Fast validation: Generate addresses from both derivation viewpoints and assert runtime accepts only the exact canonical output. Derive adjacent-context addresses and assert no public path accepts a PDA from the wrong context.
