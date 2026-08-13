@@ -1,0 +1,1 @@
+[File: configure.rs] [Function: configure -> validate_and_apply_emode_leverage] Can an admin (or a griefing sequence exploiting event/log observation) call `configure` in rapid repeated succession with alternating `Some`/`None` emode leverage values such that the `#[cfg(not(feature = \
