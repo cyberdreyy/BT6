@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: src/wallet-api/update-wallet.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_696b49d1-7589-42a5-b3db-e258229d8792?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/wallet-api/unified-wallet.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_831de02e-09b1-443c-b33e-32826d9618c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/typedData/generateDomainType.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_404c3a68-07e6-4ba3-9b19-9cc282a07c56?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/offchain-message.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d3ea6180-ce99-4ad0-a88f-d79d3f3bcc32?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/getWalletPublicKeyFromTransaction.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c5fd785-1870-409a-9987-a71d67d83579?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/isVersionedTransaction.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7198c2d0-1fba-4d4a-88de-9ebf001c85ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/ConnectedStandardSolanaWallet.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a4d453ad-e8d6-422c-8aca-717098c319cb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/client.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e506cba6-d5d8-4ddf-9102-e2e4b07385f1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/smart-wallets.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a7d7cb81-9232-440d-9c1d-ea53ecd5a926?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/delegatedActions/delegateWallet.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_14658401-b3ab-4715-b021-fcf7c59f790f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/delegatedActions/revokeWallets.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1a3a1e6f-bde7-4d21-a70e-8435230ce4a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/delegatedActions/utils.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9cd07876-ddff-4ecd-859a-18380a5748f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/DelegatedWalletsApi.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_34be0515-9756-4a2c-8d7d-55090aa7af8f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/loginWithCrossAppAuth.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ea59ae8-8a90-470b-95da-331070844740?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/linkWithCrossAppAuth.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fd4ffe47-6b33-4cd3-ac58-0f7446b139d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/signMessage.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_832609dc-cded-45dd-ae77-4333c86debba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/signTypedData.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fca8eced-41a9-4ac1-8d82-a16ec5c23ba7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/sendTransaction.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_55a0c044-8e3d-46ec-add4-718d3e545ded?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/utils/sendCrossAppRequest.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_677a7686-f92d-4bd6-9a56-e67ce2dfae8e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/utils/getProviderAccessTokenOrRelink.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e7f1d304-c85c-41fb-b1c2-c4a711fc65ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/utils/getCrossAppAccountByWalletAddress.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6d33f91e-4a5f-40cc-92fb-042da3e284c6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/utils/isCrossAppWalletSmart.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4bbbbcb6-fcca-4571-857e-f99aff10c8a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/utils/throwIfNotLoggedIn.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e48ba560-4272-4984-a5b7-b780e0774410?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/CrossAppApi.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cffdfec4-6389-486d-9ea3-e6932180bc14?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/depositAddress/generate.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c49b0bdc-8a74-447b-8df9-5fbb8c923d6a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/depositAddress/resolve-refund-address.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6b6d663b-da79-4861-a06b-163661653adb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/depositAddress/polling.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_20632194-3afd-446f-af9c-b90e7d5cfb58?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/poll.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_15e5940d-0f5c-484a-ace7-c7a1f243d9d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/funding/FundingApi.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_358841c6-7c40-4b91-98c6-8528350bdb3a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/funding/MoonpayOnRampApi.ts -> Scope: Critical. An unprivileged attacker can make the SDK sign or submit a transaction, typed-data, SIWE/SIWS or raw payload that differs from what the user approved (different recipient, amount, chain/cluster, EIP-712 domain, or wallet), so the victim's funds or account are taken.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_50e949a3-a79b-47fb-b4b9-d871ef46cdae?mode=deep",
+    "questions_generated": false
+  }
+]
