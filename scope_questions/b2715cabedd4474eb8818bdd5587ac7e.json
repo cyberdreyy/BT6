@@ -1,0 +1,87 @@
+[
+  {
+    "question": "'File Name: src/client/funding/CoinbaseOnRampApi.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1899320f-0208-4176-a046-a15779e05b9d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/funding/moonpay.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_78b9fe93-50f9-4a98-9adf-9dc0e9f8cf3a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/funding/coinbase.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0580fa98-db84-466e-a5ce-e5f9343aa35b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getIsTokenUsdc.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5cdcdab3-b5d9-4bb1-ab7a-fb15b8029ea8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/getSolanaRpcEndpointForCluster.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4b00f65e-ae8a-4902-be91-3b49b162dc52?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/getSolanaUsdcMintAddressForCluster.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6c750509-5811-49b1-90f7-7e40b6f9a52d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getUserEmbeddedEthereumWallet.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_edbc3fc5-f7e6-4525-b1c6-e9a27f89f615?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getAllUserEmbeddedEthereumWallets.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_51bc1a62-61b9-4858-acad-1e244b505926?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getUserEmbeddedSolanaWallet.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ddcaf508-b2d2-47d9-aa4a-7ecd3b4f561d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getAllUserEmbeddedSolanaWallets.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ceb9b62c-e975-4d5e-97c6-3273c367e721?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getAllUserEmbeddedBitcoinWallets.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_06ccbe16-ab08-4eeb-8547-6fcb26b16201?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getUserSmartWallet.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7dfa1522-8f39-4b71-9b91-8d12067b6862?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/embedded-wallets.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa154569-3c94-48c1-9bca-8a9e40d7f29b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/shouldCreateEmbeddedEthWallet.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9882a8d9-1bfd-4fc6-91a8-abb633f91a46?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/shouldCreateEmbeddedSolWallet.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_93865b91-df5d-48dd-8077-19cdcc36a280?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/formatters.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a45571c1-b8d5-46cb-979c-26d74973c10b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/toObjectKeys.ts -> Scope: Critical. An unprivileged attacker can defeat client-side identity binding, so a session, access/identity token, user object, or linked account belonging to another user or another app is accepted and used to authenticate or authorize wallet actions as that victim.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_82e3c9ee-31ec-41e1-850d-26e48e5ffd95?mode=deep",
+    "questions_generated": false
+  }
+]
