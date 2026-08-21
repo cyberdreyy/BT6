@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: src/client/mfa/MfaApi.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ab623ead-43cd-41db-aa21-40562b281af1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/mfa/MfaSmsApi.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_77062a9b-adbd-4fe5-b447-844d74026a78?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/mfa/MfaPasskeyApi.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cb250363-5543-478e-bb2f-abd1f19a3823?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/MfaPromises.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2a92d139-6a36-42fd-800c-486111e33fd9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/withMfa.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_98015a4a-7742-4cf7-923f-d86ab93f44b8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/recovery/RecoveryApi.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7b72d3a2-e004-4c92-b690-548813ca9c84?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/recovery/RecoveryOAuthApi.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_14d86add-aa5f-49ac-a4d6-9027b88b5c6c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/recovery/RecoveryICloudApi.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_471e7c76-3894-458f-8260-d086d4e9899a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/utils/index.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c74c905b-bcc0-42c6-b247-bb5f67ff081b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/errors.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f1490cd9-b258-4705-bb54-c68db68bf589?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/EmbeddedWalletProxy.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dd75d8b4-a297-4686-893d-607fe710f75a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/EmbeddedWalletProvider.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a1cb3271-ed02-4ea7-8e7d-3f729bb7f710?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/EmbeddedSolanaWalletProvider.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b770568a-669a-4dfb-8d03-a1e07c1fd130?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/EmbeddedBitcoinWalletProvider.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_57594e14-f90c-4cfa-b4dc-a0828f0febfb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/EventCallbackQueue.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_187caec9-120c-4b52-8e82-f244fb16302b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/stack/walletRpc.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e61b17c9-8f8a-48ac-95e2-1701eea59469?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/stack/walletCreate.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_29e2ebb4-9523-4b63-8898-a91ff5f0c021?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/stack/session-signers.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5ad79434-cceb-4dd8-87e2-a12895b1370d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/stack/wallet-api-eth-transaction.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_25e99286-b00a-4489-8d16-be3f8e7cf12b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/stack/wallet-api-eth-typed-data.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7f5f8aba-9465-4d02-b578-487870c67ed3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/EmbeddedWalletApi.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_23bcbb5b-f948-4749-99a1-a1bd0989f9fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/entropy.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f1ede44a-440d-42d2-a219-add1f6e2d0d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/crypto/resolve.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bd6024fc-be1e-446c-bb16-5d5b4baa168e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/encodings.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a4627e2e-1788-4721-900e-2eb2b110bfaf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/generateWalletIdempotencyKey.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f85cea2-7eb2-499c-a02a-f309ae865b87?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/wallet-api/generate-authorization-signature.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3f4e8aa5-806e-4aac-a0b2-095ff00d9234?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/wallet-api/rpc.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_902a30d0-a5c5-4607-ae27-94b5c0e83559?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/wallet-api/raw-sign.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5a37c7e7-f680-45a3-a39f-372747ba22c2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/wallet-api/create.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e255f0b6-6d5f-4902-9164-0a9845619269?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/wallet-api/get-wallet.ts -> Scope: High. An unprivileged attacker can cause user funds or credentials to be routed to attacker-controlled destinations or storage (deposit/refund address, on-ramp URL parameters, RPC endpoint, token/mint selection), or can recover another user's tokens and wallet state left in browser storage, logs, or URLs after logout or session switch.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f2d4380-361a-4283-8ed1-4fd2bc9610d5?mode=deep",
+    "questions_generated": false
+  }
+]
