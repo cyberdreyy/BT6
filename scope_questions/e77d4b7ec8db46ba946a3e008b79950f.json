@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: src/client/mfa/MfaApi.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_529aa4ac-60d8-4d7b-b9a0-d9b6be50e8b7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/mfa/MfaSmsApi.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4383769d-f39c-4b58-84e1-f257514b08fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/mfa/MfaPasskeyApi.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ea526c50-c11e-4875-b84c-b7016be465f9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/MfaPromises.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_81e8e39a-a167-49f3-985e-96cf8df5e69a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/withMfa.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bb0455c4-80e4-4098-8b62-d7759de927b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/recovery/RecoveryApi.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cb597956-3100-4d36-a08c-a08524317a28?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/recovery/RecoveryOAuthApi.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7ea606f8-43f9-4a01-b7fa-ac545e53565e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/recovery/RecoveryICloudApi.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4c25cf79-6c15-487a-9a6f-d69d494302cb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/utils/index.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ec055e54-757c-43dc-bf0a-a118d61dd441?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/errors.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_df7a1782-a6ca-41a3-b5a3-03c01e21988a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/EmbeddedWalletProxy.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_478444bc-c048-4a65-a798-01497d75ef80?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/EmbeddedWalletProvider.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9074a614-2b05-459b-a59d-e97fb1e6b978?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/EmbeddedSolanaWalletProvider.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_16064a8f-046c-482b-80b9-ecbbf234b467?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/EmbeddedBitcoinWalletProvider.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fdfb3c46-0e25-4040-9c95-8242d054abec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/EventCallbackQueue.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ea6abf88-6f37-48fb-9f9c-fc7151dbfc40?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/stack/walletRpc.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91ce2632-00dd-4b33-9e3f-df24652bc725?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/stack/walletCreate.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3bebf0f3-c749-4bcc-ba61-7bbc3a1a974f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/stack/session-signers.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5821baf9-cf96-4a87-89f7-bfb3bb916575?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/stack/wallet-api-eth-transaction.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1bfe83e6-351c-48b5-8035-14108eab988d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/embedded/stack/wallet-api-eth-typed-data.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b904b8a-a462-4339-b460-f583d9e2eb9d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/EmbeddedWalletApi.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_726699b1-7e41-451a-97da-a68af3135c8e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/entropy.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_26566491-31f1-484e-a3ed-7e2bf328b944?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/crypto/resolve.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8b6e7729-8023-4bd3-bbe7-2dc06130a5b7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/encodings.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4c9588fc-3ccb-40f4-a1d7-8ee3ac0d24f8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/generateWalletIdempotencyKey.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6db717ab-85a2-4e4b-bdcd-21732d19aae6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/wallet-api/generate-authorization-signature.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_559bcbb1-c78d-46e8-a526-dce81bf6d28f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/wallet-api/rpc.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2e97c4ed-6fa8-41ef-9daf-d8772984dd0c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/wallet-api/raw-sign.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8f5ee95b-aab4-454b-b6ec-45d900a69625?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/wallet-api/create.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e47631b2-e25f-490a-bc2a-84310c8a7895?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/wallet-api/get-wallet.ts -> Scope: High. An attacker-controlled origin, iframe/postMessage peer, or cross-app provider can inject or replay wallet RPC responses, OAuth/PKCE state, or cross-app access tokens that the SDK accepts without origin, nonce, or request-identity validation.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4f7b9239-eac8-432b-ae60-30c374e1431e?mode=deep",
+    "questions_generated": false
+  }
+]
