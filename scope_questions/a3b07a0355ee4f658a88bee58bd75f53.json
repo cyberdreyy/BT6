@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: src/wallet-api/update-wallet.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d7f3e8e4-93c0-4446-9447-61b84ff25ca6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/wallet-api/unified-wallet.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_de9941f9-61aa-457b-9d4f-bf6f8a3ce11f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/typedData/generateDomainType.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d6788a0d-9322-44a2-8fdd-2bd4b2092804?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/offchain-message.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6d4a16f3-9217-4e60-9f54-9a9c95ba4d3a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/getWalletPublicKeyFromTransaction.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0140b965-8995-4517-bf94-8890cb18689c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/isVersionedTransaction.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_290f56b1-755c-4177-a964-f288eec379a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/ConnectedStandardSolanaWallet.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a3132935-c8f0-4608-a9f9-e637d0cad6a9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/client.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_775b8c2e-082f-47bd-bb6f-4f2fe6ed65ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/smart-wallets.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_daab4b6b-af5a-46fd-b88a-70e977b3bed6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/delegatedActions/delegateWallet.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aba0d0fc-679b-4743-a26f-929bf3b114c3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/delegatedActions/revokeWallets.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b84c9d37-86f3-4c55-ac9f-de2e4d1f2153?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/delegatedActions/utils.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f5ab3e93-8f5e-4da1-a1fa-80438c2e1a25?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/DelegatedWalletsApi.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_af85e56c-49e2-4519-a774-cae2739ca00a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/loginWithCrossAppAuth.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c15f8cf-4c34-413b-8f04-f1a6e1400f89?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/linkWithCrossAppAuth.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ea8e7c1-2855-4cad-8f80-5a5ddd20ae6c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/signMessage.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a89863eb-5b19-4d74-b71c-61c02c87bed0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/signTypedData.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_750c6d7f-d5e3-4050-8d3a-4d454e1a6fa5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/sendTransaction.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_efc80ad1-4bb9-4942-b485-7424d98a306f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/utils/sendCrossAppRequest.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eba65efd-43e1-49a0-8d0d-8595c9dc8c8d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/utils/getProviderAccessTokenOrRelink.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_074d5655-d2ed-4002-9795-43a72197d36b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/utils/getCrossAppAccountByWalletAddress.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f2fbbb9f-8693-46ab-b109-e2011fb80dcf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/utils/isCrossAppWalletSmart.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fea7d386-f95a-47ac-bc6d-227b7c497869?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/crossApp/wallet/utils/throwIfNotLoggedIn.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_232050fe-1624-48cf-bb75-6dd3b9202413?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/CrossAppApi.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_984a03c1-5d3d-4db5-bfa4-a9f134338a7d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/depositAddress/generate.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eac98ee3-34ea-4abe-8975-028a1622122f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/depositAddress/resolve-refund-address.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_26728ead-ec58-4af7-93ba-259a6040048c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/action/depositAddress/polling.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_accdb28a-fe1e-4cf4-be66-9fd2217acf3a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/poll.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a606a6bb-8b8e-4e2c-a942-13c9d3b48621?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/funding/FundingApi.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d5f27eda-b857-4517-857c-6b810cd8dad7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/client/funding/MoonpayOnRampApi.ts -> Scope: Critical. An unprivileged attacker, using only public SDK APIs, their own Privy account, or a web origin they control, can obtain another user's embedded-wallet key material (entropy, key shares, session-signer or authorization private keys) or otherwise gain the ability to sign with that user's wallet.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_191994f7-a223-40e3-b9e8-7557b6c232f0?mode=deep",
+    "questions_generated": false
+  }
+]
