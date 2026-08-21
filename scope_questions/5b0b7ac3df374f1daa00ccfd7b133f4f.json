@@ -1,0 +1,87 @@
+[
+  {
+    "question": "'File Name: src/client/funding/CoinbaseOnRampApi.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_394b9af7-93b5-4abf-823c-64dc35b669e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/funding/moonpay.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eef74ff0-2cf9-4cdb-9bde-2ec80ff54935?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/funding/coinbase.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1fa32ab3-80b9-4d41-a9f5-e16efd27c081?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getIsTokenUsdc.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5de09704-5fd1-43b2-ae82-f236d539180f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/getSolanaRpcEndpointForCluster.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d3383fd4-d302-4e1e-8334-e3e0f175c832?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/solana/getSolanaUsdcMintAddressForCluster.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e086b234-a56c-4644-9ab1-29671b9f6063?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getUserEmbeddedEthereumWallet.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5a4d84b7-18c2-41e5-bd73-a599ac55988e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getAllUserEmbeddedEthereumWallets.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8c77c2a4-1464-470f-a0c7-a6bde12acb9d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getUserEmbeddedSolanaWallet.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed1f5eec-5e19-467f-84cc-6a28e18a7e46?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getAllUserEmbeddedSolanaWallets.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7d812b7a-2b15-46d6-a058-21832d8855f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getAllUserEmbeddedBitcoinWallets.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6697d7f9-086a-44b2-9795-489840683e37?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/getUserSmartWallet.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b44eb21f-baea-4f45-849e-b8db5ddec195?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/embedded-wallets.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6981a44f-3cb3-4e17-9036-69e75d45aac7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/shouldCreateEmbeddedEthWallet.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8faa065d-f326-42ae-a1fe-8a14655069c1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/shouldCreateEmbeddedSolWallet.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_135d76f2-c4ec-4bb2-905a-e26b2688dcc9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/formatters.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_60bb407b-d42f-4e75-894d-dfa74b294626?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: src/utils/toObjectKeys.ts -> Scope: Critical. An unprivileged attacker can bypass or downgrade MFA, recovery, or delegated-action authorization gates (withMfa, MfaPromises, recovery upgrade paths, delegate/revoke flows), so a privileged wallet operation completes without the required user approval.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_09d4d640-7f6d-4f7f-9775-74c58829d68a?mode=deep",
+    "questions_generated": false
+  }
+]
