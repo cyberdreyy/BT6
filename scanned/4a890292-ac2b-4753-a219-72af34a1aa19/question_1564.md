@@ -1,0 +1,13 @@
+# Q1564: getKeys exposes the whole origin in UserApi.ts
+
+## Question
+LocalStorage.getKeys enumerates every key in the origin's localStorage; can an attacker use a path through src/client/UserApi.ts to read keys or values written by unrelated code on that origin?
+
+## Target
+- File/function: [src/client/UserApi.ts](src/client/UserApi.ts) - UserApi.get, switchActiveUser, acceptTerms
+- Entrypoint: privy.user.switchActiveUser({userId})
+- Attacker controls: userId string, timing against in-flight wallet operations
+- Exploit idea: Call the storage-enumerating path and inspect what is returned to app code.
+- Invariant to test: Storage access from src/client/UserApi.ts must be namespaced to privy: keys.
+- Expected Immunefi impact: Critical - retrieval of sensitive user data: session/identity/provider tokens, key-material handles, or entropy identifiers reach a party that must not hold them.
+- Fast validation: Unit test: seed a foreign key and assert UserApi.get does not return it.

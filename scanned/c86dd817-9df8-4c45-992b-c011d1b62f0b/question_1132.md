@@ -1,0 +1,13 @@
+# Q1132: enrollment submitted for a different method in MfaApi.ts
+
+## Question
+submitEnrollMfa branches on method === 'passkey' for the MFA-gated path and takes the other branch otherwise; can an attacker choose the ungated branch to enrol a method without an MFA challenge?
+
+## Target
+- File/function: [src/client/mfa/MfaApi.ts](src/client/mfa/MfaApi.ts) - MfaApi.verifyMfa, initEnrollMfa, submitEnrollMfa, unenrollMfa, unlinkPasskey, clearMfa
+- Entrypoint: privy.mfa.unenrollMfa(method) / privy.mfa.clearMfa({userId})
+- Attacker controls: method argument, credentialId, removeAsMfa, userId, call ordering against refreshSession
+- Exploit idea: Call the submit path with a non-passkey method and observe the gate.
+- Invariant to test: All enrollment submissions must pass the same gate in src/client/mfa/MfaApi.ts.
+- Expected Immunefi impact: High - authorization bypass: a privileged wallet or MFA operation completes without the user-approval gate the app relies on.
+- Fast validation: Unit test: submit each method through MfaApi.verifyMfa and assert every path is MFA-gated.
