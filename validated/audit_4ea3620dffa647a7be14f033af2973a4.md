@@ -1,1 +1,0 @@
-The repository's indexed content only contains `src/README.md`, `src/LICENSE`, and `src/package.json` — no actual TypeScript source files (auth flows, wallet signing logic, session/MFA handling, etc.) are present in the index.
