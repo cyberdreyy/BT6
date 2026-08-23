@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: svm/src/rent_calculator.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4667ac6d-3008-4e15-b8ec-ed760f3c0748?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/nonce_info.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9639466a-1be0-4b8a-a232-52e8f3fdc168?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/rollback_accounts.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_01264374-1978-45c6-9f2e-3c08b1b56a9c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/transaction_account_state_info.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6fc5922f-fd97-425c-af06-71fef278f170?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/account_overrides.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_427a2706-a489-4fc5-836b-2a2e8b76cac4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm-callback/src/lib.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_845df8b3-53ea-43c7-a21f-366635ca6258?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: fee/src/lib.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_99fd932f-a542-4beb-90dd-f2cf1947b045?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/account_saver.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d64f3127-8e20-40b8-b2d3-d8ffcb26d1eb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_execution.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0b41c863-16b1-4a85-b429-cab1c2ec9ca8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/check_transactions.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_39096949-0678-4b1a-a74a-75e0c04d2797?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/fee_distribution.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1ffb3b3e-a7f2-4b60-adc2-965a037221dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/rent_collector.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80a6a98a-d4a7-4593-afd4-f88665eb87fc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_52eeed18-918c-493a-b34a-1cb4d7f3cfdb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/accounts_lt_hash.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_431b4a27-4e61-4874-b286-6301faabae6c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/sysvar_cache.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bf36e3cc-da9a-43b9-bbcd-31b3687829a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/recent_blockhashes_account.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e3bb89be-a12f-470c-a728-2a246e847951?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/status_cache.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_458552d0-f1ce-4a7a-9d4c-6ca9b5c00495?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stakes.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_10ac1638-d26a-4214-a760-86c5b5749dce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_account.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f181775d-2c06-4dce-bbca-63ae2381d392?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/prioritization_fee_cache.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_33b28e84-41d6-4c31-961d-63a92ec125cc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_batch.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_82470342-ab05-4860-868a-765bf6673a39?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/blockhash_queue.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9898112c-be35-411b-872b-e24fee045508?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_229a3e0f-9e5e-4087-8632-dd299c05e04e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_db.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_076a7bc0-c68c-4b6f-acd8-f4e025c360e0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/account_locks.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed48d5e2-e1df-4f9d-962c-f35e5979b302?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/append_vec.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d6328f34-7a34-45d8-952a-3a5f584b4ed6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_file.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8058f482-f6c9-4903-a462-25fb171abba5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_cache.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dccd1fbc-5ebc-413f-a07d-49b9f4019854?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/read_only_accounts_cache.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5101aa3a-b0c6-4a84-8e6a-65c66cfb7ff0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dc6d56cf-f00b-4a01-a2f5-2262d1854a0e?mode=deep",
+    "questions_generated": false
+  }
+]
