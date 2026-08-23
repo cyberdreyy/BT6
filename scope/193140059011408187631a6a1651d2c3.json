@@ -1,0 +1,4 @@
+[
+  "'File Name: rpc/src/parsed_token_accounts.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+  "'File Name: rpc/src/rpc/account_resolver.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'"
+]

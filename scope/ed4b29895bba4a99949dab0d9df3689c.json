@@ -1,0 +1,4 @@
+[
+  "'File Name: rpc/src/parsed_token_accounts.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+  "'File Name: rpc/src/rpc/account_resolver.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'"
+]

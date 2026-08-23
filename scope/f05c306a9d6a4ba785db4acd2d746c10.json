@@ -1,0 +1,4 @@
+[
+  "'File Name: rpc/src/parsed_token_accounts.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+  "'File Name: rpc/src/rpc/account_resolver.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'"
+]

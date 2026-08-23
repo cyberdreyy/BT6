@@ -1,0 +1,4 @@
+[
+  "'File Name: rpc/src/parsed_token_accounts.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'",
+  "'File Name: rpc/src/rpc/account_resolver.rs -> Scope: Intermediate. An unprivileged client crashes or exhausts the RPC process, by sending a single well-formed JSON-RPC or pubsub request within default rate limits that panics or allocates unbounded memory in `rpc.rs`, `filter.rs`, `parsed_token_accounts`, `rpc_service`, or the subscription tracker, killing the node's RPC service.'"
+]

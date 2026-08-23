@@ -1,0 +1,4 @@
+[
+  "'File Name: rpc/src/parsed_token_accounts.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+  "'File Name: rpc/src/rpc/account_resolver.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'"
+]

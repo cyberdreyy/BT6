@@ -1,0 +1,4 @@
+[
+  "'File Name: rpc/src/parsed_token_accounts.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+  "'File Name: rpc/src/rpc/account_resolver.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'"
+]

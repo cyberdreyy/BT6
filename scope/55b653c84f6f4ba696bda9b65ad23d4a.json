@@ -1,0 +1,4 @@
+[
+  "'File Name: rpc/src/parsed_token_accounts.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+  "'File Name: rpc/src/rpc/account_resolver.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'"
+]
