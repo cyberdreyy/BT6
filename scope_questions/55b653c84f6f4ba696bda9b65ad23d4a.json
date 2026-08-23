@@ -1,0 +1,12 @@
+[
+  {
+    "question": "'File Name: rpc/src/parsed_token_accounts.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ca574071-6469-40c7-9094-3c51f3054d67?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc/account_resolver.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_44dc807a-e15c-4cc3-a1b7-c74695e0c504?mode=deep",
+    "questions_generated": false
+  }
+]
