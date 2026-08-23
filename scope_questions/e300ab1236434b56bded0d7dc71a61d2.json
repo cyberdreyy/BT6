@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: accounts-db/src/accounts_index/in_mem_accounts_index.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_04fa44d5-d432-4123-a84f-ffbb02e993d5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index/secondary.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_57a22150-7892-4fe6-aae7-c1105103a978?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_hash.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e6dd789-169a-47b8-b548-28fe0a57ef7c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_scan.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_baba8593-9bb9-43dd-bd30-eaf52541e9b1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/storable_accounts.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ae0b38f9-5a75-4c37-8f61-3fe54a760eaf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/bucket.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_05e96510-e601-4b88-9742-96501ee1fcdd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/bucket_map.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c5a2e12a-65d6-4c04-b4d5-7575b7c8c16d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/bucket_storage.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_94b027e5-f6d6-4372-b3ef-24919f18fa37?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/index_entry.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3a5de3e6-8060-47fb-a3a0-e6a37770df63?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/nonblocking/quic.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8312b905-8dea-4bb4-a054-0ca3361092de?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/nonblocking/connection_rate_limiter.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7170e862-68b3-43d2-a67d-8cffb9a2a11a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/nonblocking/stream_throttle.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cb77bbfc-091f-4b7d-bb22-08bd3a767942?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/nonblocking/qos.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_88758c5a-72b9-4236-a95b-4960bf970ead?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/quic.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ad40b21-eb08-40e9-b0df-3dc97b6e5a27?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/packet.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8c6e83f4-3734-4016-8cdd-26ff1284f252?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/sigverify.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fb389989-0b76-42b1-959c-7e80e962381b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/deduper.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_016cb331-5872-4092-907e-e0ff912841d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/packet.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d914049c-5a35-41f0-a32c-b69d0b5c9804?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/sigverify_stage.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c61e59e-2f67-4cc1-826e-98057a89cb39?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/consumer.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ff6954a3-9925-4f41-b093-128d32359106?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/receive_and_buffer.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c2925f2-3fc4-492b-a142-faeeaafb8a97?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/scheduler_controller.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a177921e-61db-4708-9ae5-c269442b5f27?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/transaction_state_container.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f31dfbaa-3721-4c3c-8bee-ef624b9d6daa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/forwarding_stage/packet_container.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_845b3c61-1d9a-417f-9852-de8098f045c0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6529463d-d6f4-4229-bcf6-3a446a744bbd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/filter.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_840c08d2-928a-4b1b-aa7b-6a94246c9ba7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_service.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d6bcd787-5c5e-411a-9006-fe4eda3ab000?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_pubsub.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_24fddfe8-e187-4659-8761-fa6bdb97eb4f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_subscriptions.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d8f51cf2-e7a6-431e-a7f5-072c842de518?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_subscription_tracker.rs -> Scope: Advanced. An unprivileged remote client exhausts a validator's non-RPC ingest path, by opening QUIC connections and streams to the TPU that defeat `connection_rate_limiter`, stream throttling, `ConnectionTable` eviction, packet batching in `streamer`/`perf`, `sigverify_stage` dedup, or the banking-stage container bounds, starving legitimate transactions on default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ab9b86b-278b-447d-a9a2-ed1390294c6a?mode=deep",
+    "questions_generated": false
+  }
+]
