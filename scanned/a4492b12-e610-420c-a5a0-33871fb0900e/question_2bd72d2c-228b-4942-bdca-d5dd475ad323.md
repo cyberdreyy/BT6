@@ -1,0 +1,1 @@
+[File: compute-budget-instruction/src/builtin_programs_filter.rs -> Scope: Intermediate RPC DoS] [Function: BuiltinProgramsFilter::get_program_kind] Can an unprivileged client craft a transaction whose `SVMInstruction::program_id_index` values, when iterated by `ComputeBudgetInstructionDetails::try_from` and passed to `get_program_kind(index, program_id)`, hit the `.expect(\

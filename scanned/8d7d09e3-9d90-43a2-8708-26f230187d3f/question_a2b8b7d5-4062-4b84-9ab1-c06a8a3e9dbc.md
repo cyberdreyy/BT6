@@ -1,0 +1,1 @@
+[File: compute-budget-instruction/src/compute_budget_instruction_details.rs -> Scope: Intermediate RPC DoS] [Function: BuiltinProgramsFilter::get_program_kind / ComputeBudgetProgramIdFilter::is_compute_budget_program `.expect(\
