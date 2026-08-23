@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: programs/system/src/system_processor.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9e049155-33f9-4b10-a913-b58ceeda5a83?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/system/src/system_instruction.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ee900e7-4bdf-4946-a14e-5af46dd033ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_processor.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c3a42c59-709b-441d-99ac-a2ebc6352484?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_state/mod.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a72a5abd-e4a2-494b-b4c2-d9b3fc88ff78?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_state/handler.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_501f3283-cf6b-4c1a-8a67-161a303caeca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/compute-budget/src/lib.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8db3a4c1-5e4e-465f-a762-859074fe43fd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/zk-elgamal-proof/src/lib.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed509bed-4423-4f07-8c49-3b5d72178526?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/lib.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_60c3c6d0-fad1-42ff-b230-d312fcd331cb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/ed25519.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8c175f38-d1ad-4552-a271-2702b666f318?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/secp256k1.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3869f2bc-d61b-467b-a614-e3fa7c46b277?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/secp256r1.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_202918d5-3281-4614-b692-18a41ed40754?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: reserved-account-keys/src/lib.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_58c605a8-637d-4184-a433-d06cce61eea7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/runtime_transaction.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4137f265-2857-4185-b40c-6fe23184b0ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/runtime_transaction/sdk_transactions.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a8d2d334-cf30-430b-a336-ffaf9caef12c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/runtime_transaction/transaction_view.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3cf1d748-0860-44ec-ab4c-f4fa87a34796?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/sanitize_config.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_53c5557d-3494-4a90-8695-e7579aa399ee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/instruction_data_len.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_170210a6-37e0-4fb4-badc-e2450cfc2d9c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/signature_details.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5593b93f-aed7-4b38-9713-cbb6efbfefb8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/address_lookup_table.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_392ca292-adc6-460f-8975-cdf22120fc5c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/compute_budget_instruction_details.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7a8fc90b-83f5-48f3-b41b-062f8ecf5a7d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/instructions_processor.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8794f6d3-2927-4585-9194-212e0727b1a0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/builtin_programs_filter.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c84fef48-0dd9-4eb0-82dd-ef24943a73eb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget/src/compute_budget_limits.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_134e1a4b-0c04-40b5-9799-5fd90bbe9d15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget/src/compute_budget.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b19ecf2b-fc27-4663-adeb-86dbc054901d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/cost_model.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_125391ec-7e6d-4b3d-9558-29abf89cf4e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/cost_tracker.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_72d8d7bd-8c06-4577-92ea-93b16be089db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/transaction_cost.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_957d9a44-eaca-431b-a78c-8f665e17e8ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/block_cost_limits.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa516156-e4b4-43a7-9b7e-8e136ba1e78c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/transaction_processor.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b42a2b37-4b4f-4f4b-9333-c10f9a8afa35?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/account_loader.rs -> Scope: Advanced. An unprivileged attacker replays or short-changes fees and nonces, by exploiting `check_transactions`, `nonce_info`, `RollbackAccounts`, `status_cache`, `blockhash_queue`, or `fee` so an already-processed transaction executes twice, a failed transaction escapes its fee, or fee/rent distribution in `fee_distribution` credits the wrong account.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_035bfd4b-341b-402f-91ba-aeb084efc6d2?mode=deep",
+    "questions_generated": false
+  }
+]
