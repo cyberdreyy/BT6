@@ -1,4 +1,0 @@
-[
-  "'File Name: rpc/src/parsed_token_accounts.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
-  "'File Name: rpc/src/rpc/account_resolver.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'"
-]
