@@ -1,4 +1,0 @@
-[
-  "'File Name: rpc/src/parsed_token_accounts.rs -> Scope: Critical. An unprivileged attacker breaks compute/cost metering, by crafting compute-budget instructions, CPI depth, or account-data growth that `ComputeBudgetInstructionDetails`, `compute_budget_limits`, `CostModel`, or `CostTracker` account differently from what execution actually consumes, allowing unmetered execution or a block-limit disagreement between leader and replaying validators.'",
-  "'File Name: rpc/src/rpc/account_resolver.rs -> Scope: Critical. An unprivileged attacker breaks compute/cost metering, by crafting compute-budget instructions, CPI depth, or account-data growth that `ComputeBudgetInstructionDetails`, `compute_budget_limits`, `CostModel`, or `CostTracker` account differently from what execution actually consumes, allowing unmetered execution or a block-limit disagreement between leader and replaying validators.'"
-]
