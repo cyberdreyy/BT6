@@ -1,0 +1,13 @@
+# Q1180: lib::process_verify_proof — vote state authorization
+
+## Question
+Can an unprivileged attacker, through a builtin-program instruction in a transaction from an unprivileged fee-payer, reach `lib::process_verify_proof` and update vote-account authority, commission or state without the vote authority's signature, so that the invariant "vote-account mutations require the correct authorized signer" is violated, leading to Loss of Funds / Consensus?
+
+## Target
+- File/function: `programs/zk-elgamal-proof/src/lib.rs` -> `process_verify_proof`
+- Entrypoint: a builtin-program instruction in a transaction from an unprivileged fee-payer
+- Attacker controls: a VoteInstruction referencing a vote account it does not own
+- Exploit idea: Update vote-account authority, commission or state without the vote authority's signature.
+- Invariant to test: vote-account mutations require the correct authorized signer.
+- Expected Immunefi impact: Loss of Funds / Consensus — Critical
+- Fast validation: write a program-test submitting the builtin/precompile instruction and assert the authorization/accounting invariant holds.

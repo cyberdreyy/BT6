@@ -1,0 +1,13 @@
+# Q4329: scheduler_controller::enters_when_buffer_reaches_saturation_watermark — sigverify dedup evasion
+
+## Question
+Can an unprivileged attacker, through QUIC packets/transactions sent to the TPU by an unstaked client, reach `scheduler_controller::enters_when_buffer_reaches_saturation_watermark` and craft packets that evade the deduper/sigverify batching so verification work is amplified per packet, so that the invariant "sigverify work per admitted packet is bounded and de-duplicated" is violated, leading to DoS (non-RPC)?
+
+## Target
+- File/function: `core/src/banking_stage/transaction_scheduler/scheduler_controller.rs` -> `enters_when_buffer_reaches_saturation_watermark`
+- Entrypoint: QUIC packets/transactions sent to the TPU by an unstaked client
+- Attacker controls: packet contents and duplication it sends to the TPU
+- Exploit idea: Craft packets that evade the deduper/sigverify batching so verification work is amplified per packet.
+- Invariant to test: sigverify work per admitted packet is bounded and de-duplicated.
+- Expected Immunefi impact: DoS (non-RPC) — High
+- Fast validation: write a streamer/nonblocking test driving the crafted QUIC/packet pattern and asserting the rate/memory bound holds.

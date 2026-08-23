@@ -1,0 +1,13 @@
+# Q5092: transaction::number_of_cpis_in_trace — owner-change confusion
+
+## Question
+Can an unprivileged attacker, through a deployed SBPF program issuing a CPI, reach `transaction::number_of_cpis_in_trace` and assign an account to a new owner mid-transaction so a later instruction misjudges its owner privilege, so that the invariant "an account's owner observed by an instruction reflects all prior committed assigns" is violated, leading to Loss of Funds?
+
+## Target
+- File/function: `transaction-context/src/transaction.rs` -> `number_of_cpis_in_trace`
+- Entrypoint: a deployed SBPF program issuing a CPI
+- Attacker controls: an assign/CPI sequence over an account it created
+- Exploit idea: Assign an account to a new owner mid-transaction so a later instruction misjudges its owner privilege.
+- Invariant to test: an account's owner observed by an instruction reflects all prior committed assigns.
+- Expected Immunefi impact: Loss of Funds — Critical
+- Fast validation: write a program-test invoking invoke_signed with the crafted metas/seeds and assert the privilege is not escalated.
