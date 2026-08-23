@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: accounts-db/src/accounts_index/in_mem_accounts_index.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f80cadbf-f612-486d-9a62-8e29d1318908?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index/secondary.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c9cef5f7-a128-458d-8e83-1b0798185475?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_hash.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_25d080b0-796c-45a7-86fe-2f7fad2e71f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_scan.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6d737f49-75e4-4260-8333-3241b06b5596?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/storable_accounts.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_17e4a35f-9944-4da5-9697-ffd2a70e23c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/bucket.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a22cded3-4895-4bc4-a6dc-7be131aa9101?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/bucket_map.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f905734b-0acc-4ac9-942d-0bf362484026?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/bucket_storage.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c46f71f7-bec1-45fd-889c-a3fdc569f977?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/index_entry.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cab593d5-e0c4-4d91-adcf-44ddb29ceb80?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/nonblocking/quic.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_262c698e-2053-4b35-bf6c-82a2c577cd63?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/nonblocking/connection_rate_limiter.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1a617538-0e39-4f51-8322-0815f52c20ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/nonblocking/stream_throttle.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6192fc13-ff98-421c-a090-874b2020cfe4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/nonblocking/qos.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2c2eaab4-5115-4c72-90f2-5e2adb06be49?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/quic.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_58210f20-bf45-4756-87f4-e0a6a407ab1e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: streamer/src/packet.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_74b6a3ce-4d9c-4fc8-90d8-9dbe26466c07?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/sigverify.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3a2a4e70-1207-4c71-aa4c-4a5ac5149d0b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/deduper.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2bfd8c93-1d44-41bf-aa66-6da82dea01ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/packet.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_60aa099a-b3d5-4714-b5c3-1d9e4a04cb15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/sigverify_stage.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6282adae-aa83-48f1-b028-9c3ad9606525?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/consumer.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d84c52d8-d383-42d0-a5c4-7172ebbaa421?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/receive_and_buffer.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0ee671a7-f686-4e5c-8850-66ca55eb9c62?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/scheduler_controller.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_82f14144-83bb-4880-b8e0-b82a677d090f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/banking_stage/transaction_scheduler/transaction_state_container.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c8db2f46-0e25-49bb-84b7-6b5c48ef3883?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/src/forwarding_stage/packet_container.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1d304fb6-07aa-4ddb-8b16-648b1f112ce5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_987b09d5-fff7-4245-a5f1-c5125fe67af6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/filter.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9fe9e1f3-abe8-4f54-8c3f-ee9aa7270412?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_service.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_232fd633-2ea2-4351-8e7d-e705f5a58ae1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_pubsub.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_70592fed-9c49-4933-8944-6a477246851b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_subscriptions.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_43dac940-3d19-43f5-b4e1-41cf3a242a6f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_subscription_tracker.rs -> Scope: Critical. An unprivileged attacker escapes SBPF memory confinement with a program they deployed themselves, by defeating address translation in `program-runtime/src/memory.rs`, `MemoryMapping` region permissions, `serialization.rs` input layout, `vm_slice`/`vm_addresses`, or `syscalls/src/mem_ops.rs`, gaining host memory read/write or forging account owner/lamports/data outside its region.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0ee5c0d3-d7ed-42bc-b84b-870d5079888e?mode=deep",
+    "questions_generated": false
+  }
+]
