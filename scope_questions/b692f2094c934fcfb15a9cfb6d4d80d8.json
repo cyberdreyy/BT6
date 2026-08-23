@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: programs/system/src/system_processor.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_25d93f11-6a82-459a-ac91-f87b18321894?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/system/src/system_instruction.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_47831920-ea4d-44a6-977d-94d9052e0870?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_processor.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6049a88-5830-4254-9455-94ab1390a04e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_state/mod.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_551e93fd-c864-4e60-9271-f5329d4b5844?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_state/handler.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b9f87ebe-dcd4-46ff-892e-69e67bb1f2d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/compute-budget/src/lib.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_459c702c-ca5f-42ec-8aac-5af5c708daaa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/zk-elgamal-proof/src/lib.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8f6a32ac-5080-4809-81c2-a735b61fa9e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/lib.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b3e55506-4996-4657-9c6a-db887063bbd2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/ed25519.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_066ba7c7-9af2-4aea-84aa-e2f9cf0c0d02?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/secp256k1.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed536e95-c98c-4e26-8e9c-4c22b15d8f36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/secp256r1.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ab2d0f04-b58b-4452-8d92-b8857f8741f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: reserved-account-keys/src/lib.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9c5c42fd-3aa2-49f0-ae3d-7aaee1b1a166?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/runtime_transaction.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f98790b5-d8ab-4c83-87d2-5c1d99f5dd99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/runtime_transaction/sdk_transactions.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2f3f7a39-fe7b-48f2-8e00-53bcc0a722db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/runtime_transaction/transaction_view.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_db2e921e-d270-4806-9ef2-1ba9772a6b36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/sanitize_config.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_928e9d69-376d-4286-89de-2c451f310d7d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/instruction_data_len.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7bf356f5-3893-4792-9916-bf4d16388354?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/signature_details.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_617c4aea-a47f-42ed-9e66-2e719a1ef7f4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/address_lookup_table.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f211827d-ba1b-4285-8b73-52c8fae9b48e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/compute_budget_instruction_details.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_79a09d3c-4026-48c9-bcf8-d85727ed04b0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/instructions_processor.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80bdbf9f-f436-48f7-aa0e-ecc9866e0b82?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/builtin_programs_filter.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2db5b7cc-68c4-42c2-a874-56b84d2f8bc1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget/src/compute_budget_limits.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_440425c7-cf3e-44dd-8f5a-db087842d791?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget/src/compute_budget.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_33efb938-097b-45e4-b639-a4b9d8f6c470?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/cost_model.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fc1e5a49-1655-4f7e-9636-da404fcff0e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/cost_tracker.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6a01f044-0a6f-4cb9-9496-484715af253b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/transaction_cost.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9bd5e55a-89c8-4eda-ba59-9edaea3ec821?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/block_cost_limits.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_881c9b97-d631-45ba-a882-f2f843161166?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/transaction_processor.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_188912b7-8a5f-42cf-8fba-42079779d309?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/account_loader.rs -> Scope: Advanced. An unprivileged attacker forges precompile-verified signatures, by crafting instruction data or offsets that `precompiles/src/ed25519.rs`, `secp256k1.rs`, or `secp256r1.rs` accept while the referenced message or public key is not the one actually verified, so on-chain programs trusting the precompile authorize an attacker action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_861ae22a-e159-40b9-aff4-5af6dd69dd4c?mode=deep",
+    "questions_generated": false
+  }
+]
