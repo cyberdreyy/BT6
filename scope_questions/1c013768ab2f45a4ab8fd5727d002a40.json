@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: svm/src/rent_calculator.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d811f325-35b9-4d5f-9b61-debba0e6d71e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/nonce_info.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0cbdc6bd-6944-4557-b4ec-08c7eb0e12ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/rollback_accounts.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_53585834-a0c6-43f6-bdba-c421f474011c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/transaction_account_state_info.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a9c48a65-6628-439b-bbfc-81422e3dd5fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/account_overrides.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6950c376-d1bd-4051-b3f8-973fb9564fce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm-callback/src/lib.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9d638256-980e-4a15-84af-41a7bc6b8c75?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: fee/src/lib.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_def8416a-e0dd-45bc-a24d-cf163f797e9a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/account_saver.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b4cd51f4-e3b2-45f9-a9e4-ad21f62dd027?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_execution.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6b96046f-6f46-47fc-bf85-f4bf14d9325d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/check_transactions.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dd1024cd-beba-4c5e-8725-cfd3da00f512?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/fee_distribution.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0798e698-1325-45e8-899b-f0437e3b1422?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/rent_collector.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c5c9f58a-068e-4552-b4a4-40f0e55b8057?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6dc6eddb-f29f-4c49-8b35-c89466ea9518?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/accounts_lt_hash.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_88f91d8a-4df6-49fa-9e6f-8d23d032aaf0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/sysvar_cache.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_979e6a8d-9d90-4877-8179-73b5942deaff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/recent_blockhashes_account.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2f4e782c-03e8-4b6e-8004-ba3d6e9f7dab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/status_cache.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eb8c7d69-c15d-451b-8f92-4ef6235a62b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stakes.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5e8da292-3bb7-47b5-9436-dc8c2dbe3cfa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_account.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cbd42993-5753-418b-9b1a-69b4427d3b8c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/prioritization_fee_cache.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_706db0a3-8390-4769-969b-858380112b2e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_batch.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_00756b74-6374-4d3a-af37-3ca1d69157b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/blockhash_queue.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a864f42d-6dac-4838-9151-da60a7223e09?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_03ef5e2e-7d74-4d19-869f-ba7ba5d51fe1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_db.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a852d687-7581-416e-80b9-86d2c1099ffe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/account_locks.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_34eb211f-17b8-4166-8ad1-31d1122ec64b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/append_vec.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9e472dcb-d064-4d76-9b29-4d24b573d76d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_file.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8e14656e-bcf1-456c-8073-628c5e25e392?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_cache.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1cfcd0c0-173e-4cce-93d3-272641b0cdaa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/read_only_accounts_cache.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e82ec8a2-5299-4eff-aad5-0fc0546533f9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index.rs -> Scope: Critical. An unprivileged attacker halts the cluster with one transaction or account state, by reaching a panic, unchecked arithmetic overflow, unbounded allocation, or non-terminating loop on the mandatory replay path in `svm`, `program-runtime`, `transaction-context`, `runtime/src/bank.rs`, or `accounts-db`, so every validator that replays the block dies or stalls and requires human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_176a5a1b-40d3-41a3-bc8e-e8255b4f0ba1?mode=deep",
+    "questions_generated": false
+  }
+]
