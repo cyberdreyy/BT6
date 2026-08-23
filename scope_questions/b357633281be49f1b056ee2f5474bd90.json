@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: svm/src/rent_calculator.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_144de9b9-4d65-40af-b590-0833301b20ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/nonce_info.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fc2113cd-a002-4137-a611-5022488f8494?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/rollback_accounts.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42a33059-65fd-4bda-8e95-7e5565afc55a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/transaction_account_state_info.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e5dd77e7-a3f3-4460-8ddf-500b611e177e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/account_overrides.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1d3d1fde-efdd-4b06-bec8-cc6fbc3255ac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm-callback/src/lib.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a3d7bfc7-cadd-4918-9379-2f91989fb513?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: fee/src/lib.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eb750667-42ef-4df1-8fcc-f7a13c34e1a9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/account_saver.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f009d614-dec6-4a63-8792-b315957dc514?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_execution.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b80a6af4-31f6-4582-9fc5-bfdebe8469ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/check_transactions.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_59a70f81-4a20-4cc7-8a8c-9af3388ccb41?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/fee_distribution.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e609c101-edf5-48b2-bc9b-22fbfa975318?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/rent_collector.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_79fdd0f0-f85f-43ab-bc34-72ca45494da8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cbc83ba7-b60a-42ba-b83c-6a49e356b926?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/accounts_lt_hash.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_15e5398f-93ce-43ce-930c-bef7948ef7d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/sysvar_cache.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cba8fe99-1050-4ab9-9fc6-0c78bcb629c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/recent_blockhashes_account.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c2597982-7c00-40b8-8689-4e98567d00a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/status_cache.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_454c9ff9-e4b9-4392-958c-ee8c368e205a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stakes.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0d5434ae-4d8c-4220-9204-986a6f8d05f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_account.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c0b43550-6bb8-4786-b35b-8fde6beded8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/prioritization_fee_cache.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e3b39f17-e24a-4da9-94bf-b3b7b21beba4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_batch.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3d5e42bc-75d3-458c-b9da-313e6f98d372?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/blockhash_queue.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_54f29bd1-46f7-4d9d-a87d-4931d4d25bb9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_20d3bddb-73e6-4700-b029-17e0b28ccb4d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_db.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8ff6e037-edc3-4aca-adf8-9f0fb64a58dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/account_locks.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_068610c6-1955-4980-ba76-a5c4c06e23a8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/append_vec.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9dbfeff4-51d9-470e-a7d0-17b5cd9688a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_file.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8062c1c7-0ee4-46ef-9400-1a63644ad832?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_cache.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_73fe7791-09fa-4827-8322-e539b3530013?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/read_only_accounts_cache.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_caf1bb68-5c00-4d58-b7ea-9db225bfb48c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index.rs -> Scope: Critical. An unprivileged attacker steals or destroys lamports or account data they never signed for, by abusing signer/owner/writability enforcement in `TransactionContext`/`InstructionContext`, `InvokeContext`, CPI signer-seed and PDA derivation in `cpi.rs`, or builtin handlers in `system_processor`/`vote_processor`, so a fee-paying transaction mutates a victim account without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b78cc8a9-7abb-44d3-bc19-79da88d8802b?mode=deep",
+    "questions_generated": false
+  }
+]
