@@ -1,0 +1,1 @@
+[File: runtime/src/transaction_batch.rs -> Scope: Critical] [Function: program_runtime::vm::execute / set_memory_context] Can an attacker's deployed program trigger `configure_program_regions`'s `panic!(\

@@ -1,0 +1,1 @@
+[File: 'core/src/banking_stage/transaction_scheduler/scheduler_controller.rs' -> Scope: Critical] [Function: SchedulerController::run, `finished_consume_work_sender` / batch id tracking, cf. test_unexpected_batch_id] Since an untracked `TransactionBatchId` sent via `FinishedConsumeWork` triggers a panic (\

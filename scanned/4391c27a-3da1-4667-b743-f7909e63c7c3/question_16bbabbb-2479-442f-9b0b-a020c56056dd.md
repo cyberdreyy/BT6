@@ -1,0 +1,1 @@
+[File: 'programs/system/src/system_instruction.rs' -> Scope: Advanced fee distribution consensus divergence] [Function: Bank::deposit_or_burn_fee / vote_account.vote_state_view().block_revenue_collector() in runtime/src/bank/fee_distribution.rs] Can an attacker who is NOT staked but can create arbitrary accounts still cause `deposit_or_burn_fee`'s `.expect(\
