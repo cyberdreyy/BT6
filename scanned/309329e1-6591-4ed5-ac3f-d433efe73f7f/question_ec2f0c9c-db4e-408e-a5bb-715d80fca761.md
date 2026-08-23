@@ -1,0 +1,1 @@
+[File: svm/src/nonce_info.rs -> Scope: Advanced.] [Function: Bank::deposit_or_burn_fee] Can an attacker exploit the `custom_commission_collector` feature path where `deposit_or_burn_fee` (runtime/src/bank/fee_distribution.rs:120) fetches the collector id from `epoch_stakes` for `self.leader.vote_address` via `.expect(\

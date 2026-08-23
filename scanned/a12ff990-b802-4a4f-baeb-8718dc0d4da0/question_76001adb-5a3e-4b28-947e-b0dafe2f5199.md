@@ -1,0 +1,1 @@
+[File: program-runtime/src/vm.rs -> Scope: Critical replay-path panic] [Function: configure_program_regions] Can an unprivileged attacker construct a CPI call depth/account layout such that `invoke_context.memory_contexts.memory_mapping_mut()?.get_regions_mut()` yields fewer than 3 entries, triggering the `panic!(\

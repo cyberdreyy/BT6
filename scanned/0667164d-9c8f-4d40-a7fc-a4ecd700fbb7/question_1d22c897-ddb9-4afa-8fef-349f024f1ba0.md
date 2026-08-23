@@ -1,0 +1,1 @@
+[File: 'program-runtime/src/cpi.rs -> Scope: Critical CPI privilege escalation via account_info pointer checks'] [Function: check_account_info_pointer / CallerAccount::from_sol_account_info] Can an attacker bypass `check_account_info_pointer(invoke_context, account_info.owner_addr, account_metadata.vm_owner_addr,

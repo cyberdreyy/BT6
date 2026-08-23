@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/append_vec.rs' -> Scope: Critical.] [Function: AppendVec::next_account_offset / append_accounts] Can an unprivileged attacker deploy a program that, via CPI realloc or account creation, requests account data length close to `usize::MAX` (bypassing any higher-level cap) so that `STORE_META_OVERHEAD.checked_add(stored_meta.data_len as usize).expect(\

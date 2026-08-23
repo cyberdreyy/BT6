@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/accounts_index/in_mem_accounts_index.rs' -> Scope: Critical] [Function: InMemAccountsIndex::write_startup_info] Can an attacker-influenced pre-restart account state cause `assert!(map_internal.is_empty(), \

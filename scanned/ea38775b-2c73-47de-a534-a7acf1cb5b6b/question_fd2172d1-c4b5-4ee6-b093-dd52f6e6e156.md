@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/accounts_index/in_mem_accounts_index.rs' -> Function: InMemAccountsIndex::get_or_create_index_entry_for_pubkey] Can an unprivileged attacker exploit the `debug_assert!(self.load_from_disk(&key).is_some(), \

@@ -1,0 +1,1 @@
+[File: 'File Name: svm/src/account_overrides.rs -> Scope: Advanced.'] [Function: solana_accounts_db::accounts_db::AccountsDb::reclaim_accounts / clean_accounts] Can an unprivileged attacker who repeatedly creates-then-closes many small accounts owned by their own program force AccountsDb::reclaim_accounts's `assert_eq!(slot, store.slot(), \

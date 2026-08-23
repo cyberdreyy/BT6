@@ -1,0 +1,1 @@
+[File: 'compute-budget-instruction/src/compute_budget_instruction_details.rs' -> Scope: Critical replay-path halt] [Function: `ComputeBudgetInstructionDetails::try_from`, field `migrating_builtin_feature_counters.migrating_builtin.get_mut(core_bpf_migration_feature_index).expect(\

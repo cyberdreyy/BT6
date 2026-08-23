@@ -1,0 +1,1 @@
+[File: 'compute-budget-instruction/src/compute_budget_program_id_filter.rs' & 'builtin_programs_filter.rs' -> Scope: Critical replay-path halt] [Function: `ComputeBudgetProgramIdFilter::is_compute_budget_program` / `BuiltinProgramsFilter::get_program_kind`, `.get_mut(index).expect(\

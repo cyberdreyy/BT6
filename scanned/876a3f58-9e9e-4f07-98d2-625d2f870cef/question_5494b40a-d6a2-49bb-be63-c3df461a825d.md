@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/accounts_db.rs' -> Scope: Critical] [Function: AccountsDb::calculate_capitalization_at_startup_from_index] Can an unprivileged attacker who funds many accounts near u64::MAX lamports cause `calculate_capitalization_at_startup_from_index`'s `try_fold(0, u64::checked_add)`/`.expect(\

@@ -1,0 +1,1 @@
+[File: 'File Name: rpc/src/rpc.rs -> Scope: Critical.'] [Function: rpc_full::Full::simulate_transaction -> Bank::simulate_transaction (assert!(self.is_frozen()))] Can an unprivileged attacker cause a panic by racing `simulateTransaction` RPC calls against a bank transitioning states such that `Bank::simulate_transaction`'s `assert!(self.is_frozen(),

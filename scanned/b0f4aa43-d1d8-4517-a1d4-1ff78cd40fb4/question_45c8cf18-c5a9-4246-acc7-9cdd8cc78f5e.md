@@ -1,0 +1,1 @@
+[File: program-runtime/src/deploy.rs -> Scope: Critical] [Function: deploy_program] Can an unprivileged attacker who deploys/upgrades a BPF Upgradeable Loader program craft an ELF whose behavior under `Executable::<InvokeContext>::load` + `executable.verify::<RequisiteVerifier>()` differs depending on host CPU features (e.g. relies on `#[cfg(all(not(target_os = \

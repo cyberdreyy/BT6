@@ -1,0 +1,1 @@
+[File: streamer/src/nonblocking/qos.rs -> Scope: same.] [Function: SimpleQosConnectionContext / SwQosConnectionContext stream_counter] Can an unprivileged attacker send a stream on a connection before `try_add_connection`/`cache_new_connection` populates `context.stream_counter`, causing `context.stream_counter.as_ref().expect(\

@@ -1,0 +1,1 @@
+[File: 'File Name: programs/bpf_loader/src/lib.rs -> Scope: Intermediate.'] [Function: rpc::JsonRpcRequestProcessor::get_filtered_spl_token_accounts_by_mint / SPL_TOKEN_ACCOUNT_MINT_OFFSET] Can an unprivileged attacker call `getTokenAccountsByOwner` with `{\

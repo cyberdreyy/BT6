@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/accounts_index.rs' -> Scope: Advanced] [Function: AccountsIndex::insert_new_if_missing_into_primary_index] Can an attacker-controlled account layout ever cause the assert_ne!(next_pubkey, last_pubkey, \

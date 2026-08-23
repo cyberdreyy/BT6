@@ -1,0 +1,1 @@
+[File: 'compute-budget/src/compute_budget.rs' -> Scope: Critical] [Function: SyscallHash (syscalls/src/lib.rs:2718-2789) / mem_op_consume (syscalls/src/mem_ops.rs:1-10)] Can an attacker's SBPF program call a hashing syscall (`sol_sha256`/`sol_keccak256`) with `vals_len` slices where each `val.len()` is odd, exploiting `val.len().checked_div(2).expect(\

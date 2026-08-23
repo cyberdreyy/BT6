@@ -1,0 +1,1 @@
+[File: 'streamer/src/nonblocking/quic.rs' -> Scope: Critical replay-path halt.] [Function: svm::transaction_processor::validate_transaction_nonce] Can an unprivileged attacker submit a durable-nonce transaction where the nonce account is also the fee payer and has just enough lamports so that `nonce_account.set_state(&NonceVersions::new(next_nonce_state)).expect(\

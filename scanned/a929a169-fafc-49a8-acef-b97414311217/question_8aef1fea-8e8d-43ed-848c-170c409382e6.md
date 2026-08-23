@@ -1,0 +1,1 @@
+[File: accounts-db/src/blockhash_queue.rs] [Function: BlockhashQueue::last_hash / Bank::last_blockhash] Can an unprivileged client trigger an RPC call path (e.g., getLatestBlockhash) against a Bank instance whose BlockhashQueue has not yet been seeded (last_hash: None), causing BlockhashQueue::last_hash()'s `.expect(\
