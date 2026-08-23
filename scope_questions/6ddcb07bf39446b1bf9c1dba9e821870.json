@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: svm/src/rent_calculator.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9a384ff5-ff05-479f-bf66-badb68f78b15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/nonce_info.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5500359c-ce34-408c-bb76-e12b649cc964?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/rollback_accounts.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a1d1962f-37d1-4ec0-ada3-53609a5eb09e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/transaction_account_state_info.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3130fec2-2515-4d72-90bd-0ac2880ad068?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/account_overrides.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_98521dee-40b5-4397-891d-64345dd9b625?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm-callback/src/lib.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_54105e5e-99f5-4ab7-9272-e8114929d2ce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: fee/src/lib.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_679e07ba-81a5-4336-ae5c-3f0d163777a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/account_saver.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3162b897-f2a4-4aed-a44f-fa525bf7db75?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_execution.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2fc48978-74fc-4144-81ce-fc897f0bb74a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/check_transactions.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_71037937-75dd-4d6d-abb9-6e80207a9406?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/fee_distribution.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ffda3c86-fa0f-47b4-a991-4aa535e8913d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/rent_collector.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d183d03b-84bc-41d1-9489-9ac8426df856?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_379bf6b7-cbfe-49df-83b7-355d73615b5c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/accounts_lt_hash.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_07e88e72-e089-4f38-b6b2-0595a86c04fc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/sysvar_cache.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f25c6ef-b878-4b56-97c7-ccb2147b71de?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/recent_blockhashes_account.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2595f3f6-dcc3-4ff8-99c7-250811e8e2b0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/status_cache.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f882294-1bd8-4cc3-9420-ca64a8dbdef6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stakes.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_adf6ffc9-64be-4bb6-8567-f1f8d3b0e6d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_account.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3f5942e1-1252-4383-a797-18cc38bc6d8e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/prioritization_fee_cache.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aba372d1-a3b2-4f0b-acb0-9c3f7ca2db6e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_batch.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fac6c633-d9eb-476f-b763-2c7409bf7e54?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/blockhash_queue.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f7eb64ae-882c-47f0-a50e-9b3241c4bab1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4693d470-cee3-41cc-bb02-3667c705a636?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_db.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92cfba03-d73f-4d1a-b556-e1956656911f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/account_locks.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_47b5f094-2fb1-45a1-9c21-a500e65da530?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/append_vec.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b31d4f33-eefa-4441-8b4d-dedf8580022e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_file.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5344a03e-4ead-4264-8b35-c649977546dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_cache.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a9a615fa-d372-4809-a8d1-a38a3a9451a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/read_only_accounts_cache.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b7c9d01f-261e-401f-b6d3-f03c90f26523?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts_index.rs -> Scope: Advanced. An unprivileged attacker corrupts or exhausts validator account storage, by using accounts they create and mutate to drive `AccountsDb` store/flush/clean/shrink, `append_vec`/`accounts_file` encoding, `accounts_index`/`in_mem_accounts_index`, or `bucket_map` into inconsistent index state, unbounded memory growth, or an out-of-bounds/panic path.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8fcd29dc-162a-4c9d-820c-03deaab1c10a?mode=deep",
+    "questions_generated": false
+  }
+]
