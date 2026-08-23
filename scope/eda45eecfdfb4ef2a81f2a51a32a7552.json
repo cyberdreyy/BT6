@@ -1,4 +1,0 @@
-[
-  "'File Name: rpc/src/parsed_token_accounts.rs -> Scope: Critical. An unprivileged attacker splits consensus with one transaction, by making execution or state commit nondeterministic across validators - divergent account loading, rent, fee, nonce/rollback, `accounts_lt_hash`, sysvar or status-cache state - so honest validators frozen the same block compute different bank hashes or accept different results.'",
-  "'File Name: rpc/src/rpc/account_resolver.rs -> Scope: Critical. An unprivileged attacker splits consensus with one transaction, by making execution or state commit nondeterministic across validators - divergent account loading, rent, fee, nonce/rollback, `accounts_lt_hash`, sysvar or status-cache state - so honest validators frozen the same block compute different bank hashes or accept different results.'"
-]
