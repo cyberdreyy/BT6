@@ -1,1 +1,0 @@
-[File: 'runtime/src/status_cache.rs' -> Scope: Advanced] [Function: StatusCache::clear_slot_entries] Can an attacker cause a transaction to be counted twice for the same signature/blockhash/slot triple (e.g. by racing signature verification with execution, as noted in the comment at status_cache.rs:104-129) such that `clear_slot_entries()` hits the `panic!(\
