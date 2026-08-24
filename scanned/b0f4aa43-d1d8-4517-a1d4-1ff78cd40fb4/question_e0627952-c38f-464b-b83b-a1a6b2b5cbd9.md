@@ -1,1 +1,0 @@
-[File: program-runtime/src/deploy.rs -> Scope: Critical] [Function: deploy_program] Can an attacker exploit the exclusion of `sol_alloc_free_` in `morph_into_deployment_environment`'s syscall registration loop (`if name != *b\
