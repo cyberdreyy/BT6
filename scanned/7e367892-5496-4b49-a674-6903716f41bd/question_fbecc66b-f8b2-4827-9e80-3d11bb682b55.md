@@ -1,1 +1,0 @@
-[File: accounts-db/src/append_vec.rs -> Scope: Critical] [Function: AppendVec::next_account_offset] Can an unprivileged attacker who fills an `AppendVec` close to `MAXIMUM_APPEND_VEC_FILE_SIZE` (16 GiB) and then creates an account whose `StoredMeta.data_len` sits at `MAX_PERMITTED_DATA_LENGTH` cause `STORE_META_OVERHEAD.checked_add(stored_meta.data_len as usize).expect(\
