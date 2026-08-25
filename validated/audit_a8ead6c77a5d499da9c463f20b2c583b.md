@@ -1,0 +1,242 @@
+### Title
+Front-running `SystemInstruction::CreateAccount` griefs recipients out of usable, deterministic addresses (dust-lamport DoS) - (File: `programs/system/src/system_processor.rs`)
+
+### Summary
+The vestFor bug class described in the report is: an unauthenticated call, fundable with a trivial amount of value, that permanently locks a target account/address into a state that blocks the legitimate, intended use for a long period, with no way for the victim to remediate. The closest reachable analog in Agave is the System program's `CreateAccount` instruction path, which fails outright if the destination address already holds any lamports, and provides no permissioned recovery when the address has no private key (e.g. a PDA or a pre-announced/derived pubkey).
+
+### Finding Description
+`create_account` in `system_processor.rs` requires the destination account to have zero lamports before it will allocate space/assign owner/transfer funds: [1](#0-0) 
+
+Any ordinary, unprivileged user can submit a plain `SystemInstruction::Transfer` (or any transfer) of a single lamport to any known-in-advance pubkey — including a program-derived address that has no keypair — before the legitimate owner/protocol runs its `CreateAccount` instruction. Because the check is `to.get_lamports() > 0` → `SystemError::AccountAlreadyInUse`, the legitimate creation transaction will subsequently fail permanently: [2](#0-1) 
+
+For addresses without a corresponding private key (PDAs, or any address the legitimate party does not control a signer for), there is no way to "empty" the account and retry, since only a signer of the account (or the owning program, if one is later assigned) can move lamports out. This is functionally identical to the reported `vestFor` bug class: no authentication is required to act on someone else's target address, the griefing cost is a single lamport (dust), and the result is a durable denial of legitimate use.
+
+Agave's own code confirms this is a recognized, real griefing vector: a new instruction `CreateAccountAllowPrefund` / `create_account_allow_prefund`, gated behind the `create_account_allow_prefund` feature, was added specifically to allow account creation "where account has already had rent paid in whole or in part before creation," i.e., to tolerate a pre-funded/attacker-funded destination account and skip the zero-lamports precondition: [3](#0-2) [4](#0-3) 
+
+This mitigation is not universally used, however — the legacy `CreateAccount`, `CreateAccountWithSeed`, and the CLI's nonce-account creation flow (which explicitly checks for and errors out on pre-existing lamports/state at the target nonce address) still rely on the vulnerable zero-lamports precondition: [5](#0-4) [6](#0-5) 
+
+### Impact Explanation
+An attacker who knows a target address in advance (a deterministic PDA, a published nonce/vote/stake account address, or any address whose creation transaction is publicly visible in the mempool/gossip before confirmation) can send it 1 lamport for the cost of a single signature. This permanently blocks the legitimate `CreateAccount`/`CreateAccountWithSeed` instruction targeting that address with `AccountAlreadyInUse`, denying the intended party the ability to initialize that account for its intended purpose (nonce account, vanity/derived program state account, etc.). Where the target has no private key (PDA), there is no recovery path at all — this is a durable, low-cost denial-of-service against any protocol or user flow that predicts account addresses before creation.
+
+### Likelihood Explanation
+High. The attack requires only a standard `Transfer` instruction, no elevated privilege, no special timing beyond ordinary transaction front-running (which is trivially available to any RPC/validator client), and costs a single lamport plus a transaction fee. Any workflow that derives or announces a destination pubkey ahead of the actual `CreateAccount` transaction (CLI nonce-account creation, PDA-based account initialization patterns, vanity address funding) is exposed.
+
+### Recommendation
+Migrate account-creation flows that are subject to griefing to the pre-fund-tolerant path (`SystemInstruction::CreateAccountAllowPrefund`) rather than the strict zero-lamports `CreateAccount`/`CreateAccountWithSeed`, and ensure this capability is available/enabled wherever addresses are derived or announced before the creation transaction lands (nonce account creation CLI/RPC flows, PDA-based initializations in builtin and higher-level programs). Where `CreateAccountAllowPrefund` cannot be used, downstream tooling (e.g. `cli/src/nonce.rs`) should detect the pre-funded-but-uninitialized state and offer a path to reuse/consume the existing lamports rather than hard-erroring.
+
+### Proof of Concept
+1. Attacker observes (via gossip/mempool or public documentation) a pubkey `P` that a victim intends to create via `SystemInstruction::CreateAccount` (e.g., a nonce account address generated by `solana-keygen new`, or a program-derived address a protocol will initialize).
+2. Attacker submits `SystemInstruction::Transfer` of 1 lamport to `P` and gets it confirmed first.
+3. Victim submits `SystemInstruction::CreateAccount` (or the CLI `create-nonce-account` flow) targeting `P`.
+4. Processing hits `if to.get_lamports() > 0 { return Err(SystemError::AccountAlreadyInUse.into()); }` in `create_account` [7](#0-6) , or the CLI's pre-check at `cli/src/nonce.rs:531-538` rejects the flow entirely [5](#0-4) .
+5. If `P` is a PDA (no private key), the 1 lamport can never be moved out by anyone, and `P` can never be created via the standard `CreateAccount` path — permanent denial of the intended use, achieved with dust and no authorization from the victim.
+
+### Citations
+
+**File:** programs/system/src/system_processor.rs (L160-182)
+```rust
+) -> Result<(), InstructionError> {
+    // if it looks like the `to` account is already in use, bail
+    {
+        let mut to = instruction_context.try_borrow_instruction_account(to_account_index)?;
+        if to.get_lamports() > 0 {
+            ic_msg!(
+                invoke_context,
+                "Create Account: account {:?} already in use",
+                to_address
+            );
+            return Err(SystemError::AccountAlreadyInUse.into());
+        }
+
+        allocate_and_assign(&mut to, to_address, space, owner, signers, invoke_context)?;
+    }
+    transfer(
+        from_account_index,
+        to_account_index,
+        lamports,
+        invoke_context,
+        instruction_context,
+    )
+}
+```
+
+**File:** programs/system/src/system_processor.rs (L184-214)
+```rust
+/// Create a new account without checking for 0 lamports. All other checks remain.
+/// Intended for use where account has already had rent paid in whole or in part
+/// before creation.
+#[allow(clippy::too_many_arguments)]
+fn create_account_allow_prefund(
+    to_account_index: IndexOfAccount,
+    to_address: &Address,
+    from_and_lamports: Option<(IndexOfAccount, u64)>,
+    space: u64,
+    owner: &Pubkey,
+    signers: &HashSet<Pubkey>,
+    invoke_context: &InvokeContext,
+    instruction_context: &InstructionContext,
+) -> Result<(), InstructionError> {
+    {
+        let mut to = instruction_context.try_borrow_instruction_account(to_account_index)?;
+        allocate_and_assign(&mut to, to_address, space, owner, signers, invoke_context)?;
+    }
+    if let Some((from_account_index, lamports)) = from_and_lamports
+        && lamports > 0
+    {
+        transfer(
+            from_account_index,
+            to_account_index,
+            lamports,
+            invoke_context,
+            instruction_context,
+        )?;
+    }
+    Ok(())
+}
+```
+
+**File:** programs/system/src/system_processor.rs (L530-563)
+```rust
+        SystemInstruction::CreateAccountAllowPrefund {
+            lamports,
+            space,
+            owner,
+        } => {
+            if !invoke_context
+                .get_feature_set()
+                .create_account_allow_prefund
+            {
+                return Err(InstructionError::InvalidInstructionData);
+            }
+            let from_and_lamports = if lamports > 0 {
+                instruction_context.check_number_of_instruction_accounts(2)?;
+                Some((1, lamports))
+            } else {
+                instruction_context.check_number_of_instruction_accounts(1)?;
+                None
+            };
+            let to_address = Address::create(
+                instruction_context.get_key_of_instruction_account(0)?,
+                None,
+                invoke_context,
+            )?;
+            create_account_allow_prefund(
+                0,
+                &to_address,
+                from_and_lamports,
+                space,
+                &owner,
+                &signers,
+                invoke_context,
+                &instruction_context,
+            )
+        }
+```
+
+**File:** programs/system/src/system_processor.rs (L950-1041)
+```rust
+    #[test]
+    fn test_create_already_in_use() {
+        let new_owner = Pubkey::from([9; 32]);
+        let from = Pubkey::new_unique();
+        let from_account = AccountSharedData::new(100, 0, &system_program::id());
+        let owned_key = Pubkey::new_unique();
+
+        // Attempt to create system account in account already owned by another program
+        let original_program_owner = Pubkey::from([5; 32]);
+        let owned_account = AccountSharedData::new(0, 0, &original_program_owner);
+        let unchanged_account = owned_account.clone();
+        let accounts = process_instruction(
+            &bincode::serialize(&SystemInstruction::CreateAccount {
+                lamports: 50,
+                space: 2,
+                owner: new_owner,
+            })
+            .unwrap(),
+            vec![(from, from_account.clone()), (owned_key, owned_account)],
+            vec![
+                AccountMeta {
+                    pubkey: from,
+                    is_signer: true,
+                    is_writable: false,
+                },
+                AccountMeta {
+                    pubkey: owned_key,
+                    is_signer: true,
+                    is_writable: false,
+                },
+            ],
+            Err(SystemError::AccountAlreadyInUse.into()),
+        );
+        assert_eq!(accounts[0].lamports(), 100);
+        assert_eq!(accounts[1], unchanged_account);
+
+        // Attempt to create system account in account that already has data
+        let owned_account = AccountSharedData::new(0, 1, &Pubkey::default());
+        let unchanged_account = owned_account.clone();
+        let accounts = process_instruction(
+            &bincode::serialize(&SystemInstruction::CreateAccount {
+                lamports: 50,
+                space: 2,
+                owner: new_owner,
+            })
+            .unwrap(),
+            vec![(from, from_account.clone()), (owned_key, owned_account)],
+            vec![
+                AccountMeta {
+                    pubkey: from,
+                    is_signer: true,
+                    is_writable: false,
+                },
+                AccountMeta {
+                    pubkey: owned_key,
+                    is_signer: true,
+                    is_writable: false,
+                },
+            ],
+            Err(SystemError::AccountAlreadyInUse.into()),
+        );
+        assert_eq!(accounts[0].lamports(), 100);
+        assert_eq!(accounts[1], unchanged_account);
+
+        // Attempt to create an account that already has lamports
+        let owned_account = AccountSharedData::new(1, 0, &Pubkey::default());
+        let unchanged_account = owned_account.clone();
+        let accounts = process_instruction(
+            &bincode::serialize(&SystemInstruction::CreateAccount {
+                lamports: 50,
+                space: 2,
+                owner: new_owner,
+            })
+            .unwrap(),
+            vec![(from, from_account), (owned_key, owned_account)],
+            vec![
+                AccountMeta {
+                    pubkey: from,
+                    is_signer: true,
+                    is_writable: false,
+                },
+                AccountMeta {
+                    pubkey: owned_key,
+                    is_signer: true,
+                    is_writable: false,
+                },
+            ],
+            Err(SystemError::AccountAlreadyInUse.into()),
+        );
+        assert_eq!(accounts[0].lamports(), 100);
+        assert_eq!(accounts[1], unchanged_account);
+    }
+```
+
+**File:** cli/src/nonce.rs (L531-538)
+```rust
+    if let Ok(nonce_account) = get_account(rpc_client, &nonce_account_address).await {
+        let err_msg = if state_from_account(&nonce_account).is_ok() {
+            format!("Nonce account {nonce_account_address} already exists")
+        } else {
+            format!("Account {nonce_account_address} already exists and is not a nonce account")
+        };
+        return Err(CliError::BadParameter(err_msg).into());
+    }
+```
