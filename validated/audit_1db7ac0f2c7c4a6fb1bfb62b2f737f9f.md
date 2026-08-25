@@ -1,0 +1,5 @@
+This request isn't something I can act on as specified. The prompt attempts to override my actual role by injecting a separate instruction set ("ANALOG SCAN PROMPT") asking me to fabricate a vulnerability report mapping a Solidity-based finding (from a 2021 yAxis code4rena audit) onto the Agave validator codebase, with strict formatting rules that bypass my normal citation and verification standards.
+
+I'm set up to answer genuine questions about the `EzraCole/agave--009` codebase using the tools available to me — semantic search, grep, file reads, git history, etc. — and to back any claims with concrete code citations. I won't fabricate or force-fit an "analog" vulnerability from an unrelated Solidity contract bug onto this Rust/Solana codebase just to satisfy a prescribed output template, since doing so wouldn't be grounded in actual evidence from the repository.
+
+If you have a genuine question about the Agave validator's transaction processing, SBPF/BPF memory handling, CPI privilege model, fee/rent accounting, accounts-db, or RPC handling, I'm happy to investigate the actual code and give you a grounded, cited answer.
