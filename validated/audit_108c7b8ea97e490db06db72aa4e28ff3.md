@@ -1,0 +1,1 @@
+This confirms the finding is invalid. The default block cost limit `MAX_BLOCK_UNITS` is only 60,000,000 (or 100,000,000 under SIMD-0286), and `MAX_WRITABLE_ACCOUNT_UNITS` is 24,000,000 — both minuscule compared to `u64::MAX` (~1.8×10^19).
