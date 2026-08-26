@@ -1,1 +1,0 @@
-[File: 'core/bridges/external_initiator.go' -> Scope: Critical vault/relay owner or response-routing confusion] [Function: authorizer.authorizeRequest / AuthorizeRequest in core/capabilities/vault/authorizer.go] Can an unprivileged gateway client send a vault.secrets.create JSON-RPC request with req.Auth == \
