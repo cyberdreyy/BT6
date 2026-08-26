@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/handlers/vault/handler.go'] [Function: handler.HandleJSONRPCUserMessage] After h.requestProcessor.ProcessRequest fails with a non-InvalidVaultParams error (line 442), the function returns `errors.New(\
