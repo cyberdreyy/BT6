@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/web/router.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8c1abdce-b4bf-4606-b37c-eee48c734a0a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/middleware.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e376b674-2396-4804-b3c6-4365b25cfaa9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/auth.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_70fe2ae5-564c-405a-9ca9-e5d18789128c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/gql.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3b290a26-b026-4c11-9a49-25c3dd30dd1f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/helpers.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7f23cb9c-ece5-460b-9c50-866d58964435?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/cookies.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5636d089-0283-4669-be24-c72824f9393a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/api.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c450a27c-903f-464b-996b-1cce4b7f6301?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/common.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_98a61eee-d8c0-4c70-b9cb-9f6a8fc695ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/helpers.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cf16f90f-48b5-47ad-aa52-84e047e08c0a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/authentication.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3cd2ddc9-c434-4069-b87b-7f0a0de9f09d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/session.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_163383f3-e69d-4af2-9654-e3123eeba62b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/user.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_38836d79-2e70-4865-99bf-40518b03b75a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/webauthn.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8bf9c1c0-f1ea-40a1-8e77-10cef84cf8c3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/localauth/orm.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_471c978b-0351-4d53-90fa-83f5732cbffe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/localauth/reaper.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f1bc385e-48c9-41c4-a587-e36b21ed0870?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/ldapauth/ldap.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_64aa2250-c7cb-45ac-9e2b-cf2af44830c6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/ldapauth/client.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b181563f-9283-44b1-84df-1ed56a19741d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/ldapauth/sync.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_948fe49c-e53f-4b82-9410-dc4ca4f509da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/oidcauth/oidc.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a58de37c-77e1-4e2d-afd9-94fe19762a1f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/sessions_controller.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_435efff2-ba6b-4151-9a86-a5573873c128?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/webauthn_controller.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a8606ce3-877c-423c-929c-3e6cfa112fb0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/user_controller.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_95ed1b30-c7f6-4b2c-bcea-1eb44392ad4a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/auth.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_14cdc4ac-500e-4009-96f1-208bbd00e215?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/api_token.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bf12a1b5-639e-4e68-b873-81824cc35adb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/user.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b9f51b44-cb24-4f84-a83a-1f10252f6480?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/query.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3b67f443-0fda-4719-8651-b05eb921a560?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/mutation.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6f74237f-74a6-4932-a57e-bc786362a8c0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/pipeline_runs_controller.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dc0a4f8c-4a01-4c24-a27a-6aa152d30d46?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/jobs_controller.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e11bef3e-b3a8-4d14-8c57-18f901547245?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/external_initiators_controller.go -> Scope: High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e20da15-63fd-415c-87f9-80f74fefb6b9?mode=deep",
+    "questions_generated": false
+  }
+]
