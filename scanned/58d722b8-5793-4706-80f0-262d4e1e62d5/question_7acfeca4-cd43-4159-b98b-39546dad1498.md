@@ -1,1 +1,0 @@
-[Function: eia.Index (GET /v2/external_initiators, no role wrapper)] Can a view-role user list all registered ExternalInitiator credentials (access key metadata) via GET /v2/external_initiators, potentially leaking EI access keys/salts, violating secret confinement? Proof idea: seed an EI, call endpoint as view-role, assert response omits the EI secret/salt fields.
