@@ -1,1 +1,0 @@
-(single space). Invariant tested: AUTHENTICATION_SOUNDNESS (fail-closed on error). Scoped impact: authentication bypass via malformed-but-non-empty secret. Proof idea: unit test calling AuthenticateUserByToken with a Secret value that triggers an error path in auth.HashedSecret and asserting the function returns (false, err) and never (true, nil).
