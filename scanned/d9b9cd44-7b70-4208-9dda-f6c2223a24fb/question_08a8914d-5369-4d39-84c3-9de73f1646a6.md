@@ -1,1 +1,0 @@
-[File: core/web/evm_transfer_controller.go] [Function: EVMTransfersController.Create] Since /v2/transfers is gated by auth.RequiresAdminRole, verify no lower-privileged role (run/edit) can reach this handler via an alternate route alias registered without the RequiresAdminRole wrapper; specifically confirm authv2.POST(\
