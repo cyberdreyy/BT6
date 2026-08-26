@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/web/router.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8bc230c4-19d8-41b4-94d4-392a7745855f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/middleware.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c362f190-2889-4b38-9865-79c3f6cef78f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/auth.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0552826c-6297-4424-9b5e-ceeba8a99a5e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/gql.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_61c8ecff-5e21-48b8-853c-4efdc2e9daed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/helpers.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c94c09bd-8000-4bcd-87eb-4be124cae282?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/cookies.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1553e0c3-301f-457b-be16-76116b99b489?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/api.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_966e42f1-f90c-401d-b902-55a8d0f9bce2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/common.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92488914-d057-4d97-996a-e140ed6327c2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/helpers.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e117d0ab-d1c7-4607-92e1-c3187f82f430?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/authentication.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c2152cd-cf5e-4fa1-940f-6c2ef419ec5f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/session.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3a0f8132-065e-44ce-a478-8a0b35128c97?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/user.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42e7711a-9c96-4c35-9bc3-9dbfd4dc5a02?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/webauthn.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bdef326d-be7b-4262-b8fc-c19e0b6ee04e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/localauth/orm.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dde9ea6d-183d-4457-b586-0b05ac90d924?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/localauth/reaper.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e1bf683b-485e-456a-85c0-b76ba9a64828?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/ldapauth/ldap.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a73cedc2-c7b7-4e77-824c-5c9826409d0f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/ldapauth/client.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7da64b75-0942-462e-b7d8-0513f691a271?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/ldapauth/sync.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_59be30af-c9a4-427c-8ad4-71083693d843?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/oidcauth/oidc.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f03758b7-eb27-43b1-99c1-3044c93e56cb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/sessions_controller.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b095869-3fa2-45b9-80e7-5a608dc74f1a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/webauthn_controller.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_15636179-2957-4da3-bdf0-43009f998b46?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/user_controller.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2d98c3fb-db1e-416e-96f9-5e4a7d1a8970?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/auth.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b86d24d0-9a2d-467b-96b8-5a5522bfa7dd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/api_token.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e262d4ae-8ac9-42b9-b3a9-b44ee7484872?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/user.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b5dfce4a-0eca-42b5-9f87-7ce3bac798a0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/query.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_49a3a3ea-ded8-434f-a4e4-a7e336eba45c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/mutation.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b5e423d3-e793-486f-8b8a-58d3eff6144b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/pipeline_runs_controller.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_441796d5-e728-470f-8db9-63f3b4f540d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/jobs_controller.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c066077a-4353-48c3-b926-24cb54040739?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/external_initiators_controller.go -> Scope: Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f98677d-4ef0-4d07-8af7-4b4ee2b030fa?mode=deep",
+    "questions_generated": false
+  }
+]
