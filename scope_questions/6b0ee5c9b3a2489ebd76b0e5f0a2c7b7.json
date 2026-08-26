@@ -1,0 +1,97 @@
+[
+  {
+    "question": "'File Name: core/services/gateway/gateway.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_84f51880-3e1c-46a3-bed8-b0dc0b7e3f3e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/multihandler.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c264e1b-1917-4a46-9ae2-8602792dd0a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/connectionmanager.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_70aa3f8b-14df-49c5-b79e-ec6bd561e878?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/common/utils.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32cdc689-86b8-40b8-b587-a8f280c1b08a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/confidentialrelay/handler.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b5cc05f3-5809-42d9-a429-5953c3f70861?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/confidentialrelay/bundler.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8113fd9e-c58b-4be7-9eb1-51e071c58352?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/shard_endpoints.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4f65d959-80f0-45a5-ac00-4434981240a8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/handler.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ce5bc1e7-1636-4ebd-896d-a40cf2947976?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/webapi.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c667e592-4a65-49c9-8fab-2177185b1026?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/handler.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2fcc0a83-93f0-46c2-9c5d-1129a76ba9c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_handler.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b5a151a2-fa4a-404c-8222-9817d37b45f6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c0aa5d87-264f-40d9-9553-fab7e9ed83c3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/workflow_metadata_handler.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d81406bf-ff8c-466b-b95b-a7a0986ab55d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/response_cache.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1dbed535-beec-43ab-b3a3-d56ad92dfcf8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/vault/handler.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_191dbf76-3d98-43ac-bfbd-7fcd9b504678?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/vault/aggregator.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_77b8dc6a-d7ca-42c0-bc97-68da44af5102?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/requestcache.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e1642e8-83e9-4a20-b0f8-50233afabac8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/callback.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2e597f4b-d2d3-41da-b56c-11cfce277d38?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/message_util.go -> Scope: High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_da840fc8-5771-427f-a24e-d91b5cb627f3?mode=deep",
+    "questions_generated": false
+  }
+]
