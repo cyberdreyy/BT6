@@ -1,0 +1,1 @@
+)? Proof idea: run TestHttpTriggerHandler_HandleUserTriggerRequest-style test issuing HandleUserTriggerRequest for workflowB with requestID=X, then before it completes issue a second HandleUserTriggerRequest for workflowA with the same requestID=X and assert workflowB's original callback is unaffected and only the second call gets ErrConflict.

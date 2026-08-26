@@ -1,0 +1,1 @@
+} constructed directly, and assert the middleware still rejects it (i.e., that all upstream role assignment paths, including ldap.go's GroupSearchResultsToUserRole, always normalize to the exact UserRoleView constant).
