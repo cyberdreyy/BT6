@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/web/bridge_types_controller.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_54c4746f-d378-41b5-9744-545ed0f89482?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/keys_controller.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_737200f5-bffd-4bfb-8c52-f8fb37d7e18f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/eth_keys_controller.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3cd3fcab-b8af-4f7e-87e8-3791c96117d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/csa_keys_controller.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cce85797-b2b2-485b-9f3e-8c1aeac703ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/dkg_recipient_keys_controller.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_49879720-b725-4d46-8d51-8fc0bbc3210b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/workflow_keys_controller.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7fe185cd-98c6-40f3-bf73-6e3b91f35b6d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/vault_controller.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_75f3cca4-f950-44af-b628-137de2b61e2a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/evm_transfer_controller.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b140e264-a640-41c6-9d1a-c1ece4454a9c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/replay_controller.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3f5992eb-3131-4f23-bdfa-17c4ba3adb61?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/config_controller.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d63a5318-acdc-4e3f-98e1-9a141727bb81?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/log_controller.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2c96e74b-f841-41f8-a2b8-85b016d5b35d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/loop_registry.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_483c1bba-e2bc-4d58-abef-e8b6e2f50919?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/user.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9bfb9b33-1c96-41af-a2ba-fd25d3d28cdf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/eth_key.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c90c9820-8363-4660-ada7-201f8b41c495?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/csa_key.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eaf4ddab-32c1-4037-9841-870763379f77?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/bridges.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_415e4f64-a489-478b-bea0-adddd7377f02?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/external_initiators.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2aea5ea4-74ec-43e2-96c7-6d996424dc7d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/vault.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_86d49765-47a1-4cfe-9548-831eb3535506?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/job.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f1d4865d-4f52-4fa9-98fe-e99b99d70c96?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/external_initiator.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bfa302f0-50ae-40c8-8e0a-11bfc9899d7a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/bridge_type.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a42b4dae-8557-4c33-8c11-821f9fabe08f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/orm.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_da797133-232b-4114-a1d2-aa25e8d63176?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/cache.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8ed81753-a681-4a6a-9574-200d33dc18c8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/httpserver.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e35e70ff-26cb-4182-b23b-31b3b96c2f49?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/wsserver.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e0b9bd98-97d2-4cba-abb6-2ebebfbb1903?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/wsconnection.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f191a1e4-5d43-4186-9e21-f868f5be1ec4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/handshake.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b875b80-fe11-4f61-8547-7bb18b611c7d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/api/message.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e13a7fa3-4f00-4607-89d4-6ec28517a791?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/api/jsonrpccodec.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a5b752f9-a396-4a45-a681-132f4b542c6c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/api/codec.go -> Scope: Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_702ae632-e30e-4b87-99b5-e2fd93cba935?mode=deep",
+    "questions_generated": false
+  }
+]
