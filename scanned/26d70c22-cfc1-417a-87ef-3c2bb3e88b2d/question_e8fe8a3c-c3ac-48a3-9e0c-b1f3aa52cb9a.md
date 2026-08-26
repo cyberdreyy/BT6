@@ -1,0 +1,1 @@
+[File: workflow_metadata_handler.go] [Function: WorkflowMetadataHandler.Authorize] Does Authorize leak information distinguishing 'workflow ID not found' from 'signer not authorized' via distinct error messages (fmt.Errorf(\

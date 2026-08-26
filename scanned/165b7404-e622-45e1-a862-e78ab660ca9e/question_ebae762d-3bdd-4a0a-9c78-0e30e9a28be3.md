@@ -1,0 +1,1 @@
+[File: 'core/capabilities/vault/gateway_vault_request_processor.go'] [Function: GatewayVaultRequestProcessor.authorizeAndStamp] Can an attacker set req.ID to a string already containing vaulttypes.RequestIDSeparator (e.g. \

@@ -1,0 +1,1 @@
+[File: 'core/web/auth/helpers.go'] [Function: HealthController.Health] Can an unauthenticated attacker GET /health or /health.txt and receive detailed check names plus err.Error() output for internal subsystem failures (e.g., DB, chain client) since r.GET(\

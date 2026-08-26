@@ -1,0 +1,1 @@
+[File: 'core/sessions/ldapauth/sync.go'] [Function: LDAPServerStateSyncer.Work] `Work()` binds to the directory using `l.config.ReadOnlyUserLogin()`/`ReadOnlyUserPass()` and, on bind failure, only logs the error (`l.lggr.Error(\

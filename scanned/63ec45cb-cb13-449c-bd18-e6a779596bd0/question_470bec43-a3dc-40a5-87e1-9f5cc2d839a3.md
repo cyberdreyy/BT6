@@ -1,0 +1,1 @@
+[File: 'core/services/gateway/handlers/capabilities/handler.go'] [Function: handler.handleWebAPIOutgoingMessage goroutine error swallow] When h.don.SendToNode fails inside the `h.wg.Go` goroutine, the error is only logged (`l.Errorw(\

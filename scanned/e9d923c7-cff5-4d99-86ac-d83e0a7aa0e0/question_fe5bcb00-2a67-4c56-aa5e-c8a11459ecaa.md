@@ -1,0 +1,1 @@
+[File: 'core/services/gateway/handlers/vault/aggregator.go'] [Function: baseAggregator.validateUsingSignatures] With the gate enabled, can an attacker exploit the documented backward-compat tolerance ('payloadRequestID != \

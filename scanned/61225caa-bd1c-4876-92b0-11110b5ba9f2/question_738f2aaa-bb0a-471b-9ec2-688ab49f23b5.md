@@ -1,0 +1,1 @@
+[File: 'core/services/gateway/gateway.go' -> Function: gateway.ProcessRequest] For the non-legacy (JSON-RPC service-name) path, is msg.Validate() (and therefore signature verification) skipped entirely when `msg == nil || msg.Body.DonId ==

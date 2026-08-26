@@ -1,0 +1,1 @@
+[File: 'core/services/gateway/api/message.go'] [Function: Message.ExtractSigner / MessageBody.Sender] Because Sender is only set as a side effect of Validate() succeeding (`m.Body.Sender = utils.StringToHex(string(signerBytes))`), can an attacker submit a Message where Sender is pre-populated in the JSON payload (despite `json:

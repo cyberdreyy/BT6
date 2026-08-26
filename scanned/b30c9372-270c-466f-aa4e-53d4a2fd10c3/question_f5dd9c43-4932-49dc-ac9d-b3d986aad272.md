@@ -1,0 +1,1 @@
+[File: 'core/web/loop_registry.go' -> Scope: Critical] [Function: LoopRegistryServer.pluginMetricHandler] If the internal plugin metrics/pprof server at l.loopHostName:p.EnvCfg.PrometheusPort returns an error body containing internal secrets (e.g., a leaked auth header from a misbehaving mock), does pluginMetricHandler's error path (gc.Data(...,\

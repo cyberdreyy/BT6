@@ -1,0 +1,1 @@
+[File: 'core/services/gateway/handlers/vault/handler.go -> handler.HandleJSONRPCUserMessage'] Can an unauthenticated gateway client submit a jsonrpc.Request with req.Method == vaulttypes.MethodSecretsList and req.Auth == \

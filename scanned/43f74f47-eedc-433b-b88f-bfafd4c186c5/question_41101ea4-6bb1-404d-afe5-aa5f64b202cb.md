@@ -1,0 +1,1 @@
+[File: 'core/web/router.go' -> healthRoutes/loopRoutes vs v2Routes] Can an unauthenticated caller reach `loopRegistry.pluginPPROFHandler` or `pluginMetricHandler` (mounted without any `auth.Authenticate` wrapper at `r.GET(\

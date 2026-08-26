@@ -1,0 +1,1 @@
+[File: 'core/web/vault_controller.go -> Scope: Critical'] [Function: gateway.ProcessRequest (core/services/gateway/gateway.go)] Can an attacker send a legacy-style Message with DonId set to a value belonging to a DON different from the one that actually owns the target handler/capability, exploiting the branch `if msg == nil || msg.Body.DonId ==

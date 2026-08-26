@@ -1,0 +1,1 @@
+[File: 'core/sessions/localauth/orm.go'] [Function: (o *orm) CreateSession] Can an attacker without WebAuthn credentials skip the MFA challenge entirely by sending `SessionRequest.WebAuthnData` as a non-empty but garbage string on the first request, forcing `sr.WebAuthnData == \

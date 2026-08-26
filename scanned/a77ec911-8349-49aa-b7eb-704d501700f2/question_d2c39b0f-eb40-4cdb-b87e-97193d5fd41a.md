@@ -1,0 +1,1 @@
+[File: 'core/cmd/shell.go'] [Function: authenticatedHTTPClient.doRequest] When a request returns 401, doRequest re-authenticates via `h.cookieAuth.Authenticate(ctx, h.sessionRequest)` using stored `Email`/`Password` and retries with `request.Header.Set(\

@@ -1,0 +1,1 @@
+[File: 'core/sessions/ldapauth/client.go'] [Function: auth.RequiresRunRole / RequiresEditRole / RequiresAdminRole] Do these role-gate wrappers correctly reject a sessions.User{Role: UserRoleView} for every route in core/web/router.go v2Routes that is supposed to require Run/Edit/Admin, or are there any authv2 routes registered without any Requires*Role wrapper (e.g., authv2.GET(\

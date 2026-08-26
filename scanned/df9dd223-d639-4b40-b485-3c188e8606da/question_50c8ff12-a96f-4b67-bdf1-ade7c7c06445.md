@@ -1,0 +1,1 @@
+[File: core/web/user_controller.go -> Scope: Critical] [Function: UserController.UpdatePassword] Does UpdatePassword's audit log call `u.App.GetAuditLogger().Audit(audit.PasswordResetAttemptFailedMismatch, map[string]any{\

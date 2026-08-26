@@ -1,0 +1,1 @@
+[File: 'core/web/router.go'] [Function: v2Routes] Can a view-role user successfully call GET /v2/keys/eth, /v2/keys/csa, /v2/keys/ocr, /v2/keys/p2p, /v2/keys/vrf (registered WITHOUT any Requires*Role wrapper, e.g. authv2.GET(\

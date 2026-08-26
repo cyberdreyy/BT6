@@ -1,0 +1,1 @@
+[File: 'core/web/eth_keys_controller.go' -> Scope: High] [Function: ETHKeysController.Create] Can repeated concurrent 'POST /v2/keys/eth?evmChainID=<id>' calls from a low-privileged caller race on ethKeyStore.Create/GetState (lines 137-147) and c.Set(\

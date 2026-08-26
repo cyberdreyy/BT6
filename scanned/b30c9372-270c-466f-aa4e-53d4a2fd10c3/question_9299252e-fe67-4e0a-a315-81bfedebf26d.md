@@ -1,0 +1,1 @@
+[File: 'core/web/loop_registry.go' -> Scope: Critical] [Function: LoopRegistryServer.pluginMetricHandler / pluginPPROFHandler] Given that l.registry.Get(pluginName) is looked up purely by the gc.Param(\

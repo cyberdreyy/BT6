@@ -1,0 +1,1 @@
+[File: 'core/web/pipeline_runs_controller.go' -> Scope: High.] [Function: ConfigController.Show mounted at 'GET /config' and 'GET /config/v2'] Can any authenticated user regardless of role (authv2.GET(\

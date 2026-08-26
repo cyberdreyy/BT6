@@ -1,0 +1,1 @@
+[File: 'core/web/external_initiators_controller.go' -> Scope: Critical] [Function: ValidateExternalInitiator] Can an unprivileged caller with Edit role enumerate the existence of ANY external initiator name (potentially matching another org's naming convention) via POST /v2/external_initiators with a guessed name, observing the fe.Add(fmt.Sprintf(\

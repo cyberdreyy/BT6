@@ -1,0 +1,1 @@
+[File: 'core/web/resolver/mutation.go -> Scope: Critical'] [Function: CreateAPIToken-equivalent GraphQL mutation] Can a view-role ATTACKER_ACTION call REQUEST_SEQUENCE {mutation createAPIToken(input: {password: \

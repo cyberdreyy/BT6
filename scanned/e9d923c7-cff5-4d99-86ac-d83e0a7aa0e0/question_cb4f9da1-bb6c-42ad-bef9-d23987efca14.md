@@ -1,0 +1,1 @@
+[File: 'core/services/gateway/handlers/vault/handler.go'] [Function: handler.HandleJSONRPCUserMessage] Can an unprivileged attacker send a jsonrpc.Request with Method=vaulttypes.MethodSecretsList, Auth=\

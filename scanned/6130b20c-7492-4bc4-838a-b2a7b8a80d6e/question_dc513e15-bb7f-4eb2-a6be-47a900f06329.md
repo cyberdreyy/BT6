@@ -1,0 +1,1 @@
+[File: 'core/web/eth_keys_controller.go' -> Scope: Critical] [Function: (*ETHKeysController).Index] Does `GET /v2/keys/eth` (and `/v2/keys/evm`) lack any `auth.RequiresXRole` wrapper in `router.go` (`authv2.GET(\

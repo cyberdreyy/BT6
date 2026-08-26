@@ -1,0 +1,1 @@
+[File: 'core/web/vault_controller.go -> Scope: Critical'] [Function: handler.HandleJSONRPCUserMessage req.ID validation (core/services/gateway/handlers/vault/handler.go:403-410)] Can an attacker supply req.ID containing the RequestIDSeparator (

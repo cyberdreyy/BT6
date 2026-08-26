@@ -1,0 +1,1 @@
+[File: core/web/auth/auth.go -> Scope: High.] [Function: Authenticate] Since Authenticate iterates methods and breaks on the first err that is not auth.ErrorAuthFailed, can an unprivileged attacker deliberately trigger a non-ErrorAuthFailed error (e.g., a DB timeout wrapped by errors.Wrap(err, \

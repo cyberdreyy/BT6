@@ -1,0 +1,1 @@
+[File: 'core/web/keys_controller.go'] [Function: keysController[K,R].Index for /v2/keys/workflow and /v2/keys/dkgrecipient (WorkflowKeysController.Index, DKGRecipientKeysController.Index)] Are the workflow and DKG-recipient key index routes (authv2.GET(\

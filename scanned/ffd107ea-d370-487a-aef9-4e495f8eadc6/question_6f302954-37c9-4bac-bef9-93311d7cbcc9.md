@@ -1,0 +1,1 @@
+[File: 'core/sessions/session.go -> Scope: High'] [Function: BridgeTypesController.Create in core/web/bridge_types_controller.go] Does the plaintext IncomingToken returned only at creation time ever leak to a subsequent GET on /v2/bridge_types/:BridgeName or /v2/bridge_types Index for a view-role user, given BridgeResource.IncomingToken has json:\
