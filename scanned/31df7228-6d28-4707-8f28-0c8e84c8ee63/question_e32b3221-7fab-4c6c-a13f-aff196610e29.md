@@ -1,1 +1,0 @@
-[File: 'core/web/config_controller.go'] [Function: ConfigController.Show and NewRouter GQL wiring] Can an unauthenticated caller reach the GraphQL '/query' endpoint's config resolver, given api.POST(\
