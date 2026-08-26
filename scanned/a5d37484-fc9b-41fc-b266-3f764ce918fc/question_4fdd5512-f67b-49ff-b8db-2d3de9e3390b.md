@@ -1,1 +1,0 @@
-? Proof idea: end-to-end handler test where a view-role-only caller reaches the code path preceding `NewRequest` for an edit-gated capability and assert an error is raised before `NewRequest`/`ProcessResponse` ever run; if no such check exists, the aggregated payload is delivered.
