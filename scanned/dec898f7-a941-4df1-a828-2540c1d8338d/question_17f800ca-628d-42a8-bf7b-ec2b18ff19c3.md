@@ -1,1 +1,0 @@
-[File: 'core/sessions/session.go -> Scope: High'] [Function: ExternalInitiatorsController.Index in core/web/external_initiators_controller.go, presenters.NewExternalInitiatorResource] Can a view-role user GET /v2/external_initiators to obtain each external initiator's AccessKey and OutgoingToken, given authv2.GET(\
