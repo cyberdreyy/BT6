@@ -1,0 +1,1 @@
+[File: 'core/web/cosmos_transfer_controller.go'] [Function: (tc *CosmosTransfersController).Create] Can the GasToken match check (`if gasToken != tr.Token`) be bypassed by omitting tr.Token or matching an empty string, since `cfgs[i][\

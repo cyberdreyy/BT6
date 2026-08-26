@@ -1,0 +1,1 @@
+[File: 'core/web/cookies.go -> Scope: Critical'] [Function: auth.AuthenticateExternalInitiator response body] Can an attacker send a malformed or missing static.ExternalInitiatorAccessKeyHeader/SecretHeader and observe the error message returned by errors.Wrap(err, \

@@ -1,0 +1,1 @@
+[File: 'core/services/gateway/connectionmanager.go'] [Function: buildNodeStates] Does buildNodeStates' case-normalization via `strings.ToLower(nodeConfig.Address)` at connectionmanager.go:139 create an inconsistency with FinalizeHandshake's signer encoding (`hex.EncodeToString`, which is always lowercase) versus StartHandshake's nodeAddress construction (`

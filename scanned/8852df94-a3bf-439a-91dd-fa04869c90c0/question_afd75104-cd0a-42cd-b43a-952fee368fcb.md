@@ -1,0 +1,1 @@
+[File: core/web/auth/auth.go -> Scope: Critical] [Function: GetAuthenticatedUser] Can a resolver or controller that calls c.Get(SessionUserKey) directly (bypassing GetAuthenticatedUser's type-assertion safety) panic or fall back to a zero-value clsessions.User{} (Role == \

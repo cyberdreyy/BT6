@@ -1,0 +1,1 @@
+[File: 'core/web/resolver/mutation.go'] [Function: (r *Resolver).RunJob] Since `authenticateUserCanRun` only rejects UserRoleView and RunJobV2 is called with the raw graphql.ID converted to int32 with no per-job ACL, can a run-role GraphQL client execute `mutation { runJob(id: \

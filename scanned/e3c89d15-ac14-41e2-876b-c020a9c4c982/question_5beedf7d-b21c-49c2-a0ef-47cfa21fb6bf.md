@@ -1,0 +1,1 @@
+[File: 'core/bridges/cache.go'] [Function: responseKey] Does responseKey(dotId, specId) ever collide across two distinct job specs/subscribers whose dotId strings differ only by case or whitespace, allowing an unprivileged user's job to read/overwrite another subscriber's cached bridge response? Proof idea: table test calling responseKey with dotId variants (\

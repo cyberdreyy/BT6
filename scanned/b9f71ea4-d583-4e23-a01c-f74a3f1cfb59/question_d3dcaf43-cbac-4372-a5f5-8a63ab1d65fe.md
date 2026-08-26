@@ -1,0 +1,1 @@
+[File: 'core/services/gateway/handlers/vault/handler.go'] [Function: handler.HandleJSONRPCUserMessage -> vaultcap.GatewayVaultRequestProcessor.ProcessRequest] Can an unprivileged attacker submit a jsonrpc.Request[json.RawMessage] with req.Auth == \

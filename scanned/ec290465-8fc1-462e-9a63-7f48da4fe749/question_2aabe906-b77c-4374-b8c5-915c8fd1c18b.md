@@ -1,0 +1,1 @@
+[File: 'core/sessions/localauth/orm.go' -> Function: orm.CreateSession] Can an attacker who knows a victim's email but not password or WebAuthn key send POST /sessions repeatedly with sr.WebAuthnData=\

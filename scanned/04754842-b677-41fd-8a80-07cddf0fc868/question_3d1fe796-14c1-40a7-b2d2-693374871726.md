@@ -1,0 +1,1 @@
+[File: core/web/auth/auth.go] [Function: RequiresAdminRole] Does addForbiddenErrorHeaders(c, \

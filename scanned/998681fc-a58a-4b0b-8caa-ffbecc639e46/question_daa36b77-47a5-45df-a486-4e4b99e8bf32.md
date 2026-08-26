@@ -1,0 +1,1 @@
+[File: core/web/router.go] [Function: v2Routes] Can a run-role external-initiator-authenticated request (`c.Set(SessionUserKey, &clsessions.User{Role: clsessions.UserRoleRun})`) reach `userOrEI.POST(\

@@ -1,0 +1,1 @@
+[File: 'core/capabilities/vault/jwt_based_auth.go'] [Function: extractVaultClaims / jwtBasedAuth.validateToken] Can an attacker present a JWT missing the 'workflow_owner' authorization_detail (only 'request_digest' is mandatory per extractAuthorizationDetails, workflowOwner may be \

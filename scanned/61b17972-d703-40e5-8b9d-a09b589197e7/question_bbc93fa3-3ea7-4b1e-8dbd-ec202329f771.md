@@ -1,0 +1,1 @@
+[File: core/sessions/webauthn.go] [Function: FinishWebAuthnRegistration] Can a legitimate edit/admin user's WebAuthn registration flow be hijacked by an attacker who, immediately after the victim calls BeginWebAuthnRegistration (creating key `email+\

@@ -1,0 +1,1 @@
+[File: 'core/services/gateway/handlers/vault/handler.go' -> Scope: High] [Function: handler.errorResponse InvalidParamsError branch] Does `errorResponse` for `api.InvalidParamsError` embed `paramsStr := string(*req.Params)` directly into the returned `err` message (`errors.New(

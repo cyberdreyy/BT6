@@ -1,0 +1,1 @@
+[File: 'core/services/gateway/network/httpserver.go' -> Scope: High] [Function: httpServer.handleRequest] Can an unauthenticated attacker send a POST to the gateway path with an Authorization header of 'Bearer ' (empty token) or no 'Bearer ' prefix at all, so that jwtToken := strings.TrimPrefix(authHeader, \

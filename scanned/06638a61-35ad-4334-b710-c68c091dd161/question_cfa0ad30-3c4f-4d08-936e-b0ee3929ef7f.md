@@ -1,0 +1,1 @@
+[File: core/services/gateway/api/message.go -> Scope: Critical] [Function: api.Message.SignKS / api.Message.Sign] Since Body.Sender is set client-side during signing (m.Body.Sender = ...) but is excluded from the signed byte payload via GetRawMessageBody (Sender has `json:\
