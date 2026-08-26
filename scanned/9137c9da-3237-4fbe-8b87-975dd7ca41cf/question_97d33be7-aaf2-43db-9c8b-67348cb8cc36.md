@@ -1,1 +1,0 @@
-). Invariant tested: authorization exactness. Scoped impact: unauthorized triggering of a job's pipeline (and any transmit/transfer task within it). Proof idea: GQLTestCase with run-role auth context invoking runJob on a job never assigned, asserting failure.
