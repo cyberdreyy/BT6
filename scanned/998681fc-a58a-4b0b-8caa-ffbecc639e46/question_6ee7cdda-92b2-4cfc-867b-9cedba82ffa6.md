@@ -1,1 +1,0 @@
-[File: core/sessions/session.go] [Function: AuthenticateUserByToken] Since `HashedSecret` is computed using `user.TokenSalt.ValueOrZero()`, can a user whose `TokenSalt` is unset (null, e.g. account never had `SetAuthToken` called, `ValueOrZero()` returns empty string) be authenticated via any token guess because `HashedSecret(token, \
