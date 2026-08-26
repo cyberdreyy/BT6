@@ -1,0 +1,1 @@
+[File: core/sessions/session.go -> Scope: Critical] [Function: AuthenticateUserByToken] Does auth.HashedSecret error handling at session.go:69-72 fail closed (return false) on any error, or could a crafted token.Secret (e.g. empty string bypassing the header check by using a header with only whitespace, since AuthenticateByToken only checks token.Secret ==

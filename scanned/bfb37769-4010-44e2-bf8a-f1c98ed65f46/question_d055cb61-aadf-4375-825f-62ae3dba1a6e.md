@@ -1,0 +1,1 @@
+:null}'. Invariant tested: secret confinement under crash conditions. Scoped impact: potential stack-trace/memory disclosure via unhandled panic. Proof idea: unit test calling DecodeJSONRequest with a Request whose Params is nil, assert it returns a clean error rather than panicking (test with recover() wrapper and assert no panic occurs).

@@ -1,0 +1,1 @@
+) cause HashedSecret to error out in a way that, combined with buggy caller logic, defaults to authenticated=true? Preconditions: attacker can send a whitespace-only X-API-SECRET header. Request sequence: send X-API-KEY=<validkey>, X-API-SECRET=

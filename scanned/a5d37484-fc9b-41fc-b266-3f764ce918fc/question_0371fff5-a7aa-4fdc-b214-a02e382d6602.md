@@ -1,0 +1,1 @@
+isolation guarantee and potentially causing the wrong (attacker-favorable stale) payload to reach a privileged caller's callback channel? Proof idea: fuzz/race test (`go test -race`) simulating concurrent timer fire and `ProcessResponse` and assert `SendResponse` is called with only one deterministic payload with no panics or double-sends.
