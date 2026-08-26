@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/web/router.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a7edada6-69c2-47bb-9e89-8160d9cbbfa6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/middleware.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_14253ef4-d593-4f2f-9902-21505eedd53b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/auth.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a2e9df91-9382-45f5-94b4-7ae20b2abf70?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/gql.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bee3d86b-40e7-44da-8e50-fb7c7fa276b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/helpers.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_909dc781-700f-4084-b3ac-bd5e4e7cc7b6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/cookies.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_deaf2a48-a6e1-4ad2-bd00-f4e84b37814c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/api.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b72e4aca-ffa0-4dd4-8b4a-1a00369b16c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/common.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a734c796-76fd-4a40-b85e-4b481b815165?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/helpers.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8f2b920b-0880-478c-8836-9997cb6842d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/authentication.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_01599e21-5b3f-42c6-98c2-8d58eb82e6ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/session.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a8272c6a-7623-4101-b8d3-740ca1fa95cb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/user.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a0d61540-bae0-4581-8ba0-cc9394196e9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/webauthn.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_28c3b397-94b5-44cf-b9c8-15dfcdb104ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/localauth/orm.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cd236fd5-987a-42df-b667-b69284c55172?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/localauth/reaper.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_34f96449-9352-4154-97f6-7c922c2d9558?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/ldapauth/ldap.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1c038f42-7af2-4690-9eae-57b1a195a142?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/ldapauth/client.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_de403de4-6dd5-4e0b-b49c-f5fe27deb6fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/ldapauth/sync.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_da6542a6-0154-4711-b23c-99ab149e69c6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/oidcauth/oidc.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2852814d-c8a0-4474-b652-9d528803a98e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/sessions_controller.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_df523849-83d7-4551-961c-0f58996d4f0a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/webauthn_controller.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e5be087a-643a-4aeb-b7c3-ac5252b3e7c8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/user_controller.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_db753b72-2966-44b7-84fc-7753c1e693ee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/auth.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3b09a00b-4680-4e5c-9415-6b2478c20591?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/api_token.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dccb9d9e-c8ef-4d65-8bc4-8c783c981d36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/user.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_35a337b5-553a-409b-b4a4-258271022bbf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/query.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8c5ac0c7-9fc4-4a33-ad5d-85aca50546b6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/mutation.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0dae2e42-6984-4320-bad1-d1d509b906db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/pipeline_runs_controller.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7f3cb95b-3c0f-4b86-acf0-a8d323555332?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/jobs_controller.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_029c4de9-866b-409b-aaf3-170965f96fd8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/external_initiators_controller.go -> Scope: High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_377b8120-e63c-4a52-892f-4c06a513a190?mode=deep",
+    "questions_generated": false
+  }
+]
