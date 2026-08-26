@@ -1,0 +1,97 @@
+[
+  {
+    "question": "'File Name: core/services/gateway/gateway.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d07c034a-f315-4cad-8686-08242cb633d9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/multihandler.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ae727c70-4a0e-4bd8-9df6-afa2cab7ae01?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/connectionmanager.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a8af04a6-c29d-49ed-b65c-d8f5afd53d60?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/common/utils.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8be73d36-6ab1-4ece-bc91-028d2ccf8bf6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/confidentialrelay/handler.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bdc0d555-06c0-4fb7-bca8-2ff53d3ac897?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/confidentialrelay/bundler.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0b6c8404-963a-4f0e-9a8e-843906882163?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/shard_endpoints.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_75d0dfec-5651-4056-afcf-79297c5f152b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/handler.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ecf3064b-3127-45c1-973c-911a11d35e7b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/webapi.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_70baf757-9a83-42a3-8859-1f38655ab259?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/handler.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fbc012ba-9a87-4cd1-a156-7b69ac701391?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_handler.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_99f540de-61b8-4de2-a7c6-7885c2408bed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3bb7ca2b-7eea-404f-ace6-cc560baac85c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/workflow_metadata_handler.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_affedfce-1236-4a9f-b68f-cd2d3a982403?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/response_cache.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_11647735-7827-4df1-864c-3f90f57fd7d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/vault/handler.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a9594949-61eb-41e2-bc7c-0f49acc22e81?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/vault/aggregator.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_282e523f-f9d6-4387-a91d-c4216a67f912?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/requestcache.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ddb6052c-3137-40aa-97b0-321b357cd491?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/callback.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a0843e02-aa3a-4976-a312-94a25e077313?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/message_util.go -> Scope: Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7f1e484a-af4e-413d-ad7b-a6f8b283d529?mode=deep",
+    "questions_generated": false
+  }
+]
