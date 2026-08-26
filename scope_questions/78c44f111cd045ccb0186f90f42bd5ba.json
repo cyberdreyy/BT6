@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/web/router.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cd90b8ee-1ba6-4f94-9957-255cb1c28c1d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/middleware.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1a4eae37-94b7-4e65-9c64-699b8ce7ed59?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/auth.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9582a943-16a1-4ebe-9cd6-87077cc51d59?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/gql.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d6598870-9cf2-4cf9-92e9-efd8ea51027e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/helpers.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e9606ca0-ab81-4df5-945c-0f8a8edc1075?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/cookies.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_45a56e78-8b2d-47e2-9385-7ce246fcb739?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/api.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_68982dc5-bb68-46fd-90ad-0b5aec499a16?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/common.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_57dd01e3-c7eb-4123-8223-39d8df95ce2b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/helpers.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aa8f1fad-e003-41e4-ab30-9eadb4b9ccce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/authentication.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ca41c984-e7bd-408f-92f2-a6bdfa34e7e1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/session.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_74807262-1955-45a3-a085-cc3f6c00e7f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/user.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dd4bbb93-e2f7-4559-b4c5-25e62527ea7f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/webauthn.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b1c06f5c-d65d-4ca8-8a6c-e383cc8c2205?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/localauth/orm.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_017485f7-1259-4b06-a287-ea13114f2077?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/localauth/reaper.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_df5e1aab-c52d-49ff-8ee3-4ce377291902?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/ldapauth/ldap.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_928d561d-f400-4d78-b749-9ceebfb4e7b5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/ldapauth/client.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8a3f95f2-5f77-4e1d-85d9-c7f29a2a1059?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/ldapauth/sync.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a4b52d67-ba4c-4df5-944c-f12f6173abe0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/oidcauth/oidc.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dba5af70-082d-4cde-acca-bad108e1b983?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/sessions_controller.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c384b060-6195-4258-8807-424bad1b062e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/webauthn_controller.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_703fe4aa-f840-458d-b742-671345e49e67?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/user_controller.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_110da334-f286-42ee-9586-3bb367883a45?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/auth.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7e9c9273-794b-4430-8289-8f6e73e4870b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/api_token.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_52af0da1-f086-449e-bdfe-4c23ad506ef4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/user.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_13be28ff-da46-4a8f-a9e4-04b219a113bc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/query.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cc63689c-bd5c-41f2-a430-1e2b284eb36e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/resolver/mutation.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ae5b223-02f9-42df-8cd6-fabed78d9d10?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/pipeline_runs_controller.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fd94d819-1635-4ea9-9ef0-24b464c78a04?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/jobs_controller.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fab637ba-87d4-4c84-a0cb-503125d8a896?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/external_initiators_controller.go -> Scope: Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_11201db7-4225-4f05-a0c4-a0dc71abb449?mode=deep",
+    "questions_generated": false
+  }
+]
