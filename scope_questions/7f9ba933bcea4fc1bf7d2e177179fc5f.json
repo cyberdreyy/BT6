@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/web/bridge_types_controller.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6653115a-78af-435c-aae0-05dd12c4cea3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/keys_controller.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e344556d-18d8-49a3-9ec6-d5fd09d9a1bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/eth_keys_controller.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_52f99f69-7476-4f6e-856d-f3f88cf144cc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/csa_keys_controller.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_afef308e-ec9d-4220-a2b3-60f8fa654ebd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/dkg_recipient_keys_controller.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_efbd0adc-cce4-4031-b4ed-4db166f35112?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/workflow_keys_controller.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3a6d6e69-515c-41a5-8db8-6f92d0564ce4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/vault_controller.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_77e6c0e1-48af-4ff1-a328-92721e45c939?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/evm_transfer_controller.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_613fa245-669a-4d3a-a7d7-333b23e55f71?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/replay_controller.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_245fd5a6-8c64-4446-b19d-c8cf89bd2be3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/config_controller.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6cb84735-e31c-43f6-9c51-7d618eefed3c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/log_controller.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_71fc7202-6863-4c73-92ab-2aadaa2e9661?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/loop_registry.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3b7a6924-4f58-4d7d-b21e-72465e999ba2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/user.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4b6c004c-453f-4b60-bec3-a9c6e8ec6f1a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/eth_key.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_28b54c50-68a5-4bb5-938f-6dead8b6c29b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/csa_key.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_12b85d86-0101-40e5-836e-c99ee10a2787?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/bridges.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e189e769-eabf-46c4-9a07-1bfa033d4f75?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/external_initiators.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3236269a-082c-4934-90fd-f4185821cfa4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/vault.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_78267d37-803a-4b07-8a77-1097b49f4875?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/job.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eac235d4-791d-4a1f-a4f3-fca014f64461?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/external_initiator.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_02dbcc4b-b7de-4f3d-87e8-f107833301ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/bridge_type.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_71a4b305-bd8d-4ca2-9f90-45a6f61f58f1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/orm.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5862d6f4-46e7-415a-bc3d-700e5d966078?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/cache.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0c0ee8ed-ce3b-4899-9365-5971cca5f9b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/httpserver.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_48e2f5b6-1472-4901-b8b3-3cd4f25f36b5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/wsserver.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9351b7d0-bad9-4942-a731-f0bbcb22ce50?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/wsconnection.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_48f334d5-2500-457d-b2ce-2f515de7ebf7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/handshake.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ffd46c64-b668-4d48-bea0-7dbc5dd7d69f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/api/message.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2db8bf4d-7075-4413-ba90-c3fdb204f5ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/api/jsonrpccodec.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fd9c049c-16de-4c71-a13a-00331b4b4438?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/api/codec.go -> Scope: High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e2d2f241-39eb-48ab-aa6c-d611e158191c?mode=deep",
+    "questions_generated": false
+  }
+]
