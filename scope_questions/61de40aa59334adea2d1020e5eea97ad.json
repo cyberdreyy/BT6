@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/web/bridge_types_controller.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a18093b6-a14b-4009-bd7e-6646dd9151ee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/keys_controller.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_03f749f0-ba47-4f9c-8cb4-56626bdb4204?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/eth_keys_controller.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aaa4d7a6-2da2-4df5-87d5-5a4596d83c52?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/csa_keys_controller.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c0f6fd70-e33f-431e-ade8-133d3f0a3fbd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/dkg_recipient_keys_controller.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a3157e6e-393c-4fff-ae17-2a3117666f79?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/workflow_keys_controller.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2e5d99e4-0af0-46dc-b1f7-577150c0257a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/vault_controller.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_52c35bd8-319d-43f7-b72f-a2b18d8e568f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/evm_transfer_controller.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1ee59985-7890-4db3-87aa-03aa0dfcf283?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/replay_controller.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7dc402fc-1dcd-4c6c-947d-de91bde24c1c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/config_controller.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3d38e518-f934-4ca1-b644-3c8c734cffd3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/log_controller.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_11dd9427-3a8e-49cb-a70f-73e2da646045?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/loop_registry.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_24e92f83-aab6-4963-8d10-5ce8fb888774?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/user.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d95c84a9-94cb-4ac0-aefa-c278e38a13a7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/eth_key.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ae9f995b-87c4-47fd-bf56-978708870b15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/csa_key.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1413e8e4-a1a1-497f-9f9b-c90e36d45e9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/bridges.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_01299571-897b-45c1-99f5-7c4b32e8ab16?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/external_initiators.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_95eeb7b5-c7ec-472e-a665-3357f9b3587c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/vault.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dd8651d5-ea53-444f-990e-4d0fe6a05d28?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/presenters/job.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9bbbaae9-cd9e-4b82-bc63-176a3eadacb8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/external_initiator.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_78bf10bd-09f4-4286-8c27-859dd5e01a8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/bridge_type.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b6517f6b-666f-4d0c-aa2b-552ea4b08e57?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/orm.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d5647223-6714-4e40-bc7b-8b0baf5c05e9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/cache.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d7189084-59c1-4315-9766-e800cf74095d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/httpserver.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_be44cebc-3cdb-4ce7-bddb-d0aea4a17039?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/wsserver.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_551ef7f9-58ae-4d83-980a-4ad4f2a403b8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/wsconnection.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cfe2c0af-0a99-4e71-8eb9-82f9e064866d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/handshake.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_83b83b3d-0ed6-403a-9b4c-e3bd84c6d8de?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/api/message.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_497a67f2-8f63-4b88-9405-d71550f0156a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/api/jsonrpccodec.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aa301dd8-8904-42b0-9e76-1f3efab31416?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/api/codec.go -> Scope: Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e7af17fc-e905-4a9e-b6ff-54901272bf9c?mode=deep",
+    "questions_generated": false
+  }
+]
