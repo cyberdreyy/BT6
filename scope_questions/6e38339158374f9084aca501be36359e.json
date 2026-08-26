@@ -1,0 +1,97 @@
+[
+  {
+    "question": "'File Name: core/services/gateway/gateway.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bca8f384-57a0-4e84-8364-329e64849fac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/multihandler.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bea12bbf-0eb4-4730-986f-1369bd84c8a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/connectionmanager.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8ba94e7f-c97b-4a8b-a61b-18d4bf04860d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/common/utils.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f96cee61-659b-4647-9934-6c6573fe257a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/confidentialrelay/handler.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ebfc6bab-9ae6-45e7-b9df-679b6d3345e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/confidentialrelay/bundler.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_859ef71e-d8f6-4fce-9201-7b03565d4111?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/shard_endpoints.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bc6be48c-8597-48da-9836-fc52e85c378d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/handler.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f220ca42-d4dd-4210-8cfb-133880b4d9b5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/webapi.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5db69a99-ee6b-4fbd-9348-65be5d652fdb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/handler.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_abc436a8-7e26-48e4-b2cd-d2c2ae103dc3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_handler.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2a8e6f9f-891b-462a-8c25-03d7af67f297?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ccd2c43-f4f1-49ed-895f-e4f6eee46cba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/workflow_metadata_handler.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6db2449c-caca-402f-841f-d600ddc4298c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/response_cache.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e954b46c-67a2-4a26-8dfa-5625846cf4d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/vault/handler.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_053361c3-0dae-44dc-9e29-57c8ded26867?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/vault/aggregator.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5682269f-7a6f-4c78-8ef9-7f3b13863961?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/requestcache.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9ae6f91f-e945-4592-ac10-cc2777126595?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/callback.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b85d3e33-ce8a-48e7-975d-882eab9593ed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/message_util.go -> Scope: Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aff5b224-387c-4ba6-960a-8cfe2529bce7?mode=deep",
+    "questions_generated": false
+  }
+]
