@@ -1,1 +1,0 @@
-[File: core/web/loop_registry.go] [Function: LoopRegistryServer.pluginMetricHandler] Can an unauthenticated attacker supply a crafted `name` path param containing characters that, while html.EscapeString'd in the 404 error message, are not sanitized before being used to look up `l.registry.Get(pluginName)`, and separately, does the internal proxy URL construction `fmt.Sprintf(\
