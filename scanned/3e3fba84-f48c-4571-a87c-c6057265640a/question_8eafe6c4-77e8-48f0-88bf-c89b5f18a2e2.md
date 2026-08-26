@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/handlers/common/requestcache.go' -> Scope: High] [Function: requestCache.NewRequest / maxCacheSize] Does the fixed `maxCacheSize` check happen under a single mutex without per-sender quotas, allowing one low-privileged/unauthenticated sender to fill the cache with bogus MessageIds and cause `NewRequest` to return `errors.New(
