@@ -1,0 +1,97 @@
+[
+  {
+    "question": "'File Name: core/services/gateway/gateway.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5d6c51ec-93ed-455b-bdb6-26ece8c2d9df?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/multihandler.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_75fcf61b-84f8-4cb5-9492-032c42872cc7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/connectionmanager.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f18f9aba-1ccf-4e5a-8f07-93129d45d54f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/common/utils.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d41f866b-3707-4916-ac21-c0f1af115cb6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/confidentialrelay/handler.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_70a2cd21-2578-483b-918f-a85c496ed8ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/confidentialrelay/bundler.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b8fda96d-555b-4ff4-8918-2150f0f3dc56?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/shard_endpoints.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_81341c43-4379-4802-b317-bcd355aaff36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/handler.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c2a17fe-172d-43e1-9b20-b49c6fa79078?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/webapi.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4682a9ce-1433-43de-be48-3057559779cf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/handler.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_07dfd2cc-d25e-4508-863c-aca922861874?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_handler.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ffd9e46b-f673-450a-b19b-b72066e2f224?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8728ef44-da6f-4d58-a9c8-b831bf1497ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/workflow_metadata_handler.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bf773000-8499-49e6-a5ee-591a2baf8d67?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/response_cache.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b5780845-c5f5-4bc4-87ec-50bbe63475dd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/vault/handler.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d3899e5f-1dc7-4b05-845f-1cd6a332a57a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/vault/aggregator.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e35b5d2d-26bb-4aba-a199-fa2b6db39fcd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/requestcache.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e213af8c-3cb1-4c28-9608-adc033379c55?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/callback.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_511daf0c-f4be-4fee-8ae1-c62d4a3f585b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/message_util.go -> Scope: Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6618a0e-eec3-4bc6-9fd8-37a4b218de57?mode=deep",
+    "questions_generated": false
+  }
+]
