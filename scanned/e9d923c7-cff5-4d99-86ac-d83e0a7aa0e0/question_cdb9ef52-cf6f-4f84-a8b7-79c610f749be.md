@@ -1,1 +1,0 @@
-[File: 'core/capabilities/vault/gateway_vault_request_processor.go'] [Function: GatewayVaultRequestProcessor.authorizeAndStamp] Can an attacker submit a request ID that already contains vaulttypes.RequestIDSeparator (owner-prefix delimiter), e.g. \
