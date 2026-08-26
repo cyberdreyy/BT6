@@ -1,0 +1,13 @@
+# Q0978: state change without authorization ordering in external_initiators_controller.ValidateExternalInitiator
+
+## Question
+Does `ValidateExternalInitiator` at POST/DELETE /v2/external_initiators mutate state before completing its authorization or validation, so an authenticated node user holding only the 'edit' role (non-admin) gets the effect together with the error?
+
+## Target
+- File/function: [core/web/external_initiators_controller.go](core/web/external_initiators_controller.go) -> `ValidateExternalInitiator`
+- Entrypoint: POST/DELETE /v2/external_initiators
+- Attacker controls: the initiator name and URL (attacker capability: an authenticated node user holding only the 'edit' role (non-admin); no operator, admin, host, DB or DON-node privileges assumed)
+- Exploit idea: Invoke `initiator name and URL` that fails late.
+- Invariant to test: no state change may precede a completed authorization
+- Expected Immunefi impact: Critical - direct theft of funds: unauthorized transaction submission signed by node-held EVM keys
+- Fast validation: handler test asserting no mutation accompanies an error response

@@ -1,0 +1,13 @@
+# Q5517: outgoing request target attacker-controlled in response_cache.isExpiredOrNotCached
+
+## Question
+Can any internet client with an arbitrary externally-owned key sending signed gateway requests set the URL/headers of the outgoing request made by `isExpiredOrNotCached` at the gateway response cache serving repeated user trigger requests so the node fetches an internal address or attaches node credentials to an attacker host?
+
+## Target
+- File/function: [core/services/gateway/handlers/capabilities/v2/response_cache.go](core/services/gateway/handlers/capabilities/v2/response_cache.go) -> `isExpiredOrNotCached`
+- Entrypoint: the gateway response cache serving repeated user trigger requests
+- Attacker controls: the cache key fields of the request (attacker capability: any internet client with an arbitrary externally-owned key sending signed gateway requests; no operator, admin, host, DB or DON-node privileges assumed)
+- Exploit idea: Submit `cache key fields of the request` with an internal/attacker target.
+- Invariant to test: outgoing targets must be allowlisted and never carry node credentials
+- Expected Immunefi impact: Critical - server credential/key theft: node blockchain private keys, key export bundles or node secrets retrieved from a running node
+- Fast validation: table test over the outgoing request builder with hostile targets

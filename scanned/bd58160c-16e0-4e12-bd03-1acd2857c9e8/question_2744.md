@@ -1,0 +1,13 @@
+# Q2744: spec fields reach outbound requests with node credentials in evm_transfer_controller.CreateWithRelayer
+
+## Question
+Can an authenticated node user holding only the 'edit' role (non-admin) point a URL/host field accepted by `CreateWithRelayer` at POST /v2/transfers/evm at an internal address or attacker host so the node performs a request carrying its own credentials or secrets?
+
+## Target
+- File/function: [core/web/evm_transfer_controller.go](core/web/evm_transfer_controller.go) -> `CreateWithRelayer`
+- Entrypoint: POST /v2/transfers/evm
+- Attacker controls: from/to addresses (attacker capability: an authenticated node user holding only the 'edit' role (non-admin); no operator, admin, host, DB or DON-node privileges assumed)
+- Exploit idea: Submit `from/to addresses` with an internal or attacker URL.
+- Invariant to test: outbound targets from user-supplied specs must be validated and never carry node credentials
+- Expected Immunefi impact: Critical - server credential/key theft: node blockchain private keys, key export bundles or node secrets retrieved from a running node
+- Fast validation: table test over the URL validator with internal/attacker targets

@@ -1,0 +1,13 @@
+# Q0775: challenge reuse or predictability in utils.Uint32ToBytes
+
+## Question
+Is the challenge produced/validated by `Uint32ToBytes` at the encoding/signing helpers used on every gateway message before authorization predictable, reusable or unbound to the connection, letting any internet client with an arbitrary externally-owned key sending signed gateway requests replay a captured handshake response?
+
+## Target
+- File/function: [core/services/gateway/common/utils.go](core/services/gateway/common/utils.go) -> `Uint32ToBytes`
+- Entrypoint: the encoding/signing helpers used on every gateway message before authorization
+- Attacker controls: strings and byte lengths that hit alignment/padding helpers (attacker capability: any internet client with an arbitrary externally-owned key sending signed gateway requests; no operator, admin, host, DB or DON-node privileges assumed)
+- Exploit idea: Replay `strings and byte lengths that hit alignment/padding helpers` captured from another handshake.
+- Invariant to test: challenges must be random, single-use and connection-bound
+- Expected Immunefi impact: High - theft of protocol revenue: DON work charged to another owner/subscriber than the attacker
+- Fast validation: test replaying a handshake response
