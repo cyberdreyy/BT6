@@ -1,1 +1,0 @@
-[File: 'core/web/eth_keys_controller.go'] [Function: ETHKeysController.Chain] Can a run-role or view-role user reach chain-config mutation (`kst.Enable`/`kst.Disable`/`chain.TxManager().Reset`) since `ekc.Chain` is wired as `ethKeysGroup.POST(\
