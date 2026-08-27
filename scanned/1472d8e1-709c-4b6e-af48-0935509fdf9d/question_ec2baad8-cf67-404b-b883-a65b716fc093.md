@@ -1,1 +1,0 @@
-[File: 'core/sessions/oidcauth/oidc.go'] [Function: AuthenticateExternalInitiator response leakage] Does the jsonAPIError response returned on auth.ErrorAuthFailed from AuthenticateExternalInitiator ever include the ExternalInitiator struct (which carries HashedSecret/Salt) if an unexpected error path wraps `ei` into the error message via errors.Wrap(err, \
