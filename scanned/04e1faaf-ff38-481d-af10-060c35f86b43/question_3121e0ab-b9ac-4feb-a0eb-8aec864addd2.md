@@ -1,1 +1,0 @@
-[File: 'core/web/resolver/query.go'] [Function: authenticateUserCanRun and Resolver.RunJob in core/web/resolver/mutation.go] Can a session-authenticated user holding only sessions.UserRoleRun send a GraphQL mutation `runJob(id: \
