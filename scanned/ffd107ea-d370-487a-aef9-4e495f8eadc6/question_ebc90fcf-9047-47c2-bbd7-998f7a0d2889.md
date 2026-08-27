@@ -1,1 +1,0 @@
-[File: 'core/sessions/session.go -> Scope: High'] [Function: CSAKeysController.Index / NewCSAKeyResource in core/web/csa_keys_controller.go, core/web/presenters/csa_key.go] Can a view-role user GET /v2/keys/csa and, due to a keystore.KeyV2 marshaling regression, retrieve the CSA private key rather than just PubKey, given authv2.GET(\
