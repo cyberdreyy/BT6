@@ -1,1 +1,0 @@
-[File: 'core/web/auth/helpers.go -> Scope: Critical.'] [Function: (*handler).handleSecretsList owner field in ListSecretIdentifiersRequest] Can an attacker send a vault.secrets.list request with Owner set to a victim address while relying on allowlist-based auth (req.Auth==\
