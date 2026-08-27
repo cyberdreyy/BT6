@@ -1,1 +1,0 @@
-. Invariant tested: AUTHORIZATION_EXACTNESS (DON membership gate). Scoped impact: connection admitted into a DON's node pool that the node key was never configured for. Proof idea: unit test around StartHandshake asserting a crafted DonId with embedded null byte cannot spoof membership in a shorter DON ID.
