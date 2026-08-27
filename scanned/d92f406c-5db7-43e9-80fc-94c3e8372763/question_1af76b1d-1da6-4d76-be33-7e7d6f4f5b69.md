@@ -1,1 +1,0 @@
-[File: 'core/web/pipeline_runs_controller.go' -> Scope: High.] [Function: PipelineRunsController.Resume] Can an unauthenticated HTTP client (no session cookie, no API key/secret, no EI credential) send 'PATCH /v2/resume/:runID' directly, since router.go mounts it on 'unauthedv2 := r.Group(\
