@@ -1,1 +1,0 @@
-[File: 'core/sessions/webauthn.go'] [Function: BeginWebAuthnLogin / FinishWebAuthnLogin] Can an attacker who holds a valid SessionRequest.SessionStore pointer (shared singleton created once in NewSessionsController) submit a WebAuthnData assertion for userLoginIndexKey = victimEmail + \
