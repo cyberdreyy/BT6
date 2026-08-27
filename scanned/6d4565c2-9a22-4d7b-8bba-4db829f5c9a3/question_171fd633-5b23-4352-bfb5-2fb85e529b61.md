@@ -1,1 +1,0 @@
-[File: 'core/web/external_initiators_controller.go' -> Scope: Critical] [Function: DeriveJWTAuthorizedVaultWorkflowOwner] Can an attacker holding a valid JWT for org 'org-test' but with a manipulable secondary parameter (the second/third args seen as (org, 1, \
