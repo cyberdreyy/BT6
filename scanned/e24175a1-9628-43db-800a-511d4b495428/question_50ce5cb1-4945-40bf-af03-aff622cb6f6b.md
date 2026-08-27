@@ -1,1 +1,0 @@
-[File: 'core/web/middleware.go'] [Function: (*gzipFileHandler).findBestFile / negotiateContentEncoding] Can an attacker who cannot authenticate abuse the Accept-Encoding negotiation to force delivery of a `.gz` sibling file whose Exists() check via f.root.Exists(
