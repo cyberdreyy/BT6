@@ -1,1 +1,0 @@
-[File: 'core/capabilities/vault/gateway_vault_request_processor.go'] [Function: GatewayVaultRequestProcessor.ProcessRequest / stripPrefixedVaultRequestID] Can an attacker craft a `req.ID` with an owner-prefix matching a victim owner (e.g., \
