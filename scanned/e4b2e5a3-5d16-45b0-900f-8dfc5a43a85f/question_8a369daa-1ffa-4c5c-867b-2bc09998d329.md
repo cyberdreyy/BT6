@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/handlers/vault/aggregator.go'] [Function: baseAggregator.validateUsingSignatures] Can an attacker who controls only the requestID string in a signed gateway request cause payloadRequestID (from vaultutils.SignedPayloadRequestID) to be empty, bypassing the requestID binding check at line 301 (`if payloadRequestID !=
