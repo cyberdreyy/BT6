@@ -1,1 +1,0 @@
-[File: 'core/web/auth/auth.go' -> Scope: Critical] [Function: jsonAPIError / Authenticate error path] Does the generic 401 response returned by jsonAPIError(c, http.StatusUnauthorized, err) on auth failure ever leak internal error details (e.g. wrapped DB error text from errors.Wrap(err, \
