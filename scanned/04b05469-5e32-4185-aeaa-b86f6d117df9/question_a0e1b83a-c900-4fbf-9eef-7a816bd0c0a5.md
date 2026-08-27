@@ -1,1 +1,0 @@
-[File: 'core/bridges/cache.go'] [Function: Cache.FindBridges] Given the early-return optimization `if len(allFoundBts) == len(names) { return allFoundBts, nil }`, can an attacker who submits a names slice containing duplicate BridgeName entries (e.g. [\
