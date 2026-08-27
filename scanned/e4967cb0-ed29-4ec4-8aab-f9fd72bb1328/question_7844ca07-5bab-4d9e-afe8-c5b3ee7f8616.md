@@ -1,1 +1,0 @@
-} (or new role) and call RequiresEditRole(handler) with it in context; POST /v2/jobs. Invariant: authorization exactness — allow-list not block-list role checking. Impact: unauthorized job creation via unexpected/default role value. Proof idea: table test iterating all clsessions.UserRole constants plus zero-value and asserting RequiresEditRole only allows edit/admin.
