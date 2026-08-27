@@ -1,1 +1,0 @@
-[File: 'core/sessions/webauthn.go'] [Function: FinishWebAuthnLogin] Can an attacker replay a previously captured `sr.WebAuthnData` (a valid `CredentialAssertionResponse`) against `FinishWebAuthnLogin` because the `SessionStore`/challenge (`sessionData`) lookup keyed by `user.Email + \
