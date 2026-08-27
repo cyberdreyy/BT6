@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/handlers/vault/handler.go'] [Function: handler.HandleJSONRPCUserMessage, line 436-444] Can an unprivileged attacker whose h.requestProcessor.ProcessRequest call fails (invalid JWT, tenant mismatch, digest mismatch) trigger a plain `errors.New(\
