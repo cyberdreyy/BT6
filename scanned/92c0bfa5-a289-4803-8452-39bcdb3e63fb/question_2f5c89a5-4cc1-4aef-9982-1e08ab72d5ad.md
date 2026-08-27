@@ -1,1 +1,0 @@
-[File: 'core/capabilities/vault/authorizer.go'] [Function: authorizer.authorizeRequest] Can an attacker force use of the weaker allowlist-based auth path (bypassing JWT-based scope/tenant checks) by simply omitting req.Auth on an otherwise JWT-gated deployment, exploiting the empty-string fallback logic `if req.Auth ==
