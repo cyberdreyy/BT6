@@ -1,1 +1,0 @@
-` field set. Invariant tested: authentication soundness — malformed credentials must never authenticate. Scoped impact: bypass of allowlist-based auth entirely via a bogus non-empty Auth field. Proof idea: unit test AuthorizeRequest with Auth=\"not-a-jwt\" and assert error returned, never a valid AuthResult.
