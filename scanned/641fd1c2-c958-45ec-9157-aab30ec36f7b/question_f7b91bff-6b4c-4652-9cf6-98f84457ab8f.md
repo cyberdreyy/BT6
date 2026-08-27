@@ -1,1 +1,0 @@
-). Invariant tested: authorization exactness must be consistent across all entry points to the same privileged action. Scoped impact: unauthorized job run triggering via GraphQL by a view-role user. Proof idea: GQLTestCase asserting a view-role authenticated request to runJob returns an authorization error identical to the REST route's behavior.
