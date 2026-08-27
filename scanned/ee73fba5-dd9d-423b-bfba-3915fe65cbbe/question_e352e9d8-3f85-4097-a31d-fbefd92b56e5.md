@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/api/message.go' -> Scope: High] [Function: Message.Validate receiver-length branch] Because `len(m.Body.Receiver) != 0 && len(m.Body.Receiver) != MessageReceiverLen` is the only receiver check, does submitting Receiver=

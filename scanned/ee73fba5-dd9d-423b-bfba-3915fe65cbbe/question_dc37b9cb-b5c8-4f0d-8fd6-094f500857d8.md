@@ -1,1 +1,0 @@
-. Invariant tested: request binding. Scoped impact: request executed against an unintended (potentially another subscriber's) receiver/subscription. Proof idea: integration test submitting empty Receiver and asserting the downstream Functions/webapi handler rejects it rather than defaulting to any cached or global receiver value.
