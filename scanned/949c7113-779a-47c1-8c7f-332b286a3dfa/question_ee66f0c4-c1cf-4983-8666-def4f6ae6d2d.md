@@ -1,1 +1,0 @@
-[File: 'core/web/sessions_controller.go'] [Function: SessionsController.Create] Can a caller who fails WebAuthn verification (FinishWebAuthnLogin error) still receive a valid session cookie if saveSessionID(session, sid) is invoked with a non-empty sid returned alongside an error from CreateSession in some code path, given CreateSession returns `\

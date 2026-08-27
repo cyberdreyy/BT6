@@ -1,1 +1,0 @@
-[File: 'core/web/webauthn_controller.go'] [Function: WebAuthnController.BeginRegistration] Can a run/view-role authenticated user call BeginRegistration to enroll their own new WebAuthn MFA device while a different pending registration challenge for another account exists in the shared inProgressRegistrationsStore, and does the key `user.Email + \
