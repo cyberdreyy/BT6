@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go'] [Function: httpTriggerHandler.validateRequestID] Can an attacker craft a req.ID containing a URL-encoded or Unicode slash-lookalike character (e.g., '\\u2215' or '%2F') that bypasses the literal strings.Contains(requestID, \
