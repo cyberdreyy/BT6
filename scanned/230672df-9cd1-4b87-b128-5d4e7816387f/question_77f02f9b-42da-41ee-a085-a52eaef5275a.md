@@ -1,1 +1,0 @@
-[File: core/web/webauthn_controller.go] [Function: WebAuthnController.FinishRegistration] Can an attacker who has completed BeginRegistration for user A cause FinishRegistration to write a credential to a different user B's account by racing 'inProgressRegistrationsStore' keyed only by 'user.Email + \
