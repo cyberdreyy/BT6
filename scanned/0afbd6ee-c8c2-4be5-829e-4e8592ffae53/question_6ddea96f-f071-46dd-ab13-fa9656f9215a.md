@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/handlers/vault/handler.go' -> Scope: High] [Function: handler.errorResponse (case api.NodeReponseEncodingError)] Confirm that when encoding fails, the code intentionally replaces err with a generic message ('Intentionally hide the error from the user') — but does the PRIOR log line `h.lggr.Errorw(err.Error(), \
