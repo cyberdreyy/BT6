@@ -1,1 +1,0 @@
-of valid length. Invariant tested: request binding. Scoped impact: cross-subscriber cache/row collision. Proof idea: unit test submitting interior-NUL MessageId through Validate, then trace resulting Body.MessageId into any store lookup performed with string equality vs C-string comparison, assert consistent behavior end to end (ideally rejected).
