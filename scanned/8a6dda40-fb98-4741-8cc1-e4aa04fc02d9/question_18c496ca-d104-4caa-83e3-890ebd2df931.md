@@ -1,1 +1,0 @@
-[File: 'core/capabilities/vault/authorizer.go'] [Function: authorizer.authorizeRequest] Given requests without req.Auth always route to authorizeAllowListBasedAuth 'for backwards compatibility', can an attacker who obtained a valid JWT-authorized owner string (public, e.g. from a prior response) submit a NEW request with Auth=\
