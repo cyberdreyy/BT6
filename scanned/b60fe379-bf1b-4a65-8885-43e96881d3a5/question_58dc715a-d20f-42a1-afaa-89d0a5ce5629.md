@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/common/utils.go'] [Function: auth.Authenticate + web/router.go v2Routes ethKeysGroup] Because 'ethKeysGroup' re-wraps 'authv2' with a fresh auth.Authenticate(app.AuthenticationProvider(), AuthenticateByToken, AuthenticateBySession) middleware and 'authv2.GET(\
