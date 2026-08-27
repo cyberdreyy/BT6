@@ -1,1 +1,0 @@
-}`. Invariant: requests must be bound to an authorized sender; unauthenticated task resumption with arbitrary result injection breaks this. Impact: attacker-controlled data flowing into a transmit/transaction pipeline task. Proof idea: integration test resuming a suspended run with attacker JSON and asserting the final on-chain task consumes the injected value unmodified.
