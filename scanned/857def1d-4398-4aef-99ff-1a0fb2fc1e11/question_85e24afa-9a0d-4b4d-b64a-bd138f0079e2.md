@@ -1,1 +1,0 @@
-[File: 'core/sessions/ldapauth/sync.go' -> Scope: Critical/High blind spot.] [Function: LDAPServerStateSyncer.ldapGroupMembersListToUser] Since role assignment is entirely determined by which of the four hardcoded group queries (Admin/Edit/Run/Read CN) returns the user's uid in `uniqueMember`, and the parsing (`strings.HasPrefix(part, \
