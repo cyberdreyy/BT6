@@ -1,1 +1,0 @@
-[File: 'core/sessions/webauthn.go'] [Function: WebAuthnSessionStore.BeginWebAuthnRegistration] Can two concurrent BeginRegistration calls for the SAME user.Email (e.g., two browser tabs, or attacker replaying a stolen session cookie in parallel) race on userRegistrationIndexKey := user.Email + \
