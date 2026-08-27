@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/handlers/capabilities/handler.go'] [Function: handler.HandleNodeMessage default case] Can an attacker (node holder) send an unsupported msg.Body.Method value to probe for verbose error information, and does the resulting `fmt.Errorf(\
