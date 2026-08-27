@@ -1,0 +1,1 @@
+The only error path reachable from `GetAll()` is `ErrLocked`, a static sentinel string (`"keystore is locked"`) — it contains no key material, file paths, or dynamic data.
