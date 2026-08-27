@@ -1,1 +1,0 @@
-[File: 'core/web/vault_controller.go' -> Scope: Critical.] [Function: VaultController.VerifyDKGResult] Can an unauthenticated attacker (no session, no API token, no EI credentials) reach POST /v2/vault/dkg_results/verify directly if request routing order in NewRouter places `api.POST(\
