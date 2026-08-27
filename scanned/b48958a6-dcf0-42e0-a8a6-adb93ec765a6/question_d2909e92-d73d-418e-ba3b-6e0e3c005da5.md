@@ -1,1 +1,0 @@
-[File: 'core/web/auth/auth.go' -> Scope: Critical] [Function: AuthenticateExternalInitiator header parsing] Can an attacker send a request with X-Chainlink-EA-AccessKey header containing an empty string ('') and observe that unlike AuthenticateByToken (which explicitly checks token.AccessKey == \
