@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go' -> Scope: authentication soundness for empty/degenerate credentials] [Function: (h *httpTriggerHandler).authorizeRequest / WorkflowMetadataHandler.Authorize with empty req.Auth] Can an externally-owned address submit a jsonrpc.Request with req.Auth = \
