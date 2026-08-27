@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/network/httpserver.go'] [Function: httpServer.isAllowedOrigin] Can an attacker on a browser bypass CORS allowlisting by supplying an Origin header like 'https://evil.com.victim-allowed.com' or exploiting the wildcard 'strings.HasPrefix(allowedHost, \
