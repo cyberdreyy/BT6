@@ -1,1 +1,0 @@
-[File: core/sessions/webauthn.go] [Function: WebAuthnSessionStore.SaveWebauthnSession / GetWebauthnSession] Can an attacker who knows or guesses a victim's email exploit the deterministic key format `user.Email + \
