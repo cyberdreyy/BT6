@@ -1,1 +1,0 @@
-[File: core/services/gateway/api/message.go -> Scope: Critical] [Function: Message.Validate] Can an attacker exploit that Body.Sender is a struct field explicitly excluded from JSON serialization (`json:
