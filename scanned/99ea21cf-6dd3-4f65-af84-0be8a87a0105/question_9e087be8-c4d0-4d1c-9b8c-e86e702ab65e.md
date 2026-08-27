@@ -1,1 +1,0 @@
-[File: external_initiators_controller.go] [Function: auth.AuthenticateExternalInitiator error path] Does the error returned by store.FindExternalInitiator when err is not sql.ErrNoRows (`errors.Wrap(err, \
