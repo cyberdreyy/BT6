@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/gateway.go'] [Function: gateway.ProcessRequest] Can an attacker send a request where `msg` is nil (DecodeJSONRequest succeeded but produced an incomplete Message, e.g., params `{}`), which the condition `if msg == nil || msg.Body.DonId == \
