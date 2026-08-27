@@ -1,1 +1,0 @@
-[File: 'core/sessions/webauthn.go'] [Function: duoWebAuthUserFromUser] Can supplying a User with a crafted Email containing role-model-relevant separators (e.g., '@' or path-like characters) cause the userLoginIndexKey/userRegistrationIndexKey computed as user.Email + \
