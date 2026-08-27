@@ -1,1 +1,0 @@
-[File: core/web/router.go] [Function: v2Routes, authv2 group definition] Are there any POST/PATCH/DELETE routes registered inside the `authv2` group (router.go:238-447) that lack any auth.RequiresEditRole/RequiresRunRole/RequiresAdminRole wrapper, e.g. `authv2.PATCH(\
