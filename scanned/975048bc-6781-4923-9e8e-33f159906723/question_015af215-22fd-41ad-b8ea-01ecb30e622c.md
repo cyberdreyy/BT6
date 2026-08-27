@@ -1,1 +1,0 @@
-[File: 'core/web/router.go -> v2Routes ethKeysGroup'] Can a run-role EI-derived identity (SessionUserKey injected by AuthenticateExternalInitiator) reach `GET /v2/keys/evm` (no explicit role guard, just `authv2.GET(\
