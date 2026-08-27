@@ -1,1 +1,0 @@
-[File: 'core/web/router.go'] [Function: v2Routes] Can a view-role user reach `authv2.GET(\

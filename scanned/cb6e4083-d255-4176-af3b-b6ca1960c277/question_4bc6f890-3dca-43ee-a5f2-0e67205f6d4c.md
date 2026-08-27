@@ -1,1 +1,0 @@
-[File: 'core/sessions/localauth/orm.go'] [Function: orm.DeleteUser] Can a view-role user trigger DeleteUser for an arbitrary edit/admin email via a route that doesn't validate the target email against the caller's own identity, if the underlying handler `authv2.DELETE(\
