@@ -1,1 +1,0 @@
-[File: core/services/gateway/gateway.go] [Function: gateway.ProcessRequest new-style routing] Can an attacker exploit the fallback service-name routing (`jsonRequest.ServiceName()` -> `serviceToMultiHandler`/`serviceNameToDonID`) by crafting a JSON-RPC `method` string containing a service-name prefix matching a victim service (e.g., \
