@@ -1,1 +1,0 @@
-[File: 'core/web/auth/auth.go'] [Function: AuthenticateByToken] Can an attacker with a valid API token for a view-role user reach routes registered on `authv2` (token+session auth) that lack any RequiresXRole wrapper, e.g. authv2.GET(\
