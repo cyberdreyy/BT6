@@ -1,1 +1,0 @@
-[File: 'core/web/user_controller.go' -> Scope: Critical] [Function: clsessions.AuthenticateUserByToken] Can an attacker exploit the case where `user.TokenSalt.ValueOrZero()` and `user.TokenHashedSecret.ValueOrZero()` both resolve to empty string (user never set an API token) combined with an attacker-supplied empty Secret header, causing `auth.HashedSecret(token,
