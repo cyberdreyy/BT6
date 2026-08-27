@@ -1,1 +1,0 @@
-[File: 'core/web/evm_transfer_controller.go -> Scope: Critical'] [Function: sessions.AuthenticateUserByToken] Can a user whose DeleteAuthToken has been called (token_salt/token_key/token_hashed_secret set to '') still authenticate via AuthenticateByToken by sending empty AccessKey and empty Secret headers, given token.AccessKey==\
