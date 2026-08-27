@@ -1,1 +1,0 @@
-[File: core/web/router.go] [Function: v2Routes] Do the duplicate ethKeysGroup vs authv2 route registrations for /keys/evm/* create inconsistent auth requirements (ethKeysGroup re-wraps with AuthenticateByToken/AuthenticateBySession explicitly, but authv2.GET(\
