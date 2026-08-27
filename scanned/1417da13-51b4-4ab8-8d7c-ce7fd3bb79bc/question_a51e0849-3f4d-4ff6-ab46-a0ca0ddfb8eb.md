@@ -1,1 +1,0 @@
-[File: core/web/workflow_keys_controller.go -> Scope: Critical] [Function: WorkflowKeysController.Index] Can an attacker holding only a session with sessions.UserRoleView call GET /v2/keys/workflow, given that authv2.GET(\
