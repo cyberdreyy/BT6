@@ -1,1 +1,0 @@
-[File: 'core/web/config_controller.go'] [Function: ConfigController.Show] Can concurrent requests from two distinct low-privileged sessions calling GET /v2/config and GET /v2/config?userOnly=true simultaneously ever result in gin.Context c.GetQuery(\

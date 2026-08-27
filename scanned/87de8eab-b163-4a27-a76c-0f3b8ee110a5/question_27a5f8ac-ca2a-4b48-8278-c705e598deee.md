@@ -1,1 +1,0 @@
-[File: 'core/web/log_controller.go' -> Scope: High] [Function: LogController.Patch] Can a low-privilege UserRoleView session bypass role middleware by sending PATCH /v2/log directly without traversing auth.RequiresEditRole (e.g. hitting an alternate route alias)? Preconditions: valid view-role session cookie. Request sequence: PATCH /v2/log {\
