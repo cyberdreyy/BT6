@@ -1,1 +1,0 @@
-[File: 'core/web/api.go' JSON:API response helpers used across all controllers -> Scope: Critical/High blind spot: authorization enforced only downstream of route registration] [Function: v2Routes in core/web/router.go registering authv2.GET(\
