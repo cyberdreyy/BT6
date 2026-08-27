@@ -1,1 +1,0 @@
-[File: 'core/capabilities/vault/authorizer.go'] [Function: authorizer.AuthorizeRequest -> validateSecretOwnersMatchAuthorized] Can an attacker submit a request whose declared secret Owner field uses different case (e.g. \
