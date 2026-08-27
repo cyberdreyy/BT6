@@ -1,1 +1,0 @@
-[File: 'core/sessions/ldapauth/ldap.go' -> Scope: High] [Function: ldapAuthenticator.ldapGroupMembersListToUser package-level func] Can a self-service directory attribute editable by a low-privileged ATTACKER (their own uniqueMember DN string) under PRECONDITIONS of write-access limited to their own attribute, be crafted so that after 'strings.Split(uniqueMemberEntry, \
