@@ -1,1 +1,0 @@
-[File: 'core/web/resolver/mutation.go -> Scope: Critical'] [Function: DeleteBridge / any admin-only mutation lacking explicit role check] Can a run-role ATTACKER_ACTION call REQUEST_SEQUENCE {mutation deleteBridge(name: \

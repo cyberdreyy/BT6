@@ -1,1 +1,0 @@
-[File: 'core/web/resolver/mutation.go -> Scope: Critical'] [Function: EnableFeedsManager / DisableFeedsManager] Can a run-role ATTACKER_ACTION call mutation enableFeedsManager(id: X) under PRECONDITIONS of a UserRoleRun session, sending REQUEST_SEQUENCE {mutation enableFeedsManager(id: \
