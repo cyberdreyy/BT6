@@ -1,1 +1,0 @@
-[File: 'core/web/auth/auth.go' -> Scope: Critical] [Function: RequiresRunRole] Similarly, does `user.Role == clsessions.UserRoleView` as the sole rejection condition in RequiresRunRole fail-open for any Role value other than the exact View constant, precondition: a user record with a malformed/empty Role field, sequence: construct *clsessions.User{Role: \
