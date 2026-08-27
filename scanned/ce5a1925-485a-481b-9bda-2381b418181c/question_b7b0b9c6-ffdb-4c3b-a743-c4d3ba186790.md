@@ -1,1 +1,0 @@
-[File: 'core/bridges/external_initiator.go -> AuthenticateExternalInitiator'] Can an attacker supply eia.AccessKey identical to a target EI's AccessKey but manipulate eia.Secret such that auth.HashedSecret's fmt.Appendf-based hashInput (\
