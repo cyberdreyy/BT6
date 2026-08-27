@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/handlers/vault/handler.go'] [Function: handler.errorResponse, line 744-795] Can an unprivileged attacker who supplies a raw req.ID already containing vaulttypes.RequestIDSeparator (\
