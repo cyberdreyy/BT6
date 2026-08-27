@@ -1,1 +1,0 @@
-[File: 'File Name: core/web/helpers.go -> Scope: Critical.'] [Function: Resolver.DeleteAPIToken / CreateAPIToken (core/web/resolver/mutation.go:1024, api_token.go)] Can an unprivileged ATTACKER_ACTION 'GraphQL mutation deleteAPIToken(input:{password:
