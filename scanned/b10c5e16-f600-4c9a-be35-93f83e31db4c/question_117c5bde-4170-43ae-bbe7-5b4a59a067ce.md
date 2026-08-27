@@ -1,1 +1,0 @@
-key at the Body level alongside a valid Signature, then trace whether any handler code reads msg.Body.Sender before invoking msg.Validate(). Proof idea: grep-driven unit test constructing a Message via json.Unmarshal with an injected Sender field and asserting Body.Sender is always empty/zero until Validate() explicitly sets it, and that no handler code reads it earlier.

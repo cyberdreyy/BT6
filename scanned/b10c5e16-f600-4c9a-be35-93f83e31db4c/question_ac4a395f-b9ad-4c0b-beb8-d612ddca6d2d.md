@@ -1,1 +1,0 @@
-and sign it; call Validate(). Invariant: request binding to exactly one authorized DON/job. Impact: DonId confusion routes a request to victim DON while displaying/logging as different id. Proof idea: unit test asserting Validate() returns an error for embedded NUL bytes; currently only suffix is checked so test should show acceptance.
