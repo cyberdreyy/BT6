@@ -1,1 +1,0 @@
-[File: core/web/dkg_recipient_keys_controller.go] [Function: DKGRecipientKeysController.Index] Can a session-authenticated user with role UserRoleView call GET /v2/keys/dkgrecipient and succeed, given the route at router.go's authv2.GET(\
