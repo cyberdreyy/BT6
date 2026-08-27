@@ -1,1 +1,0 @@
-[File: 'core/capabilities/vault/authorizer.go -> Scope: vault owner/permission bypass'] [Function: authorizer.AuthorizeRequest] Can an unauthenticated gateway client send a jsonrpc.Request with req.Auth == \
