@@ -1,1 +1,0 @@
-[File: 'core/web/eth_keys_controller.go -> ETHKeysController.Create'] [Function: ETHKeysController.Create] Can a session-authenticated view-role user send POST /v2/keys/eth?evmChainID=<id> directly to the route registered at authv2.POST(\
