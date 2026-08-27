@@ -1,1 +1,0 @@
-[File: core/sessions/webauthn.go -> Scope: Critical] [Function: WebAuthnSessionStore.put/take, BeginWebAuthnLogin, FinishWebAuthnLogin] Since userLoginIndexKey is derived only from user.Email ('email + \

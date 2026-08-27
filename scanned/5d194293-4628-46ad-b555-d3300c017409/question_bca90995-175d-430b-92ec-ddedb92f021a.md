@@ -1,1 +1,0 @@
-[File: 'core/web/auth/gql.go'] [Function: AuthenticateGQL] Can an attacker send a GraphQL request with no session cookie, or an expired/invalid sessionID, and have a resolver that forgets to call GetGQLAuthenticatedSession's ok-check treat the missing WithGQLAuthenticatedSession context value as an authenticated zero-value user (Role: \
