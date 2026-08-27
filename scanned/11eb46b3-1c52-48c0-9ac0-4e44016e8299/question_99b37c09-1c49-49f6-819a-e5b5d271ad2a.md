@@ -1,1 +1,0 @@
-[File: core/web/jobs_controller.go -> Scope: High] Can a session or API-token user holding only clsessions.UserRoleView call GET /v2/jobs (JobsController.Index) and receive full presenters.JobResource records for every job in the node, given that authv2.GET(\

@@ -1,1 +1,0 @@
-[File: core/web/jobs_controller.go -> Scope: High] Can JobsController.Index be forced to return more than the documented 1000-row default page (bypassing intended pagination limits) by a view-role caller supplying a large explicit size query param, to bulk-exfiltrate job specs faster, given `if c.Query(\
