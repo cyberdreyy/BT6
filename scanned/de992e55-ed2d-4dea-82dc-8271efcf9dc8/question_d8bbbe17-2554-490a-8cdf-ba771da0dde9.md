@@ -1,1 +1,0 @@
-[File: 'core/capabilities/vault/authorizer.go' -> Function: authorizer.authorizeRequest] Can an attacker who holds only an allowlist-based (non-JWT) credential set req.Auth to a non-empty but garbage/malformed string, exploiting the branch `if req.Auth == \
