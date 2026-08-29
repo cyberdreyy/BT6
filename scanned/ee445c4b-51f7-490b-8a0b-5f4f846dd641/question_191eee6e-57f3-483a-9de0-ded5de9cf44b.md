@@ -1,0 +1,1 @@
+must never resolve to a missing trie entry. Scoped impact: Contracts execution flows (deterministic apply-path abort via `StorageInconsistentState`). Proof idea: multi-shard test-loop reproducing a `GlobalContractAccessExt::hash` `StorageInconsistentState` panic path after use-then-missing-code sequencing, named exactly as a consensus abort.
