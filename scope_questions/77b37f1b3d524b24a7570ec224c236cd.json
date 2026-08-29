@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: runtime/runtime/src/verifier.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7115bd1e-bac9-4b84-ac9a-259b06b3f928?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/action_validation.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_76b10e8d-33ac-4d7f-8385-556f7f651e27?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/access_keys.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a386f629-eec4-4db0-a3af-9645ddadf7f6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/config.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4c573c89-bdc0-4e17-b5f0-f85098262447?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/transaction.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e8e99a94-6db5-4bf4-8c12-769558fbe61a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/action/mod.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4b62d27f-b15c-4fff-92e7-48718a2780c3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/action/delegate.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_29fd71a5-7911-417e-9d95-d6242e50a60a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/signable_message.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2a89adb7-c76c-471d-869c-dc2cca64118b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/receipt.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aa9a7878-a477-4aab-8b8f-a1f85a1546fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/utils.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_636e23a9-dd60-4534-a461-9194596f68dd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/account.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d666eefa-9900-45ca-b0c9-615f7c55877a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/code.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8d93194a-48a3-4bc9-b58a-2e0d14ef1b9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/parameters/src/config.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e97463dd-ffdb-46e9-8cfa-05849da6bbbc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/lib.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_74ae85f4-fc52-4ba2-915d-d6f4753c8d5e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/actions.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_be193595-1746-4a5b-99cf-a4ee89db4e37?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/ext.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8253f08a-f7a1-40f3-92ef-c63ee6c299b3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/receipt_manager.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e06decf-548e-4fee-966e-1a3300ba1394?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/function_call.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_40d1cf74-a85d-4f70-a42a-d905e056331f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/global_contracts.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42010791-da02-4065-97e6-45eb502e7d93?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/deterministic_account_id.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0367371a-5e35-4d43-879e-3d7f10a3d570?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/adapter.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e32748c-3131-451c-9b35-1bfeda53615f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/pipelining.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7dd90e89-9274-46c5-857f-9bcd0104fcd1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/utils/mod.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_65727672-b8a0-44a7-a06c-36945538e120?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/trie_key.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_747376d2-7b6e-4a7e-8c36-8fea39887d8a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/trie_key.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_38d12a66-184b-41c2-8859-1a2643894fa9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/congestion_control.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8023cc21-943f-4b35-9f9e-926632ab12fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/bandwidth_scheduler/mod.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c659ebc-62bb-4d5c-8812-898341bda832?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/bandwidth_scheduler/scheduler.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ca58d8df-6ca2-43a3-ba70-d81fdb31ca51?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/bandwidth_scheduler/distribute_remaining.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_957bdb76-67c2-4830-87ec-9c3ba9eff0a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/congestion_info.rs -> Scope: Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a77dbb59-55e6-4d6a-aa23-aaaac1aa126d?mode=deep",
+    "questions_generated": false
+  }
+]
