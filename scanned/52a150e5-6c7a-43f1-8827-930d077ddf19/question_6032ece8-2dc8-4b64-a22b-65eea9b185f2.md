@@ -1,1 +1,0 @@
-(dashmap entry().or_insert_with) logic combined with per-receipt proof-size enforcement (EnforcePerReceiptStorageProofLimit in runtime/runtime/src/lib.rs, snapshot-then-diff of recorded_storage_size_upper_bound) can be gamed: attacker's first receipt
