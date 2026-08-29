@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: chain/chain/src/spice/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_075043ba-a5f4-4c58-9f42-712b747eb581?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/state_snapshot_actor.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9d1cfbce-c7b2-4a7a-ab94-ec3fe5452798?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/state_sync/adapter.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_600101df-9773-4f5d-a4ee-afc0c4dc37bb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/state_sync/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_88deb961-db9d-4ca3-8f6e-277d5d321253?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/state_sync/state_request_tracker.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_232578ee-fb3c-4079-9d0e-fad873fc69cd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/state_sync/utils.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_01aad792-b478-4476-a84c-da0725fc294c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/stateless_validation/chunk_endorsement.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c359afa6-f25f-472f-b7c3-b92c3eb9a8c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/stateless_validation/chunk_validation.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2a8493ae-9688-4118-84b0-87149e4712a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/stateless_validation/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4e85eea5-f35b-4336-8400-7544c3492ecf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/stateless_validation/processing_tracker.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_04bc7408-d273-43f2-96ad-1776f9838cc5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/stateless_validation/state_witness.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d437e3a8-b20e-4487-9178-228923e7e786?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/store_validator.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6f48fc70-6514-4037-b867-278aa7fcbbb1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/store_validator/validate.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9a89eace-4a91-453d-9496-2cc4aa16132d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/store/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bdcff3c9-df5a-4343-8b06-43b385110abf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/store/utils.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_68fffe59-5e4c-4c9b-ba7c-6bebad475dcd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/types.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e09a5fdd-3816-4aed-9163-f9efdf7bc693?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/update_shard.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a2147f58-7109-469a-9be7-809055074317?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/validate.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e9ffc231-5a8a-4255-bc5e-48a40038998e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chunks/src/adapter.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6799edd3-e6c6-4a2e-b7f7-056d0f68a994?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chunks/src/chunk_cache.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d6e6f7ba-43d6-46c5-aa1c-19f3214d7302?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chunks/src/client.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_41834df0-0118-4fab-9237-4873fc66c646?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chunks/src/lib.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a1cc7ce6-3280-4338-8316-c93a7a8a1f44?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chunks/src/logic.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_51dcb2bb-c10b-482e-b878-80dbcd8cfb37?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chunks/src/shards_manager_actor.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_178f76db-bcc0-4de2-96ad-236e1d5f3748?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chunks-primitives/src/error.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6894b0f5-71c3-49d5-b1a4-8588da819b8d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chunks-primitives/src/lib.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7ff3f292-86eb-4da8-a997-bf89f6ef7621?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain-primitives/src/error.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d0eaf56b-83e9-437a-a727-c0fccccd5f23?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain-primitives/src/lib.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2a5d8804-9ab3-4192-8faf-3dabb5c2e150?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/adapter.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f6a2b1e-3277-468f-93ba-977956efe0ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/adversarial.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4962f7ba-5dfc-44af-baf8-4aba67e6aba5?mode=deep",
+    "questions_generated": false
+  }
+]
