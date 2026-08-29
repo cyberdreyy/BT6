@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/primitives/src/bandwidth_scheduler.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4b86b451-e154-4b38-8f20-76839b5c297e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/reward_calculator.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_60bb7db9-b277-4b3b-b4ff-5e0d00fa9edb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/lib.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a88de0a9-aca7-43b9-a659-7e1d5371e0ac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/validator_selection.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_85489628-7e8d-445f-94f9-05d585ea5e19?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/runtime/mod.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b9043d7-62f6-42d6-b5b8-a15acc9fbfca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/chunk_apply_stats.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_677e8c75-3d98-4003-9161-5eaedab0a786?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/chunk_producer.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d933b409-933a-4f05-8796-a45592b0330f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/rpc_handler.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_274a925e-a98e-4f72-9887-0c629f2c6c8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/chunk_endorsement.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1bb5093d-30bb-44ea-a33e-5bbdf86ffb60?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/chunk_endorsement.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4a0ed7b4-b073-4567-a498-dfb00f487e1a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/validate.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f1765e7d-3a9c-4a9e-a7d5-2db7c59b5f06?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/jsonrpc/src/api/transactions.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_68867681-43d9-45de-b308-18e81c31c31f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/manager.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cd88e484-0614-4e56-bcad-ccec6ad58e98?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/event_type.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4a3b2049-8652-4741-97b9-84514b47baf5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/logic.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_282293e2-20bf-47de-8ff8-d0e5552d3d90?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/gas_counter.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f8bb9593-e2f4-4a8e-8c28-4652a631f16b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/vmstate.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_49e80e3f-a90a-448d-ac43-5c25654937c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/recorded_storage_counter.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d1885a85-f43e-4bc7-8c3d-d31a760cb345?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/context.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0570c962-8d72-4af9-a3b4-8d8521434daa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/alt_bn128.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_264acd10-f79e-4657-b435-42cef03e9892?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/bls12381.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e1b47884-e8b4-4f2e-84c1-c048c3dfe24c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/imports.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_76cbeda1-2176-4251-9839-89b400fca0be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32e4fe67-a2ca-4b0b-8132-aa5ab67f9cfb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare/prepare_v2.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_025937a0-6bbf-4771-8890-f59f696be24c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare/prepare_v3.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4e2152fc-3689-4e06-be67-691e17aad640?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare/instrument_v3.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_977b237d-9872-4ee1-a80b-5875602d0147?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/cache.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8740c23d-04ba-4973-a130-4b3257f34fea?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/runner.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aa7b1b7a-58ec-4d47-a199-b205331cd26b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/wasmtime_runner/logic.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4de42c88-c7bf-4688-90ba-77adcdbbbf70?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mod.rs -> Scope: Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7019a2ab-6a2c-4247-9d1a-c2655c5d2779?mode=deep",
+    "questions_generated": false
+  }
+]
