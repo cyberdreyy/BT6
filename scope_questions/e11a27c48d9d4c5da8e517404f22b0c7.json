@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: runtime/runtime/src/verifier.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6dc55d97-4d45-427b-897c-3df5c0553eaa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/action_validation.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_068abb94-ec84-48d8-8eb5-2c9735550468?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/access_keys.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_67671862-196c-49c6-b05a-15cfff6d3648?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/config.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3045a9bc-5c21-47b4-aec6-baa3e75481a0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/transaction.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_607071fa-ce5b-4912-a983-0f1a2edb19de?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/action/mod.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_87d33274-000a-442b-982b-86e163ca81e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/action/delegate.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cc36041a-13b3-4c10-a9b5-73a922f36d52?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/signable_message.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ddf17844-9cb9-4aef-8db5-ac7c6232ce34?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/receipt.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9e5811cd-1137-420c-8e36-b52254f01bfd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/utils.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0375f01f-c6ed-46fa-a91c-b36ee19de9e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/account.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e7429920-cf93-41b7-9307-05d919be2551?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/code.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4d327345-cc86-49c6-8cda-a8c7d057540c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/parameters/src/config.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_652993a4-70c6-4968-b4a6-b8840eb40523?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/lib.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9afd4889-660a-43d1-b258-e3db8080ff19?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/actions.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1461ad15-4171-4e37-a577-a86a0a8a175e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/ext.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1ec834ca-c746-49e2-a68e-9ac2a03c4964?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/receipt_manager.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2b0ecddb-ea92-4ef9-a646-d01b39513aa1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/function_call.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9fa32ed7-4712-4f32-98c7-624dfc4e9418?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/global_contracts.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e3273f8d-80f2-448c-9690-8080b5879fd2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/deterministic_account_id.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b97b3c80-cbdb-4d78-8fdc-82e5fbef062a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/adapter.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_be4ac137-058d-4fa5-9497-ca8a70c078e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/pipelining.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e46faf5f-8396-4b5c-aa4a-16082b85d785?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/utils/mod.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0569a120-bde3-40b0-9a21-23b505a2fda9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/trie_key.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_345cf4d3-7767-4258-a7df-94f5e03f56be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/trie_key.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_666d99d4-53d1-4ade-b426-e00613686879?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/congestion_control.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8e52a9d3-645e-4a9a-a21b-3148f52ce741?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/bandwidth_scheduler/mod.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c6dd5022-1e2a-4d14-ac83-28ddb1ac14dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/bandwidth_scheduler/scheduler.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ba6dca96-5d0b-481c-91b6-6d649484d040?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/bandwidth_scheduler/distribute_remaining.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_65c912c2-2ae8-4cdf-831e-fbb85e1e9146?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/congestion_info.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_88d1df77-2363-42d6-8fbd-46faa4286ea7?mode=deep",
+    "questions_generated": false
+  }
+]
