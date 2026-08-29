@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: runtime/runtime/src/global_contracts.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0b431d83-7beb-424f-a631-a571c014072d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/lib.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4302ca85-2dcd-4ce0-8884-dbe93ea807d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/pipelining.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a0f29e64-858e-42cd-ae2b-6e25447c1039?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/prefetch.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8c923f52-4b7b-41e6-8443-64bb6db99eb9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/receipt_manager.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_223e5ad2-1e76-4e7e-9c11-7258d1f35db9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/state_viewer/errors.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8d8f5398-77e3-4c27-a0e7-b5910b509346?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/state_viewer/mod.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_88ca7465-2e06-4adb-826d-f11d804f2e63?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/types.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_737f938a-885b-426d-9d77-4bb69104fbf9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/universal_account_id.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0848de21-c1cb-4b90-8e10-185463cb1eee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/verifier.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ea14aa53-f35d-4fd4-8586-af3ac77a2fd5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/benchmarks/compile_contracts.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1bd84edb-b1fc-4c48-bb9f-256097a6dab7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/cache.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_06065f24-1492-4337-9d88-d4b3fcc68b88?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/errors.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c69a9872-e2f7-4305-a038-6f6f4f0e0de2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/features.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dbc11c39-acbb-49e8-a01d-91ce4c9a6883?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/imports.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0eb40d95-ee11-40cb-92d0-67ed7bdda688?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/lib.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9466c327-2f73-45bd-a96f-c467ff380075?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/alt_bn128.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_51c1ff4f-5a62-426d-8119-5099651d49cb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/bls12381.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_336083cc-4057-49b1-93ea-1cee9f3603da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/context.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cb69dabe-f69e-47de-84fa-6c3b5049924c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/dependencies.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_74bf6adc-848a-48b6-be04-4d4a6b281904?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/errors.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_10efc89e-4cbd-4730-b3dc-80e193d7e4bf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/gas_counter.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_87e7fca2-64ea-492c-8ed5-707e82856f17?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/logic.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_005e06f5-c66f-4116-b67d-4a2ef67a008c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/mocks/mod.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fe7cf5ae-dc7f-42cd-9a58-50c546531bcd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/mod.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_351e550d-87c5-4b0e-a3f5-da54a2aa5b50?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/recorded_storage_counter.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f7b595be-a454-4908-8f40-5a5c88a22e34?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/types.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_59b2aa68-7fe0-410f-b98f-f68736aca44d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/utils.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_00c9bc54-f6cf-47b0-9690-42b1f8c88dbd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/vmstate.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_113c7d8f-820f-467c-92a6-ba876e8c773b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare.rs -> Scope: High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4e65eb0a-7c7d-46c0-b1db-a40ee4d53588?mode=deep",
+    "questions_generated": false
+  }
+]
