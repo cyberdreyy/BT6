@@ -48,146 +48,475 @@ else:
 
 scope_files = [
     # =================================================================================
-    # Transaction and receipt admission: signatures, nonces, access keys, action limits
+    # EXPANDED SCOPE — broad sweep of all in-scope protocol/consensus/runtime/storage/
+    # crypto source. EXCLUDED: tests/mocks/benches/fuzz, generated files, build.rs,
+    # params-estimator, chain/network (peer/gossip layer — out of attacker model),
+    # jsonrpc/rosetta/indexer/tooling, neard/nearcore binaries, benchmarks, genesis
+    # tooling, DB backends/migrations/cold+split+cloud storage (node-local, not
+    # consensus), and runtime/near-wallet-contract/** (ruled OUT OF SCOPE by the program,
+    # see submitted/out_of_scope_wallet_contract_*.md).
+    #
+    # AUDIT KNOWLEDGE carried from prior passes (do not lose):
+    #  - core/store/src/utils/mod.rs: `remove_account` clears only 5 of ~14 account-scoped
+    #    TrieKey variants and NEAR names are reusable (one ACCEPTED submission). Audit
+    #    creation and deletion of every account-scoped key SIDE BY SIDE.
+    #  - runtime/runtime/src/access_keys.rs: confirmed finding F4 (`initial_nonce_value`
+    #    reseed).
+    #  - chain/epoch-manager/src/reward_calculator.rs: confirmed finding F5 (treasury +
+    #    per-validator reward written to ONE HashMap with plain `insert`).
+    #  - NIGHTLY-ONLY / above STABLE_PROTOCOL_VERSION=87 and therefore unreachable today:
+    #    universal_account_id / universal_state_init (UniversalAccounts v154). Not listed.
+    #  - Spice pending-transaction-queue (chain/client/src/pending_transaction_queue.rs and
+    #    the protocol_feature_spice cfg) is gated off on mainnet — findings there are not
+    #    payable. Not listed.
     # =================================================================================
-    "runtime/runtime/src/verifier.rs",
-    "runtime/runtime/src/action_validation.rs",
-    "runtime/runtime/src/access_keys.rs",
-    "runtime/runtime/src/config.rs",
-    "core/primitives/src/transaction.rs",
-    "core/primitives/src/action/mod.rs",
-    "core/primitives/src/action/delegate.rs",
-    "core/primitives/src/signable_message.rs",
-    "core/primitives/src/receipt.rs",
-    "core/primitives/src/utils.rs",
+    # core/crypto
+    # =================================================================================
+    "core/crypto/src/errors.rs",
+    "core/crypto/src/hash_domain.rs",
+    "core/crypto/src/hash.rs",
+    "core/crypto/src/key_conversion.rs",
+    "core/crypto/src/key_file.rs",
+    "core/crypto/src/lib.rs",
+    "core/crypto/src/signature.rs",
+    "core/crypto/src/signer.rs",
+    "core/crypto/src/traits.rs",
+    "core/crypto/src/util.rs",
+    "core/crypto/src/vrf.rs",
+
+    # =================================================================================
+    # core/primitives-core
+    # =================================================================================
     "core/primitives-core/src/account.rs",
+    "core/primitives-core/src/apply.rs",
+    "core/primitives-core/src/chains.rs",
     "core/primitives-core/src/code.rs",
-    "core/parameters/src/config.rs",
-
-    # =================================================================================
-    # Runtime apply: action execution, balance conservation, refunds, receipt routing
-    # =================================================================================
-    "runtime/runtime/src/lib.rs",
-    "runtime/runtime/src/actions.rs",
-    "runtime/runtime/src/ext.rs",
-    "runtime/runtime/src/receipt_manager.rs",
-    "runtime/runtime/src/function_call.rs",
-    "runtime/runtime/src/global_contracts.rs",
-    "runtime/runtime/src/deterministic_account_id.rs",
-    "runtime/runtime/src/adapter.rs",
-    "runtime/runtime/src/pipelining.rs",
-    # NIGHTLY-ONLY, kept commented rather than deleted: ProtocolFeature::UniversalAccounts
-    # is version 154 and mainnet STABLE_PROTOCOL_VERSION is 87
-    # (core/primitives-core/src/version.rs:633, :678), so these are unreachable today.
-    # Re-enable them the moment UniversalAccounts stabilises.
-    # "runtime/runtime/src/universal_account_id.rs",
-    # "core/primitives/src/universal_state_init.rs",
-    # "core/primitives-core/src/universal_state_init.rs",
-
-    # =================================================================================
-    # Account lifecycle and per-account trie rows.
-    # HIGHEST-YIELD REGION SO FAR: the one ACCEPTED submission to date lives in
-    # core/store/src/utils/mod.rs (`remove_account` clears only 5 of ~14 account-scoped
-    # TrieKey variants, and NEAR account names are reusable). Confirmed finding F4
-    # (`initial_nonce_value` reseed) lives in access_keys.rs. Audit creation and
-    # deletion of every account-scoped key SIDE BY SIDE.
-    # =================================================================================
-    "core/store/src/utils/mod.rs",
-    "core/primitives/src/trie_key.rs",
+    "core/primitives-core/src/config.rs",
+    "core/primitives-core/src/deterministic_account_id.rs",
+    "core/primitives-core/src/errors.rs",
+    "core/primitives-core/src/gas.rs",
+    "core/primitives-core/src/global_contract.rs",
+    "core/primitives-core/src/hash.rs",
+    "core/primitives-core/src/lib.rs",
+    "core/primitives-core/src/serialize.rs",
     "core/primitives-core/src/trie_key.rs",
+    "core/primitives-core/src/types.rs",
+    "core/primitives-core/src/universal_account_id.rs",
+    "core/primitives-core/src/universal_state_init.rs",
+    "core/primitives-core/src/version.rs",
 
     # =================================================================================
-    # Cross-shard flow control: congestion info, delayed/buffered queues, bandwidth
+    # core/primitives
     # =================================================================================
-    "runtime/runtime/src/congestion_control.rs",
+    "core/primitives/src/action/delegate.rs",
+    "core/primitives/src/action/mod.rs",
+    "core/primitives/src/bandwidth_scheduler.rs",
+    "core/primitives/src/block_body.rs",
+    "core/primitives/src/block_header.rs",
+    "core/primitives/src/block.rs",
+    "core/primitives/src/challenge.rs",
+    "core/primitives/src/chunk_apply_stats.rs",
+    "core/primitives/src/congestion_info.rs",
+    "core/primitives/src/epoch_block_info.rs",
+    "core/primitives/src/epoch_info.rs",
+    "core/primitives/src/epoch_manager.rs",
+    "core/primitives/src/epoch_sync.rs",
+    "core/primitives/src/errors.rs",
+    "core/primitives/src/genesis/block.rs",
+    "core/primitives/src/genesis/chunk.rs",
+    "core/primitives/src/genesis/mod.rs",
+    "core/primitives/src/lib.rs",
+    "core/primitives/src/merkle.rs",
+    "core/primitives/src/network.rs",
+    "core/primitives/src/optimistic_block.rs",
+    "core/primitives/src/profile_data_v2.rs",
+    "core/primitives/src/profile_data_v3.rs",
+    "core/primitives/src/rand.rs",
+    "core/primitives/src/receipt.rs",
+    "core/primitives/src/reed_solomon.rs",
+    "core/primitives/src/sandbox.rs",
+    "core/primitives/src/shard_layout/mod.rs",
+    "core/primitives/src/shard_layout/utils.rs",
+    "core/primitives/src/shard_layout/v0.rs",
+    "core/primitives/src/shard_layout/v1.rs",
+    "core/primitives/src/shard_layout/v2.rs",
+    "core/primitives/src/shard_layout/v3.rs",
+    "core/primitives/src/sharding.rs",
+    "core/primitives/src/sharding/shard_chunk_header_inner.rs",
+    "core/primitives/src/signable_message.rs",
+    "core/primitives/src/spice/chunk_endorsement.rs",
+    "core/primitives/src/spice/mod.rs",
+    "core/primitives/src/spice/partial_data.rs",
+    "core/primitives/src/spice/state_witness.rs",
+    "core/primitives/src/state_part.rs",
+    "core/primitives/src/state_record.rs",
+    "core/primitives/src/state_sync.rs",
+    "core/primitives/src/state.rs",
+    "core/primitives/src/stateless_validation/chunk_endorsement.rs",
+    "core/primitives/src/stateless_validation/chunk_endorsements_bitmap.rs",
+    "core/primitives/src/stateless_validation/contract_distribution.rs",
+    "core/primitives/src/stateless_validation/mod.rs",
+    "core/primitives/src/stateless_validation/partial_witness.rs",
+    "core/primitives/src/stateless_validation/state_witness.rs",
+    "core/primitives/src/stateless_validation/stored_chunk_state_transition_data.rs",
+    "core/primitives/src/stateless_validation/validator_assignment.rs",
+    "core/primitives/src/telemetry.rs",
+    "core/primitives/src/transaction.rs",
+    "core/primitives/src/trie_key.rs",
+    "core/primitives/src/trie_split.rs",
+    "core/primitives/src/types.rs",
+    "core/primitives/src/types/chunk_validator_stats.rs",
+    "core/primitives/src/universal_state_init.rs",
+    "core/primitives/src/upgrade_schedule.rs",
+    "core/primitives/src/utils.rs",
+    "core/primitives/src/utils/compression.rs",
+    "core/primitives/src/utils/io.rs",
+    "core/primitives/src/utils/min_heap.rs",
+    "core/primitives/src/validator_mandates/compute_price.rs",
+    "core/primitives/src/validator_mandates/mod.rs",
+    "core/primitives/src/validator_signer.rs",
+    "core/primitives/src/version.rs",
+    "core/primitives/src/views.rs",
+
+    # =================================================================================
+    # core/parameters
+    # =================================================================================
+    "core/parameters/src/config_store.rs",
+    "core/parameters/src/config.rs",
+    "core/parameters/src/cost.rs",
+    "core/parameters/src/lib.rs",
+    "core/parameters/src/parameter_table.rs",
+    "core/parameters/src/parameter.rs",
+    "core/parameters/src/view.rs",
+    "core/parameters/src/vm.rs",
+
+    # =================================================================================
+    # core/chain-configs
+    # =================================================================================
+    "core/chain-configs/src/client_config.rs",
+    "core/chain-configs/src/genesis_config.rs",
+    "core/chain-configs/src/genesis_validate.rs",
+    "core/chain-configs/src/lib.rs",
+    "core/chain-configs/src/updatable_config.rs",
+
+    # =================================================================================
+    # core/store
+    # =================================================================================
+    "core/store/src/adapter/chain_store.rs",
+    "core/store/src/adapter/chunk_store.rs",
+    "core/store/src/adapter/epoch_store.rs",
+    "core/store/src/adapter/flat_store.rs",
+    "core/store/src/adapter/mod.rs",
+    "core/store/src/adapter/trie_store.rs",
+    "core/store/src/columns.rs",
+    "core/store/src/config.rs",
+    "core/store/src/contract.rs",
+    "core/store/src/db/cold_column_checked.rs",
+    "core/store/src/db/colddb.rs",
+    "core/store/src/db/metadata.rs",
+    "core/store/src/db/mixeddb.rs",
+    "core/store/src/db/mod.rs",
+    "core/store/src/db/recoverydb.rs",
+    "core/store/src/db/refcount.rs",
+    "core/store/src/db/slice.rs",
+    "core/store/src/db/splitdb.rs",
+    "core/store/src/deserialized_column.rs",
+    "core/store/src/flat/chunk_view.rs",
+    "core/store/src/flat/delta.rs",
+    "core/store/src/flat/manager.rs",
+    "core/store/src/flat/mod.rs",
+    "core/store/src/flat/storage.rs",
+    "core/store/src/flat/types.rs",
+    "core/store/src/genesis/initialization.rs",
+    "core/store/src/genesis/mod.rs",
+    "core/store/src/genesis/state_applier.rs",
+    "core/store/src/lib.rs",
+    "core/store/src/merkle_proof.rs",
+    "core/store/src/metrics/mod.rs",
+    "core/store/src/node_storage/mod.rs",
+    "core/store/src/spice_proof_verifier.rs",
+    "core/store/src/store.rs",
+    "core/store/src/trie/config.rs",
+    "core/store/src/trie/from_flat.rs",
+    "core/store/src/trie/iterator.rs",
+    "core/store/src/trie/mem/arena/alloc.rs",
+    "core/store/src/trie/mem/arena/concurrent.rs",
+    "core/store/src/trie/mem/arena/frozen.rs",
+    "core/store/src/trie/mem/arena/hybrid.rs",
+    "core/store/src/trie/mem/arena/mod.rs",
+    "core/store/src/trie/mem/arena/single_thread.rs",
+    "core/store/src/trie/mem/construction.rs",
+    "core/store/src/trie/mem/flexible_data/children.rs",
+    "core/store/src/trie/mem/flexible_data/encoding.rs",
+    "core/store/src/trie/mem/flexible_data/extension.rs",
+    "core/store/src/trie/mem/flexible_data/mod.rs",
+    "core/store/src/trie/mem/flexible_data/value.rs",
+    "core/store/src/trie/mem/freelist.rs",
+    "core/store/src/trie/mem/iter.rs",
+    "core/store/src/trie/mem/loading.rs",
+    "core/store/src/trie/mem/lookup.rs",
+    "core/store/src/trie/mem/memtrie_update.rs",
+    "core/store/src/trie/mem/memtries.rs",
+    "core/store/src/trie/mem/mod.rs",
+    "core/store/src/trie/mem/nibbles_utils.rs",
+    "core/store/src/trie/mem/node/encoding.rs",
+    "core/store/src/trie/mem/node/mod.rs",
+    "core/store/src/trie/mem/node/view.rs",
+    "core/store/src/trie/mem/parallel_loader.rs",
+    "core/store/src/trie/mod.rs",
+    "core/store/src/trie/nibble_slice.rs",
+    "core/store/src/trie/ops/insert_delete.rs",
+    "core/store/src/trie/ops/interface.rs",
+    "core/store/src/trie/ops/iter.rs",
+    "core/store/src/trie/ops/mod.rs",
+    "core/store/src/trie/ops/resharding.rs",
+    "core/store/src/trie/ops/squash.rs",
+    "core/store/src/trie/outgoing_metadata.rs",
+    "core/store/src/trie/prefetching_trie_storage.rs",
+    "core/store/src/trie/raw_node.rs",
+    "core/store/src/trie/receipts_column_helper.rs",
+    "core/store/src/trie/shard_tries.rs",
+    "core/store/src/trie/split.rs",
+    "core/store/src/trie/state_parts.rs",
+    "core/store/src/trie/state_snapshot.rs",
+    "core/store/src/trie/trie_recording.rs",
+    "core/store/src/trie/trie_storage_update.rs",
+    "core/store/src/trie/trie_storage.rs",
+    "core/store/src/trie/update.rs",
+    "core/store/src/trie/update/iterator.rs",
+    "core/store/src/utils/mod.rs",
+    "core/store/src/utils/sync_utils.rs",
+
+    # =================================================================================
+    # runtime/runtime
+    # =================================================================================
+    "runtime/runtime/src/access_keys.rs",
+    "runtime/runtime/src/action_validation.rs",
+    "runtime/runtime/src/actions.rs",
+    "runtime/runtime/src/adapter.rs",
+    "runtime/runtime/src/bandwidth_scheduler/distribute_remaining.rs",
     "runtime/runtime/src/bandwidth_scheduler/mod.rs",
     "runtime/runtime/src/bandwidth_scheduler/scheduler.rs",
-    "runtime/runtime/src/bandwidth_scheduler/distribute_remaining.rs",
-    "core/primitives/src/congestion_info.rs",
-    "core/primitives/src/bandwidth_scheduler.rs",
+    "runtime/runtime/src/bandwidth_scheduler/simulator.rs",
+    "runtime/runtime/src/cache_warming.rs",
+    "runtime/runtime/src/config.rs",
+    "runtime/runtime/src/congestion_control.rs",
+    "runtime/runtime/src/contract_code.rs",
+    "runtime/runtime/src/conversions.rs",
+    "runtime/runtime/src/deterministic_account_id.rs",
+    "runtime/runtime/src/ext.rs",
+    "runtime/runtime/src/function_call.rs",
+    "runtime/runtime/src/global_contracts.rs",
+    "runtime/runtime/src/lib.rs",
+    "runtime/runtime/src/pipelining.rs",
+    "runtime/runtime/src/prefetch.rs",
+    "runtime/runtime/src/receipt_manager.rs",
+    "runtime/runtime/src/state_viewer/errors.rs",
+    "runtime/runtime/src/state_viewer/mod.rs",
+    "runtime/runtime/src/types.rs",
+    "runtime/runtime/src/universal_account_id.rs",
+    "runtime/runtime/src/verifier.rs",
 
     # =================================================================================
-    # Epoch rewards, inflation and supply reconciliation.
-    # Confirmed finding F5 lives in reward_calculator.rs: the protocol-treasury reward
-    # and the per-validator reward are written to ONE HashMap with plain `insert`, so a
-    # treasury account that is also a validator loses its share while the returned total
-    # still counts it. Audit every place a minted total and a per-account credit are
-    # computed separately and must agree.
+    # runtime/near-vm-runner
     # =================================================================================
-    "chain/epoch-manager/src/reward_calculator.rs",
-    "chain/epoch-manager/src/lib.rs",
-    "chain/epoch-manager/src/validator_selection.rs",
-    "chain/chain/src/runtime/mod.rs",
-    "core/primitives/src/chunk_apply_stats.rs",
-
-    # =================================================================================
-    # Chunk production, admission and validation: where a produced chunk is accepted
-    # or rejected. The one submission currently IN REVIEW lives in
-    # chain/client/src/stateless_validation/chunk_endorsement.rs.
-    #
-    # NOT INCLUDED: chain/client/src/pending_transaction_queue.rs and the rest of the
-    # Spice pending-transaction-queue. It is the newest, highest-churn code in the repo
-    # and looks attractive, but the whole path is gated on
-    # `#[cfg(feature = "protocol_feature_spice")]` (core/chain-configs/src/client_config.rs
-    # :880-885), and `protocol_feature_spice = []` is a standalone opt-in that neither
-    # `default` nor `nightly` enables. It is unreachable on mainnet, so findings there
-    # are not payable. Churn is not reachability - check the feature gate first.
-    # =================================================================================
-    "chain/client/src/chunk_producer.rs",
-    "chain/client/src/rpc_handler.rs",
-    "chain/client/src/stateless_validation/chunk_endorsement.rs",
-    "core/primitives/src/stateless_validation/chunk_endorsement.rs",
-    "chain/chain/src/validate.rs",
-    "chain/jsonrpc/src/api/transactions.rs",
-
-    # =================================================================================
-    # Resharding: trie split vs in-flight queues and per-account state
-    # =================================================================================
-    "chain/chain/src/resharding/manager.rs",
-    "chain/chain/src/resharding/event_type.rs",
-
-    # =================================================================================
-    # VM logic reachable from any attacker-deployed contract: host calls and gas
-    # =================================================================================
-    "runtime/near-vm-runner/src/logic/logic.rs",
-    "runtime/near-vm-runner/src/logic/gas_counter.rs",
-    "runtime/near-vm-runner/src/logic/vmstate.rs",
-    "runtime/near-vm-runner/src/logic/recorded_storage_counter.rs",
-    "runtime/near-vm-runner/src/logic/context.rs",
+    "runtime/near-vm-runner/benchmarks/compile_contracts.rs",
+    "runtime/near-vm-runner/src/cache.rs",
+    "runtime/near-vm-runner/src/errors.rs",
+    "runtime/near-vm-runner/src/features.rs",
+    "runtime/near-vm-runner/src/imports.rs",
+    "runtime/near-vm-runner/src/lib.rs",
     "runtime/near-vm-runner/src/logic/alt_bn128.rs",
     "runtime/near-vm-runner/src/logic/bls12381.rs",
-    "runtime/near-vm-runner/src/imports.rs",
-
-    # =================================================================================
-    # Contract preparation, instrumentation, compilation and caching
-    # =================================================================================
+    "runtime/near-vm-runner/src/logic/context.rs",
+    "runtime/near-vm-runner/src/logic/dependencies.rs",
+    "runtime/near-vm-runner/src/logic/errors.rs",
+    "runtime/near-vm-runner/src/logic/gas_counter.rs",
+    "runtime/near-vm-runner/src/logic/logic.rs",
+    "runtime/near-vm-runner/src/logic/mocks/mod.rs",
+    "runtime/near-vm-runner/src/logic/mod.rs",
+    "runtime/near-vm-runner/src/logic/recorded_storage_counter.rs",
+    "runtime/near-vm-runner/src/logic/types.rs",
+    "runtime/near-vm-runner/src/logic/utils.rs",
+    "runtime/near-vm-runner/src/logic/vmstate.rs",
     "runtime/near-vm-runner/src/prepare.rs",
+    "runtime/near-vm-runner/src/prepare/instrument_v3.rs",
     "runtime/near-vm-runner/src/prepare/prepare_v2.rs",
     "runtime/near-vm-runner/src/prepare/prepare_v3.rs",
-    "runtime/near-vm-runner/src/prepare/instrument_v3.rs",
-    "runtime/near-vm-runner/src/cache.rs",
+    "runtime/near-vm-runner/src/profile.rs",
     "runtime/near-vm-runner/src/runner.rs",
+    "runtime/near-vm-runner/src/utils.rs",
     "runtime/near-vm-runner/src/wasmtime_runner/logic.rs",
+    "runtime/near-vm-runner/src/wasmtime_runner/mod.rs",
+    "runtime/near-vm-runner/src/wasmtime_runner/trap_classification.rs",
 
     # =================================================================================
-    # Trie state mutated by attacker transactions and the recorded storage proof
+    # chain/epoch-manager
     # =================================================================================
-    "core/store/src/trie/mod.rs",
-    "core/store/src/trie/update.rs",
-    "core/store/src/trie/trie_storage_update.rs",
-    "core/store/src/trie/ops/insert_delete.rs",
-    "core/store/src/trie/ops/squash.rs",
-    "core/store/src/trie/raw_node.rs",
-    "core/store/src/trie/trie_recording.rs",
-    "core/store/src/trie/receipts_column_helper.rs",
-    "core/store/src/trie/outgoing_metadata.rs",
+    "chain/epoch-manager/src/adapter.rs",
+    "chain/epoch-manager/src/epoch_info_aggregator.rs",
+    "chain/epoch-manager/src/epoch_sync.rs",
+    "chain/epoch-manager/src/genesis.rs",
+    "chain/epoch-manager/src/lib.rs",
+    "chain/epoch-manager/src/reward_calculator.rs",
+    "chain/epoch-manager/src/shard_assignment/mod.rs",
+    "chain/epoch-manager/src/shard_assignment/sticky_resharding.rs",
+    "chain/epoch-manager/src/shard_tracker.rs",
+    "chain/epoch-manager/src/validator_selection.rs",
+    "chain/epoch-manager/src/validator_stats.rs",
 
     # =================================================================================
-    # REMOVED: runtime/near-wallet-contract/** .
-    # A wallet-contract report carrying a WORKING localnet PoC was ruled OUT OF SCOPE by
-    # the program (see submitted/out_of_scope_wallet_contract_*.md). It previously
-    # absorbed ~50% of all generated reports for zero payable output. Do not re-add.
+    # chain/chain
     # =================================================================================
+    "chain/chain/src/approval_verification.rs",
+    "chain/chain/src/backfill_receipt_to_tx.rs",
+    "chain/chain/src/block_processing_utils.rs",
+    "chain/chain/src/blocks_delay_tracker.rs",
+    "chain/chain/src/chain_update.rs",
+    "chain/chain/src/chain.rs",
+    "chain/chain/src/crypto_hash_timer.rs",
+    "chain/chain/src/doomslug.rs",
+    "chain/chain/src/flat_storage_init.rs",
+    "chain/chain/src/garbage_collection.rs",
+    "chain/chain/src/genesis.rs",
+    "chain/chain/src/lib.rs",
+    "chain/chain/src/lightclient.rs",
+    "chain/chain/src/missing_chunks.rs",
+    "chain/chain/src/orphan.rs",
+    "chain/chain/src/pending_shard_jobs.rs",
+    "chain/chain/src/pending.rs",
+    "chain/chain/src/receipt_to_tx.rs",
+    "chain/chain/src/resharding/event_type.rs",
+    "chain/chain/src/resharding/flat_storage_resharder.rs",
+    "chain/chain/src/resharding/manager.rs",
+    "chain/chain/src/resharding/mod.rs",
+    "chain/chain/src/resharding/resharding_actor.rs",
+    "chain/chain/src/resharding/trie_state_resharder.rs",
+    "chain/chain/src/resharding/types.rs",
+    "chain/chain/src/runtime/errors.rs",
+    "chain/chain/src/runtime/mod.rs",
+    "chain/chain/src/runtime/signer_overlay.rs",
+    "chain/chain/src/runtime/trie_update_wrapper.rs",
+    "chain/chain/src/sharding.rs",
+    "chain/chain/src/signature_verification.rs",
+    "chain/chain/src/spice/activation.rs",
+    "chain/chain/src/spice/all_stake_fallback.rs",
+    "chain/chain/src/spice/ancestry_endorsements.rs",
+    "chain/chain/src/spice/block_application.rs",
+    "chain/chain/src/spice/chain.rs",
+    "chain/chain/src/spice/chunk_application.rs",
+    "chain/chain/src/spice/chunk_validation.rs",
+    "chain/chain/src/spice/core_writer_actor.rs",
+    "chain/chain/src/spice/core.rs",
+    "chain/chain/src/spice/mod.rs",
+    "chain/chain/src/state_snapshot_actor.rs",
+    "chain/chain/src/state_sync/adapter.rs",
+    "chain/chain/src/state_sync/mod.rs",
+    "chain/chain/src/state_sync/state_request_tracker.rs",
+    "chain/chain/src/state_sync/utils.rs",
+    "chain/chain/src/stateless_validation/chunk_endorsement.rs",
+    "chain/chain/src/stateless_validation/chunk_validation.rs",
+    "chain/chain/src/stateless_validation/mod.rs",
+    "chain/chain/src/stateless_validation/processing_tracker.rs",
+    "chain/chain/src/stateless_validation/state_witness.rs",
+    "chain/chain/src/store_validator.rs",
+    "chain/chain/src/store_validator/validate.rs",
+    "chain/chain/src/store/mod.rs",
+    "chain/chain/src/store/utils.rs",
+    "chain/chain/src/types.rs",
+    "chain/chain/src/update_shard.rs",
+    "chain/chain/src/validate.rs",
+
+    # =================================================================================
+    # chain/chunks
+    # =================================================================================
+    "chain/chunks/src/adapter.rs",
+    "chain/chunks/src/chunk_cache.rs",
+    "chain/chunks/src/client.rs",
+    "chain/chunks/src/lib.rs",
+    "chain/chunks/src/logic.rs",
+    "chain/chunks/src/shards_manager_actor.rs",
+
+    # =================================================================================
+    # chain/chunks-primitives
+    # =================================================================================
+    "chain/chunks-primitives/src/error.rs",
+    "chain/chunks-primitives/src/lib.rs",
+
+    # =================================================================================
+    # chain/chain-primitives
+    # =================================================================================
+    "chain/chain-primitives/src/error.rs",
+    "chain/chain-primitives/src/lib.rs",
+
+    # =================================================================================
+    # chain/client
+    # =================================================================================
+    "chain/client/src/adapter.rs",
+    "chain/client/src/adversarial.rs",
+    "chain/client/src/chunk_distribution_network.rs",
+    "chain/client/src/chunk_endorsement_handler.rs",
+    "chain/client/src/chunk_inclusion_tracker.rs",
+    "chain/client/src/chunk_producer.rs",
+    "chain/client/src/client_actor.rs",
+    "chain/client/src/client.rs",
+    "chain/client/src/config_updater.rs",
+    "chain/client/src/debug.rs",
+    "chain/client/src/gc_actor.rs",
+    "chain/client/src/info.rs",
+    "chain/client/src/lib.rs",
+    "chain/client/src/pending_transaction_queue.rs",
+    "chain/client/src/prepare_transactions.rs",
+    "chain/client/src/rpc_handler.rs",
+    "chain/client/src/spice/chunk_executor_actor/coordinator.rs",
+    "chain/client/src/spice/chunk_executor_actor/mod.rs",
+    "chain/client/src/spice/chunk_executor_actor/per_shard.rs",
+    "chain/client/src/spice/chunk_executor_actor/receipt_tracker.rs",
+    "chain/client/src/spice/chunk_executor_actor/storage.rs",
+    "chain/client/src/spice/chunk_validator_actor.rs",
+    "chain/client/src/spice/data_distributor_actor.rs",
+    "chain/client/src/spice/data_manager/item.rs",
+    "chain/client/src/spice/data_manager/mod.rs",
+    "chain/client/src/spice/mod.rs",
+    "chain/client/src/spice/timer.rs",
+    "chain/client/src/state_request_actor.rs",
+    "chain/client/src/stateless_validation/chunk_endorsement.rs",
+    "chain/client/src/stateless_validation/chunk_validation_actor.rs",
+    "chain/client/src/stateless_validation/chunk_validator/mod.rs",
+    "chain/client/src/stateless_validation/chunk_validator/orphan_witness_pool.rs",
+    "chain/client/src/stateless_validation/mod.rs",
+    "chain/client/src/stateless_validation/partial_witness/encoding.rs",
+    "chain/client/src/stateless_validation/partial_witness/mod.rs",
+    "chain/client/src/stateless_validation/partial_witness/partial_deploys_tracker.rs",
+    "chain/client/src/stateless_validation/partial_witness/partial_witness_actor.rs",
+    "chain/client/src/stateless_validation/partial_witness/partial_witness_tracker.rs",
+    "chain/client/src/stateless_validation/shadow_validate.rs",
+    "chain/client/src/stateless_validation/state_witness_producer.rs",
+    "chain/client/src/stateless_validation/state_witness_tracker.rs",
+    "chain/client/src/stateless_validation/validate.rs",
+    "chain/client/src/sync_jobs_actor.rs",
+    "chain/client/src/sync/block.rs",
+    "chain/client/src/sync/epoch.rs",
+    "chain/client/src/sync/external.rs",
+    "chain/client/src/sync/handler.rs",
+    "chain/client/src/sync/header.rs",
+    "chain/client/src/sync/mod.rs",
+    "chain/client/src/sync/state/chain_requests.rs",
+    "chain/client/src/sync/state/downloader.rs",
+    "chain/client/src/sync/state/mod.rs",
+    "chain/client/src/sync/state/network.rs",
+    "chain/client/src/sync/state/shard.rs",
+    "chain/client/src/sync/state/task_tracker.rs",
+    "chain/client/src/sync/state/util.rs",
+    "chain/client/src/verified_peer_heights.rs",
+    "chain/client/src/view_client_actor.rs",
+
+    # =================================================================================
+    # chain/client-primitives
+    # =================================================================================
+    "chain/client-primitives/src/debug.rs",
+    "chain/client-primitives/src/lib.rs",
+    "chain/client-primitives/src/types.rs",
 ]
 
 
