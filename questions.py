@@ -74,11 +74,15 @@ scope_files = [
     "runtime/runtime/src/function_call.rs",
     "runtime/runtime/src/global_contracts.rs",
     "runtime/runtime/src/deterministic_account_id.rs",
-    "runtime/runtime/src/universal_account_id.rs",
     "runtime/runtime/src/adapter.rs",
     "runtime/runtime/src/pipelining.rs",
-    "core/primitives/src/universal_state_init.rs",
-    "core/primitives-core/src/universal_state_init.rs",
+    # NIGHTLY-ONLY, kept commented rather than deleted: ProtocolFeature::UniversalAccounts
+    # is version 154 and mainnet STABLE_PROTOCOL_VERSION is 87
+    # (core/primitives-core/src/version.rs:633, :678), so these are unreachable today.
+    # Re-enable them the moment UniversalAccounts stabilises.
+    # "runtime/runtime/src/universal_account_id.rs",
+    # "core/primitives/src/universal_state_init.rs",
+    # "core/primitives-core/src/universal_state_init.rs",
 
     # =================================================================================
     # Account lifecycle and per-account trie rows.
@@ -120,10 +124,15 @@ scope_files = [
     # Chunk production, admission and validation: where a produced chunk is accepted
     # or rejected. The one submission currently IN REVIEW lives in
     # chain/client/src/stateless_validation/chunk_endorsement.rs.
-    # chain/client/src/pending_transaction_queue.rs is the NEWEST, highest-churn code
-    # in the repo (Spice) and carries several unaudited double-spend claims.
+    #
+    # NOT INCLUDED: chain/client/src/pending_transaction_queue.rs and the rest of the
+    # Spice pending-transaction-queue. It is the newest, highest-churn code in the repo
+    # and looks attractive, but the whole path is gated on
+    # `#[cfg(feature = "protocol_feature_spice")]` (core/chain-configs/src/client_config.rs
+    # :880-885), and `protocol_feature_spice = []` is a standalone opt-in that neither
+    # `default` nor `nightly` enables. It is unreachable on mainnet, so findings there
+    # are not payable. Churn is not reachability - check the feature gate first.
     # =================================================================================
-    "chain/client/src/pending_transaction_queue.rs",
     "chain/client/src/chunk_producer.rs",
     "chain/client/src/rpc_handler.rs",
     "chain/client/src/stateless_validation/chunk_endorsement.rs",
@@ -183,21 +192,63 @@ scope_files = [
 
 
 target_scopes = [
-    "Critical. An unprivileged signer gets an action executed against an account it does not control, because signature binding, nonce/access-key lookup, FunctionCall access-key method/receiver/allowance restrictions, or DelegateAction relaying let the receiver, predecessor, or signer identity be forged, letting the attacker transfer, deploy, add keys to, or delete the victim's account without the victim's key.",
-    "Critical. An unprivileged sender breaks NEAR balance conservation inside one chunk, minting or destroying tokens through gas refund computation, deposit refunds on failed actions, delete-account beneficiary transfer, locked/staked balance accounting, or storage-staking checks, inflating total supply or permanently reducing another account's balance.",
-    "Critical. An unprivileged sender gets one transaction, receipt, or DelegateAction applied twice, by defeating access-key nonce monotonicity, transaction-hash uniqueness, delegate nonce/max_block_height checks, or receipt-id and implicit/deterministic account-id derivation, double-spending the attached deposit.",
-    "Critical. An unprivileged sender crafts a transaction or contract whose chunk application is nondeterministic across nodes (compiled-contract cache reuse, host-call output depending on node-local state, float/NaN or iteration-order dependence, protocol-version-gated branch, wasm compilation differences), producing divergent state roots or gas burnt and an unintended permanent chain split.",
-    "Critical. An unprivileged sender lands a single transaction or receipt that panics, aborts, overflows, or fails to terminate on the chunk apply path, so every node processing that shard crashes or the shard stalls permanently and requires human intervention to recover.",
-    "Critical. An unprivileged sender permanently freezes funds: an account's tokens or a cross-shard receipt become unrecoverable because a receipt is stuck forever in the delayed, postponed, yield, or outgoing buffer queue, storage_usage underflow or overflow blocks every future action on the account, or a promise/yield resume path drops the value transfer.",
-    "Critical. An attacker-deployed contract escapes its sandbox through near-vm-runner host logic, reading or writing guest memory out of bounds, reusing or forging registers, or building a promise batch that attaches predecessor/signer privileges or gas the caller never held, letting it act as another account and steal from contracts holding user funds.",
-    "Critical. ACCOUNT-LIFECYCLE CLEANUP ASYMMETRY. State keyed by an account NAME survives that account's deletion and is inherited by a re-created account of the same name, because the teardown path clears only some of the per-account trie rows that the creation and mutation paths write. Enumerate every account-scoped TrieKey variant and diff the set written against the set cleared by remove_account; a survivor that is later delivered with predecessor_id == receiver_id passes check_actor_permissions and carries owner privilege. This pattern produced the only submission accepted so far.",
-    "Critical. SEED-VERSUS-BOUND COLLISION. A value re-initialised from block height, epoch, or an index lands INSIDE the window of values already consumed under the old instance, rather than strictly above it, so a previously used nonce, id, or sequence number becomes valid again. Compare every re-initialisation constant against the admission bound enforced elsewhere and check whether the reseed dominates or merely re-enters the live range. This pattern produced confirmed finding F4.",
-    "High. TWO WRITERS, ONE KEY SPACE. Two code paths write per-account amounts into one map, counter, or accumulator with a last-write-wins operation such as HashMap::insert, while a separately computed total counts both contributions. When one account satisfies both roles the map and the total silently disagree, minting or destroying value that no reconciliation pass ever notices. This pattern produced confirmed finding F5.",
-    "High. A GUARD WHOSE COMPENSATING BRANCH IS WRONG. One site skips work because a comment or an invariant asserts another site already did it, but that other site does not, cannot, or no longer does. Read the skipped branch and the branch it defers to together and verify the handoff actually happens rather than trusting the comment. This is how F5 escaped detection despite existing tests.",
-    "High. An unprivileged sender performs work far exceeding the gas burnt, through host-function metering, wasm instruction instrumentation, contract preparation and compilation charged after the work is done, storage read/write and recorded-proof accounting, or prepaid/attached gas arithmetic, obtaining near-free execution and blowing up block application time.",
-    "High. An unprivileged sender makes a produced chunk exceed a validation limit, driving recorded storage-proof size, outgoing receipt size, or per-receipt action limits past what the receiving validators accept, so the chunk cannot be validated and the shard stalls.",
-    "High. An unprivileged sender abuses cross-shard flow control, manipulating congestion info, delayed/buffered receipt accounting, or bandwidth-scheduler grant allocation so its own receipts are admitted while a target shard is starved or held congested, denying cross-shard service to other users.",
-    "High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct mechanisms (global or deterministic contract deployment vs the compiled-contract cache, yield-resume vs the delayed receipt queue, resharding trie split vs buffered receipts and congestion state, universal account init vs implicit account derivation, meta-transaction relaying vs access-key allowance refunds, storage staking vs state resizing mid-receipt) where each side's assumption holds alone but their composition breaks balance conservation, determinism, or authorization.",
+    # ---------------------------------------------------------------------------------
+    # EVERY scope below maps to a VERBATIM in-scope impact from the program page:
+    #   "Stealing or loss of funds" | "Unauthorized transaction" | "Transaction
+    #   manipulation" | "Fee payment bypass" | "Balance manipulation" | "Contracts
+    #   execution flows" | "Consensus flaws" | "Cryptographic flaws"
+    # There is NO liveness, DoS, throughput, starvation or resource-exhaustion category.
+    # "Network-level DoS" is explicitly OUT OF SCOPE. A report that cannot name one of
+    # the strings above cannot be paid, however real it is.
+    #
+    # THE BAR, verbatim from the program: "It is not third-party theft from an account
+    # that has not authorised the rotation, and that is the bar this program applies."
+    # Every scope names a VICTIM WHO SIGNED NOTHING and an ATTACKER WHO GAINS.
+    #
+    # BANNED, do not generate under any scope: nonce / sequence / replay / re-execution
+    # (closed class, "do not resubmit variants"), and anything framed as unbounded growth,
+    # starvation, queue delay, throughput denial, or resource exhaustion.
+    # ---------------------------------------------------------------------------------
+
+    "Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.",
+
+    "Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.",
+
+    "Critical. STEALING - VALUE ROUTED TO AN ATTACKER-CHOSEN RECIPIENT. Maps to \"Stealing or loss of funds\". A refund, beneficiary transfer, gas-key credit, or resumed-promise payout is addressed by a key the attacker can occupy at delivery time rather than by the identity that funded it. Enumerate every construction of a value-bearing receipt and ask what an attacker must control to become its recipient. The victim must be the original payee, not the attacker.",
+
+    "Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.",
+
+    "Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.",
+
+    "Critical. BALANCE MANIPULATION - A TOTAL AND ITS PARTS COMPUTED FROM DIFFERENT INPUTS. Maps to \"Balance manipulation\". One quantity is aggregated over a set at one site and re-derived over a different set, ordering, or configuration at another, so the two disagree for inputs an unprivileged sender shapes. Name both computations in the question and assert equality in one test. Exclude the epoch reward calculator, which is already mined out.",
+
+    "Critical. UNAUTHORIZED TRANSACTION - SIGNED PAYLOAD VALID IN A CONTEXT IT WAS NOT SIGNED FOR. Maps to \"Unauthorized transaction\" and \"Cryptographic flaws\". Diff the exact byte range covered by the signature against every field the executor subsequently trusts. A discriminator the executor reads but the signature omits - an enum variant tag, a version byte, a receiver, a shard or chain identifier - lets a relayer or observer redirect an authorisation the signer gave for something else. Nonce fields are OUT: that class is closed.",
+
+    "Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.",
+
+    "Critical. TRANSACTION MANIPULATION - EXECUTED ACTION DIFFERS FROM THE AUTHORISED ONE. Maps to \"Transaction manipulation\". Between the point where an action is validated or signed and the point where it executes, a field is normalised, re-encoded, defaulted, truncated, or re-parsed, so the executed action is not the authorised one. Target every borsh round-trip, every From/Into between action representations, and every versioned-enum conversion on the path from SignedTransaction to apply_action.",
+
+    "High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.",
+
+    "High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.",
+
+    "Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.",
+
+    "Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.",
+
+    "Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.",
+
+    "Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.",
+
+    "High. CONTRACTS EXECUTION FLOWS - SANDBOX AND HOST-FUNCTION BOUNDARY. Maps to \"Contracts execution flows\". An attacker-deployed contract reads or writes outside its guest memory, forges or reuses a register, or observes host state it should not, via near-vm-runner logic. Target the length, offset, and register arguments of every host function against the bounds actually enforced, and name the third-party contract whose funds the escape reaches.",
+
+    "High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.",
+
+    "High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.",
+
+    "High. STEALING - STORAGE STAKING AS A VALUE LEVER. Maps to \"Stealing or loss of funds\" and \"Balance manipulation\". Storage staking converts state size into locked balance, so any path where an attacker changes a THIRD PARTY's storage_usage, or where a size charged differs from the size stored, moves that account's spendable balance without its consent. Compare every storage_usage mutation against the bytes actually written, and every refund of storage against the bytes actually freed.",
+
+    "High. UNMODELLED COMPOSITION OF TWO CORRECT MECHANISMS. Must still name a verbatim impact category. Each side holds alone and the interaction was never specified: global or deterministic deployment against the compiled-contract cache, storage staking against state that resizes mid-receipt, meta-transaction relaying against refund routing, promise data matching against cross-shard ordering, gas keys against fee accounting. State both mechanisms' assumptions explicitly, then name the sequence in which they contradict and the funds that move.",
 ]
 
 
@@ -207,9 +258,8 @@ scope_scan = [
 
 def question_generator(target_file: str) -> str:
     """
-    Generate exploit-focused audit and fuzzing questions for one nearcore target.
+    Generate exploit-focused audit questions for one nearcore target.
 
-    ```
     target_file format:
     "'File Name: runtime/runtime/src/actions.rs -> Scope: Critical. ...'"
     """
@@ -221,75 +271,151 @@ def question_generator(target_file: str) -> str:
 
     {target_file}
 
-    Project focus:
-    nearcore is the NEAR Protocol reference client. Focus on what a transaction submitted by any internet client reaches: transaction and receipt validation, access keys and nonces, meta-transactions (DelegateAction), action execution and balance/refund accounting, account creation and DELETION together with every per-account trie row, storage staking, cross-shard receipts with congestion control and the bandwidth scheduler, trie state and recorded storage proofs, near-vm-runner host functions, gas metering, contract preparation and caching, epoch reward and inflation accounting, and chunk admission and validation. The eth-implicit wallet contract is OUT OF SCOPE and must never be targeted.
+    nearcore is the NEAR Protocol reference client. Reachable surface: transaction and
+    receipt validation, access keys, meta-transactions, action execution and balance/refund
+    accounting, account creation and deletion, storage staking, cross-shard receipts,
+    congestion and bandwidth, trie state and recorded storage proofs, near-vm-runner host
+    functions, gas metering, contract preparation and caching, global and deterministic
+    contracts, epoch reward accounting, chunk admission and validation.
 
-    Rules:
-    * Treat `File Name:` as the exact file/module.
-    * Treat `Scope:` as the ONLY impact to target.
-    * Assume full repo context is accessible.
-    * Do not ask for code or say anything is missing.
-    * Use exact Rust symbols (fn, method, struct, field, const) when possible.
-    * Attacker is unprivileged only: an ordinary client that funds a NEAR account, signs and submits transactions to a public RPC endpoint, deploys its own wasm contract, relays meta-transactions, and fully controls action arguments, deposits, attached gas, contract bytecode, and contract call arguments.
-    * Attacker is NOT a validator, block or chunk producer, chunk validator, node or RPC operator, or network peer. Ignore malicious-node, malicious-peer, gossip/network-layer, state-sync, and social-engineering assumptions.
-    * Epoch reward, inflation and chunk-validation code IS in scope, but only for defects an unprivileged sender or an ordinary configuration reaches - never for attacks that require the attacker to BE a validator or chunk producer. A supply-accounting error at an epoch boundary counts; forging an endorsement does not.
-    * Ignore tests, benches, mocks, fuzz harnesses, docs, generated files, params estimator, sandbox/test-only features, CLI and config, indexer and tooling, and dependency-only issues.
-    * Only consider paths reachable under the current mainnet protocol version and default feature set.
-    * Every question must be a concrete real-world scenario an unprivileged sender can perform on mainnet. No speculative "unbounded memory/allocation" or resource-hygiene questions unless the scope explicitly targets gas or size accounting.
-    * Generate 30 to 40 high-signal questions.
-    * At least 70% must target theft or permanent freezing of funds, token minting or destruction, double-spend or replay, authorization escalation across accounts or promises, state-root divergence and chain split, or an apply-path panic that halts a shard.
-    * Every question must be testable by a Rust unit test, a runtime/apply or test-loop integration test, or a differential/table test.
-    * Avoid generic checklist questions and repeated root causes.
-    * Prefer questions that name TWO code sites and ask whether they agree: a writer and
-      its cleanup, a total and its per-account breakdown, a re-initialisation and the
-      bound that admits values, a guard and the branch it defers to. Every finding
-      confirmed in this repo so far had that shape, and every refuted cluster came from
-      reading one site alone.
-    * Prefer a question whose disagreement can be asserted numerically in one test
-      (sum of parts equals total, reseeded value exceeds every consumed value, set of
-      keys written equals set of keys cleared) over a narrative question.
+    ATTACKER: an ordinary client. Funds an account, signs and submits transactions to a
+    public RPC, deploys its own wasm, relays meta-transactions, fully controls action
+    arguments, deposits, attached gas, bytecode and call arguments. NOT a validator, chunk
+    producer, chunk validator, node/RPC operator or network peer. Ignore malicious-node,
+    gossip, network-layer, state-sync and social-engineering premises. Epoch reward and
+    chunk-validation code is in scope only for defects an unprivileged sender reaches.
 
+    THREE HARD FILTERS - a question failing any one is discarded regardless of merit.
 
-    Known dead ends - do NOT generate questions about these. Each was audited to a cited
-    conclusion and rejected; regenerating them wastes the whole batch:
-    * DeleteAccount to a non-existent or self beneficiary "burning" the balance. Intended
-      and documented at runtime/runtime/src/actions.rs:895-898; the beneficiary is chosen
-      by the account owner and no attacker influences it.
-    * action_delete_account burning Account.locked (staked) balance. Unreachable:
-      check_actor_permissions rejects DeleteAccount with DeleteAccountStaking whenever
-      locked is non-zero.
-    * AddressRegistrar::register keeping excess deposit, and any wallet-contract issue.
-      Out of scope.
-    * DelegateAction lacking chain_id / genesis_hash binding (cross-network replay).
-      Already known and already submitted.
-    * Duplicate entries in ActionReceipt::input_data_ids desyncing PendingDataCount. The
-      desync is real but unreachable: ext.rs mints a fresh data_id per dependency from a
-      monotonic counter, so promise_and cannot produce duplicates.
-    * Outgoing receipts being forwarded, or validator proposals surviving, after a
-      receipt-level failure. ActionResult::set_error clears both and every action routes
-      through merge.
-    * Unbounded minting via the subsidized_amount skip-deduct path. Capped at 1 yoctoNEAR
-      per call and reconciled out of total_balance_burnt in chain/chain/src/runtime/mod.rs.
-    * The gas-key nonce prefetch cache going stale within a chunk. It is written back
-      immediately after set_gas_key_nonce.
-    * Anything whose only "attacker" is the account owner harming their own account, with
-      no third party and no protocol invariant broken.
+    1. VICTIM WHO SIGNED NOTHING. The program's stated bar, verbatim: "It is not
+       third-party theft from an account that has not authorised the rotation, and that is
+       the bar this program applies." Name (a) a victim who signed nothing enabling the
+       attack and (b) an attacker who ends with value or authority not already theirs. If
+       the only injured party is the account owner acting on their own account, it is a
+       footgun - a PoC-perfect report of exactly that shape was closed Informative.
 
-    Core invariants:
-    * Authorization exactness: only the transaction signer's own account is acted on, access-key permissions and delegate limits are never widened, and a promise never carries privileges its creator did not hold.
-    * Value conservation: total supply changes only by declared fees, gas burnt, refunds, and inflation; no transaction or receipt executes twice.
-    * Determinism: the same pre-state and chunk produce identical post state root, gas burnt, and outgoing receipts on every node.
-    * Metering totality: every wasm instruction, host call, byte written, and recorded storage-proof byte is charged and bounded before it is consumed.
-    * Liveness: no attacker input reaches a panic, overflow, or non-terminating loop on the apply path, and every receipt eventually resolves.
+    2. NAME A VERBATIM PAID CATEGORY, one of exactly these: "Stealing or loss of funds",
+       "Unauthorized transaction", "Transaction manipulation", "Fee payment bypass",
+       "Balance manipulation", "Contracts execution flows", "Consensus flaws",
+       "Cryptographic flaws". There is NO liveness or DoS category and "Network-level DoS"
+       is out of scope. If none fits, drop the question.
 
-    Each question must include:
-    1. target function/method;
-    2. attacker action (a concrete transaction, action, or contract call);
-    3. preconditions (funded account, deployed contract, account state);
-    4. transaction/receipt sequence;
-    5. invariant tested;
-    6. scoped impact;
-    7. proof idea.
+    3. NOT A BANNED CLASS:
+       (a) NONCE / SEQUENCE / REPLAY / DOUBLE-EXECUTION in any form - nonce monotonicity or
+           reseeding, tx-hash uniqueness, delegate max_block_height, anything executing
+           twice. Closed as Informative: "please do not resubmit variants of this class".
+       (b) UNBOUNDED / STARVATION / EXHAUSTION framing - unbounded growth or allocation,
+           state bloat, queue or phase starvation, throughput denial. If the harm is "it
+           gets slower", "it grows without bound" or "the queue never drains", it is
+           unpayable. A DETERMINISTIC ABORT halting a shard IS allowed, but name the exact
+           panicking expression and frame it as a consensus abort, never as exhaustion.
+
+    QUESTION QUALITY:
+    * Treat `File Name:` as the exact file/module and `Scope:` as the ONLY impact to target.
+    * Use exact Rust symbols (fn, method, struct, field, const). Assume full repo context.
+    * Prefer questions naming TWO code sites and asking whether they agree: a writer and its
+      cleanup, a total and its per-account breakdown, a validator and the executor it feeds,
+      a guard and the branch it defers to. Every finding ever confirmed here had that shape;
+      every refuted cluster came from reading one site alone.
+    * Prefer a disagreement assertable numerically in one test (sum of parts equals total,
+      keys written equals keys cleared, fee charged equals work consumed) over narrative.
+    * Before claiming the runtime mishandles a value, check whether action_validation.rs
+      already makes that value unconstructible - validation runs first, and three separate
+      report clusters described the execution layer correctly and were still wrong for this.
+    * Never assert a limit from parameters.yaml (cumulative overlays); phrase so it resolves
+      through RuntimeConfigStore at PROTOCOL_VERSION.
+    * A defect that is shallow from one function, in a core file, and years old is probably
+      already filed. Prefer compositions of two or three sites, or low-traffic regions.
+    * Ignore tests, benches, mocks, fuzz harnesses, docs, generated files, params estimator,
+      sandbox/test-only features, CLI/config, indexer, tooling, dependency-only issues.
+    * Only paths reachable at mainnet STABLE_PROTOCOL_VERSION = 87 with default features.
+    * Every question testable by a Rust unit test, a runtime/apply or test-loop integration
+      test, or a differential/table test. Avoid generic checklists and repeated root causes.
+    * Generate 40 to 80 questions. At least 80% must target theft of a third party's funds,
+      permanent irrecoverable loss, token minting or destruction, authorization escalation
+      across accounts or promises, fee payment bypass, state-root divergence or
+      producer/validator disagreement, or a deterministic apply-path abort.
+
+    DEAD ENDS - each already audited to a cited conclusion across 1328 adjudicated reports.
+    Regenerating any of these wastes the batch.
+
+    Exhausted seams (produced every finding this audit confirmed; all now closed):
+    * Account-name reuse after DeleteAccount - any state keyed by account name surviving
+      remove_account and inherited by a re-created account. Filed and CLOSED.
+    * Nonce reseeding into an already-consumed window. CLOSED AS INFORMATIVE.
+    * Two writers into one key space with a separately computed total (reward
+      distribution HashMap::insert). Needs treasury == staked validator; impossible on
+      mainnet.
+
+    Known in-tree - an issue number or named ProtocolFeature already covers it:
+    * Receipts exceeding max_receipt_size via output_data_receivers appended after
+      validation, and all try_forward / bandwidth-request consequences. Issue 12606; the
+      size clamp is the deliberate mitigation.
+    * Contract-loading fee charged after the work / computed on source bytes.
+      FixContractLoadingCost. * ML-DSA compute charged to the wrong shard.
+      FixMlDsaCostCharging. * WithdrawFromGasKey nested in a DelegateAction.
+      RejectWithdrawFromGasKeyInDelegate (live at 87). * 2000-byte removal charge not
+      refunded on rollback. Issue 10890, deliberate safe-direction upper bound.
+    * Resharding x congestion-control integration. dynamic_resharding.md TODOs 11-12.
+    * CongestionInfo underflow -> panic. TODO(#2152), deliberate fail-fast.
+    * DelegateAction lacking chain_id / genesis_hash binding. Already submitted.
+
+    Prevented by a guard one frame away - the state is unconstructible:
+    * Gas key with a FunctionCallPermission allowance (action_validation.rs:349 rejects it);
+      attacker-supplied GasKeyInfo.balance (:364); gas key on the account-funded path
+      (verifier.rs:284-290); refund reaching panic!("must be implicit") (lib.rs:551);
+      alt_bn128 G2 subgroup check (inside zeropool-bn: AffineG::new runs subgroup_check and
+      G2Params::check_order() is true); action_create_account overwriting an account or
+      CreateAccount hijacking an implicit id (check_account_existence); third party
+      overwriting a GlobalContractIdentifier (actions.rs:759-772); duplicate input_data_ids
+      (ext.rs mints fresh ids); multiple Delegates inflating fees
+      (DelegateActionMustBeOnlyOne, action_validation.rs:98-111); total_send_fees using the
+      outer sender_is_receiver (config.rs:335 uses the inner); unmetered O(num_nonces)
+      writes in add_gas_key (fee multiplies by num_nonces, capped 1024).
+
+    Receipt unwind is atomic - stop proposing double refunds, phantom accounts or surviving
+    side effects after a failed action:
+    * set_error (lib.rs:488-493) clears new_receipts, validator_proposals, tokens_burnt,
+      subsidized_amount. * A failed receipt calls state_update.rollback() (lib.rs:1045) and
+      TrieUpdate::rollback (update.rs:225-228) clears the ENTIRE prospective write set,
+      including direct writes like set_access_key. * lib.rs:1262 makes the inline and
+      receipt-level deposit refunds mutually exclusive.
+
+    Unreachable configuration - resolve via RuntimeConfigStore, never parameters.yaml:
+    * prepare_v2 anything (at 87 vm_kind == Wasmtime, so prepare_v3 always runs).
+    * prepare_v3 duplicate Import/Export sections (gated on !discard_custom_sections, which
+      is true). * Any feature above 87: FixContractLoadingCost 129, ShuffleShardAssignments
+      143, EarlyKickout 152, FixMlDsaCostCharging 153, UniversalAccounts 154 (so all `0u` /
+      UniversalStateInit paths), Spice 180. DelegateV2 landed at 85 but RejectDelegateV2
+      disables it at 87. * Any defect whose only window is a version BELOW 87.
+    * The Spice pending-transaction-queue (non-default protocol_feature_spice cfg).
+
+    Not consensus - a bypass only means a tx reaches a chunk then fails, burning the
+    sender's own fee:
+    * chain/client/src/pending_transaction_queue.rs entirely and every PendingConstraints
+      rule. verifier.rs:307-309 and :486-489 both state pending constraints are zero on the
+      consensus path and the RPC path "does not affect consensus".
+    * rpc_handler.rs admission accounting. * Node-local I/O failures (contract cache
+      sync_data): not attacker-controlled, degrades one operator.
+
+    Fails the bar - real behaviour, no non-consenting victim:
+    * Anything whose only injured party is the account owner on their own account (allowance
+      refund landing on a re-added key, gas-key refund lost on re-add, deposit burned by an
+      owner-chosen beneficiary). AddKey/DeleteKey are owner-only.
+    * DeleteAccount to a self/nonexistent beneficiary (intended, actions.rs:895-898).
+    * Burning locked stake on delete (check_actor_permissions rejects it).
+    * The 1-yoctoNEAR subsidised skip-deduct path (intended, capped, tracked, and loses ~19
+      orders of magnitude in gas). * Any wallet-contract issue - out of scope by ruling.
+
+    Invariants to assert against: authorization exactness (only the signer's account is
+    acted on; permissions never widen; a promise never carries privileges its creator
+    lacked); value conservation (supply changes only by declared fees, gas burnt, refunds,
+    inflation); determinism (same pre-state and chunk produce identical post-root, gas burnt
+    and outgoing receipts everywhere); metering totality (every instruction, host call, byte
+    written and recorded-proof byte charged and bounded before consumption).
+
+    Each question must include: target fn/method; attacker action; preconditions;
+    transaction/receipt sequence; invariant tested; scoped impact; proof idea.
 
     Output only valid Python. No markdown. No explanations.
 
