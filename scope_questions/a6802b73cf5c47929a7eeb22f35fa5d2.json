@@ -148,5 +148,155 @@
     "question": "'File Name: core/store/src/trie/outgoing_metadata.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
     "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5184b6f1-4baf-4e82-aac9-7dbc0d9362ca?mode=deep",
     "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/arena/hybrid.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d9c2990a-6a91-46bc-9b81-5434969e7da1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/arena/mod.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d3c046b5-3ee9-40d1-b8a5-38c91d7d08b5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/arena/single_thread.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_89b2e674-676b-44c7-a077-e92101123f9d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/construction.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e77754a0-cabb-4f9d-a3e7-23ec9d0f4442?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/flexible_data/children.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80ac54b4-2a94-4aeb-88ed-752cea9e5da6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/flexible_data/encoding.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_05ec7209-f312-4cf4-9f27-ba20b189136c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/flexible_data/extension.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f7bcc96-d689-4ef6-ba5f-89857e6aa7a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/flexible_data/mod.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4f69fdea-47f2-42fe-9ea1-b11295df98ea?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/flexible_data/value.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_abb6cb53-e9f5-498e-82c5-fc0d9805be9b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/freelist.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_15195a57-915c-4e58-ae36-711aed036b9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/iter.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2643ac7f-20de-461a-a949-195697580da0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/loading.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b026942f-1a01-413d-a199-1e9c9730266d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/lookup.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_70cdb6b0-445b-4d40-acec-c0f84ab4a38a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/memtrie_update.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e9629498-9aac-4036-911f-4e0df55b6db1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/memtries.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3a68ba3f-ff41-411d-8a46-0a296183b8c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/mod.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_119486f6-4494-421e-a8fe-03f1e9cdc9a7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/nibbles_utils.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_712c073f-d3d4-4501-871f-fa6f75e5583a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/node/encoding.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5ab71178-8f29-4295-ae1a-2ac6a9919b0b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/node/mod.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_73494a5e-ebae-4e4e-9fe4-9c75c908ceeb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/node/view.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bb36f178-de4e-4458-b980-ad9052b154b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/parallel_loader.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e77c8d3b-5443-4f13-9c41-0f767728f112?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mod.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f48d1c7-abda-4290-b90d-9c6831b20a24?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/nibble_slice.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_43ae5061-b4ed-4a67-857f-d79529033121?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/insert_delete.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b70d540f-ce3a-4af2-a18b-08753b6beaa2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/interface.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e0cb16c-1f1a-4fc4-974f-59c17c1a7952?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/iter.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9cca9895-5a71-49d4-aec4-9b05716c27d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/mod.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6b974dd9-3a44-4ccb-8861-f058483f5d98?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/resharding.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_059a2542-09cf-4bf3-8e9f-ab12e178dc81?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/squash.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92a34eda-5f1c-41e5-9d07-63545a46e626?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/outgoing_metadata.rs -> Scope: Critical. UNAUTHORIZED TRANSACTION - ACCESS-KEY PERMISSION WIDENING. Maps to \"Unauthorized transaction\". A FunctionCall access key granted to a third party reaches a receiver, method, or deposit outside its declared permission, because the permission is checked against one representation of the action and executed from another, or because a wrapping construct re-enters the executor without re-checking. Victim: the account owner who delegated a deliberately narrow key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1cfe7826-cdd5-4fd6-98f8-bb3399294527?mode=deep",
+    "questions_generated": false
   }
 ]
