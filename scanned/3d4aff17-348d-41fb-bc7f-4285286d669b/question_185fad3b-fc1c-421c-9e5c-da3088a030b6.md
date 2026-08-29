@@ -1,0 +1,1 @@
+)`, distinguishing from mere exhaustion since it is a deterministic double-invocation bug, not unbounded growth. Proof idea: unit test invoking get_contract twice with the same receipt+action_index against a submitted task and asserting no panic under any legitimate retry path (e.g., a receipt reprocessed after ReceiptStorageProofSizeExceeded rollback).

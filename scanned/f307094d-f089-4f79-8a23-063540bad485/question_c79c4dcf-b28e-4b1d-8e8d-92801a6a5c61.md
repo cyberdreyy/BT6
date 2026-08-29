@@ -1,0 +1,1 @@
++ suffix) reconstructing TrieKey byte prefixes, and assert trie_key_parsers::get_raw_prefix_for_access_keys(&account_id) prefixes are self-delimiting (length-prefixed) so no account_id can forge another's prefix - already partially covered by test_view_access_keys_excludes_other_accounts (access_keys.rs:828-860), extend to gas-key nonce keys specifically.]
