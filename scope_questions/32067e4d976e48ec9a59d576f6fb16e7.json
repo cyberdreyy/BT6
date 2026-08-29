@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare/instrument_v3.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_faab78ca-ead3-4fb7-b1dc-bb98703cc5b9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare/prepare_v2.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9db3a16e-c9b7-467d-8394-a896d7eed704?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare/prepare_v3.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_469a360a-c5d5-455d-ab30-8148fab3a833?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/profile.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6d7b9cf6-62ce-4be9-afa6-002ff757065c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/runner.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_94352991-bd8d-4e14-9275-ce354e6ee325?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/utils.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ee47b53e-8af7-47a3-a2eb-0d8521786036?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/wasmtime_runner/logic.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_207d3215-62c8-463f-80b9-cd43339179ac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/wasmtime_runner/mod.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_21f04bc0-f911-4939-ae4f-4bb8954e5b91?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/wasmtime_runner/trap_classification.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_40f7c46a-75f7-4694-92a5-e2438c37ee6c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/adapter.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d5295f20-70fb-411e-a893-688d023ba8fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/epoch_info_aggregator.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_16fa8b91-d56b-4636-a2f8-182cd68cdbd8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/epoch_sync.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aebf709a-6593-444a-ab2e-796b019a44d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/genesis.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_96800e47-6eda-4449-947f-7a237ab60f8a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/lib.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e814e8bf-3cfb-4d4c-9fa9-8a14f8a1bd02?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/reward_calculator.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6b33b3eb-d974-45db-8698-8ddcf4dae17b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/shard_assignment/mod.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a8623260-1e11-401f-9482-d298ee516a28?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/shard_assignment/sticky_resharding.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f62599fc-2659-4701-8ff4-e3cb5c0639a2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/shard_tracker.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f3f18140-c4e6-4d47-b32b-8bbcd647afc7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/validator_selection.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0d1fb0ce-0bfb-4004-85c3-5822c8f0fd97?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/validator_stats.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7f0732f4-7ec5-4b11-b457-2fabaea75518?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/approval_verification.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a0674408-eea7-44b5-be3c-88dd0c4a04d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/backfill_receipt_to_tx.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d48fbd65-a5f0-4802-9906-181a303a826e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/block_processing_utils.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cc98657d-bab9-411e-bb2a-8bae18199e09?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/blocks_delay_tracker.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1b57ae07-771c-462d-b934-3cb697beeb22?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/chain_update.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0b730888-b2af-426a-ac17-e58d48b6d742?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/chain.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_51afb9c5-c8de-4c76-a3f6-21efc2ad4298?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/crypto_hash_timer.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4b3cd68d-8a5e-49d6-9c8a-6b131681643b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/doomslug.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0a81d3f4-1cca-427f-8eed-cf69bed89ee3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/flat_storage_init.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ad254f16-7702-48dd-a4b3-7d70b6ba6624?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/garbage_collection.rs -> Scope: High. FEE PAYMENT BYPASS - COST COMPUTED ON THE WRONG QUANTITY. Maps to \"Fee payment bypass\". A fee is derived from a quantity that an attacker can make arbitrarily smaller than what is actually consumed: declared length versus bytes traversed, source size versus expanded size, item count versus per-item cost, a cached measurement versus the live one. Assert the ratio an attacker can achieve, with numbers.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c69ef75e-aa82-433c-a354-d6888707de94?mode=deep",
+    "questions_generated": false
+  }
+]
