@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/store/src/db/colddb.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_647a4972-fbae-499a-a365-6809eb18963c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/db/metadata.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0901f3bb-a098-4bae-8e26-4633ffbf6145?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/db/mixeddb.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dc463afd-dc8e-4fa2-be8d-256220721936?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/db/mod.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e657ce6-fdd2-4b95-a684-afb64d8b4fde?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/db/recoverydb.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_85a905d0-8963-4f04-811d-6e28d0a2a09c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/db/refcount.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_da63b5c3-3a66-4274-8506-91a27e83b7bc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/db/slice.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2f3a0453-2042-4eba-9d93-8277a55e48bf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/db/splitdb.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_99245499-eec0-461b-a515-67bf2b86dde3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/deserialized_column.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c83d396e-2197-45d5-9d4b-28914e987917?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/flat/chunk_view.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_18fcb9dd-dc15-4391-9339-f11441861a9a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/flat/delta.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92c845d3-590d-4130-852f-66831fb1fceb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/flat/manager.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aa92cfba-ccf4-4c2c-be4a-8d5679915a70?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/flat/mod.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_81944910-6776-493e-8d50-d7fcbfcef6fc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/flat/storage.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_57334509-1b6c-4f46-9996-d1641443461c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/flat/types.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d751d298-52d6-493d-94f8-c1ede9f85366?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/genesis/initialization.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_33bf1cac-4ded-4b6b-a608-941c1a5aed64?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/genesis/mod.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5888d7ba-3e56-4be3-962a-44d605adeac7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/genesis/state_applier.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7df31154-053e-4be6-bb78-afd896451d31?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/lib.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ce58608a-88c2-4897-83af-3b7cffc4ac48?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/merkle_proof.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ca330d4d-62d7-4654-b2f1-4caaf9e5b2f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/metrics/mod.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ee3d2e5c-2247-4fbf-9f7a-1da04979b482?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/node_storage/mod.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fb5bbd96-9fc1-47ae-9b8c-869898dedd80?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/spice_proof_verifier.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7d8c81fc-9f60-41a8-bc23-2b6861064246?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/store.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4c50ef53-210c-472d-8234-0dba83c382d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/config.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3d01a6ee-fba5-40eb-8670-1317512054f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/from_flat.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_746d0640-b4fb-4821-8866-5baf443e96ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/iterator.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5250da24-609c-465a-b80f-456fe7479805?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/arena/alloc.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b23efa9e-8cd2-41e6-89a7-af5ce976abd3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/arena/concurrent.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_699a440f-20b9-444b-8823-7803884caf07?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/arena/frozen.rs -> Scope: Critical. CRYPTOGRAPHIC FLAW - VERIFICATION SCOPE OR PRIMITIVE MISUSE. Maps to \"Cryptographic flaws\". A signature, hash, or key-derivation primitive is used outside the assumptions that make it sound: a verifier that accepts more than one encoding of the same authorisation, a hash whose preimage an attacker can steer to collide across two type domains, a key recovered rather than checked, or a curve or subgroup assumption enforced in one call path and not its sibling. Verify inside the dependency crate before claiming a check is absent.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f86ddfe-1a63-468b-8d43-ef0fb5f698d4?mode=deep",
+    "questions_generated": false
+  }
+]
