@@ -1,0 +1,147 @@
+[
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b0e37a3-6db4-4e93-a042-8396fa9c1eed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/partial_witness/encoding.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eb5e015e-1964-4a3f-88a7-99a5761c91cc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/partial_witness/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_58578183-7dc9-49db-904e-e3166bb73605?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/partial_witness/partial_deploys_tracker.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_409509db-110c-4a96-8b98-bde09cd37f6c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/partial_witness/partial_witness_actor.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a8d7cde6-d49f-4af0-b7ec-7619c69ceb69?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/partial_witness/partial_witness_tracker.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8a7dff5f-5ab2-404e-a970-8843c1bff538?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/shadow_validate.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_040a0fe5-0b8c-4da5-8ad6-46c1c1f71f7f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/state_witness_producer.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_398c794a-9709-403b-9ac0-b2ba2074e382?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/state_witness_tracker.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80dcd42b-6bd8-44a0-abc0-a8fc75c34473?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/validate.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e815a17d-4e0b-4ea9-b6ff-c9560593eefa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync_jobs_actor.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6ba0c45e-3164-4b74-a1bf-bd7f770228a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync/block.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_09ac8339-908d-4a79-b1b9-1cd66a5cc38a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync/epoch.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c9ff5e56-9d15-418f-9d7e-4b207ac10306?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync/external.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0c314d6a-a281-4dc7-8216-cd8d01b97961?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync/handler.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e19f88a9-ca72-46a9-9cd4-54fd594e9cae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync/header.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7708a8b1-43a8-40c4-992f-914fe383c3a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b92238f-cc90-416d-9ed1-78450029d665?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync/state/chain_requests.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_973d3c63-3a53-4255-9d1d-2bfdaed0a71c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync/state/downloader.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_81258d33-b544-436a-817f-0a2851d5dce3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync/state/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0ba1c72a-6f04-4f4b-8225-9431477f45f0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync/state/network.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_43d323c3-0552-41a1-b84c-caa0bcc45269?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync/state/shard.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c28b4cd5-b444-45f0-ba3b-506aa89f048a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync/state/task_tracker.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a7d011a5-c869-46a2-8387-cecdb3de9f85?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/sync/state/util.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_623314b1-5eea-4d80-bf4e-81ec5ac1c2c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/verified_peer_heights.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_989c3e91-0201-4f5f-9697-48c93990e4eb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/view_client_actor.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d209b7cd-64b3-49a2-ad6c-28bd32efdde3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client-primitives/src/debug.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b991733-ac05-4a63-83cc-ef86e28ff9f0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client-primitives/src/lib.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f80630c0-4e4e-4330-af26-e55516217e45?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client-primitives/src/types.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - GLOBAL CONTRACT IDENTITY AND CODE SUBSTITUTION. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". The global-contract surface is the least-audited value-bearing path in the tree. Hunt whether the code an account resolves through UseGlobalContract can change after opt-in, whether a distribution can bind code to an identity its deployer did not own, and whether the storage fee and the deployment outcome can disagree. Victim: every account that opted into that identifier.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f5cac42-e10d-4675-9058-7a76f26e325d?mode=deep",
+    "questions_generated": false
+  }
+]
