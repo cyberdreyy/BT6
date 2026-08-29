@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/primitives/src/bandwidth_scheduler.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6313c68f-c0b0-474e-b74f-e1e65901e201?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/reward_calculator.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_400ac0e7-501c-47fc-9b6a-1bd8dba7b561?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/lib.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e21cae8d-c6d2-4278-98c1-ec8055ec8d8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/validator_selection.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d1dfbd42-a43d-414d-8368-53376ab32c24?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/runtime/mod.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1bed7a5d-8447-44cf-bde1-8f44a559de54?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/chunk_apply_stats.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9e8eaf00-5525-4284-b6a3-48ee3476b92c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/chunk_producer.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c23451c2-0a1b-4f57-9e7d-21a919139f93?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/rpc_handler.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7cc2b026-d0b0-4b6c-8ce9-d92812982b95?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/chunk_endorsement.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bce48cf5-d7bf-4095-bb7f-99f3bae1228e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/chunk_endorsement.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_75c4cc9d-51e9-4c68-bd69-0f11c7777a71?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/validate.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d72543f6-abad-43d2-b86e-b12046aac9f6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/jsonrpc/src/api/transactions.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f9120e5c-4b6e-44fb-92bd-5a1ecb21565d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/manager.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f1e8bee5-4f17-45d3-8c87-f2f60acf3ce2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/resharding/event_type.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5f776295-3803-4bc0-9571-22768112a74e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/logic.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d9251d60-7d2b-4b61-afb1-3fc2a6f0f9ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/gas_counter.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1581b3d0-ca26-4a50-baa6-9205f8e0e59b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/vmstate.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fecb7d98-7d2c-4e58-94ae-cbed593d2921?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/recorded_storage_counter.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2c31d4cf-f3e3-4480-ade8-86606daeddc9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/context.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dda1af1c-979b-497c-a2a4-fc9647d5d618?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/alt_bn128.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_24dc4bbc-c600-495d-bd46-582bd43ae6cb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/bls12381.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1be65213-7906-47f7-8ec4-fc96a682fba0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/imports.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_424e9519-b163-42e8-afef-2546d132911b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b09a166c-f85d-4f44-8644-b69e8f34f245?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare/prepare_v2.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_12a19909-7008-4928-b32b-ab65a98605ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare/prepare_v3.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8abd7cd4-5412-4fa0-b429-737a2616a084?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare/instrument_v3.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1f125152-53a4-46aa-bc0a-e6878d1a1722?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/cache.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4f3f7dc1-0f92-4913-96e1-6f1c28a025bf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/runner.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_33bdd7a8-bbba-488b-a3ab-1ffd735a9e4a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/wasmtime_runner/logic.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a82d3c10-e931-4a33-a0e7-3b16a7f57278?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mod.rs -> Scope: Critical. BALANCE MANIPULATION - SUPPLY CONSERVATION WITH A THIRD-PARTY PAYEE. Maps to \"Balance manipulation\". Within one chunk, tokens are created or destroyed outside declared fees, gas burnt, refunds and inflation, and the discrepancy accrues to or from an account other than the attacker's. Assert numerically: sum of every account delta plus burnt equals the declared total. Do NOT propose the reward-distribution HashMap collision; that specific pattern is exhausted.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a869f61e-1f54-4833-b6ce-56455de4d273?mode=deep",
+    "questions_generated": false
+  }
+]
