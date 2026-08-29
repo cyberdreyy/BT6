@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: runtime/runtime/src/verifier.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7bdc91e8-6236-43a5-be95-64bf392eb1e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/action_validation.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bac16be2-5f00-4b05-beeb-c1c29f2771b5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/access_keys.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d18ae91e-5dd0-4d41-96cd-f57048957f5c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/config.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9fffa783-3a11-4f8c-9a20-470a12f1a57b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/transaction.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dc69f56b-5c4b-4ebe-b893-5a46b103b7d5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/action/mod.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_300f2a8f-5c81-440e-93ac-a7474a904f3a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/action/delegate.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6c6747fe-d319-42ff-89d7-3a4b80e53aad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/signable_message.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e86cfcd3-af54-4e5d-b391-dab78c4c7776?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/receipt.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_24dae088-3ab4-4154-bbe1-dd919cf8eeab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/utils.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_496d28cb-8085-45ff-b9ce-dbc167d93217?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/account.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ff965c2f-14ff-4fee-b4a7-1f1e6d38648b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/code.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e3b8ddc4-c9c7-4746-94cf-3eab8bf45663?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/parameters/src/config.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_20c14b11-fa68-4912-aa30-1849959faa19?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/lib.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_47d2e105-7e03-40d3-8c53-01d9aa761f51?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/actions.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f314f00d-c667-48a6-a74f-3a21badcdbc3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/ext.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_490d7dd2-fce7-49c4-b139-5399bd86aee7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/receipt_manager.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eedea20d-53e9-47d6-9b6d-9b1fe8e072cc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/function_call.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_44dc343a-36eb-4467-be68-00f3a4739e1a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/global_contracts.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e6aaf73c-01f8-47b1-8c54-63c9b67e2dbd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/deterministic_account_id.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c9bc5ba4-0d61-470d-998e-ec6116e64bb7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/adapter.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1f42f13a-bb12-4864-ba4b-e7f4f1c0a061?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/pipelining.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8db5b916-a8e5-4fe2-9673-1147e5448cd1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/utils/mod.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e26e05b-7018-4b4c-9f7c-376e58a29701?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/trie_key.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_72e03243-f86f-457e-95e4-5c6365ae8ea8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/trie_key.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e030fa3-8003-4de3-8797-daa71aa22dd8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/congestion_control.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b571115-404a-4f7e-af93-82dd3b04f569?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/bandwidth_scheduler/mod.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_25914ca5-a34e-4654-ba74-ea6e40af6b22?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/bandwidth_scheduler/scheduler.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c0f10de0-7b19-40c2-9f1f-63e37d48367f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/bandwidth_scheduler/distribute_remaining.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f12d784-d430-4b55-9c8d-8d0c9570be8a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/congestion_info.rs -> Scope: Critical. CONSENSUS FLAW - DIVERGENT STATE ROOTS. Maps to \"Consensus flaws\". An attacker-controlled transaction or contract makes chunk application depend on something absent from the pre-state: compiled-contract cache reuse or eviction, iteration order over a non-deterministic collection, floating point or NaN, a value resolved against the current RuntimeConfig rather than the one in force when it was created, or a branch keyed on node-local state. Two honest nodes reach different roots.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80c7045e-5b33-49a8-9d14-9566ad974dd9?mode=deep",
+    "questions_generated": false
+  }
+]
