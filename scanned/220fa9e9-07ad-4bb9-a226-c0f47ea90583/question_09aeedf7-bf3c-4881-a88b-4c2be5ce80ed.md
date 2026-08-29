@@ -1,0 +1,1 @@
+logical replay? Victim: all shard participants relying on witness reproducibility for that chunk. Invariant: DETERMINISM. Proof idea: apply/runtime test: execute a receipt that fails after a code deploy attempt inside the same receipt's actions, assert recorder.codes_to_record and recorded_storage() are identical between a fresh replay and the original run.
