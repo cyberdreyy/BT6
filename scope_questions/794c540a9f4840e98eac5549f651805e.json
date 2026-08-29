@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/primitives/src/shard_layout/v3.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_62190edf-152f-44c0-b746-3eb11840844e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/sharding.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4763dfb7-c72c-45bc-b5ee-69e397a1c763?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/sharding/shard_chunk_header_inner.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_77db2714-b575-49d6-a6d8-f6dc7a570de8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/signable_message.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ab8021f-194e-46cc-b654-280c7dff2622?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/spice/chunk_endorsement.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_299e440e-81c4-4466-bebd-30267fc42ef9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/spice/mod.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5310579a-218b-4793-ab41-1aba6b72928d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/spice/partial_data.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80110f26-46c1-4fdd-b16d-12a6a3ba321f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/spice/state_witness.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e1def22b-ec02-498c-ba88-682e3b9c913c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/state_part.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_de895e33-8ef7-4b8f-9153-0fddbc13bceb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/state_record.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_977110e2-c084-4765-aad1-297beddc5831?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/state_sync.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8ccabe4c-85d7-47ea-bc32-dcc6739ef15f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/state.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2559c442-7d11-4e21-b673-107c83aa80e5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/chunk_endorsement.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_96788c31-e6db-4770-a9bb-39221822413d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/chunk_endorsements_bitmap.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_94411ebb-790f-464e-9acd-46f8e783153a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/contract_distribution.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6255351-f59e-45e2-84e0-b7d71e52be8c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/mod.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a5c2eb32-593d-4b8d-bf7e-4af8cae5dee8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/partial_witness.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6118279e-8338-4f3f-bc62-bad361097387?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/state_witness.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_baa1a780-9b77-4a68-8378-5bc5a4e9ad5b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/stored_chunk_state_transition_data.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5ea14eb2-40b7-4166-9a12-896c51835590?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/validator_assignment.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_208c1439-095d-4bdf-b194-604a7fd5357f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/telemetry.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6c2d32e3-080a-4ba7-8e95-033662339927?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/transaction.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_61776e32-26d7-476b-b2b4-54da3b2837ee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/trie_key.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_83b581a2-5941-4eaa-8c13-02f98cf92679?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/trie_split.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b9ed14ad-6c3d-4550-9aaa-f6036c6a9911?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/types.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0a39dc0f-230f-41d6-badf-79902e087456?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/types/chunk_validator_stats.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ad551d4-144d-4c53-a1d0-94afd7fc8eff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/universal_state_init.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bdd54ca8-03b1-473d-8a7a-45af57c11b0a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/upgrade_schedule.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c78ce40-1ec9-459e-91e9-63c551d003d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/utils.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32f860fa-79c7-4927-8782-cdb6b51c9fb7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/utils/compression.rs -> Scope: Critical. STEALING - PROMISE AND RECEIPT PRIVILEGE FORGERY. Maps to \"Contracts execution flows\" and \"Stealing or loss of funds\". An attacker-deployed contract emits a promise or receipt carrying an identity, deposit, or gas allowance its creator never held, so a third-party contract that trusts predecessor_id or signer_id releases funds to the attacker. Target the receipt-construction helpers in runtime/runtime/src/receipt_manager.rs and runtime/runtime/src/ext.rs against the checks applied when that receipt is later applied.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_97c089a9-59d0-45eb-b30f-e032f247a561?mode=deep",
+    "questions_generated": false
+  }
+]
