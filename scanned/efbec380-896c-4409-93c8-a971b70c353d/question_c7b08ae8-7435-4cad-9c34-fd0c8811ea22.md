@@ -1,1 +1,0 @@
-state_root? Victim: validators whose replay produces a divergent recorded byte sequence despite matching state roots. Invariant: DETERMINISM (mod.rs:1546 doc guarantees gas/record parity across read paths). Proof idea: property test with FlatStateValue::Inlined vs Ref for the same underlying value, asserting `recorder.record` byte content and size delta are provably identical.
