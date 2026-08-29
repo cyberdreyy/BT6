@@ -1,1 +1,0 @@
-) do not. Sequence: FunctionCall issuing storage_read on a key set chosen to maximize the flat-vs-trie recording delta. Invariant tested: recorded_storage_size_upper_bound() for the same key set must be identical across KeyLookupMode::MemOrFlatOrTrie and KeyLookupMode::MemOrTrie given the
