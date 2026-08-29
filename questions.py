@@ -6,9 +6,9 @@ from decouple import config
 # todo: if scope_files is: 500 > 50, 300 > 30 , 100 > 10
 MAX_REPO = 20
 # todo: the GitLab namespace/project path, for example group/project
-SOURCE_REPO = 'smartcontractkit/chainlink'
+SOURCE_REPO = 'near/nearcore'
 # todo: the name of the repository
-REPO_NAME = 'chainlink'
+REPO_NAME = 'nearcore'
 
 run_number = os.environ.get('GITHUB_RUN_NUMBER', '0')
 
@@ -48,130 +48,156 @@ else:
 
 scope_files = [
     # =================================================================================
-    # Node API authentication: session, token, external-initiator and route middleware
+    # Transaction and receipt admission: signatures, nonces, access keys, action limits
     # =================================================================================
-    "core/web/router.go",
-    "core/web/middleware.go",
-    "core/web/auth/auth.go",
-    "core/web/auth/gql.go",
-    "core/web/auth/helpers.go",
-    "core/web/cookies.go",
-    "core/web/api.go",
-    "core/web/common.go",
-    "core/web/helpers.go",
+    "runtime/runtime/src/verifier.rs",
+    "runtime/runtime/src/action_validation.rs",
+    "runtime/runtime/src/access_keys.rs",
+    "runtime/runtime/src/config.rs",
+    "core/primitives/src/transaction.rs",
+    "core/primitives/src/action/mod.rs",
+    "core/primitives/src/action/delegate.rs",
+    "core/primitives/src/signable_message.rs",
+    "core/primitives/src/receipt.rs",
+    "core/primitives/src/utils.rs",
+    "core/primitives-core/src/account.rs",
+    "core/primitives-core/src/code.rs",
+    "core/parameters/src/config.rs",
 
     # =================================================================================
-    # Session lifecycle, MFA and user identity storage
+    # Runtime apply: action execution, balance conservation, refunds, receipt routing
     # =================================================================================
-    "core/sessions/authentication.go",
-    "core/sessions/session.go",
-    "core/sessions/user.go",
-    "core/sessions/webauthn.go",
-    "core/sessions/localauth/orm.go",
-    "core/sessions/localauth/reaper.go",
-    "core/sessions/ldapauth/ldap.go",
-    "core/sessions/ldapauth/client.go",
-    "core/sessions/ldapauth/sync.go",
-    "core/sessions/oidcauth/oidc.go",
-    "core/web/sessions_controller.go",
-    "core/web/webauthn_controller.go",
-    "core/web/user_controller.go",
+    "runtime/runtime/src/lib.rs",
+    "runtime/runtime/src/actions.rs",
+    "runtime/runtime/src/ext.rs",
+    "runtime/runtime/src/receipt_manager.rs",
+    "runtime/runtime/src/function_call.rs",
+    "runtime/runtime/src/global_contracts.rs",
+    "runtime/runtime/src/deterministic_account_id.rs",
+    "runtime/runtime/src/universal_account_id.rs",
+    "runtime/runtime/src/adapter.rs",
+    "runtime/runtime/src/pipelining.rs",
+    "core/primitives/src/universal_state_init.rs",
+    "core/primitives-core/src/universal_state_init.rs",
 
     # =================================================================================
-    # GraphQL surface: role enforcement on queries and mutations
+    # Account lifecycle and per-account trie rows.
+    # HIGHEST-YIELD REGION SO FAR: the one ACCEPTED submission to date lives in
+    # core/store/src/utils/mod.rs (`remove_account` clears only 5 of ~14 account-scoped
+    # TrieKey variants, and NEAR account names are reusable). Confirmed finding F4
+    # (`initial_nonce_value` reseed) lives in access_keys.rs. Audit creation and
+    # deletion of every account-scoped key SIDE BY SIDE.
     # =================================================================================
-    "core/web/resolver/auth.go",
-    "core/web/resolver/api_token.go",
-    "core/web/resolver/user.go",
-    "core/web/resolver/query.go",
-    "core/web/resolver/mutation.go",
+    "core/store/src/utils/mod.rs",
+    "core/primitives/src/trie_key.rs",
+    "core/primitives-core/src/trie_key.rs",
 
     # =================================================================================
-    # REST controllers reachable with view/run/edit roles
+    # Cross-shard flow control: congestion info, delayed/buffered queues, bandwidth
     # =================================================================================
-    "core/web/pipeline_runs_controller.go",
-    "core/web/jobs_controller.go",
-    "core/web/external_initiators_controller.go",
-    "core/web/bridge_types_controller.go",
-    "core/web/keys_controller.go",
-    "core/web/eth_keys_controller.go",
-    "core/web/csa_keys_controller.go",
-    "core/web/dkg_recipient_keys_controller.go",
-    "core/web/workflow_keys_controller.go",
-    "core/web/vault_controller.go",
-    "core/web/evm_transfer_controller.go",
-    "core/web/replay_controller.go",
-    "core/web/config_controller.go",
-    "core/web/log_controller.go",
-    "core/web/loop_registry.go",
+    "runtime/runtime/src/congestion_control.rs",
+    "runtime/runtime/src/bandwidth_scheduler/mod.rs",
+    "runtime/runtime/src/bandwidth_scheduler/scheduler.rs",
+    "runtime/runtime/src/bandwidth_scheduler/distribute_remaining.rs",
+    "core/primitives/src/congestion_info.rs",
+    "core/primitives/src/bandwidth_scheduler.rs",
 
     # =================================================================================
-    # Response presenters: secret/credential redaction before serialization
+    # Epoch rewards, inflation and supply reconciliation.
+    # Confirmed finding F5 lives in reward_calculator.rs: the protocol-treasury reward
+    # and the per-validator reward are written to ONE HashMap with plain `insert`, so a
+    # treasury account that is also a validator loses its share while the returned total
+    # still counts it. Audit every place a minted total and a per-account credit are
+    # computed separately and must agree.
     # =================================================================================
-    "core/web/presenters/user.go",
-    "core/web/presenters/eth_key.go",
-    "core/web/presenters/csa_key.go",
-    "core/web/presenters/bridges.go",
-    "core/web/presenters/external_initiators.go",
-    "core/web/presenters/vault.go",
-    "core/web/presenters/job.go",
+    "chain/epoch-manager/src/reward_calculator.rs",
+    "chain/epoch-manager/src/lib.rs",
+    "chain/epoch-manager/src/validator_selection.rs",
+    "chain/chain/src/runtime/mod.rs",
+    "core/primitives/src/chunk_apply_stats.rs",
 
     # =================================================================================
-    # External initiator and bridge credential handling
+    # Chunk production, admission and validation: where a produced chunk is accepted
+    # or rejected. The one submission currently IN REVIEW lives in
+    # chain/client/src/stateless_validation/chunk_endorsement.rs.
+    # chain/client/src/pending_transaction_queue.rs is the NEWEST, highest-churn code
+    # in the repo (Spice) and carries several unaudited double-spend claims.
     # =================================================================================
-    "core/bridges/external_initiator.go",
-    "core/bridges/bridge_type.go",
-    "core/bridges/orm.go",
-    "core/bridges/cache.go",
+    "chain/client/src/pending_transaction_queue.rs",
+    "chain/client/src/chunk_producer.rs",
+    "chain/client/src/rpc_handler.rs",
+    "chain/client/src/stateless_validation/chunk_endorsement.rs",
+    "core/primitives/src/stateless_validation/chunk_endorsement.rs",
+    "chain/chain/src/validate.rs",
+    "chain/jsonrpc/src/api/transactions.rs",
 
     # =================================================================================
-    # Gateway transport: internet-facing HTTP/WS servers and message envelope auth
+    # Resharding: trie split vs in-flight queues and per-account state
     # =================================================================================
-    "core/services/gateway/network/httpserver.go",
-    "core/services/gateway/network/wsserver.go",
-    "core/services/gateway/network/wsconnection.go",
-    "core/services/gateway/network/handshake.go",
-    "core/services/gateway/api/message.go",
-    "core/services/gateway/api/jsonrpccodec.go",
-    "core/services/gateway/api/codec.go",
-    "core/services/gateway/gateway.go",
-    "core/services/gateway/multihandler.go",
-    "core/services/gateway/connectionmanager.go",
-    "core/services/gateway/common/utils.go",
+    "chain/chain/src/resharding/manager.rs",
+    "chain/chain/src/resharding/event_type.rs",
 
     # =================================================================================
-    # Gateway handlers: user request authorization, quotas and response routing
+    # VM logic reachable from any attacker-deployed contract: host calls and gas
     # =================================================================================
-    "core/services/gateway/handlers/confidentialrelay/handler.go",
-    "core/services/gateway/handlers/confidentialrelay/bundler.go",
-    "core/services/gateway/handlers/capabilities/v2/shard_endpoints.go",
-    "core/services/gateway/handlers/handler.go",
-    "core/services/gateway/handlers/capabilities/webapi.go",
-    "core/services/gateway/handlers/capabilities/handler.go",
-    "core/services/gateway/handlers/capabilities/v2/http_handler.go",
-    "core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go",
-    "core/services/gateway/handlers/capabilities/v2/workflow_metadata_handler.go",
-    "core/services/gateway/handlers/capabilities/v2/response_cache.go",
-    "core/services/gateway/handlers/vault/handler.go",
-    "core/services/gateway/handlers/vault/aggregator.go",
-    "core/services/gateway/handlers/common/requestcache.go",
-    "core/services/gateway/handlers/common/callback.go",
-    "core/services/gateway/handlers/common/message_util.go",
+    "runtime/near-vm-runner/src/logic/logic.rs",
+    "runtime/near-vm-runner/src/logic/gas_counter.rs",
+    "runtime/near-vm-runner/src/logic/vmstate.rs",
+    "runtime/near-vm-runner/src/logic/recorded_storage_counter.rs",
+    "runtime/near-vm-runner/src/logic/context.rs",
+    "runtime/near-vm-runner/src/logic/alt_bn128.rs",
+    "runtime/near-vm-runner/src/logic/bls12381.rs",
+    "runtime/near-vm-runner/src/imports.rs",
+
+    # =================================================================================
+    # Contract preparation, instrumentation, compilation and caching
+    # =================================================================================
+    "runtime/near-vm-runner/src/prepare.rs",
+    "runtime/near-vm-runner/src/prepare/prepare_v2.rs",
+    "runtime/near-vm-runner/src/prepare/prepare_v3.rs",
+    "runtime/near-vm-runner/src/prepare/instrument_v3.rs",
+    "runtime/near-vm-runner/src/cache.rs",
+    "runtime/near-vm-runner/src/runner.rs",
+    "runtime/near-vm-runner/src/wasmtime_runner/logic.rs",
+
+    # =================================================================================
+    # Trie state mutated by attacker transactions and the recorded storage proof
+    # =================================================================================
+    "core/store/src/trie/mod.rs",
+    "core/store/src/trie/update.rs",
+    "core/store/src/trie/trie_storage_update.rs",
+    "core/store/src/trie/ops/insert_delete.rs",
+    "core/store/src/trie/ops/squash.rs",
+    "core/store/src/trie/raw_node.rs",
+    "core/store/src/trie/trie_recording.rs",
+    "core/store/src/trie/receipts_column_helper.rs",
+    "core/store/src/trie/outgoing_metadata.rs",
+
+    # =================================================================================
+    # REMOVED: runtime/near-wallet-contract/** .
+    # A wallet-contract report carrying a WORKING localnet PoC was ruled OUT OF SCOPE by
+    # the program (see submitted/out_of_scope_wallet_contract_*.md). It previously
+    # absorbed ~50% of all generated reports for zero payable output. Do not re-add.
+    # =================================================================================
 ]
 
 
 target_scopes = [
-    "Critical. An unprivileged node-API caller (view or run role, or an unauthenticated client) authenticates as or acts with the rights of a higher role by exploiting session creation, cookie/token handling, WebAuthn MFA enforcement, or the Authenticate middleware chain in core/web/auth, gaining admin control of the node.",
-    "Critical. A low-privileged authenticated user (view/run) reaches an edit- or admin-gated REST or GraphQL operation because the route wiring, RequiresEditRole/RequiresAdminRole wrappers, or resolver-level role checks are missing, ordered wrongly, or bypassable, letting them create jobs, move funds, or mutate node state.",
-    "Critical. Any unprivileged caller exfiltrates node key material or credentials - private keys, key export bundles, vault/DKG secrets, session or API tokens, bridge/external-initiator secrets - through a controller, presenter, GraphQL resolver, or log path that fails to redact or over-authorize, enabling theft of oracle identity or funds.",
-    "Critical. A holder of a restricted API token or external-initiator credential escalates beyond its intended surface by exploiting AuthenticateExternalInitiator or AuthenticateByToken HMAC/constant-time comparison, initiator-to-job binding, or token lookup, and triggers or manipulates jobs and runs they were never authorized for.",
-    "Critical. An internet-facing gateway request from an arbitrary externally-owned address is accepted as another user's request because message signature recovery, sender/DON-ID/method binding, or envelope validation in core/services/gateway/api is unsound, letting the attacker impersonate a subscribed user and consume or redirect their capability execution.",
-    "Critical. An unauthorized gateway user obtains vault or confidential-relay secrets, or forces the vault handler/aggregator to route a decrypted or signed response to the wrong requester, by exploiting owner/permission checks, request-id derivation, or response correlation in the vault handler.",
-    "High. An unprivileged gateway user bypasses Functions allowlist or subscription checks - stale allowlist state, address normalization/case handling, balance or tier accounting, or per-user quotas - and gets free or unauthorized DON execution at another subscriber's expense.",
-    "High. A run- or edit-role user causes unauthorized on-chain or financial action - triggering pipeline runs on jobs they must not run, replaying blocks, or submitting transfers/transactions - by exploiting job-ID resolution, run-request parsing, or missing ownership binding in the pipeline run and transfer controllers.",
-    "High. An unauthenticated or unprivileged caller extracts sensitive node internals - full config with secrets, LOOP plugin registry/debug endpoints, health and log endpoints, or job spec contents including bridge credentials - from routes that lack the intended authentication or role gate.",
-    "High. An unprivileged gateway or API client corrupts shared server state for other users - request/response cache key collisions, callback map or connection-manager entry hijacking, workflow metadata poisoning, or duplicate request-id reuse - so another user's request is answered with attacker-controlled data.",
-    "Critical/High blind spot. An unprivileged actor abuses a trust assumption the design never wrote down: an entry point whose authorization is enforced only at a later layer that can be skipped, an identity (user, API token, external initiator, gateway sender, workflow owner) that is trusted after being derived rather than verified, a credential or role whose revocation, rotation, deletion or downgrade is not honored by live sessions, caches or long-lived connections, or a request field that silently crosses from one authenticated context into another - producing full authentication bypass, undeletable access, or action attributed to a victim identity.",
+    "Critical. An unprivileged signer gets an action executed against an account it does not control, because signature binding, nonce/access-key lookup, FunctionCall access-key method/receiver/allowance restrictions, or DelegateAction relaying let the receiver, predecessor, or signer identity be forged, letting the attacker transfer, deploy, add keys to, or delete the victim's account without the victim's key.",
+    "Critical. An unprivileged sender breaks NEAR balance conservation inside one chunk, minting or destroying tokens through gas refund computation, deposit refunds on failed actions, delete-account beneficiary transfer, locked/staked balance accounting, or storage-staking checks, inflating total supply or permanently reducing another account's balance.",
+    "Critical. An unprivileged sender gets one transaction, receipt, or DelegateAction applied twice, by defeating access-key nonce monotonicity, transaction-hash uniqueness, delegate nonce/max_block_height checks, or receipt-id and implicit/deterministic account-id derivation, double-spending the attached deposit.",
+    "Critical. An unprivileged sender crafts a transaction or contract whose chunk application is nondeterministic across nodes (compiled-contract cache reuse, host-call output depending on node-local state, float/NaN or iteration-order dependence, protocol-version-gated branch, wasm compilation differences), producing divergent state roots or gas burnt and an unintended permanent chain split.",
+    "Critical. An unprivileged sender lands a single transaction or receipt that panics, aborts, overflows, or fails to terminate on the chunk apply path, so every node processing that shard crashes or the shard stalls permanently and requires human intervention to recover.",
+    "Critical. An unprivileged sender permanently freezes funds: an account's tokens or a cross-shard receipt become unrecoverable because a receipt is stuck forever in the delayed, postponed, yield, or outgoing buffer queue, storage_usage underflow or overflow blocks every future action on the account, or a promise/yield resume path drops the value transfer.",
+    "Critical. An attacker-deployed contract escapes its sandbox through near-vm-runner host logic, reading or writing guest memory out of bounds, reusing or forging registers, or building a promise batch that attaches predecessor/signer privileges or gas the caller never held, letting it act as another account and steal from contracts holding user funds.",
+    "Critical. ACCOUNT-LIFECYCLE CLEANUP ASYMMETRY. State keyed by an account NAME survives that account's deletion and is inherited by a re-created account of the same name, because the teardown path clears only some of the per-account trie rows that the creation and mutation paths write. Enumerate every account-scoped TrieKey variant and diff the set written against the set cleared by remove_account; a survivor that is later delivered with predecessor_id == receiver_id passes check_actor_permissions and carries owner privilege. This pattern produced the only submission accepted so far.",
+    "Critical. SEED-VERSUS-BOUND COLLISION. A value re-initialised from block height, epoch, or an index lands INSIDE the window of values already consumed under the old instance, rather than strictly above it, so a previously used nonce, id, or sequence number becomes valid again. Compare every re-initialisation constant against the admission bound enforced elsewhere and check whether the reseed dominates or merely re-enters the live range. This pattern produced confirmed finding F4.",
+    "High. TWO WRITERS, ONE KEY SPACE. Two code paths write per-account amounts into one map, counter, or accumulator with a last-write-wins operation such as HashMap::insert, while a separately computed total counts both contributions. When one account satisfies both roles the map and the total silently disagree, minting or destroying value that no reconciliation pass ever notices. This pattern produced confirmed finding F5.",
+    "High. A GUARD WHOSE COMPENSATING BRANCH IS WRONG. One site skips work because a comment or an invariant asserts another site already did it, but that other site does not, cannot, or no longer does. Read the skipped branch and the branch it defers to together and verify the handoff actually happens rather than trusting the comment. This is how F5 escaped detection despite existing tests.",
+    "High. An unprivileged sender performs work far exceeding the gas burnt, through host-function metering, wasm instruction instrumentation, contract preparation and compilation charged after the work is done, storage read/write and recorded-proof accounting, or prepaid/attached gas arithmetic, obtaining near-free execution and blowing up block application time.",
+    "High. An unprivileged sender makes a produced chunk exceed a validation limit, driving recorded storage-proof size, outgoing receipt size, or per-receipt action limits past what the receiving validators accept, so the chunk cannot be validated and the shard stalls.",
+    "High. An unprivileged sender abuses cross-shard flow control, manipulating congestion info, delayed/buffered receipt accounting, or bandwidth-scheduler grant allocation so its own receipts are admitted while a target shard is starved or held congested, denying cross-shard service to other users.",
+    "High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct mechanisms (global or deterministic contract deployment vs the compiled-contract cache, yield-resume vs the delayed receipt queue, resharding trie split vs buffered receipts and congestion state, universal account init vs implicit account derivation, meta-transaction relaying vs access-key allowance refunds, storage staking vs state resizing mid-receipt) where each side's assumption holds alone but their composition breaks balance conservation, determinism, or authorization.",
 ]
 
 
@@ -181,50 +207,86 @@ scope_scan = [
 
 def question_generator(target_file: str) -> str:
     """
-    Generate exploit-focused audit and fuzzing questions for one chainlink target.
+    Generate exploit-focused audit and fuzzing questions for one nearcore target.
 
     ```
     target_file format:
-    "'File Name: core/web/auth/auth.go -> Scope: Critical. ...'"
+    "'File Name: runtime/runtime/src/actions.rs -> Scope: Critical. ...'"
     """
 
     prompt = f"""
     ```
 
-    Generate exploit-focused security audit questions for this exact chainlink target:
+    Generate exploit-focused security audit questions for this exact nearcore target:
 
     {target_file}
 
     Project focus:
-    chainlink is the Chainlink node. Focus on surfaces an outsider or low-privileged user can reach: the node REST/GraphQL API and its session, API-token, external-initiator and role (view/run/edit/admin) authentication, key and secret presentation, and the internet-facing gateway (HTTP/WS servers, signed message envelopes, Functions allowlist/subscriptions, webAPI/HTTP trigger handlers, vault handler, request caches).
+    nearcore is the NEAR Protocol reference client. Focus on what a transaction submitted by any internet client reaches: transaction and receipt validation, access keys and nonces, meta-transactions (DelegateAction), action execution and balance/refund accounting, account creation and DELETION together with every per-account trie row, storage staking, cross-shard receipts with congestion control and the bandwidth scheduler, trie state and recorded storage proofs, near-vm-runner host functions, gas metering, contract preparation and caching, epoch reward and inflation accounting, and chunk admission and validation. The eth-implicit wallet contract is OUT OF SCOPE and must never be targeted.
 
     Rules:
-    * Treat `File Name:` as the exact file/package.
+    * Treat `File Name:` as the exact file/module.
     * Treat `Scope:` as the ONLY impact to target.
     * Assume full repo context is accessible.
     * Do not ask for code or say anything is missing.
-    * Use exact Go symbols (func, method, struct, field) when possible.
-    * Attacker is unprivileged only: an unauthenticated HTTP client of the node API or gateway, a view/run-role node user, a restricted API token or external-initiator credential holder, or any externally-owned address sending signed gateway requests.
-    * Attacker is NOT a node operator, admin-role user, DB/host owner, or CI/deployment actor. Never assume a malicious node, malicious DON/OCR peer, malicious oracle, network-layer attacker, misconfiguration, leaked admin credentials, or social engineering.
-    * Ignore test files, mocks, fuzz harnesses, docs, generated code, config/TOML-only findings, and dependency-only issues.
-    * Ignore findings that need non-default builds or disabled-by-default features unless reachable on default configuration.
+    * Use exact Rust symbols (fn, method, struct, field, const) when possible.
+    * Attacker is unprivileged only: an ordinary client that funds a NEAR account, signs and submits transactions to a public RPC endpoint, deploys its own wasm contract, relays meta-transactions, and fully controls action arguments, deposits, attached gas, contract bytecode, and contract call arguments.
+    * Attacker is NOT a validator, block or chunk producer, chunk validator, node or RPC operator, or network peer. Ignore malicious-node, malicious-peer, gossip/network-layer, state-sync, and social-engineering assumptions.
+    * Epoch reward, inflation and chunk-validation code IS in scope, but only for defects an unprivileged sender or an ordinary configuration reaches - never for attacks that require the attacker to BE a validator or chunk producer. A supply-accounting error at an epoch boundary counts; forging an endorsement does not.
+    * Ignore tests, benches, mocks, fuzz harnesses, docs, generated files, params estimator, sandbox/test-only features, CLI and config, indexer and tooling, and dependency-only issues.
+    * Only consider paths reachable under the current mainnet protocol version and default feature set.
+    * Every question must be a concrete real-world scenario an unprivileged sender can perform on mainnet. No speculative "unbounded memory/allocation" or resource-hygiene questions unless the scope explicitly targets gas or size accounting.
     * Generate 30 to 40 high-signal questions.
-    * At least 70% must target authentication bypass, role/authorization bypass, credential or key material disclosure, request impersonation via signature/sender validation, allowlist or quota bypass, or cross-user state and response confusion.
-    * Every question must be testable by unit test, table test, or Go HTTP/handler integration test.
+    * At least 70% must target theft or permanent freezing of funds, token minting or destruction, double-spend or replay, authorization escalation across accounts or promises, state-root divergence and chain split, or an apply-path panic that halts a shard.
+    * Every question must be testable by a Rust unit test, a runtime/apply or test-loop integration test, or a differential/table test.
     * Avoid generic checklist questions and repeated root causes.
+    * Prefer questions that name TWO code sites and ask whether they agree: a writer and
+      its cleanup, a total and its per-account breakdown, a re-initialisation and the
+      bound that admits values, a guard and the branch it defers to. Every finding
+      confirmed in this repo so far had that shape, and every refuted cluster came from
+      reading one site alone.
+    * Prefer a question whose disagreement can be asserted numerically in one test
+      (sum of parts equals total, reseeded value exceeds every consumed value, set of
+      keys written equals set of keys cleared) over a narrative question.
+
+
+    Known dead ends - do NOT generate questions about these. Each was audited to a cited
+    conclusion and rejected; regenerating them wastes the whole batch:
+    * DeleteAccount to a non-existent or self beneficiary "burning" the balance. Intended
+      and documented at runtime/runtime/src/actions.rs:895-898; the beneficiary is chosen
+      by the account owner and no attacker influences it.
+    * action_delete_account burning Account.locked (staked) balance. Unreachable:
+      check_actor_permissions rejects DeleteAccount with DeleteAccountStaking whenever
+      locked is non-zero.
+    * AddressRegistrar::register keeping excess deposit, and any wallet-contract issue.
+      Out of scope.
+    * DelegateAction lacking chain_id / genesis_hash binding (cross-network replay).
+      Already known and already submitted.
+    * Duplicate entries in ActionReceipt::input_data_ids desyncing PendingDataCount. The
+      desync is real but unreachable: ext.rs mints a fresh data_id per dependency from a
+      monotonic counter, so promise_and cannot produce duplicates.
+    * Outgoing receipts being forwarded, or validator proposals surviving, after a
+      receipt-level failure. ActionResult::set_error clears both and every action routes
+      through merge.
+    * Unbounded minting via the subsidized_amount skip-deduct path. Capped at 1 yoctoNEAR
+      per call and reconciled out of total_balance_burnt in chain/chain/src/runtime/mod.rs.
+    * The gas-key nonce prefetch cache going stale within a chunk. It is written back
+      immediately after set_gas_key_nonce.
+    * Anything whose only "attacker" is the account owner harming their own account, with
+      no third party and no protocol invariant broken.
 
     Core invariants:
-    * Authentication is sound: only a valid unexpired session, API token, or external-initiator credential authenticates, and identity cannot be forged, replayed, or confused across auth methods.
-    * Authorization is exact: every route and resolver enforces the minimum role it declares; a view/run user can never reach edit/admin behavior.
-    * Secrets never leave: private keys, vault/DKG material, tokens, and bridge/EI credentials are redacted in every response, error, and log.
-    * Requests are bound: a gateway or API request is attributable to exactly one authenticated sender and one authorized job, subscription, or workflow.
-    * Isolation holds: one user's request, cache entry, callback, or connection cannot be read, answered, or overwritten by another.
+    * Authorization exactness: only the transaction signer's own account is acted on, access-key permissions and delegate limits are never widened, and a promise never carries privileges its creator did not hold.
+    * Value conservation: total supply changes only by declared fees, gas burnt, refunds, and inflation; no transaction or receipt executes twice.
+    * Determinism: the same pre-state and chunk produce identical post state root, gas burnt, and outgoing receipts on every node.
+    * Metering totality: every wasm instruction, host call, byte written, and recorded storage-proof byte is charged and bounded before it is consumed.
+    * Liveness: no attacker input reaches a panic, overflow, or non-terminating loop on the apply path, and every receipt eventually resolves.
 
     Each question must include:
     1. target function/method;
-    2. attacker action (a concrete HTTP, GraphQL, or gateway request);
-    3. preconditions (the minimal credential or role held);
-    4. request sequence;
+    2. attacker action (a concrete transaction, action, or contract call);
+    3. preconditions (funded account, deployed contract, account state);
+    4. transaction/receipt sequence;
     5. invariant tested;
     6. scoped impact;
     7. proof idea.
@@ -232,7 +294,7 @@ def question_generator(target_file: str) -> str:
     Output only valid Python. No markdown. No explanations.
 
     questions = [
-    "[File: {target_file}] [Function: symbol_or_method] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger REQUEST_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: unit/integration test PARAMETERS and assert AUTHENTICATION_SOUNDNESS, AUTHORIZATION_EXACTNESS, SECRET_CONFINEMENT, REQUEST_BINDING, or ISOLATION.",
+    "[File: {target_file}] [Function: symbol_or_method] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger TRANSACTION_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: unit/integration test PARAMETERS and assert AUTHORIZATION_EXACTNESS, VALUE_CONSERVATION, DETERMINISM, METERING_TOTALITY, or LIVENESS.",
     ]
     """
     return prompt
@@ -240,7 +302,7 @@ def question_generator(target_file: str) -> str:
 
 def audit_format(security_question: str) -> str:
     """
-    Generate a focused chainlink exploit-validation prompt.
+    Generate a focused nearcore exploit-validation prompt.
     """
 
     prompt = f"""# SECURITY AUDIT PROMPT
@@ -250,16 +312,17 @@ def audit_format(security_question: str) -> str:
 
 ## Rules
 - Use existing repo context only. Analyze only this question and scoped impact.
-- Attacker is unprivileged only: an unauthenticated client of the node API or gateway, a view/run-role user, a restricted API token or external-initiator credential holder, or any address sending signed gateway requests. No operator, admin, host, or database access; no leaked admin credentials or social engineering.
-- Reject malicious-node, malicious-DON/OCR-peer, malicious-oracle, network-layer, host-level, operator-only, and misconfiguration-only paths.
-- Reject anything depending only on test/mock/fuzz/docs/config/generated files, dependency bugs alone, or best-practice cleanup without exploitable impact.
-- Focus on real node compromise: authentication bypass, role/authorization bypass, key or secret disclosure, request impersonation, allowlist/quota bypass, unauthorized job run or fund movement, or cross-user response confusion.
+- Attacker is unprivileged only: an ordinary client that funds a NEAR account, signs and submits transactions to a public RPC endpoint, deploys its own wasm contract, and relays meta-transactions. No validator, block/chunk producer, chunk validator, node or RPC operator, or network peer access; no leaked keys or social engineering.
+- Reject malicious-node, malicious-peer, network/gossip-layer, block or chunk production, state-sync, epoch-manager, and misconfiguration-only paths.
+- Reject test/mock/bench/fuzz, docs, generated-file, params-estimator, sandbox/test-only feature, CLI/config, indexer/tooling, and dependency-only findings.
+- Reject speculative resource-hygiene claims with no reachable mainnet scenario.
+- Focus on real impact: theft or permanent freezing of user funds, token inflation or loss, double-spend/replay, authorization escalation across accounts or promises, state-root divergence and chain split, or a shard-halting panic.
 
 ## Validate
-- Trace the exact reachable path from the attacker's request (HTTP route, GraphQL operation, or gateway message) into the affected function.
-- Check whether the auth middleware, role wrapper, presenter redaction, signature verification, or existing validation already stops it.
-- Accept only concrete privilege escalation, unauthorized action on another user's job/subscription/secret, credential exposure, or attacker-controlled data returned to another user.
-- Require exact file/function support and a reproducible Go unit or handler-level integration PoC.
+- Trace the exact reachable path from the attacker's transaction (action list, deposit, attached gas, access key, delegate action, contract bytecode, call arguments) into the affected function.
+- Check whether existing signature, nonce, access-key permission, action validation, gas metering, storage-staking, or size-limit checks already stop it.
+- Accept only a concrete loss or freezing of funds, consensus divergence, or shard/network halt caused by this code.
+- Require exact file/function support and a reproducible Rust unit or runtime/test-loop integration test PoC.
 
 ## Output
 If valid, output exactly:
@@ -271,19 +334,19 @@ If valid, output exactly:
 [2-3 sentences]
 
 ### Finding Description
-[Code path, root cause, attacker request inputs, exploit flow, and why checks fail]
+[Code path, root cause, attacker transaction inputs, exploit flow, and why checks fail]
 
 ### Impact Explanation
-[Concrete scoped impact and matching Chainlink bounty impact class]
+[Concrete scoped impact and matching NEAR bounty category]
 
 ### Likelihood Explanation
-[Preconditions, minimal credential or role needed, feasibility, repeatability]
+[Preconditions, cost to the attacker, feasibility, repeatability]
 
 ### Recommendation
 [Specific fix]
 
 ### Proof of Concept
-[Go unit/table/handler integration test plan with expected assertions]
+[Unit/integration test plan with expected assertions]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
@@ -295,7 +358,7 @@ No extra text.
 
 def validation_format(report: str) -> str:
     """
-    Generate a strict bounty-style validation prompt for chainlink security claims.
+    Generate a strict bounty-style validation prompt for nearcore security claims.
     """
     prompt = f"""# VALIDATION PROMPT
 
@@ -307,30 +370,31 @@ def validation_format(report: str) -> str:
 - Check SECURITY.md and Researcher.Md for scope, exclusions, and valid impact classes.
 - Do not create a new vulnerability if the submitted claim is weak or invalid.
 - Do not upgrade severity unless the provided evidence proves the higher impact.
-- Reject malicious-node, malicious-DON/OCR-peer, network-layer, host-level, operator-only, misconfiguration, leaked-credential, dependency-only, docs/style, generated-file, and test/mock/config-only issues.
-- Reject if the exploit needs operator or admin-role access, database or host access, victim social engineering, an impossible setup, or behavior outside what an unprivileged client can send to the node API or gateway.
+- Reject malicious-node, malicious-peer, network/gossip-layer, block or chunk production, state-sync, epoch-manager, operator-only, misconfiguration, leaked-key, dependency-only, docs/style, generated-file, and test/mock/bench/fuzz-only issues.
+- Reject params-estimator, sandbox and test-only features, CLI/config, indexer and tooling findings.
+- Reject if the exploit needs validator, producer, RPC-operator, or peer privileges, victim social engineering, an impossible setup, or anything beyond what an ordinary client can put in a transaction or a deployed contract.
 - Reject if the bug was fixed, acknowledged, or publicly disclosed already, per the eligibility rules.
-- A valid report must be triggerable by an unprivileged actor, unless the claim proves escalation from an unprivileged starting point.
-- The final impact must map to an in-scope Chainlink impact such as node API authentication or role bypass, key/secret exfiltration, unauthorized job run or fund movement, gateway request impersonation, allowlist or subscription bypass, or cross-user response corruption.
+- A valid report must be triggerable by an unprivileged signer submitting transactions on a default-configured mainnet-like network at the current protocol version.
+- The final impact must map to an in-scope NEAR category: direct theft or permanent freezing of funds, unauthorized token minting or supply loss, unintended chain split, or network/shard halt requiring human intervention.
 - Prefer #NoVulnerability over speculative reports.
 
 ## Required Validation Checks
 All must pass:
 1. Exact in-scope file, function, and line/code references.
 2. Clear root cause and broken security assumption.
-3. Reachable exploit path: preconditions (minimal credential/role) -> attacker request -> trigger -> bad result.
-4. Existing auth middleware, role wrappers, signature checks, redaction, and validation reviewed and shown insufficient.
-5. Concrete in-scope impact with realistic likelihood.
-6. Reproducible proof path: Go unit PoC, handler integration test, or exact HTTP/GraphQL/gateway request steps against a local node.
+3. Reachable exploit path: preconditions -> attacker transaction -> trigger -> bad result.
+4. Existing signature, nonce, access-key permission, action validation, gas metering, storage-staking, and size-limit checks reviewed and shown insufficient.
+5. Concrete in-scope impact with realistic likelihood and attacker cost.
+6. Reproducible proof path: Rust unit PoC, runtime/test-loop integration test, or exact transaction steps against a local network.
 7. No obvious rejection reason from SECURITY.md, known issues, privilege assumptions, or scope exclusions.
 
 ## Silent Triage Questions
 Before output, internally answer:
-- Can an unprivileged client trigger this through normal requests without operator, admin, or host access?
-- Does the code actually behave as claimed on default configuration?
+- Can an ordinary funded account trigger this with a transaction or its own deployed contract, without validator, producer, or operator access?
+- Does the code actually behave as claimed at the current mainnet protocol version?
 - Is the impact caused by this code, not by a malicious node, peer, or dependency alone?
-- Is the bypass, disclosure, impersonation, or unauthorized action concrete, not hypothetical?
-- Would a Chainlink bounty triager accept the proof?
+- Is the theft, freezing, inflation, replay, divergence, or halt concrete rather than hypothetical?
+- Would a NEAR triager accept the proof?
 - What exact test would prove it?
 
 ## Output
@@ -348,16 +412,16 @@ Audit Report
 [Exact code path, root cause, exploit flow, and why existing checks fail]
 
 ## Impact Explanation
-[Concrete in-scope impact, severity rationale, and Chainlink bounty category]
+[Concrete in-scope impact, severity rationale, and NEAR bounty category]
 
 ## Likelihood Explanation
-[Attacker capability, required credential or role, feasibility, repeatability]
+[Attacker capability, preconditions, feasibility, repeatability]
 
 ## Recommendation
 [Specific fix guidance]
 
 ## Proof of Concept
-[Minimal reproducible steps or Go unit/integration test plan]
+[Minimal reproducible steps or unit/integration test plan]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
@@ -369,7 +433,7 @@ Output only one of the two outcomes above. No extra text.
 
 def scan_format(report: str) -> str:
     """
-    Generate a short cross-project analog scan prompt for chainlink.
+    Generate a short cross-project analog scan prompt for nearcore.
     """
     prompt = f"""# ANALOG SCAN PROMPT
 
@@ -379,13 +443,13 @@ def scan_format(report: str) -> str:
 ## Rules
 - Use in-scope production repo context only. Do not ask for code or claim missing files.
 - Use the external report only as a bug-class hint, not as proof.
-- Keep only unprivileged-actor analogs in node API authentication and roles, session/token/external-initiator handling, secret redaction, or the internet-facing gateway (message envelopes, allowlist/subscriptions, handlers, caches).
-- Reject malicious-node, malicious-peer, network-layer, operator-only, mocked-only paths, dependency-only bugs, and no-impact analogs.
+- Keep only unprivileged-signer analogs in transaction and receipt validation, access keys and nonces, meta-transactions, action execution and refunds, storage staking, cross-shard receipts and congestion control, trie state and recorded storage proofs, near-vm-runner host functions and gas metering, contract preparation and caching, or the eth-implicit wallet contract.
+- Reject malicious-node, malicious-peer, network-layer, block/chunk production, state-sync, epoch-manager, operator-only, mocked-only paths, dependency-only bugs, and no-impact analogs.
 
 ## Validate
-- Map the bug class to the strongest reachable chainlink path from an unprivileged client request.
+- Map the bug class to the strongest reachable nearcore path from an ordinary client's transaction or deployed contract.
 - Prove root cause with exact file/function support.
-- Accept only concrete authentication or role bypass, key/secret disclosure, request impersonation, allowlist or quota bypass, unauthorized job run or fund movement, or cross-user response confusion.
+- Accept only concrete theft or permanent freezing of funds, token inflation or loss, double-spend/replay, authorization escalation across accounts or promises, state-root divergence, or a shard-halting panic.
 
 ## Output (Strict)
 If valid analog exists, output:
