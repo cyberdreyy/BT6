@@ -1,0 +1,1 @@
+unless a *third-party* attacker gains from it; verify third-party impact before submitting. Proof idea: unit test replacing the key's permission between charge and refund and asserting refunded allowance lands correctly attributed or is dropped.
