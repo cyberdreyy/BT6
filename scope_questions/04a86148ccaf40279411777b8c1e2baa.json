@@ -148,5 +148,155 @@
     "question": "'File Name: chain/client/src/stateless_validation/chunk_validator/orphan_witness_pool.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
     "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7b1d3c80-94b5-46da-9f44-84df19afd78c?mode=deep",
     "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/chunk_distribution_network.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9a7d3ae2-a38e-41ba-8cd1-893346af9679?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/chunk_endorsement_handler.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_64c44a32-c94a-482a-9d7c-ef06a04274fc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/chunk_inclusion_tracker.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e34bec0-8a30-4ef2-99a9-744bb0deca0c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/chunk_producer.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d0a2add9-eaed-4fd6-9400-89b9a11b8720?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/client_actor.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_db1e82b4-e959-4bb0-b321-42e8052b4dc3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/client.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3a0966ae-d689-4752-8968-31709b42f71e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/config_updater.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7ab97bbc-a3c1-4975-8302-0026f1fcdac7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/debug.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c896f2fa-4578-4601-846d-041b3ed273d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/gc_actor.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f8404171-42b1-41b3-8d58-629d39844056?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/info.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2a2efb8a-5699-439c-a1fc-b58b16f79387?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/lib.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_866e0179-6739-479b-a2c7-edcf6faac355?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/pending_transaction_queue.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e3a8a766-22ec-4591-a5b2-08ff108f510a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/prepare_transactions.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e2fdcf5c-9608-4027-a4fa-dca17c6709da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/rpc_handler.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9a9a4d82-000b-437d-8769-fb13a592b5df?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/spice/chunk_executor_actor/coordinator.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_21ec9db0-db60-4d2e-9168-43bbb73c996b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/spice/chunk_executor_actor/mod.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c71e74a1-b932-46d3-8f77-bd98d9a19b41?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/spice/chunk_executor_actor/per_shard.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_60d1052f-85b7-4c7a-8771-b493bb49828f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/spice/chunk_executor_actor/receipt_tracker.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2eb7ab1c-7b67-4aa3-82a4-2c5edf250b19?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/spice/chunk_executor_actor/storage.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_58b7962c-bca0-48f5-8be9-c7836616f23f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/spice/chunk_validator_actor.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0643706e-1c22-40fc-aa63-6e2772e3feb7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/spice/data_distributor_actor.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b950598-aea6-4d06-905b-49f190875276?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/spice/data_manager/item.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b30139ca-cb4a-4c78-8cc3-ed9070d34737?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/spice/data_manager/mod.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b38f44d2-4ff0-427f-8fb9-0dd04272fb6a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/spice/mod.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c39448ac-4822-4a4d-90d0-865240ac0c93?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/spice/timer.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5649f784-3dd5-4c59-91f5-fcd2eaff8ccd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/state_request_actor.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8cd0db44-0e38-43f2-b23a-b584fb2eb903?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/chunk_endorsement.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_be66f024-2a44-408b-a691-2d2737890fcb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/chunk_validation_actor.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5ba2fb0e-ed55-4c48-9b63-582a5a2589a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/chunk_validator/mod.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_adf5dc09-b131-49c9-a6be-2e0794916cf3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/client/src/stateless_validation/chunk_validator/orphan_witness_pool.rs -> Scope: Critical. LOSS OF FUNDS - A THIRD PARTY'S BALANCE MADE UNRECOVERABLE. Maps to \"Stealing or loss of funds\". An attacker's single action leaves another account's tokens permanently unreachable: a storage_usage or locked value that no subsequent action can satisfy, an account state from which every future action aborts, or a value transfer whose destination is provably unreachable. Must be permanent and must survive the attacker ceasing to act - a delay is not a loss and will not be paid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ea1f878-ea77-4efc-9b05-55ccd2a9786f?mode=deep",
+    "questions_generated": false
   }
 ]
