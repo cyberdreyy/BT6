@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: runtime/runtime/src/verifier.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d560d07e-4809-4c3b-844e-d88b9e24046b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/action_validation.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_14994287-2b5e-4d79-b54f-521bb5697f46?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/access_keys.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d70e0cb3-58e4-46f5-ad74-047e295ded73?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/config.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b12ab9ba-704d-481c-8ac1-05144f0c5da1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/transaction.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9ac4162b-3d8b-48b3-b6cb-73c287f1d07e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/action/mod.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ffa88da-af44-4b2e-89b8-bc52a07051f9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/action/delegate.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d601ccd6-113e-452f-8819-25435134acde?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/signable_message.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_94cb1640-526d-4c93-b336-8301c3cb3c91?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/receipt.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_45fd7c3a-c025-494d-8449-6a7b4f74341f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/utils.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e21c1a3a-f41b-4490-ac2c-48be76a29fa1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/account.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_749141dd-7cbd-424f-a97c-9d3e8ef37d5f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/code.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed86d70e-22b7-4524-b7da-c313cfd0d508?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/parameters/src/config.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a296160a-18c7-44d2-bbab-edcdeba010c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/lib.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c0ac68c0-1f22-4f0d-aa87-a9c769ca1846?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/actions.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fd0da795-711a-4c8b-bb13-6cd5efe98c96?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/ext.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ad57c9a-b3db-4a9b-8872-a30ea86d5dd9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/receipt_manager.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2091cde7-b8b9-4c12-9c76-8c8d723c6e28?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/function_call.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dd8a7cf6-b5c8-4896-bcd2-dc4ea4ef47d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/global_contracts.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ad74fb7-1a4c-4f49-b758-a2fe571db137?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/deterministic_account_id.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_13690254-ef45-4056-9d80-3f7d5680534c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/adapter.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5fdbfeb0-9813-41e8-9103-2d2ec4334880?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/pipelining.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0b0fc54e-4f69-485f-aef1-109facb962c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/utils/mod.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bfc719e3-e3bf-4af5-b218-83329ebc9818?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/trie_key.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_268c52e5-6243-4ec3-8006-d731a62ce75c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/trie_key.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8606e519-d226-47d9-81d1-52669d04642a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/congestion_control.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cd1babec-99f6-4b7b-941e-c196d928b827?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/bandwidth_scheduler/mod.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cf37cab9-5fee-4cd1-8c25-91abdcb72457?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/bandwidth_scheduler/scheduler.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1c56c5c2-c75f-4afc-8e4b-e9ac40e8af0b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/runtime/src/bandwidth_scheduler/distribute_remaining.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c8186dec-ae14-4282-ae1a-fc53d239d0eb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/congestion_info.rs -> Scope: Critical. CONSENSUS FLAW - PRODUCER AND VALIDATOR DISAGREE ON THE SAME CHUNK. Maps to \"Consensus flaws\". An unprivileged sender crafts a receipt for which the chunk producer's recorded storage proof does not determine the post-state a validator re-derives: a read that bypasses the recorder, a size counter that advances without capturing the node, or state a rollback discards that the replay still needs. The attacker need never be a validator; they only supply the transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_30b367d6-57fe-480c-92b2-0ae6ce686ec4?mode=deep",
+    "questions_generated": false
+  }
+]
