@@ -1,0 +1,1 @@
+. Proof idea: unit test with a crafted BandwidthRequest requesting the max bucket, buffer only base_bandwidth+1 bytes of real receipts, run BandwidthScheduler::run, then assert try_forward's OutgoingLimit.size versus receiver_budget decrement recorded in try_grant_bandwidth; compute the ratio granted/forwarded.
