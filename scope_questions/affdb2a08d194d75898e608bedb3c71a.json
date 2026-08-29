@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/primitives/src/shard_layout/v3.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c4aea660-5050-4645-a01a-4a2cfd636f05?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/sharding.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8fa2c162-d678-4b41-9dfc-22de96f20847?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/sharding/shard_chunk_header_inner.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed0a6e47-819e-42e8-ba2f-3556338e7c96?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/signable_message.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e8753f4f-3576-444e-81ef-3323c9ac4d59?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/spice/chunk_endorsement.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_08e3962a-d715-4296-b568-7a21673c7247?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/spice/mod.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d652cb1d-2f2c-4742-993e-d7f697b863fe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/spice/partial_data.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0b8bbe96-fe65-42d0-88d2-fa6bc04f2563?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/spice/state_witness.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f1075ae7-5c32-4502-ab93-c0413f595119?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/state_part.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5df32d47-12ac-491e-a4da-d468a69c6153?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/state_record.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0912efe6-d6ef-4cc1-be6b-1284dc03346d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/state_sync.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b133ca9-c833-4ab9-953d-78b099baa1a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/state.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_39ae7328-a3d2-4673-8fac-7bd71e36efe1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/chunk_endorsement.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f5a08169-68b8-4748-84a2-02c99a43e018?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/chunk_endorsements_bitmap.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f235a6f7-398e-4ae8-9c56-fc7cd503ffc3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/contract_distribution.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d1468228-6137-403d-894a-538889f472f2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/mod.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5a39c604-e86a-42b3-9521-9f409aebcc9e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/partial_witness.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8e0fa0bd-d10f-4030-9504-e5e0d7ff337e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/state_witness.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4b0fff15-ec52-459a-946c-090fe7496212?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/stored_chunk_state_transition_data.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bd570055-1b78-4547-8acc-d15934b52912?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/stateless_validation/validator_assignment.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ddf2688b-d576-4b4e-8ad6-a3555b2bf34a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/telemetry.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b105c904-fac4-4aeb-a3ec-b1ab4e2c96a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/transaction.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aec0e81f-457a-4f3c-bec8-34b4eaba9675?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/trie_key.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ea22b40-c8b9-4973-9527-5fc79e856654?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/trie_split.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ea5c7c27-b05d-4891-9a4a-e746b479166b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/types.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7211fcd8-65ee-42ec-b9de-722586710414?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/types/chunk_validator_stats.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2578e31c-f893-4235-a965-52f79e87ce75?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/universal_state_init.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cff908fc-1d2c-434a-b4b4-a0f0d067fe77?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/upgrade_schedule.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_185b9156-24bc-41ee-a2d4-efcc5e3b6f7b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/utils.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2cc68436-92a0-49d1-8364-b45eb7f9064b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/utils/compression.rs -> Scope: Critical. CONSENSUS FLAW - APPLY-PATH ABORT FROM UNPRIVILEGED INPUT. Maps to \"Consensus flaws\" and the program's fixed-fee DoS tier. One transaction or receipt reaches a panic, unwrap on None, expect, assert, or checked-arithmetic failure on the chunk-apply path, so every node applying that shard aborts identically. Prioritise arithmetic on attacker-sized quantities, indexing by attacker-supplied indices, and expects justified by a comment rather than a check. Frame as a deterministic abort, not as slowness or exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2717ebd5-dbb2-433d-93c2-70b547c0397f?mode=deep",
+    "questions_generated": false
+  }
+]
