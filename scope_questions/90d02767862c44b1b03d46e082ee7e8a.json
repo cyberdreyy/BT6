@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/store/src/trie/mem/arena/hybrid.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8d6edfd0-3543-4236-9143-fe648b1089d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/arena/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_70f74e60-9463-427f-8676-2d3c0cec34dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/arena/single_thread.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4a2737f7-e46b-48b2-b515-4e6c71947534?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/construction.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_99730917-ccae-483c-a966-6a486eca2155?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/flexible_data/children.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_48df3e27-1201-427c-85eb-97b66cd17c2d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/flexible_data/encoding.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_505b4c66-ef71-47ac-be3a-8ee6554fc185?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/flexible_data/extension.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_66d15c39-f3da-4f99-a5ca-8839b3cefbc2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/flexible_data/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_23fe85c9-b7d9-4153-aab6-a5cb676dc7bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/flexible_data/value.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a268983c-9c9a-4d1b-a82a-7c309cabad68?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/freelist.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_56027388-63f0-4584-9499-66b450d25574?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/iter.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_34f9900d-dbc8-43e7-9415-4be44b62673c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/loading.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_41e66e6c-ff9a-49da-b8de-6b7cfd2bdd15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/lookup.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_24b7524c-972e-4853-9cb8-ee06662c951e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/memtrie_update.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dde4056f-75e2-4ff6-ac69-686adfec2e3d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/memtries.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_05a65a3a-b1b6-41cc-adda-c9da7431275d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_725902aa-3db9-4f42-b20c-4d1a2f496b60?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/nibbles_utils.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5eee71d2-fae8-4dd6-9913-3cb19603869f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/node/encoding.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d5a25b45-d165-4dfa-9137-f1a5f6d2a91a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/node/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_55d74b8b-a3fd-46e6-a57b-9acfbd2042cf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/node/view.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c419d0f-a4b9-4160-98d3-a3d564c78abb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mem/parallel_loader.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2fc447be-2cd2-464a-add0-28041f2e8aa6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42a2a3dd-6c00-43e4-8bf7-f3ad35a81fd2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/nibble_slice.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e6d647db-fa1c-474b-a569-ea8e4b6df384?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/insert_delete.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_425d1f26-53bb-4d6b-b68d-06f96e37d2c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/interface.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5d551730-3a39-4e32-9acd-66a05fb40ba5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/iter.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3f23a78f-e729-431c-a5cd-efe24fe79c71?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/mod.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9a36ad4c-9089-4672-86c6-dfa55de82be8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/resharding.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a0286906-5064-444c-a057-1b5383b6a6a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/squash.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c4dda1f6-c1da-42df-bffb-6beb217b20e8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/outgoing_metadata.rs -> Scope: High. CONTRACTS EXECUTION FLOWS - DERIVED ACCOUNT ID COLLISION. Maps to \"Contracts execution flows\" and \"Unauthorized transaction\". Deterministic and implicit account ids are derived from caller-supplied material into a namespace shared with named accounts. Hunt a derivation an attacker can steer onto an id a third party will later derive or already holds, or a path that installs code or keys at a derived id before its rightful deriver arrives. Compare each derive_* helper against the existence and actor checks applied at that id.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a045038d-7eb5-437c-961d-d131be2c5314?mode=deep",
+    "questions_generated": false
+  }
+]
