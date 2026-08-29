@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare/instrument_v3.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5d3b1d9f-7ad4-4538-b3b1-39b82f5886c0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare/prepare_v2.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_da10559c-3824-480e-82b5-a7cb09d9e005?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare/prepare_v3.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dfb70585-107a-4261-b58e-de2394eb316e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/profile.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2d70766d-eda3-43af-b43f-185a95ac0b64?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/runner.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e359e598-7c87-44c0-bd62-ee655f62d1c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/utils.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_03f19b34-85c8-4861-8807-603d1f5f0b13?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/wasmtime_runner/logic.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_44dfc530-6b4c-43ca-bcfb-1007dceb0559?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/wasmtime_runner/mod.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_120df847-4a7c-406f-bfcd-f980daea8305?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/wasmtime_runner/trap_classification.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3df67a3c-cab7-4a77-aa85-8e04c1550087?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/adapter.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cfe6c2af-a93c-4a27-bbce-7afe7bcb601f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/epoch_info_aggregator.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d5489600-f583-4312-bf9a-8d4448ad51be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/epoch_sync.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c7d68c6c-f855-4c6a-abf5-d6c26444a581?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/genesis.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ec997d96-d2ee-4a16-8cae-1395432107b6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/lib.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_692b17e6-4ab5-4dea-8258-33b979329dd4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/reward_calculator.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_de1d1fc7-2450-4dc1-8b83-943ea2d2eafc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/shard_assignment/mod.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ad4b76b-000c-4804-aeae-7b86e7699061?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/shard_assignment/sticky_resharding.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5fc2348d-ba86-4cbf-b13c-037327828370?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/shard_tracker.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6ee10fdc-5aff-4fc4-9276-edb5110b14ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/validator_selection.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ff1873e1-a013-4a74-9b6d-4d5b10b2f58b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/epoch-manager/src/validator_stats.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0d49df1c-c952-4e8f-96f4-fce6c0342b9e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/approval_verification.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a62dd733-f3db-44ed-8b05-5ac4c0c73e63?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/backfill_receipt_to_tx.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c794666-39f6-4282-bc51-9e8df6741dda?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/block_processing_utils.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b74bcd9c-c223-4c20-864c-3bed166c8008?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/blocks_delay_tracker.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bdc4a6cf-d5ec-4823-8cf7-a7b870477217?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/chain_update.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ee7798b-e413-4841-8167-222175436f18?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/chain.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b7eda11d-7b27-424f-a1d3-c804b720df6e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/crypto_hash_timer.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7565a9ee-bbbc-4eae-89bc-a97c4c9e682f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/doomslug.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7926af0e-5a99-4b4c-8f4f-d2bf65b4c13f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/flat_storage_init.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1f3b0f64-e41b-4d9c-b695-fbbfd9fbcecc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chain/chain/src/garbage_collection.rs -> Scope: High. FEE PAYMENT BYPASS - WORK PERFORMED BEFORE OR WITHOUT THE CHARGE. Maps to \"Fee payment bypass\". An unprivileged sender obtains deserialization, compilation, linking, instantiation, decompression, hashing, or trie traversal that is charged after it completes, or not charged at all, and aborts before paying. Name the work site and the charge site and show the ordering. Frame the impact as fee bypass, never as resource exhaustion.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e77051f7-d801-40aa-8b1a-67731cb32114?mode=deep",
+    "questions_generated": false
+  }
+]
