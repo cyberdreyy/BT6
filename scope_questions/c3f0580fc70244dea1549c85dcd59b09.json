@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/crypto/src/errors.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_19fa33b5-1fb4-4ddc-afd5-d201e6d399b8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/crypto/src/hash_domain.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cfa4a4e2-175d-40c1-bcd5-74a7b81e0d75?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/crypto/src/hash.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b7a3372-fd42-4d20-bfc7-30a7bf431261?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/crypto/src/key_conversion.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1e7f94c5-00fd-4239-a200-e09fc8a5c77a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/crypto/src/key_file.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f951ac38-4f2f-482b-8039-b07ece22f38b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/crypto/src/lib.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_873cfff0-0022-4738-a7af-544fea0cd061?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/crypto/src/signature.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b60bf530-413e-4086-ac5c-517222f6da19?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/crypto/src/signer.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1eb1ff49-090e-4b6f-86e7-f73f2b9475a2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/crypto/src/traits.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_981990b7-248c-4fa7-8db6-e764c7e62a9b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/crypto/src/util.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f2479b4-fd5c-4208-a55b-7981a887d15b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/crypto/src/vrf.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4c39245d-e832-4d74-8d17-1c63fafab2ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/account.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e690cbd5-cc41-44cb-9954-7d43b514e574?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/apply.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_be553b34-316c-49ae-89e8-228f42e48863?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/chains.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f1679d0e-6db7-4407-8e4e-31b38da4c296?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/code.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_05f9de9e-e645-4311-862f-ef4df4c1c168?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/config.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a03d2339-ea8a-4e1b-8c89-2f1015fba971?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/deterministic_account_id.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_063c7fcd-5e26-4520-a2c3-1c2e998a5db7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/errors.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_93f3e39b-8d3d-4d0a-8fdf-fc72b1ed6213?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/gas.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_439c0b66-728d-46ef-a89b-f896338f6589?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/global_contract.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d9219069-04fc-4a28-8d48-5370f26d14d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/hash.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_21e4da68-f302-49ad-806f-8c1cfcf8865c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/lib.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_59ba2499-4050-493b-a05f-90282c861820?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/serialize.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cd42bda6-b3c4-43e3-a214-16b75e0d252f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/trie_key.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_adf6b67b-f0ac-42b9-a8f7-4128733b6a88?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/types.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7cc41bc6-c3ba-4d52-a374-3b3a408e181b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/universal_account_id.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_875b5f9d-9719-47c0-a228-3d0bc4bd3508?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/universal_state_init.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e95bd4cd-8a29-4a20-a1e8-a41291406751?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives-core/src/version.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f94a1bf0-fa19-48cf-9b79-a1b3bc2ef16d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/action/delegate.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_87dc00f1-719b-4ca4-94a4-a4939a98f01e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/primitives/src/action/mod.rs -> Scope: Critical. STEALING - CROSS-ACCOUNT ACTION EXECUTION. Maps to \"Unauthorized transaction\". An action executes against an account whose key never authorised it, because the executor derives the acting identity from a field an attacker controls rather than from the verified signer: predecessor_id on a receipt the attacker shaped, a receiver rewritten between validation and execution, or an actor identity inherited from a prior frame. Name the site that sets the acting identity and the site that checks it, and show they can disagree. Victim: the account acted upon.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d7c90cf1-f742-450a-9727-f03daeb1a5c3?mode=deep",
+    "questions_generated": false
+  }
+]
