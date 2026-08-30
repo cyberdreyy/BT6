@@ -1,1 +1,0 @@
-Target: Error::InvalidBlockOrdinal / InvalidBlockMerkleRoot (error.rs:241-246) — confirm block_merkle_root/block_ordinal are chain-height-derived, not influenced by attacker-controlled transaction ordering within a chunk, ruling this branch out (documented negative). Invariant: none. Proof idea: trace block_merkle_root construction, confirm independence from mempool/tx content.
