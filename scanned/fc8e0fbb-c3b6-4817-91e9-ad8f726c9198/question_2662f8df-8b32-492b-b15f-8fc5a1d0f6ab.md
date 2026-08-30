@@ -1,1 +1,0 @@
-module (triggers PrepareError::Instantiate at transform_import_section:315-317); execute via near-vm-runner integration test measuring gas_counter.burnt_gas == 0 vs non-zero wallclock in PrepareContext::run; assert METERING_TOTALITY.
