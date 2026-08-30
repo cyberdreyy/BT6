@@ -1,1 +1,0 @@
-Target: Error::InvalidBlockProposer (error.rs:112-114) — block-producer-signature-only surface, confirm out of scope for an ordinary client (documented negative). Invariant: none. Proof idea: trace block proposer signature check inputs.
