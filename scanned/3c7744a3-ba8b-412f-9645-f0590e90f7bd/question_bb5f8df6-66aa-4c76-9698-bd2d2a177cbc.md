@@ -1,1 +1,0 @@
-)` as a consensus abort. Proof idea: unit test feeding an AccountId classified NearImplicitAccount by near_account_id but containing a non-hex-but-64-length payload (if constructible) directly to from_near_implicit_account and observing the panic.
