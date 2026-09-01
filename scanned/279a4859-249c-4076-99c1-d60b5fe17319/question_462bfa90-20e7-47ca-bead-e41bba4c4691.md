@@ -1,1 +1,0 @@
-[File: w-near/src/w_near.rs -> Scope: Critical] Target: Contract::near_deposit zero-deposit guard. Attacker action: call near_deposit() with attached_deposit() == 0 (no #[payable] deposit attached, or attaching exactly 0 explicitly). Preconditions: any account state. Call sequence: assert!(amount > 0,
