@@ -1,1 +1,0 @@
-StakingContract::internal_withdraw
