@@ -1,1 +1,0 @@
-to whichever account triggers `internal_ping` next, diluting other delegators' shares. Proof idea: `near-sdk-sim` test forcing a failed transfer via `testing_env_with_promise_results(..., PromiseResult::Failed)` analog on withdraw path, then call `ping()` and assert `total_reward` computed in `internal_ping` includes the phantom leftover balance.
