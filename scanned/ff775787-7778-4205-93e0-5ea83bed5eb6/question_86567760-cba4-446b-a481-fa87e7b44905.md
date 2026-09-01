@@ -1,1 +1,0 @@
-[File: lockup-factory/src/lib.rs -> Scope: Critical. LockupArgs struct has no `salt` or caller-tied field; the only entropy is `owner_account_id` fed to env::sha256, making the resulting lockup_account_id fully attacker-predictable given only the victim's account name.] [Target: struct LockupArgs, fn LockupFactory::create] Can an attacker compute hex::encode(&env::sha256(b
