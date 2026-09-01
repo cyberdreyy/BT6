@@ -1,0 +1,1 @@
+Critical: an off-by-one in the unlock gate would let unstaked NEAR leave the pool one epoch earlier than the schedule promised, before the locked-balance guarantee backing it has actually unstaked on-chain

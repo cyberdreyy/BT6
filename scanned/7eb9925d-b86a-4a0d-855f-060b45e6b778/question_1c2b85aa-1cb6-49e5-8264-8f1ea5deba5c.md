@@ -1,0 +1,1 @@
+[File: 'state-manipulation/src/lib.rs' -> Scope: Critical] Target: #[no_mangle] pub fn clean() and storage_remove(key) with zero predecessor/owner check. Attacker action: on any account with this wasm deployed, an unprivileged caller invokes `clean` with `{

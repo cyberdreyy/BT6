@@ -1,0 +1,1 @@
+StakingContract::on_stake_action

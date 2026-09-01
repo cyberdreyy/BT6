@@ -1,0 +1,1 @@
+[File: w-near/src/w_near.rs -> Scope: Critical] Can an unprivileged attacker exploit integer arithmetic in `near_deposit()` by attaching `attached_deposit` such that `amount -= self.ft.storage_balance_bounds().min.0` underflows if `amount < storage_balance_bounds().min.0` slips past the preceding `assert!(amount >= self.ft.storage_balance_bounds().min.0,
