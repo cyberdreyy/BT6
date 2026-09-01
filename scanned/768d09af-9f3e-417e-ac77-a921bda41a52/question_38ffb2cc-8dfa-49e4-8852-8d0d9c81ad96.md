@@ -1,1 +1,0 @@
-)`? Binding: `is_whitelisted(account)==true` == `code_hash(account)==hash(staking_pool.wasm)`. Scoped impact: lockup or delegator NEAR routed to unaudited code. Proof idea: `near-workspaces` test deploying a pre-existing account at the target subaccount name before calling `create_staking_pool`, observe whether `on_staking_pool_create` still whitelists it.
