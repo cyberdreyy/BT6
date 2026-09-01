@@ -1,1 +1,0 @@
-`withdraw` -> `internal_ping` -> `internal_withdraw` decrements `account.unstaked -= amount` and `self.last_total_balance -= amount`, saves the (now zero) account via `internal_save_account`, then fires `Promise::new(account_id).transfer(amount)` with no `.then()` callback to verify delivery
