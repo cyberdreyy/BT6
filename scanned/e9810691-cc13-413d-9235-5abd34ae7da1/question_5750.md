@@ -1,0 +1,13 @@
+# Q5750: Id colliding with an already whitelisted pool - id derived from a victim account
+
+## Question
+Can an unprivileged attacker choose an id that collides in the whitelist's key space with an existing legitimate pool, deriving the account id from a victim's account id, breaking the invariant that each whitelisted entry corresponds to exactly one account, and leading to user funds routed into an attacker-parameterised contract the protocol treats as trusted?
+
+## Target
+- File/function: `staking-pool-factory/src/lib.rs` - `StakingPoolFactory::create_staking_pool / on_staking_pool_create`
+- Entrypoint: `create_staking_pool(...)` - `#[payable]`, callable by ANY account with `MIN_ATTACHED_BALANCE`
+- Attacker controls: `staking_pool_id`, `owner_id`, `stake_public_key`, `reward_fee_fraction`, the deposit and the gas
+- Exploit idea: Choose an id that collides in the whitelist's key space with an existing legitimate pool, deriving the account id from a victim's account id.
+- Invariant to test: Each whitelisted entry corresponds to exactly one account.
+- Expected Immunefi impact: Critical - user funds routed into an attacker-parameterised contract the protocol treats as trusted.
+- Fast validation: Unit test the whitelist key space.
