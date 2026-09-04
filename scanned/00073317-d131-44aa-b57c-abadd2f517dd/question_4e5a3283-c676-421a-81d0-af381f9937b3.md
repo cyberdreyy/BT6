@@ -1,0 +1,1 @@
+proposal designed only to occupy the slot. Call sequence: proposal 1 -> `submitted_block_proposal = Some(...)` -> proposal 2 (the genuinely canonical continuation) arrives before proposal 1's timeout -> signer's logic (per test's comment
