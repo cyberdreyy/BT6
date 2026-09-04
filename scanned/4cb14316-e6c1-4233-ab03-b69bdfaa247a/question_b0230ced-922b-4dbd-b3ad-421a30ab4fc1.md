@@ -1,0 +1,1 @@
+? Scoped impact: Critical. Proof idea: Rust test constructing adjacent `BlockRejection` and `BlockAccepted` wire payloads through a shared buffered reader with a 1-byte framing offset, asserting the discriminant byte consumed for classification is always sourced from the current message's own first byte, never a prior buffer's tail.

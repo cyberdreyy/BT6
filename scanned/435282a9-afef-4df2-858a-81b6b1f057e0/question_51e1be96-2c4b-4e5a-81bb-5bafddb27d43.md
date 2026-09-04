@@ -1,0 +1,1 @@
+[File: headers.rs -> Scope: High.] Target: same `SORT` decision node, opposite branch: `SORT -- could not ask, or 404 with node's tip still below burn block --> HOLD1`. Attacker action: withhold burnchain propagation timing knowledge is not attacker-controlled, but attacker can submit a proposal precisely when a signer's own node is behind, causing every 404 to fall into the
