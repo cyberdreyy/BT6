@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: pox-locking/src/lib.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_419830e8-3bd8-45db-900b-9fc9d6586ada?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pox-locking/src/pox_1.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_5597e92d-58a1-46cd-aa43-cfbaf7877f0d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pox-locking/src/pox_2.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_3b22d536-747d-4881-b100-9fd6acb8436c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pox-locking/src/pox_3.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_22adf0e1-135d-4e87-8331-92fb051bf390?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pox-locking/src/pox_4.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_8a644790-fafc-486a-b5ca-0b36194f8edd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pox-locking/src/pox_5.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_cbcb848c-7f44-4793-9972-b36a520fae98?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/chainstate/mod.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_56ef8e7c-f7b1-446a-bdf6-2a1c08b949c0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/chainstate/v1.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_3715456d-7129-4fbf-857d-afb852809d7d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/chainstate/v2.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_d0e9d74c-0385-4336-9da4-f5bc93a77cce?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/cli.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_610e7b63-1715-432c-a83c-00d6162d39ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/client/mod.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_a90f0858-77a2-4fd7-b386-b1c35d3df349?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/client/stackerdb.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_b602087a-146e-4f2a-a415-4c04bd6dd676?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/client/stacks_client.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_5c1d8b7f-f920-40a8-9f19-e11d38f9b16d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/config.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_26956795-ca2b-41bf-bf9d-d3c14b4485e9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/lib.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_68598145-53d4-458d-ae0d-8e9f84243647?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/main.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_c8eddd36-b21b-478a-8fcd-5a34a379368a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/monitor_signers.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_57b609a7-1e0e-4280-bb93-645fe8e8eea5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/monitoring/mod.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_92269f36-29f0-4ab0-aa19-6b59bf2a955b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/monitoring/prometheus.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_ab4a09f8-76c5-472f-bfed-7038ba90ae82?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/monitoring/server.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_ba394d18-9baf-4006-828a-57b244c3f71e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/runloop.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_a6d61549-c457-4adc-a1a9-8baee2caebbc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/signerdb.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_079fbd41-55dd-40a7-8270-1e54f9679658?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/utils.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_2bb90119-863d-48c7-8422-b17773a99659?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/v0/mod.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_4056504b-4d74-4cc2-9f6c-58640a5a5d03?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/v0/signer.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_7eb779e9-7c85-4625-9203-38e2a7d213e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-signer/src/v0/signer_state.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_3b1201bc-8ecb-4f5b-b28d-9fa2f0a649a8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/burnchains/bitcoin/core_controller.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_78ec9b3b-8b66-465c-abf1-6a351540807f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/burnchains/bitcoin/mod.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_9f549def-81d1-42d4-a927-49f5e6b809be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/burnchains/bitcoin_regtest_controller.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_7a9218ce-f88b-40b6-937c-9483758adfbf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/burnchains/mod.rs -> Scope: High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_629bd5e3-585a-4a6d-b9a0-1f94dd0b50b0?mode=deep",
+    "questions_generated": false
+  }
+]
