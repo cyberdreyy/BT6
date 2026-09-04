@@ -1,0 +1,1 @@
+[File: 'File Name: stacks-common/src/util/pipe.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED.'] Can an attacker who controls the miner slot induce `fault_injection_validation_stall(auth_token)` (postblock_proposal.rs, gated by `#[cfg(any(test, feature =
