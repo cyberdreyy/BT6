@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: clarity/src/vm/costs/costs_4.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_79b91ff5-c1fc-4602-ac18-2e0a57c26e47?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/costs/costs_5.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_b37cdf24-a129-4e1e-a050-9d737e9f835d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/costs/errors.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_d0130562-1689-4b55-9dd9-292ef1e6c426?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/costs/execution_cost.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_7380f071-7e9f-4267-a925-33089c3f9877?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/costs/mod.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_bcf43675-b41f-4be0-9673-e33875936e7a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/database/caching/mod.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_24f9711e-384c-406b-aaee-275642b9081d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/database/caching/weight_limited_fifo.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_6cded0b9-bbb8-46ca-b1bd-4b961cdcd1b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/database/clarity_db.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_98d0bad3-96cc-49b5-83d0-0aa4693254a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/database/clarity_store.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_1c284ad6-8343-4c93-b1a3-4d8ea4a3e1d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/database/key_value_wrapper.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_7244d237-290f-4617-8ad5-c01fff0c18db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/database/mod.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_50f3cf1f-47a1-436d-a35d-f20e9d36df8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/database/sqlite.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_8b9df173-f433-45b6-9a86-354d637e0778?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/database/structures.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_d63444c1-215b-4a67-b3e6-2bdfdd7a6e4e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/diagnostic.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_8773a8eb-f5f5-459b-bcb5-9bec55a12ee1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/errors.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_7cbcd2b4-afc8-44b0-915d-dbcd156b4db2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/events.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_55e8bb2b-b050-4e9b-920f-dd5cefa246b6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/arithmetic.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_9e4c51e7-a332-45f3-9daf-435f81e7d1c1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/assets.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_c8eff8cc-c35b-4f4c-a7e1-d8cf3788ccaf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/bitcoin.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_a23fcfd3-2bb7-4dd0-a29d-dfda8346a082?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/boolean.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_d6404786-ca7f-48b1-b178-f6b84e2d84a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/conversions.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_34d396a3-7fd2-46be-8ecb-a5c2de23f683?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/crypto.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_8f87a484-009e-4c72-bdc9-64c7a4543ecb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/database.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_40c7fcd2-7f48-4e22-8518-009045a5eac1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/define.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_3cd2cf56-1c5f-4ab6-ac7d-79cdc1a14898?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/mod.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_885de2c5-0383-475b-8bce-57ba1e2b1c90?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/options.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_b483b4eb-14ed-4adf-b9a8-02d354e53837?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/post_conditions.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_2c549ec5-9c84-4162-89b5-4a87502f1c28?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/principals.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_b426cb87-f64d-48ff-a690-139428de42ac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/sequences.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_f78450b3-47f9-4125-ab71-da3d9da2e7c5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: clarity/src/vm/functions/tuples.rs -> Scope: High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_f92439d3-8906-4d78-845c-5801089f9601?mode=deep",
+    "questions_generated": false
+  }
+]
