@@ -1,0 +1,1 @@
+fact lives only in a runtime data structure (signer_state), not yet flushed to the V20 table. Call sequence: signer restarts -> SignerDb reopened at V20 with tenure_activity showing T as last-active but the superseded-tenures table empty for T -> attacker regossips a stale BlockProposal continuing tenure T (the one that should be superseded) -> signer's chainstate check for
