@@ -1,0 +1,1 @@
+` enabled and `auth_token: None`, assert `TEST_VALIDATE_STALL` is not set by default and that `fault_injection_validation_stall` is `#[cfg(not(any(test, feature = \"testing\")))]` no-op in the actual release profile used for mainnet binaries.]
