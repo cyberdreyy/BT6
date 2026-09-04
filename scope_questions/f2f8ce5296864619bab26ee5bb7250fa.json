@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: stacks-common/src/util/db.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_fc99a3b9-9cc2-49dc-9b3f-fef8534f6227?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/ed25519.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_d75ce2d2-587f-40ce-bde3-a1eed202b85f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/hash.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_dd5fa0f3-553c-43a9-88a1-3f6989d88df7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/log.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_fe74dcdb-0a75-4d95-9361-d800cd340038?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/lru_cache.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_62a61e40-fc15-42de-aef5-2d3300d1330b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/macros.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_d38a558b-a989-4fae-9dcb-c45743e342f6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/mod.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_32fd45c4-3d55-4fd6-bcf1-e764ce891443?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/pair.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_4b6a6c87-0a4e-40bf-8ecd-32983f9645da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/pipe.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_f332d671-1181-4642-8286-12b70290c4f2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/retry.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_0347f8ce-1d7c-4252-8b9a-883c2ecc2d56?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/secp256k1/mod.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_1c775e47-e3fb-4382-83f6-df1e8487b0ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/secp256k1/native.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_19c32006-8d46-4734-92cd-c8f11ab0fa0e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/secp256k1/wasm.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_95bd03ed-9861-4ad4-bf8c-4599b36ff793?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/secp256r1.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_b9b27aa0-618f-4939-a933-37770f5d04dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/serde_serializers.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_1bad18c0-0f98-4550-baa7-ee1a73847b29?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/uint.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_23b9e5ad-9ac7-4919-8545-7e047207b2d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/vrf.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_ad134dd4-a308-4a17-ac0e-9db3fe71aaed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/error.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_9cf75969-1cdb-4346-a601-e51170e32afa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/events.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_38ac0bc7-e545-4521-97e9-f2f8b07f1ecc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/http.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_cfc1e850-6954-47e7-80b0-7c9d374119bb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/libsigner.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_fdf9d03d-d1ba-4f34-bf51-c942211326c2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/runloop.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_4018dc28-abd3-4186-99f4-d937d82465e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/session.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_ab1cecb0-7fa0-41ac-b955-5a4d757433a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/signer_set.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_1a407134-09d9-4db3-9807-cee37d4d2fe2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/v0/messages.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_3c2cf109-0243-480d-8392-8e6cff908e74?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/v0/mod.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_7376b965-dba1-4194-8bbf-fe7fb4d296bc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/v0/signer_state.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_57b2c68d-6e2c-4d03-91ca-5b77a50ed7c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libstackerdb/src/libstackerdb.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_d6fd54fb-7215-4f4a-87e7-136b2fef6c78?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pox-locking/src/events.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_f69b0067-76db-4fdf-b808-033c476de477?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pox-locking/src/events_24.rs -> Scope: High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_82eb7a38-aaa4-41b3-943e-7b439ca0a2c6?mode=deep",
+    "questions_generated": false
+  }
+]
