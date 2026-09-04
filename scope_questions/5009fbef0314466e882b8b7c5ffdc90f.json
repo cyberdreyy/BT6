@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: stacks-common/src/util/db.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_7adc7147-3dcf-419d-9b78-830c99623cbc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/ed25519.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_09342d25-0f33-47de-aa47-54171ed070ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/hash.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_c6efe91b-1591-4a04-8fa3-d8f8f7a37322?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/log.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_7e445851-abb4-4687-9f8c-12e2479dff90?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/lru_cache.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_a0eafaf3-0634-465f-8abd-a5117c597a5a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/macros.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_6a16051b-57c2-4007-966e-680d8afdc5c5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/mod.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_8e8e4620-8ea5-4d26-819e-930b3a12d8ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/pair.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_bf076245-ce26-4f2f-96c1-600395fe92ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/pipe.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_039946e3-f95a-4b8f-938c-bb57a0ed1b75?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/retry.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_5e61d2ef-9185-4646-ac96-7907b27a526d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/secp256k1/mod.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_ad57e2d0-0034-4a8d-bcc7-455d2104acac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/secp256k1/native.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_25cb09c2-3704-46a8-95e4-cdd7d8308eb7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/secp256k1/wasm.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_c9d1b8b7-c54d-437c-b9d5-56381c5c6f62?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/secp256r1.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_08d707a6-ab4c-4e68-bbf4-491c695cc359?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/serde_serializers.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_a96067fb-944a-41fd-96aa-c2a09da06483?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/uint.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_e51f6e35-4144-44ce-a478-0da1d7e79832?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/vrf.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_2d18312a-e842-48bc-9339-b5f0729aa3e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/error.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_e777192b-dce5-4fa1-adaf-0caff9e91bc9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/events.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_61f5e4a9-1552-4ea9-9790-1f7b17bded7e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/http.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_20a10e79-7da2-4909-b67b-d08be790d479?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/libsigner.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_8b735756-25ab-4e50-aff9-99e6fcfdda67?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/runloop.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_19612566-1e95-4054-b574-f1e4e24e03da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/session.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_c275941d-c984-49a8-8c8e-5d3feb6768df?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/signer_set.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_8a875065-9bb8-4b93-8ed2-2a00e3b72002?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/v0/messages.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_18329c94-decc-4295-81d0-af851507b1c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/v0/mod.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_c419053d-15b3-439a-9508-b8982edde1db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/v0/signer_state.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_6ec1ea40-fb68-49fd-9756-0c29a4ad2be9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libstackerdb/src/libstackerdb.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_8c6727b2-b5d2-435b-b056-b973622c0bf5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pox-locking/src/events.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_c9e148f5-1956-4682-90eb-b427391a6446?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pox-locking/src/events_24.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_48062c2d-f304-41dd-ab18-e2a223201fc2?mode=deep",
+    "questions_generated": false
+  }
+]
