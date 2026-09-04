@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: stacks-common/src/util/db.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_e6c45dc5-eeea-423f-bd64-be5e3a5ccbd2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/ed25519.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_7ed7dba3-3e39-4c58-b866-117f7119d153?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/hash.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_8623846f-7e33-4e6c-9cdd-d74e681724a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/log.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_5a51ff0c-8ef6-4376-8c46-84f0f7385649?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/lru_cache.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_86c39999-7956-4ed9-a418-1a86f7a0108f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/macros.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_e6f23314-165c-407a-821f-9363f683fbf2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/mod.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_3e89201f-3342-4c79-8035-e5a6b85294b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/pair.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_e109db5f-ed01-4866-b4df-caed7cc35cdf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/pipe.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_e81d1e68-cd6d-4943-af7a-c6c7786d6182?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/retry.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_b49341a5-0ca3-4d37-a447-e8acb64706d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/secp256k1/mod.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_1484b360-aa48-4e1c-9ae6-c0321f1ce335?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/secp256k1/native.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_36805bf2-2695-4539-b45c-6623acc045db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/secp256k1/wasm.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_6541f4ed-cc9a-448a-ba24-b25d0700409d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/secp256r1.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_a6c9b13b-4590-489d-a8f5-a21e830c611e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/serde_serializers.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_cb3b6112-11e7-4a7e-baa9-6348fba0f939?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/uint.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_5f940897-858b-4838-a251-f4e18acb8275?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-common/src/util/vrf.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_b90eaa4c-45e5-4387-93b5-a12b28321485?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/error.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_07d3a1ae-a925-4c2d-a22b-28d780beba8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/events.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_13cc2de0-4c36-4feb-bc1a-4b81318d5ed8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/http.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_8c4133ce-ff5e-49eb-8f31-8c0d58ece103?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/libsigner.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_fdb4eb9d-39c6-47e3-8cba-67b01daf11a0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/runloop.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_eab22ae6-4a67-48f2-a618-7d3f720cc080?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/session.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_d4e85c8c-bb66-4b37-a2d1-73d72a6b5313?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/signer_set.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_e004e2b6-f976-43b4-a735-a08ce75c27dd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/v0/messages.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_4f6bd03c-482b-470b-8779-b491885d045f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/v0/mod.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_7a0b2a38-6fb2-4d02-9031-80040f77f823?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libsigner/src/v0/signer_state.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_4336e3a6-2717-47ab-838e-a82b9f340629?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: libstackerdb/src/libstackerdb.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_98e8e573-b0ab-42b5-a27a-c4f76d900ca7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pox-locking/src/events.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_4ac4fe68-56d5-4201-ade3-171af35e95fe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pox-locking/src/events_24.rs -> Scope: Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.'",
+    "url": "https://deepwiki.com/search/-generate-nakamotosigner-secur_ede70604-0c95-4879-882c-48d8d1cc59c1?mode=deep",
+    "questions_generated": false
+  }
+]
