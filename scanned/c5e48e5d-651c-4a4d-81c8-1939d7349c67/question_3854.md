@@ -1,0 +1,13 @@
+# Q3854: gather_metrics_string: a rejection message replays as an acceptance
+
+## Question
+Can an unprivileged attacker reach `gather_metrics_string` (in `stacks-signer/src/monitoring/prometheus.rs`) via a BlockProposal from a miner slot the attacker won (their own BTC), plus signer/StackerDB messages they gossip into the signer's stream (minority weight only), such that the message type is not bound into the signed hash, breaking the invariant that a signed response's meaning == the type the signer intended — leading to rejection counted as accept?
+
+## Target
+- File/function: `stacks-signer/src/monitoring/prometheus.rs` -> `gather_metrics_string`
+- Entrypoint: a BlockProposal from a miner slot the attacker won (their own BTC), plus signer/StackerDB messages they gossip into the signer's stream (minority weight only)
+- Attacker controls: the full proposed block contents, its claimed tenure/burn view and reorg claim, and the gossiped signer messages
+- Exploit idea: the message type is not bound into the signed hash
+- Invariant to test: a signed response's meaning == the type the signer intended
+- Expected Immunefi impact: Critical - rejection counted as accept
+- Fast validation: test a replayed rejection

@@ -1,0 +1,13 @@
+# Q3468: increment_signer_agreement_state_change_reason: signer wedged into never signing a valid block
+
+## Question
+Can an unprivileged attacker reach `increment_signer_agreement_state_change_reason` (in `stacks-signer/src/monitoring/mod.rs`) via a BlockProposal from a miner slot the attacker won (their own BTC), plus signer/StackerDB messages they gossip into the signer's stream (minority weight only), such that a malformed proposal leaves the state machine non-terminal, breaking the invariant that every valid proposal reaches a terminal decision in bounded time — leading to liveness loss?
+
+## Target
+- File/function: `stacks-signer/src/monitoring/mod.rs` -> `increment_signer_agreement_state_change_reason`
+- Entrypoint: a BlockProposal from a miner slot the attacker won (their own BTC), plus signer/StackerDB messages they gossip into the signer's stream (minority weight only)
+- Attacker controls: the full proposed block contents, its claimed tenure/burn view and reorg claim, and the gossiped signer messages
+- Exploit idea: a malformed proposal leaves the state machine non-terminal
+- Invariant to test: every valid proposal reaches a terminal decision in bounded time
+- Expected Immunefi impact: High - liveness loss
+- Fast validation: test a wedging proposal
