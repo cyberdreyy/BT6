@@ -1,1 +1,0 @@
-Target: `send_block_pre_commit`/`handle_block_pre_commit` self-count path (signer.rs:220 in docs/signer-flows.md, 'count our own pre-commit'). Attacker action: gossip a crafted BlockPreCommit from a peer whose signer id collides (spoofed) with the local signer's own id field, attempting to make the local `add_block_pre_commit` credit itself twice (once from `SELF[
