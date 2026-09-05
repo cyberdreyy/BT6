@@ -1,1 +1,0 @@
-during the fork window, producing two signed blocks at overlapping heights. Proof idea: `stacks-signer/src/chainstate/tests/v2.rs`-style test toggling the mocked `get_sortition_by_burn_hash` response for the permitting sortition mid-test and asserting the conflict is NOT excluded once the permit sortition is no longer canonical.
