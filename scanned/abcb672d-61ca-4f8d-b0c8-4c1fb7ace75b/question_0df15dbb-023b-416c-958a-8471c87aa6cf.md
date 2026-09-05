@@ -1,1 +1,0 @@
-)` on a SignerDb error) at the moment just before `mark_locally_accepted`, such that after restart the SignerDb's equivocation guard (has this signer already signed a conflicting block at this height/tenure) is not restored from persisted state, allowing the signer to then sign a second, conflicting block at the same height post-restart? Preconditions: signerdb persistence of
