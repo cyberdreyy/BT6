@@ -1,1 +1,0 @@
-Proof idea: construct two `BlockInfo` serializations differing only in a field with a serde default that affects hash computation, insert one, restart with the other schema/serde version active, call `block_lookup`, and assert `retrieved.signer_signature_hash() == stored_key` must always hold - show a migration path where it doesn't.
