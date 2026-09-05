@@ -1,1 +1,0 @@
-(this is the exact regression noted in the `has_signed_block` test). Proof: reuse/extend `has_signed_block` test in stacks-signer/src/signerdb.rs asserting `has_signed_block_in_tenure` is false after only `mark_pre_committed`, then assert `check_miner_inactivity` falls back to the prior tenure.

@@ -1,1 +1,0 @@
-block, subverting the one-signature-per-block invariant. Proof: test injecting two `BlockValidateOk` events for the same hash back-to-back, assert only the first triggers `mark_pre_committed`+`send_block_pre_commit` and the second is a no-op via the `valid.is_some()` early return.

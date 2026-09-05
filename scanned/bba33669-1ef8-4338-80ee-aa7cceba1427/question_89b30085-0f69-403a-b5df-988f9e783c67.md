@@ -1,1 +1,0 @@
-replacement, i.e. two conflicting blocks at one height. Proof: test mocking `get_sortition_by_burn_hash` to 404 for the permitting hash, assert `reorg_permit_stands` returns false and the original conflict resumes blocking.
