@@ -1,1 +1,0 @@
-Signer::handle_block_pre_commit weight tally vs SortitionData::compute_voting_weight_threshold
