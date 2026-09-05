@@ -1,1 +1,0 @@
-[File: 'stacks-node/src/burnchains/bitcoin/mod.rs' -> Scope: Critical] Target: `structured_data_message_hash` / `make_structured_data_domain` used by `stacks-signer/src/cli.rs::VoteInfo::digest` for SIP voting. Attacker action: attacker replays a valid `VoteInfo` signature signed under domain `(
