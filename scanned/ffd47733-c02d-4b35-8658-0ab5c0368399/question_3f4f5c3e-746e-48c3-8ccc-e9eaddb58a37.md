@@ -1,1 +1,0 @@
-[File: 'File Name: clarity/src/vm/analysis/type_checker/v2_05/mod.rs -> Scope: Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED.'] [Method: function_or_struct] Can an attacker exploit `Signer::test_reject_block_proposal` / `TEST_REJECT_ALL_BLOCK_PROPOSAL` style hooks being compiled under `#[cfg(any(test, feature =
