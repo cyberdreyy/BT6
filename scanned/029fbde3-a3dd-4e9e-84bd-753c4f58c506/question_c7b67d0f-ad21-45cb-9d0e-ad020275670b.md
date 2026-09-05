@@ -1,1 +1,0 @@
-check_static_valid_block runs only in handle_block_validate_ok/reject AFTER node
