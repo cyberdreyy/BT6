@@ -1,1 +1,0 @@
-if the miner reuses it). Proof: Rust test advancing burn height across a reward-cycle boundary without updating `self.reward_cycle` on the harness signer, then asserting a proposal tagged with the new cycle is rejected/ignored rather than validated under the old cycle's weight table.]
