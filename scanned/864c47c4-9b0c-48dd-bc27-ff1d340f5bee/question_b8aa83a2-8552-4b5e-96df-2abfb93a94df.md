@@ -1,1 +1,0 @@
-is stale/wrong. Proof idea: Rust test seeding two blocks in a tenure under the old signed_over semantics, running the migration, then calling get_first_signed_block_in_tenure and asserting it returns the block that is actually first by (signed_over/consensus_hash, stacks_height) post-migration, not a mis-derived one.
