@@ -1,1 +1,0 @@
-, or accept out-of-order signatures if index collapses. Equality: the `(signer, signer_index)` tuple the node recovers for a given pubkey via `signers_by_pk` == the `signer_id` the signer itself believed it held via `SignerEntries::signer_pk_to_id`. Impact: Critical - a genuinely valid, correctly-ordered signature set gets rejected as
