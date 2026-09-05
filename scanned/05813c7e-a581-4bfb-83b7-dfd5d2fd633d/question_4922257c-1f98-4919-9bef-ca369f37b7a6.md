@@ -1,1 +1,0 @@
-. Call sequence: restart -> `get_last_globally_accepted_approved_time(tenure)` picks the row with max `burn_block_height`; `get_canonical_tip()` (global, not tenure-scoped) picks max `stacks_height`; both are consulted by different call sites (`get_tenure_last_block_info`-adjacent timing checks vs. tip determination) after restart. Equality: the tenure's
