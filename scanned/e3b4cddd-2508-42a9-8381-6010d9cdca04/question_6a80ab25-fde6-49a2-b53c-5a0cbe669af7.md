@@ -1,1 +1,0 @@
-? Proof idea: Rust test constructing a `Signer` whose `reward_cycle`/`signer_weights` are for cycle R, feeding a proposal whose height corresponds to R+1's start, asserting `compute_voting_weight_threshold`/`compute_signature_total_weight` are re-derived from the reward set matching the block's actual cycle rather than the signer's currently loaded one.
