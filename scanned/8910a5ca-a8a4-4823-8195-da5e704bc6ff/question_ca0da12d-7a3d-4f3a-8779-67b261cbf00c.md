@@ -1,1 +1,0 @@
-[File: 'File Name: stackslib/src/chainstate/stacks/boot/pox_4_tests.rs -> Scope: Critical.'] Can an ATTACKER take a valid `Pox4SignatureTopic::StackStx` signature over `make_pox_4_signer_key_message_hash` and submit it as the `signer-sig` argument to `stack-extend` (pox-4.clar) by supplying `topic:
