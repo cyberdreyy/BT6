@@ -1,1 +1,0 @@
-[File: 'clarity/src/vm/analysis/type_checker/mod.rs -> Scope: High'] [Method: pending_responses_drain_never_called_on_reject] Can a miner send early `BlockResponse`/`BlockPreCommit` votes for a not-yet-proposed block hash, then send a `BlockProposal` for that hash that is immediately rejected by `check_block_against_state` (the `CHECK -- invalid --> REJ[
