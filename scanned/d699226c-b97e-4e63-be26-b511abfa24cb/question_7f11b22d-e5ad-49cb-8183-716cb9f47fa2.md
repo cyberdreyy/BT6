@@ -1,1 +1,0 @@
-SortitionData::check_tenure_change_confirms_parent (called from check_block_against_signer_db_state)
