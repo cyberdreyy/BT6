@@ -1,1 +1,0 @@
-? Equality: FAIL-CLOSED, an `HttpError` outcome must never be counted as an accept. Impact: Critical if retry exhaustion defaults to acceptance. Proof idea: `stacks-signer` test mocking N consecutive `RPCError::HttpError(401)` responses and asserting the signer's decision remains 'no signature emitted', never `BlockResponse::Accepted`.
