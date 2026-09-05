@@ -1,1 +1,0 @@
-to dodge the check. Impact: Critical - reorg-depth rule (>1 globally accepted block bars reorg) is bypassed for the exact tenure that should trigger `ReorgNotAllowed`. Proof idea: build signerdb with 2 globally accepted blocks in tenure T, submit proposal with `parent_tenure_id == T`'s consensus hash while genuinely reorging past T, assert `check_reorg` wrongly returns Ok(true).
