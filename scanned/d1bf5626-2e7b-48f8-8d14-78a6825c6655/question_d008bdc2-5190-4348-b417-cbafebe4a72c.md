@@ -1,1 +1,0 @@
-). Call sequence: handle_block_response(Accepted) for unknown hash -> parked as pending; handle_block_proposal(X) -> check_block_against_state returns Some(rejection) -> `send_block_response(rejection)`, block explicitly
