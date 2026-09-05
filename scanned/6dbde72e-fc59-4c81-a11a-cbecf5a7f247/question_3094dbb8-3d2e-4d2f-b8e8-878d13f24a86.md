@@ -1,1 +1,0 @@
-instead of the height-scoped `get_signed_conflicts`. Proof: Rust test inserting two `add_block_signature` rows for our own address at conflicting-height blocks and asserting a higher-level query (not `add_block_signature` itself) rejects the second.
