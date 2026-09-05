@@ -1,1 +1,0 @@
-record -> attacker immediately re-proposes a block from the pruned (already-reorged) tenure -> check_proposal / is_tenure_valid no longer finds the prior sanction record and may treat the resurrected tenure as fresh/valid. Equality/wedge: CANONICITY equality (approved parent/tenure == the canonical sortition's) breaks because the signer's only record of
