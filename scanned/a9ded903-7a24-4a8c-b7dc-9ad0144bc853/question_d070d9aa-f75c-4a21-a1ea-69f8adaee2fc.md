@@ -1,1 +1,0 @@
-signed_self remains recorded
