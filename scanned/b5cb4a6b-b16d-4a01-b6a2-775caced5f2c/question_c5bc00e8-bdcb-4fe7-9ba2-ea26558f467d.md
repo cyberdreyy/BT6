@@ -1,1 +1,0 @@
-for finalization arithmetic? Proof idea: Rust test injecting Rejected then Accepted BlockResponse from the same slot_id for two sibling proposals at one height and asserting `total_weight_approved` only reflects the currently-canonical proposal, not stale weight bleeding across BlockStatus entries.
