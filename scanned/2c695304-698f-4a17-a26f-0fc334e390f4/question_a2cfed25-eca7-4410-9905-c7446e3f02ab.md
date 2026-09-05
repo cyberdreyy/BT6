@@ -1,1 +1,0 @@
-and steer the local state machine'\\''s accepted miner view. Proof idea: Rust test constructing `GlobalStateEvaluator` with `address_weights` missing one signer present in the authoritative reward set and asserting `reached_agreement` never returns true for a vote weight that would be insufficient under the full reward-set total.
