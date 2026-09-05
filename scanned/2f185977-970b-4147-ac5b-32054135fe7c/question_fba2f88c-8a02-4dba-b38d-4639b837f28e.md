@@ -1,1 +1,0 @@
-[Target: `structured_data_message_hash`/`make_structured_data_domain` in `stackslib/src/util_lib/signed_structured_data.rs`, reused by CLI `VoteInfo::digest` in `stacks-signer/src/cli.rs` which hardcodes `CHAIN_ID_MAINNET`.] Can an attacker capture a mainnet-domain-signed `VoteInfo` SIP vote signature (`digest()` always uses `make_structured_data_domain(
