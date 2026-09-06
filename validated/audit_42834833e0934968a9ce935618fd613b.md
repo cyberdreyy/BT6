@@ -1,0 +1,1 @@
+Based on my investigation, `get_and_remove_pending_block_validation` is a purely mechanical queue-pop function: it deletes and returns the oldest row from `block_validations_pending`, keyed only by `signer_signature_hash`, with no signature-domain logic at all.
