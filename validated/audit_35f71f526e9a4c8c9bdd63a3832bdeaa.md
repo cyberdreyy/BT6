@@ -1,0 +1,3 @@
+This prompt appears incomplete — the "Question" section states "one of {A, B}" but does not actually specify what options A and B are. Without a concrete vulnerability claim or equality/wedge to validate, there is nothing for me to trace through the codebase.
+
+Could you provide the actual claims/questions (A and B) that need to be audited? Once you provide the specific claim about the signer's behavior (e.g., a specific equality that should hold or a specific state machine wedge), I can trace the exact code path in the stacks-signer codebase to validate or refute it.
