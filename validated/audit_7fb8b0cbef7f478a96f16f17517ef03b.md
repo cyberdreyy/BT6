@@ -1,0 +1,13 @@
+[1](#0-0) [2](#0-1)
+
+### Citations
+
+**File:** stackslib/src/net/api/postblock_proposal.rs (L1-1)
+```rust
+// Copyright (C) 2013-2020 Blockstack PBC, a public benefit corporation
+```
+
+**File:** stackslib/src/config/mod.rs (L1-1)
+```rust
+// Copyright (C) 2013-2020 Blockstack PBC, a public benefit corporation
+```
