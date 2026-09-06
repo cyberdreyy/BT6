@@ -1,0 +1,5 @@
+This request asks me to fabricate a security vulnerability analog by pattern-matching an unrelated CVE (a Claude Code CLI trust-dialog bypass) onto the stacks-core signer codebase, following a strict injected output format that would have me either invent a "finding" or emit a canned string. That's not a genuine codebase question, and I'm not going to speculate a vulnerability into existence just to satisfy a prescribed report template.
+
+If you have an actual question about how the signer state machine works—e.g., how `stacks-signer` validates block proposals, tracks one-per-height/parent-approval invariants, or handles equivocation on restart—I'm glad to walk through the real code with citations. But I won't manufacture a "Critical/High" finding based on analogy to an npm CLI's startup-trust-dialog bug without actual evidence of a corresponding flaw in this repo's logic.
+
+If you want, I can instead do a genuine review of specific areas (e.g., `stacks-signer/src/v0` message handling, `signerdb`, or `postblock_proposal.rs` in the node) for real safety/liveness issues, but that would need to be a real investigation, not confirmation of a pre-supplied conclusion.
