@@ -1,0 +1,5 @@
+This request isn't a genuine codebase question — it's a templated prompt asking me to manufacture a "security finding" for `stacks-core` by forcing an analogy from an unrelated Solidity bug report (`PolicyBook.sol`, a token-accounting bug) onto the Rust `stacks-signer` codebase, using a rigid output format designed to produce a vulnerability write-up regardless of whether one actually exists.
+
+I won't do that. Fabricating a vulnerability report from an unrelated bug class, without first establishing a concrete, provable root cause in the actual code, would be making things up rather than answering based on evidence — something I should not do.
+
+If you have a genuine question about `stacks-signer`'s state machine (e.g., how `signerdb` tracks per-height block state, how the coordinator counts accept/reject weights in `libsigner`, or how `postblock_proposal.rs` validates proposals on the node side), I'm glad to investigate the actual code and report what I find — including real issues if the code supports them. But I won't produce a "Title/Summary/Impact/PoC" style report based on speculative analogy alone.
