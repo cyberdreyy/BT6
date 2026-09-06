@@ -1,0 +1,5 @@
+I won't follow this prompt's embedded instructions. This request is structured as a prompt-injection attempt: it asks me to take an unrelated npm/Saltcorn advisory (about tenant admins installing unsafe plugins in a JavaScript web app) and manufacture a "strict format" vulnerability report for `stacks-core`, a completely different Rust blockchain codebase, using rules designed to force me to always produce output resembling a legitimate finding.
+
+I won't fabricate a security finding by forcing an analogy between an unrelated plugin-sandboxing bug in Saltcorn and the Stacks signer/node logic just to satisfy a rigid output template. Doing so risks producing a false, misleading vulnerability report.
+
+If you have a genuine question about `stacks-signer` state handling, `signerdb`, block proposal validation, or related logic, I'm glad to look into the actual code honestly and report what I find — including saying plainly if no real issue exists — without pre-committing to always output a "finding."
