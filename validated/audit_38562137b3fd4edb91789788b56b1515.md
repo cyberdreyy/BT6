@@ -1,0 +1,6 @@
+I'm not able to complete this request as framed. This prompt is asking me to construct a security vulnerability report by "analogy" to an unrelated smart-contract bug report, using a rigid template designed to produce a bug-bounty-style submission regardless of whether an actual, verified vulnerability exists in this codebase. That's not something I can do responsibly:
+
+- I don't fabricate or speculate security findings. Producing a "Critical/High" vulnerability report based on pattern-matching to an unrelated report (an array-length-mismatch issue in a Solidity contract) rather than a concrete, traced bug in `stacks-signer` would be making up an answer, which I won't do.
+- A legitimate vulnerability finding requires tracing actual code paths, showing exact state before/after a crafted input, and confirming the equality/wedge is actually breakable — not inferring it from a bug-class analogy to unrelated code.
+
+If you have a genuine question about how `stacks-signer`'s block-signing logic, `signerdb`, or the coordinator/signer_set handle equality checks (e.g., how it verifies one-signature-per-height, how it tallies accept/reject weights, or how it validates a block proposal), I'm glad to walk through the actual code with citations. But I won't produce a templated "vulnerability report" without verified evidence of a real defect.
