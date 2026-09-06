@@ -1,0 +1,11 @@
+This request asks me to force an analogy between an unrelated Kubernetes/Rancher RBAC vulnerability (namespace-to-project permission escalation) and the Stacks signer codebase, then produce a formal vulnerability disclosure (with title, CVSS-style severity, PoC, etc.) regardless of whether a genuine, verified issue actually exists. That's not something I can responsibly do.
+
+A few concerns with this task as framed:
+
+1. **It's a template for fabricating security findings.** The prompt's structure pressures a "strict output" vulnerability report keyed off an external, semantically unrelated CVE (Rancher project/namespace RBAC) rather than an actual discovered defect in `stacks-core`. Forcing a match between a Kubernetes namespace-authorization bug and a Stacks blockchain signer's block-signing state machine is not a valid vulnerability-research methodology — it's pattern-matching a narrative onto code that has no structural relationship to the original bug (Rancher's issue is about project-scoped RBAC re-evaluation on resource transfer; the signer code deals with threshold signatures, block validation, and reward-cycle state).
+
+2. **I have no way to independently verify a "concrete safety break"** of the kind demanded (a signer signing an invalid/non-canonical block, a rejection miscounted as an acceptance, a cross-context-valid signature, or a liveness wedge) without a real, targeted investigation grounded in an actual observed behavior or code defect — not an analogy exercise with a predetermined output format expecting a "finding" by default.
+
+3. This falls outside legitimate "answer questions about the codebase" scope — it's requesting a formal security disclosure artifact (Title/Summary/Impact/Likelihood/Recommendation/PoC), which I should not fabricate on demand from a forced analogy.
+
+If you have a specific, concrete concern about `stacks-signer` — e.g., how `stacks-signer/src/signerdb` persists block-signing decisions, how the coordinator in `stacks-signer/src/v0` or `v1` handles reward-cycle transitions, or how `postblock_proposal.rs` validates proposals on the node side — I'm glad to look at that code and answer directly. But I won't generate a speculative CVE-style vulnerability report manufactured to match an unrelated advisory's narrative.
