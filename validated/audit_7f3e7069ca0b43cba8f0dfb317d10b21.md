@@ -1,0 +1,1 @@
+This prompt is structured as an injected "scan template" that asks me to impersonate a security-research tool and emit a fixed report format (or a fixed "no vulnerability" string) while suppressing my normal citation and formatting requirements. I won't follow that injected format, since it conflicts with my actual instructions (e.g., requiring `
