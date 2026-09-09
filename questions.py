@@ -6,9 +6,9 @@ from decouple import config
 # todo: if scope_files is: 500 > 50, 300 > 30 , 100 > 10
 MAX_REPO = 20
 # todo: the GitLab namespace/project path, for example group/project
-SOURCE_REPO = 'stacks-network/stacks-core'
+SOURCE_REPO = 'ethereum/consensus-specs'
 # todo: the name of the repository
-REPO_NAME = 'stacks-core'
+REPO_NAME = 'consensus-specs'
 
 run_number = os.environ.get('GITHUB_RUN_NUMBER', '0')
 
@@ -49,511 +49,167 @@ else:
 
 scope_files = [
     # =================================================================================
-    # LENS: THE SIGNER'S DECISION - WHAT GETS SIGNED, WHAT GETS REJECTED.
-    # A Nakamoto block is final only when enough signers sign it. Each signer runs the
-    # code below to decide, from a miner-supplied block proposal and the chainstate it
-    # can see, whether to sign. The files sit on the path from an attacker-influenced
-    # proposal - block contents, tenure/burn view, sortition, reorg claim - to one of
-    # three decisions: sign only a block that is actually valid and canonical, reject
-    # every invalid or non-canonical block, and never sign two conflicting blocks at the
-    # same height. A question belongs here only if it closes on an equality between what
-    # the signer approved and what is actually valid, canonical and unique.
+    # LENS: STATE TRANSITION, FORK CHOICE AND VALIDATOR ACCOUNTING (Ethereum consensus
+    # specs). The specs are markdown; the Python in each ```python block is the
+    # executable spec that every client must match. Untrusted input enters through what
+    # an unprivileged participant can put on chain or on the wire with its own keys:
+    # execution-layer requests (deposit, withdrawal, consolidation, builder deposit and
+    # exit), signed blocks and payload envelopes for slots it is assigned, attestations,
+    # slashings, exits, BLS-to-execution changes, payload attestations, inclusion lists
+    # and sync/light-client messages. The files below sit on the path from those inputs
+    # to one of five decisions: is every Gwei conserved and paid to the right address, is
+    # every change to a validator or builder authorised by its own key, do all honest
+    # nodes compute one head and one finalized checkpoint, is only an equivocator ever
+    # slashable, and is the payload executed the payload the block committed to and paid
+    # for once. A question belongs here only if it can be closed by an equality between a
+    # value the participant supplied and a value the spec produced.
     # =================================================================================
-    # -- clarity-types: Clarity value, type and effect model -------------------------------
-    "clarity-types/src/effects/asset_map.rs",
-    "clarity-types/src/effects/mod.rs",
-    "clarity-types/src/errors/mod.rs",
-    "clarity-types/src/lib.rs",
-    "clarity-types/src/representations.rs",
-    "clarity-types/src/types/mod.rs",
-    "clarity-types/src/types/serialization.rs",
-    "clarity-types/src/types/signatures.rs",
-    "clarity-types/src/version.rs",
 
-    # -- clarity: the Clarity language, analyser, interpreter, costs and database ----------
-    "clarity/src/libclarity.rs",
-    "clarity/src/vm/analysis/analysis_db.rs",
-    "clarity/src/vm/analysis/arithmetic_checker/mod.rs",
-    "clarity/src/vm/analysis/contract_interface_builder/mod.rs",
-    "clarity/src/vm/analysis/errors.rs",
-    "clarity/src/vm/analysis/mod.rs",
-    "clarity/src/vm/analysis/read_only_checker/mod.rs",
-    "clarity/src/vm/analysis/trait_checker/mod.rs",
-    "clarity/src/vm/analysis/type_checker/contexts.rs",
-    "clarity/src/vm/analysis/type_checker/mod.rs",
-    "clarity/src/vm/analysis/type_checker/v2_05/contexts.rs",
-    "clarity/src/vm/analysis/type_checker/v2_05/mod.rs",
-    "clarity/src/vm/analysis/type_checker/v2_05/natives/assets.rs",
-    "clarity/src/vm/analysis/type_checker/v2_05/natives/maps.rs",
-    "clarity/src/vm/analysis/type_checker/v2_05/natives/mod.rs",
-    "clarity/src/vm/analysis/type_checker/v2_05/natives/options.rs",
-    "clarity/src/vm/analysis/type_checker/v2_05/natives/sequences.rs",
-    "clarity/src/vm/analysis/type_checker/v2_1/contexts.rs",
-    "clarity/src/vm/analysis/type_checker/v2_1/mod.rs",
-    "clarity/src/vm/analysis/type_checker/v2_1/natives/assets.rs",
-    "clarity/src/vm/analysis/type_checker/v2_1/natives/conversions.rs",
-    "clarity/src/vm/analysis/type_checker/v2_1/natives/maps.rs",
-    "clarity/src/vm/analysis/type_checker/v2_1/natives/mod.rs",
-    "clarity/src/vm/analysis/type_checker/v2_1/natives/options.rs",
-    "clarity/src/vm/analysis/type_checker/v2_1/natives/post_conditions.rs",
-    "clarity/src/vm/analysis/type_checker/v2_1/natives/sequences.rs",
-    "clarity/src/vm/analysis/types.rs",
-    "clarity/src/vm/ast/definition_sorter/mod.rs",
-    "clarity/src/vm/ast/errors.rs",
-    "clarity/src/vm/ast/expression_identifier/mod.rs",
-    "clarity/src/vm/ast/mod.rs",
-    "clarity/src/vm/ast/parser/mod.rs",
-    "clarity/src/vm/ast/parser/v1.rs",
-    "clarity/src/vm/ast/parser/v2/lexer/error.rs",
-    "clarity/src/vm/ast/parser/v2/lexer/mod.rs",
-    "clarity/src/vm/ast/parser/v2/lexer/token.rs",
-    "clarity/src/vm/ast/parser/v2/mod.rs",
-    "clarity/src/vm/ast/stack_depth_checker.rs",
-    "clarity/src/vm/ast/sugar_expander/mod.rs",
-    "clarity/src/vm/ast/traits_resolver/mod.rs",
-    "clarity/src/vm/ast/types.rs",
-    "clarity/src/vm/callables.rs",
-    "clarity/src/vm/clarity.rs",
-    "clarity/src/vm/contexts.rs",
-    "clarity/src/vm/contracts.rs",
-    "clarity/src/vm/costs/constants.rs",
-    "clarity/src/vm/costs/cost_functions.rs",
-    "clarity/src/vm/costs/costs_1.rs",
-    "clarity/src/vm/costs/costs_2.rs",
-    "clarity/src/vm/costs/costs_2_testnet.rs",
-    "clarity/src/vm/costs/costs_3.rs",
-    "clarity/src/vm/costs/costs_4.rs",
-    "clarity/src/vm/costs/costs_5.rs",
-    "clarity/src/vm/costs/errors.rs",
-    "clarity/src/vm/costs/execution_cost.rs",
-    "clarity/src/vm/costs/mod.rs",
-    "clarity/src/vm/database/caching/mod.rs",
-    "clarity/src/vm/database/caching/weight_limited_fifo.rs",
-    "clarity/src/vm/database/clarity_db.rs",
-    "clarity/src/vm/database/clarity_store.rs",
-    "clarity/src/vm/database/key_value_wrapper.rs",
-    "clarity/src/vm/database/mod.rs",
-    "clarity/src/vm/database/sqlite.rs",
-    "clarity/src/vm/database/structures.rs",
-    "clarity/src/vm/diagnostic.rs",
-    "clarity/src/vm/errors.rs",
-    "clarity/src/vm/events.rs",
-    "clarity/src/vm/functions/arithmetic.rs",
-    "clarity/src/vm/functions/assets.rs",
-    "clarity/src/vm/functions/bitcoin.rs",
-    "clarity/src/vm/functions/boolean.rs",
-    "clarity/src/vm/functions/conversions.rs",
-    "clarity/src/vm/functions/crypto.rs",
-    "clarity/src/vm/functions/database.rs",
-    "clarity/src/vm/functions/define.rs",
-    "clarity/src/vm/functions/mod.rs",
-    "clarity/src/vm/functions/options.rs",
-    "clarity/src/vm/functions/post_conditions.rs",
-    "clarity/src/vm/functions/principals.rs",
-    "clarity/src/vm/functions/sequences.rs",
-    "clarity/src/vm/functions/tuples.rs",
-    "clarity/src/vm/hooks/internals.rs",
-    "clarity/src/vm/hooks/mod.rs",
-    "clarity/src/vm/hooks/trace.rs",
-    "clarity/src/vm/mod.rs",
-    "clarity/src/vm/representations.rs",
-    "clarity/src/vm/resource_limiter.rs",
-    "clarity/src/vm/tooling/mod.rs",
-    "clarity/src/vm/types/mod.rs",
-    "clarity/src/vm/types/serialization.rs",
-    "clarity/src/vm/types/signatures.rs",
-    "clarity/src/vm/variables.rs",
-    "clarity/src/vm/version.rs",
+    # -- phase0: base state transition, fork choice, deposit contract, p2p, validator ----
+    "specs/phase0/beacon-chain.md",
+    "specs/phase0/deposit-contract.md",
+    "specs/phase0/fast-confirmation.md",
+    "specs/phase0/fork-choice.md",
+    "specs/phase0/p2p-interface.md",
+    "specs/phase0/validator.md",
+    "specs/phase0/weak-subjectivity.md",
 
-    # -- stacks-codec: transaction and message wire encoding -------------------------------
-    "stacks-codec/src/lib.rs",
-    "stacks-codec/src/strings.rs",
-    "stacks-codec/src/transaction.rs",
+    # -- altair: participation flags, sync committees, light client ---------------------
+    "specs/altair/beacon-chain.md",
+    "specs/altair/bls.md",
+    "specs/altair/fork-choice.md",
+    "specs/altair/fork.md",
+    "specs/altair/light-client/full-node.md",
+    "specs/altair/light-client/light-client.md",
+    "specs/altair/light-client/p2p-interface.md",
+    "specs/altair/light-client/sync-protocol.md",
+    "specs/altair/p2p-interface.md",
+    "specs/altair/validator.md",
 
-    # -- crates/stacks-transactions: standalone transaction and post-condition checks ------
-    "crates/stacks-transactions/src/lib.rs",
+    # -- bellatrix: execution payload, optimistic sync -----------------------------------
+    "specs/bellatrix/beacon-chain.md",
+    "specs/bellatrix/fast-confirmation.md",
+    "specs/bellatrix/fork-choice.md",
+    "specs/bellatrix/fork.md",
+    "specs/bellatrix/optimistic-sync.md",
+    "specs/bellatrix/p2p-interface.md",
+    "specs/bellatrix/validator.md",
 
-    # -- stacks-common: addresses, hashing, secp256k1, codec and shared utils --------------
-    "stacks-common/src/address/b58.rs",
-    "stacks-common/src/address/c32.rs",
-    "stacks-common/src/address/c32_old.rs",
-    "stacks-common/src/address/mod.rs",
-    "stacks-common/src/alloc_tracker.rs",
-    "stacks-common/src/bitvec.rs",
-    "stacks-common/src/codec/macros.rs",
-    "stacks-common/src/codec/mod.rs",
-    "stacks-common/src/libcommon.rs",
-    "stacks-common/src/types/chainstate.rs",
-    "stacks-common/src/types/mod.rs",
-    "stacks-common/src/types/net.rs",
-    "stacks-common/src/types/sqlite.rs",
-    "stacks-common/src/util/chunked_encoding.rs",
-    "stacks-common/src/util/db.rs",
-    "stacks-common/src/util/ed25519.rs",
-    "stacks-common/src/util/hash.rs",
-    "stacks-common/src/util/log.rs",
-    "stacks-common/src/util/lru_cache.rs",
-    "stacks-common/src/util/macros.rs",
-    "stacks-common/src/util/mod.rs",
-    "stacks-common/src/util/pair.rs",
-    "stacks-common/src/util/pipe.rs",
-    "stacks-common/src/util/retry.rs",
-    "stacks-common/src/util/secp256k1/mod.rs",
-    "stacks-common/src/util/secp256k1/native.rs",
-    "stacks-common/src/util/secp256k1/wasm.rs",
-    "stacks-common/src/util/secp256r1.rs",
-    "stacks-common/src/util/serde_serializers.rs",
-    "stacks-common/src/util/uint.rs",
-    "stacks-common/src/util/vrf.rs",
+    # -- capella: withdrawals, BLS-to-execution changes ---------------------------------
+    "specs/capella/beacon-chain.md",
+    "specs/capella/fork-choice.md",
+    "specs/capella/fork.md",
+    "specs/capella/light-client/fork.md",
+    "specs/capella/light-client/full-node.md",
+    "specs/capella/light-client/p2p-interface.md",
+    "specs/capella/light-client/sync-protocol.md",
+    "specs/capella/p2p-interface.md",
+    "specs/capella/validator.md",
 
-    # -- libsigner: signer transport, events and v0 messages -------------------------------
-    "libsigner/src/error.rs",
-    "libsigner/src/events.rs",
-    "libsigner/src/http.rs",
-    "libsigner/src/libsigner.rs",
-    "libsigner/src/runloop.rs",
-    "libsigner/src/session.rs",
-    "libsigner/src/signer_set.rs",
-    "libsigner/src/v0/messages.rs",
-    "libsigner/src/v0/mod.rs",
-    "libsigner/src/v0/signer_state.rs",
+    # -- deneb: blobs, KZG commitments, blob sidecars -----------------------------------
+    "specs/deneb/beacon-chain.md",
+    "specs/deneb/fork-choice.md",
+    "specs/deneb/fork.md",
+    "specs/deneb/light-client/fork.md",
+    "specs/deneb/light-client/full-node.md",
+    "specs/deneb/light-client/p2p-interface.md",
+    "specs/deneb/light-client/sync-protocol.md",
+    "specs/deneb/p2p-interface.md",
+    "specs/deneb/validator.md",
 
-    # -- libstackerdb: StackerDB chunk signing and verification ----------------------------
-    "libstackerdb/src/libstackerdb.rs",
+    # -- electra: execution requests, consolidations, pending deposits/withdrawals ------
+    "specs/electra/beacon-chain.md",
+    "specs/electra/fork.md",
+    "specs/electra/light-client/fork.md",
+    "specs/electra/light-client/p2p-interface.md",
+    "specs/electra/light-client/sync-protocol.md",
+    "specs/electra/p2p-interface.md",
+    "specs/electra/validator.md",
+    "specs/electra/weak-subjectivity.md",
 
-    # -- pox-locking: the Rust side that locks and unlocks STX for PoX/stacking ------------
-    "pox-locking/src/events.rs",
-    "pox-locking/src/events_24.rs",
-    "pox-locking/src/lib.rs",
-    "pox-locking/src/pox_1.rs",
-    "pox-locking/src/pox_2.rs",
-    "pox-locking/src/pox_3.rs",
-    "pox-locking/src/pox_4.rs",
-    "pox-locking/src/pox_5.rs",
+    # -- fulu: PeerDAS, custody, proposer lookahead, blob schedule ----------------------
+    "specs/fulu/beacon-chain.md",
+    "specs/fulu/das-core.md",
+    "specs/fulu/fork-choice.md",
+    "specs/fulu/fork.md",
+    "specs/fulu/p2p-interface.md",
+    "specs/fulu/partial-columns/p2p-interface.md",
+    "specs/fulu/validator.md",
 
-    # -- stacks-signer: the Nakamoto signer decision logic and chainstate view -------------
-    "stacks-signer/src/chainstate/mod.rs",
-    "stacks-signer/src/chainstate/v1.rs",
-    "stacks-signer/src/chainstate/v2.rs",
-    "stacks-signer/src/cli.rs",
-    "stacks-signer/src/client/mod.rs",
-    "stacks-signer/src/client/stackerdb.rs",
-    "stacks-signer/src/client/stacks_client.rs",
-    "stacks-signer/src/config.rs",
-    "stacks-signer/src/lib.rs",
-    "stacks-signer/src/main.rs",
-    "stacks-signer/src/monitor_signers.rs",
-    "stacks-signer/src/monitoring/mod.rs",
-    "stacks-signer/src/monitoring/prometheus.rs",
-    "stacks-signer/src/monitoring/server.rs",
-    "stacks-signer/src/runloop.rs",
-    "stacks-signer/src/signerdb.rs",
-    "stacks-signer/src/utils.rs",
-    "stacks-signer/src/v0/mod.rs",
-    "stacks-signer/src/v0/signer.rs",
-    "stacks-signer/src/v0/signer_state.rs",
+    # -- gloas: ePBS - builders, bids, envelopes, PTC, payload-aware fork choice --------
+    "specs/gloas/beacon-chain.md",
+    "specs/gloas/builder.md",
+    "specs/gloas/fast-confirmation.md",
+    "specs/gloas/fork-choice.md",
+    "specs/gloas/fork.md",
+    "specs/gloas/light-client/fork.md",
+    "specs/gloas/light-client/full-node.md",
+    "specs/gloas/light-client/p2p-interface.md",
+    "specs/gloas/light-client/sync-protocol.md",
+    "specs/gloas/p2p-interface.md",
+    "specs/gloas/partial-columns/p2p-interface.md",
+    "specs/gloas/validator.md",
+    "specs/gloas/weak-subjectivity.md",
 
-    # -- stacks-node: the node binary, run loops, miner, burnchain and event dispatch ------
-    "stacks-node/src/burnchains/bitcoin/core_controller.rs",
-    "stacks-node/src/burnchains/bitcoin/mod.rs",
-    "stacks-node/src/burnchains/bitcoin_regtest_controller.rs",
-    "stacks-node/src/burnchains/mod.rs",
-    "stacks-node/src/burnchains/rpc/bitcoin_rpc_client/mod.rs",
-    "stacks-node/src/burnchains/rpc/mod.rs",
-    "stacks-node/src/burnchains/rpc/rpc_transport/mod.rs",
-    "stacks-node/src/event_dispatcher.rs",
-    "stacks-node/src/event_dispatcher/db.rs",
-    "stacks-node/src/event_dispatcher/payloads.rs",
-    "stacks-node/src/event_dispatcher/stacker_db.rs",
-    "stacks-node/src/event_dispatcher/worker.rs",
-    "stacks-node/src/globals.rs",
-    "stacks-node/src/keychain.rs",
-    "stacks-node/src/main.rs",
-    "stacks-node/src/monitoring/mod.rs",
-    "stacks-node/src/monitoring/prometheus.rs",
-    "stacks-node/src/nakamoto_node.rs",
-    "stacks-node/src/nakamoto_node/miner.rs",
-    "stacks-node/src/nakamoto_node/miner_db.rs",
-    "stacks-node/src/nakamoto_node/peer.rs",
-    "stacks-node/src/nakamoto_node/relayer.rs",
-    "stacks-node/src/nakamoto_node/signer_coordinator.rs",
-    "stacks-node/src/nakamoto_node/stackerdb_listener.rs",
-    "stacks-node/src/neon_node.rs",
-    "stacks-node/src/node.rs",
-    "stacks-node/src/operations.rs",
-    "stacks-node/src/run_loop/boot_nakamoto.rs",
-    "stacks-node/src/run_loop/helium.rs",
-    "stacks-node/src/run_loop/mod.rs",
-    "stacks-node/src/run_loop/nakamoto.rs",
-    "stacks-node/src/run_loop/neon.rs",
-    "stacks-node/src/syncctl.rs",
-    "stacks-node/src/tenure.rs",
+    # -- heze: FOCIL inclusion lists ----------------------------------------------------
+    "specs/heze/beacon-chain.md",
+    "specs/heze/builder.md",
+    "specs/heze/fork-choice.md",
+    "specs/heze/fork.md",
+    "specs/heze/inclusion-list.md",
+    "specs/heze/optimistic-sync.md",
+    "specs/heze/p2p-interface.md",
+    "specs/heze/validator.md",
 
-    # -- stackslib: consensus, chainstate, the Clarity VM host, burn ops and the P2P/RPC network ----
-    "stackslib/src/burnchains/bitcoin/address.rs",
-    "stackslib/src/burnchains/bitcoin/bits.rs",
-    "stackslib/src/burnchains/bitcoin/blocks.rs",
-    "stackslib/src/burnchains/bitcoin/indexer.rs",
-    "stackslib/src/burnchains/bitcoin/keys.rs",
-    "stackslib/src/burnchains/bitcoin/messages.rs",
-    "stackslib/src/burnchains/bitcoin/mod.rs",
-    "stackslib/src/burnchains/bitcoin/network.rs",
-    "stackslib/src/burnchains/bitcoin/spv.rs",
-    "stackslib/src/burnchains/burnchain.rs",
-    "stackslib/src/burnchains/db.rs",
-    "stackslib/src/burnchains/indexer.rs",
-    "stackslib/src/burnchains/mod.rs",
-    "stackslib/src/chainstate/burn/atc.rs",
-    "stackslib/src/chainstate/burn/db/mod.rs",
-    "stackslib/src/chainstate/burn/db/processing.rs",
-    "stackslib/src/chainstate/burn/db/sortdb.rs",
-    "stackslib/src/chainstate/burn/distribution.rs",
-    "stackslib/src/chainstate/burn/mod.rs",
-    "stackslib/src/chainstate/burn/operations/delegate_stx.rs",
-    "stackslib/src/chainstate/burn/operations/leader_block_commit.rs",
-    "stackslib/src/chainstate/burn/operations/leader_key_register.rs",
-    "stackslib/src/chainstate/burn/operations/mod.rs",
-    "stackslib/src/chainstate/burn/operations/stack_stx.rs",
-    "stackslib/src/chainstate/burn/operations/transfer_stx.rs",
-    "stackslib/src/chainstate/burn/operations/vote_for_aggregate_key.rs",
-    "stackslib/src/chainstate/burn/sortition.rs",
-    "stackslib/src/chainstate/coordinator/comm.rs",
-    "stackslib/src/chainstate/coordinator/mod.rs",
-    "stackslib/src/chainstate/mod.rs",
-    "stackslib/src/chainstate/nakamoto/coordinator/mod.rs",
-    "stackslib/src/chainstate/nakamoto/keys.rs",
-    "stackslib/src/chainstate/nakamoto/miner.rs",
-    "stackslib/src/chainstate/nakamoto/mod.rs",
-    "stackslib/src/chainstate/nakamoto/shadow.rs",
-    "stackslib/src/chainstate/nakamoto/signer_set.rs",
-    "stackslib/src/chainstate/nakamoto/staging_blocks.rs",
-    "stackslib/src/chainstate/nakamoto/tenure.rs",
-    "stackslib/src/chainstate/stacks/address.rs",
-    "stackslib/src/chainstate/stacks/auth.rs",
-    "stackslib/src/chainstate/stacks/block.rs",
-    "stackslib/src/chainstate/stacks/boot/bns.clar",
-    "stackslib/src/chainstate/stacks/boot/contract_tests.rs",
-    "stackslib/src/chainstate/stacks/boot/cost-voting.clar",
-    "stackslib/src/chainstate/stacks/boot/costs-2.clar",
-    "stackslib/src/chainstate/stacks/boot/costs-3.clar",
-    "stackslib/src/chainstate/stacks/boot/costs-4.clar",
-    "stackslib/src/chainstate/stacks/boot/costs.clar",
-    "stackslib/src/chainstate/stacks/boot/docs.rs",
-    "stackslib/src/chainstate/stacks/boot/genesis.clar",
-    "stackslib/src/chainstate/stacks/boot/lockup.clar",
-    "stackslib/src/chainstate/stacks/boot/mod.rs",
-    "stackslib/src/chainstate/stacks/boot/pox-2.clar",
-    "stackslib/src/chainstate/stacks/boot/pox-3.clar",
-    "stackslib/src/chainstate/stacks/boot/pox-4.clar",
-    "stackslib/src/chainstate/stacks/boot/pox-5.clar",
-    "stackslib/src/chainstate/stacks/boot/pox-mainnet.clar",
-    "stackslib/src/chainstate/stacks/boot/pox.clar",
-    "stackslib/src/chainstate/stacks/boot/pox_2_tests.rs",
-    "stackslib/src/chainstate/stacks/boot/pox_3_tests.rs",
-    "stackslib/src/chainstate/stacks/boot/pox_4_tests.rs",
-    "stackslib/src/chainstate/stacks/boot/signers-0-xxx.clar",
-    "stackslib/src/chainstate/stacks/boot/signers-1-xxx.clar",
-    "stackslib/src/chainstate/stacks/boot/signers-voting.clar",
-    "stackslib/src/chainstate/stacks/boot/signers.clar",
-    "stackslib/src/chainstate/stacks/boot/signers_tests.rs",
-    "stackslib/src/chainstate/stacks/boot/sip-031.clar",
-    "stackslib/src/chainstate/stacks/db/accounts.rs",
-    "stackslib/src/chainstate/stacks/db/blocks.rs",
-    "stackslib/src/chainstate/stacks/db/contracts.rs",
-    "stackslib/src/chainstate/stacks/db/headers.rs",
-    "stackslib/src/chainstate/stacks/db/mod.rs",
-    "stackslib/src/chainstate/stacks/db/snapshot/blocks.rs",
-    "stackslib/src/chainstate/stacks/db/snapshot/burnchain.rs",
-    "stackslib/src/chainstate/stacks/db/snapshot/clarity.rs",
-    "stackslib/src/chainstate/stacks/db/snapshot/common.rs",
-    "stackslib/src/chainstate/stacks/db/snapshot/fork_storage.rs",
-    "stackslib/src/chainstate/stacks/db/snapshot/index.rs",
-    "stackslib/src/chainstate/stacks/db/snapshot/mod.rs",
-    "stackslib/src/chainstate/stacks/db/snapshot/sortition.rs",
-    "stackslib/src/chainstate/stacks/db/snapshot/spv.rs",
-    "stackslib/src/chainstate/stacks/db/transactions.rs",
-    "stackslib/src/chainstate/stacks/db/unconfirmed.rs",
-    "stackslib/src/chainstate/stacks/events.rs",
-    "stackslib/src/chainstate/stacks/index/bits.rs",
-    "stackslib/src/chainstate/stacks/index/blob_layout.rs",
-    "stackslib/src/chainstate/stacks/index/cache.rs",
-    "stackslib/src/chainstate/stacks/index/file.rs",
-    "stackslib/src/chainstate/stacks/index/marf.rs",
-    "stackslib/src/chainstate/stacks/index/mod.rs",
-    "stackslib/src/chainstate/stacks/index/node.rs",
-    "stackslib/src/chainstate/stacks/index/profile.rs",
-    "stackslib/src/chainstate/stacks/index/proofs.rs",
-    "stackslib/src/chainstate/stacks/index/squash.rs",
-    "stackslib/src/chainstate/stacks/index/squash/node_store.rs",
-    "stackslib/src/chainstate/stacks/index/squash/stream.rs",
-    "stackslib/src/chainstate/stacks/index/storage.rs",
-    "stackslib/src/chainstate/stacks/index/trie.rs",
-    "stackslib/src/chainstate/stacks/index/trie_sql.rs",
-    "stackslib/src/chainstate/stacks/miner.rs",
-    "stackslib/src/chainstate/stacks/mod.rs",
-    "stackslib/src/chainstate/stacks/sbtc.rs",
-    "stackslib/src/chainstate/stacks/transaction.rs",
-    "stackslib/src/clarity_vm/clarity.rs",
-    "stackslib/src/clarity_vm/database/ephemeral.rs",
-    "stackslib/src/clarity_vm/database/marf.rs",
-    "stackslib/src/clarity_vm/database/mod.rs",
-    "stackslib/src/clarity_vm/mod.rs",
-    "stackslib/src/clarity_vm/special.rs",
-    "stackslib/src/config/chain_data.rs",
-    "stackslib/src/config/mod.rs",
-    "stackslib/src/core/mempool.rs",
-    "stackslib/src/core/mod.rs",
-    "stackslib/src/core/nonce_cache.rs",
-    "stackslib/src/cost_estimates/fee_medians.rs",
-    "stackslib/src/cost_estimates/fee_rate_fuzzer.rs",
-    "stackslib/src/cost_estimates/fee_scalar.rs",
-    "stackslib/src/cost_estimates/metrics.rs",
-    "stackslib/src/cost_estimates/mod.rs",
-    "stackslib/src/cost_estimates/pessimistic.rs",
-    "stackslib/src/deps/mod.rs",
-    "stackslib/src/lib.rs",
-    "stackslib/src/monitoring/mod.rs",
-    "stackslib/src/monitoring/prometheus.rs",
-    "stackslib/src/net/api/blockreplay.rs",
-    "stackslib/src/net/api/blocksimulate.rs",
-    "stackslib/src/net/api/callreadonly.rs",
-    "stackslib/src/net/api/fastcallreadonly.rs",
-    "stackslib/src/net/api/get_tenure_tip_meta.rs",
-    "stackslib/src/net/api/get_tenures_fork_info.rs",
-    "stackslib/src/net/api/getaccount.rs",
-    "stackslib/src/net/api/getattachment.rs",
-    "stackslib/src/net/api/getattachmentsinv.rs",
-    "stackslib/src/net/api/getblock.rs",
-    "stackslib/src/net/api/getblock_v3.rs",
-    "stackslib/src/net/api/getblockbyheight.rs",
-    "stackslib/src/net/api/getclaritymarfvalue.rs",
-    "stackslib/src/net/api/getclaritymetadata.rs",
-    "stackslib/src/net/api/getconstantval.rs",
-    "stackslib/src/net/api/getcontractabi.rs",
-    "stackslib/src/net/api/getcontractsrc.rs",
-    "stackslib/src/net/api/getdatavar.rs",
-    "stackslib/src/net/api/getheaders.rs",
-    "stackslib/src/net/api/gethealth.rs",
-    "stackslib/src/net/api/getinfo.rs",
-    "stackslib/src/net/api/getistraitimplemented.rs",
-    "stackslib/src/net/api/getmapentry.rs",
-    "stackslib/src/net/api/getmicroblocks_confirmed.rs",
-    "stackslib/src/net/api/getmicroblocks_indexed.rs",
-    "stackslib/src/net/api/getmicroblocks_unconfirmed.rs",
-    "stackslib/src/net/api/getneighbors.rs",
-    "stackslib/src/net/api/getpoxinfo.rs",
-    "stackslib/src/net/api/getsigner.rs",
-    "stackslib/src/net/api/getsortition.rs",
-    "stackslib/src/net/api/getstackerdbchunk.rs",
-    "stackslib/src/net/api/getstackerdbmetadata.rs",
-    "stackslib/src/net/api/getstackers.rs",
-    "stackslib/src/net/api/getstxtransfercost.rs",
-    "stackslib/src/net/api/gettenure.rs",
-    "stackslib/src/net/api/gettenureblocks.rs",
-    "stackslib/src/net/api/gettenureblocksbyhash.rs",
-    "stackslib/src/net/api/gettenureblocksbyheight.rs",
-    "stackslib/src/net/api/gettenureinfo.rs",
-    "stackslib/src/net/api/gettenuretip.rs",
-    "stackslib/src/net/api/gettransaction.rs",
-    "stackslib/src/net/api/gettransaction_unconfirmed.rs",
-    "stackslib/src/net/api/liststackerdbreplicas.rs",
-    "stackslib/src/net/api/mod.rs",
-    "stackslib/src/net/api/postblock.rs",
-    "stackslib/src/net/api/postblock_proposal.rs",
-    "stackslib/src/net/api/postblock_v3.rs",
-    "stackslib/src/net/api/postfeerate.rs",
-    "stackslib/src/net/api/postmempoolquery.rs",
-    "stackslib/src/net/api/postmicroblock.rs",
-    "stackslib/src/net/api/poststackerdbchunk.rs",
-    "stackslib/src/net/api/posttransaction.rs",
-    "stackslib/src/net/api/read_only/mod.rs",
-    "stackslib/src/net/api/read_only/parse.rs",
-    "stackslib/src/net/api/txsimulate.rs",
-    "stackslib/src/net/asn.rs",
-    "stackslib/src/net/atlas/db.rs",
-    "stackslib/src/net/atlas/download.rs",
-    "stackslib/src/net/atlas/mod.rs",
-    "stackslib/src/net/chat.rs",
-    "stackslib/src/net/codec.rs",
-    "stackslib/src/net/connection.rs",
-    "stackslib/src/net/db.rs",
-    "stackslib/src/net/dns.rs",
-    "stackslib/src/net/download/epoch2x.rs",
-    "stackslib/src/net/download/mod.rs",
-    "stackslib/src/net/download/nakamoto/download_state_machine.rs",
-    "stackslib/src/net/download/nakamoto/mod.rs",
-    "stackslib/src/net/download/nakamoto/tenure.rs",
-    "stackslib/src/net/download/nakamoto/tenure_downloader.rs",
-    "stackslib/src/net/download/nakamoto/tenure_downloader_set.rs",
-    "stackslib/src/net/download/nakamoto/tenure_downloader_unconfirmed.rs",
-    "stackslib/src/net/http/common.rs",
-    "stackslib/src/net/http/error.rs",
-    "stackslib/src/net/http/mod.rs",
-    "stackslib/src/net/http/request.rs",
-    "stackslib/src/net/http/response.rs",
-    "stackslib/src/net/http/stream.rs",
-    "stackslib/src/net/httpcore.rs",
-    "stackslib/src/net/inv/epoch2x.rs",
-    "stackslib/src/net/inv/mod.rs",
-    "stackslib/src/net/inv/nakamoto.rs",
-    "stackslib/src/net/mempool/mod.rs",
-    "stackslib/src/net/mod.rs",
-    "stackslib/src/net/neighbors/comms.rs",
-    "stackslib/src/net/neighbors/db.rs",
-    "stackslib/src/net/neighbors/mod.rs",
-    "stackslib/src/net/neighbors/neighbor.rs",
-    "stackslib/src/net/neighbors/rpc.rs",
-    "stackslib/src/net/neighbors/walk.rs",
-    "stackslib/src/net/p2p.rs",
-    "stackslib/src/net/poll.rs",
-    "stackslib/src/net/prune.rs",
-    "stackslib/src/net/relay.rs",
-    "stackslib/src/net/rpc.rs",
-    "stackslib/src/net/server.rs",
-    "stackslib/src/net/stackerdb/config.rs",
-    "stackslib/src/net/stackerdb/db.rs",
-    "stackslib/src/net/stackerdb/mod.rs",
-    "stackslib/src/net/stackerdb/sync.rs",
-    "stackslib/src/net/unsolicited.rs",
-    "stackslib/src/util_lib/bloom.rs",
-    "stackslib/src/util_lib/boot.rs",
-    "stackslib/src/util_lib/db.rs",
-    "stackslib/src/util_lib/mod.rs",
-    "stackslib/src/util_lib/signed_structured_data.rs",
-    "stackslib/src/util_lib/strings.rs",
+    # -- _features: draft EIPs layered on the forks above -------------------------------
+    "specs/_features/eip8025/beacon-chain.md",
+    "specs/_features/eip8025/fork-choice.md",
+    "specs/_features/eip8025/p2p-interface.md",
+    "specs/_features/eip8025/proof-engine.md",
+    "specs/_features/eip8025/prover.md",
+    "specs/_features/eip8148/beacon-chain.md",
+    "specs/_features/eip8148/fork.md",
+    "specs/_features/eip8148/p2p-interface.md",
+    "specs/_features/eip8148/validator.md",
+    "specs/_features/eip8205/beacon-chain.md",
+    "specs/_features/eip8205/fork.md",
+    "specs/_features/eip8205/p2p-interface.md",
+    "specs/_features/eip8205/validator.md",
+    "specs/_features/eip8321/beacon-chain.md",
+    "specs/_features/eip8321/fork.md",
+    "specs/_features/eip8321/p2p-interface.md",
+    "specs/_features/eip8321/validator.md",
 
     # =================================================================================
-    # NOT AUDITED (excluded from every variant): tests, mocks and *test* files; fuzz and
-    # bench harnesses; test_util and the hooks/testing render helpers; docs/ and README;
-    # config, *.toml and CHANGELOG; generated tables (stx-genesis, genesis_data.rs) and
-    # build.rs; vendored third-party code under deps_common/ (bitcoin, httparse, bech32,
-    # ctrlc); the contrib/ tools and stacks-profiler; sample/ example contracts; and the
-    # *-testnet / *.tests.clar network- and test-only contract bodies. A defect in any of
-    # these is only in scope when it is reachable from the audited code above.
+    # NOT AUDITED (excluded from every variant): tests/ (pyspec tests, generators,
+    # formats), the generated Python spec packages, pysetup/ and scripts/ (the spec
+    # builder), presets/ and configs/ yaml, Makefile, pyproject.toml, uv.lock,
+    # zensical.toml, renovate.json, README, SECURITY.md and docs tooling. A defect in any
+    # of these is only in scope when it is reachable from the spec text above.
     # =================================================================================
 ]
 
 
 target_scopes = [
-    "Critical. A SIGNER MUST SIGN ONLY A BLOCK THAT IS ACTUALLY VALID. `v0/signer.rs` validates a miner's `BlockProposal` by calling the node's block-proposal check (`postblock_proposal.rs`) and its own `chainstate` rules, then signs the `signer_signature_hash`. Show a miner-crafted proposal a signer signs though it is invalid: a proposal whose `signer_signature_hash` covers different bytes than the block the node validated, a block whose transactions pass the proposal endpoint but violate a rule the signer assumed the node enforced, a validation result cached against the wrong block id, a `BlockResponse::Accepted` produced before validation completes (a stall/timeout path that defaults to accept). Identity: the block a signer's signature authenticates == the exact block the validation it relied on proved valid.",
+    "Critical. EVERY GWEI MUST BE CONSERVED AND LAND WHERE ITS OWNER'S CREDENTIALS SAY. `process_withdrawal_request` caps `to_withdraw` at `balance - MIN_ACTIVATION_BALANCE - pending_balance_to_withdraw` and calls `compute_exit_epoch_and_update_churn`; `process_consolidation_request` exits the source through `compute_consolidation_epoch_and_update_churn` and appends a `PendingConsolidation`; `process_pending_consolidations` moves the source balance to the target via `switch_to_compounding_validator` and `queue_excess_active_balance`; `apply_pending_deposit` skips signature checks for top-ups; `process_pending_deposits` gates on `get_activation_exit_churn_limit`, `deposit_balance_to_consume` and `is_valid_deposit_signature`; `get_expected_withdrawals` pairs `get_pending_partial_withdrawals` with the sweep and `process_withdrawals` asserts them against `payload.withdrawals`; `initiate_validator_exit` and `slash_validator` set `withdrawable_epoch`. Probe every path where an execution-layer request from an EOA or an on-chain operation from a validator's own key moves a Gwei that is not that validator's, moves it twice, or moves it nowhere: a partial withdrawal of the same balance queued by consolidation and withdrawal request in one block; a consolidation whose source is slashed or exited between queueing and processing; a top-up deposit to a pubkey with foreign withdrawal credentials; a full-exit request whose pending withdrawals drain below `MIN_ACTIVATION_BALANCE` after exit; a sweep withdrawal and a pending partial withdrawal paying the same balance. Identity: sum of `state.balances` + `state.builders[*].balance` + queued pending deposits/withdrawals/payments + emitted `Withdrawal.amount` after the transition == the same sum before plus deposits and rewards minus penalties, and each `Withdrawal.address` == the 20 bytes in that validator's `withdrawal_credentials`.",
 
-    "Critical. NEVER TWO SIGNATURES AT ONE HEIGHT. `signerdb.rs` and `v0/signer_state.rs` record what this signer has already signed so it never signs two conflicting blocks for the same tenure/height (equivocation). Show a signer induced to sign two different blocks at the same height: a signerdb key that omits a distinguishing field so a second block looks already-decided or looks new, a reorg claim (`chainstate` v2) that resets the signer's state and lets a competing block be signed, a restart that loses the last-signed record, a proposal whose height/tenure the signer reads from the miner instead of the canonical view. Identity: for each (reward cycle, tenure, height), the number of distinct blocks this signer signs == at most one.",
+    "Critical. NO STATE CHANGE TO A VALIDATOR OR BUILDER WITHOUT THAT PARTY'S KEY OR WITHDRAWAL ADDRESS. `process_withdrawal_request` and `process_consolidation_request` authorise by `withdrawal_credentials[12:] == source_address`; `is_valid_switch_to_compounding_request` requires source == target; `process_bls_to_execution_change` binds `from_bls_pubkey` to the 0x00 credential; `process_voluntary_exit` and `process_proposer_slashing` verify over `DOMAIN_VOLUNTARY_EXIT` / `DOMAIN_BEACON_PROPOSER`; `apply_deposit` verifies `is_valid_deposit_signature` only for new pubkeys under `compute_domain(DOMAIN_DEPOSIT)` with no fork version; `process_builder_deposit_request` registers on `is_valid_builder_deposit_signature` (`DOMAIN_BUILDER_DEPOSIT`) and top-ups an existing builder pubkey with no signature; `process_builder_exit_request` authorises by `execution_address == source_address`; `get_index_for_new_builder` reuses indices of exited, swept builders; `convert_builder_index_to_validator_index` maps builders into the validator index space used by `Withdrawal.validator_index`. Show a request or operation, built only from the attacker's own keys and addresses, that exits, consolidates, changes credentials of, deposits into, or withdraws from an account the attacker does not control, or that resurrects an index: a builder deposit for an exited pubkey whose index is now reassigned; a validator deposit signed at genesis fork replayed on another network sharing `GENESIS_FORK_VERSION`; a consolidation targeting a validator whose credentials were switched in the same block; a BLS-to-execution change accepted for a validator already holding 0x01/0x02 credentials; a `Withdrawal.validator_index` that collides between a builder and a validator. Identity: for every field of `state.validators[i]`, `state.balances[i]`, `state.builders[j]` that differs after the transition, the input that changed it carries a valid signature from that party's pubkey or comes from that party's `withdrawal_credentials[12:]` / `execution_address`.",
 
-    "Critical. THE SIGNER'S CANONICAL VIEW MUST NOT BE STEERED BY THE MINER. `chainstate/v1.rs` and `chainstate/v2.rs` decide whether a proposed block is a valid continuation of the canonical tip - the tenure it extends, whether a claimed reorg is allowed, the burn view it assumes. The miner supplies the proposal; the signer must judge it against its own node's view. Show a proposal that makes the signer accept a block building on a non-canonical parent, a reorg deeper than the rules permit, or a tenure the miner did not win: a burn-block or sortition field trusted from the proposal, a reorg-depth or time-based rule (`chainstate` v2) an attacker satisfies with a stalled or forked burn view, a parent tenure id the signer does not re-derive. Identity: the parent and tenure the signer approves for a block == the parent and tenure the canonical sortition and chain actually establish.",
+    "Critical. A BUILDER PAYS EXACTLY ITS WINNING BID, ONCE, TO THE PROPOSER THAT INCLUDED IT. `process_execution_payload_bid` asserts `can_builder_cover_bid` (balance minus `MIN_DEPOSIT_AMOUNT` minus `get_pending_balance_to_withdraw_for_builder`), checks `bid.slot`, `parent_block_hash`, `parent_block_root`, `prev_randao`, then writes a `BuilderPendingPayment` at `SLOTS_PER_EPOCH + slot % SLOTS_PER_EPOCH`; `process_attestation` accumulates `weight` on that payment; `process_builder_pending_payments` settles payments above `get_builder_payment_quorum_threshold` through `settle_builder_payment` into `builder_pending_withdrawals`; `get_builder_withdrawals` and `get_builders_sweep_withdrawals` emit them with `MAX_WITHDRAWALS_PER_PAYLOAD - 1` limits; `process_builder_exit_request` refuses exit while pending balance is non-zero; `initiate_builder_exit` sets `withdrawable_epoch` without zeroing pending payments; `BUILDER_INDEX_SELF_BUILD` bids must be zero-valued with an infinity signature. Show a builder, proposer or attester using only its own stake that gets paid without delivering, pays without winning, pays twice, pays a different proposer, or escapes a payment: a bid whose payment slot index is overwritten by a later bid in the same epoch window; a payment settled when the payload was never revealed and `execution_payload_availability` stayed false; an exited builder's pending payment surviving the sweep so a later builder at the reused index pays it; `can_builder_cover_bid` passing while the same balance backs two bids across consecutive slots; a proposer including its own builder's bid with `fee_recipient` pointed elsewhere. Identity: for each `BuilderPendingWithdrawal` emitted, there exists exactly one `ExecutionPayloadBid` with equal `builder_index`, `value` and `fee_recipient` whose envelope was revealed and attested for that slot, and no builder balance ever drops below `MIN_DEPOSIT_AMOUNT` plus its pending obligations.",
 
-    "Critical. THE VALIDATION AUTHORIZATION MUST FAIL CLOSED. `postblock_proposal.rs` gates block-proposal validation behind a configured `auth_token`; the signer submits proposals with it, and a test fault-injection stall (`fault_injection_validation_stall`) exists. Show a path where validation is bypassed or defaults open: a missing `auth_token` treated as 'allow' rather than 'disabled', a stall or timeout in validation that returns an accept-like result to the signer, a proposal whose validation is skipped because a cache hit matches on an insufficient key, the fault-injection hook reachable in a release build. Identity: every block a signer treats as node-validated == a block the node's proposal endpoint actually ran full validation on and returned valid for.",
+    "Critical. THE PAYLOAD EXECUTED MUST BE THE PAYLOAD THE BLOCK COMMITTED TO, AND EMPTY SLOTS MUST STAY EMPTY. `verify_execution_payload_envelope` and `verify_execution_payload_envelope_signature` bind the envelope to `latest_execution_payload_bid` (block_hash, builder_index, blob commitments) and to `beacon_block_root`; `process_parent_execution_payload` / `apply_parent_execution_payload` replay the parent's envelope in the child block, updating `latest_block_hash`, `execution_payload_availability`, `payload_expected_withdrawals` and `execution_requests`; `process_slot` unsets availability for the next slot; `update_payload_expected_withdrawals` and `process_withdrawals` compare the expected list against what the payload paid; `get_execution_requests_list` orders deposit, withdrawal, consolidation, builder deposit and builder exit requests; `on_execution_payload_envelope` stores `store.payloads[beacon_block_root]` after `is_data_available`; `is_data_available` and `get_custody_column_bits` decide availability from sampled columns. Show a builder or proposer using its own slot that gets a different payload, a different set of withdrawals, a different set of execution requests, or two payloads accepted for one block, or a stale payload carried into a slot that was empty: an envelope whose `execution_requests` differ from what the bid committed while the signature still verifies; withdrawals computed in the bid slot but applied in the child under different state; a self-build envelope with `BUILDER_INDEX_SELF_BUILD` revealing a payload the proposer never bid; `latest_block_hash` advancing on a payload whose `parent_block_hash` was for another branch; execution requests processed twice across parent and child. Identity: (block_hash, withdrawals_root, execution_requests, blob commitments) applied by `process_parent_execution_payload` == the same fields in the unique `ExecutionPayloadEnvelope` whose `beacon_block_root` is the parent's root and whose bid the parent's `process_execution_payload_bid` accepted, and `execution_payload_availability[slot]` is true exactly when that envelope was applied.",
 
-    "Critical. THE SIGNATURE DOMAIN MUST BIND CHAIN, CYCLE AND MESSAGE. The signer signs over a hash built from the SIP-018 domain in `signed_structured_data.rs` and the block's `signer_signature_hash`; `signers.clar` / `signers-voting.clar` and `libsigner/v0/messages.rs` define the message and slot semantics. Show a signature valid in one context reused in another: a domain that omits `chain-id` or reward cycle so a testnet or prior-cycle signature counts, a `SignerMessage` whose type is not bound into the hash so a rejection is replayed as an acceptance, an aggregate-key or vote message reused across rounds, a block-response message whose slot the signer writes without binding the current tenure. Identity: every signer signature == valid for exactly one (chain, reward cycle, tenure, block, message-type).",
+    "Critical. EVERY HONEST NODE MUST COMPUTE ONE HEAD FROM ONE SET OF VOTES. `get_head` walks `get_node_children` where each block root now splits into FULL and EMPTY `ForkChoiceNode`s ranked by `get_weight` and `get_payload_status_tiebreaker`; `get_ancestor`, `is_ancestor` and `get_checkpoint_block` compare `(root, payload_status)`; `should_apply_proposer_boost`, `is_head_weak`, `is_parent_strong`, `get_proposer_head` and `should_build_on_full` / `should_extend_payload` decide reorgs; `validate_on_attestation` and `update_latest_messages` accept an attester's `AttestationData.index` as a payload-availability vote with `is_attestation_same_slot`; `on_payload_attestation_message` and `notify_ptc_messages` count PTC votes per `data.beacon_block_root`; `record_block_timeliness` and `update_proposer_boost_root` set timeliness. Show a single validator, PTC member or proposer, casting only messages its keys allow at times of its choosing, that makes two honest nodes following the spec disagree on `get_head`, or makes one node's head flip without new majority votes: an attestation whose `index` bit votes FULL for a block whose payload arrives after the vote; a PTC message counted for a block at another slot; a latest message updated by an attestation for an ancestor with a different payload status than the one already recorded; proposer boost applied to a child whose parent is EMPTY while `should_build_on_full` said otherwise; `get_checkpoint_block` resolving one root to two nodes. Identity: for any two `Store`s that received the same set of blocks, envelopes, attestations and PTC messages in any order, `get_head(store)` returns the same `(root, payload_status)`, and every unit of `get_weight` traces to one distinct validator's latest message.",
 
-    "High. THE SIGNER MUST NOT BE WEDGED INTO NEVER SIGNING A VALID BLOCK. `runloop.rs`, `v0/signer.rs` and `v0/signer_state.rs` move the signer through per-block states; a stuck state means the signer stops signing and, if enough signers stick, the chain stalls (liveness). Show a miner-reachable proposal or message sequence that permanently wedges a signer's state machine for a tenure: a malformed proposal that leaves the state neither accepted nor rejected, a reorg handler that loops, a signerdb write that fails and is treated as success so the signer waits forever, a timeout that never fires. Name the impact as temporary or permanent liveness loss. Identity: for every valid canonical block proposed, the signer reaches a terminal sign-or-reject decision in bounded time.",
+    "High. ONLY AN EQUIVOCATOR IS EVER SLASHABLE. `is_slashable_attestation_data` (double vote, surround vote) feeds `process_attester_slashing`, which now runs `is_valid_indexed_attestation` over Gloas `Attestation` with the `index` field repurposed as payload availability and `get_attesting_indices` reading committee bits; `is_attestation_same_slot` decides which flag indices an attestation earns; `process_proposer_slashing` compares two `BeaconBlockHeader`s at one slot; `is_valid_indexed_payload_attestation` verifies PTC messages under `DOMAIN_PTC_ATTESTER`; `process_inclusion_list` marks `store.equivocators[key]` on any differing `InclusionList` for the same `(slot, dependent_root, validator_index)`; `slash_validator` sets `slashed`, applies the penalty and the whistleblower reward; `process_slashings` scales penalties by total slashed balance. Show a validator that follows validator.md exactly and still becomes slashable, loses balance, or is excluded as an equivocator because of what another unprivileged participant did: two attestations that differ only in the payload-availability `index` yet share slot, source and target; an honest re-broadcast of an inclusion list with a different `dependent_root` counted as equivocation; a PTC vote and a beacon attestation from the same key at the same slot treated as a double vote; proposer slashing built from a block and its own re-signed header with a different `state_root`; a validator penalised for a surround vote whose source is the same checkpoint at a different payload status. Identity: for every validator entering `process_attester_slashing`, `process_proposer_slashing` or `store.equivocators`, there exist two messages signed by that validator's key that validator.md forbids it to produce together; otherwise its `slashed` flag, balance and inclusion in committees are unchanged.",
 
-    "High. THE SIGNER SET AND WEIGHT THE SIGNER ASSUMES MUST MATCH CONSENSUS. `libsigner/src/signer_set.rs`, `stacks-signer` config and `nakamoto/signer_set.rs` tell each signer its index, the current reward set and the weight threshold. Show a signer acting on a stale or wrong set: signing for a cycle it is no longer in, computing the aggregate/threshold from a reward set that differs from the node's, or a slot index that maps to another signer so its response is attributed wrongly. Name the impact (a block finalized with mis-counted weight, or a signer's vote miscredited). Identity: the reward set, index and threshold the signer acts under == the ones consensus derived for that cycle.",
+    "Critical. FINALITY MUST ONLY MOVE ON REAL SUPERMAJORITY PARTICIPATION. `process_justification_and_finalization` compares `get_unslashed_participating_indices(..., TIMELY_TARGET_FLAG_INDEX)` balance against `total_active_balance * 2 // 3`; `get_attestation_participation_flag_indices` now awards flags conditional on `is_attestation_same_slot` and the payload status the attestation voted; `process_attestation` records flags in `current_epoch_participation` / `previous_epoch_participation`; `get_flag_index_deltas` and `process_inactivity_updates` pay or penalise from those flags; `process_rewards_and_penalties` and `process_effective_balance_updates` feed the next epoch's `total_active_balance`; `process_epoch` orders these against `process_pending_deposits`, `process_pending_consolidations`, `process_builder_pending_payments` and `process_ptc_window`. Show an attester or proposer, using only its own committee assignments, that gets one validator's balance counted more than once toward justification, gets flags for a vote that did not attest the target, or gets rewards or penalties the honest strategy would not earn: the same validator earning a target flag from two attestations at different `index` values; an attestation whose `data.index` claims a payload that was never available still earning the head flag; a builder's balance entering `total_active_balance`; a pending deposit activated mid-epoch shifting the two-thirds threshold retroactively; inactivity scores frozen by an attestation the spec should reject. Identity: the balance counted for a checkpoint in `process_justification_and_finalization` == sum of `effective_balance` over distinct, unslashed validators whose signed `AttestationData.target` equals that checkpoint and whose attestation was included in the window validator.md allows, and rewards paid == `get_flag_index_deltas` over those same flags.",
 
-    "Critical. A REJECTION MUST NOT BE CONVERTIBLE INTO AN ACCEPTANCE. `libsigner/v0/messages.rs` defines `BlockResponse` (accepted/rejected) and its serialization; `stackerdb_listener` / `signer_coordinator` (node side) aggregate them into the block's signature set. Show a signer's rejection or abstention that the aggregation counts as a signature, or an acceptance for block A counted toward block B: a `BlockResponse` whose signature covers a hash shared by two blocks, a rejection message whose bytes deserialize to an acceptance under a lenient parser, a signature slot overwritten so a later rejection does not undo an earlier accept. Identity: the weight aggregated toward finalizing a block == the summed weight of accept responses whose signatures verify over exactly that block's hash.",
+    "High. DUTY ASSIGNMENT MUST BE UNPREDICTABLE, UNIQUE PER SLOT AND IDENTICAL ON EVERY NODE. `compute_proposer_indices` and `compute_balance_weighted_selection` sample by effective balance with `MAX_RANDOM_VALUE = 2**16 - 1` against `MAX_EFFECTIVE_BALANCE_ELECTRA`; `get_beacon_proposer_indices` fills `state.proposer_lookahead` in `process_proposer_lookahead`; `compute_ptc` / `get_ptc` and `get_inclusion_list_committee` derive from `get_seed` with `DOMAIN_PTC_ATTESTER` and the inclusion-list domain; `get_next_sync_committee_indices` is modified; `get_randao_mix` and `process_randao` mix the proposer's reveal; `is_valid_dependent_root`, `compute_shuffling_lookahead_start_slot` and `get_shuffling_dependent_root` decide which state a node uses to recompute a committee. Show a proposer or validator, using only its own randao reveal, its own balance changes, or the timing of its own blocks, that steers which validator is selected, gets itself selected twice, or makes two nodes derive different committees for one slot: a top-up deposit or consolidation raising `effective_balance` between lookahead computation and the slot; a randao reveal withheld to choose between two lookahead outcomes; `compute_balance_weighted_selection` returning duplicates into a committee whose bits assume uniqueness; a dependent root at a slot where `process_slots` on one node advanced an epoch boundary the other did not. Identity: `proposer_lookahead`, `get_ptc(state, slot)` and `get_inclusion_list_committee(state, slot)` computed by any node from any valid `dependent_root` for that slot are equal, each index appears with the multiplicity the spec defines, and no single participant's action after the seed is fixed changes the selection.",
 
-    "High. SIGNER STATE PERSISTED MUST SURVIVE RESTART CONSISTENTLY. `signerdb.rs` persists prior decisions, block info and burn state; a signer restarts often. Show a restart or migration where the persisted state is read back inconsistently so the signer re-signs, forgets a rejection, or reprocesses a tenure: a schema/migration that drops the equivocation guard, a serialized block info that round-trips to a different id, a burn-height cursor read stale so the signer validates against an old view. Identity: the decisions and view a signer holds after restart == the decisions and view it held before, for every tenure not yet finalized.",
+    "High. AN INCLUSION LIST MUST CONSTRAIN THE PAYLOAD IT WAS BUILT FOR AND NOTHING ELSE. `on_inclusion_list` accepts lists for `slot <= current_slot` within `MIN_SLOTS_FOR_INCLUSION_LISTS_REQUESTS`, checks `dependent_root` against `is_valid_dependent_root`, membership via `get_inclusion_list_committee`, signature via `is_valid_inclusion_list_signature`, and computes `is_timely`; `process_inclusion_list` stores one entry per `(slot, dependent_root, validator_index)`; `get_inclusion_list_transactions` and `get_inclusion_list_bits` drop equivocators and untimely lists; `is_inclusion_list_bits_inclusive` compares a block's `inclusion_list_bits` to the local view; `is_inclusion_list_satisfied`, `record_payload_inclusion_list_satisfaction` and `is_payload_inclusion_list_satisfied` decide in `should_extend_payload` and `on_execution_payload_envelope` whether a payload is extended; `ExecutionPayloadBid` carries the bits the builder committed to. Show a committee member, builder or proposer, using only its own list, bid or block, that makes honest nodes reject a payload that included everything it should, accept one that censored, or split on satisfaction: a list received timely by one node and late by another so `only_timely` views differ; a bid whose `inclusion_list_bits` names a member whose list no node stored; a valid list under a different `dependent_root` for the same slot ignored by satisfaction; the store keyed by `(slot, dependent_root)` while the committee is computed from another state; an envelope judged satisfied against transactions from equivocators. Identity: `is_payload_inclusion_list_satisfied` on every honest node == whether the payload contains every transaction from the non-equivocating, timely lists of the committee for `(slot, dependent_root)` the block committed to, and a payload satisfying that is never demoted by `should_extend_payload`.",
 
-    "Critical. THE MISSING INVARIANT - what nobody built. Nothing external forces a signer's signature to be over the same bytes the node validated; the equivocation guard relies on a signerdb key assumed to distinguish every conflicting block; the canonical view the signer judges against is assumed independent of miner-supplied proposal fields; validation is assumed to fail closed on stall; a rejection is assumed impossible to recount as acceptance. Identify the FIRST place one of these unstated signing-safety assumptions is violated by a miner or peer an unprivileged party can be (winning one slot, gossiping proposals/messages), prove it with a Rust test in `stacks-signer` or `libsigner` that drives the signer state machine with crafted proposals and asserts either the signed-versus-validated equality or the at-most-one-per-height guard before and after, and show the impact is a signer signing an invalid or non-canonical block, signing two conflicting blocks, or being wedged - any of which threatens chain safety or liveness once enough signers share it.",
+    "Critical. THE MISSING INVARIANT - what nobody wrote down. No assertion ties the sum of balances, builder balances, pending queues and emitted withdrawals across a full `state_transition`; nothing checks that a `PendingConsolidation` source still holds the balance it was queued with; `process_parent_execution_payload` trusts that the envelope stored for the parent is the only one the parent's bid could match; `get_builder_withdrawals` never reconciles a `BuilderPendingWithdrawal` against a settled bid; `Withdrawal.validator_index` shares one space between validators and converted builder indices; the fork-choice `Store` and the `InclusionListStore` are keyed by different notions of the same slot; light-client `process_light_client_update` still assumes the sync-committee signature covers the same header a Gloas block produces. Identify the FIRST place one of these unstated conservation or uniqueness assumptions is violated by an EOA sending execution requests, a validator or builder using its own keys in an assigned role, or a participant ordering its own messages, prove it with a pyspec test run through `make test` that asserts both sides (balance sum before and after, authoriser versus mutated account, payload applied versus bid committed, head per store versus head per store, slashed set versus equivocator set) and show that no later epoch transition, fork-choice tick or slashing can detect or reverse it.",
 ]
 
 
@@ -563,107 +219,126 @@ scope_scan = [
 
 def question_generator(target_file: str) -> str:
     """
-    Generate signer-decision and block-proposal-validation audit questions for one
-    stacks-core target.
+    Generate state-transition / fork-choice / accounting audit questions for one consensus-specs target.
 
     ```
     target_file format:
-    "'File Name: stacks-signer/src/v0/signer.rs -> Scope: Critical. ...'"
+    "'File Name: specs/gloas/beacon-chain.md -> Scope: Critical. ...'"
     """
 
     prompt = f"""
     ```
 
-    Generate Nakamoto-signer security audit questions for this exact stacks-core target:
+    Generate consensus-layer security audit questions for this exact consensus-specs
+    target:
 
     {target_file}
 
     Project focus:
-    A Nakamoto block is final only when signers holding enough reward-set weight sign it. Each
-    signer runs `stacks-signer` (`runloop.rs`, `v0/signer.rs`, `v0/signer_state.rs`,
-    `signerdb.rs`) and its `chainstate` v1/v2 rules to decide, from a miner-supplied
-    `BlockProposal` and its own node's view (`stacks_client.rs`, `postblock_proposal.rs`),
-    whether to sign the `signer_signature_hash`. The signer must (a) sign only a block that is
-    actually valid; (b) sign only a canonical continuation the miner did not fabricate; (c)
-    never sign two conflicting blocks at one height. Anything that makes a signer sign an
-    invalid or non-canonical block, sign twice, or get wedged into never signing a valid one,
-    is the bug.
+    The Ethereum consensus specs define, in the ```python blocks of each markdown file,
+    the state transition, fork choice, validator duties and p2p validation every client
+    must implement identically. Untrusted input enters through what an unprivileged
+    participant can put on chain or on the wire with its own keys: execution-layer
+    requests (deposit, withdrawal, consolidation, builder deposit, builder exit), blocks
+    and payload envelopes for slots it is assigned, attestations, slashings, exits,
+    BLS-to-execution changes, PTC messages, inclusion lists and sync messages. The
+    protocol decides (a) whether every Gwei is conserved and paid to its owner; (b)
+    whether every change to a validator or builder was authorised by that party; (c)
+    whether all honest nodes compute one head and one finalized checkpoint; (d) whether
+    only an equivocator is slashable; (e) whether the payload executed is the payload the
+    block committed to, paid once. Anything moved, changed, finalized, slashed or
+    executed that the spec's own rules did not authorise is the bug.
 
     Rules:
-    * Treat `File Name:` as the exact file.
+    * Treat `File Name:` as the exact file. Reason over the python blocks in it and the
+      functions it inherits unchanged from the previous fork.
     * Treat `Scope:` as the ONLY impact to target.
     * Assume full repo context is accessible.
     * Do not ask for code or say anything is missing.
-    * Use exact Rust and Clarity symbols (function, struct, enum variant like BlockResponse,
-      constant, trait, define-* name) as they appear in the file.
-    * EVERY question must close on an equality that must hold across the signer's decision -
-      signed-versus-validated, one-per-height, approved-parent-versus-canonical - or name a
-      precise state-machine wedge with a liveness impact. State it explicitly.
-    * Attacker is unprivileged only: a party who can win a single miner slot (with their own
-      BTC) and thus craft `BlockProposal`s, and who can gossip signer/StackerDB messages a
-      signer consumes. They run at most one honest signer's worth of the set, not a majority.
-    * Attacker is NOT a majority of signers, not a node operator or the victim signer, and
-      holds no other signer's private key or the validation `auth_token`. No compromised
-      dependency; no social engineering; no local access to a signer host.
+    * Use exact spec symbols (function, container, field, constant, domain, preset) as
+      they appear in the file.
+    * EVERY question must close on an equality that must hold across a transition or
+      handler call. State it explicitly. Narrative questions are rejected.
+    * Attacker is unprivileged only: an EOA sending execution-layer requests; one or
+      more validators it funded itself, in any role the protocol assigns them
+      (proposer, attester, aggregator, sync committee, PTC, inclusion-list committee);
+      a builder registered with its own stake. They may produce any correctly signed
+      message their own keys allow, any block or envelope for their assigned slot, and
+      order or time their own messages.
+    * Attacker is NOT a malicious peer or node, a client implementation bug, a network
+      partition, a supermajority or 1/3 coalition, a compromised key, an execution
+      client, or a social engineer. No DoS, gossip flooding or eclipse assumptions.
     * PROGRAM EXCLUSIONS - a question landing in any of these wastes the whole batch:
-      - The P2P/RPC transport and StackerDB sync mechanics, and node-side consensus block
-        acceptance, are other variants and OUT OF SCOPE here (use them only as the channel);
-        so are README, tests, benches and config.
-      - Pure volumetric DoS and resource flooding are OUT OF SCOPE; a single-proposal wedge or
-        a safety violation IS in scope (name it).
-      - Defects in secp256k1, serde or rusqlite with no path through the signer's logic are
-        OUT OF SCOPE; a weakness here that misuses them is IN scope.
-      - Also excluded: leaked signer keys, privileged accounts, centralization risk,
-        best-practice notes, feature requests, price assumptions, and theoretical findings.
+      - tests/, pysetup/, scripts/, presets/, configs/, generated Python, Makefile,
+        pyproject, lockfiles, README and SECURITY.md are OUT OF SCOPE.
+      - Denial of service, resource exhaustion, unbounded lists or memory, message
+        rate, bandwidth and timing-only liveness delays are OUT OF SCOPE.
+      - Economic or governance attacks needing a large stake share (51%, 33%) are OUT.
+      - Bugs inside a client, the execution layer, KZG/BLS libraries, or the deposit
+        contract bytecode with no path through the spec text are OUT OF SCOPE; a spec
+        rule that steers them wrong is fully IN scope.
+      - Also excluded: known issues, best-practice notes, feature requests, wording
+        nits, centralisation risk, and theoretical findings without a state to show.
     * IN-SCOPE IMPACTS - every question must land on one and name it:
-      Critical: a signer signing an invalid block, a non-canonical block, or two conflicting
-      blocks at one height (chain safety) - anything that, shared across enough signers,
-      finalizes a bad block or splits the chain; a rejection recounted as an acceptance; a
-      signature valid across chain/cycle/tenure boundaries.
-      High: a signer wedged into never signing valid blocks (liveness); a signer acting on a
-      stale reward set/threshold; a restart that loses the equivocation guard.
-    * Every question must be a concrete real-world scenario a party with one miner slot (and
-      gossip access) can execute against honest signers running current code.
-    * A rejection or stall is a finding only when it wedges liveness or converts into an
-      unsafe signature - say which.
-    * Generate 20 to 40 high-signal questions.
+      Critical: finality or safety break (two conflicting finalized checkpoints, or an
+      invalid transition accepted / valid one rejected so spec-following nodes split);
+      Gwei created, destroyed or paid to an address other than the owner's; an honest
+      validator slashed; a payload executed or paid that the block did not commit to.
+      High: a consensus split or reorg forced by one participant without majority
+      stake; a validator or builder exited, consolidated or re-credentialed without its
+      authority; a builder payment or withdrawal misdirected, doubled or escaped; a duty
+      selection a single participant can steer.
+    * Every question must be a concrete real-world scenario an unprivileged participant
+      can trigger with its own stake, keys and requests.
+    * A failed assert is a finding only when it rejects a transition validator.md tells
+      an honest node to produce, or lets an unauthorised one through - say which.
+    * Generate 40 to 80 high-signal questions.
     * At least 70% must land on a Critical impact rather than a High one.
-    * Every question must be testable with a Rust test in `stacks-signer` or `libsigner`
-      driving the signer state machine locally. Never propose testing on mainnet or a public
+    * Every question must be testable locally with a pyspec test run through
+      `make test` on the minimal preset. Never propose testing on mainnet or a public
       testnet.
     * Avoid generic checklist questions and repeated root causes.
-    * Prefer questions that name TWO values that must be equal (signed vs validated, approved
-      parent vs canonical, aggregated weight vs verified accepts) or a precise wedge site.
+    * Prefer questions that name TWO values that must be equal and ask whether they are:
+      balance sum before and after, authoriser and mutated account, head on node A and
+      head on node B, slashed set and equivocator set, payload applied and bid
+      committed, flags counted and votes cast.
 
     Known dead ends - do NOT generate questions about these:
-    * Anything needing a majority of signers, another signer's key, or the validation auth_token.
-    * The transport/StackerDB sync internals or node consensus acceptance as the flaw itself.
-    * Volumetric DoS or flooding.
-    * A dependency CVE with no path through the signer's logic, or findings only in tests/tooling.
+    * Anything needing a malicious peer, node, client bug, execution client, or a
+      coalition holding 1/3 or more of stake.
+    * A bug in a client, library or contract bytecode with no path through the spec.
+    * DoS, memory, message size, timing-only delays, or a participant harming only its
+      own balance.
+    * Findings only reproducible through test tooling or preset edits.
 
     Core equalities (each question must close on one):
-    * VALIDITY: the block a signature authenticates == the block the relied-on validation proved valid.
-    * UNIQUENESS: distinct blocks a signer signs per (cycle, tenure, height) == at most one.
-    * CANONICITY: the parent/tenure the signer approves == the canonical sortition's, not the
-      miner's claim.
-    * FAIL-CLOSED: every block treated as validated == one the node actually fully validated;
-      a rejection never counts as an accept.
-    * LIVENESS/DOMAIN: bounded decision for every valid block; each signature bound to one
-      (chain, cycle, tenure, block, message-type).
+    * BALANCE CONSERVATION: balances + builder balances + queues + withdrawals after ==
+      before + deposits + rewards - penalties, each Gwei paid to its owner's address.
+    * AUTHORITY: every mutated validator or builder == a party whose key or withdrawal
+      address signed the input that mutated it.
+    * SINGLE HEAD: get_head and finalized checkpoint on any two spec-following stores
+      fed the same messages == equal.
+    * ACCOUNTABILITY: slashed or equivocator set == set of validators that signed two
+      messages validator.md forbids together.
+    * PAYLOAD BINDING: payload, withdrawals and requests applied == those in the one
+      envelope matching the accepted bid, paid exactly once.
+    * DUTY TRUTH: committee or proposer derived by any node from any valid dependent
+      root == identical, unsteerable after the seed is fixed.
 
     Each question must include:
-    1. target function, struct, enum variant or define-* name;
-    2. attacker action (a concrete proposal or message with the fields that matter);
-    3. preconditions (cycle, reward set, tip, prior signer state);
-    4. call sequence through validation, chainstate rules and signerdb;
-    5. the equality or wedge, written explicitly;
-    6. scoped impact and which safety/liveness property breaks;
+    1. target function, container field or constant;
+    2. attacker input (the concrete request, block, envelope, attestation, list or
+       message fields that matter);
+    3. preconditions (fork, epoch position, queue state, balances, payload status);
+    4. call sequence through the state transition, epoch processing or store handlers;
+    5. the equality that breaks, written explicitly;
+    6. scoped impact and whose stake or finality is exposed;
     7. proof idea.
 
     Output only valid Python. No markdown. No explanations.
 
     questions = [
-    "[File: {target_file}] [Method: function_or_struct] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger CALL_SEQUENCE, breaking the equality/wedge EQUALITY, causing scoped impact: SCOPE_IMPACT against PARTY? Proof idea: Rust signer test PARAMETERS asserting VALIDITY, UNIQUENESS, CANONICITY, FAIL_CLOSED, or LIVENESS_DOMAIN.",
+    "[File: {target_file}] [Method: function_name] Can an unprivileged ATTACKER_INPUT under PRECONDITIONS trigger CALL_SEQUENCE, breaking the equality EQUALITY, causing scoped impact: SCOPE_IMPACT against PARTY? Proof idea: pyspec test PARAMETERS asserting BALANCE_CONSERVATION, AUTHORITY, SINGLE_HEAD, ACCOUNTABILITY, PAYLOAD_BINDING, or DUTY_TRUTH.",
     ]
     """
     return prompt
@@ -671,7 +346,7 @@ def question_generator(target_file: str) -> str:
 
 def audit_format(security_question: str) -> str:
     """
-    Generate a signer-decision exploit-validation prompt for stacks-core.
+    Generate a state-transition / fork-choice exploit-validation prompt for consensus-specs.
     """
 
     prompt = f"""# SECURITY AUDIT PROMPT
@@ -680,20 +355,20 @@ def audit_format(security_question: str) -> str:
 {security_question}
 
 ## Rules
-- Use existing repo context only. Analyze only this question and scoped impact.
-- Attacker is unprivileged only: a party who can win a single miner slot with their own BTC and craft BlockProposals, and gossip signer/StackerDB messages a signer consumes, running at most one signer's weight. They are not a majority of signers, not a node operator or the victim signer, and hold no other signer's key or the validation auth_token, with no local access to a signer host.
-- Reject majority-signer, compromised-dependency, social-engineering and local-access assumptions, and any path requiring a privileged role or the auth_token.
-- OUT OF SCOPE, reject on sight: P2P/RPC transport and StackerDB sync mechanics, node-side consensus acceptance (as the flaw itself); README, tests, benches, config; volumetric DoS and flooding; secp256k1/serde/rusqlite defects with no path through the signer's logic; price assumptions; best-practice notes; theoretical findings.
-- The impact must be one of: Critical - a signer signing an invalid, non-canonical, or conflicting block (chain safety), a rejection recounted as acceptance, a signature valid across chain/cycle/tenure boundaries; High - a signer wedged into never signing valid blocks (liveness), acting on a stale reward set/threshold, or losing the equivocation guard on restart.
-- Focus on real impact: a safety property (validity, uniqueness, canonicity, fail-closed) broken, or a bounded-liveness guarantee lost.
+- Use existing repo context only: the ```python blocks in specs/**/*.md and what each fork inherits. Analyze only this question and scoped impact.
+- Attacker is unprivileged only: an EOA sending execution-layer requests; validators it funded itself in any assigned role (proposer, attester, aggregator, sync committee, PTC, inclusion-list committee); a builder registered with its own stake. They may produce any correctly signed message their keys allow and order their own messages.
+- Reject anything requiring a malicious peer or node, a client bug, a network partition, a 1/3 or majority coalition, a compromised key, the execution client, or social engineering.
+- OUT OF SCOPE, reject on sight: tests/, pysetup/, scripts/, presets/, configs/, generated Python, build files, README, SECURITY.md; denial of service, resource exhaustion, unbounded lists or memory, message rate, timing-only delays; large-stake economic attacks; bugs inside clients, the execution layer, BLS/KZG libraries or contract bytecode with no path through the spec text; known issues; wording nits; best-practice notes; theoretical findings.
+- The impact must be one of: Critical - finality or safety break, an invalid transition accepted or a valid one rejected so spec-following nodes split, Gwei created, destroyed or paid to a non-owner, an honest validator slashed, a payload executed or paid that the block did not commit to; High - a split or reorg forced by one participant without majority stake, a validator or builder exited, consolidated or re-credentialed without its authority, a builder payment or withdrawal misdirected, doubled or escaped, a duty selection one participant can steer.
+- Focus on real impact: something moved, changed, finalized, slashed or executed that the spec's own rules did not authorise.
 
 ## Validate
-- Write the equality or wedge the question claims BEFORE tracing any code.
-- Trace the exact reachable path from the crafted proposal/message and record every read and write of the validated block id, the `signer_signature_hash`, the signerdb equivocation record, the canonical parent/tenure the chainstate rules derive, the reward set/threshold, and the BlockResponse aggregation.
-- Evaluate the equality before and after, or locate the exact wedge state. If the guard holds, output no vulnerability.
-- Check whether the node validation call, the chainstate v1/v2 reorg rules, the signerdb key, the auth gate, the signature domain, or the state-machine timeouts already prevent it.
-- State what the attacker achieves and whether it needs only one slot plus gossip, and whether it is repeatable.
-- Require exact file/function support and a reproducible Rust test driving the signer state machine.
+- Write the equality the question claims is broken between two named values BEFORE tracing any code.
+- Trace the exact reachable path from the attacker's input and record every read and write of `state.balances`, `state.validators[i]`, `state.builders[j]`, `pending_*` queues, `builder_pending_payments` / `builder_pending_withdrawals`, `execution_payload_availability`, `latest_execution_payload_bid`, `latest_block_hash`, participation flags, `store.latest_messages`, `store.payloads` and `store.equivocators`.
+- Evaluate both sides of the equality before and after. If they still match, output no vulnerability.
+- Check whether the asserts in `process_block`, `process_operations`, the signature domains, `is_valid_indexed_attestation`, `is_slashable_attestation_data`, `can_builder_cover_bid`, `verify_execution_payload_envelope`, `validate_on_attestation`, `is_valid_dependent_root`, the churn limits, or the honest behaviour in validator.md already prevent the divergence.
+- State what the attacker gains per transition and whether it is repeatable.
+- Require exact file/function support and a reproducible pyspec test run through `make test` on the minimal preset.
 
 ## Output
 If valid, output exactly:
@@ -705,19 +380,19 @@ If valid, output exactly:
 [2-3 sentences]
 
 ### Finding Description
-[The broken equality or wedge, the code path, root cause, the attacker's exact proposal/message, exploit flow, and why existing guards fail]
+[The broken equality, the code path, root cause, the attacker's exact input, exploit flow, and why existing guards fail]
 
 ### Impact Explanation
-[Which safety or liveness property breaks, what a shared exploit finalizes or stalls, repeatability, matching severity category]
+[What is moved, changed, finalized, slashed or executed, which party, repeatability, matching severity category]
 
 ### Likelihood Explanation
-[Preconditions, cycle/tip/state required, attacker cost (one slot plus gossip), feasibility, repeatability]
+[Preconditions, fork and state required, attacker stake and cost, feasibility, repeatability]
 
 ### Recommendation
 [Specific fix]
 
 ### Proof of Concept
-[Rust signer test plan with the exact assertions on both sides of the equality or the wedge]
+[pyspec test plan with the exact assertions on both sides of the equality]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
@@ -729,7 +404,7 @@ No extra text.
 
 def validation_format(report: str) -> str:
     """
-    Generate a strict bounty-style validation prompt for stacks-core signer claims.
+    Generate a strict bounty-style validation prompt for consensus-specs claims.
     """
     prompt = f"""# VALIDATION PROMPT
 
@@ -741,32 +416,32 @@ def validation_format(report: str) -> str:
 - Check SECURITY.md and Researcher.Md for scope, exclusions, and valid impact classes.
 - Do not create a new vulnerability if the submitted claim is weak or invalid.
 - Do not upgrade severity unless the provided evidence proves the higher impact.
-- A claim is only valid if the report states the broken equality (signed vs validated, one-per-height, approved-parent vs canonical, aggregated-weight vs verified-accepts) or names a precise state-machine wedge, and shows it concretely. Reject prose-only claims.
-- Reject anything requiring a majority of signers, another signer's key, the validation auth_token, a node operator or the victim signer, local access, a compromised dependency, or social engineering.
-- OUT OF SCOPE, reject on sight: P2P/RPC transport and StackerDB sync mechanics, node-side consensus acceptance as the flaw itself; README, tests, benches, config; volumetric DoS and flooding; secp256k1/serde/rusqlite defects with no path through the signer's logic; price assumptions; centralization risk; best-practice notes; feature requests; theoretical findings.
-- The impact must be one of: Critical - a signer signing an invalid, non-canonical, or conflicting block, a rejection recounted as acceptance, a cross-context-valid signature; High - a signer wedged into never signing valid blocks, acting on a stale reward set/threshold, or losing the equivocation guard on restart.
-- Reject claims needing a majority of signers or with no safety/liveness consequence when shared across the set.
+- A claim is only valid if the report states the broken equality between two named values and shows both sides concretely on a real `BeaconState` or `Store`. Reject prose-only claims.
+- Reject anything requiring a malicious peer or node, a client bug, a network partition, a 1/3 or majority coalition, a compromised or foreign key, the execution client, or social engineering.
+- OUT OF SCOPE, reject on sight: tests/, pysetup/, scripts/, presets/, configs/, generated Python, build files, README, SECURITY.md; denial of service, resource exhaustion, unbounded lists or memory, message rate, timing-only delays; large-stake economic attacks; bugs inside clients, the execution layer, BLS/KZG libraries or contract bytecode with no path through the spec text; known issues; centralisation risk; wording nits; best-practice notes; feature requests; theoretical findings.
+- The impact must be one of: Critical - finality or safety break, an invalid transition accepted or a valid one rejected so spec-following nodes split, Gwei created, destroyed or paid to a non-owner, an honest validator slashed, a payload executed or paid that the block did not commit to; High - a split or reorg forced by one participant without majority stake, a validator or builder exited, consolidated or re-credentialed without its authority, a builder payment or withdrawal misdirected, doubled or escaped, a duty selection one participant can steer.
+- Reject claims where the only loss is the attacker's own stake.
 - Reject if the bug was already fixed, publicly disclosed, or covered by a known-issues list.
-- A valid report must be triggerable by a party with one miner slot plus gossip access against honest signers on current code.
+- A valid report must be triggerable by an unprivileged participant against the current spec text with its own stake, keys and requests.
 - A PoC is mandatory. Prefer #NoVulnerability over speculative reports.
 
 ## Required Validation Checks
 All must pass:
-1. Exact in-scope file, function/struct/enum/define-*, and line references.
-2. The equality or wedge written explicitly, with both sides or the stuck state shown.
-3. Clear root cause: which validity, uniqueness, canonicity, fail-closed, domain or state-machine gap causes it.
-4. Reachable exploit path: preconditions -> crafted proposal/message -> validation, chainstate rules and signerdb sequence -> observed divergence or wedge.
-5. The node validation call, chainstate v1/v2 rules, the signerdb key, the auth gate, the signature domain and the timeouts reviewed and shown insufficient.
-6. Impact stated concretely: which property breaks and what it finalizes or stalls when shared, and repeatability.
-7. Reproducible proof: Rust test driving the signer state machine with the asserted values.
+1. Exact in-scope file, function/container/constant, and line references.
+2. The equality written explicitly, with both sides shown before and after.
+3. Clear root cause: which balance drift, authority gap, head or finality divergence, slashing of a non-equivocator, payload or payment mismatch, or duty steering causes it.
+4. Reachable exploit path: preconditions -> attacker input -> state transition / epoch processing / store handler sequence -> observed divergence.
+5. The block and operation asserts, signature domains, `is_valid_indexed_attestation`, `is_slashable_attestation_data`, `can_builder_cover_bid`, `verify_execution_payload_envelope`, `validate_on_attestation`, `is_valid_dependent_root`, churn limits and validator.md honest behaviour reviewed and shown insufficient.
+6. Impact stated concretely: which stake, whose, which finality, and whether it is repeatable.
+7. Reproducible proof: pyspec test run through `make test` on the minimal preset, with the asserted values.
 
 ## Silent Triage Questions
 Before output, internally answer:
-- What exactly is the equality or wedge, and does it actually occur?
-- Can a one-slot miner plus gossip trigger it with no other signer's key and no auth_token?
-- Is the flaw in the signer's own decision logic, not in transport, node consensus or a dependency?
-- Which safety/liveness property breaks, and what happens when enough signers share it?
-- Would an Immunefi triager accept it under the Blockchain/DLT severity system?
+- What exactly is the equality, and does it actually fail on a concrete state?
+- Can an EOA, a self-funded validator or a self-staked builder trigger it with no coalition, no foreign key and no malicious node?
+- Is the flaw in the spec text, not in a client, library or contract?
+- What is moved, changed, finalized, slashed or executed, whose stake, and can it be repeated?
+- Would the Ethereum Foundation bounty triage accept the exploit path under the consensus-layer program?
 - What exact test would prove it?
 
 ## Output
@@ -778,13 +453,13 @@ Audit Report
 [Clear vulnerability statement] - ([File: file_path])
 
 ## Summary
-[2-3 sentence summary of the broken equality/wedge and impact]
+[2-3 sentence summary of the broken equality and impact]
 
 ## Finding Description
-[Exact code path, the equality or wedge, root cause, exploit flow, and why existing guards fail]
+[Exact code path, the equality, root cause, exploit flow, and why existing guards fail]
 
 ## Impact Explanation
-[Which safety/liveness property breaks, what a shared exploit finalizes or stalls, affected party, repeatability, severity category]
+[What is moved, changed, finalized, slashed or executed, affected party, repeatability, severity category]
 
 ## Likelihood Explanation
 [Attacker capability, preconditions, state required, cost, feasibility]
@@ -793,7 +468,7 @@ Audit Report
 [Specific fix guidance]
 
 ## Proof of Concept
-[Minimal reproducible steps or Rust signer test plan with concrete assertions]
+[Minimal reproducible steps or pyspec test plan with concrete assertions]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
@@ -805,7 +480,7 @@ Output only one of the two outcomes above. No extra text.
 
 def scan_format(report: str) -> str:
     """
-    Generate a short cross-project analog scan prompt for the stacks-core signer subsystem.
+    Generate a short cross-project analog scan prompt for consensus-specs.
     """
     prompt = f"""# ANALOG SCAN PROMPT
 
@@ -813,18 +488,18 @@ def scan_format(report: str) -> str:
 {report}
 
 ## Rules
-- Use in-scope repo context only (`stacks-signer/src/**` including chainstate v1/v2 and signerdb, the `libsigner/v0` message and state types, and node-side `postblock_proposal.rs` / signer_set / coordinator). Do not ask for code or claim missing files.
+- Use in-scope repo context only (the ```python blocks in `specs/**/*.md` and what each fork inherits, excluding tests/, pysetup/, scripts/, presets/, configs/ and generated Python). Do not ask for code or claim missing files.
 - Use the external report only as a bug-class hint, not as proof.
-- Keep only analogs a one-slot miner (plus gossip) can trigger that break an equality (signed vs validated, one-per-height, approved-parent vs canonical, aggregated-weight vs verified-accepts) or wedge the state machine: a signer signing an invalid/non-canonical/conflicting block, a rejection recounted as an accept, a cross-context-valid signature, or a liveness wedge.
-- OUT OF SCOPE, reject on sight: transport/StackerDB sync mechanics, node consensus acceptance as the flaw itself; README, tests, benches, config; volumetric DoS and flooding; secp256k1/serde/rusqlite defects with no path through the signer's logic; anything requiring a majority of signers, another signer's key, the auth_token or local access; price assumptions; best-practice notes; theoretical findings.
-- The impact must be one of: Critical - a signer signing an invalid, non-canonical, or conflicting block, a rejection recounted as acceptance, a cross-context-valid signature; High - a signer wedged into never signing valid blocks, acting on a stale reward set/threshold, or losing the equivocation guard on restart.
-- Reject analogs needing a majority or with no safety/liveness consequence.
+- Keep only unprivileged analogs that break an equality: a Gwei created, destroyed or paid to a non-owner; a validator or builder mutated without its authority; two spec-following stores disagreeing on head or finality; a non-equivocator slashed; a payload or payment applied that the block did not commit to; a duty selection one participant can steer.
+- OUT OF SCOPE, reject on sight: tests/, pysetup/, scripts/, presets/, configs/, generated Python, build files, README; denial of service, resource exhaustion, unbounded lists or memory, message rate, timing-only delays; large-stake economic attacks; bugs inside clients, the execution layer, BLS/KZG libraries or contract bytecode with no path through the spec text; anything requiring a malicious peer, node, client bug, partition, coalition or foreign key; known issues; wording nits; best-practice notes; theoretical findings.
+- The impact must be one of: Critical - finality or safety break, an invalid transition accepted or a valid one rejected so spec-following nodes split, Gwei created, destroyed or paid to a non-owner, an honest validator slashed, a payload executed or paid that the block did not commit to; High - a split or reorg forced by one participant without majority stake, a validator or builder exited, consolidated or re-credentialed without its authority, a builder payment or withdrawal misdirected, doubled or escaped, a duty selection one participant can steer.
+- Reject analogs where the only loss is the attacker's own stake.
 
 ## Validate
-- Map the bug class to the strongest reachable path in this repo and state the equality or wedge it would break.
-- Evaluate both sides before and after the crafted proposal/message, or locate the wedge.
+- Map the bug class to the strongest reachable path in this repo and state the equality it would break.
+- Evaluate both sides before and after the attacker's input on a concrete state.
 - Prove root cause with exact file/function support.
-- Accept only a concrete safety break (invalid/non-canonical/conflicting signature, miscounted response, cross-context signature) or a liveness wedge.
+- Accept only concrete balance loss, unauthorised mutation, head or finality divergence, wrongful slashing, payload or payment mismatch, or steerable selection.
 
 ## Output (Strict)
 If valid analog exists, output:
