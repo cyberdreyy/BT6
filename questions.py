@@ -4,13 +4,12 @@ import os
 from decouple import config
 
 # todo: if scope_files is: 500 > 50, 300 > 30 , 100 > 10
-MAX_REPO = 20
-# todo: the GitLab namespace/project path, for example group/project
-SOURCE_REPO = 'ethereum/consensus-specs'
+MAX_REPO = 25
+# todo: the path from https://github.com/gitlabhq/gitlabhq
+SOURCE_REPO = "gitlabhq/gitlabhq"
 # todo: the name of the repository
-REPO_NAME = 'consensus-specs'
-
-run_number = os.environ.get('GITHUB_RUN_NUMBER', '0')
+REPO_NAME = "gitlabhq"
+run_number = os.environ.get('GITHUB_RUN_NUMBER') or os.environ.get('CI_PIPELINE_IID', '0')
 
 
 def get_cyclic_index(run_number, max_index=100):
@@ -49,167 +48,335 @@ else:
 
 scope_files = [
     # =================================================================================
-    # LENS: STATE TRANSITION, FORK CHOICE AND VALIDATOR ACCOUNTING (Ethereum consensus
-    # specs). The specs are markdown; the Python in each ```python block is the
-    # executable spec that every client must match. Untrusted input enters through what
-    # an unprivileged participant can put on chain or on the wire with its own keys:
-    # execution-layer requests (deposit, withdrawal, consolidation, builder deposit and
-    # exit), signed blocks and payload envelopes for slots it is assigned, attestations,
-    # slashings, exits, BLS-to-execution changes, payload attestations, inclusion lists
-    # and sync/light-client messages. The files below sit on the path from those inputs
-    # to one of five decisions: is every Gwei conserved and paid to the right address, is
-    # every change to a validator or builder authorised by its own key, do all honest
-    # nodes compute one head and one finalized checkpoint, is only an equivocator ever
-    # slashable, and is the payload executed the payload the block committed to and paid
-    # for once. A question belongs here only if it can be closed by an equality between a
-    # value the participant supplied and a value the spec produced.
+    # Declarative authorization: policies that decide every permission check
     # =================================================================================
-
-    # -- phase0: base state transition, fork choice, deposit contract, p2p, validator ----
-    "specs/phase0/beacon-chain.md",
-    "specs/phase0/deposit-contract.md",
-    "specs/phase0/fast-confirmation.md",
-    "specs/phase0/fork-choice.md",
-    "specs/phase0/p2p-interface.md",
-    "specs/phase0/validator.md",
-    "specs/phase0/weak-subjectivity.md",
-
-    # -- altair: participation flags, sync committees, light client ---------------------
-    "specs/altair/beacon-chain.md",
-    "specs/altair/bls.md",
-    "specs/altair/fork-choice.md",
-    "specs/altair/fork.md",
-    "specs/altair/light-client/full-node.md",
-    "specs/altair/light-client/light-client.md",
-    "specs/altair/light-client/p2p-interface.md",
-    "specs/altair/light-client/sync-protocol.md",
-    "specs/altair/p2p-interface.md",
-    "specs/altair/validator.md",
-
-    # -- bellatrix: execution payload, optimistic sync -----------------------------------
-    "specs/bellatrix/beacon-chain.md",
-    "specs/bellatrix/fast-confirmation.md",
-    "specs/bellatrix/fork-choice.md",
-    "specs/bellatrix/fork.md",
-    "specs/bellatrix/optimistic-sync.md",
-    "specs/bellatrix/p2p-interface.md",
-    "specs/bellatrix/validator.md",
-
-    # -- capella: withdrawals, BLS-to-execution changes ---------------------------------
-    "specs/capella/beacon-chain.md",
-    "specs/capella/fork-choice.md",
-    "specs/capella/fork.md",
-    "specs/capella/light-client/fork.md",
-    "specs/capella/light-client/full-node.md",
-    "specs/capella/light-client/p2p-interface.md",
-    "specs/capella/light-client/sync-protocol.md",
-    "specs/capella/p2p-interface.md",
-    "specs/capella/validator.md",
-
-    # -- deneb: blobs, KZG commitments, blob sidecars -----------------------------------
-    "specs/deneb/beacon-chain.md",
-    "specs/deneb/fork-choice.md",
-    "specs/deneb/fork.md",
-    "specs/deneb/light-client/fork.md",
-    "specs/deneb/light-client/full-node.md",
-    "specs/deneb/light-client/p2p-interface.md",
-    "specs/deneb/light-client/sync-protocol.md",
-    "specs/deneb/p2p-interface.md",
-    "specs/deneb/validator.md",
-
-    # -- electra: execution requests, consolidations, pending deposits/withdrawals ------
-    "specs/electra/beacon-chain.md",
-    "specs/electra/fork.md",
-    "specs/electra/light-client/fork.md",
-    "specs/electra/light-client/p2p-interface.md",
-    "specs/electra/light-client/sync-protocol.md",
-    "specs/electra/p2p-interface.md",
-    "specs/electra/validator.md",
-    "specs/electra/weak-subjectivity.md",
-
-    # -- fulu: PeerDAS, custody, proposer lookahead, blob schedule ----------------------
-    "specs/fulu/beacon-chain.md",
-    "specs/fulu/das-core.md",
-    "specs/fulu/fork-choice.md",
-    "specs/fulu/fork.md",
-    "specs/fulu/p2p-interface.md",
-    "specs/fulu/partial-columns/p2p-interface.md",
-    "specs/fulu/validator.md",
-
-    # -- gloas: ePBS - builders, bids, envelopes, PTC, payload-aware fork choice --------
-    "specs/gloas/beacon-chain.md",
-    "specs/gloas/builder.md",
-    "specs/gloas/fast-confirmation.md",
-    "specs/gloas/fork-choice.md",
-    "specs/gloas/fork.md",
-    "specs/gloas/light-client/fork.md",
-    "specs/gloas/light-client/full-node.md",
-    "specs/gloas/light-client/p2p-interface.md",
-    "specs/gloas/light-client/sync-protocol.md",
-    "specs/gloas/p2p-interface.md",
-    "specs/gloas/partial-columns/p2p-interface.md",
-    "specs/gloas/validator.md",
-    "specs/gloas/weak-subjectivity.md",
-
-    # -- heze: FOCIL inclusion lists ----------------------------------------------------
-    "specs/heze/beacon-chain.md",
-    "specs/heze/builder.md",
-    "specs/heze/fork-choice.md",
-    "specs/heze/fork.md",
-    "specs/heze/inclusion-list.md",
-    "specs/heze/optimistic-sync.md",
-    "specs/heze/p2p-interface.md",
-    "specs/heze/validator.md",
-
-    # -- _features: draft EIPs layered on the forks above -------------------------------
-    "specs/_features/eip8025/beacon-chain.md",
-    "specs/_features/eip8025/fork-choice.md",
-    "specs/_features/eip8025/p2p-interface.md",
-    "specs/_features/eip8025/proof-engine.md",
-    "specs/_features/eip8025/prover.md",
-    "specs/_features/eip8148/beacon-chain.md",
-    "specs/_features/eip8148/fork.md",
-    "specs/_features/eip8148/p2p-interface.md",
-    "specs/_features/eip8148/validator.md",
-    "specs/_features/eip8205/beacon-chain.md",
-    "specs/_features/eip8205/fork.md",
-    "specs/_features/eip8205/p2p-interface.md",
-    "specs/_features/eip8205/validator.md",
-    "specs/_features/eip8321/beacon-chain.md",
-    "specs/_features/eip8321/fork.md",
-    "specs/_features/eip8321/p2p-interface.md",
-    "specs/_features/eip8321/validator.md",
+    "app/policies/base_policy.rb",
+    "app/policies/project_policy.rb",
+    "app/policies/group_policy.rb",
+    "app/policies/global_policy.rb",
+    "app/policies/namespace_policy.rb",
+    "app/policies/user_policy.rb",
+    "app/policies/issuable_policy.rb",
+    "app/policies/issue_policy.rb",
+    "app/policies/merge_request_policy.rb",
+    "app/policies/note_policy.rb",
+    "app/policies/blob_policy.rb",
+    "app/policies/commit_policy.rb",
+    "app/policies/project_snippet_policy.rb",
+    "app/policies/personal_snippet_policy.rb",
+    "app/policies/group_member_policy.rb",
+    "app/policies/deploy_key_policy.rb",
+    "app/policies/concerns/policy_actor.rb",
+    "app/policies/concerns/member_policy_helpers.rb",
+    "ee/app/policies/ee/project_policy.rb",
+    "ee/app/policies/ee/group_policy.rb",
+    "ee/app/policies/epic_policy.rb",
+    "lib/gitlab/allowable.rb",
 
     # =================================================================================
-    # NOT AUDITED (excluded from every variant): tests/ (pyspec tests, generators,
-    # formats), the generated Python spec packages, pysetup/ and scripts/ (the spec
-    # builder), presets/ and configs/ yaml, Makefile, pyproject.toml, uv.lock,
-    # zensical.toml, renovate.json, README, SECURITY.md and docs tooling. A defect in any
-    # of these is only in scope when it is reachable from the spec text above.
+    # Membership, roles and privilege assignment reachable by any signed-in user
     # =================================================================================
+    "app/models/member.rb",
+    "app/models/members/project_member.rb",
+    "app/models/members/group_member.rb",
+    "app/models/project_team.rb",
+    "app/services/members/create_service.rb",
+    "app/services/members/update_service.rb",
+    "app/services/members/invite_service.rb",
+    "app/services/users/build_service.rb",
+    "app/services/users/update_service.rb",
+    "ee/app/models/members/member_role.rb",
+    "ee/app/services/ee/members/create_service.rb",
+    "app/controllers/invites_controller.rb",
+    "lib/api/members.rb",
+    "lib/api/invitations.rb",
+    "lib/api/access_requests.rb",
+    "lib/api/helpers/members_helpers.rb",
+
+    # =================================================================================
+    # Authentication, sessions, 2FA, OAuth and SSO entrypoints
+    # =================================================================================
+    "lib/gitlab/auth.rb",
+    "lib/gitlab/auth/auth_finders.rb",
+    "lib/gitlab/auth/request_authenticator.rb",
+    "lib/gitlab/auth/current_user_mode.rb",
+    "lib/gitlab/auth/scope_validator.rb",
+    "lib/gitlab/auth/two_factor_auth_verifier.rb",
+    "lib/gitlab/auth/o_auth/user.rb",
+    "lib/gitlab/auth/saml/user.rb",
+    "lib/gitlab/auth/otp/strategies/devise.rb",
+    "app/controllers/sessions_controller.rb",
+    "app/controllers/passwords_controller.rb",
+    "app/controllers/registrations_controller.rb",
+    "app/controllers/omniauth_callbacks_controller.rb",
+    "app/controllers/oauth/authorizations_controller.rb",
+    "app/controllers/concerns/authenticates_with_two_factor.rb",
+    "app/controllers/concerns/enforces_two_factor_authentication.rb",
+    "app/controllers/concerns/verifies_with_email.rb",
+    "app/controllers/application_controller.rb",
+    "app/controllers/concerns/routable_actions.rb",
+    "ee/lib/gitlab/auth/group_saml/sso_enforcer.rb",
+
+    # =================================================================================
+    # Tokens: PATs, deploy tokens, OAuth grants, LFS and registry tokens
+    # =================================================================================
+    "app/models/personal_access_token.rb",
+    "app/models/deploy_token.rb",
+    "app/models/deploy_key.rb",
+    "app/models/oauth_access_token.rb",
+    "app/models/doorkeeper/openid_connect/request.rb",
+    "app/models/concerns/token_authenticatable.rb",
+    "app/services/personal_access_tokens/create_service.rb",
+    "app/services/auth/container_registry_authentication_service.rb",
+    "lib/gitlab/lfs_token.rb",
+    "lib/api/api_guard.rb",
+    "lib/api/helpers/authentication.rb",
+
+    # =================================================================================
+    # REST API surface: authorization helpers and high-value endpoints
+    # =================================================================================
+    "lib/api/api.rb",
+    "lib/api/base.rb",
+    "lib/api/helpers.rb",
+    "lib/api/projects.rb",
+    "lib/api/groups.rb",
+    "lib/api/users.rb",
+    "lib/api/files.rb",
+    "lib/api/repositories.rb",
+    "lib/api/merge_requests.rb",
+    "lib/api/issues.rb",
+    "lib/api/notes.rb",
+    "lib/api/discussions.rb",
+    "lib/api/snippets.rb",
+    "lib/api/project_snippets.rb",
+    "lib/api/markdown.rb",
+    "lib/api/markdown_uploads.rb",
+    "lib/api/internal/base.rb",
+    "lib/api/helpers/internal_helpers.rb",
+    "lib/api/helpers/projects_helpers.rb",
+    "lib/api/validations/validators/file_path.rb",
+    "lib/api/entities/user.rb",
+
+    # =================================================================================
+    # GraphQL authorization layer and query entrypoint
+    # =================================================================================
+    "app/graphql/gitlab_schema.rb",
+    "app/graphql/graphql_triggers.rb",
+    "app/graphql/types/base_field.rb",
+    "app/graphql/types/base_object.rb",
+    "lib/gitlab/graphql/authorize/authorize_resource.rb",
+    "lib/gitlab/graphql/authorize/field_extension.rb",
+    "lib/gitlab/graphql/authorize/object_authorization.rb",
+    "lib/api/glql.rb",
+
+    # =================================================================================
+    # Finders and search: where cross-tenant data leaks are decided
+    # =================================================================================
+    "app/finders/projects_finder.rb",
+    "app/finders/groups_finder.rb",
+    "app/finders/issues_finder.rb",
+    "app/finders/merge_requests_finder.rb",
+    "app/finders/notes_finder.rb",
+    "app/finders/snippets_finder.rb",
+    "app/finders/users_finder.rb",
+    "app/finders/todos_finder.rb",
+    "app/finders/members_finder.rb",
+    "app/finders/group_members_finder.rb",
+    "app/finders/ci/jobs_finder.rb",
+    "app/finders/ci/pipelines_finder.rb",
+    "app/finders/concerns/finder_with_cross_project_access.rb",
+    "app/services/search_service.rb",
+    "lib/gitlab/search_results.rb",
+    "app/models/project_feature.rb",
+    "app/models/concerns/featurable.rb",
+
+    # =================================================================================
+    # CI/CD: job tokens, variables, pipeline creation and included config
+    # =================================================================================
+    "app/models/ci/job_token/scope.rb",
+    "app/models/ci/job_token/allowlist.rb",
+    "app/models/ci/job_token/authorization.rb",
+    "app/models/ci/job_token/project_scope_link.rb",
+    "app/models/ci/job_token/group_scope_link.rb",
+    "lib/ci/job_token/jwt.rb",
+    "lib/ci/job_token/policies.rb",
+    "lib/ci/job_token/middleware.rb",
+    "lib/api/project_job_token_scope.rb",
+    "app/models/ci/build.rb",
+    "app/models/ci/variable.rb",
+    "app/models/ci/group_variable.rb",
+    "app/models/concerns/ci/has_variable.rb",
+    "app/services/ci/create_pipeline_service.rb",
+    "lib/gitlab/ci/build/policy/refs.rb",
+    "lib/gitlab/ci/config.rb",
+    "lib/gitlab/ci/config/external/mapper.rb",
+    "lib/gitlab/ci/config/external/file/base.rb",
+    "lib/api/ci/runner.rb",
+    "lib/api/ci/jobs.rb",
+    "lib/api/ci/job_artifacts.rb",
+    "lib/api/ci/secure_files.rb",
+    "app/services/ci/job_artifacts/create_service.rb",
+    "app/controllers/projects/artifacts_controller.rb",
+    "ee/app/models/protected_environment.rb",
+
+    # =================================================================================
+    # Git access control: repository read/write, protected refs, push checks
+    # =================================================================================
+    "lib/gitlab/git_access.rb",
+    "lib/gitlab/git_access_project.rb",
+    "lib/gitlab/git_access_snippet.rb",
+    "lib/gitlab/git_access_wiki.rb",
+    "lib/gitlab/user_access.rb",
+    "lib/gitlab/checks/changes_access.rb",
+    "lib/gitlab/checks/single_change_access.rb",
+    "lib/gitlab/checks/branch_check.rb",
+    "lib/gitlab/checks/tag_check.rb",
+    "lib/gitlab/checks/push_check.rb",
+    "lib/gitlab/checks/diff_check.rb",
+    "lib/gitlab/checks/lfs_check.rb",
+    "lib/gitlab/checks/snippet_check.rb",
+    "app/models/protected_branch.rb",
+    "app/models/concerns/protected_ref_access.rb",
+    "ee/lib/ee/gitlab/git_access.rb",
+    "app/controllers/repositories/git_http_controller.rb",
+    "app/controllers/repositories/lfs_api_controller.rb",
+    "app/controllers/projects/raw_controller.rb",
+    "app/controllers/projects/blob_controller.rb",
+
+    # =================================================================================
+    # File handling: uploads, object storage, path traversal and Workhorse trust
+    # =================================================================================
+    "app/uploaders/gitlab_uploader.rb",
+    "app/uploaders/file_uploader.rb",
+    "app/uploaders/personal_file_uploader.rb",
+    "app/uploaders/namespace_file_uploader.rb",
+    "app/uploaders/job_artifact_uploader.rb",
+    "app/uploaders/lfs_object_uploader.rb",
+    "app/uploaders/object_storage.rb",
+    "app/uploaders/workhorse.rb",
+    "app/uploaders/content_type_whitelist.rb",
+    "app/uploaders/file_mover.rb",
+    "app/uploaders/records_uploads.rb",
+    "app/models/upload.rb",
+    "app/controllers/concerns/uploads_actions.rb",
+    "app/controllers/concerns/send_file_upload.rb",
+    "app/controllers/projects/uploads_controller.rb",
+    "lib/gitlab/workhorse.rb",
+    "lib/gitlab/middleware/multipart.rb",
+    "lib/gitlab/path_traversal.rb",
+    "lib/gitlab/file_finder.rb",
+
+    # =================================================================================
+    # Package and dependency registries reachable with a token
+    # =================================================================================
+    "lib/api/maven_packages.rb",
+    "lib/api/npm_project_packages.rb",
+    "lib/api/generic_packages.rb",
+    "lib/api/nuget_project_packages.rb",
+    "lib/api/pypi_packages.rb",
+    "lib/api/helpers/packages_helpers.rb",
+    "lib/api/dependency_proxy.rb",
+    "app/models/packages/package.rb",
+
+    # =================================================================================
+    # Outbound requests: SSRF surface in webhooks, integrations and imports
+    # =================================================================================
+    "gems/gitlab-http/lib/gitlab/http_v2/url_blocker.rb",
+    "gems/gitlab-http/lib/gitlab/http_v2/new_connection_adapter.rb",
+    "gems/gitlab-http/lib/gitlab/http_v2/url_allowlist.rb",
+    "gems/gitlab-http/lib/gitlab/http_v2/ip_allowlist_entry.rb",
+    "gems/gitlab-http/lib/gitlab/http_v2/domain_allowlist_entry.rb",
+    "gems/gitlab-http/lib/gitlab/http_v2/client.rb",
+    "lib/gitlab/http.rb",
+    "lib/gitlab/url_sanitizer.rb",
+    "app/services/web_hook_service.rb",
+    "app/models/hooks/web_hook.rb",
+    "app/models/hooks/project_hook.rb",
+    "lib/gitlab/middleware/go.rb",
+
+    # =================================================================================
+    # Import/export: attacker-supplied archives and remote import payloads
+    # =================================================================================
+    "lib/gitlab/import_export/project/tree_restorer.rb",
+    "lib/gitlab/import_export/attribute_cleaner.rb",
+    "lib/gitlab/import_export/file_importer.rb",
+    "lib/gitlab/import_export/command_line_util.rb",
+    "lib/gitlab/import_export/decompressed_archive_size_validator.rb",
+    "app/services/import/github_service.rb",
+    "lib/api/bulk_imports.rb",
+    "lib/api/group_import.rb",
+
+    # =================================================================================
+    # Markdown rendering and sanitization: stored XSS surface
+    # =================================================================================
+    "lib/banzai/pipeline/base_pipeline.rb",
+    "lib/banzai/pipeline/full_pipeline.rb",
+    "lib/banzai/pipeline/gfm_pipeline.rb",
+    "lib/banzai/filter/base_sanitization_filter.rb",
+    "lib/banzai/filter/sanitization_filter.rb",
+    "lib/banzai/filter/markdown_filter.rb",
+    "lib/banzai/filter/autolink_filter.rb",
+    "lib/banzai/filter/external_link_filter.rb",
+    "lib/banzai/filter/image_link_filter.rb",
+    "lib/banzai/filter/iframe_link_filter.rb",
+    "lib/banzai/filter/math_filter.rb",
+    "lib/banzai/filter/color_filter.rb",
+    "lib/banzai/filter/asset_proxy_filter.rb",
+    "lib/banzai/filter/base_relative_link_filter.rb",
+    "lib/banzai/filter/reference_redactor_filter.rb",
+    "lib/banzai/filter/references/reference_filter.rb",
+    "lib/banzai/filter/references/abstract_reference_filter.rb",
+    "lib/banzai/filter/references/user_reference_filter.rb",
+    "lib/banzai/filter/ascii_doc_sanitization_filter.rb",
+
+    # =================================================================================
+    # Issuables, notes and quick actions: cross-object authorization at write time
+    # =================================================================================
+    "app/services/notes/create_service.rb",
+    "app/services/issues/create_service.rb",
+    "app/services/merge_requests/create_service.rb",
+    "app/services/merge_requests/update_service.rb",
+    "app/services/merge_requests/merge_service.rb",
+    "app/services/merge_requests/refresh_service.rb",
+    "app/services/quick_actions/interpret_service.rb",
+    "lib/gitlab/quick_actions/issue_actions.rb",
+    "app/models/concerns/issuable.rb",
+    "app/models/concerns/mentionable.rb",
+    "app/models/concerns/participable.rb",
+    "app/models/todo.rb",
+    "app/models/event.rb",
+    "app/models/wiki_page.rb",
+    "ee/app/models/approval_merge_request_rule.rb",
+
+    # =================================================================================
+    # Namespace lifecycle: transfer, fork and visibility changes that re-scope access
+    # =================================================================================
+    "app/models/project.rb",
+    "app/models/group.rb",
+    "app/models/namespace.rb",
+    "app/models/user.rb",
+    "app/services/projects/transfer_service.rb",
+    "app/services/projects/fork_service.rb",
+    "app/services/projects/update_service.rb",
+    "app/services/projects/create_service.rb",
+    "app/services/groups/transfer_service.rb",
+    "app/services/groups/update_service.rb",
 ]
 
 
 target_scopes = [
-    "Critical. EVERY GWEI MUST BE CONSERVED AND LAND WHERE ITS OWNER'S CREDENTIALS SAY. `process_withdrawal_request` caps `to_withdraw` at `balance - MIN_ACTIVATION_BALANCE - pending_balance_to_withdraw` and calls `compute_exit_epoch_and_update_churn`; `process_consolidation_request` exits the source through `compute_consolidation_epoch_and_update_churn` and appends a `PendingConsolidation`; `process_pending_consolidations` moves the source balance to the target via `switch_to_compounding_validator` and `queue_excess_active_balance`; `apply_pending_deposit` skips signature checks for top-ups; `process_pending_deposits` gates on `get_activation_exit_churn_limit`, `deposit_balance_to_consume` and `is_valid_deposit_signature`; `get_expected_withdrawals` pairs `get_pending_partial_withdrawals` with the sweep and `process_withdrawals` asserts them against `payload.withdrawals`; `initiate_validator_exit` and `slash_validator` set `withdrawable_epoch`. Probe every path where an execution-layer request from an EOA or an on-chain operation from a validator's own key moves a Gwei that is not that validator's, moves it twice, or moves it nowhere: a partial withdrawal of the same balance queued by consolidation and withdrawal request in one block; a consolidation whose source is slashed or exited between queueing and processing; a top-up deposit to a pubkey with foreign withdrawal credentials; a full-exit request whose pending withdrawals drain below `MIN_ACTIVATION_BALANCE` after exit; a sweep withdrawal and a pending partial withdrawal paying the same balance. Identity: sum of `state.balances` + `state.builders[*].balance` + queued pending deposits/withdrawals/payments + emitted `Withdrawal.amount` after the transition == the same sum before plus deposits and rewards minus penalties, and each `Withdrawal.address` == the 20 bytes in that validator's `withdrawal_credentials`.",
-
-    "Critical. NO STATE CHANGE TO A VALIDATOR OR BUILDER WITHOUT THAT PARTY'S KEY OR WITHDRAWAL ADDRESS. `process_withdrawal_request` and `process_consolidation_request` authorise by `withdrawal_credentials[12:] == source_address`; `is_valid_switch_to_compounding_request` requires source == target; `process_bls_to_execution_change` binds `from_bls_pubkey` to the 0x00 credential; `process_voluntary_exit` and `process_proposer_slashing` verify over `DOMAIN_VOLUNTARY_EXIT` / `DOMAIN_BEACON_PROPOSER`; `apply_deposit` verifies `is_valid_deposit_signature` only for new pubkeys under `compute_domain(DOMAIN_DEPOSIT)` with no fork version; `process_builder_deposit_request` registers on `is_valid_builder_deposit_signature` (`DOMAIN_BUILDER_DEPOSIT`) and top-ups an existing builder pubkey with no signature; `process_builder_exit_request` authorises by `execution_address == source_address`; `get_index_for_new_builder` reuses indices of exited, swept builders; `convert_builder_index_to_validator_index` maps builders into the validator index space used by `Withdrawal.validator_index`. Show a request or operation, built only from the attacker's own keys and addresses, that exits, consolidates, changes credentials of, deposits into, or withdraws from an account the attacker does not control, or that resurrects an index: a builder deposit for an exited pubkey whose index is now reassigned; a validator deposit signed at genesis fork replayed on another network sharing `GENESIS_FORK_VERSION`; a consolidation targeting a validator whose credentials were switched in the same block; a BLS-to-execution change accepted for a validator already holding 0x01/0x02 credentials; a `Withdrawal.validator_index` that collides between a builder and a validator. Identity: for every field of `state.validators[i]`, `state.balances[i]`, `state.builders[j]` that differs after the transition, the input that changed it carries a valid signature from that party's pubkey or comes from that party's `withdrawal_credentials[12:]` / `execution_address`.",
-
-    "Critical. A BUILDER PAYS EXACTLY ITS WINNING BID, ONCE, TO THE PROPOSER THAT INCLUDED IT. `process_execution_payload_bid` asserts `can_builder_cover_bid` (balance minus `MIN_DEPOSIT_AMOUNT` minus `get_pending_balance_to_withdraw_for_builder`), checks `bid.slot`, `parent_block_hash`, `parent_block_root`, `prev_randao`, then writes a `BuilderPendingPayment` at `SLOTS_PER_EPOCH + slot % SLOTS_PER_EPOCH`; `process_attestation` accumulates `weight` on that payment; `process_builder_pending_payments` settles payments above `get_builder_payment_quorum_threshold` through `settle_builder_payment` into `builder_pending_withdrawals`; `get_builder_withdrawals` and `get_builders_sweep_withdrawals` emit them with `MAX_WITHDRAWALS_PER_PAYLOAD - 1` limits; `process_builder_exit_request` refuses exit while pending balance is non-zero; `initiate_builder_exit` sets `withdrawable_epoch` without zeroing pending payments; `BUILDER_INDEX_SELF_BUILD` bids must be zero-valued with an infinity signature. Show a builder, proposer or attester using only its own stake that gets paid without delivering, pays without winning, pays twice, pays a different proposer, or escapes a payment: a bid whose payment slot index is overwritten by a later bid in the same epoch window; a payment settled when the payload was never revealed and `execution_payload_availability` stayed false; an exited builder's pending payment surviving the sweep so a later builder at the reused index pays it; `can_builder_cover_bid` passing while the same balance backs two bids across consecutive slots; a proposer including its own builder's bid with `fee_recipient` pointed elsewhere. Identity: for each `BuilderPendingWithdrawal` emitted, there exists exactly one `ExecutionPayloadBid` with equal `builder_index`, `value` and `fee_recipient` whose envelope was revealed and attested for that slot, and no builder balance ever drops below `MIN_DEPOSIT_AMOUNT` plus its pending obligations.",
-
-    "Critical. THE PAYLOAD EXECUTED MUST BE THE PAYLOAD THE BLOCK COMMITTED TO, AND EMPTY SLOTS MUST STAY EMPTY. `verify_execution_payload_envelope` and `verify_execution_payload_envelope_signature` bind the envelope to `latest_execution_payload_bid` (block_hash, builder_index, blob commitments) and to `beacon_block_root`; `process_parent_execution_payload` / `apply_parent_execution_payload` replay the parent's envelope in the child block, updating `latest_block_hash`, `execution_payload_availability`, `payload_expected_withdrawals` and `execution_requests`; `process_slot` unsets availability for the next slot; `update_payload_expected_withdrawals` and `process_withdrawals` compare the expected list against what the payload paid; `get_execution_requests_list` orders deposit, withdrawal, consolidation, builder deposit and builder exit requests; `on_execution_payload_envelope` stores `store.payloads[beacon_block_root]` after `is_data_available`; `is_data_available` and `get_custody_column_bits` decide availability from sampled columns. Show a builder or proposer using its own slot that gets a different payload, a different set of withdrawals, a different set of execution requests, or two payloads accepted for one block, or a stale payload carried into a slot that was empty: an envelope whose `execution_requests` differ from what the bid committed while the signature still verifies; withdrawals computed in the bid slot but applied in the child under different state; a self-build envelope with `BUILDER_INDEX_SELF_BUILD` revealing a payload the proposer never bid; `latest_block_hash` advancing on a payload whose `parent_block_hash` was for another branch; execution requests processed twice across parent and child. Identity: (block_hash, withdrawals_root, execution_requests, blob commitments) applied by `process_parent_execution_payload` == the same fields in the unique `ExecutionPayloadEnvelope` whose `beacon_block_root` is the parent's root and whose bid the parent's `process_execution_payload_bid` accepted, and `execution_payload_availability[slot]` is true exactly when that envelope was applied.",
-
-    "Critical. EVERY HONEST NODE MUST COMPUTE ONE HEAD FROM ONE SET OF VOTES. `get_head` walks `get_node_children` where each block root now splits into FULL and EMPTY `ForkChoiceNode`s ranked by `get_weight` and `get_payload_status_tiebreaker`; `get_ancestor`, `is_ancestor` and `get_checkpoint_block` compare `(root, payload_status)`; `should_apply_proposer_boost`, `is_head_weak`, `is_parent_strong`, `get_proposer_head` and `should_build_on_full` / `should_extend_payload` decide reorgs; `validate_on_attestation` and `update_latest_messages` accept an attester's `AttestationData.index` as a payload-availability vote with `is_attestation_same_slot`; `on_payload_attestation_message` and `notify_ptc_messages` count PTC votes per `data.beacon_block_root`; `record_block_timeliness` and `update_proposer_boost_root` set timeliness. Show a single validator, PTC member or proposer, casting only messages its keys allow at times of its choosing, that makes two honest nodes following the spec disagree on `get_head`, or makes one node's head flip without new majority votes: an attestation whose `index` bit votes FULL for a block whose payload arrives after the vote; a PTC message counted for a block at another slot; a latest message updated by an attestation for an ancestor with a different payload status than the one already recorded; proposer boost applied to a child whose parent is EMPTY while `should_build_on_full` said otherwise; `get_checkpoint_block` resolving one root to two nodes. Identity: for any two `Store`s that received the same set of blocks, envelopes, attestations and PTC messages in any order, `get_head(store)` returns the same `(root, payload_status)`, and every unit of `get_weight` traces to one distinct validator's latest message.",
-
-    "High. ONLY AN EQUIVOCATOR IS EVER SLASHABLE. `is_slashable_attestation_data` (double vote, surround vote) feeds `process_attester_slashing`, which now runs `is_valid_indexed_attestation` over Gloas `Attestation` with the `index` field repurposed as payload availability and `get_attesting_indices` reading committee bits; `is_attestation_same_slot` decides which flag indices an attestation earns; `process_proposer_slashing` compares two `BeaconBlockHeader`s at one slot; `is_valid_indexed_payload_attestation` verifies PTC messages under `DOMAIN_PTC_ATTESTER`; `process_inclusion_list` marks `store.equivocators[key]` on any differing `InclusionList` for the same `(slot, dependent_root, validator_index)`; `slash_validator` sets `slashed`, applies the penalty and the whistleblower reward; `process_slashings` scales penalties by total slashed balance. Show a validator that follows validator.md exactly and still becomes slashable, loses balance, or is excluded as an equivocator because of what another unprivileged participant did: two attestations that differ only in the payload-availability `index` yet share slot, source and target; an honest re-broadcast of an inclusion list with a different `dependent_root` counted as equivocation; a PTC vote and a beacon attestation from the same key at the same slot treated as a double vote; proposer slashing built from a block and its own re-signed header with a different `state_root`; a validator penalised for a surround vote whose source is the same checkpoint at a different payload status. Identity: for every validator entering `process_attester_slashing`, `process_proposer_slashing` or `store.equivocators`, there exist two messages signed by that validator's key that validator.md forbids it to produce together; otherwise its `slashed` flag, balance and inclusion in committees are unchanged.",
-
-    "Critical. FINALITY MUST ONLY MOVE ON REAL SUPERMAJORITY PARTICIPATION. `process_justification_and_finalization` compares `get_unslashed_participating_indices(..., TIMELY_TARGET_FLAG_INDEX)` balance against `total_active_balance * 2 // 3`; `get_attestation_participation_flag_indices` now awards flags conditional on `is_attestation_same_slot` and the payload status the attestation voted; `process_attestation` records flags in `current_epoch_participation` / `previous_epoch_participation`; `get_flag_index_deltas` and `process_inactivity_updates` pay or penalise from those flags; `process_rewards_and_penalties` and `process_effective_balance_updates` feed the next epoch's `total_active_balance`; `process_epoch` orders these against `process_pending_deposits`, `process_pending_consolidations`, `process_builder_pending_payments` and `process_ptc_window`. Show an attester or proposer, using only its own committee assignments, that gets one validator's balance counted more than once toward justification, gets flags for a vote that did not attest the target, or gets rewards or penalties the honest strategy would not earn: the same validator earning a target flag from two attestations at different `index` values; an attestation whose `data.index` claims a payload that was never available still earning the head flag; a builder's balance entering `total_active_balance`; a pending deposit activated mid-epoch shifting the two-thirds threshold retroactively; inactivity scores frozen by an attestation the spec should reject. Identity: the balance counted for a checkpoint in `process_justification_and_finalization` == sum of `effective_balance` over distinct, unslashed validators whose signed `AttestationData.target` equals that checkpoint and whose attestation was included in the window validator.md allows, and rewards paid == `get_flag_index_deltas` over those same flags.",
-
-    "High. DUTY ASSIGNMENT MUST BE UNPREDICTABLE, UNIQUE PER SLOT AND IDENTICAL ON EVERY NODE. `compute_proposer_indices` and `compute_balance_weighted_selection` sample by effective balance with `MAX_RANDOM_VALUE = 2**16 - 1` against `MAX_EFFECTIVE_BALANCE_ELECTRA`; `get_beacon_proposer_indices` fills `state.proposer_lookahead` in `process_proposer_lookahead`; `compute_ptc` / `get_ptc` and `get_inclusion_list_committee` derive from `get_seed` with `DOMAIN_PTC_ATTESTER` and the inclusion-list domain; `get_next_sync_committee_indices` is modified; `get_randao_mix` and `process_randao` mix the proposer's reveal; `is_valid_dependent_root`, `compute_shuffling_lookahead_start_slot` and `get_shuffling_dependent_root` decide which state a node uses to recompute a committee. Show a proposer or validator, using only its own randao reveal, its own balance changes, or the timing of its own blocks, that steers which validator is selected, gets itself selected twice, or makes two nodes derive different committees for one slot: a top-up deposit or consolidation raising `effective_balance` between lookahead computation and the slot; a randao reveal withheld to choose between two lookahead outcomes; `compute_balance_weighted_selection` returning duplicates into a committee whose bits assume uniqueness; a dependent root at a slot where `process_slots` on one node advanced an epoch boundary the other did not. Identity: `proposer_lookahead`, `get_ptc(state, slot)` and `get_inclusion_list_committee(state, slot)` computed by any node from any valid `dependent_root` for that slot are equal, each index appears with the multiplicity the spec defines, and no single participant's action after the seed is fixed changes the selection.",
-
-    "High. AN INCLUSION LIST MUST CONSTRAIN THE PAYLOAD IT WAS BUILT FOR AND NOTHING ELSE. `on_inclusion_list` accepts lists for `slot <= current_slot` within `MIN_SLOTS_FOR_INCLUSION_LISTS_REQUESTS`, checks `dependent_root` against `is_valid_dependent_root`, membership via `get_inclusion_list_committee`, signature via `is_valid_inclusion_list_signature`, and computes `is_timely`; `process_inclusion_list` stores one entry per `(slot, dependent_root, validator_index)`; `get_inclusion_list_transactions` and `get_inclusion_list_bits` drop equivocators and untimely lists; `is_inclusion_list_bits_inclusive` compares a block's `inclusion_list_bits` to the local view; `is_inclusion_list_satisfied`, `record_payload_inclusion_list_satisfaction` and `is_payload_inclusion_list_satisfied` decide in `should_extend_payload` and `on_execution_payload_envelope` whether a payload is extended; `ExecutionPayloadBid` carries the bits the builder committed to. Show a committee member, builder or proposer, using only its own list, bid or block, that makes honest nodes reject a payload that included everything it should, accept one that censored, or split on satisfaction: a list received timely by one node and late by another so `only_timely` views differ; a bid whose `inclusion_list_bits` names a member whose list no node stored; a valid list under a different `dependent_root` for the same slot ignored by satisfaction; the store keyed by `(slot, dependent_root)` while the committee is computed from another state; an envelope judged satisfied against transactions from equivocators. Identity: `is_payload_inclusion_list_satisfied` on every honest node == whether the payload contains every transaction from the non-equivocating, timely lists of the committee for `(slot, dependent_root)` the block committed to, and a payload satisfying that is never demoted by `should_extend_payload`.",
-
-    "Critical. THE MISSING INVARIANT - what nobody wrote down. No assertion ties the sum of balances, builder balances, pending queues and emitted withdrawals across a full `state_transition`; nothing checks that a `PendingConsolidation` source still holds the balance it was queued with; `process_parent_execution_payload` trusts that the envelope stored for the parent is the only one the parent's bid could match; `get_builder_withdrawals` never reconciles a `BuilderPendingWithdrawal` against a settled bid; `Withdrawal.validator_index` shares one space between validators and converted builder indices; the fork-choice `Store` and the `InclusionListStore` are keyed by different notions of the same slot; light-client `process_light_client_update` still assumes the sync-committee signature covers the same header a Gloas block produces. Identify the FIRST place one of these unstated conservation or uniqueness assumptions is violated by an EOA sending execution requests, a validator or builder using its own keys in an assigned role, or a participant ordering its own messages, prove it with a pyspec test run through `make test` that asserts both sides (balance sum before and after, authoriser versus mutated account, payload applied versus bid committed, head per store versus head per store, slashed set versus equivocator set) and show that no later epoch transition, fork-choice tick or slashing can detect or reverse it.",
+    "Critical. An unauthenticated visitor or a signed-in user with no membership reads private repository content, issues, merge requests, snippets, or CI data of a project or group they do not belong to, because a REST endpoint, GraphQL field, finder scope, or policy rule in projects_finder.rb, issues_finder.rb, gitlab_schema.rb, object_authorization.rb, or project_policy.rb resolves the object before or without the permission check that was supposed to gate it.",
+    "Critical. A Guest, Reporter, or Developer gains Maintainer, Owner, or instance-admin capability, because role comparison, invite acceptance, access-request approval, custom member-role ability mapping, or the highest-role resolution in member.rb, project_team.rb, members/create_service.rb, members/update_service.rb, invitations, or member_role.rb lets a user grant themselves or accept an access level above the one the inviter actually held.",
+    "Critical. An attacker authenticates as another user or hijacks their session, because session fixation and rotation in sessions_controller.rb, the 2FA gate in authenticates_with_two_factor.rb and enforces_two_factor_authentication.rb, email verification in verifies_with_email.rb, password reset in passwords_controller.rb, the OAuth authorize and redirect flow, or identity linking in o_auth/user.rb and saml/user.rb binds a credential, OTP, reset token, or external identity to the wrong account or accepts it at the wrong step.",
+    "Critical. A low-scope credential performs actions it was never granted, because scope enforcement in scope_validator.rb and api_guard.rb, token resolution in auth_finders.rb and request_authenticator.rb, deploy-token and deploy-key authorization, registry JWT issuance in container_registry_authentication_service.rb, or LFS token handling lets a read-only, expired, revoked, or project-bound token write data, reach another project, or escalate into a full session.",
+    "Critical. A pipeline job in an attacker-controlled project reads or writes another project's data, because CI_JOB_TOKEN scope resolution in ci/job_token/scope.rb, allowlist.rb, policies.rb, and jwt.rb, or the job-token middleware, honors an inbound allowlist entry, group scope link, or policy that the target project never granted, turning a public-project fork pipeline into cross-project repository, package, or artifact access.",
+    "Critical. Protected CI variables, masked secrets, or secure files reach a job an attacker controls, because protected-ref matching in ci/build/policy/refs.rb and protected_branch.rb, variable exposure in ci/variable.rb and has_variable.rb, environment scoping in protected_environment.rb, or include resolution in ci/config/external/mapper.rb lets a merge request, tag, or crafted ref name from an unprivileged contributor run with credentials reserved for protected refs.",
+    "Critical. The GitLab server reads, writes, or executes a file outside the intended directory, because path construction and traversal checks in path_traversal.rb, file_uploader.rb, personal_file_uploader.rb, job_artifact_uploader.rb, file_mover.rb, uploads_actions.rb, send_file_upload.rb, package-registry filename validation, or import extraction in file_importer.rb and command_line_util.rb accepts an attacker-supplied name, version, path, or archive entry that escapes its namespace.",
+    "Critical. An attacker makes the GitLab backend issue requests to internal services or cloud metadata endpoints, because address validation in http_v2/url_blocker.rb, new_connection_adapter.rb, url_allowlist.rb, or url_sanitizer.rb can be defeated by DNS rebinding, redirect following, IPv6 or octal encoding, userinfo, or a URL shape accepted by a webhook, integration, repository import, dependency proxy, or go-import request that any user can configure.",
+    "High. Markup a user controls executes JavaScript in another user's session, because the sanitization allowlist in base_sanitization_filter.rb and sanitization_filter.rb, or attribute and URL handling in autolink_filter.rb, image_link_filter.rb, iframe_link_filter.rb, math_filter.rb, color_filter.rb, external_link_filter.rb, or the AsciiDoc path, lets an issue, note, wiki page, snippet, or file rendered through the GFM pipeline survive with a scriptable attribute or scheme, leading to token or session theft.",
+    "High. A user reads or writes repository refs they are not authorized for over Git, because access resolution in git_access.rb, git_access_project.rb, git_access_snippet.rb, git_access_wiki.rb, user_access.rb, or the push checks in changes_access.rb, branch_check.rb, tag_check.rb, and diff_check.rb resolves the project, ref, or actor differently than the policy layer, allowing a push to a protected branch, a fork-to-upstream write, or a clone of a private repository.",
+    "High. Access survives the change that was supposed to revoke it, because project transfer, group transfer, fork, visibility downgrade, membership removal, or feature-access changes in projects/transfer_service.rb, groups/transfer_service.rb, fork_service.rb, projects/update_service.rb, project_feature.rb, and featurable.rb leave stale membership, cached authorizations, todos, events, or fork-network links that let a removed or now-outside user keep reading or writing the object.",
+    "Critical/High blind spot. An unauthenticated visitor, a free signed-in user, or a Guest abuses an assumption GitLab never wrote down: an object authorized as one type and then acted on as another, a permission checked on the parent but enforced against a re-fetched child, a rule enforced in the web path but absent from its REST, GraphQL, Git, webhook, or background-job twin, an identifier resolved by path or ID after the check that approved it, or a partially committed write on an error path - yielding private-data disclosure across tenants, a role or token scope the attacker was never granted, or code execution on the GitLab server.",
 ]
 
 
@@ -219,126 +386,61 @@ scope_scan = [
 
 def question_generator(target_file: str) -> str:
     """
-    Generate state-transition / fork-choice / accounting audit questions for one consensus-specs target.
+    Generate exploit-focused audit questions for one GitLab target.
 
     ```
     target_file format:
-    "'File Name: specs/gloas/beacon-chain.md -> Scope: Critical. ...'"
+    "'File Name: app/policies/project_policy.rb -> Scope: Critical. ...'"
     """
 
     prompt = f"""
     ```
 
-    Generate consensus-layer security audit questions for this exact consensus-specs
-    target:
+    Generate exploit-focused security audit questions for this exact GitLab target:
 
     {target_file}
 
     Project focus:
-    The Ethereum consensus specs define, in the ```python blocks of each markdown file,
-    the state transition, fork choice, validator duties and p2p validation every client
-    must implement identically. Untrusted input enters through what an unprivileged
-    participant can put on chain or on the wire with its own keys: execution-layer
-    requests (deposit, withdrawal, consolidation, builder deposit, builder exit), blocks
-    and payload envelopes for slots it is assigned, attestations, slashings, exits,
-    BLS-to-execution changes, PTC messages, inclusion lists and sync messages. The
-    protocol decides (a) whether every Gwei is conserved and paid to its owner; (b)
-    whether every change to a validator or builder was authorised by that party; (c)
-    whether all honest nodes compute one head and one finalized checkpoint; (d) whether
-    only an equivocator is slashable; (e) whether the payload executed is the payload the
-    block committed to, paid once. Anything moved, changed, finalized, slashed or
-    executed that the spec's own rules did not authorise is the bug.
+    gitlabhq is the GitLab Rails application (CE and EE). Focus only on what an unauthenticated visitor or an ordinary signed-in user reaches over HTTP or Git: public pages, the REST API, GraphQL, Git HTTP/SSH, webhooks and integrations they configure in their own namespace, repository imports, uploads and package registries, CI pipelines in their own or a forked project, and markup they can render into another user's browser.
 
     Rules:
-    * Treat `File Name:` as the exact file. Reason over the python blocks in it and the
-      functions it inherits unchanged from the previous fork.
+    * Treat `File Name:` as the exact file/class.
     * Treat `Scope:` as the ONLY impact to target.
     * Assume full repo context is accessible.
     * Do not ask for code or say anything is missing.
-    * Use exact spec symbols (function, container, field, constant, domain, preset) as
-      they appear in the file.
-    * EVERY question must close on an equality that must hold across a transition or
-      handler call. State it explicitly. Narrative questions are rejected.
-    * Attacker is unprivileged only: an EOA sending execution-layer requests; one or
-      more validators it funded itself, in any role the protocol assigns them
-      (proposer, attester, aggregator, sync committee, PTC, inclusion-list committee);
-      a builder registered with its own stake. They may produce any correctly signed
-      message their own keys allow, any block or envelope for their assigned slot, and
-      order or time their own messages.
-    * Attacker is NOT a malicious peer or node, a client implementation bug, a network
-      partition, a supermajority or 1/3 coalition, a compromised key, an execution
-      client, or a social engineer. No DoS, gossip flooding or eclipse assumptions.
-    * PROGRAM EXCLUSIONS - a question landing in any of these wastes the whole batch:
-      - tests/, pysetup/, scripts/, presets/, configs/, generated Python, Makefile,
-        pyproject, lockfiles, README and SECURITY.md are OUT OF SCOPE.
-      - Denial of service, resource exhaustion, unbounded lists or memory, message
-        rate, bandwidth and timing-only liveness delays are OUT OF SCOPE.
-      - Economic or governance attacks needing a large stake share (51%, 33%) are OUT.
-      - Bugs inside a client, the execution layer, KZG/BLS libraries, or the deposit
-        contract bytecode with no path through the spec text are OUT OF SCOPE; a spec
-        rule that steers them wrong is fully IN scope.
-      - Also excluded: known issues, best-practice notes, feature requests, wording
-        nits, centralisation risk, and theoretical findings without a state to show.
-    * IN-SCOPE IMPACTS - every question must land on one and name it:
-      Critical: finality or safety break (two conflicting finalized checkpoints, or an
-      invalid transition accepted / valid one rejected so spec-following nodes split);
-      Gwei created, destroyed or paid to an address other than the owner's; an honest
-      validator slashed; a payload executed or paid that the block did not commit to.
-      High: a consensus split or reorg forced by one participant without majority
-      stake; a validator or builder exited, consolidated or re-credentialed without its
-      authority; a builder payment or withdrawal misdirected, doubled or escaped; a duty
-      selection a single participant can steer.
-    * Every question must be a concrete real-world scenario an unprivileged participant
-      can trigger with its own stake, keys and requests.
-    * A failed assert is a finding only when it rejects a transition validator.md tells
-      an honest node to produce, or lets an unauthorised one through - say which.
+    * Use exact Ruby symbols (class, module, method, policy rule/condition, ability name, Grape endpoint, GraphQL field, scope, concern) when possible.
+    * Attacker is unprivileged only: an unauthenticated visitor, a free signed-in user, a Guest or Reporter on a public project, an outside contributor pushing to their own fork, or the Owner of their own personal namespace. They hold only their own credentials.
+    * Attacker is NOT an instance admin, auditor, Owner or Maintainer of the victim namespace, GitLab operator, runner owner, database or object-storage holder, or holder of another user's token, session, or SSH key. Never assume a leaked credential, compromised host, malicious runner or Gitaly node, non-default instance configuration, or social engineering.
+    * Out of scope, never ask about: anything needing admin or victim-Maintainer rights, rate limiting, denial of service, resource exhaustion, missing security headers, self-XSS, clickjacking, user or content enumeration, email spoofing, CSRF with no state change, verbose errors, dependency CVEs without a reachable GitLab path, Geo and Sidekiq-operator paths, or instance-setting misconfiguration.
+    * Ignore spec/, test/, qa/, fixtures, factories, mocks, benchmarks, docs, generated files, migrations, and config-only findings.
+    * Every question must describe a real HTTP request, GraphQL document, Git operation, uploaded file, pipeline, or rendered markup the attacker actually sends. No generic unbounded-allocation, memory-growth, cache-size, N+1, or resource-exhaustion speculation; no "what if the input is huge" questions without a concrete submitted payload and a concrete broken invariant.
     * Generate 40 to 80 high-signal questions.
-    * At least 70% must land on a Critical impact rather than a High one.
-    * Every question must be testable locally with a pyspec test run through
-      `make test` on the minimal preset. Never propose testing on mainnet or a public
-      testnet.
+    * At least 70% must target cross-tenant disclosure of private data, privilege escalation to a higher role or admin, authentication bypass or account takeover, token-scope bypass, CI job-token or protected-variable compromise, remote code execution, arbitrary file read/write, SSRF into internal services, or stored XSS leading to session or token theft.
+    * Every question must be testable by an RSpec request spec, policy spec, GraphQL spec, service or lib spec, or an exact sequence against a local GDK instance.
     * Avoid generic checklist questions and repeated root causes.
-    * Prefer questions that name TWO values that must be equal and ask whether they are:
-      balance sum before and after, authoriser and mutated account, head on node A and
-      head on node B, slashed set and equivocator set, payload applied and bid
-      committed, flags counted and votes cast.
 
-    Known dead ends - do NOT generate questions about these:
-    * Anything needing a malicious peer, node, client bug, execution client, or a
-      coalition holding 1/3 or more of stake.
-    * A bug in a client, library or contract bytecode with no path through the spec.
-    * DoS, memory, message size, timing-only delays, or a participant harming only its
-      own balance.
-    * Findings only reproducible through test tooling or preset edits.
-
-    Core equalities (each question must close on one):
-    * BALANCE CONSERVATION: balances + builder balances + queues + withdrawals after ==
-      before + deposits + rewards - penalties, each Gwei paid to its owner's address.
-    * AUTHORITY: every mutated validator or builder == a party whose key or withdrawal
-      address signed the input that mutated it.
-    * SINGLE HEAD: get_head and finalized checkpoint on any two spec-following stores
-      fed the same messages == equal.
-    * ACCOUNTABILITY: slashed or equivocator set == set of validators that signed two
-      messages validator.md forbids together.
-    * PAYLOAD BINDING: payload, withdrawals and requests applied == those in the one
-      envelope matching the accepted bid, paid exactly once.
-    * DUTY TRUTH: committee or proposer derived by any node from any valid dependent
-      root == identical, unsteerable after the seed is fixed.
+    Core invariants:
+    * Authorization is exact: every read and write is allowed by a policy ability evaluated against the acting user and the exact object being touched, at the moment it is touched.
+    * Privilege is monotonic: no user can obtain a role, member role ability, or token scope broader than one already granted to them by someone who held it.
+    * Identity is bound: a session, OTP, reset token, invite, or external identity authenticates exactly the account it was issued for.
+    * Tenancy holds: data of one project, group, or user is never returned, written, or joined into the response for an actor outside its visibility and membership.
+    * Secrets stay in scope: CI variables, job tokens, secure files, and registry credentials reach only jobs on refs and projects authorized to hold them.
+    * Input stays data: user-supplied paths, URLs, archives, and markup never become filesystem locations, internal requests, commands, or executable script in another user's browser.
+    * Enforcement is uniform: a rule enforced on one entrypoint is enforced identically on its REST, GraphQL, Git, webhook, and background-job twins.
 
     Each question must include:
-    1. target function, container field or constant;
-    2. attacker input (the concrete request, block, envelope, attestation, list or
-       message fields that matter);
-    3. preconditions (fork, epoch position, queue state, balances, payload status);
-    4. call sequence through the state transition, epoch processing or store handlers;
-    5. the equality that breaks, written explicitly;
-    6. scoped impact and whose stake or finality is exposed;
+    1. target class/method (or policy rule, endpoint, or GraphQL field);
+    2. attacker action (a concrete HTTP request, GraphQL document, Git operation, upload, pipeline, or rendered markup);
+    3. preconditions (accounts, roles, tokens, projects, and forks the attacker controls);
+    4. execution sequence;
+    5. invariant tested;
+    6. scoped impact;
     7. proof idea.
 
     Output only valid Python. No markdown. No explanations.
 
     questions = [
-    "[File: {target_file}] [Method: function_name] Can an unprivileged ATTACKER_INPUT under PRECONDITIONS trigger CALL_SEQUENCE, breaking the equality EQUALITY, causing scoped impact: SCOPE_IMPACT against PARTY? Proof idea: pyspec test PARAMETERS asserting BALANCE_CONSERVATION, AUTHORITY, SINGLE_HEAD, ACCOUNTABILITY, PAYLOAD_BINDING, or DUTY_TRUTH.",
+    "[File: {target_file}] [Function: symbol_or_method] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger EXECUTION_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: RSpec request/policy/GraphQL/service spec or GDK steps PARAMETERS and assert AUTHORIZATION_EXACTNESS, PRIVILEGE_MONOTONICITY, IDENTITY_BINDING, TENANCY, SECRET_SCOPING, INPUT_STAYS_DATA, or UNIFORM_ENFORCEMENT.",
     ]
     """
     return prompt
@@ -346,7 +448,7 @@ def question_generator(target_file: str) -> str:
 
 def audit_format(security_question: str) -> str:
     """
-    Generate a state-transition / fork-choice exploit-validation prompt for consensus-specs.
+    Generate a focused GitLab exploit-validation prompt.
     """
 
     prompt = f"""# SECURITY AUDIT PROMPT
@@ -355,20 +457,19 @@ def audit_format(security_question: str) -> str:
 {security_question}
 
 ## Rules
-- Use existing repo context only: the ```python blocks in specs/**/*.md and what each fork inherits. Analyze only this question and scoped impact.
-- Attacker is unprivileged only: an EOA sending execution-layer requests; validators it funded itself in any assigned role (proposer, attester, aggregator, sync committee, PTC, inclusion-list committee); a builder registered with its own stake. They may produce any correctly signed message their keys allow and order their own messages.
-- Reject anything requiring a malicious peer or node, a client bug, a network partition, a 1/3 or majority coalition, a compromised key, the execution client, or social engineering.
-- OUT OF SCOPE, reject on sight: tests/, pysetup/, scripts/, presets/, configs/, generated Python, build files, README, SECURITY.md; denial of service, resource exhaustion, unbounded lists or memory, message rate, timing-only delays; large-stake economic attacks; bugs inside clients, the execution layer, BLS/KZG libraries or contract bytecode with no path through the spec text; known issues; wording nits; best-practice notes; theoretical findings.
-- The impact must be one of: Critical - finality or safety break, an invalid transition accepted or a valid one rejected so spec-following nodes split, Gwei created, destroyed or paid to a non-owner, an honest validator slashed, a payload executed or paid that the block did not commit to; High - a split or reorg forced by one participant without majority stake, a validator or builder exited, consolidated or re-credentialed without its authority, a builder payment or withdrawal misdirected, doubled or escaped, a duty selection one participant can steer.
-- Focus on real impact: something moved, changed, finalized, slashed or executed that the spec's own rules did not authorise.
+- Use existing repo context only. Analyze only this question and scoped impact.
+- Attacker is unprivileged only: an unauthenticated visitor, a free signed-in user, a Guest or Reporter on a public project, an outside contributor pushing to their own fork, or the Owner of their own personal namespace, holding only their own credentials.
+- Reject anything needing instance-admin, auditor, victim-Maintainer or victim-Owner rights, operator or runner access, database or object-storage access, another user's token, session or SSH key, a non-default instance setting, or social engineering.
+- Reject DoS, rate-limit, resource-exhaustion, missing-header, self-XSS, clickjacking, enumeration, email-spoofing, no-impact CSRF, verbose-error, dependency-only, Geo/Sidekiq-operator, and spec/qa/fixture/factory/docs/generated/migration/config-only findings.
+- Reject generic unbounded-allocation or performance claims with no concrete submitted request and no broken invariant.
+- This program pays High and Critical only. Focus on real impact: cross-tenant disclosure of private repository, issue, MR, snippet or CI data, privilege escalation to a higher role or admin, authentication bypass or account takeover, token-scope bypass, CI job-token or protected-variable compromise, remote code execution, arbitrary file read/write, SSRF into internal services or cloud metadata, or stored XSS leading to session or token theft.
 
 ## Validate
-- Write the equality the question claims is broken between two named values BEFORE tracing any code.
-- Trace the exact reachable path from the attacker's input and record every read and write of `state.balances`, `state.validators[i]`, `state.builders[j]`, `pending_*` queues, `builder_pending_payments` / `builder_pending_withdrawals`, `execution_payload_availability`, `latest_execution_payload_bid`, `latest_block_hash`, participation flags, `store.latest_messages`, `store.payloads` and `store.equivocators`.
-- Evaluate both sides of the equality before and after. If they still match, output no vulnerability.
-- Check whether the asserts in `process_block`, `process_operations`, the signature domains, `is_valid_indexed_attestation`, `is_slashable_attestation_data`, `can_builder_cover_bid`, `verify_execution_payload_envelope`, `validate_on_attestation`, `is_valid_dependent_root`, the churn limits, or the honest behaviour in validator.md already prevent the divergence.
-- State what the attacker gains per transition and whether it is repeatable.
-- Require exact file/function support and a reproducible pyspec test run through `make test` on the minimal preset.
+- Trace the exact reachable path from the attacker's HTTP request, GraphQL document, Git operation, upload, pipeline, or rendered markup into the affected method.
+- Check whether the policy layer, `authorize!`/`can?` calls, Grape or GraphQL authorization, finder scoping, strong parameters, sanitization filters, path-traversal checks, or URL blocking already stop it.
+- Confirm the path is reachable on the current default configuration of the tier the file belongs to (CE for `app/`, `lib/`; EE for `ee/`), with default feature flag state.
+- Accept only concrete unauthorized data access, role or scope escalation, account takeover, secret compromise, code execution, arbitrary file access, internal SSRF, or script execution in another user's session.
+- Require exact file/method support and a reproducible RSpec request, policy, GraphQL, service, or lib spec, or exact GDK steps.
 
 ## Output
 If valid, output exactly:
@@ -380,19 +481,19 @@ If valid, output exactly:
 [2-3 sentences]
 
 ### Finding Description
-[The broken equality, the code path, root cause, the attacker's exact input, exploit flow, and why existing guards fail]
+[Code path, root cause, attacker request inputs, exploit flow, and why checks fail]
 
 ### Impact Explanation
-[What is moved, changed, finalized, slashed or executed, which party, repeatability, matching severity category]
+[Concrete scoped impact and severity: Critical (remote code execution, account takeover, authentication bypass, admin escalation, mass cross-tenant private data disclosure, CI secret or job-token compromise) or High (authorization bypass, role escalation, targeted private data disclosure, arbitrary file read/write, internal SSRF, stored XSS leading to session or token theft)]
 
 ### Likelihood Explanation
-[Preconditions, fork and state required, attacker stake and cost, feasibility, repeatability]
+[Preconditions, accounts, roles and tokens needed, feasibility, repeatability]
 
 ### Recommendation
 [Specific fix]
 
 ### Proof of Concept
-[pyspec test plan with the exact assertions on both sides of the equality]
+[RSpec spec or GDK request sequence with expected assertions]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
@@ -402,85 +503,9 @@ No extra text.
     return prompt
 
 
-def validation_format(report: str) -> str:
-    """
-    Generate a strict bounty-style validation prompt for consensus-specs claims.
-    """
-    prompt = f"""# VALIDATION PROMPT
-
-## Security Claim
-{report}
-
-## Rules
-- Validate only the submitted claim.
-- Check SECURITY.md and Researcher.Md for scope, exclusions, and valid impact classes.
-- Do not create a new vulnerability if the submitted claim is weak or invalid.
-- Do not upgrade severity unless the provided evidence proves the higher impact.
-- A claim is only valid if the report states the broken equality between two named values and shows both sides concretely on a real `BeaconState` or `Store`. Reject prose-only claims.
-- Reject anything requiring a malicious peer or node, a client bug, a network partition, a 1/3 or majority coalition, a compromised or foreign key, the execution client, or social engineering.
-- OUT OF SCOPE, reject on sight: tests/, pysetup/, scripts/, presets/, configs/, generated Python, build files, README, SECURITY.md; denial of service, resource exhaustion, unbounded lists or memory, message rate, timing-only delays; large-stake economic attacks; bugs inside clients, the execution layer, BLS/KZG libraries or contract bytecode with no path through the spec text; known issues; centralisation risk; wording nits; best-practice notes; feature requests; theoretical findings.
-- The impact must be one of: Critical - finality or safety break, an invalid transition accepted or a valid one rejected so spec-following nodes split, Gwei created, destroyed or paid to a non-owner, an honest validator slashed, a payload executed or paid that the block did not commit to; High - a split or reorg forced by one participant without majority stake, a validator or builder exited, consolidated or re-credentialed without its authority, a builder payment or withdrawal misdirected, doubled or escaped, a duty selection one participant can steer.
-- Reject claims where the only loss is the attacker's own stake.
-- Reject if the bug was already fixed, publicly disclosed, or covered by a known-issues list.
-- A valid report must be triggerable by an unprivileged participant against the current spec text with its own stake, keys and requests.
-- A PoC is mandatory. Prefer #NoVulnerability over speculative reports.
-
-## Required Validation Checks
-All must pass:
-1. Exact in-scope file, function/container/constant, and line references.
-2. The equality written explicitly, with both sides shown before and after.
-3. Clear root cause: which balance drift, authority gap, head or finality divergence, slashing of a non-equivocator, payload or payment mismatch, or duty steering causes it.
-4. Reachable exploit path: preconditions -> attacker input -> state transition / epoch processing / store handler sequence -> observed divergence.
-5. The block and operation asserts, signature domains, `is_valid_indexed_attestation`, `is_slashable_attestation_data`, `can_builder_cover_bid`, `verify_execution_payload_envelope`, `validate_on_attestation`, `is_valid_dependent_root`, churn limits and validator.md honest behaviour reviewed and shown insufficient.
-6. Impact stated concretely: which stake, whose, which finality, and whether it is repeatable.
-7. Reproducible proof: pyspec test run through `make test` on the minimal preset, with the asserted values.
-
-## Silent Triage Questions
-Before output, internally answer:
-- What exactly is the equality, and does it actually fail on a concrete state?
-- Can an EOA, a self-funded validator or a self-staked builder trigger it with no coalition, no foreign key and no malicious node?
-- Is the flaw in the spec text, not in a client, library or contract?
-- What is moved, changed, finalized, slashed or executed, whose stake, and can it be repeated?
-- Would the Ethereum Foundation bounty triage accept the exploit path under the consensus-layer program?
-- What exact test would prove it?
-
-## Output
-If valid, output exactly:
-
-Audit Report
-
-## Title
-[Clear vulnerability statement] - ([File: file_path])
-
-## Summary
-[2-3 sentence summary of the broken equality and impact]
-
-## Finding Description
-[Exact code path, the equality, root cause, exploit flow, and why existing guards fail]
-
-## Impact Explanation
-[What is moved, changed, finalized, slashed or executed, affected party, repeatability, severity category]
-
-## Likelihood Explanation
-[Attacker capability, preconditions, state required, cost, feasibility]
-
-## Recommendation
-[Specific fix guidance]
-
-## Proof of Concept
-[Minimal reproducible steps or pyspec test plan with concrete assertions]
-
-If invalid, output exactly:
-#NoVulnerability found for this question.
-
-Output only one of the two outcomes above. No extra text.
-"""
-    return prompt
-
-
 def scan_format(report: str) -> str:
     """
-    Generate a short cross-project analog scan prompt for consensus-specs.
+    Generate a short cross-project analog scan prompt for GitLab.
     """
     prompt = f"""# ANALOG SCAN PROMPT
 
@@ -488,18 +513,16 @@ def scan_format(report: str) -> str:
 {report}
 
 ## Rules
-- Use in-scope repo context only (the ```python blocks in `specs/**/*.md` and what each fork inherits, excluding tests/, pysetup/, scripts/, presets/, configs/ and generated Python). Do not ask for code or claim missing files.
+- Use in-scope production repo context only. Do not ask for code or claim missing files.
 - Use the external report only as a bug-class hint, not as proof.
-- Keep only unprivileged analogs that break an equality: a Gwei created, destroyed or paid to a non-owner; a validator or builder mutated without its authority; two spec-following stores disagreeing on head or finality; a non-equivocator slashed; a payload or payment applied that the block did not commit to; a duty selection one participant can steer.
-- OUT OF SCOPE, reject on sight: tests/, pysetup/, scripts/, presets/, configs/, generated Python, build files, README; denial of service, resource exhaustion, unbounded lists or memory, message rate, timing-only delays; large-stake economic attacks; bugs inside clients, the execution layer, BLS/KZG libraries or contract bytecode with no path through the spec text; anything requiring a malicious peer, node, client bug, partition, coalition or foreign key; known issues; wording nits; best-practice notes; theoretical findings.
-- The impact must be one of: Critical - finality or safety break, an invalid transition accepted or a valid one rejected so spec-following nodes split, Gwei created, destroyed or paid to a non-owner, an honest validator slashed, a payload executed or paid that the block did not commit to; High - a split or reorg forced by one participant without majority stake, a validator or builder exited, consolidated or re-credentialed without its authority, a builder payment or withdrawal misdirected, doubled or escaped, a duty selection one participant can steer.
-- Reject analogs where the only loss is the attacker's own stake.
+- Keep only analogs an unauthenticated visitor, a free signed-in user, a Guest or Reporter on a public project, or an outside fork contributor can reach: policies and abilities, membership and roles, authentication and sessions, token scopes, the REST API, GraphQL, finders and search, CI job tokens and variables, Git access and push checks, uploads and package registries, outbound request validation, import/export, or markdown sanitization.
+- Reject admin-only, operator-only, runner-owner, Geo, database, leaked-credential, misconfiguration-only, DoS, rate-limit, enumeration, self-XSS, header-only, dependency-only, and spec/qa/fixture/docs/generated/config-only paths, and no-impact analogs.
+- Medium , High and Critical only; no low, or resource-only analogs.
 
 ## Validate
-- Map the bug class to the strongest reachable path in this repo and state the equality it would break.
-- Evaluate both sides before and after the attacker's input on a concrete state.
-- Prove root cause with exact file/function support.
-- Accept only concrete balance loss, unauthorised mutation, head or finality divergence, wrongful slashing, payload or payment mismatch, or steerable selection.
+- Map the bug class to the strongest reachable GitLab path from a single HTTP request, GraphQL document, Git operation, upload, or pipeline.
+- Prove root cause with exact file/method support.
+- Accept only concrete cross-tenant data disclosure, role or token-scope escalation, authentication bypass or account takeover, CI secret or job-token compromise, code execution, arbitrary file read/write, internal SSRF, or stored XSS leading to session or token theft.
 
 ## Output (Strict)
 If valid analog exists, output:
@@ -518,5 +541,80 @@ If not, output exactly:
 #NoVulnerability found for this question.
 
 No extra text.
+"""
+    return prompt
+
+
+def validation_format(report: str) -> str:
+    """
+    Generate a strict bounty-style validation prompt for GitLab security claims.
+    """
+    prompt = f"""# VALIDATION PROMPT
+
+## Security Claim
+{report}
+
+## Rules
+- Validate only the submitted claim.
+- Check SECURITY.md and Researcher.Md for scope, exclusions, and valid impact classes.
+- Do not create a new vulnerability if the submitted claim is weak or invalid.
+- Do not upgrade severity unless the provided evidence proves the higher impact.
+- This program pays High and Critical only; reject low, medium, informational, best-practice, and resource-only reports.
+- Reject DoS, rate-limit, resource-exhaustion, missing-header, cookie-flag, self-XSS, clickjacking, user or content enumeration, email/SPF/DMARC spoofing, no-impact CSRF, verbose-error, TLS-config, automated-scanner, dependency-only, Geo/Sidekiq-operator, docs/style, generated-file, and spec/qa/fixture/factory/migration/config-only issues.
+- Reject if the exploit needs instance-admin, auditor, victim-Maintainer or victim-Owner rights, GitLab operator, runner, Gitaly, database or object-storage access, another user's token, session or SSH key, victim social engineering, a non-default instance configuration or feature flag, or anything outside what an unauthenticated visitor or ordinary signed-in user can put in an HTTP request, GraphQL document, Git operation, upload, pipeline, or rendered markup.
+- Reject if the bug was fixed, acknowledged, or publicly disclosed already, per the eligibility rules.
+- A valid report must be triggerable by an unauthenticated visitor, a free signed-in user, a Guest or Reporter on a public project, or an outside fork contributor, unless the claim proves escalation from that starting point.
+- The final impact must map to an in-scope category: Critical - remote code execution on the GitLab server, authentication bypass or account takeover, escalation to instance admin, mass cross-tenant disclosure of private data, or CI job-token/protected-variable compromise across projects; High - authorization or policy bypass, role escalation within a namespace, targeted private repository/issue/MR/snippet/CI data disclosure, arbitrary file read or write, SSRF into internal services or cloud metadata, or stored XSS leading to session or token theft.
+- Prefer #NoVulnerability over speculative reports.
+
+## Required Validation Checks
+All must pass:
+1. Exact in-scope file, class/method, and line/code references.
+2. Clear root cause and broken authorization-exactness, privilege-monotonicity, identity-binding, tenancy, secret-scoping, input-stays-data, or uniform-enforcement invariant.
+3. Reachable exploit path: preconditions (attacker-controlled accounts, roles, tokens, projects, forks) -> submitted HTTP request, GraphQL document, Git operation, upload, pipeline, or rendered markup -> trigger -> bad result.
+4. Existing policy abilities, `authorize!`/`can?` calls, Grape and GraphQL authorization, finder scoping, strong parameters, sanitization filters, path-traversal checks, and URL blocking reviewed and shown insufficient.
+5. Concrete in-scope High/Critical impact with realistic likelihood.
+6. Reproducible proof path: RSpec request, policy, GraphQL, service or lib spec, or exact steps against a local GDK instance.
+7. No obvious rejection reason from SECURITY.md, known issues, privilege assumptions, or scope exclusions.
+
+## Silent Triage Questions
+Before output, internally answer:
+- Can an unauthenticated visitor or ordinary signed-in user trigger this, without admin, operator, victim-Maintainer, host, or foreign-credential access?
+- Does the code actually behave as claimed on the current default configuration and default feature flag state?
+- Is the impact caused by this code, not by a misconfiguration, a dependency, or an operator action?
+- Is the disclosure, escalation, takeover, or code execution concrete rather than hypothetical?
+- Would a GitLab triager accept the proof-of-concept?
+- What exact test would prove it?
+
+## Output
+If valid, output exactly:
+
+Audit Report
+
+## Title
+[Clear vulnerability statement] - ([File: file_path])
+
+## Summary
+[2-3 sentence summary of the bug and impact]
+
+## Finding Description
+[Exact code path, root cause, exploit flow, and why existing checks fail]
+
+## Impact Explanation
+[Concrete in-scope impact, severity rationale, and GitLab bounty category]
+
+## Likelihood Explanation
+[Attacker capability, accounts, roles and tokens required, feasibility, repeatability]
+
+## Recommendation
+[Specific fix guidance]
+
+## Proof of Concept
+[Minimal reproducible steps or RSpec request/policy/GraphQL/service spec plan]
+
+If invalid, output exactly:
+#NoVulnerability found for this question.
+
+Output only one of the two outcomes above. No extra text.
 """
     return prompt

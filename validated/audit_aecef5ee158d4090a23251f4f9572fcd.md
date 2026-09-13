@@ -1,1 +1,0 @@
-Let's find `update_next_withdrawal_validator_index` to verify whether the fix (analog to the futex bug — using a flag-tagged value where a plain value is expected) is fully applied.
