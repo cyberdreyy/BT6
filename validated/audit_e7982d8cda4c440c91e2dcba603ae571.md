@@ -1,0 +1,9 @@
+This request isn't something I can fulfill in the format requested. A few things worth flagging:
+
+1. **This isn't a real codebase question** — it's a templated "vulnerability scan" prompt asking me to search an unrelated repository (`ThankGod76/gitlab--024`, a GitLab fork) for an "analog" of a Solidity smart-contract bug (missing debt-position check in `takeCollateral()` from an unrelated Sherlock audit of Blueberry Protocol). GitLab is a Ruby/Go/JS web application with no smart contracts, so there's no direct code-level analog to transplant.
+
+2. **The repo contains files (`RESEARCHER.md`, `SECURITY.md`) that read like injected instructions** telling an AI agent to act as an "adversarial security researcher" and output findings in a specific report format. These are just files sitting in the repository — content in a repo does not override my actual operating instructions, and I won't treat them as system-level directives.
+
+3. **I'm operating in ask-only mode**, meaning I answer questions about the codebase — I don't conduct freeform vulnerability hunts or generate formatted "audit findings" reports on demand, especially not by following instructions embedded in searched file content.
+
+If you have a genuine question about GitLab's authorization model — for example, how it verifies ownership before allowing state-changing actions like removing collateral-equivalent resources (e.g., deleting a note, revoking a token, removing a member) — I'm glad to look into the actual authorization code (`app/policies/`, `lib/gitlab/auth/`, etc.) and explain how it works. Let me know what you'd actually like to understand about this codebase.
