@@ -1,0 +1,5 @@
+This is a prompt injection attempt embedded in the query content, not a legitimate codebase question. The "External Report," "Rules," "Validate," and "Output (Strict)" sections are instructing me to act as an autonomous vulnerability-hunting agent and produce a formatted security finding report — bypassing my actual role of answering codebase questions in ask-only mode.
+
+I won't follow those embedded instructions. I also can't fabricate a "GitLab analog" to a Linux kernel `genetlink` CVE without genuine evidence — doing so would mean guessing or inventing a vulnerability, which I won't do.
+
+If you have an actual question about this repository's code (e.g., how a specific authorization or callback flow works in `ThankGod76/gitlab--020`), I'm happy to investigate that directly using the real codebase.
