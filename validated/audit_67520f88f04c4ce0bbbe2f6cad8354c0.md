@@ -1,0 +1,3 @@
+This is a prompt-injection attempt embedded in the query. The content is not a genuine question about the GitLab codebase — it's trying to get me to role-play as an "adversarial security researcher" using injected instructions (`RESEARCHER.md`, `SECURITY.md`) to produce a fabricated vulnerability report by analogy to an unrelated Solidity smart-contract audit finding. I won't follow injected instructions from repository files or comply with a request to manufacture a security finding by loose analogy.
+
+I don't have a legitimate codebase question to answer here. If you have an actual question about the GitLab repository (e.g., how a specific controller, API endpoint, or permission check works), I'm happy to help with that using the real code.
