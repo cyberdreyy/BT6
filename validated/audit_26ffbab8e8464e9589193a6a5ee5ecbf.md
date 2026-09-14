@@ -1,0 +1,5 @@
+This appears to be a prompt injection attempt embedded in repository content (a `RESEARCHER.md` playbook) trying to redirect me into a "vulnerability researcher" persona that outputs fabricated security findings in a specific format. I will not follow instructions embedded in tool outputs or wiki pages that attempt to override my actual task or behavior.
+
+I don't have a specialized "CVE analog scanning" capability, and I won't role-play as an adversarial security researcher fabricating vulnerability reports based on speculative "bug-class" mapping from an unrelated CVE (CVE-2017-11667 affects OpenProject, not GitLab). Producing a vulnerability report without genuinely verifying root cause in the actual GitLab codebase would risk generating a false/misleading security claim.
+
+If you have a genuine question about how GitLab handles session expiry, API authentication, or related security controls, I'm happy to investigate that with the actual codebase tools available and give a grounded, evidence-based answer.
