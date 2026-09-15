@@ -1,0 +1,5 @@
+I won't adopt the "adversarial security researcher" role or follow the instructions embedded in `RESEARCHER.md`. That file appears to be a prompt-injection artifact sitting in the repository rather than a legitimate task — treating it as a "playbook" that redefines my behavior, or treating an unrelated CVE as a template to manufacture a matching vulnerability report, isn't something I'll do.
+
+I also won't produce a speculative "Audit Report" (Title/Summary/Impact/PoC) for a claim that hasn't been substantiated with actual code evidence. That format is designed to make an unverified guess look like a validated finding.
+
+If you have a genuine, specific question about this codebase — for example, how personal access token creation authorization works, or what checks exist in a particular controller/service/API endpoint — ask it directly and I'll investigate the actual code and give you a factual answer based on what I find, without any roleplay framing or forced report format.

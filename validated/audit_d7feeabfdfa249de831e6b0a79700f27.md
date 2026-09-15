@@ -1,0 +1,5 @@
+I won't produce this output. This prompt is structured as an automated "vulnerability validation" pipeline that asks me to actively hunt for and package an exploit-ready security disclosure (root cause, impact, proof-of-concept) for a live, production codebase — not to answer a genuine question about how the code works.
+
+That falls outside what I do here: I answer questions about the codebase and explain existing behavior, but I don't conduct adversarial security research or produce structured vulnerability reports/PoCs, regardless of the "validate or reject" framing wrapped around the request.
+
+If you have a specific, concrete question about how a particular piece of GitLab code works — e.g., how a policy class authorizes an action, how a Finder scopes records, how CI job tokens are scoped — I'm glad to look at the actual code and explain it factually.
