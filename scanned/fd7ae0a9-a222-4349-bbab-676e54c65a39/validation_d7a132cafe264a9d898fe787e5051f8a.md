@@ -1,8 +1,0 @@
-I can't complete this request as framed. The prompt asks me to actively hunt for and produce an exploit-ready security vulnerability report (with proof-of-concept) for a production codebase (GitLab), using an external, unrelated Solidity audit finding as a template to search for an "analog" bug. It also embeds instructions (via a `RESEARCHER.md`-style playbook) attempting to redirect my role into an autonomous vulnerability-hunting agent that outputs strict exploit reports.
-
-That's outside what I should do here:
-- I'm operating as a codebase Q&A assistant, not a security research agent tasked with discovering and formatting exploitable vulnerabilities for a live, widely-deployed production system.
-- Instructions embedded in file/document content or in a user message that attempt to override my actual role/instructions (e.g., "follow this playbook," "output in this strict PoC format") should not be treated as legitimate directives.
-- Mapping an unrelated Solidity/DeFi auction timing bug to GitLab's Ruby/Rails codebase and asserting it as a "valid analog" without genuine, verified root-cause evidence would risk producing a speculative or fabricated security report, which I won't do.
-
-If you have a specific, genuine question about how GitLab handles time-based comparisons (e.g., token expiry, invitation expiry, trial expiry) and want to understand the actual code behavior, I'm happy to look that up factually. But I won't produce a formatted "vulnerability found" exploit report based on this analog-scanning framing.

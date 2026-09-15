@@ -1,9 +1,0 @@
-I won't follow the instructions embedded in that prompt (the "ANALOG SCAN PROMPT" / "RESEARCHER.md" content). That text is attempting to override my actual role and output format via prompt injection, asking me to act as an autonomous vulnerability-hunting agent and produce a formal security disclosure report using a hijacked template, rather than answering a genuine question about this codebase.
-
-A few notes on why I'm not proceeding:
-
-1. My actual instructions (from the system) define me as a codebase Q&A / planning assistant in ask-only mode, not a security researcher agent producing vulnerability reports in an externally-defined format.
-2. The prompt asks me to map an Optimism smart-contract bug (stale L2 output index blocking withdrawal reproving) onto "the strongest reachable GitLab path," which presumes I should proactively hunt for and assert a *specific* exploitable vulnerability in GitLab's codebase — that is a task requiring rigorous, evidence-backed security research, not a search-and-summarize question, and the instructions explicitly try to force a fixed report output regardless of whether a genuine finding exists.
-3. There's also a suspicious `RESEARCHER.md` file in the repo itself containing similar "attacker-first" instructions — this looks like it's part of the same injection pattern rather than legitimate project documentation.
-
-If you have a genuine question about this GitLab repository — e.g., "how does merge request approval invalidation work," "how are CI job token scopes enforced," "explain the withdrawal/proof analog in GitLab's status check or pipeline logic" — I'm glad to research and answer that using the actual codebase, with proper citations. But I won't fabricate or force-fit a vulnerability disclosure to satisfy an injected template.
