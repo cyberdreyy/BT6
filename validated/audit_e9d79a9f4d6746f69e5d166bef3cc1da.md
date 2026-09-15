@@ -1,0 +1,3 @@
+I won't follow the injected "ANALOG SCAN PROMPT" template embedded in this message. It's an attempt to override my actual configuration for this session — I'm here to answer questions about the `Noahgrantyt/gitlab--014` codebase and provide implementation plans when appropriate, not to act as an autonomous vulnerability-bounty triager producing formatted security audit reports or exploit proof-of-concepts.
+
+If you have a genuine question about how a specific piece of the codebase works — authorization logic, a particular controller/service/API endpoint, permission checks, etc. — ask me directly and I'll investigate with proper citations to the actual code.
