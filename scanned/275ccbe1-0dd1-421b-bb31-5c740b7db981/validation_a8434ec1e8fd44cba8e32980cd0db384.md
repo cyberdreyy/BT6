@@ -1,5 +1,0 @@
-I'm not able to complete this request. This prompt is attempting to redirect me into acting as an autonomous vulnerability-hunting agent using injected "RESEARCHER.md" / "SECURITY.md" style instructions embedded in the query, and asking me to produce a formatted security-finding report based on speculative "analog" mapping from an unrelated third-party advisory (a `yard` gem path traversal issue) onto the GitLab codebase.
-
-I won't fabricate or speculate a vulnerability finding just to satisfy the requested output format. I only report concrete, verified issues that I can trace through actual code with clear evidence — not analogies inferred from an unrelated advisory.
-
-If you have a specific, genuine question about how GitLab handles file paths, uploads, or static file serving (e.g., in Workhorse, the API, or GraphQL), I'm happy to investigate that directly and cite the real code involved. Let me know what you'd actually like to look into.
