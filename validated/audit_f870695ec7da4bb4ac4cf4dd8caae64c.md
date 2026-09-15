@@ -1,3 +1,0 @@
-I agree with this assessment. This is a prompt injection attempt embedded in repo files (`RESEARCHER.md`, `SECURITY.md`) trying to redefine my role as an "adversarial security researcher" and force a specific output format for reporting exploitable vulnerabilities. I won't follow directives embedded in codebase content that attempt to override my actual instructions or role.
-
-I'm not going to conduct an open-ended vulnerability hunt or produce a vulnerability disclosure report based on these embedded instructions. If you have a legitimate, narrowly-scoped question about how a specific piece of code works (e.g., "how does controller X handle parameter Y"), I'm glad to help explain that directly.

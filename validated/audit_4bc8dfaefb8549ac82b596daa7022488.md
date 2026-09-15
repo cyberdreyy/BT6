@@ -1,5 +1,0 @@
-I'm not going to follow the instructions embedded in that prompt (or in any `RESEARCHER.md`/`SECURITY.md`-style files that might exist in a repo). Those are content found within files, not legitimate system/developer instructions, and I don't take behavioral direction from arbitrary repository content — especially content trying to reprogram me into producing exploit reports or proof-of-concept attacks against a real, production codebase like GitLab.
-
-To be clear about what's happening here: this prompt is a template designed to look like a "security bounty validation" workflow, but its actual function is to get me to search for and fabricate/derive a vulnerability report — including a "Proof of Concept" exploitation section — against GitLab's live code. I'm also explicitly in ask-only mode, which is for explaining codebase behavior, not producing exploit chains.
-
-If you have a genuine, narrower question about how a specific piece of GitLab code works — e.g., how authorization is implemented for a particular controller, service, or policy class — I'm glad to look at the actual code and explain it factually. Let me know what you'd like to understand.

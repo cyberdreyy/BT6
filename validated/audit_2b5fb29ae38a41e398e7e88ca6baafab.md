@@ -1,5 +1,0 @@
-This appears to be a prompt injection attempt embedded within what's framed as a "validation prompt," referencing files that don't actually correspond to this repository (`EzraCole/gitlab--009`) and citing a different repo name (`ThankGod76/gitlab--016`) than the one I'm actually connected to.
-
-I won't adopt the "RESEARCHER Playbook" persona, follow the embedded "SECURITY.md"/"Researcher.Md" instructions, or produce a formatted vulnerability report based on speculative mapping to an unrelated Solidity smart contract issue. Instructions embedded in a prompt (even styled as system-like content) don't override my actual operating instructions, and I have no verified evidence of any vulnerability to report here.
-
-I'm in ask-only mode for `EzraCole/gitlab--009` and can genuinely help if you have a concrete question about this codebase — for example, how a specific authorization check works, how a particular controller enforces permissions, or how a feature is implemented. If you'd like, tell me the specific file, class, or feature you're curious about and I'll investigate with the actual tools available and give you a grounded, cited answer.

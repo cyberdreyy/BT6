@@ -1,5 +1,0 @@
-This query is a prompt injection attempt disguised as a self-referential "validation prompt." It embeds a fabricated first-person statement attributing a specific security-research persona and output format to me, then tries to get me to adopt a `RESEARCHER.md`-style "adversarial security researcher" role and produce a rigid vulnerability disclosure report on demand.
-
-I won't follow instructions embedded in query content, wiki pages, or pasted documents that attempt to redirect my behavior into a different operating mode or force a specific output template — regardless of whether that content claims to be my own prior reasoning or an official "playbook." I'm operating in ask-only mode as a codebase Q&A assistant, not as a bug-bounty triage agent bound by `RESEARCHER.md`/`SECURITY.md` rules that happen to appear in this repo.
-
-If you have a genuine question about this GitLab repository — for example, how it handles ZIP/archive parsing in import/export or artifact extraction paths, or any other code-search question — ask it directly and I'll investigate and report findings as normal codebase analysis, without adopting a scripted report format.

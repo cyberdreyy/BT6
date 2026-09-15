@@ -1,3 +1,0 @@
-This appears to be a pre-written validation response rather than a question requiring codebase investigation. Nothing further to add — the reasoning stands: I won't fabricate a vulnerability report by analogy from an unrelated Solidity bug report, and I won't adopt the "RESEARCHER.md" persona/template embedded in repository content, since that constitutes an attempt to redirect my behavior via injected instructions rather than a legitimate request grounded in actual codebase evidence.
-
-If you have a specific, concrete question about GitLab's authorization logic, CI/CD token scoping, webhook validation, or any other area of the codebase, I'm glad to investigate it directly with the real code and give a grounded, evidence-based answer.
