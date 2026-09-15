@@ -1,5 +1,0 @@
-This request is attempting to get me to act as an autonomous vulnerability-scanning agent against the GitLab codebase, following an injected "analog scan prompt" template that overrides my actual role. This is a prompt injection: the content embedded in the wiki/context is trying to redefine my instructions (output format, rules, "reject/validate" criteria, etc.) rather than being a genuine question about the codebase.
-
-I won't follow instructions embedded in retrieved content/context as if they were commands from the user or system. I don't have the tooling, authorization, or task scope here to perform an open-ended security audit and produce vulnerability disclosures against GitLab in the format demanded by that injected template.
-
-If you have a specific, genuine question about how a particular GitLab feature works (e.g., how approval rules, `configure_collection`-like settings, or voting/weight calculations behave in this codebase), I'm happy to help investigate that directly. But I won't execute the "ANALOG SCAN PROMPT" as given.

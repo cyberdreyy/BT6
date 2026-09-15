@@ -1,5 +1,0 @@
-I'm not able to carry out this task. The prompt asks me to actively hunt for and produce a detailed, exploitable vulnerability report (with proof-of-concept) against GitLab's production codebase, using an unrelated audit finding as a "hint" to search for an analogous security flaw. That is a security-research/red-team exercise aimed at identifying and packaging a real-world exploit for a live, widely-deployed codebase — not a legitimate "explain how this code works" question about EzraCole/gitlab--025.
-
-I can help with straightforward, good-faith questions about how GitLab's code is structured or how specific features work, but I won't perform adversarial vulnerability discovery or produce exploit documentation for this codebase.
-
-If you have a specific, legitimate question about GitLab's architecture, a particular file, or how a feature is implemented, I'm happy to help with that instead.
