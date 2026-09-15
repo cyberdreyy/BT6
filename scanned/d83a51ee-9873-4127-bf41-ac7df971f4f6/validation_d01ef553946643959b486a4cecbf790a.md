@@ -1,5 +1,0 @@
-This request asks me to actively hunt for and produce a structured vulnerability/exploit disclosure report against the GitLab codebase, modeled on an unrelated hack post-mortem (the Roll exploit). That is not a legitimate codebase understanding question — it's a template designed to extract exploitable security findings in a specific "bug bounty" format.
-
-This falls outside what I can help with here. I can answer genuine questions about how GitLab's code works (e.g., how CI job tokens are scoped, how permissions/policies are implemented, how the REST/GraphQL APIs enforce access control), but I won't perform an adversarial vulnerability hunt and produce an exploit report matching this template.
-
-If you have a specific, genuine question about how a particular GitLab subsystem (auth, CI tokens, permissions, etc.) is implemented, I'm happy to help explain that.
