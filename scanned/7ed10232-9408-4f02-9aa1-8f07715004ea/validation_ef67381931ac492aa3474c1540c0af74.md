@@ -1,5 +1,0 @@
-This request is asking me to take an unrelated smart-contract audit finding (a Solidity `Voter.poke()` boost-calculation bug from Alchemix) and manufacture a "matching" vulnerability report in the GitLab codebase by analogy, following a rigid output template that demands a definitive "Title / Summary / Finding Description / Impact / PoC" regardless of whether a genuine, verified root cause actually exists.
-
-I won't do this. Fabricating a vulnerability report based on surface-level pattern matching to an unrelated smart-contract bug — rather than from verified root-cause analysis of actual GitLab code — isn't legitimate security research, and producing one risks generating a plausible-sounding but false/misleading report (which could be used for bug-bounty fraud or wasted triage effort).
-
-If you have a genuine, specific concern about GitLab (e.g., a particular endpoint, model, or feature where a stale/incomplete recalculation could cause a privilege or data-integrity issue), I'm glad to investigate that concretely with the actual code and report honestly on what I find — including saying "no issue found" if that's the truth.
