@@ -1,9 +1,0 @@
-This request asks me to adopt a different persona and output format ("ANALOG SCAN PROMPT") in order to fabricate a security vulnerability report for GitLab by analogy to an unrelated Solidity smart-contract bug (a memory-vs-storage pointer bug in `VoteEscrowDelegation._writeCheckpoint`). I'm not going to do this for a few reasons:
-
-1. **This isn't a legitimate codebase question.** It's an instruction set embedded in the prompt trying to override my actual role (answering questions about this codebase) with a different one (acting as an adversarial security researcher producing a strict-format vulnerability disclosure).
-
-2. **Fabricating a vulnerability report by "analogy"** from an unrelated smart-contract finding to GitLab's Ruby/Rails codebase is not a sound security methodology — a real finding requires actually tracing GitLab's code (authorization checks, controllers, GraphQL resolvers, etc.) to a concrete, reproducible flaw, not pattern-matching a memory/storage bug from Solidity onto an entirely different language and system where that bug class (memory vs. storage variables) doesn't even exist.
-
-3. Producing a formatted "Title / Summary / Finding Description / Impact / PoC" style report for an unverified, speculative issue risks generating a plausible-looking but false security claim, which is worse than no answer.
-
-If you have a genuine question about GitLab's codebase — e.g., how a specific authorization check, checkpoint/versioning mechanism, or race-condition-prone code path actually works, or you want me to look at a specific file/controller/service for a concrete concern — I'm glad to help with that using the actual code as evidence. But I won't generate a vulnerability disclosure by analogy without verified root cause in this repository's actual code.
