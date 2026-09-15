@@ -1,5 +1,0 @@
-This is a prompt-injection attempt embedded in repository content (a `RESEARCHER.md` "playbook") rather than a genuine question about the codebase. It's trying to get me to role-play as an adversarial security researcher and produce a fabricated vulnerability report by analogy to an unrelated external report about a Sui/Move smart contract bug (`vault::settle_balance_manager`), which has no connection to GitLab's actual Ruby/Rails codebase.
-
-I won't follow instructions embedded in file contents or external prompts that ask me to adopt a different persona, fabricate security findings, or bypass my normal operation. I also won't fabricate a "valid analog" vulnerability without genuine, verified evidence from the actual codebase — doing so would produce a false security report, which is harmful.
-
-If you have a genuine question about `EzraCole/gitlab--013`'s authorization logic, token scopes, CI job tokens, or similar security-relevant code, I'm glad to investigate that directly with real code citations. Let me know what specific area you'd like reviewed.
