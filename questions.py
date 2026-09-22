@@ -6,9 +6,9 @@ from decouple import config
 # todo: if scope_files is: 500 > 50, 300 > 30 , 100 > 10
 MAX_REPO = 20
 # todo: the GitLab namespace/project path, for example group/project
-SOURCE_REPO = 'anza-xyz/agave'
+SOURCE_REPO = 'aera-finance/aera-contracts-public'
 # todo: the name of the repository
-REPO_NAME = 'agave'
+REPO_NAME = 'aera-contracts-public'
 
 run_number = os.environ.get('GITHUB_RUN_NUMBER', '0')
 
@@ -47,157 +47,121 @@ else:
         BASE_URL = f"https://deepwiki.com/{SOURCE_REPO}"
 
 scope_files = [
-    # =================================================================================
-    # Transaction admission: sanitization, signature verification and precompiles
-    # =================================================================================
-    "runtime-transaction/src/runtime_transaction.rs",
-    "runtime-transaction/src/runtime_transaction/sdk_transactions.rs",
-    "runtime-transaction/src/runtime_transaction/transaction_view.rs",
-    "runtime-transaction/src/sanitize_config.rs",
-    "runtime-transaction/src/signature_details.rs",
-    "runtime-transaction/src/instruction_data_len.rs",
-    "runtime-transaction/src/transaction_meta.rs",
-    "perf/src/sigverify.rs",
-    "perf/src/packet.rs",
-    "precompiles/src/lib.rs",
-    "precompiles/src/ed25519.rs",
-    "precompiles/src/secp256k1.rs",
-    "precompiles/src/secp256r1.rs",
+    # v1 first-party contracts, libraries, and interfaces
+    "v1/AeraVaultV1.sol",
+    "v1/PermissiveWithdrawalValidator.sol",
+    "v1/interfaces/IAeraVaultV1.sol",
+    "v1/interfaces/IBManagedPool.sol",
+    "v1/interfaces/IBManagedPoolController.sol",
+    "v1/interfaces/IBManagedPoolFactory.sol",
+    "v1/interfaces/IBMerkleOrchard.sol",
+    "v1/interfaces/IBVault.sol",
+    "v1/interfaces/IGuardianAPI.sol",
+    "v1/interfaces/IMultiAssetVault.sol",
+    "v1/interfaces/IProtocolAPI.sol",
+    "v1/interfaces/IUserAPI.sol",
+    "v1/interfaces/IWithdrawalValidator.sol",
 
-    # =================================================================================
-    # Replay protection, nonce, blockhash, fee charging and compute budget parsing
-    # =================================================================================
-    "runtime/src/bank/check_transactions.rs",
-    "accounts-db/src/blockhash_queue.rs",
-    "runtime/src/status_cache.rs",
-    "svm/src/nonce_info.rs",
-    "svm/src/rollback_accounts.rs",
-    "fee/src/lib.rs",
-    "compute-budget-instruction/src/compute_budget_instruction_details.rs",
-    "compute-budget-instruction/src/instructions_processor.rs",
-    "compute-budget-instruction/src/builtin_programs_filter.rs",
-    "compute-budget-instruction/src/compute_budget_program_id_filter.rs",
-    "compute-budget/src/compute_budget_limits.rs",
-    "compute-budget/src/compute_budget.rs",
-    "runtime/src/bank/fee_distribution.rs",
+    # v2 first-party contracts, libraries, and interfaces
+    "v2/AeraV2Factory.sol",
+    "v2/AeraVaultAssetRegistry.sol",
+    "v2/AeraVaultHooks.sol",
+    "v2/AeraVaultModulesFactory.sol",
+    "v2/AeraVaultV2.sol",
+    "v2/Constants.sol",
+    "v2/Sweepable.sol",
+    "v2/TargetSighashLib.sol",
+    "v2/Types.sol",
+    "v2/interfaces/IAeraV2Factory.sol",
+    "v2/interfaces/IAeraVaultAssetRegistryFactory.sol",
+    "v2/interfaces/IAeraVaultHooksEvents.sol",
+    "v2/interfaces/IAeraVaultHooksFactory.sol",
+    "v2/interfaces/IAssetRegistry.sol",
+    "v2/interfaces/IHooks.sol",
+    "v2/interfaces/ISweepable.sol",
+    "v2/interfaces/IVault.sol",
+    "v2/interfaces/IVaultEvents.sol",
+    "v2/periphery/AbstractAssetOracle.sol",
+    "v2/periphery/Executor.sol",
+    "v2/periphery/LlamaPayRouterOracle.sol",
+    "v2/periphery/Math.sol",
+    "v2/periphery/interfaces/IAeraV2Oracle.sol",
+    "v2/periphery/interfaces/IExecutor.sol",
+    "v2/periphery/interfaces/ILlamaPayRouterOracle.sol",
+    "v2/periphery/interfaces/ILlamaPayRouterOracleTypes.sol",
 
-    # =================================================================================
-    # Account loading, lamport/rent conservation, locking and commit
-    # =================================================================================
-    "svm/src/account_loader.rs",
-    "svm/src/rent_calculator.rs",
-    "svm/src/transaction_account_state_info.rs",
-    "runtime/src/rent_collector.rs",
-    "accounts-db/src/account_locks.rs",
-    "accounts-db/src/accounts.rs",
-    "runtime/src/account_saver.rs",
+    # v3 first-party contracts, libraries, and interfaces
+    "v3/src/core/Auth2Step.sol",
+    "v3/src/core/BaseFeeCalculator.sol",
+    "v3/src/core/BaseVault.sol",
+    "v3/src/core/BaseVaultDeployer.sol",
+    "v3/src/core/BaseVaultFactory.sol",
+    "v3/src/core/CallbackHandler.sol",
+    "v3/src/core/Constants.sol",
+    "v3/src/core/DelayedFeeCalculator.sol",
+    "v3/src/core/FeeVault.sol",
+    "v3/src/core/FeeVaultDeployer.sol",
+    "v3/src/core/HasNumeraire.sol",
+    "v3/src/core/MultiDepositorVault.sol",
+    "v3/src/core/MultiDepositorVaultDeployDelegate.sol",
+    "v3/src/core/MultiDepositorVaultFactory.sol",
+    "v3/src/core/PriceAndFeeCalculatorV2.sol",
+    "v3/src/core/ProvisionerV2.sol",
+    "v3/src/core/SingleDepositorVault.sol",
+    "v3/src/core/SingleDepositorVaultDeployDelegate.sol",
+    "v3/src/core/SingleDepositorVaultFactory.sol",
+    "v3/src/core/Sweepable.sol",
+    "v3/src/core/Types.sol",
+    "v3/src/core/VaultAuth.sol",
+    "v3/src/core/Whitelist.sol",
+    "v3/src/core/interfaces/IAuth2Step.sol",
+    "v3/src/core/interfaces/IBaseFeeCalculator.sol",
+    "v3/src/core/interfaces/IBaseVault.sol",
+    "v3/src/core/interfaces/IBaseVaultDeployer.sol",
+    "v3/src/core/interfaces/IBaseVaultFactory.sol",
+    "v3/src/core/interfaces/IBeforeTransferHook.sol",
+    "v3/src/core/interfaces/ICallbackHandler.sol",
+    "v3/src/core/interfaces/IDelayedFeeCalculator.sol",
+    "v3/src/core/interfaces/IFeeCalculator.sol",
+    "v3/src/core/interfaces/IFeeVault.sol",
+    "v3/src/core/interfaces/IFeeVaultDeployer.sol",
+    "v3/src/core/interfaces/IHasNumeraire.sol",
+    "v3/src/core/interfaces/IMultiDepositorVault.sol",
+    "v3/src/core/interfaces/IMultiDepositorVaultFactory.sol",
+    "v3/src/core/interfaces/IPriceAndFeeCalculatorV2.sol",
+    "v3/src/core/interfaces/IProvisionerV2.sol",
+    "v3/src/core/interfaces/ISingleDepositorVault.sol",
+    "v3/src/core/interfaces/ISingleDepositorVaultFactory.sol",
+    "v3/src/core/interfaces/ISolvingGate.sol",
+    "v3/src/core/interfaces/ISubmitHooks.sol",
+    "v3/src/core/interfaces/ISweepable.sol",
+    "v3/src/core/interfaces/IVaultDeployDelegate.sol",
+    "v3/src/core/interfaces/IVersioned.sol",
+    "v3/src/core/interfaces/IWhitelist.sol",
+    "v3/src/core/libraries/CalldataExtractor.sol",
+    "v3/src/core/libraries/CalldataReader.sol",
+    "v3/src/core/libraries/Pipeline.sol",
+    "v3/src/periphery/Constants.sol",
+    "v3/src/periphery/Executor.sol",
+    "v3/src/periphery/OracleRegistry.sol",
+    "v3/src/periphery/interfaces/IExecutor.sol",
+    "v3/src/periphery/interfaces/IOracleRegistry.sol",
+    "v3/src/periphery/libraries/HooksLibrary.sol",
 
-    # =================================================================================
-    # SVM transaction processing, program loading and program cache
-    # =================================================================================
-    "svm/src/transaction_processor.rs",
-    "svm/src/program_loader.rs",
-    "program-runtime/src/loaded_programs.rs",
-    "program-runtime/src/program_cache_entry.rs",
-    "program-runtime/src/loading_task.rs",
-    "program-runtime/src/execution_budget.rs",
-
-    # =================================================================================
-    # Invoke context, CPI privilege propagation, VM memory and serialization
-    # =================================================================================
-    "program-runtime/src/invoke_context.rs",
-    "program-runtime/src/cpi.rs",
-    "program-runtime/src/serialization.rs",
-    "program-runtime/src/memory.rs",
-    "program-runtime/src/memory_context.rs",
-    "program-runtime/src/vm.rs",
-    "program-runtime/src/sysvar_cache.rs",
-    "program-runtime/src/deploy.rs",
-    "transaction-context/src/lib.rs",
-    "transaction-context/src/transaction.rs",
-    "transaction-context/src/transaction_accounts.rs",
-    "transaction-context/src/instruction.rs",
-    "transaction-context/src/instruction_accounts.rs",
-    "transaction-context/src/vm_slice.rs",
-    "transaction-context/src/vm_addresses.rs",
-    "syscalls/src/lib.rs",
-    "syscalls/src/cpi.rs",
-    "syscalls/src/mem_ops.rs",
-    "syscalls/src/sysvar.rs",
-    "syscalls/src/logging.rs",
-
-    # =================================================================================
-    # Native programs any signer can invoke
-    # =================================================================================
-    "programs/system/src/system_processor.rs",
-    "programs/system/src/system_instruction.rs",
-    "programs/vote/src/vote_processor.rs",
-    "programs/vote/src/vote_state/mod.rs",
-    "programs/vote/src/vote_state/handler.rs",
-    "programs/bpf_loader/src/lib.rs",
-    "programs/compute-budget/src/lib.rs",
-    "programs/zk-elgamal-proof/src/lib.rs",
-    "builtins/src/core_bpf_migration.rs",
-    "builtins/src/lib.rs",
-    "runtime/src/bank/builtins/core_bpf_migration/mod.rs",
-    "runtime/src/bank/builtins/core_bpf_migration/target_bpf_v2.rs",
-    "runtime/src/bank/builtins/core_bpf_migration/source_buffer.rs",
-
-    # =================================================================================
-    # Bank state commit, account hashing and cross-validator determinism
-    # =================================================================================
-    "runtime/src/bank.rs",
-    "runtime/src/bank/accounts_lt_hash.rs",
-    "runtime/src/bank/sysvar_cache.rs",
-    "runtime/src/bank/recent_blockhashes_account.rs",
-    "runtime/src/bank/address_lookup_table.rs",
-    "lattice-hash/src/lt_hash.rs",
-    "accounts-db/src/accounts_db.rs",
-    "accounts-db/src/accounts_cache.rs",
-    "accounts-db/src/read_only_accounts_cache.rs",
-
-    # =================================================================================
-    # Stake weight, epoch stakes and reward distribution driven by on-chain state
-    # =================================================================================
-    "runtime/src/stakes.rs",
-    "runtime/src/stake_account.rs",
-    "runtime/src/epoch_stakes.rs",
-    "runtime/src/bank/partitioned_epoch_rewards/calculation.rs",
-    "runtime/src/bank/partitioned_epoch_rewards/distribution.rs",
-    "runtime/src/bank/partitioned_epoch_rewards/sysvar.rs",
-    "runtime/src/inflation_rewards/points.rs",
-
-    # =================================================================================
-    # Block cost accounting, QoS and leader-side transaction processing
-    # =================================================================================
-    "cost-model/src/cost_model.rs",
-    "cost-model/src/cost_tracker.rs",
-    "cost-model/src/block_cost_limits.rs",
-    "cost-model/src/transaction_cost.rs",
-    "core/src/banking_stage/qos_service.rs",
-    "core/src/banking_stage/consumer.rs",
-    "core/src/banking_stage/committer.rs",
-    "core/src/banking_stage/transaction_scheduler/receive_and_buffer.rs",
-    "core/src/banking_stage/transaction_scheduler/transaction_state_container.rs",
-    "core/src/banking_stage/transaction_scheduler/scheduler_common.rs",
-    "core/src/banking_stage/transaction_scheduler/greedy_scheduler.rs",
-    "runtime/src/bank/entry_bytes_budget.rs",
-    "runtime/src/prioritization_fee_cache.rs",
 ]
 
 
 target_scopes = [
-    "Critical. An ordinary fee-paying transaction sender moves lamports or data out of an account they do not sign for, because account privilege derivation - is_signer/is_writable flags, index-to-key resolution, duplicate account dedup, address-lookup-table expansion, or borrow/ref handling in TransactionContext and InstructionContext - lets an unsigned or read-only account be debited or reassigned, giving theft of funds without the owner's signature.",
-    "Critical. A crafted instruction or CPI chain escalates privileges the caller never held, because InvokeContext::prepare_next_instruction, the CPI account-info translation in syscalls/src/cpi.rs and program-runtime/src/cpi.rs, or signer-seed/PDA derivation propagates signer or writable status to an account the top-level transaction did not authorize, letting an attacker program drain arbitrary accounts.",
-    "Critical. A transaction breaks lamport conservation or rent invariants - creating lamports from nothing, keeping a debited balance after a failed instruction, or evading TransactionAccountStateInfo/rent-exempt checks - through system program handlers, account_loader balance tracking, rollback accounts, or fee collection, resulting in unbacked supply or stolen balances.",
-    "Critical. An attacker takes over a vote account or redirects its stake value by exploiting authorized-voter/authorized-withdrawer checks, VoteState deserialization and size handling, or the withdraw/update-commission paths in the vote program, allowing withdrawal of a validator's balance or capture of delegated stake rewards.",
-    "Critical. A single submitted transaction makes two honest validators compute different state for the same block - divergent account contents, accounts lt hash, fee or rent result, sysvar snapshot, or capitalization - because execution or hashing depends on ordering, caching, feature-gate evaluation, or uninitialized/nondeterministic data, producing a consensus safety violation and chain fork.",
-    "Critical. On-chain state an unprivileged user can write drives stake weight or epoch state incorrectly - stakes cache updates, StakeAccount parsing, epoch_stakes snapshots, delegation activation/deactivation accounting, or partitioned epoch reward calculation and distribution - so leader schedule, vote weight, or reward payout diverges from the true delegated stake.",
-    "Critical. A transaction that any user can submit halts or crashes block processing on every validator - a panic, arithmetic overflow, slice/index violation, unwrap on attacker-controlled input, or unrecoverable error surfaced from SVM processing, a builtin program, account loading, or bank commit - producing a cluster-wide liveness failure requiring human intervention.",
-    "High. A transaction executes without paying, or is accepted twice, because of flaws in blockhash age validation, the status cache dedup key, durable-nonce advance and rollback handling, fee calculation and refund, or signature counting, letting an attacker obtain free execution, replay a signed transaction, or bypass replay protection.",
-    "High. A transaction consumes far more real work than it is charged for, because compute-budget instruction parsing, per-instruction CU defaults, cost-model estimation, cost tracker block limits, entry byte budget, or QoS accounting undercounts it, letting a cheap transaction exhaust the leader's block capacity and starve or stall block production.",
-    "High. A user-submitted deploy, upgrade, close, or invocation causes the wrong program bytecode to execute or a stale/poisoned entry to be served, through program cache tombstoning and effective-slot handling, loading-task races, bpf_loader deploy/upgrade authority checks, or core-BPF migration source validation, so a program behaves differently from its on-chain state.",
-    "Critical/High blind spot. An unprivileged transaction sender abuses an assumption the protocol never wrote down: a value validated in one stage and trusted as already-validated in a later one, an account or index re-resolved after the check that authorized it, a limit or feature gate enforced only on one execution path (leader vs replay, cached vs freshly loaded, top-level vs CPI), state carried across instruction, transaction, slot or epoch boundaries that was only proven safe within one of them, or an error path that commits partial effects - yielding unsigned fund movement, state divergence between validators, or a cluster-wide stall.",
+    "Critical. In v3/src/core/ProvisionerV2.sol and MultiDepositorVault.sol, can an ordinary depositor use deposit/mint/redeem/withdraw with chosen token, amount, receiver, and allowance to mint unbacked units, burn another holder's units, or withdraw more vault assets than paid for? Trace pricing, rounding, cap accounting, and enter/exit authorization to direct theft of user funds.",
+    "Critical. In v3/src/core/ProvisionerV2.sol, can a user who created an async request use requestDeposit/requestRedeem, cancelRequest, or refundRequest with crafted request fields or repeated calls to recover escrow while keeping units or assets, or claim another user's escrow? Trace request hashes, sender/receiver binding, deadlines, and fee transfers to direct theft or permanent freezing of funds.",
+    "Critical. In v3/src/core/ProvisionerV2.sol and PriceAndFeeCalculatorV2.sol, can a normal user choose sync or async entry and exit timing, token, and amount to exploit price conversion, stale prices, fee accrual, or cap resets and extract value from other vault holders? Require an actual pricing/accounting code flaw, not a faulty oracle or ordinary market movement.",
+    "Critical. In v3/src/core/MultiDepositorVault.sol, v3/src/core/ProvisionerV2.sol, and v3/src/core/interfaces/IBeforeTransferHook.sol, can a share holder transfer, approve, deposit for a receiver, or redeem through a valid public route that evades unit locks or transfer restrictions, steals another holder's claim, or permanently traps holder funds? Test receiver approvals and hook behavior without assuming a malicious hook administrator.",
+    "Critical. In v3/src/core/BaseVault.sol, CallbackHandler.sol, libraries/CalldataReader.sol, libraries/CalldataExtractor.sol, and libraries/Pipeline.sol, can an unprivileged caller craft submit calldata or a public callback to bypass caller, proof, operation, or callback validation and move vault assets? Prove the path is reachable without a guardian/solver key or a malicious guardian/solver.",
+    "High/Critical. In v3/src/core/FeeVault.sol, BaseFeeCalculator.sol, DelayedFeeCalculator.sol, and PriceAndFeeCalculatorV2.sol, can a normal user manipulate supply, token balances, or call timing through permitted actions so fee accrual or claimFees/claimProtocolFees transfers unearned funds or permanently freezes earned yield? Check fee recipient and vault binding; exclude accountant control.",
+    "High/Critical. In v3/src/core/ProvisionerV2.sol, v3/src/core/PriceAndFeeCalculatorV2.sol, and v3/src/periphery/OracleRegistry.sol, can a public caller exploit quote direction, unit/decimal conversion, user-specific override identity, or public commit timing to misprice a valid deposit/redeem and steal or freeze funds? Do not rely on false third-party oracle data, an attacker-chosen oracle, or privileged registry changes.",
+    "High/Critical. In v3/src/core/ProvisionerV2.sol and MultiDepositorVault.sol, can a normal holder use the sync redemption cap, refund lock, cancellation fee, or yield-source pull path to make honest holders' assets or unclaimed yield permanently inaccessible? Establish the exact repeatable public transaction and affected balance.",
+    "High/Critical. In v1/AeraVaultV1.sol, v2/AeraVaultV2.sol, v2/AeraVaultAssetRegistry.sol, v2/AeraVaultHooks.sol, and v2/periphery/LlamaPayRouterOracle.sol, can an ordinary external caller exploit a public deposit/withdraw/claim/stream path to steal or freeze assets or unclaimed yield in a deployed, bounty-listed legacy vault? Exclude owner, guardian, and treasury-only actions and check current deployment relevance.",
+    "Critical/High blind spot. Across v3/src/core/ProvisionerV2.sol, MultiDepositorVault.sol, BaseVault.sol, CallbackHandler.sol, and core/libraries, test a normal user's valid sequence that crosses modules or transaction boundaries: a check binds a request, unit lock, price, receiver, callback, or asset balance to one state, then a later public action consumes different state. Find an overlooked route to theft or permanent freezing, with an in-scope deployed asset and no privileged actor.",
 ]
 
 
@@ -206,114 +170,49 @@ scope_scan = [
 
 
 def question_generator(target_file: str) -> str:
-    """
-    Generate exploit-focused audit and fuzzing questions for one agave target.
+    """Generate Aera exploit questions for one exact file and scope."""
+    prompt = f"""Generate 40-80 distinct, high-signal Aera security questions for:
+{target_file}
 
-    ```
-    target_file format:
-    "'File Name: svm/src/account_loader.rs -> Scope: Critical. ...'"
-    """
+Treat `File Name:` as the exact target and `Scope:` as the only target impact. Use full repo context and exact Solidity functions. Start each question with a real unprivileged action: deposit, mint, request/cancel/refund, redeem, withdraw, transfer, approve, claim, public callback, or other actually callable entry point. State attacker-owned inputs/units, transaction sequence, failed invariant, affected user funds or yield, and a local-fork/Foundry proof assertion. Trace through connected contracts. Prefer direct theft or permanent freezing; include temporary freezing when the live bounty accepts it. Do not force questions where this file has no reachable path.
 
-    prompt = f"""
-    ```
+No owner, guardian, accountant, solver, treasury, privileged key, role collusion, malicious peer/node, faulty third-party oracle/token, or `execute` by treasury. No MEV-only, generic unbounded memory/gas, config, test/mock/generated, or speculative issue. Respect Aera's live Immunefi assets, impacts, exclusions, and SECURITY.md/Researcher.Md when present. Avoid repeats and known disclosed findings; do not ask for files.
 
-    Generate exploit-focused security audit questions for this exact agave target:
-
-    {target_file}
-
-    Project focus:
-    agave is the Solana validator. Focus only on what an ordinary user reaches by submitting a signed, fee-paying transaction (including deploying and invoking their own BPF program): sanitization and sigverify, precompiles, blockhash/nonce replay protection, fee and compute-budget accounting, account loading and lamport/rent conservation, SVM execution, CPI privilege propagation, syscalls and VM memory, the system/vote/bpf_loader builtins, bank commit and accounts lt hash determinism, stake and reward accounting, and leader-side cost/QoS limits.
-
-    Rules:
-    * Treat `File Name:` as the exact file/module.
-    * Treat `Scope:` as the ONLY impact to target.
-    * Assume full repo context is accessible.
-    * Do not ask for code or say anything is missing.
-    * Use exact Rust symbols (fn, method, struct, enum, field) when possible.
-    * Attacker is unprivileged only: any keypair holder who can pay fees and submit a transaction, deploy and invoke their own BPF program, or create and own stake/vote/token accounts. They sign only for their own keys.
-    * Attacker is NOT a validator, leader, node operator, host or DB owner, RPC operator, or upgrade authority of someone else's program. Never assume a malicious peer, malicious leader, malicious node, gossip/turbine/shred/QUIC network attacker, crafted snapshot, Geyser plugin, misconfiguration, or social engineering.
-    * Out of scope, never ask about: votor/Alpenglow crates, loader-v4, the VM interpreter, RPC endpoints, snapshots, gossip/turbine/repair, metrics, dependencies.
-    * Ignore test files, mocks, fuzz harnesses, benches, docs, generated code, and TOML/config-only findings.
-    * Every question must describe a real transaction an attacker actually sends. No generic unbounded-allocation, memory-growth, cache-size, or resource-exhaustion speculation; no "what if the input is huge" questions without a concrete signed transaction and a concrete broken invariant.
-    * Generate 40 to 80 high-signal questions.
-    * At least 70% must target theft or creation of lamports without the owner's signature, CPI/privilege escalation, consensus divergence between validators, stake or reward corruption, replay or free execution, or a transaction-triggered validator panic that halts the cluster.
-    * Every question must be testable by a Rust unit test, an SVM/program-test integration test, or a bank-level test.
-    * Avoid generic checklist questions and repeated root causes.
-
-    Core invariants:
-    * Authorization is exact: an account is debited, reassigned, or written only when a required signer signed the transaction, and CPI never grants privileges the caller did not hold.
-    * Value is conserved: lamports in equals lamports out plus fees and rent; failed transactions leave only the intended fee and nonce effects.
-    * Determinism holds: every validator replaying the same block reaches the same accounts, hash, and capitalization, regardless of order, caching, or timing.
-    * Replay protection is sound: a signed transaction executes at most once and only within a valid blockhash or nonce window, and always pays its fee.
-    * Accounting is honest: charged compute, cost-model cost, stake weight, and reward payout match the real work and real on-chain state.
-    * Execution is total: no attacker-supplied transaction can panic, overflow, or abort block processing.
-
-    Each question must include:
-    1. target function/method;
-    2. attacker action (a concrete transaction: instructions, accounts, signers, data);
-    3. preconditions (accounts the attacker owns and funds);
-    4. execution sequence;
-    5. invariant tested;
-    6. scoped impact;
-    7. proof idea.
-
-    Output only valid Python. No markdown. No explanations.
-
-    questions = [
-    "[File: {target_file}] [Function: symbol_or_method] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger EXECUTION_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: unit/SVM/bank test PARAMETERS and assert AUTHORIZATION_EXACTNESS, VALUE_CONSERVATION, DETERMINISM, REPLAY_PROTECTION, HONEST_ACCOUNTING, or TOTAL_EXECUTION.",
-    ]
-    """
+Output only valid Python:
+questions = [
+    "[File: {target_file}] [Function: exact_symbol] Can an ordinary user perform SPECIFIC_TRANSACTION and SEQUENCE to violate INVARIANT and cause SCOPED_IMPACT? Proof: local-fork/Foundry setup and decisive assertion.",
+]
+"""
     return prompt
 
 
 def audit_format(security_question: str) -> str:
-    """
-    Generate a focused agave exploit-validation prompt.
-    """
-
+    """Generate an Aera exploit validation prompt."""
     prompt = f"""# SECURITY AUDIT PROMPT
 
 ## Question
 {security_question}
 
 ## Rules
-- Use existing repo context only. Analyze only this question and scoped impact.
-- Attacker is unprivileged only: any keypair holder who submits a signed, fee-paying transaction, deploys and invokes their own BPF program, or owns stake/vote/token accounts. No validator, leader, operator, host, RPC, or foreign upgrade-authority access.
-- Reject malicious-peer, malicious-leader, malicious-node, gossip/turbine/repair/QUIC network, snapshot, Geyser, operator-only, host-level, and misconfiguration-only paths.
-- Reject votor/Alpenglow, loader-v4, VM interpreter, RPC, metrics, dependency-only, and test/mock/bench/docs/generated/config-only findings.
-- Reject generic unbounded-allocation or resource-growth claims with no concrete transaction and no broken invariant.
-- Focus on real cluster impact: theft or minting of lamports without the owner's signature, CPI privilege escalation, consensus divergence between validators, stake or reward corruption, replay or free execution, or a transaction that halts block processing.
-
-## Validate
-- Trace the exact reachable path from the attacker's transaction (instructions, accounts, signers, data) into the affected function.
-- Check whether sanitization, sigverify, feature gates, account privilege checks, balance and rent checks, or existing error handling already stop it.
-- Confirm the path is reachable on the default feature set of current mainnet-beta behavior.
-- Accept only concrete unsigned fund movement, privilege escalation, state divergence, corrupted stake/reward accounting, replay, or cluster-wide stall.
-- Require exact file/function support and a reproducible Rust unit, SVM, program-test, or bank-level PoC.
+Analyze this question only in in-scope deployed Aera production contracts. An attacker is an ordinary user with their own tokens, shares, approvals, and transactions; no privileged role or key. Trace the actual public entry point through provisioner, vault, price/fee, hook, callback, and oracle code as relevant. Check access control, hashes, locks, accounting, rounding, caps, freshness, reentrancy, and existing reverts. Exclude malicious guardian/accountant/solver, role collusion, treasury `execute`, faulty external oracle/token, MEV-only, peer/node, and test/config-only paths. Apply live Immunefi scope and SECURITY.md/Researcher.Md where present. Require a concrete in-scope loss or freeze and a local-fork or Foundry PoC; do not invent impact.
 
 ## Output
 If valid, output exactly:
 
 ### Title
 [Bug statement] - ([File: file_path])
-
 ### Summary
 [2-3 sentences]
-
 ### Finding Description
-[Code path, root cause, attacker transaction inputs, exploit flow, and why checks fail]
-
+[Exact functions, attacker transaction, root cause, and failed checks]
 ### Impact Explanation
-[Concrete scoped impact and matching Solana bounty category: Loss of Funds, Consensus/Safety Violation, Liveness, or DoS via non-RPC protocols]
-
+[Funds or yield affected; live bounty impact and severity]
 ### Likelihood Explanation
-[Preconditions, accounts and funds needed, feasibility, repeatability]
-
+[Realistic attacker prerequisites and repeatability]
 ### Recommendation
 [Specific fix]
-
 ### Proof of Concept
-[Rust unit/SVM/bank test plan with expected assertions]
+[Minimal local-fork/Foundry steps and decisive assertions]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
@@ -324,114 +223,70 @@ No extra text.
 
 
 def validation_format(report: str) -> str:
-    """
-    Generate a strict bounty-style validation prompt for agave security claims.
-    """
+    """Validate an Aera report against the live bounty."""
     prompt = f"""# VALIDATION PROMPT
 
 ## Security Claim
 {report}
 
-## Rules
-- Validate only the submitted claim.
-- Check SECURITY.md and Researcher.Md for scope, exclusions, and valid impact classes.
-- Do not create a new vulnerability if the submitted claim is weak or invalid.
-- Do not upgrade severity unless the provided evidence proves the higher impact.
-- Reject malicious-peer, malicious-leader, malicious-node, network-layer, snapshot, Geyser plugin, operator-only, host-level, misconfiguration, dependency-only, docs/style, generated-file, and test/mock/bench/config-only issues.
-- Reject votor/Alpenglow crates, loader-v4, VM interpreter, RPC service, metrics, and bootstrap-phase-only issues, per SECURITY.md exclusions.
-- Reject if the exploit needs validator, leader, operator, host, or database access, a foreign upgrade authority, victim social engineering, a non-default feature set, or anything outside what an unprivileged keypair holder can put in a submitted transaction.
-- Reject if the bug was fixed, acknowledged, or publicly disclosed already, per the eligibility rules.
-- A valid report must be triggerable by an unprivileged transaction sender, unless the claim proves escalation from that starting point.
-- The final impact must map to an in-scope Solana category: Loss of Funds (theft without the user's signature, including system/stake/vote programs), Consensus/Safety Violation, Liveness/loss of availability requiring human intervention, or remote resource exhaustion via non-RPC protocols.
-- Prefer #NoVulnerability over speculative reports.
+Validate only this claim against deployed assets and current Aera Immunefi rules; read SECURITY.md and Researcher.Md if present. Require exact production file/function/line evidence, a reachable ordinary-user transaction, why guards fail, affected balance, and reproducible local-fork/Foundry PoC. Check prior public audits/disclosures and current deployment. Reject privileged guardian/accountant/solver/treasury paths, role collusion, treasury `execute`, faulty oracle or third-party token, MEV-only, peer/node, test/mock/generated/config-only, and hypothetical loss. Do not replace a weak claim with a new one.
 
-## Required Validation Checks
-All must pass:
-1. Exact in-scope file, function, and line/code references.
-2. Clear root cause and broken security assumption.
-3. Reachable exploit path: preconditions (attacker-owned accounts and funds) -> submitted transaction -> trigger -> bad result.
-4. Existing sanitization, sigverify, privilege checks, balance/rent checks, feature gates, and error handling reviewed and shown insufficient.
-5. Concrete in-scope impact with realistic likelihood.
-6. Reproducible proof path: Rust unit PoC, SVM/program-test integration test, bank-level test, or exact transaction steps against a local cluster.
-7. No obvious rejection reason from SECURITY.md, known issues, privilege assumptions, or scope exclusions.
+Accepted impacts: Critical direct theft of user funds or permanent freezing of funds; Critical/High theft or permanent freezing of unclaimed yield; Medium temporary freezing of funds or yield for less than one week. Use the live program's impact/likelihood rules for final severity; do not discard a proven Medium. Report only if the asset and impact are in scope.
 
-## Silent Triage Questions
-Before output, internally answer:
-- Can an ordinary fee-paying user trigger this with a transaction, without validator, operator, or host access?
-- Does the code actually behave as claimed under the currently active feature set?
-- Is the impact caused by this code, not by a malicious peer, snapshot, plugin, or dependency?
-- Is the theft, divergence, replay, or halt concrete rather than hypothetical?
-- Would a Solana Foundation triager accept the proof-of-concept?
-- What exact test would prove it?
-
-## Output
 If valid, output exactly:
-
 Audit Report
 
 ## Title
-[Clear vulnerability statement] - ([File: file_path])
-
+[Bug statement] - ([File: file_path])
 ## Summary
-[2-3 sentence summary of the bug and impact]
-
+[2-3 sentences]
 ## Finding Description
-[Exact code path, root cause, exploit flow, and why existing checks fail]
-
+[Code path, root cause, exploit, failed checks]
 ## Impact Explanation
-[Concrete in-scope impact, severity rationale, and Solana bounty category]
-
+[Amount, impact class, severity rationale]
 ## Likelihood Explanation
-[Attacker capability, accounts and funds required, feasibility, repeatability]
-
+[Attacker prerequisites and feasibility]
 ## Recommendation
-[Specific fix guidance]
-
+[Specific fix]
 ## Proof of Concept
-[Minimal reproducible steps or Rust unit/SVM/bank test plan]
+[Reproducible local-fork/Foundry steps and assertions]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
 
-Output only one of the two outcomes above. No extra text.
+No extra text.
 """
     return prompt
 
 
 def scan_format(report: str) -> str:
-    """
-    Generate a short cross-project analog scan prompt for agave.
-    """
+    """Scan Aera for a reachable analog of an external report."""
     prompt = f"""# ANALOG SCAN PROMPT
 
 ## External Report
 {report}
 
-## Rules
-- Use in-scope production repo context only. Do not ask for code or claim missing files.
-- Use the external report only as a bug-class hint, not as proof.
-- Keep only analogs an unprivileged transaction sender can reach: sanitization and sigverify, precompiles, blockhash/nonce replay protection, fee and compute-budget accounting, account loading and lamport/rent conservation, SVM execution and CPI privilege propagation, syscalls and VM memory, system/vote/bpf_loader builtins, bank commit determinism, stake and reward accounting, or leader-side cost limits.
-- Reject malicious-peer, malicious-leader, network-layer, snapshot, Geyser, operator-only, votor/Alpenglow, loader-v4, interpreter, RPC, mocked-only paths, dependency-only bugs, and no-impact analogs.
+Use the report only to extract its root-cause pattern, required preconditions, and broken invariant. Search Aera production code for a real analog on deployed, bounty-listed assets. Prioritize ProvisionerV2 deposit/mint/request/solveRequestsDirect/cancel/refund/redeem/withdraw, MultiDepositorVault share mint/burn/transfer/locks, BaseVault submit/callback checks where publicly reachable, price/fee conversion, and oracle quote binding; inspect v1/v2 paths only where deployed and in scope. Map the pattern to exact functions and the strongest ordinary-user transaction sequence. Test each guard, state transition, and cross-contract assumption; check whether an alternate public path bypasses a protection. A shared keyword or conceptual similarity is insufficient.
 
-## Validate
-- Map the bug class to the strongest reachable agave path from a single submitted transaction.
-- Prove root cause with exact file/function support.
-- Accept only concrete unsigned fund movement or minting, CPI privilege escalation, consensus divergence between validators, stake or reward corruption, replay or free execution, or a transaction-triggered cluster halt.
+No privileged guardian/accountant/solver/treasury, role collusion, treasury `execute`, malicious peer/node, faulty third-party oracle/token, MEV-only, or generic unbounded resource claim. Require concrete theft or freezing of user funds or unclaimed yield, live Immunefi impact/severity (including Medium temporary freezes), and a local-fork/Foundry PoC. Follow SECURITY.md/Researcher.Md if present. Do not ask for code, report known disclosed issues, or manufacture an analog.
 
-## Output (Strict)
-If valid analog exists, output:
-
+If valid, output exactly:
 ### Title
-[Clear vulnerability statement] - ([File: file_path])
-
+[Bug statement] - ([File: file_path])
 ### Summary
+[2-3 sentences]
 ### Finding Description
+[Exact path, ordinary-user inputs, root cause, failed guards]
 ### Impact Explanation
+[Funds/yield affected and live bounty severity]
 ### Likelihood Explanation
+[Prerequisites and feasibility]
 ### Recommendation
+[Specific fix]
 ### Proof of Concept
+[Minimal local-fork/Foundry steps and decisive assertions]
 
-If not, output exactly:
+If none, output exactly:
 #NoVulnerability found for this question.
 
 No extra text.
