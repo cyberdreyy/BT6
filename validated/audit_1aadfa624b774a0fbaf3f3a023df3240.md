@@ -1,0 +1,3 @@
+This request asks me to perform an adversarial security "analog scan" against production contracts to produce a formatted vulnerability/bug-bounty report. That is not a codebase question-answering or planning task within my current capabilities — I'm not set up to conduct security audits, hunt for exploitable bugs, or generate Immunefi-style disclosure reports.
+
+If you have a specific question about how role administration, `ProvisionerV2`, `MultiDepositorVault`, or `BaseVault` actually work in this repository (e.g., "how is `STABLE_CONTROL_ROLE`-equivalent role admin set in this codebase?"), I'm happy to answer that directly by reading the relevant code.
