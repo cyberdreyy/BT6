@@ -4,11 +4,11 @@ import os
 from decouple import config
 
 # todo: if scope_files is: 500 > 50, 300 > 30 , 100 > 10
-MAX_REPO = 20
+MAX_REPO = 12
 # todo: the GitLab namespace/project path, for example group/project
-SOURCE_REPO = 'aera-finance/aera-contracts-public'
+SOURCE_REPO = 'Idle-Labs/idle-tranches'
 # todo: the name of the repository
-REPO_NAME = 'aera-contracts-public'
+REPO_NAME = 'idle-tranches'
 
 run_number = os.environ.get('GITHUB_RUN_NUMBER', '0')
 
@@ -47,121 +47,51 @@ else:
         BASE_URL = f"https://deepwiki.com/{SOURCE_REPO}"
 
 scope_files = [
-    # v1 first-party contracts, libraries, and interfaces
-    "v1/AeraVaultV1.sol",
-    "v1/PermissiveWithdrawalValidator.sol",
-    "v1/interfaces/IAeraVaultV1.sol",
-    "v1/interfaces/IBManagedPool.sol",
-    "v1/interfaces/IBManagedPoolController.sol",
-    "v1/interfaces/IBManagedPoolFactory.sol",
-    "v1/interfaces/IBMerkleOrchard.sol",
-    "v1/interfaces/IBVault.sol",
-    "v1/interfaces/IGuardianAPI.sol",
-    "v1/interfaces/IMultiAssetVault.sol",
-    "v1/interfaces/IProtocolAPI.sol",
-    "v1/interfaces/IUserAPI.sol",
-    "v1/interfaces/IWithdrawalValidator.sol",
+    # =================================================================================
+    # Credit Vault contract (CDO): epoch lifecycle, deposits, withdraw requests, default handling
+    # =================================================================================
+    "contracts/IdleCDOEpochVariant.sol",
+    "contracts/IdleCDOEpochVariantPrefunded.sol",
+    "contracts/IdleCDOCreditVault.sol",
+    "contracts/GuardedLaunchUpgradable.sol",
+    "contracts/IdleCDOStorage.sol",
 
-    # v2 first-party contracts, libraries, and interfaces
-    "v2/AeraV2Factory.sol",
-    "v2/AeraVaultAssetRegistry.sol",
-    "v2/AeraVaultHooks.sol",
-    "v2/AeraVaultModulesFactory.sol",
-    "v2/AeraVaultV2.sol",
-    "v2/Constants.sol",
-    "v2/Sweepable.sol",
-    "v2/TargetSighashLib.sol",
-    "v2/Types.sol",
-    "v2/interfaces/IAeraV2Factory.sol",
-    "v2/interfaces/IAeraVaultAssetRegistryFactory.sol",
-    "v2/interfaces/IAeraVaultHooksEvents.sol",
-    "v2/interfaces/IAeraVaultHooksFactory.sol",
-    "v2/interfaces/IAssetRegistry.sol",
-    "v2/interfaces/IHooks.sol",
-    "v2/interfaces/ISweepable.sol",
-    "v2/interfaces/IVault.sol",
-    "v2/interfaces/IVaultEvents.sol",
-    "v2/periphery/AbstractAssetOracle.sol",
-    "v2/periphery/Executor.sol",
-    "v2/periphery/LlamaPayRouterOracle.sol",
-    "v2/periphery/Math.sol",
-    "v2/periphery/interfaces/IAeraV2Oracle.sol",
-    "v2/periphery/interfaces/IExecutor.sol",
-    "v2/periphery/interfaces/ILlamaPayRouterOracle.sol",
-    "v2/periphery/interfaces/ILlamaPayRouterOracleTypes.sol",
+    # =================================================================================
+    # Credit Vault LP token (AA/BB tranches)
+    # =================================================================================
+    "contracts/IdleCDOTranche.sol",
 
-    # v3 first-party contracts, libraries, and interfaces
-    "v3/src/core/Auth2Step.sol",
-    "v3/src/core/BaseFeeCalculator.sol",
-    "v3/src/core/BaseVault.sol",
-    "v3/src/core/BaseVaultDeployer.sol",
-    "v3/src/core/BaseVaultFactory.sol",
-    "v3/src/core/CallbackHandler.sol",
-    "v3/src/core/Constants.sol",
-    "v3/src/core/DelayedFeeCalculator.sol",
-    "v3/src/core/FeeVault.sol",
-    "v3/src/core/FeeVaultDeployer.sol",
-    "v3/src/core/HasNumeraire.sol",
-    "v3/src/core/MultiDepositorVault.sol",
-    "v3/src/core/MultiDepositorVaultDeployDelegate.sol",
-    "v3/src/core/MultiDepositorVaultFactory.sol",
-    "v3/src/core/PriceAndFeeCalculatorV2.sol",
-    "v3/src/core/ProvisionerV2.sol",
-    "v3/src/core/SingleDepositorVault.sol",
-    "v3/src/core/SingleDepositorVaultDeployDelegate.sol",
-    "v3/src/core/SingleDepositorVaultFactory.sol",
-    "v3/src/core/Sweepable.sol",
-    "v3/src/core/Types.sol",
-    "v3/src/core/VaultAuth.sol",
-    "v3/src/core/Whitelist.sol",
-    "v3/src/core/interfaces/IAuth2Step.sol",
-    "v3/src/core/interfaces/IBaseFeeCalculator.sol",
-    "v3/src/core/interfaces/IBaseVault.sol",
-    "v3/src/core/interfaces/IBaseVaultDeployer.sol",
-    "v3/src/core/interfaces/IBaseVaultFactory.sol",
-    "v3/src/core/interfaces/IBeforeTransferHook.sol",
-    "v3/src/core/interfaces/ICallbackHandler.sol",
-    "v3/src/core/interfaces/IDelayedFeeCalculator.sol",
-    "v3/src/core/interfaces/IFeeCalculator.sol",
-    "v3/src/core/interfaces/IFeeVault.sol",
-    "v3/src/core/interfaces/IFeeVaultDeployer.sol",
-    "v3/src/core/interfaces/IHasNumeraire.sol",
-    "v3/src/core/interfaces/IMultiDepositorVault.sol",
-    "v3/src/core/interfaces/IMultiDepositorVaultFactory.sol",
-    "v3/src/core/interfaces/IPriceAndFeeCalculatorV2.sol",
-    "v3/src/core/interfaces/IProvisionerV2.sol",
-    "v3/src/core/interfaces/ISingleDepositorVault.sol",
-    "v3/src/core/interfaces/ISingleDepositorVaultFactory.sol",
-    "v3/src/core/interfaces/ISolvingGate.sol",
-    "v3/src/core/interfaces/ISubmitHooks.sol",
-    "v3/src/core/interfaces/ISweepable.sol",
-    "v3/src/core/interfaces/IVaultDeployDelegate.sol",
-    "v3/src/core/interfaces/IVersioned.sol",
-    "v3/src/core/interfaces/IWhitelist.sol",
-    "v3/src/core/libraries/CalldataExtractor.sol",
-    "v3/src/core/libraries/CalldataReader.sol",
-    "v3/src/core/libraries/Pipeline.sol",
-    "v3/src/periphery/Constants.sol",
-    "v3/src/periphery/Executor.sol",
-    "v3/src/periphery/OracleRegistry.sol",
-    "v3/src/periphery/interfaces/IExecutor.sol",
-    "v3/src/periphery/interfaces/IOracleRegistry.sol",
-    "v3/src/periphery/libraries/HooksLibrary.sol",
+    # =================================================================================
+    # Credit Vault strategy: receipts, claims, loss and default recovery reserve
+    # =================================================================================
+    "contracts/strategies/idle/IdleCreditVault.sol",
 
+    # =================================================================================
+    # Borrower side: programmable borrower and its ERC4626 idle-liquidity sleeve
+    # =================================================================================
+    "contracts/strategies/idle/ProgrammableBorrower.sol",
+
+    # =================================================================================
+    # User-facing periphery: write-off escrow, KYC gate, default distribution, implied price
+    # =================================================================================
+    "contracts/IdleCreditVaultWriteOffEscrow.sol",
+    "contracts/KeyringIdleWhitelist.sol",
+    "contracts/DefaultDistributor.sol",
+    "contracts/IdleCreditVaultImpliedPrice.sol",
 ]
 
 
 target_scopes = [
-    "Critical. In v3/src/core/ProvisionerV2.sol and MultiDepositorVault.sol, can an ordinary depositor use deposit/mint/redeem/withdraw with chosen token, amount, receiver, and allowance to mint unbacked units, burn another holder's units, or withdraw more vault assets than paid for? Trace pricing, rounding, cap accounting, and enter/exit authorization to direct theft of user funds.",
-    "Critical. In v3/src/core/ProvisionerV2.sol, can a user who created an async request use requestDeposit/requestRedeem, cancelRequest, or refundRequest with crafted request fields or repeated calls to recover escrow while keeping units or assets, or claim another user's escrow? Trace request hashes, sender/receiver binding, deadlines, and fee transfers to direct theft or permanent freezing of funds.",
-    "Critical. In v3/src/core/ProvisionerV2.sol and PriceAndFeeCalculatorV2.sol, can a normal user choose sync or async entry and exit timing, token, and amount to exploit price conversion, stale prices, fee accrual, or cap resets and extract value from other vault holders? Require an actual pricing/accounting code flaw, not a faulty oracle or ordinary market movement.",
-    "Critical. In v3/src/core/MultiDepositorVault.sol, v3/src/core/ProvisionerV2.sol, and v3/src/core/interfaces/IBeforeTransferHook.sol, can a share holder transfer, approve, deposit for a receiver, or redeem through a valid public route that evades unit locks or transfer restrictions, steals another holder's claim, or permanently traps holder funds? Test receiver approvals and hook behavior without assuming a malicious hook administrator.",
-    "Critical. In v3/src/core/BaseVault.sol, CallbackHandler.sol, libraries/CalldataReader.sol, libraries/CalldataExtractor.sol, and libraries/Pipeline.sol, can an unprivileged caller craft submit calldata or a public callback to bypass caller, proof, operation, or callback validation and move vault assets? Prove the path is reachable without a guardian/solver key or a malicious guardian/solver.",
-    "High/Critical. In v3/src/core/FeeVault.sol, BaseFeeCalculator.sol, DelayedFeeCalculator.sol, and PriceAndFeeCalculatorV2.sol, can a normal user manipulate supply, token balances, or call timing through permitted actions so fee accrual or claimFees/claimProtocolFees transfers unearned funds or permanently freezes earned yield? Check fee recipient and vault binding; exclude accountant control.",
-    "High/Critical. In v3/src/core/ProvisionerV2.sol, v3/src/core/PriceAndFeeCalculatorV2.sol, and v3/src/periphery/OracleRegistry.sol, can a public caller exploit quote direction, unit/decimal conversion, user-specific override identity, or public commit timing to misprice a valid deposit/redeem and steal or freeze funds? Do not rely on false third-party oracle data, an attacker-chosen oracle, or privileged registry changes.",
-    "High/Critical. In v3/src/core/ProvisionerV2.sol and MultiDepositorVault.sol, can a normal holder use the sync redemption cap, refund lock, cancellation fee, or yield-source pull path to make honest holders' assets or unclaimed yield permanently inaccessible? Establish the exact repeatable public transaction and affected balance.",
-    "High/Critical. In v1/AeraVaultV1.sol, v2/AeraVaultV2.sol, v2/AeraVaultAssetRegistry.sol, v2/AeraVaultHooks.sol, and v2/periphery/LlamaPayRouterOracle.sol, can an ordinary external caller exploit a public deposit/withdraw/claim/stream path to steal or freeze assets or unclaimed yield in a deployed, bounty-listed legacy vault? Exclude owner, guardian, and treasury-only actions and check current deployment relevance.",
-    "Critical/High blind spot. Across v3/src/core/ProvisionerV2.sol, MultiDepositorVault.sol, BaseVault.sol, CallbackHandler.sol, and core/libraries, test a normal user's valid sequence that crosses modules or transaction boundaries: a check binds a request, unit lock, price, receiver, callback, or asset balance to one state, then a later public action consumes different state. Find an overlooked route to theft or permanent freezing, with an in-scope deployed asset and no privileged actor.",
+    "Critical. A lender mints more AA/BB tranche tokens than the underlying they add is worth, because _deposit/_mintSharesAtCurrPrice price at a stale or zero-supply tranchePrice, or depositDuringEpoch's discounted mint ((amount + trancheInterest) * supply / expectedFinal) mis-derives expectedEpochInterest, pendingWithdrawFees, management fee or remaining time, letting the depositor redeem at epoch end more principal or interest than they funded and directly stealing other LPs' deposits.",
+    "Critical. A withdraw receipt is worth more than the NAV it removes, because requestWithdraw (including _amount == 0 full-balance mode), _calcInterestWithdrawRequest, _totalWithdrawFees, interestForOverUnderPerformance, or the instant path taken when lastEpochApr > unscaledApr + instantWithdrawAprDelta over-credits interest or under-charges fees versus the _withdrawOps burn, so the claim at stopEpoch is paid from other LPs' principal and leaves the vault insolvent.",
+    "Critical. The same receipt is paid twice, early, or at the wrong price, because IdleCreditVault claimWithdrawRequest/claimInstantWithdrawRequest, lastWithdrawRequest/epochNumber gating, withdrawsRequestsByEpoch, apr0Users settlement (_settleApr0/_requestWithdrawApr0/prepareStopEpochWithApr0), lossRecoveryPriceByEpoch or _clearWithdrawClaimForEpoch lets a lender stack or reorder requests across epochs and withdraw underlying that belongs to other receipts or to the default recovery reserve.",
+    "Critical. Balance-derived accounting is steered from outside, because getContractValue/_managedContractValue, unclaimedFees, lastNAVAA/lastNAVBB, _skimDonatedAssets placement, _virtualPriceAux or _forceUpdateAccounting read raw underlying or strategy-token balances that a direct transfer, a zero-amount call, or an ordering of permissionless calls can shift, re-pricing tranches in the attacker's favor or tripping the Default revert or emergency path to freeze every depositor.",
+    "Critical. A lender extracts more than their pro-rata share after a borrower default, or leaves others unable to claim, because _handleBorrowerDefault, finalizeDefault, finalizeDefaultRecovery, defaultPendingClaimBasis, _defaultPrefundedInstantReserve, _defaultBBBasis, postDefaultRequests, _claimDefaultedWithdrawRequest/_claimDefaultedInstantWithdrawRequest, _transferFundedClaim or _transferDefaultRecovery mis-split recovered funds between active LPs, pending receipts and instant receipts, draining defaultRecoveryReserve and permanently freezing the remaining claimants.",
+    "Critical. A lender escapes a realized loss or pushes it onto others, because stopEpochWithDuration's _lossAmount path, previewLossAdjustedWithdrawFunds, collectWithdrawFunds, the BB-first waterfall in _virtualPriceAux, the shutdown in _updateAccounting/_emergencyShutdown, or restoreOperations let them lock a par receipt, redeem, or keep a pre-loss price before the loss is crystallized, stealing principal from the remaining AA/BB holders.",
+    "High. Unclaimed yield or fees are stolen, because _calcInterest/_calcInterestWithApr truncation, trancheAPRSplitRatio and _updateSplitRatio with AYS, _calcTrancheInterestShare, _accrueManagementFee/_calculateManagementFee, minted-interest mode (isInterestMinted, mintStrategyTokens, fee shares minted to feeReceiver/owner) or lastEpochInterest let a lender time deposits, withdraw requests or tranche choice to capture interest accrued by other LPs, or permanently strand it.",
+    "Critical. Any user reaches a state-changing path meant only for the CDO, borrower, manager or owner, or the periphery moves value it should not, because only-CDO checks and the _transfer override in IdleCreditVault, IdleCDOTranche mint/burn, the self-call guards on sendFundsToBorrower/getFundsFromBorrower, writeOffDeposit's borrower check, initializers on proxies and implementations, IdleCreditVaultWriteOffEscrow create/delete/fullfillWriteOffRequest accounting, DefaultDistributor claim/rate, or KeyringIdleWhitelist/isWalletAllowed are bypassable, letting tokens be minted, burned, moved or claimed without the matching underlying.",
+    "Critical. Programmable-borrower or prefunded-epoch accounting mints value that has no backing, because ProgrammableBorrower's totalInterestDueNow, vaultInterestAccrued, vaultLoss or borrowerInterestOwedNow read an ERC4626 share price or balance an outside party can move, or onStartEpoch/onStopEpoch/settleBorrowerInterest/_depositToVault and IdleCDOEpochVariantPrefunded's _beforeStopEpoch/_afterStopEpochWithDuration/checkPrefunding mis-sequence principal, so tranche prices rise on unrealized interest, a healthy vault is flipped to defaulted, or LP principal becomes unredeemable.",
+    "Critical/High blind spot. A lender breaks an assumption the credit vault never wrote down: a value computed in one epoch phase (live, buffer, closed with epochDuration == 0, defaulted, finalized, emergency) and trusted in another; per-user state keyed by one epoch but settled in another; an invariant checked on the ordinary path but not on its instant, APR0, minted-interest, prefunded, programmable, closed-pool or post-default twin; tranche tokens, receipts or escrowed positions changing hands between KYC-gated steps; or a rounding or ordering gap that repeats every epoch. Any of these must yield theft of principal or yield, protocol insolvency, or permanent or temporary freezing of funds.",
 ]
 
 
@@ -170,49 +100,108 @@ scope_scan = [
 
 
 def question_generator(target_file: str) -> str:
-    """Generate Aera exploit questions for one exact file and scope."""
-    prompt = f"""Generate 40-80 distinct, high-signal Aera security questions for:
-{target_file}
+    """
+    Generate exploit-focused audit questions for one idle-tranches (Pareto Credit Vault) target.
 
-Treat `File Name:` as the exact target and `Scope:` as the only target impact. Use full repo context and exact Solidity functions. Start each question with a real unprivileged action: deposit, mint, request/cancel/refund, redeem, withdraw, transfer, approve, claim, public callback, or other actually callable entry point. State attacker-owned inputs/units, transaction sequence, failed invariant, affected user funds or yield, and a local-fork/Foundry proof assertion. Trace through connected contracts. Prefer direct theft or permanent freezing; include temporary freezing when the live bounty accepts it. Do not force questions where this file has no reachable path.
+    ```
+    target_file format:
+    "'File Name: contracts/IdleCDOEpochVariant.sol -> Scope: Critical. ...'"
+    """
 
-No owner, guardian, accountant, solver, treasury, privileged key, role collusion, malicious peer/node, faulty third-party oracle/token, or `execute` by treasury. No MEV-only, generic unbounded memory/gas, config, test/mock/generated, or speculative issue. Respect Aera's live Immunefi assets, impacts, exclusions, and SECURITY.md/Researcher.Md when present. Avoid repeats and known disclosed findings; do not ask for files.
+    prompt = f"""
+    ```
 
-Output only valid Python:
-questions = [
-    "[File: {target_file}] [Function: exact_symbol] Can an ordinary user perform SPECIFIC_TRANSACTION and SEQUENCE to violate INVARIANT and cause SCOPED_IMPACT? Proof: local-fork/Foundry setup and decisive assertion.",
-]
-"""
+    Generate exploit-focused security audit questions for this exact idle-tranches target:
+
+    {target_file}
+
+    Project focus:
+    idle-tranches holds the Pareto Credit Vaults: KYC-gated (Keyring) epoch vaults where lenders deposit USDC/USDT into AA/BB tranches (IdleCDOEpochVariant over IdleCDOCreditVault), funds go to an off-chain or programmable borrower for fixed-APR epochs, and exits are withdraw receipts in the IdleCreditVault strategy that are claimed after stopEpoch. Also covered: default recovery, loss waterfalls, fees, the write-off escrow and the default distributor.
+
+    Rules:
+    * Treat `File Name:` as the exact contract and `Scope:` as the ONLY impact to target.
+    * Assume full repo context is accessible. Do not ask for code or say anything is missing. Use exact Solidity symbols.
+    * Attacker is unprivileged only: any EOA or contract; a KYC-passing lender who deposits, calls depositDuringEpoch, requestWithdraw and the claims; a holder or recipient of freely transferable tranche tokens; anyone calling fullfillWriteOffRequest or DefaultDistributor.claim; anyone sending tokens directly to a contract; a normal user of the ERC4626 vault the programmable borrower uses.
+    * Owner, manager, guardian, borrower, Keyring admin, feeReceiver and the epoch queue are trusted. They may be front-run or back-run but never act maliciously. Treat their calls (startEpoch, stopEpoch*, finalizeDefault, setters) as honest and sequence the attacker around them.
+    * Out of scope, never ask: malicious owner/manager/borrower, freezing caused by a borrower default itself, IdleCDOEpochQueue internals, legacy/deprecated tranche and strategy contracts, governance/utilities, ERC-4626 wrappers, wrong third-party oracle data, stablecoin depeg, centralization, DoS/griefing with no fund impact, gas, best practices, anything acknowledged in prior audits.
+    * No unbounded-loop, memory, array-growth or "huge input" questions. Every question must be a concrete real-world sequence with real amounts, epoch phase and caller.
+    * Generate 40 to 80 high-signal questions. At least 70% must target direct theft of principal, protocol insolvency, or permanent freezing of funds. The rest target theft or permanent freezing of unclaimed yield, or temporary freezing.
+    * Cover every epoch phase: buffer (open), running, stopped, closed (epochEndDate == 0), defaulted, finalized, emergency shutdown. Also cover every mode: fixed-APR, APR0, minted interest, instant withdraw, prefunded, programmable borrower.
+    * Every question must be provable with a Foundry test (test/foundry, local mainnet fork). Avoid repeated root causes.
+
+    Core invariants:
+    * Solvency: underlying held by strategy + CDO + borrower obligations >= active tranche NAV + all unpaid receipts + unclaimedFees.
+    * Fair mint/burn: shares minted or burned move lastNAVAA/lastNAVBB by exactly the underlying value, at the correct price for the phase.
+    * One receipt, one payout: each withdraw/instant/APR0/post-default receipt is paid once, only when funded, at its own epoch's loss or recovery price.
+    * Waterfall: ordinary losses hit BB before AA, default recovery uses one aggregate multiplier, and no one can exit a loss by timing.
+    * Isolation: raw donations never become tranche gains, and the recovery reserve is never spent by ordinary claims.
+    * Access: only the CDO moves strategy tokens and mints or burns tranches, and only KYC'd wallets enter or request exits.
+
+    Each question must include:
+    1. target contract/function;
+    2. attacker action (calls, amounts, token transfers);
+    3. preconditions (epoch phase, mode, tranche balances, pending receipts);
+    4. execution sequence (including honest manager calls in between);
+    5. invariant tested;
+    6. scoped impact;
+    7. proof idea.
+
+    Output only valid Python. No markdown. No explanations.
+
+    questions = [
+    "[File: {target_file}] [Function: contract.function] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger EXECUTION_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: Foundry fork test PARAMETERS and assert SOLVENCY, FAIR_MINT_BURN, ONE_RECEIPT_ONE_PAYOUT, WATERFALL, ISOLATION, or ACCESS.",
+    ]
+    """
     return prompt
 
 
 def audit_format(security_question: str) -> str:
-    """Generate an Aera exploit validation prompt."""
+    """
+    Generate a focused idle-tranches exploit-validation prompt.
+    """
+
     prompt = f"""# SECURITY AUDIT PROMPT
 
 ## Question
 {security_question}
 
 ## Rules
-Analyze this question only in in-scope deployed Aera production contracts. An attacker is an ordinary user with their own tokens, shares, approvals, and transactions; no privileged role or key. Trace the actual public entry point through provisioner, vault, price/fee, hook, callback, and oracle code as relevant. Check access control, hashes, locks, accounting, rounding, caps, freshness, reentrancy, and existing reverts. Exclude malicious guardian/accountant/solver, role collusion, treasury `execute`, faulty external oracle/token, MEV-only, peer/node, and test/config-only paths. Apply live Immunefi scope and SECURITY.md/Researcher.Md where present. Require a concrete in-scope loss or freeze and a local-fork or Foundry PoC; do not invent impact.
+- Use existing repo context only. Analyze only this question and its scoped impact.
+- Attacker is unprivileged only: any EOA or contract, a KYC-passing lender, a tranche-token holder, a write-off fulfiller, a direct token sender, or a user of the programmable borrower's ERC4626 vault.
+- Owner, manager, guardian, borrower, Keyring admin, feeReceiver and the epoch queue are trusted. They may be front-run or back-run, but never act maliciously.
+- Reject: malicious privileged roles, freezing caused by a borrower default itself, IdleCDOEpochQueue internals, deprecated/legacy tranches and strategies, governance/utilities, ERC-4626 wrappers, third-party oracle data, depeg, centralization, DoS or gas without fund impact, unbounded-loop/memory speculation, issues acknowledged in prior audits, and test/mock/script/config findings.
+- Focus on real impact: theft of principal, protocol insolvency, permanent freezing, theft or permanent freezing of unclaimed yield, or temporary freezing of funds.
+
+## Validate
+- Trace the exact call path from the attacker's transaction through IdleCDOEpochVariant / IdleCDOCreditVault / IdleCreditVault (and the escrow, distributor or ProgrammableBorrower if involved).
+- Place it in a concrete epoch phase and mode, and interleave only honest startEpoch, stopEpoch*, getInstantWithdrawFunds or finalizeDefault calls.
+- Check whether _skimDonatedAssets, _updateAccounting, the whenNotPaused/allow*WithdrawRequest flags, epochNumber gating, isWalletAllowed, only-CDO checks or reserve checks already stop it.
+- Quantify: who loses how much, and whether it repeats.
+- Require a reproducible Foundry fork PoC.
 
 ## Output
 If valid, output exactly:
 
 ### Title
 [Bug statement] - ([File: file_path])
+
 ### Summary
 [2-3 sentences]
+
 ### Finding Description
-[Exact functions, attacker transaction, root cause, and failed checks]
+[Code path, root cause, attacker inputs, exploit flow, and why existing checks fail]
+
 ### Impact Explanation
-[Funds or yield affected; live bounty impact and severity]
+[Concrete impact and Immunefi category: Direct theft of funds, Protocol insolvency, Permanent freezing, Theft/Permanent freezing of unclaimed yield, or Temporary freezing]
+
 ### Likelihood Explanation
-[Realistic attacker prerequisites and repeatability]
+[Preconditions, epoch phase and mode, capital needed, repeatability]
+
 ### Recommendation
 [Specific fix]
+
 ### Proof of Concept
-[Minimal local-fork/Foundry steps and decisive assertions]
+[Foundry fork test plan with expected assertions]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
@@ -223,70 +212,123 @@ No extra text.
 
 
 def validation_format(report: str) -> str:
-    """Validate an Aera report against the live bounty."""
+    """
+    Generate a strict Immunefi-style validation prompt for idle-tranches (Pareto Credit Vault) claims.
+    """
     prompt = f"""# VALIDATION PROMPT
 
 ## Security Claim
 {report}
 
-Validate only this claim against deployed assets and current Aera Immunefi rules; read SECURITY.md and Researcher.Md if present. Require exact production file/function/line evidence, a reachable ordinary-user transaction, why guards fail, affected balance, and reproducible local-fork/Foundry PoC. Check prior public audits/disclosures and current deployment. Reject privileged guardian/accountant/solver/treasury paths, role collusion, treasury `execute`, faulty oracle or third-party token, MEV-only, peer/node, test/mock/generated/config-only, and hypothetical loss. Do not replace a weak claim with a new one.
+## Rules
+- Validate only the submitted claim. Check SECURITY.md and Researcher.Md for scope, exclusions and impact classes.
+- Do not invent a new vulnerability, and do not upgrade severity without proof.
+- In-scope assets: Pareto Credit Vault Contract (IdleCDOEpochVariant / IdleCDOEpochVariantPrefunded and their IdleCDOCreditVault base), Strategy (IdleCreditVault) and LP Token (IdleCDOTranche), plus the code they call (ProgrammableBorrower, write-off escrow, Keyring gate, DefaultDistributor).
+- Accepted impacts (Immunefi):
+  - Critical: direct theft of any user funds other than unclaimed yield; permanent freezing of funds; protocol insolvency; MEV that causes freezing or insolvency.
+  - High: theft of unclaimed yield; permanent freezing of unclaimed yield.
+  - Medium: contract unable to operate due to lack of token funds; temporary freezing of funds. Theft of yield is Medium or High depending on the amount at risk.
+- Reject Low, informational, gas and best-practice claims.
+- Reject anything that needs a malicious or compromised owner, manager, guardian, borrower, Keyring admin, feeReceiver or queue, or any other privileged address.
+- Reject: freezing of funds after a borrower default; Queue contracts (IdleCDOEpochQueue); paused, deprecated or decommissioned vaults and legacy tranches/strategies; governance, utilities and ERC-4626 wrappers; incorrect third-party oracle data (oracle manipulation and flash-loan attacks stay in scope); stablecoin depeg; Sybil, 51% or centralization attacks; DoS without fund impact; leaked keys; issues acknowledged in previous audits; and test/mock/script/config issues.
+- The attacker must be unprivileged: any EOA or contract, a KYC-passing lender, a tranche holder, a write-off fulfiller, or a direct token sender.
+- Prefer #NoVulnerability over speculation.
 
-Accepted impacts: Critical direct theft of user funds or permanent freezing of funds; Critical/High theft or permanent freezing of unclaimed yield; Medium temporary freezing of funds or yield for less than one week. Use the live program's impact/likelihood rules for final severity; do not discard a proven Medium. Report only if the asset and impact are in scope.
+## Required Validation Checks
+All must pass:
+1. Exact in-scope file, contract, function and line references.
+2. Clear root cause and broken invariant (solvency, fair mint/burn, one receipt one payout, loss waterfall, donation isolation, access).
+3. Reachable path: preconditions (epoch phase, mode, balances) -> attacker transactions -> honest privileged calls, if any -> bad result.
+4. Existing guards reviewed and shown insufficient: _skimDonatedAssets, _updateAccounting/Default revert, pause/allow flags, epochNumber gating, isWalletAllowed, only-CDO checks, recovery reserve checks.
+5. Quantified loss, with the severity matching the accepted impacts above.
+6. Reproducible Foundry PoC on a local fork (required for all severities).
 
+## Silent Triage Questions
+- Can an unprivileged user do this while every privileged actor behaves honestly?
+- Does the code behave this way on the deployed configuration, not only under an unreachable setting?
+- Is the loss real and not just a known borrower-default or credit risk?
+- Is it absent from prior audit acknowledgements?
+- What exact test proves it?
+
+## Output
 If valid, output exactly:
+
 Audit Report
 
 ## Title
-[Bug statement] - ([File: file_path])
+[Clear vulnerability statement] - ([File: file_path])
+
 ## Summary
-[2-3 sentences]
+[2-3 sentence summary of the bug and impact]
+
 ## Finding Description
-[Code path, root cause, exploit, failed checks]
+[Exact code path, root cause, exploit flow, and why existing checks fail]
+
 ## Impact Explanation
-[Amount, impact class, severity rationale]
+[Concrete impact, Immunefi category, and severity rationale]
+
 ## Likelihood Explanation
-[Attacker prerequisites and feasibility]
+[Attacker capability, epoch phase and mode, capital needed, repeatability]
+
 ## Recommendation
-[Specific fix]
+[Specific fix guidance]
+
 ## Proof of Concept
-[Reproducible local-fork/Foundry steps and assertions]
+[Minimal Foundry fork test plan with assertions]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
 
-No extra text.
+Output only one of the two outcomes above. No extra text.
 """
     return prompt
 
 
 def scan_format(report: str) -> str:
-    """Scan Aera for a reachable analog of an external report."""
+    """
+    Generate a short cross-project analog scan prompt for idle-tranches (Pareto Credit Vaults).
+    """
     prompt = f"""# ANALOG SCAN PROMPT
 
 ## External Report
 {report}
 
-Use the report only to extract its root-cause pattern, required preconditions, and broken invariant. Search Aera production code for a real analog on deployed, bounty-listed assets. Prioritize ProvisionerV2 deposit/mint/request/solveRequestsDirect/cancel/refund/redeem/withdraw, MultiDepositorVault share mint/burn/transfer/locks, BaseVault submit/callback checks where publicly reachable, price/fee conversion, and oracle quote binding; inspect v1/v2 paths only where deployed and in scope. Map the pattern to exact functions and the strongest ordinary-user transaction sequence. Test each guard, state transition, and cross-contract assumption; check whether an alternate public path bypasses a protection. A shared keyword or conceptual similarity is insufficient.
+## Rules
+- Use in-scope production repo context only. Do not ask for code or claim missing files.
+- Use the external report only as a bug-class hint. The analog must stand on idle-tranches' own code.
+- Attacker is unprivileged only: any EOA or contract, a KYC-passing lender, a tranche-token holder, a write-off fulfiller, a direct token sender, or a user of the programmable borrower's ERC4626 vault. Owner, manager, guardian, borrower, Keyring admin, feeReceiver and queue are honest; sequence around their calls, and never make them the attacker.
+- Reject: malicious privileged roles, freezing after a borrower default, IdleCDOEpochQueue, legacy tranches/strategies, governance/utilities, ERC-4626 wrappers, third-party oracle data, depeg, DoS or gas without fund impact, unbounded-loop/memory speculation, previously acknowledged issues, and test/mock/script code.
 
-No privileged guardian/accountant/solver/treasury, role collusion, treasury `execute`, malicious peer/node, faulty third-party oracle/token, MEV-only, or generic unbounded resource claim. Require concrete theft or freezing of user funds or unclaimed yield, live Immunefi impact/severity (including Medium temporary freezes), and a local-fork/Foundry PoC. Follow SECURITY.md/Researcher.Md if present. Do not ask for code, report known disclosed issues, or manufacture an analog.
+## Map the Bug Class
+Translate the external bug to the strongest matching credit-vault surface. Vault/ERC4626 share inflation, first-depositor, rounding or donation bugs map to _deposit, _mintSharesAtCurrPrice, depositDuringEpoch, _virtualPriceAux, getContractValue, _skimDonatedAssets and unclaimedFees. Queued or delayed withdrawal, double-claim or stale-epoch bugs map to requestWithdraw, _calcInterestWithdrawRequest, IdleCreditVault claimWithdrawRequest/claimInstantWithdrawRequest, lastWithdrawRequest/epochNumber, withdrawsRequestsByEpoch, the apr0Users flow and lossRecoveryPriceByEpoch. Then pick the closest remaining group and name the exact function:
+- Tranche waterfall, loss socialization and bad-debt escape: _updateAccounting, BB-first loss, stopEpochWithDuration(_lossAmount), previewLossAdjustedWithdrawFunds, collectWithdrawFunds, _emergencyShutdown, restoreOperations.
+- Default and recovery distribution: _handleBorrowerDefault, finalizeDefault, finalizeDefaultRecovery, defaultPendingClaimBasis, postDefaultRequests, _claimDefaulted*, _transferFundedClaim, _transferDefaultRecovery, DefaultDistributor.claim.
+- Interest, fees and yield split: _calcInterest(WithApr), trancheAPRSplitRatio/_updateSplitRatio (AYS), _calculateManagementFee, _totalWithdrawFees, isInterestMinted/mintStrategyTokens, instant-withdraw APR delta.
+- Epoch state machine: startEpoch, stopEpoch, getInstantWithdrawFunds, closed pool (epochEndDate == 0), pause/allow flags, prefunded _beforeStopEpoch/_afterStopEpochWithDuration.
+- External vault and hooks: ProgrammableBorrower totalInterestDueNow, vaultInterestAccrued, vaultLoss, onStopEpoch/onStartEpoch, _depositToVault, ERC4626 price or liquidity moves.
+- Access, tokens and periphery: IdleCreditVault _onlyIdleCDO/_transfer, IdleCDOTranche mint/burn, self-call guards, initializers, isWalletAllowed/KeyringIdleWhitelist, WriteOffEscrow create/delete/fullfill, writeOffDeposit.
 
-If valid, output exactly:
+## Validate
+- Trace the analog from concrete attacker transactions in a named epoch phase (buffer, running, stopped, closed, defaulted, finalized, emergency) and mode (fixed-APR, APR0, minted interest, instant, prefunded, programmable).
+- Show the broken invariant: solvency, fair mint/burn, one receipt one payout, loss waterfall, donation isolation, or access.
+- Confirm that existing guards (skim, Default revert, flags, epoch gating, KYC, only-CDO, reserve checks) do not already stop it.
+- Accept only direct theft, insolvency, permanent freezing, theft or permanent freezing of unclaimed yield, or temporary freezing, with a quantified loss.
+- Require a reproducible Foundry fork PoC.
+
+## Output (Strict)
+If valid analog exists, output:
+
 ### Title
-[Bug statement] - ([File: file_path])
-### Summary
-[2-3 sentences]
-### Finding Description
-[Exact path, ordinary-user inputs, root cause, failed guards]
-### Impact Explanation
-[Funds/yield affected and live bounty severity]
-### Likelihood Explanation
-[Prerequisites and feasibility]
-### Recommendation
-[Specific fix]
-### Proof of Concept
-[Minimal local-fork/Foundry steps and decisive assertions]
+[Clear vulnerability statement] - ([File: file_path])
 
-If none, output exactly:
+### Summary
+### Finding Description
+### Impact Explanation
+### Likelihood Explanation
+### Recommendation
+### Proof of Concept
+
+If not, output exactly:
 #NoVulnerability found for this question.
 
 No extra text.
