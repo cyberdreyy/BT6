@@ -1,0 +1,33 @@
+### Title
+Stale-epoch instant-withdraw receipts escape default recovery accounting via epoch-keyed basis vs global pending counter - (File: contracts/strategies/idle/IdleCreditVault.sol)
+
+### Summary
+The kernel bug used one shared IRQ domain where each device needed its own mapping. The analog in `IdleCreditVault` is the same class of mismatch: instant-withdraw claim basis is tracked per request epoch (`instantWithdrawClaimsByEpoch[epochNumber]`), while the unfunded remainder (`pendingInstantWithdraws`) is a global aggregate that survives across epoch boundaries. Default finalization reads only the *current* epoch bucket, so instant receipts created in an earlier epoch and still unfunded are excluded from `defaultPendingClaimBasis()`, `defaultRecoveryEpoch`-keyed clearing, and `_defaultPrefundedInstantReserve()`. After finalization those receipts are neither haircutted nor funded: `claimInstantWithdrawRequest` falls through to `_transferFundedClaim`, which either pays them at par from non-reserve balance (while every other defaulted claimant is haircut) or reverts against the reserve guard, permanently freezing the receipt.
+
+### Finding Description
+- `requestInstantWithdraw` mints a receipt and increments both `instantWithdrawsRequests[_user]`, `instantWithdrawsRequestsByEpoch[_user][epochNumber]`, `instantWithdrawClaimsByEpoch[epochNumber]`, and the global `pendingInstantWithdraws` (IdleCreditVault.sol:361-374). If the CDO never collects enough via `collectInstantWithdrawFunds` (IdleCreditVault.sol:398-403), the remainder carries forward.
+- `epochNumber` is incremented on the stop-epoch `deposit` path (IdleCreditVault.sol:607-610), so an unfunded instant receipt from epoch N-1 persists while `instantWithdrawClaimsByEpoch[N]` is 0 for it.
+- `defaultPendingClaimBasis()` adds instant basis only as `instantWithdrawClaimsByEpoch[epochNumber]` (IdleCreditVault.sol:644-648), and `_defaultPrefundedInstantReserve()` uses the same current-epoch key (IdleCreditVault.sol:716-723). Stale-epoch instant receipts are therefore counted in `pendingInstantWithdraws` (setting `defaultInstantWithdrawsFinalized = true`, IdleCreditVault.sol:696) but contribute zero claim basis and zero reserve to `recoveryPrice`/`defaultRecoveryReserve`.
+- Post-finalization, `claimInstantWithdrawRequest` (IdleCreditVault.sol:380-393) calls `_claimDefaultedInstantWithdrawRequest`, which only clears `instantWithdrawsRequestsByEpoch[_user][defaultRecoveryEpoch]` (IdleCreditVault.sol:842-856) — the stale epoch is untouched — then burns the full `instantWithdrawsRequests[_user]` and calls `_transferFundedClaim`. `_transferFundedClaim` (IdleCreditVault.sol:897-907) refuses to spend `defaultRecoveryReserve`; with balance == reserve it reverts `NotAllowed`, permanently freezing the claim, and if excess non-reserve balance exists (e.g., post-default deposits or late borrower repayments) it pays the stale receipt at par while recovery claimants receive only `defaultRecoveryPrice`.
+
+### Impact Explanation
+Broken invariants: loss socialization (stale instant receipts escape the recovery haircut and are paid at par) and solvency/permanent freezing (when no excess balance exists, the claim reverts forever because the reserve guard can never be satisfied — the receipt basis was never reserved). An unprivileged tranche-token holder who requested an instant withdrawal that stayed unfunded across an epoch boundary either extracts full-par payment from funds that should be shared pro-rata, or has their claim permanently bricked; either way other claimants' recovery is diluted or the user's funds are frozen. Concrete attacker path: deposit, request instant withdraw during epoch N-1 while strategy liquidity is insufficient to fund it, wait for epoch roll and borrower default/finalization in epoch N, then either claim at par ahead of haircutted claimants or lose the claim entirely.
+
+### Likelihood Explanation
+Requires an instant withdrawal to remain unfunded across a `stopEpoch`/`deposit` epoch boundary and a subsequent borrower default with `finalizeDefaultRecovery`. Both are reachable in the normal epoch lifecycle without any privileged misbehavior (honest manager/borrower sequencing only). The mismatch is structural: `pendingInstantWithdraws` has no per-epoch key, so any cross-epoch carryover hits it. Likelihood is moderate; impact per affected receipt is bounded by its size but the reserve/basis miscalculation affects all recovery claimants.
+
+### Recommendation
+Key the unfunded instant remainder per epoch, or account for stale epochs at finalization:
+- In `defaultPendingClaimBasis()` and `_defaultPrefundedInstantReserve()`, include all outstanding instant receipts, not just `instantWithdrawClaimsByEpoch[epochNumber]` (e.g., track a global `instantWithdrawClaims` aggregate alongside the per-epoch mapping, or iterate/accumulate stale epochs).
+- In `_claimDefaultedInstantWithdrawRequest`, clear any instant receipts not in `defaultRecoveryEpoch` through the same `defaultRecoveryPrice` path instead of letting them fall through to `_transferFundedClaim` at par.
+- Alternatively, prevent epoch rollover while `pendingInstantWithdraws != 0` or sweep leftover instant basis into the new epoch's `instantWithdrawClaimsByEpoch` at `epochNumber` increment time.
+
+### Proof of Concept
+Foundry fork outline (modeled on `test/foundry/IdleCreditVault.t.sol`):
+1. Deploy epoch CDO + `IdleCreditVault` strategy; user deposits AA and requests instant withdraw of X near epoch end; ensure the CDO collects < X via `collectInstantWithdrawFunds` (or nothing), leaving `pendingInstantWithdraws = X` and `instantWithdrawClaimsByEpoch[N-1] = X`.
+2. `stopEpoch`/`deposit` rolls `epochNumber` to N; `instantWithdrawClaimsByEpoch[N] == 0`.
+3. Borrower defaults; call `finalizeDefaultRecovery` with partial recovery. Observe: `defaultInstantWithdrawsFinalized == true` but instant basis added to `defaultPendingClaimBasis()` is 0.
+4. User calls `claimInstantWithdrawRequest`: `_claimDefaultedInstantWithdrawRequest` clears nothing; `_transferFundedClaim` reverts when `balance <= defaultRecoveryReserve` (permanent freeze), or pays X at par if excess balance exists (haircut escape vs. `defaultRecoveryPrice` for everyone else).
+Assert: `defaultRecoveryReserve` never funds X, and either the call reverts or the user's payout exceeds `X * defaultRecoveryPrice / 1e18`.
+
+Uncertainty note: exact funding behavior of `getInstantWithdrawFunds`/stop-epoch sequencing in `IdleCDOEpochVariant.sol` was not fully read in this pass; the PoC assumes the CDO can leave `pendingInstantWithdraws` non-zero across an epoch boundary, which `collectInstantWithdrawFunds`'s partial-decrement design permits.
